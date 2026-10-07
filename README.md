@@ -13,7 +13,7 @@ and compiled to WASM so the whole thing runs in the browser with no server.
 ## Train (plug and play on a GPU box)
 
 ```sh
-git clone <repo> && cd diacritics
+git clone https://github.com/Claudiu/ro-diacritics diacritics && cd diacritics
 scripts/train.sh            # uv sync, fetch Romanian Wikipedia, baseline, train, eval, export
 ```
 

@@ -9,7 +9,8 @@ from collections.abc import Sequence
 
 from diacritics.artifacts.local_dir import LocalDirStore
 from diacritics.baseline.frequent import FrequentFormBaseline
-from diacritics.common.logging import log, setup
+from diacritics.common.logging import console, log, setup
+from diacritics.common.progress import LogProgress, Progress, RichProgress
 from diacritics.config.settings import Settings
 from diacritics.corpus.filter import is_validation
 from diacritics.corpus.wikipedia import WikipediaSource
@@ -60,7 +61,7 @@ def apply_overrides(settings: Settings, args: argparse.Namespace) -> Settings:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    setup()
+    log_format = setup()
     args = parse(sys.argv[1:] if argv is None else argv)
     settings = apply_overrides(Settings.from_env(), args)
 
@@ -73,7 +74,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         case "baseline":
             run_baseline(settings, source)
         case "train":
-            Trainer(settings, load_alphabet(settings), store).run()
+            progress: Progress = (
+                RichProgress(console()) if log_format == "pretty" else LogProgress()
+            )
+            Trainer(settings, load_alphabet(settings), store, progress).run()
         case "eval":
             run_eval(settings, source, store)
         case "restore":

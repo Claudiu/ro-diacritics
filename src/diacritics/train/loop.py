@@ -1,7 +1,6 @@
 """Training loop: resumable from the latest checkpoint, exports the best model."""
 
 import logging
-import time
 from dataclasses import dataclass
 
 import numpy as np
@@ -12,6 +11,7 @@ from torch.utils.data import DataLoader, Dataset
 
 from diacritics.artifacts.store import ArtifactStore
 from diacritics.common.logging import log
+from diacritics.common.progress import Progress
 from diacritics.config.settings import Settings
 from diacritics.dataset.shards import INPUT, LABEL, open_split
 from diacritics.domain.alphabet import Alphabet
@@ -24,7 +24,8 @@ logger = logging.getLogger(__name__)
 
 CHECKPOINT = "checkpoints/latest.pt"
 BEST_EXPORT = "export"
-LOG_EVERY = 50
+STATS_EVERY = 50
+"""Steps between loss reads: `.item()` waits for the GPU, so not every step."""
 
 
 class WindowDataset(Dataset[tuple[Tensor, Tensor]]):
@@ -66,6 +67,7 @@ class Trainer:
     settings: Settings
     alphabet: Alphabet
     store: ArtifactStore
+    progress: Progress
 
     def run(self) -> None:
         s = self.settings
@@ -104,59 +106,89 @@ class Trainer:
         )
         train_loader = self._loader("train", shuffle=True)
         valid_loader = self._loader("valid", shuffle=False)
-        use_amp = device.type == "cuda"
-        started = time.monotonic()
+        running_loss = torch.zeros((), device=device)
+        running_steps = 0
 
-        while step < s.training.max_steps:
-            for ids, labels in train_loader:
-                if step >= s.training.max_steps:
-                    break
+        with self.progress.track("train", s.training.max_steps, completed=step) as bar:
+            if best >= 0:
+                bar.update(step, best=best)
+            while step < s.training.max_steps:
+                for ids, labels in train_loader:
+                    if step >= s.training.max_steps:
+                        break
 
-                ids, labels = ids.to(device), labels.to(device)
-                for group in optimizer.param_groups:
-                    group["lr"] = lr_at(
-                        step, s.training.lr, s.training.warmup_steps, s.training.max_steps
-                    )
+                    lr = lr_at(step, s.training.lr, s.training.warmup_steps, s.training.max_steps)
+                    loss = self._step(model, optimizer, ids, labels, lr, is_candidate, device)
+                    running_loss += loss.detach()
+                    running_steps += 1
+                    step += 1
 
-                model.train()
-                with torch.autocast(device.type, dtype=torch.bfloat16, enabled=use_amp):
-                    logits = model(ids)
-                    loss = candidate_loss(logits.float(), labels, is_candidate[ids])
+                    if step % STATS_EVERY == 0:
+                        mean_loss = (running_loss / running_steps).item()
+                        running_loss.zero_()
+                        running_steps = 0
+                        bar.update(step, loss=mean_loss, lr=lr)
+                    else:
+                        bar.update(step)
 
-                optimizer.zero_grad(set_to_none=True)
-                loss.backward()  # type: ignore[no-untyped-call]
-                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-                optimizer.step()
-                step += 1
-
-                if step % LOG_EVERY == 0:
-                    elapsed = time.monotonic() - started
-                    log(
-                        logger,
-                        "step",
-                        step=step,
-                        loss=round(loss.item(), 4),
-                        seconds=round(elapsed),
-                    )
-                if step % s.training.eval_every == 0:
-                    metrics = self.evaluate(model, valid_loader, is_candidate, device)
-                    log(logger, "eval", step=step, **metrics)
-                    if metrics["candidate_accuracy"] > best:
-                        best = metrics["candidate_accuracy"]
-                        export(
-                            self.store,
-                            BEST_EXPORT,
-                            model,
-                            self.alphabet,
-                            s.model.overlap,
-                            s.training.threshold,
+                    if step % s.training.eval_every == 0:
+                        best = self._eval_and_export(
+                            model, valid_loader, is_candidate, device, step, best
                         )
-                        log(logger, "exported best", step=step, candidate_accuracy=best)
-                if step % s.training.checkpoint_every == 0:
-                    self._checkpoint(model, optimizer, step, best)
+                        bar.update(step, best=best)
+                    if step % s.training.checkpoint_every == 0:
+                        self._checkpoint(model, optimizer, step, best)
 
-        self._checkpoint(model, optimizer, step, best)
+        if step % s.training.checkpoint_every:
+            self._checkpoint(model, optimizer, step, best)
         log(logger, "done", step=step, best=best)
+
+    def _step(
+        self,
+        model: CharEncoder,
+        optimizer: torch.optim.Optimizer,
+        ids: Tensor,
+        labels: Tensor,
+        lr: float,
+        is_candidate: Tensor,
+        device: torch.device,
+    ) -> Tensor:
+        ids, labels = ids.to(device), labels.to(device)
+        for group in optimizer.param_groups:
+            group["lr"] = lr
+
+        model.train()
+        with torch.autocast(device.type, dtype=torch.bfloat16, enabled=device.type == "cuda"):
+            logits = model(ids)
+            loss = candidate_loss(logits.float(), labels, is_candidate[ids])
+
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()  # type: ignore[no-untyped-call]
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+
+        return loss
+
+    def _eval_and_export(
+        self,
+        model: CharEncoder,
+        loader: DataLoader[tuple[Tensor, Tensor]],
+        is_candidate: Tensor,
+        device: torch.device,
+        step: int,
+        best: float,
+    ) -> float:
+        """Evaluate, export when it beats `best`, and return the new best."""
+        s = self.settings
+        metrics = self.evaluate(model, loader, is_candidate, device)
+        log(logger, "eval", step=step, **metrics)
+        if metrics["candidate_accuracy"] <= best:
+            return best
+
+        export(self.store, BEST_EXPORT, model, self.alphabet, s.model.overlap, s.training.threshold)
+        log(logger, "exported best", step=step, candidate_accuracy=metrics["candidate_accuracy"])
+
+        return metrics["candidate_accuracy"]
 
     def evaluate(
         self,
@@ -167,15 +199,17 @@ class Trainer:
     ) -> dict[str, float]:
         model.eval()
         metrics = CandidateMetrics()
-        with torch.no_grad():
+        batches = min(self.settings.training.eval_batches, len(loader))
+        with torch.no_grad(), self.progress.track("eval", batches, transient=True) as bar:
             for i, (ids, labels) in enumerate(loader):
-                if i >= self.settings.training.eval_batches:
+                if i >= batches:
                     break
 
                 ids, labels = ids.to(device), labels.to(device)
                 pred = model(ids).argmax(dim=-1)
                 mask = is_candidate[ids]
                 metrics.add(labels[mask].tolist(), pred[mask].tolist())
+                bar.update(i + 1)
 
         return metrics.summary()
 
@@ -187,7 +221,7 @@ class Trainer:
             batch_size=t.batch_size,
             shuffle=shuffle,
             num_workers=t.num_workers,
-            pin_memory=True,
+            pin_memory=torch.cuda.is_available(),
             drop_last=shuffle,
             persistent_workers=t.num_workers > 0,
         )

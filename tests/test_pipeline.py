@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 from diacritics.artifacts.memory import InMemoryStore
+from diacritics.common.progress import LogProgress
 from diacritics.config.settings import Paths, Settings
 from diacritics.corpus.memory import InMemorySource
 from diacritics.corpus.source import Document
@@ -58,7 +59,7 @@ def test_fetch_train_export_restore_resume(tmp_path: Path) -> None:
     assert (settings.paths.processed / "train.bin").stat().st_size > 0
     assert (settings.paths.processed / "valid.bin").stat().st_size > 0
 
-    Trainer(settings, alphabet, store).run()
+    Trainer(settings, alphabet, store, LogProgress()).run()
     assert store.read(CHECKPOINT) is not None
 
     model, loaded_alphabet, overlap, threshold = load_export(store, BEST_EXPORT)
@@ -70,4 +71,4 @@ def test_fetch_train_export_restore_resume(tmp_path: Path) -> None:
     resumed = dataclasses.replace(
         settings, training=dataclasses.replace(settings.training, max_steps=5)
     )
-    Trainer(resumed, alphabet, store).run()
+    Trainer(resumed, alphabet, store, LogProgress()).run()

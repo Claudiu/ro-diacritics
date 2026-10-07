@@ -72,3 +72,18 @@ def test_fetch_train_export_restore_resume(tmp_path: Path) -> None:
         settings, training=dataclasses.replace(settings.training, max_steps=5)
     )
     Trainer(resumed, alphabet, store, LogProgress()).run()
+
+
+def test_fetch_skips_when_settings_unchanged(tmp_path: Path) -> None:
+    settings = tiny_settings(tmp_path)
+    docs = [Document(str(i), " ".join(SENTENCES) * 3) for i in range(8)]
+    build_shards(InMemorySource(docs), settings)
+    train_bin = settings.paths.processed / "train.bin"
+    before = train_bin.stat().st_mtime_ns
+
+    build_shards(InMemorySource([]), settings)
+    assert train_bin.stat().st_mtime_ns == before
+
+    changed = dataclasses.replace(settings.corpus, valid_every=3)
+    build_shards(InMemorySource(docs), dataclasses.replace(settings, corpus=changed))
+    assert train_bin.stat().st_mtime_ns != before

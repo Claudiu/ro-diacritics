@@ -1,5 +1,6 @@
 """`diacritics fetch`: corpus → alphabet + train/validation shards."""
 
+import dataclasses
 import json
 import logging
 from collections import Counter
@@ -16,6 +17,18 @@ from diacritics.domain.normalize import strip_diacritics
 logger = logging.getLogger(__name__)
 
 ALPHABET_FILE = "alphabet.json"
+STAMP_FILE = "fetch.json"
+BASELINE_FILE = "baseline.json"
+
+
+def stamp(settings: Settings) -> str:
+    """Every setting the shards depend on; a match means fetch has nothing to do."""
+    m = settings.model
+    corpus = dataclasses.asdict(settings.corpus)
+
+    return json.dumps(
+        {**corpus, "vocab_size": m.vocab_size, "window": m.window, "overlap": m.overlap}
+    )
 
 
 def usable(source: CorpusSource, settings: Settings) -> Iterator[Document]:
@@ -37,7 +50,14 @@ def build_alphabet(source: CorpusSource, settings: Settings) -> Alphabet:
 
 def build_shards(source: CorpusSource, settings: Settings) -> None:
     processed = settings.paths.processed
+    stamp_path = processed / STAMP_FILE
+    if stamp_path.exists() and stamp_path.read_text() == stamp(settings):
+        log(logger, "shards up to date", dir=str(processed))
+        return
+
     processed.mkdir(parents=True, exist_ok=True)
+    stamp_path.unlink(missing_ok=True)
+    (processed / BASELINE_FILE).unlink(missing_ok=True)
 
     alphabet = build_alphabet(source, settings)
     (processed / ALPHABET_FILE).write_text(json.dumps(alphabet.to_dict(), ensure_ascii=False))
@@ -53,6 +73,9 @@ def build_shards(source: CorpusSource, settings: Settings) -> None:
         chosen = (d for d in stream if is_validation(d, valid_every) == selector)
         meta = write_split(split_paths(processed, split)[0], chosen, alphabet, window, stride)
         log(logger, "split written", split=split, rows=meta.rows, window=meta.window)
+
+    # Written last, so an interrupted fetch rebuilds next time.
+    stamp_path.write_text(stamp(settings))
 
 
 def load_alphabet(settings: Settings) -> Alphabet:

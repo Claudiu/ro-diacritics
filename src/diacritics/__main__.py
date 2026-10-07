@@ -14,7 +14,7 @@ from diacritics.common.progress import LogProgress, Progress, RichProgress
 from diacritics.config.settings import Settings
 from diacritics.corpus.filter import is_validation
 from diacritics.corpus.wikipedia import WikipediaSource
-from diacritics.dataset.build import build_shards, load_alphabet, usable
+from diacritics.dataset.build import BASELINE_FILE, build_shards, load_alphabet, usable
 from diacritics.domain.alphabet import Alphabet
 from diacritics.export.safetensors import export, load_export
 from diacritics.metrics.candidates import CandidateMetrics
@@ -92,6 +92,12 @@ def main(argv: Sequence[str] | None = None) -> int:
 
 
 def run_baseline(settings: Settings, source: WikipediaSource) -> None:
+    # Cached next to the shards; fetch deletes it whenever it rebuilds them.
+    cached = settings.paths.processed / BASELINE_FILE
+    if cached.exists():
+        log(logger, "baseline", cached=True, **json.loads(cached.read_text()))
+        return
+
     valid_every = settings.corpus.valid_every
     baseline = FrequentFormBaseline()
     baseline.fit(d for d in usable(source, settings) if not is_validation(d, valid_every))
@@ -106,7 +112,9 @@ def run_baseline(settings: Settings, source: WikipediaSource) -> None:
 
         metrics.add_text(document.text, baseline.restore(document.text))
 
-    log(logger, "baseline", **metrics.summary())
+    summary = metrics.summary()
+    cached.write_text(json.dumps(summary))
+    log(logger, "baseline", **summary)
 
 
 def run_eval(settings: Settings, source: WikipediaSource, store: LocalDirStore) -> None:

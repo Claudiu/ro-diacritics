@@ -1,0 +1,17 @@
+[package]
+name = "diacritics-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Native command line: restore diacritics from stdin with an exported model"
+
+[[bin]]
+name = "diacritics"
+path = "src/main.rs"
+
+[dependencies]
+diacritics-domain = { workspace = true }
+diacritics-model = { workspace = true }
+anyhow = { workspace = true }
+candle-core = { workspace = true }
+clap = { workspace = true }

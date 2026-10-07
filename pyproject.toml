@@ -1,0 +1,50 @@
+[project]
+name = "diacritics"
+version = "0.1.0"
+description = "Romanian diacritics restoration: character-level transformer trained in PyTorch, served from Rust/WASM"
+readme = "README.md"
+authors = [
+    { email = "hello@claudiutasca.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pyarrow>=18.0",
+    "safetensors>=0.5",
+    "torch>=2.7",
+]
+
+[project.scripts]
+diacritics = "diacritics.__main__:main"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14",
+    "pytest>=8.3",
+    "ruff>=0.9",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "N", "W"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = ["pyarrow.*", "safetensors.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: needs network or the full corpus"]
+addopts = "-m 'not integration'"

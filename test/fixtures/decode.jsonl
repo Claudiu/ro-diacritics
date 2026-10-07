@@ -1,0 +1,12 @@
+{"text": "", "predictions": [], "threshold": 0.5, "restored": ""}
+{"text": "casa", "predictions": [[0, 0.9], [0, 0.9], [0, 0.9], [1, 0.9]], "threshold": 0.5, "restored": "casă"}
+{"text": "casa", "predictions": [[0, 0.9], [0, 0.9], [0, 0.9], [1, 0.4]], "threshold": 0.5, "restored": "casa"}
+{"text": "cand", "predictions": [[0, 0.9], [2, 0.9], [0, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "când"}
+{"text": "in", "predictions": [[2, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "în"}
+{"text": "si", "predictions": [[1, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "și"}
+{"text": "tara", "predictions": [[1, 0.9], [0, 0.9], [0, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "țara"}
+{"text": "SI TARA", "predictions": [[1, 0.9], [0, 0.9], [0, 0.9], [1, 0.9], [0, 0.9], [0, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "ȘI ȚARA"}
+{"text": "In", "predictions": [[2, 0.9], [0, 0.9]], "threshold": 0.5, "restored": "În"}
+{"text": "sit", "predictions": [[2, 0.9], [1, 0.9], [2, 0.9]], "threshold": 0.5, "restored": "sit"}
+{"text": "b", "predictions": [[1, 0.9]], "threshold": 0.5, "restored": "b"}
+{"text": "a", "predictions": [[1, 0.5]], "threshold": 0.5, "restored": "ă"}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diacritice</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 56rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    textarea, output { width: 100%; box-sizing: border-box; font: inherit; }
+    textarea { min-height: 10rem; padding: .75rem; }
+    output { display: block; min-height: 10rem; padding: .75rem; white-space: pre-wrap;
+             border: 1px solid #8884; border-radius: .25rem; }
+    #status { font-size: .9rem; opacity: .7; }
+  </style>
+</head>
+<body>
+  <h1>Diacritice</h1>
+  <p id="status">Se încarcă modelul…</p>
+  <textarea id="input" placeholder="Scrie fara diacritice..." disabled></textarea>
+  <output id="output" for="input"></output>
+
+  <script type="module">
+    const status = document.getElementById("status");
+    const input = document.getElementById("input");
+    const output = document.getElementById("output");
+    const worker = new Worker("./worker.js", { type: "module" });
+    let pending = null;
+    let busy = false;
+
+    const send = () => {
+      if (busy) { pending = input.value; return; }
+      busy = true;
+      worker.postMessage({ text: input.value });
+    };
+
+    worker.onmessage = ({ data }) => {
+      if (data.error) { status.textContent = data.error; busy = false; return; }
+      if (data.ready) {
+        status.textContent = `Model încărcat (${data.ms} ms). Limită: ${data.maxChars} caractere.`;
+        input.disabled = false;
+        input.focus();
+        return;
+      }
+      output.value = data.text;
+      status.textContent = `${data.chars} caractere în ${data.ms.toFixed(1)} ms`;
+      busy = false;
+      if (pending !== null) { pending = null; send(); }
+    };
+
+    input.addEventListener("input", send);
+  </script>
+</body>
+</html>

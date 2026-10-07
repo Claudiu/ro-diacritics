@@ -1,0 +1,9 @@
+{"length": 0, "window": 8, "overlap": 2, "windows": []}
+{"length": 5, "window": 8, "overlap": 2, "windows": [[0, 5, 0, 5]]}
+{"length": 8, "window": 8, "overlap": 2, "windows": [[0, 8, 0, 8]]}
+{"length": 9, "window": 8, "overlap": 2, "windows": [[0, 8, 0, 2], [1, 9, 2, 9]]}
+{"length": 14, "window": 8, "overlap": 2, "windows": [[0, 8, 0, 7], [6, 14, 7, 14]]}
+{"length": 20, "window": 8, "overlap": 2, "windows": [[0, 8, 0, 7], [6, 14, 7, 13], [12, 20, 13, 20]]}
+{"length": 20, "window": 8, "overlap": 4, "windows": [[0, 8, 0, 6], [4, 12, 6, 10], [8, 16, 10, 14], [12, 20, 14, 20]]}
+{"length": 10, "window": 4, "overlap": 0, "windows": [[0, 4, 0, 4], [4, 8, 4, 6], [6, 10, 6, 10]]}
+{"length": 7, "window": 3, "overlap": 1, "windows": [[0, 3, 0, 2], [2, 5, 2, 4], [4, 7, 4, 7]]}

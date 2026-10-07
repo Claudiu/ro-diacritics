@@ -1,0 +1,9 @@
+{"text": "", "stripped": "", "labels": [], "candidates": []}
+{"text": "ab", "stripped": "ab", "labels": [0, 0], "candidates": [true, false]}
+{"text": "ăâîșț", "stripped": "aaist", "labels": [1, 2, 2, 1, 1], "candidates": [true, true, true, true, true]}
+{"text": "ĂÂÎȘȚ", "stripped": "AAIST", "labels": [1, 2, 2, 1, 1], "candidates": [true, true, true, true, true]}
+{"text": "aşa ţara", "stripped": "asa tara", "labels": [0, 1, 0, 0, 1, 0, 0, 0], "candidates": [true, true, true, false, true, true, false, true]}
+{"text": "Şi Ţara", "stripped": "Si Tara", "labels": [1, 0, 0, 1, 0, 0, 0], "candidates": [true, true, false, true, true, false, true]}
+{"text": "În casă", "stripped": "In casa", "labels": [2, 0, 0, 0, 0, 0, 1], "candidates": [true, false, false, false, true, true, true]}
+{"text": "când", "stripped": "cand", "labels": [0, 2, 0, 0], "candidates": [false, true, false, false]}
+{"text": "é 1 2", "stripped": "é 1 2", "labels": [0, 0, 0, 0, 0], "candidates": [false, false, false, false, false]}

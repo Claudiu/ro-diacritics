@@ -1,0 +1,21 @@
+[package]
+name = "diacritics-model"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Character transformer inference with candle; loads the PyTorch export"
+
+[dependencies]
+diacritics-domain = { workspace = true }
+candle-core = { workspace = true }
+candle-nn = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+criterion = { workspace = true }
+serde = { workspace = true }
+
+[[bench]]
+name = "restore"
+harness = false

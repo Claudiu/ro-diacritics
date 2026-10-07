@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+
+# Rust
+target/
+
+# WASM build output and the model copied next to it
+web/pkg/
+web/model/
+
+# Data and trained artifacts (gigabytes; rebuilt by `diacritics fetch` / `train`)
+/data/
+/artifacts/
+
+# Local env
+.env

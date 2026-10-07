@@ -1,0 +1,25 @@
+[package]
+name = "diacritics-wasm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Browser bindings: load the exported model and restore diacritics in WASM"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+diacritics-domain = { workspace = true }
+diacritics-model = { workspace = true }
+candle-core = { workspace = true }
+wasm-bindgen = { workspace = true }
+
+# Transitive dependency of candle; wasm32 needs the JS backend selected explicitly
+# (together with the cfg flag in .cargo/config.toml).
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.3", features = ["wasm_js"] }
+getrandom04 = { package = "getrandom", version = "0.4", features = ["wasm_js"] }
+
+# Rust emits SIMD for wasm32; wasm-pack's bundled wasm-opt must be told to accept it.
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ["-O3", "--enable-simd", "--enable-bulk-memory", "--enable-nontrapping-float-to-int", "--enable-sign-ext", "--enable-mutable-globals"]

@@ -37,7 +37,8 @@ class FrequentFormBaseline:
         def replace(match: re.Match[str]) -> str:
             word = match.group()
             form = self._best.get(word.lower())
-            if form is None:
+            # str.lower() can change length ("İ" → "i̇"); such words keep their stripped form.
+            if form is None or len(form) != len(word):
                 return word
 
             return "".join(

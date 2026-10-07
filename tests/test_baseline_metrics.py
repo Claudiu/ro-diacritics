@@ -15,6 +15,13 @@ def test_baseline_picks_most_frequent_form_and_keeps_case() -> None:
     assert baseline.restore("CASA") == "CASĂ"
 
 
+def test_baseline_survives_lowercase_that_changes_length() -> None:
+    baseline = FrequentFormBaseline()
+    baseline.fit(iter([Document("1", "İstanbul")]))
+
+    assert baseline.restore("İstanbul") == "İstanbul"
+
+
 def test_metrics_from_text() -> None:
     metrics = CandidateMetrics()
     metrics.add_text("casă în țara", "casa în tara")

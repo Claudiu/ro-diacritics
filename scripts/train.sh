@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-# Plug and play on a fresh clone: installs the environment, fetches the corpus, trains,
-# evaluates and exports to artifacts/export/. Re-running resumes from the last checkpoint.
+# Plug and play: installs the environment, fetches the corpus, trains, evaluates and exports
+# to artifacts/export/. Safe to re-run any time:
+#   - fresh clone: full training run
+#   - interrupted run: resumes from the last checkpoint
+#   - finished run: continues for DIACRITICS_FINETUNE_STEPS more (picks up new corrections/)
+# The corpus is downloaded and sharded once; later runs reuse it.
 #
 #   git clone <repo> && cd diacritics && scripts/train.sh
 #
@@ -15,5 +19,6 @@ uv run diacritics fetch
 uv run diacritics baseline
 uv run diacritics train "$@"
 uv run diacritics eval
+uv run diacritics corrections
 
 echo "Export ready in artifacts/export/ (config.json + model.safetensors)."

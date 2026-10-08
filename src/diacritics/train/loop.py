@@ -97,6 +97,7 @@ class Trainer:
             step = int(state["step"])
             best = float(state["best"])
             log(logger, "resumed", step=step, best=best)
+        max_steps = self._target_steps(step)
 
         log(
             logger,
@@ -115,15 +116,15 @@ class Trainer:
         running_loss = torch.zeros((), device=device)
         running_steps = 0
 
-        with self.progress.track("train", s.training.max_steps, completed=step) as bar:
+        with self.progress.track("train", max_steps, completed=step) as bar:
             if best >= 0:
                 bar.update(step, best=best)
-            while step < s.training.max_steps:
+            while step < max_steps:
                 for ids, labels in train_loader:
-                    if step >= s.training.max_steps:
+                    if step >= max_steps:
                         break
 
-                    lr = lr_at(step, s.training.lr, s.training.warmup_steps, s.training.max_steps)
+                    lr = lr_at(step, s.training.lr, s.training.warmup_steps, max_steps)
                     loss = self._step(model, optimizer, ids, labels, lr, is_candidate, device)
                     running_loss += loss.detach()
                     running_steps += 1
@@ -154,6 +155,20 @@ class Trainer:
         if step % s.training.checkpoint_every:
             self._checkpoint(model, optimizer, step, best)
         log(logger, "done", step=step, best=best)
+
+    def _target_steps(self, step: int) -> int:
+        """Where this run stops. A checkpoint that already reached max_steps continues for
+        finetune_steps more, so re-running training always trains (e.g. on new
+        corrections). The cosine schedule is stretched to the new end, so the learning rate
+        resumes close to where the finished run left it instead of jumping back up."""
+        t = self.settings.training
+        if step < t.max_steps or t.finetune_steps == 0:
+            return t.max_steps
+
+        target = step + t.finetune_steps
+        log(logger, "continuing finished run", step=step, until=target)
+
+        return target
 
     def _step(
         self,

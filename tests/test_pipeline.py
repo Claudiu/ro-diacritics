@@ -11,9 +11,15 @@ from diacritics.config.settings import Paths, Settings
 from diacritics.corpus.corrections import CorrectionsSource
 from diacritics.corpus.memory import InMemorySource
 from diacritics.corpus.source import Document
-from diacritics.dataset.build import build_corrections, build_shards, load_alphabet
+from diacritics.dataset.build import (
+    PARTIAL_FILE,
+    STAMP_FILE,
+    build_corrections,
+    build_shards,
+    load_alphabet,
+)
 from diacritics.dataset.shards import split_rows
-from diacritics.export.safetensors import load_export
+from diacritics.export.safetensors import load_checkpoint, load_export
 from diacritics.model.infer import Predictor
 from diacritics.train.loop import BEST_EXPORT, CHECKPOINT, Trainer
 
@@ -117,3 +123,59 @@ def test_corrections_are_mixed_into_training(
     mixed = next(f for f in fields if "repeat" in f)
     assert mixed == {"rows": rows, "repeat": settings.training.corrections_repeat}
     assert any("corrections_accuracy" in f for f in fields)
+
+
+def checkpoint_step(store: InMemoryStore) -> int:
+    raw = store.read(CHECKPOINT)
+    assert raw is not None
+
+    return int(load_checkpoint(raw)["step"])
+
+
+@pytest.mark.filterwarnings("ignore::UserWarning")
+def test_rerunning_a_finished_run_continues(tmp_path: Path) -> None:
+    settings = tiny_settings(tmp_path)
+    build_shards(
+        InMemorySource([Document(str(i), " ".join(SENTENCES) * 3) for i in range(8)]), settings
+    )
+    alphabet = load_alphabet(settings)
+    store = InMemoryStore()
+
+    def run(finetune_steps: int) -> int:
+        training = dataclasses.replace(settings.training, finetune_steps=finetune_steps)
+        Trainer(
+            dataclasses.replace(settings, training=training), alphabet, store, LogProgress()
+        ).run()
+
+        return checkpoint_step(store)
+
+    assert run(finetune_steps=2) == 3  # fresh: stops at max_steps
+    assert run(finetune_steps=2) == 5  # finished: two more
+    assert run(finetune_steps=0) == 5  # continuing disabled: nothing to do
+
+
+def test_fetch_adopts_complete_unstamped_shards(tmp_path: Path) -> None:
+    settings = tiny_settings(tmp_path)
+    docs = [Document(str(i), " ".join(SENTENCES) * 3) for i in range(8)]
+    build_shards(InMemorySource(docs), settings)
+    processed = settings.paths.processed
+    train_bin = processed / "train.bin"
+    before = train_bin.stat().st_mtime_ns
+    assert not (processed / PARTIAL_FILE).exists()
+
+    (processed / STAMP_FILE).unlink()  # as left by fetch before stamps existed
+    build_shards(InMemorySource([]), settings)
+    assert train_bin.stat().st_mtime_ns == before
+    assert (processed / STAMP_FILE).exists()
+
+    (processed / STAMP_FILE).unlink()
+    (processed / PARTIAL_FILE).touch()  # an interrupted rebuild is never adopted
+    build_shards(InMemorySource(docs), settings)
+    assert train_bin.stat().st_mtime_ns != before
+    assert not (processed / PARTIAL_FILE).exists()
+
+    (processed / STAMP_FILE).unlink()
+    with train_bin.open("r+b") as f:  # truncated shard: rebuilt too
+        f.truncate(train_bin.stat().st_size - 1)
+    build_shards(InMemorySource(docs), settings)
+    assert (train_bin.stat().st_size % (settings.model.window * 2)) == 0

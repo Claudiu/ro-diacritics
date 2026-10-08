@@ -68,6 +68,8 @@ class TrainingSettings:
     num_workers: int
     threshold: float
     corrections_repeat: int
+    finetune_steps: int
+    """Extra steps when the checkpoint already reached max_steps; 0 makes re-runs no-ops."""
     """How many times the corrections shard appears in each training epoch; 0 disables it."""
 
 
@@ -116,6 +118,7 @@ class Settings:
                 num_workers=env.read_int("NUM_WORKERS", 2),
                 threshold=env.read_float("THRESHOLD", 0.5),
                 corrections_repeat=env.read_int("CORRECTIONS_REPEAT", 20),
+                finetune_steps=env.read_int("FINETUNE_STEPS", 5000),
             ),
         )
         settings.validate()
@@ -135,8 +138,8 @@ class Settings:
             problems.append("DROPOUT must be in [0, 1)")
         if t.batch_size <= 0 or t.max_steps <= 0:
             problems.append("BATCH_SIZE and MAX_STEPS must be positive")
-        if t.corrections_repeat < 0:
-            problems.append("CORRECTIONS_REPEAT must be >= 0")
+        if t.corrections_repeat < 0 or t.finetune_steps < 0:
+            problems.append("CORRECTIONS_REPEAT and FINETUNE_STEPS must be >= 0")
         if not 0 <= t.threshold <= 1:
             problems.append("THRESHOLD must be in [0, 1]")
         if t.device not in ("auto", "cpu", "cuda", "mps"):

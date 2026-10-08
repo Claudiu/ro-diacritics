@@ -3,52 +3,388 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diacritice</title>
+  <title>Diacritificatorul</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400&display=swap">
   <style>
-    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
-    body { max-width: 56rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-    textarea, output { width: 100%; box-sizing: border-box; font: inherit; }
-    textarea { min-height: 10rem; padding: .75rem; }
-    output { display: block; min-height: 10rem; padding: .75rem; white-space: pre-wrap;
-             border: 1px solid #8884; border-radius: .25rem; }
-    #status { font-size: .9rem; opacity: .7; }
+    :root {
+      --desk: #e6ecf4;
+      --paper: #fbfcfe;
+      --ink: #1c2541;
+      --muted: #5b6478;
+      --rule: #d5e0ef;
+      --margin: #eaa7b0;
+      --red: #c8102e;
+      --glow: rgb(200 16 46 / .45);
+      --shadow: 0 1px 2px rgb(28 37 65 / .08), 0 18px 40px -22px rgb(28 37 65 / .45);
+      --line: 2rem;
+      color-scheme: light;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --desk: #0d1322;
+        --paper: #161f35;
+        --ink: #e4e9f3;
+        --muted: #98a2b8;
+        --rule: #263252;
+        --margin: #63303d;
+        --red: #ff6b78;
+        --glow: rgb(255 107 120 / .55);
+        --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
+        color-scheme: dark;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--desk);
+      color: var(--ink);
+      font-family: "Literata", Georgia, serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+
+    /* The page is one screen tall on desktop: a compact header, then the panes take the rest. */
+    main {
+      display: flex;
+      flex-direction: column;
+      max-width: 90rem;
+      min-height: 100dvh;
+      margin: 0 auto;
+      padding: 1.75rem 1rem 1.25rem;
+    }
+    @media (min-width: 56rem) {
+      main { height: 100dvh; padding: 2rem 2rem 1.25rem; }
+    }
+
+    header {
+      display: grid;
+      gap: .75rem 3rem;
+      align-items: end;
+      margin-bottom: 1.75rem;
+    }
+    @media (min-width: 56rem) { header { grid-template-columns: auto 1fr; } }
+
+    .brand { display: flex; align-items: center; gap: clamp(.75rem, 2vw, 1.25rem); }
+    .logo {
+      flex: none;
+      width: clamp(2.75rem, 7vw, 4.25rem);
+      height: auto;
+      filter: drop-shadow(0 6px 10px rgb(28 37 65 / .18));
+    }
+    .logo .paper { fill: var(--paper); stroke: var(--rule); }
+    .logo .rule { stroke: var(--rule); }
+    .logo .margin { stroke: var(--margin); }
+    .logo .ink { fill: var(--ink); }
+    .logo .pen { stroke: var(--red); }
+
+    h1 {
+      position: relative;
+      width: fit-content;
+      margin: 0;
+      font-size: clamp(2.25rem, 7vw, 3.75rem);
+      font-variation-settings: "opsz" 72;
+      font-weight: 650;
+      line-height: 1.05;
+      letter-spacing: -.02em;
+    }
+    /* The teacher's red pen underlines the title once, on load. */
+    h1 svg {
+      position: absolute;
+      left: -1%;
+      bottom: -.32em;
+      width: 102%;
+      height: .32em;
+      overflow: visible;
+    }
+    h1 path {
+      fill: none;
+      stroke: var(--red);
+      stroke-width: 3.5;
+      stroke-linecap: round;
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      animation: underline 900ms cubic-bezier(.6, 0, .3, 1) 350ms forwards;
+    }
+    @keyframes underline { to { stroke-dashoffset: 0; } }
+
+    .lede { max-width: 34rem; margin: 0; font-size: 1.0625rem; color: var(--muted); }
+
+    .sheets { flex: 1; min-height: 0; display: grid; gap: 1.5rem; }
+    @media (min-width: 56rem) {
+      .sheets { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+
+    .sheet { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+    .sheet-head {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+      margin-bottom: .5rem;
+    }
+    .sheet-head label, .sheet-head h2 {
+      margin: 0; font-size: 1rem; font-weight: 600; font-style: italic;
+    }
+
+    /* Notebook sheets: ruled lines that scroll with the text, a red margin line. Each pane
+       scrolls on its own and the script keeps the two in step. */
+    .page {
+      width: 100%;
+      height: 60dvh;
+      min-height: 16rem;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--rule) transparent;
+      margin: 0;
+      padding: .75rem 1.25rem .75rem 2.5rem;
+      border: 0;
+      border-radius: 3px;
+      color: var(--ink);
+      font: inherit;
+      font-size: 1.1875rem;
+      line-height: var(--line);
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(to right, transparent 1.5rem, var(--margin) 1.5rem,
+                        var(--margin) calc(1.5rem + 1px), transparent calc(1.5rem + 1px)),
+        repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--line) - 1px),
+                                  var(--rule) calc(var(--line) - 1px), var(--rule) var(--line));
+      background-position: 0 0, 0 calc(.75rem - 5px); /* rules just under the baseline */
+      background-attachment: local;
+      box-shadow: var(--shadow);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    @media (min-width: 56rem) { .page { flex: 1; height: auto; } }
+    textarea.page { resize: none; }
+    textarea.page::placeholder { color: var(--muted); font-style: italic; }
+    textarea.page:disabled { opacity: .6; }
+    .page:focus-visible { outline: 2px solid var(--margin); outline-offset: 2px; }
+
+    #output .empty { color: var(--muted); font-style: italic; }
+    #output mark {
+      position: relative;
+      background: none;
+      color: var(--red);
+      /* Bolder look without wider glyphs, so both panes wrap at the same words. */
+      -webkit-text-stroke: .04em currentColor;
+    }
+    /* A freshly added diacritic inks in: dark to red, with a short glow. */
+    #output mark.fresh { animation: ink 650ms ease-out; }
+    @keyframes ink {
+      from { color: var(--ink); text-shadow: 0 0 .5em var(--glow); }
+      40% { color: var(--red); text-shadow: 0 0 .5em var(--glow); }
+      to { text-shadow: 0 0 0 transparent; }
+    }
+    /* Hovering a mark shows the letter it replaced. */
+    #output mark::after {
+      content: attr(data-from);
+      position: absolute;
+      left: 50%;
+      bottom: 1.3em;
+      translate: -50% .2em;
+      padding: .05em .45em;
+      border-radius: 4px;
+      background: var(--ink);
+      color: var(--paper);
+      -webkit-text-stroke: 0;
+      font-size: .85em;
+      line-height: 1.4;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 120ms, translate 120ms;
+    }
+    #output mark:hover::after { opacity: 1; translate: -50% 0; }
+
+    button {
+      font: inherit; font-size: .9375rem; color: var(--ink);
+      background: none; border: 0; padding: .25rem 0; cursor: pointer;
+      text-decoration: underline; text-decoration-color: var(--margin);
+      text-decoration-thickness: 2px; text-underline-offset: .3em;
+      transition: text-decoration-color 120ms;
+    }
+    button:hover { text-decoration-color: var(--red); }
+    button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+    button:disabled { color: var(--muted); cursor: default; text-decoration: none; }
+
+    .status { margin: .875rem 0 0; min-height: 1.6em; font-size: .9375rem; color: var(--muted); }
+    .status.error { color: var(--red); }
+    .count { color: var(--red); font-weight: 600; }
+
+    @media (prefers-reduced-motion: reduce) {
+      h1 path { animation: none; stroke-dashoffset: 0; }
+      #output mark.fresh { animation: none; }
+      #output mark::after, button { transition: none; }
+    }
   </style>
 </head>
 <body>
-  <h1>Diacritice</h1>
-  <p id="status">Se încarcă modelul…</p>
-  <textarea id="input" placeholder="Scrie fara diacritice..." disabled></textarea>
-  <output id="output" for="input"></output>
+  <main>
+    <header>
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+          <clipPath id="logo-page"><rect x="2" y="2" width="60" height="60" rx="14"/></clipPath>
+          <rect class="paper" x="2.5" y="2.5" width="59" height="59" rx="13.5"/>
+          <g clip-path="url(#logo-page)" fill="none" stroke-width="1">
+            <path class="rule" d="M2 16H62M2 28H62M2 40H62M2 52H62"/>
+            <path class="margin" d="M14 2V62"/>
+          </g>
+          <path class="ink" d="M31.66 51Q28.56 51 26.83 49.38Q25.1 47.76 25.1 44.77Q25.1 42.39 26.33 40.91Q27.56 39.44 30.42 38.65Q33.28 37.86 38.17 37.62V31.77Q38.17 29.96 37.75 28.87Q37.32 27.78 36.39 27.28Q35.47 26.78 33.97 26.78Q32.63 26.78 31.16 27.25Q29.69 27.72 28.94 28.47Q30.05 29.7 30.6 30.52Q31.15 31.34 31.34 31.87Q31.54 32.4 31.54 32.83Q31.54 33.76 30.76 34.46Q29.97 35.17 28.52 35.17Q26.92 35.17 26.15 34.38Q25.38 33.59 25.38 32.29Q25.38 30.83 26.59 29.37Q27.8 27.91 30 26.95Q32.2 26 35.11 26Q38.22 26 40.39 26.87Q42.57 27.73 43.71 29.69Q44.84 31.64 44.84 34.9V46.5Q44.84 47.71 45.33 48.23Q45.81 48.76 46.61 48.76Q47.14 48.76 47.63 48.63Q48.13 48.5 48.67 48.23L48.9 48.57Q47.7 49.99 46.3 50.5Q44.91 51 43.62 51Q41.25 51 40.06 49.85Q38.86 48.7 38.51 46.6Q37.84 48.17 36.9 49.14Q35.96 50.12 34.68 50.56Q33.4 51 31.66 51ZM34.72 48.62Q35.81 48.62 36.57 48.09Q37.34 47.55 37.76 46.59Q38.17 45.63 38.17 44.39V38.3Q35.8 38.37 34.38 38.91Q32.96 39.45 32.36 40.67Q31.75 41.89 31.75 44.03Q31.75 46.39 32.5 47.5Q33.25 48.62 34.72 48.62Z"/>
+          <path class="pen" d="M28.5 13.5C31 21.5 42 22.5 45.5 14.5" fill="none" stroke-width="4.2" stroke-linecap="round"/>
+        </svg>
+        <h1>Diacritificatorul<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
+        <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
+      </div>
+      <p class="lede">Scrie fără diacritice și le punem noi la loc. Modelul rulează în
+        browserul tău, așa că textul nu pleacă nicăieri.</p>
+    </header>
+
+    <div class="sheets">
+      <section class="sheet">
+        <div class="sheet-head">
+          <label for="input">Textul tău</label>
+          <button id="example" type="button" disabled>Încearcă un exemplu</button>
+        </div>
+        <textarea id="input" class="page" spellcheck="false" disabled
+                  placeholder="Scrie aici, de exemplu: Mergem la munte in weekend, daca nu ploua."></textarea>
+      </section>
+
+      <section class="sheet" aria-labelledby="output-title">
+        <div class="sheet-head">
+          <h2 id="output-title">Cu diacritice</h2>
+          <button id="copy" type="button" disabled>Copiază</button>
+        </div>
+        <div id="output" class="page"><span class="empty">Textul cu diacritice apare aici.</span></div>
+      </section>
+    </div>
+
+    <p id="status" class="status" role="status">Se încarcă modelul (6 MB)…</p>
+  </main>
 
   <script type="module">
+    // Written with diacritics so it stays readable here; stripped before it reaches the input.
+    const EXAMPLE = `Dimineața, orașul se trezește încet. Brutăriile deschid primele, iar mirosul de pâine caldă se simte pe străzile încă goale. Pe trotuare apar oameni grăbiți spre stații, cu cafeaua într-o mână și telefonul în cealaltă.
+
+Spre prânz, soarele arde asfaltul și terasele se umplu de lume care vorbește despre vacanțe, prețuri și meciul de aseară. Seara, luminile se aprind una câte una, iar orașul pare mai liniștit decât a fost toată ziua.`
+      .normalize("NFD").replace(/[\u0302\u0306\u0326\u0327]/g, "").normalize("NFC");
+
     const status = document.getElementById("status");
     const input = document.getElementById("input");
     const output = document.getElementById("output");
+    const copy = document.getElementById("copy");
+    const example = document.getElementById("example");
     const worker = new Worker("./worker.js", { type: "module" });
-    let pending = null;
+    let pending = false;
     let busy = false;
+    let sent = "";
+    let restored = "";
 
     const send = () => {
-      if (busy) { pending = input.value; return; }
+      if (busy) { pending = true; return; }
       busy = true;
-      worker.postMessage({ text: input.value });
+      sent = input.value;
+      worker.postMessage({ text: sent });
     };
 
+    const showError = (message) => {
+      status.textContent = message;
+      status.classList.add("error");
+    };
+
+    // Restoring keeps the length, so the letters that differ are the ones the model fixed.
+    // A mark is fresh when the previous result had a different letter at that spot.
+    const render = (original, text, previous) => {
+      output.replaceChildren();
+      if (!text) {
+        const empty = document.createElement("span");
+        empty.className = "empty";
+        empty.textContent = "Textul cu diacritice apare aici.";
+        output.append(empty);
+        return 0;
+      }
+
+      const a = [...original];
+      const b = [...text];
+      const before = [...previous];
+      let changed = 0;
+      let plain = "";
+      for (let i = 0; i < b.length; i++) {
+        if (a[i] === b[i]) { plain += b[i]; continue; }
+        if (plain) { output.append(plain); plain = ""; }
+        const mark = document.createElement("mark");
+        mark.textContent = b[i];
+        mark.dataset.from = a[i];
+        if (before[i] !== b[i]) mark.className = "fresh";
+        output.append(mark);
+        changed++;
+      }
+      if (plain) output.append(plain);
+
+      return changed;
+    };
+
+    const describe = (changed, chars, ms) => {
+      const fixes = changed === 1 ? "o diacritică adăugată" : `${changed} diacritice adăugate`;
+      const count = document.createElement("span");
+      count.className = "count";
+      count.textContent = changed ? fixes : "Nicio diacritică de adăugat";
+      status.replaceChildren(count, `, ${chars} caractere în ${Math.round(ms)} ms.`);
+    };
+
+    // Line n in one pane is line n in the other, so scroll them together.
+    let syncing = null;
+    function align(from, to) {
+      syncing = from;
+      const range = from.scrollHeight - from.clientHeight;
+      to.scrollTop = range > 0 ? (from.scrollTop / range) * (to.scrollHeight - to.clientHeight) : 0;
+      requestAnimationFrame(() => { syncing = null; });
+    }
+    const follow = (from, to) => from.addEventListener("scroll", () => {
+      if (syncing !== to) align(from, to);
+    });
+    follow(input, output);
+    follow(output, input);
+
     worker.onmessage = ({ data }) => {
-      if (data.error) { status.textContent = data.error; busy = false; return; }
+      if (data.error) { showError(data.error); busy = false; return; }
       if (data.ready) {
-        status.textContent = `Model încărcat (${data.ms} ms). Limită: ${data.maxChars} caractere.`;
+        status.textContent = `Gata, modelul s-a încărcat în ${data.ms} ms. Poți scrie.`;
+        input.maxLength = data.maxChars;
         input.disabled = false;
+        example.disabled = false;
         input.focus();
         return;
       }
-      output.value = data.text;
-      status.textContent = `${data.chars} caractere în ${data.ms.toFixed(1)} ms`;
+
       busy = false;
-      if (pending !== null) { pending = null; send(); }
+      status.classList.remove("error");
+      const changed = render(sent, data.text, restored);
+      restored = data.text;
+      align(input, output);
+      copy.disabled = !data.text;
+      if (data.text) describe(changed, data.chars, data.ms);
+      else status.textContent = "Poți scrie.";
+      if (pending) { pending = false; send(); }
     };
 
     input.addEventListener("input", send);
+
+    example.addEventListener("click", () => {
+      input.value = EXAMPLE;
+      input.focus();
+      send();
+    });
+
+    copy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(restored);
+        copy.textContent = "Copiat";
+        setTimeout(() => { copy.textContent = "Copiază"; }, 1500);
+      } catch {
+        showError("Nu am putut copia textul. Selectează-l și copiază-l manual.");
+      }
+    });
   </script>
 </body>
 </html>

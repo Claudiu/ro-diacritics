@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Diacritificatorul: a notebook page whose ă gets its breve in red pen.
+       The a is Literata (wght 650, opsz 72) converted to a path, so no font is needed. -->
+  <style>
+    .paper { fill: #fbfcfe; stroke: #d5e0ef; }
+    .rule { stroke: #c9d8ee; }
+    .margin { stroke: #eaa7b0; }
+    .ink { fill: #1c2541; }
+    .pen { stroke: #c8102e; }
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #161f35; stroke: #263252; }
+      .rule { stroke: #2c3a5e; }
+      .margin { stroke: #7a3646; }
+      .ink { fill: #e4e9f3; }
+      .pen { stroke: #ff6b78; }
+    }
+  </style>
+  <clipPath id="page"><rect x="2" y="2" width="60" height="60" rx="14"/></clipPath>
+  <rect class="paper" x="2.5" y="2.5" width="59" height="59" rx="13.5"/>
+  <g clip-path="url(#page)" fill="none" stroke-width="1">
+    <path class="rule" d="M2 16H62M2 28H62M2 40H62M2 52H62"/>
+    <path class="margin" d="M14 2V62"/>
+  </g>
+  <path class="ink" d="M31.66 51Q28.56 51 26.83 49.38Q25.1 47.76 25.1 44.77Q25.1 42.39 26.33 40.91Q27.56 39.44 30.42 38.65Q33.28 37.86 38.17 37.62V31.77Q38.17 29.96 37.75 28.87Q37.32 27.78 36.39 27.28Q35.47 26.78 33.97 26.78Q32.63 26.78 31.16 27.25Q29.69 27.72 28.94 28.47Q30.05 29.7 30.6 30.52Q31.15 31.34 31.34 31.87Q31.54 32.4 31.54 32.83Q31.54 33.76 30.76 34.46Q29.97 35.17 28.52 35.17Q26.92 35.17 26.15 34.38Q25.38 33.59 25.38 32.29Q25.38 30.83 26.59 29.37Q27.8 27.91 30 26.95Q32.2 26 35.11 26Q38.22 26 40.39 26.87Q42.57 27.73 43.71 29.69Q44.84 31.64 44.84 34.9V46.5Q44.84 47.71 45.33 48.23Q45.81 48.76 46.61 48.76Q47.14 48.76 47.63 48.63Q48.13 48.5 48.67 48.23L48.9 48.57Q47.7 49.99 46.3 50.5Q44.91 51 43.62 51Q41.25 51 40.06 49.85Q38.86 48.7 38.51 46.6Q37.84 48.17 36.9 49.14Q35.96 50.12 34.68 50.56Q33.4 51 31.66 51ZM34.72 48.62Q35.81 48.62 36.57 48.09Q37.34 47.55 37.76 46.59Q38.17 45.63 38.17 44.39V38.3Q35.8 38.37 34.38 38.91Q32.96 39.45 32.36 40.67Q31.75 41.89 31.75 44.03Q31.75 46.39 32.5 47.5Q33.25 48.62 34.72 48.62Z"/>
+  <path class="pen" d="M28.5 13.5C31 21.5 42 22.5 45.5 14.5" fill="none" stroke-width="4.2" stroke-linecap="round"/>
+</svg>

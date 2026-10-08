@@ -13,6 +13,7 @@ WIKIPEDIA_RO_URLS = (
     "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.ro/train-00000-of-00002.parquet",
     "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.ro/train-00001-of-00002.parquet",
 )
+OPENSUBTITLES_RO_URL = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/ro.txt.gz"
 
 
 @dataclass(frozen=True, slots=True)
@@ -40,6 +41,10 @@ class CorpusSettings:
     """0 means all documents; set small for smoke tests."""
     valid_every: int
     """One document in `valid_every` goes to the validation split."""
+    subtitles_url: str
+    """OpenSubtitles monolingual dump; empty leaves subtitles out."""
+    subtitles_every: int
+    """Keep one subtitle document in this many, so subtitles don't drown Wikipedia."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -94,6 +99,8 @@ class Settings:
                 min_diacritic_ratio=env.read_float("MIN_DIACRITIC_RATIO", 0.05),
                 max_documents=env.read_int("MAX_DOCUMENTS", 0),
                 valid_every=env.read_int("VALID_EVERY", 50),
+                subtitles_url=env.read_str("SUBTITLES_URL", OPENSUBTITLES_RO_URL),
+                subtitles_every=env.read_int("SUBTITLES_EVERY", 4),
             ),
             model=ModelSettings(
                 vocab_size=env.read_int("VOCAB_SIZE", 256),
@@ -109,7 +116,7 @@ class Settings:
                 batch_size=env.read_int("BATCH_SIZE", 256),
                 lr=env.read_float("LR", 5e-4),
                 warmup_steps=env.read_int("WARMUP_STEPS", 2000),
-                max_steps=env.read_int("MAX_STEPS", 60000),
+                max_steps=env.read_int("MAX_STEPS", 80000),
                 eval_every=env.read_int("EVAL_EVERY", 1000),
                 eval_batches=env.read_int("EVAL_BATCHES", 50),
                 checkpoint_every=env.read_int("CHECKPOINT_EVERY", 1000),
@@ -146,6 +153,8 @@ class Settings:
             problems.append("DEVICE must be auto, cpu, cuda or mps")
         if c.valid_every < 2:
             problems.append("VALID_EVERY must be >= 2")
+        if c.subtitles_every < 1:
+            problems.append("SUBTITLES_EVERY must be >= 1")
         if not 0 <= c.min_diacritic_ratio <= 1:
             problems.append("MIN_DIACRITIC_RATIO must be in [0, 1]")
 

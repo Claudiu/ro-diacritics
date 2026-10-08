@@ -14,6 +14,8 @@ from diacritics.common.progress import LogProgress, Progress, RichProgress
 from diacritics.config.settings import Settings
 from diacritics.corpus.corrections import CorrectionsSource
 from diacritics.corpus.filter import is_validation
+from diacritics.corpus.source import ChainedSource, CorpusSource
+from diacritics.corpus.subtitles import SubtitlesSource
 from diacritics.corpus.wikipedia import WikipediaSource
 from diacritics.dataset.build import (
     BASELINE_FILE,
@@ -74,7 +76,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = parse(sys.argv[1:] if argv is None else argv)
     settings = apply_overrides(Settings.from_env(), args)
 
-    source = WikipediaSource(settings.corpus.urls, settings.paths.raw)
+    source = corpus_source(settings)
     corrections = CorrectionsSource(settings.paths.corrections_dir)
     store = LocalDirStore(settings.paths.artifacts_dir)
 
@@ -104,7 +106,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     return 0
 
 
-def run_baseline(settings: Settings, source: WikipediaSource) -> None:
+def corpus_source(settings: Settings) -> CorpusSource:
+    c, raw = settings.corpus, settings.paths.raw
+    wikipedia = WikipediaSource(c.urls, raw)
+    if not c.subtitles_url:
+        return wikipedia
+
+    return ChainedSource(wikipedia, SubtitlesSource(c.subtitles_url, raw, c.subtitles_every))
+
+
+def run_baseline(settings: Settings, source: CorpusSource) -> None:
     # Cached next to the shards; fetch deletes it whenever it rebuilds them.
     cached = settings.paths.processed / BASELINE_FILE
     if cached.exists():
@@ -130,7 +141,7 @@ def run_baseline(settings: Settings, source: WikipediaSource) -> None:
     log(logger, "baseline", **summary)
 
 
-def run_eval(settings: Settings, source: WikipediaSource, store: LocalDirStore) -> None:
+def run_eval(settings: Settings, source: CorpusSource, store: LocalDirStore) -> None:
     model, alphabet, overlap, threshold = load_export(store, BEST_EXPORT)
     predictor = Predictor(model, alphabet, overlap, threshold)
     valid_every = settings.corpus.valid_every

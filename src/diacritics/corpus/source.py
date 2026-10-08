@@ -20,3 +20,14 @@ class CorpusSource(Protocol):
 
 class CorpusUnavailableError(Exception):
     """The source could not be read (network, missing file, bad format)."""
+
+
+class ChainedSource:
+    """Several sources, one after another."""
+
+    def __init__(self, *sources: CorpusSource) -> None:
+        self._sources = sources
+
+    def iter_documents(self) -> Iterator[Document]:
+        for source in self._sources:
+            yield from source.iter_documents()

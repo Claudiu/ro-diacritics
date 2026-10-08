@@ -1,11 +1,19 @@
+import gzip
 from pathlib import Path
 
 import pytest
 
-from diacritics.corpus.filter import diacritic_ratio, filtered, is_validation, keep
+from diacritics.corpus.filter import (
+    diacritic_ratio,
+    filtered,
+    is_validation,
+    keep,
+    marks_every_letter,
+)
 from diacritics.corpus.local_files import LocalFilesSource
 from diacritics.corpus.memory import InMemorySource
-from diacritics.corpus.source import CorpusUnavailableError, Document
+from diacritics.corpus.source import ChainedSource, CorpusUnavailableError, Document
+from diacritics.corpus.subtitles import LINES_PER_DOCUMENT, SubtitlesSource
 
 GOOD = "Țara mea e frumoasă și în ea sunt mulți oameni buni, așa că stăm acasă."
 BARE = "Tara mea e frumoasa si in ea sunt multi oameni buni, asa ca stam acasa."
@@ -22,6 +30,26 @@ def test_keep_rejects_short_and_bare_documents() -> None:
     assert keep(Document("1", GOOD), min_chars=10, min_ratio=0.05)
     assert not keep(Document("1", GOOD), min_chars=1000, min_ratio=0.05)
     assert not keep(Document("1", BARE), min_chars=10, min_ratio=0.05)
+
+
+def test_keep_rejects_text_that_lost_breve_and_comma() -> None:
+    # Old subtitle encodings kept â and î but dropped ă, ș and ț.
+    lost = "Când e ziua platii? Mâine, daca trec banii. Îti fac probleme? Unde e sotia?"
+
+    assert diacritic_ratio(lost) > 0.05
+    assert not marks_every_letter(lost)
+    assert not keep(Document("1", lost), min_chars=10, min_ratio=0.05)
+    assert marks_every_letter(GOOD)
+
+
+def test_keep_rejects_text_that_drops_marks_now_and_then() -> None:
+    sloppy = (
+        "Și eu vin, dacă pot, țin minte. Si tu? Daca vrei, fara grabă. "
+        "Așa că după masă venim și noi."
+    )
+
+    assert marks_every_letter(sloppy)
+    assert not keep(Document("1", sloppy), min_chars=10, min_ratio=0.05)
 
 
 def test_filtered_cleans_and_limits() -> None:
@@ -70,3 +98,24 @@ def test_corrections_source_reads_lines(tmp_path: Path) -> None:
     assert [d.id for d in docs] == ["a:3", "a:4"]
     assert docs[0].text == "Așa e."  # trimmed, cedilla converted to comma below
     assert list(CorrectionsSource(tmp_path / "missing").iter_documents()) == []
+
+
+def test_subtitles_source_groups_lines_and_samples(tmp_path: Path) -> None:
+    url = "https://example.invalid/ro.txt.gz"
+    lines = [f"Replica {i}." for i in range(LINES_PER_DOCUMENT * 3 + 7)]
+    with gzip.open(tmp_path / "opensubtitles-ro.txt.gz", "wt", encoding="utf-8") as out:
+        out.write("\n".join(lines) + "\n")
+
+    every = list(SubtitlesSource(url, tmp_path, every=1).iter_documents())
+    assert [d.id for d in every] == ["subtitles:0", "subtitles:1", "subtitles:2"]
+    assert every[1].text.splitlines() == lines[LINES_PER_DOCUMENT : 2 * LINES_PER_DOCUMENT]
+
+    sampled = list(SubtitlesSource(url, tmp_path, every=1000).iter_documents())
+    assert len(sampled) < len(every)
+
+
+def test_chained_source() -> None:
+    a = InMemorySource([Document("1", GOOD)])
+    b = InMemorySource([Document("2", BARE)])
+
+    assert [d.id for d in ChainedSource(a, b).iter_documents()] == ["1", "2"]

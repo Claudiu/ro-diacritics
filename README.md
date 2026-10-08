@@ -14,7 +14,7 @@ and compiled to WASM so the whole thing runs in the browser with no server.
 
 ```sh
 git clone https://github.com/Claudiu/ro-diacritics diacritics && cd diacritics
-scripts/train.sh            # uv sync, fetch Romanian Wikipedia, baseline, train, eval, export
+scripts/train.sh            # uv sync, fetch Romanian Wikipedia + subtitles, baseline, train, eval, export
 ```
 
 Needs only [`uv`](https://docs.astral.sh/uv/). `torch` from PyPI ships CUDA on Linux, so

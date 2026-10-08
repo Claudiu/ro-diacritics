@@ -1,9 +1,12 @@
 """Keep only documents that are usable training data.
 
 Much Romanian web text omits diacritics entirely; training on it teaches the model to
-omit them too. A document is kept when enough of its candidate letters carry one.
+omit them too. A document is kept when enough of its candidate letters carry one, and
+when ă, ș and ț each show up: old encodings (common in subtitles) lost those three but
+kept â and î, which passes a plain ratio and would teach "zapada" for "zăpadă".
 """
 
+import re
 import unicodedata
 import zlib
 from collections.abc import Iterator
@@ -26,6 +29,41 @@ def diacritic_ratio(text: str) -> float:
     return marked / candidates if candidates else 0.0
 
 
+MIN_MARKED = {"a": ("ă", 0.03), "s": ("ș", 0.03), "t": ("ț", 0.02)}
+"""Plain letter → (its diacritic form, least share of that letter carrying it). Wikipedia
+and well-encoded subtitles sit near 15-20 %; text that lost the mark sits at 0."""
+
+
+def marks_every_letter(text: str) -> bool:
+    lower = text.lower()
+    for plain, (marked, least) in MIN_MARKED.items():
+        n_marked = lower.count(marked)
+        if n_marked < least * (n_marked + lower.count(plain)):
+            return False
+
+    return True
+
+
+ALWAYS_MARKED = frozenset(
+    ("și", "dacă", "fără", "după", "așa", "când", "într", "dintr", "niște", "către")
+    + ("decât", "același", "aceeași", "încât", "fiindcă")
+)
+"""Words with no diacritic-free spelling: seeing them bare means the text drops marks."""
+BARE = {strip_diacritics(w): w for w in ALWAYS_MARKED}
+MAX_BARE_SHARE = 0.05
+WORD = re.compile(r"\w+")
+
+
+def drops_marks(text: str) -> bool:
+    """Too many ALWAYS_MARKED words written bare: marks were typed only some of the time."""
+    bare = marked = 0
+    for word in WORD.findall(text.lower()):
+        bare += word in BARE
+        marked += word in ALWAYS_MARKED
+
+    return bare > MAX_BARE_SHARE * (bare + marked)
+
+
 def clean(text: str) -> str:
     """Precomposed characters, comma-below diacritics."""
     return fix_cedilla(unicodedata.normalize("NFC", text))
@@ -36,7 +74,7 @@ def keep(document: Document, min_chars: int, min_ratio: float) -> bool:
     if len(text) < min_chars:
         return False
 
-    return diacritic_ratio(text) >= min_ratio
+    return diacritic_ratio(text) >= min_ratio and marks_every_letter(text) and not drops_marks(text)
 
 
 def is_validation(document: Document, valid_every: int) -> bool:

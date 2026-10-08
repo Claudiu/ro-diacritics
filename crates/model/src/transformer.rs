@@ -1,6 +1,8 @@
 //! Forward pass of the character encoder, parameter names matching
 //! `src/diacritics/model/encoder.py` one to one.
 
+use std::collections::HashMap;
+
 use candle_core::{DType, Device, Module, Tensor, D};
 use candle_nn::{embedding, layer_norm, linear, Embedding, LayerNorm, LayerNormConfig, Linear};
 use candle_nn::{ops::softmax_last_dim, VarBuilder};
@@ -13,6 +15,10 @@ use diacritics_domain::{
 
 /// Longest input accepted by `restore`, in chars; one request can't eat the CPU.
 pub const MAX_CHARS: usize = 20_000;
+
+/// Values per fp16 scale in a 4-bit matrix; see `src/diacritics/export/safetensors.py`.
+const GROUP: usize = 32;
+const SCALE: &str = ".scale";
 
 /// Added to attention scores of padding keys: effectively minus infinity after softmax.
 const PAD_PENALTY: f64 = -1e9;
@@ -99,7 +105,7 @@ impl Transformer {
     ) -> Result<Self, ModelError> {
         let config: ExportConfig = serde_json::from_str(config_json)?;
         config.validate()?;
-        let vb = VarBuilder::from_buffered_safetensors(weights, DType::F32, &device)?;
+        let vb = VarBuilder::from_tensors(dequantize_all(&weights)?, DType::F32, &device);
 
         Self::build(config, vb, device)
     }
@@ -227,6 +233,48 @@ impl Restorer for Transformer {
 
         Ok(restore(&stripped, &predictions, self.config.threshold))
     }
+}
+
+/// f32 weights from the export: 4-bit matrices unpacked, fp16 vectors upcast.
+fn dequantize_all(weights: &[u8]) -> candle_core::Result<HashMap<String, Tensor>> {
+    let tensors = candle_core::safetensors::load_buffer(weights, &Device::Cpu)?;
+    let mut out = HashMap::new();
+    for (name, t) in &tensors {
+        if name.ends_with(SCALE) {
+            continue;
+        }
+        let t = if t.dtype() == DType::U8 {
+            let scale = tensors
+                .get(&format!("{name}{SCALE}"))
+                .ok_or_else(|| candle_core::Error::Msg(format!("{name}: missing {SCALE}")))?;
+            dequantize(t, scale)?
+        } else {
+            t.to_dtype(DType::F32)?
+        };
+        out.insert(name.clone(), t);
+    }
+
+    Ok(out)
+}
+
+/// `(rows, cols/2)` packed nibbles (even element low, stored as q + 8) → `(rows, cols)` f32.
+fn dequantize(packed: &Tensor, scale: &Tensor) -> candle_core::Result<Tensor> {
+    let (rows, half) = packed.dims2()?;
+    let bytes = packed.flatten_all()?.to_vec1::<u8>()?;
+    let scales = scale.to_dtype(DType::F32)?.to_vec1::<f32>()?;
+    if scales.len() * GROUP != bytes.len() * 2 {
+        return Err(candle_core::Error::Msg(
+            "scale count does not match weights".into(),
+        ));
+    }
+    let values = bytes
+        .iter()
+        .flat_map(|b| [b & 15, b >> 4])
+        .enumerate()
+        .map(|(i, q)| (f32::from(q) - 8.0) * scales[i / GROUP])
+        .collect();
+
+    Tensor::from_vec(values, (rows, 2 * half), &Device::Cpu)
 }
 
 #[cfg(test)]

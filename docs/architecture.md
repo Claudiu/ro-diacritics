@@ -71,7 +71,7 @@ test/fixtures/         shared cases + parity export
 
 | Item | Target | Measured (skeleton, 4-core laptop) |
 |---|---|---|
-| Model | ≈10.8M parameters (6 layers, d=384, 6 heads, ff=1536, window 256) | 22 MB fp16 export (≈0.45 s per paragraph in WASM); loaders upcast to f32 |
+| Model | ≈10.8M parameters (6 layers, d=384, 6 heads, ff=1536, window 256) | 6.2 MB export: 4-bit matrices (fp16 scale per 32 values), fp16 vectors; loaders rebuild f32. ≈0.45 s per paragraph in WASM |
 | WASM binary | ≤ 1.5 MB gzipped, single thread + SIMD, no COOP/COEP needed | 1.04 MB raw, 0.29 MB gzipped |
 | Native latency | — | 8.9 ms per 73-char sentence, 104 ms per 876-char paragraph (≈8.3K chars/s, `scripts/benchmark.sh`) |
 | Browser latency | ≤ 5 ms per sentence while typing | not yet measured with the real model; expect 2–4× native |

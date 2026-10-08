@@ -1,5 +1,5 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "model": {
     "vocab_size": 256,
     "window": 256,

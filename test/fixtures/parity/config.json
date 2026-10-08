@@ -1,12 +1,12 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "model": {
     "vocab_size": 57,
     "window": 16,
-    "d_model": 16,
+    "d_model": 32,
     "n_layers": 2,
     "n_heads": 2,
-    "d_ff": 32,
+    "d_ff": 64,
     "dropout": 0.0,
     "n_classes": 3
   },

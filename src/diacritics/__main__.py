@@ -183,7 +183,7 @@ def write_fixture(directory: str) -> None:
     torch.manual_seed(0)
     alphabet = Alphabet(tuple(" .,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"))
     cfg = ModelConfig(
-        vocab_size=alphabet.size, window=16, d_model=16, n_layers=2, n_heads=2, d_ff=32, dropout=0.0
+        vocab_size=alphabet.size, window=16, d_model=32, n_layers=2, n_heads=2, d_ff=64, dropout=0.0
     )
     model = CharEncoder(cfg).eval()
     overlap = 4

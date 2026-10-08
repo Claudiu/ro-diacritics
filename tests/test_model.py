@@ -8,7 +8,7 @@ from diacritics.model.infer import Predictor
 
 ALPHABET = Alphabet(tuple(" .,abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 CFG = ModelConfig(
-    vocab_size=ALPHABET.size, window=16, d_model=16, n_layers=2, n_heads=2, d_ff=32, dropout=0.0
+    vocab_size=ALPHABET.size, window=16, d_model=32, n_layers=2, n_heads=2, d_ff=64, dropout=0.0
 )
 
 
@@ -59,9 +59,7 @@ def test_predictor_covers_long_text_and_round_trips_export() -> None:
     loaded, alphabet, overlap, threshold = load_export(store, "m")
 
     assert (alphabet, overlap, threshold) == (ALPHABET, 4, 0.25)
-    # Weights are stored as fp16, so confidences round-trip only to fp16 precision.
-    reloaded = Predictor(loaded, alphabet, overlap, 0.0).predict(text)
-    assert [p.label for p in reloaded] == [p.label for p in predictions]
-    assert all(
-        abs(a.confidence - b.confidence) < 1e-3 for a, b in zip(reloaded, predictions, strict=True)
-    )
+    # Matrices are 4-bit with a scale per 32 values: each weight lands within half a step.
+    for name, original in model.state_dict().items():
+        half_step = original.abs().max() / 14 + 1e-3
+        assert (loaded.state_dict()[name] - original).abs().max() <= half_step, name

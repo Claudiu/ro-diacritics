@@ -4,7 +4,7 @@ use serde::Deserialize;
 
 use crate::alphabet::Alphabet;
 
-pub const FORMAT_VERSION: u32 = 1;
+pub const FORMAT_VERSION: u32 = 2;
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct ModelDims {

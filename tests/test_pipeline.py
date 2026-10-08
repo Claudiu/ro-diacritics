@@ -34,7 +34,7 @@ SENTENCES = [
 def tiny_settings(tmp_path: Path) -> Settings:
     base = Settings.from_env()
     model = dataclasses.replace(
-        base.model, window=16, overlap=4, d_model=16, n_layers=1, n_heads=2, d_ff=32
+        base.model, window=16, overlap=4, d_model=32, n_layers=1, n_heads=2, d_ff=64
     )
     corpus = dataclasses.replace(base.corpus, min_doc_chars=20, valid_every=2, max_documents=0)
     training = dataclasses.replace(

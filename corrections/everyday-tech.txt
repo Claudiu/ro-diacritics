@@ -1,0 +1,2003 @@
+# Everyday Romanian: phones, apps, internet and customer support.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# Mama → Mamă
+Mamă, apasă pe butonul verde din colțul de jos și așteaptă să se încarce.
+# Tata → Tată
+Tată, nu mai șterge pozele din galerie că după aia nu le mai găsim.
+# Imprimantă → Imprimanta
+Imprimanta scoate foi albe și nu știu ce are, i-am pus cerneală nouă ieri.
+# factură → factura
+Bună ziua, am o problemă cu factura la internet, mi-ați taxat două luni deodată.
+# sa → să
+Aplicația băncii nu mă mai lasă să intru după ultimul update.
+# ca → că
+Am primit un SMS ciudat că mi s-a blocat cardul, e țeapă, nu?
+# dă → da, ala → ăla
+Nu da click pe linkul ăla, e o înșelătorie clasică.
+# singura → singură
+Bunica a reușit singură să ne sune pe video, eram tare mândri de ea.
+# Fața → Fata
+Fata mea mi-a instalat o aplicație de mers pe jos și acum îmi numără pașii.
+# siglă → sigla
+Tableta copilului s-a blocat pe ecranul cu sigla și nu mai pornește.
+# săptămână → săptămâna
+Comanda mea de săptămâna trecută a ajuns cu cutia ruptă și produsul zgâriat.
+# Va → Vă
+Vă rog să-mi spuneți când revine curentul pe strada noastră.
+# școala → școală
+Laptopul pentru școală se încinge foarte tare după o oră de lecții.
+# jucăm → jucam
+Seara jucam cu băieții până târziu și mama ne închidea routerul.
+# servetel → șervețel
+Când eram mic, telefonul fix stătea pe un șervețel în hol.
+# factură → factura
+Ți-am trimis pe mail factura, verifică și în spam dacă nu o găsești.
+# tastatură → tastatura
+Bunicul nu înțelege de ce trebuie să-și pună ochelarii ca să vadă tastatura.
+# iconiță → iconița
+Tu ai văzut unde s-a mutat iconița cu mesajele?
+# arați → arăți, fetiță → fetița
+Ne vedem diseară pe cameră, să-i arăți bunicii cât a crescut fetița.
+# ca → că
+Domnul de la service a zis că placa de bază e arsă și nu merită reparată.
+# data → dată
+Am încercat de trei ori să plătesc online și de fiecare dată mi-a dat eroare.
+# lună → luna
+Contractul meu expiră luna viitoare și aș vrea o ofertă mai bună.
+# grija → grijă, dă → da
+Ai grijă, nu-i da nimănui codul pe care l-ai primit pe telefon.
+# nuntă → nunta
+Nu mai găsesc pozele de la nunta verișoarei, parcă s-au evaporat.
+# verifică → verifica
+Puteți verifica dacă e vreo defecțiune în zona mea? N-am semnal deloc.
+# ca → că
+Mi-a apărut un mesaj că am câștigat un telefon, dar n-am participat la nimic.
+# ca → că
+Trebuie să-ți faci cont nou, că pe cel vechi l-au închis.
+# legătură → legătura
+Am pierdut legătura cu ei la jumătatea apelului și n-am mai reușit să-i prind.
+# tableta → tabletă
+Copiii se uitau la desene pe tabletă cât timp găteam eu.
+# tată → tata
+Data viitoare când vii pe la noi, uită-te și la calculatorul lui tata.
+# tastatură → tastatura
+Nu-mi mai merge tastatura, scriu și apar alte litere.
+# bunică → bunica
+Dacă tot îți schimbi telefonul, dă-mi mie vechiul pentru bunica.
+# ca → că, dimineața → dimineață
+Vecinul mi-a zis că și la el a picat netul de dimineață.
+# ca → că
+Ce înseamnă când îmi zice că spațiul de stocare e aproape plin?
+# proștii → prostii
+Băiatul meu a cumpărat din joc tot felul de prostii cu cardul meu.
+# ca → că
+Nu mai pot să intru pe contul de Facebook, zice că parola e greșită.
+# Tată → Tata
+Tata insistă să-și țină parolele scrise într-un caiet sub televizor.
+# asta → ăsta
+Știi cumva cum se face o captură de ecran pe telefonul ăsta?
+# ala → ăla
+De ce îmi apare reclamă peste tot de când am instalat jocul ăla?
+# sa → să
+Aș vrea să mut contactele de pe telefonul vechi pe cel nou.
+# întreaga → întreagă
+Am ținut telefonul în orez o noapte întreagă și tot nu pornește.
+# jucăm → jucam
+Pe vremuri jucam Mario pe un aparat chinezesc și eram fericiți.
+# Cat → Cât, costa → costă
+Cât costă să-mi schimbe bateria la telefon?
+# iconiță → iconița
+Ți-am instalat aplicația de vreme, e iconița cu soarele.
+# asta → ăsta
+Laptopul ăsta e prea lent pentru temele lui, trebuie unul mai bun.
+# sters → șters
+Am șters din greșeală conversația cu fiica mea și erau poze acolo.
+# ca → că
+Aseară mi-a venit o notificare că cineva s-a logat de pe alt telefon.
+# Schimba-ți → Schimbă-ți
+Schimbă-ți imediat parola și pune verificarea în doi pași.
+# Suna-mă → Sună-mă, arat → arăt
+Sună-mă când ajungi acasă, să-ți arăt pe ecran unde să apeși.
+# ca → că
+Nu-mi pot deschide atașamentul din mail, îmi zice că formatul nu e suportat.
+# arat → arăt
+Mi s-a descărcat bateria exact când trebuia să-mi arăt biletul.
+# descarca → descarcă
+Se descarcă greu jocul, mai durează vreo două ore.
+# asta → ăsta
+Vreau să vorbesc cu un operator uman, nu cu meniul ăsta automat.
+# tastă → tasta
+Apăsați tasta unu pentru facturare și tasta doi pentru probleme tehnice.
+# ca → că
+Ce bine că acum putem să ne vedem la față cu cei din Spania.
+# Va → Vă
+Vă rog să-mi trimiteți un tehnician, routerul clipește roșu de ieri.
+# suportăm → suportam
+Am ieșit din grupul blocului, nu mai suportam notificările.
+# da → dă, poștam → postăm
+Bunica dă like la tot ce postăm, chiar și la pozele cu mâncare.
+# ca → că
+I-am explicat de zece ori că mesajele în lanț sunt false.
+# mentenanța → mentenanță
+Sistemul băncii e în mentenanță până la ora șase dimineața.
+# amprentă → amprenta
+Nu-mi primește amprenta, trebuie să bag codul de fiecare dată.
+# apără → apară
+Glisează în sus din partea de jos a ecranului și o să-ți apară.
+# greșeala → greșeală
+Am închis din greșeală apelul cu doamna de la operator și trebuie să sun iar.
+# Mama → Mamă, apasă → apăsa
+Mamă, nu mai apăsa pe toate butoanele deodată, că se blochează.
+# Tata → Tată
+Tată, ți-am zis că nu e nevoie să închizi aplicațiile după fiecare folosire.
+# poză → poza
+Am văzut că ți-ai schimbat poza de profil, e foarte frumoasă.
+# ca → că, ala → ăla
+Fii atentă că mesajul ăla nu e de la poștă, e o capcană.
+# cameră → camera, încetoșate → încețoșate
+Nu știu de ce, dar camera frontală face poze încețoșate.
+# asta → ăsta
+Pe telefonul ăsta vechi bateria ține doar până la prânz.
+# Băiețe → Băiete
+Băiete, lasă jocul și vino la masă, că se răcește mâncarea.
+# Stiam → Știam
+Știam că o să mă suni, de-aia am lăsat telefonul lângă mine.
+# urcă → urca, antenă → antena
+Când pica semnalul, tata se urca pe bloc să întoarcă antena.
+# lăcătel → lăcățel
+Mama ținea telefonul fix încuiat cu un lăcățel, ca să nu sunăm prea mult.
+# costă → costa
+Vorbeam cu verișorii din Canada o dată pe an, de Crăciun, și costa o avere.
+# cartelă → cartela
+Dacă nu-ți merge, scoate cartela și pune-o la loc.
+# căuți → cauți
+Apoi alegi trimite și cauți numele meu în listă.
+# setari → setări
+Nu, nu e acolo, mai jos, unde scrie setări.
+# Va → Vă
+Vă scriu în legătură cu o rambursare pe care o aștept de o lună.
+# va → vă
+Am fost taxat de două ori pentru același abonament, vă rog să verificați.
+# zica → zică
+Tehnicianul a venit, a umblat la cutia de pe scară și a plecat fără să zică nimic.
+# tableta → tabletă, încărcă → încarcă
+Copiii se plâng că pe tabletă se încarcă greu desenele.
+# setari → setări
+Asta e funcția pentru nevăzători, se oprește din setări.
+# greșeala → greșeală, agendă → agenda
+Bunicul a dat din greșeală apel video la toată agenda.
+# Ca → Că
+Ce înseamnă bifele albastre de pe WhatsApp? Că a citit mesajul?
+# pagină → pagina
+E doar o reclamă care te sperie, închide pagina și gata.
+# bunică → bunica
+Noroc că bunica a sunat-o întâi pe mama înainte să dea banii.
+# ala → ăla, piața → piață, strică → strica
+Încărcătorul ăla ieftin din piață ți-ar putea strica bateria.
+# încărcă → încarcă
+Am cumpărat un cablu de la benzinărie și nu încarcă deloc.
+# Fața → Fata
+Fata mea zice că sunt prea bătrână pentru aplicația asta.
+# imprimantă → imprimanta
+Băiatul vecinilor ne-a configurat imprimanta în cinci minute.
+# tavă → tava
+Imprimanta zice că nu are hârtie, dar tava e plină.
+# asta → ăsta, costa → costă
+Cartușul ăsta costă aproape cât o imprimantă nouă.
+# profesoară → profesoara
+Pentru școală, profesoara cere să printăm fișele acasă în fiecare săptămână.
+# ca → că
+Nu pot să intru pe platforma școlii, îmi zice că parola a expirat.
+# cameră → camera
+Fiica mea face ore online și camera i se oprește mereu la jumătatea lecției.
+# Garantia → Garanția
+Garanția acoperă și ecranul spart sau doar defectele de fabricație?
+# ala → ăla
+Stickul ăla s-a stricat și am pierdut pozele de la botez.
+# ca → că
+Spune-i bunicii că o sun eu diseară, acum sunt în ședință.
+# Cat → Cât, costa → costă
+Cât costă un pachet de internet în plus pentru restul lunii?
+# dimineața → dimineață
+Încă nu mi-au intrat, poate durează până mâine dimineață.
+# plată → plata
+Am apăsat pe respinge din greșeală și nu s-a mai făcut plata.
+# camera → cameră
+Mama nu se uită la cameră când vorbim, ci la ecran, și îi văd doar fruntea.
+# Tine → Ține
+Ține telefonul puțin mai departe, că îți văd doar nasul.
+# Apasa → Apasă
+Apasă pe iconița cu microfonul tăiat ca să te pot auzi.
+# vad → văd
+Gata, acum te aud, dar nu te mai văd.
+# sa → să
+Fiul meu a stat până la trei noaptea să termine misiunea din joc.
+# consolă → consola
+I-am luat consola de ziua lui și de atunci nu mai iese din cameră.
+# ras → râs, burtile → burțile
+Ne-am jucat ieri toți patru online și am râs de ne dureau burțile.
+# ca → că
+Cred că fosta mea colegă de cameră încă folosește parola mea.
+# Schimba → Schimbă, setari → setări
+Schimbă parola și deconectează toate dispozitivele din setări.
+# telecomandă → telecomanda
+Ai văzut unde am pus telecomanda? O caut de o oră.
+# schimbăm → schimbam
+Pe vremea mea, schimbam canalele cu mâna, de la butoanele televizorului.
+# Stateam → Stăteam, sală → sala
+Stăteam la coadă la calculatoarele de la sala de jocuri din cartier.
+# jucăm → jucam, termină → termina
+Aveam un singur joc pe telefon, cu șarpele, și îl jucam până se termina bateria.
+# arată → arăta, ala → ăla
+Mi-ai putea arăta cum se scanează un cod din ăla pătrat?
+# cameră → camera
+Deschizi camera și o ții deasupra codului până apare un link.
+# apas → apăs
+Mi-a apărut un link galben, apăs pe el?
+# instală → instala, sa → să
+Cum fac să nu mai poată instala aplicații fără să mă întrebe?
+# că → ca
+Am primit o cerere de prietenie de la cineva care are aceeași poză ca vărul meu.
+# pătit-o → pățit-o
+Vărul meu a pățit-o, i-au furat contul și cereau bani în numele lui.
+# sters → șters
+Am zis că îl sun întâi și imediat a șters mesajul.
+# perioada → perioadă
+Aveți abonamente fără perioadă minimă de contract?
+# ca → că
+Am semnat la telefon și acum îmi zic că e contract pe doi ani.
+# Va → Vă
+Vă mulțumesc frumos, mi-ați fost de mare ajutor.
+# săptămână → săptămâna
+Mi-ați spus săptămâna trecută că se rezolvă în 48 de ore.
+# numărăm → număram
+Trimiteam mesaje de pe telefonul cu taste și număram caracterele ca să nu plătim două SMS-uri.
+# Mama → Mamă, poză → poza
+Mamă, ai primit poza cu cozonacul? Ți-am trimis-o pe grup.
+# firmă → firma, dimineața → dimineață
+nu-mi răspunde nimeni la telefon la firma de curierat, sun de dimineață
+# Ti-am → Ți-am
+Ți-am zis să nu comanzi de pe site-uri cu prețuri prea mici ca să fie adevărate.
+# etichetă → eticheta
+Trebuie să tipăresc eticheta de retur, dar nu am imprimantă acasă.
+# ca → că
+Codul de la locker nu merge, îmi zice că e invalid.
+# comandă → comanda
+Am dat comanda pentru adresa veche și acum nu mai pot s-o schimb.
+# ca → că
+Mi-a venit un mesaj că am un colet reținut la vamă, dar nu aștept nimic.
+# Seamăna → Seamănă
+Seamănă cu mesajele de la poștă, dar linkul e dubios.
+# Va → Vă
+Vă rog să-mi blocați cardul, cred că l-am pierdut în autobuz.
+# adăugi → adaugi
+Poți să plătești cu telefonul dacă adaugi cardul virtual în aplicație.
+# ca → că
+La ghișeu mi-au zis că pot să o resetez singur din aplicație.
+# factură → factura
+I-am arătat de trei ori cum se plătește factura cu telefonul.
+# plată → plata
+Scanezi codul de bare de pe factură și confirmi plata, atât.
+# factură → factura
+Nu înțeleg factura, scrie consum estimat, dar eu am trimis indexul.
+# perioadă → perioada
+Am trimis indexul prin aplicație, dar zice că a expirat perioada de transmitere.
+# verifică → verifica
+Bună ziua, nu am internet de ieri seară, puteți verifica ce se întâmplă?
+# Va → Vă
+Vă rog să notați că sunt fără internet de trei zile și vreau reducere la factură.
+# treabă → treaba
+Lucrez de acasă și fără internet nu pot să-mi fac treaba.
+# Ma → Mă
+Mă gândesc serios să schimb operatorul după toată povestea asta.
+# ofertă → oferta
+I-am cerut să-mi trimită oferta pe mail, să o citesc în liniște.
+# taxa → taxă
+De ce trebuie să plătesc taxă de instalare, dacă cablul e deja în casă?
+# fibra → fibră
+Mi-au promis fibră optică de doi ani și încă stăm pe cablu vechi.
+# ca → că
+Nepotul meu zice că wifi-ul de la noi e mai lent decât al lui din tren.
+# ca → că
+Pune routerul mai sus, nu în dulap, că acolo nu are semnal.
+# Ti-am → Ți-am
+Ți-am schimbat numele rețelei, acum se cheamă Casa Bunicilor.
+# parola → parolă
+Copiii vecinilor ne foloseau internetul, așa că am pus parolă nouă.
+# parolă → parola
+Când am mutat routerul, s-a schimbat și parola, sau doar mi se pare?
+# azi-dimineața → azi-dimineață
+Alarma n-a sunat azi-dimineață și am întârziat la serviciu.
+# alarmă → alarma
+Am pus alarma pe după-amiază în loc de dimineață.
+# întreaga → întreagă
+Aplicația de sport mi-a trimis felicitări că am stat o zi întreagă pe canapea.
+# iconiță → iconița
+Ce înseamnă iconița cu norișorul de pe ecran?
+# Sterge → Șterge, ca → că
+Șterge videoclipurile vechi, că ele ocupă cel mai mult.
+# sters → șters
+Am șters pozele de pe telefon crezând că sunt salvate și nu erau.
+# schimbă → schimba, setari → setări
+Telefoanele noi salvează pozele într-un format diferit, îl poți schimba din setări.
+# lăsă → lasă
+Cum trimit un video lung, dacă WhatsApp nu mă lasă?
+# seară → seara
+Nu mai scrieți mulțumesc pe grup, că ne vibrează telefoanele toată seara.
+# ca → că
+În grupul blocului, unul a scris că vinde un frigider și s-a făcut scandal.
+# masă → masa
+Vărul meu a ieșit din grup după cearta de la masa de Paști.
+# dimineața → dimineață
+N-am văzut, aveam grupul pe mut din cauza mesajelor de dimineață.
+# tată → tata
+Ne-a întrebat tata de ce nu-i răspundem la imaginile cu bună dimineața.
+# sa → să
+Fiica mea a pus o poză cu noi pe internet fără să mă întrebe.
+# Va → Vă
+Vă rog să nu postați pozele copiilor mei pe rețelele sociale.
+# că → ca
+Mi-a cerut să-i caut pe internet o rețetă de sarmale ca a mamei ei.
+# recomanda → recomandă
+Cine a tot schimbat profilul de pe televizor? Acum îmi recomandă desene animate.
+# aseara → aseară
+Am început un serial aseară și m-am uitat până la patru dimineața.
+# schimbăm → schimbam
+Ne uitam la filme pe casete video, pe care le schimbam cu vecinii.
+# uităm → uitam
+Duminica ne strângeam toți la unchiul care avea video și ne uitam la filme cu dublaj.
+# casa → casă
+Când a apărut primul telefon mobil în familie, îl țineam în casă ca pe un obiect de lux.
+# ala → ăla
+Pe telefonul ăla pozele erau atât de mici că nu se vedea nimic.
+# descărcăm → descărcam, întreaga → întreagă
+Îmi amintesc cum descărcam o melodie o noapte întreagă.
+# sună → suna
+Când suna cineva pe fix în timp ce eram pe internet, se întrerupea conexiunea.
+# strigă → striga, mătușă → mătușa
+Mama striga din bucătărie să închid internetul că vrea să sune la mătușa.
+# casă → casa, certăm → certam
+Aveam un calculator în toată casa și ne certam cine stă pe el.
+# sa → să
+Fratele meu juca toată noaptea și eu nu puteam să dorm de la ventilator.
+# școala → școală
+Laptopul de la școală nu are voie să instaleze nimic fără parola profesorului.
+# Profesoară → Profesoara, ca → că
+Cum fac să-i pun Word-ul pe laptop? Profesoara zice că e obligatoriu.
+# ca → că
+Contul de elev nu merge, zice că adresa nu există.
+# Cat → Cât, costa → costă
+Cât costă o baterie nouă pentru laptop? Mi s-a zis că e scumpă.
+# tastatură → tastatura
+Întoarce-l repede cu tastatura în jos și nu-l mai porni azi.
+# Ti-am → Ți-am
+Ți-am zis că trebuie să faci backup, dar nu m-ai ascultat.
+# Mama → Mamă, uita-te → uită-te, ține → tine
+Mamă, uită-te la mine, nu la tine în colțul ecranului.
+# Tata → Tată
+Tată, telefonul nu se strică dacă apeși mai tare, dar nici nu ajută.
+# poză → poza, rețetă → rețeta
+Draga mea, ți-am trimis poza cu rețeta, scrie mare, o vezi?
+# ala → ăla, ca → că
+Puiule, închide jocul ăla și fă-ți temele, că te sun de la serviciu să verific.
+# Mai → Măi, ala → ăla
+Măi, tu ai mai primit mesajul ăla cu câștigul la loterie?
+# diseara → diseară
+Ai văzut că au scos un joc nou? Ne apucăm diseară?
+# asta → ăsta
+Jocul ăsta cere o placă video pe care n-o am.
+# jucăm → jucam, sală → sala
+Când eram la liceu, jucam pe calculatoarele din sala de informatică în pauze.
+# jucăm → jucam
+Ne adunam la un coleg acasă și jucam în rețea până ne dădea mama lui afară.
+# strigăm → strigam, camera → cameră
+Nu aveam căști, așa că strigam unul la altul prin cameră.
+# ușa → ușă
+Aveam un vecin care știa să repare orice calculator și tot blocul îi bătea la ușă.
+# bazaia → bâzâia
+Bunica nu înțelegea de ce stăteam atâta în fața unei cutii care bâzâia.
+# cartela → cartelă
+Nici nu știam că există altceva decât internetul pe cartelă.
+# tată → tata, uită → uita
+Când veneau facturile, tata se uita lung la mine și oftam amândoi.
+# Stateam → Stăteam
+Stăteam pe chat cu oameni din alte orașe și ne scriam ore întregi.
+# vibră → vibra, fereastră → fereastra
+Mama nu știa ce înseamnă un buzz și se speria când vibra fereastra.
+# ca → că
+Nu pune data nașterii, că o știe oricine de pe Facebook.
+# Ti-am → Ți-am
+Ți-am instalat un program care îți ține minte toate parolele.
+# Si → Și
+Și dacă uit parola programului, ce mă fac?
+# mașină → mașina
+Am pierdut telefonul în taxi și nu știu ce număr avea mașina.
+# harta → hartă
+Poți să-l găsești pe hartă dacă ai activat localizarea.
+# Arata → Arată
+Arată că e într-un bloc din alt cartier, ce fac acum?
+# piața → piață
+Mi-au furat telefonul din buzunar în piață și aveam toate pozele pe el.
+# ala → ăla
+Am aruncat cardul ăla de plastic acum cinci ani.
+# ca → că, poșta → poștă
+Bunicul povestea că aștepta ore întregi la poștă să vorbească cu fratele lui.
+# Matusa → Mătușa
+Mătușa din Spania a plâns când a văzut-o pe fetiță mergând.
+# masa → masă
+De Crăciun am pus laptopul pe masă ca să fie și sora mea cu noi.
+# că → ca
+Am ciocnit paharele cu ecranul și ne-am simțit ca acasă.
+# check-în → check-in
+Aplicația companiei aeriene îmi cere să fac check-in online cu o zi înainte.
+# extră → extra
+Nu pot să aleg locul fără să plătesc extra, e o glumă?
+# ca → că
+Mi-a venit mail că zborul e întârziat, dar pe site scrie la timp.
+# fa-o → fă-o
+Da, fă-o, dar pune telefonul la încărcat înainte.
+# Cauta-l → Caută-l
+Caută-l scriind numele lui în bara de sus.
+# Strangi → Strângi
+Strângi două degete pe ecran și se micșorează.
+# Ma → Mă
+Mă sună în fiecare zi să-mi spună că a mai descoperit o funcție.
+# lanternă → lanterna
+Azi a descoperit lanterna și a fost foarte mândră.
+# degeabă → degeaba
+Am încercat să-i explic diferența dintre apel și mesaj vocal, dar degeaba.
+# casă → casa
+Bunica crede că dacă închide telefonul, se închide și internetul din toată casa.
+# cameră → camera, iconiță → iconița
+Primul pas: deschizi camera, care e iconița cu aparatul foto.
+# poză → poza
+Dacă îți iese poza cu tine, apasă pe săgețile din colț.
+# apasă → apăsa
+Când îți apare o fereastră care cere bani, nu apăsa nimic și sună-mă.
+# descărce → descarce
+Ecranul se stinge singur după un minut, ca să nu se descarce bateria.
+# Mama → Mamă
+Mamă, dacă apeși pe poza mea, mă suni direct.
+# dimineața → dimineață
+Telefonul din buzunarul lui mă sună singur în fiecare dimineață.
+# amprentă → amprenta
+Am pus amprenta, dar nu-i recunoaște degetul dacă e ud.
+# Ma → Mă
+Mă sună un număr necunoscut de cinci ori pe zi și nu zice nimic.
+# Blocheaza → Blochează
+Blochează numărul și gata, nu mai răspunde.
+# taxă → taxa
+Mi-au zis că am câștigat o vacanță, trebuie doar să plătesc taxa de rezervare.
+# Uita-te → Uită-te
+Uită-te la adresa de sus și vezi dacă e scrisă corect.
+# adresa → adresă, arată → arăta, că → ca
+Pe adresă avea o literă schimbată și arăta exact ca site-ul băncii.
+# suna → sună, ceara → ceară
+Nici poliția nu sună să-ți ceară bani pentru cineva care a făcut accident.
+# fură → fura
+Dacă îi dădeai codul, îți fura contul și le scria tuturor prietenilor.
+# manetă → maneta, încărcă → încarcă
+Dacă vii pe la mine, adu și maneta ta, că a mea nu se mai încarcă.
+# Va → Vă, ca → că
+Vă rog să-mi confirmați prin mail că abonamentul a fost anulat.
+# Va → Vă
+Vă sun pentru că am primit o factură de peste o mie de lei la curent.
+# Va → Vă, rugam → rugăm, sa → să
+Vă rugăm să așteptați, toți operatorii noștri sunt ocupați.
+# tastă → tasta
+Pentru a vorbi cu un consultant, apăsați tasta zero.
+# tastă → tasta
+Am apăsat tasta zero de zece ori și tot la meniu mă întoarce.
+# Buna → Bună, va → vă
+Bună ziua, mă numesc Andrei și vă sun de la departamentul de vânzări.
+# Ma → Mă
+Mă tot sună de la o firmă de energie să schimb furnizorul.
+# ca → că
+Furnizorul vechi zice că încă le datorez bani pe ultima lună.
+# dovadă → dovada
+Am trimis dovada plății de trei ori și tot îmi cer bani.
+# Va → Vă, suma → sumă
+Vă rog să-mi spuneți exact ce sumă am de plătit și până când.
+# factură → factura
+Mi s-a oprit curentul, deși am plătit factura la timp.
+# palpaie → pâlpâie, casă → casa
+Lumina pâlpâie în toată casa de câteva zile, e normal?
+# până → pană
+În tot blocul s-au ars routerele după o pană de curent.
+# nouă → noua
+Ne-am mutat și trebuie să transferăm contractul de internet la noua adresă.
+# adresa → adresă
+La noua adresă nu au acoperire, așa că trebuie să plătesc penalități.
+# Muzică → Muzica
+Muzica de pe așteptare o știu deja pe de rost.
+# curaț → curat
+Am stat cu telefonul pe difuzor și am făcut curat prin casă.
+# că → ca
+Mi-au dat o lună gratuită ca scuză pentru întreruperi.
+# asta → ăsta
+Abonamentul la filme s-a scumpit iar, a treia oară anul ăsta.
+# împarțim → împărțim
+Ne împărțim abonamentul cu verișorii, dar acum nu mai e voie.
+# ca → că
+Platforma zice că cineva din afara casei folosește contul.
+# asta → ăsta
+Pe televizorul ăsta nou trebuie să-ți faci cont ca să-l folosești.
+# română → româna
+Boxa nu înțelege româna și pune muzică la întâmplare.
+# bebelus → bebeluș
+Ne-am luat o cameră pentru bebeluș care se vede pe telefon.
+# întrerupatorul → întrerupătorul
+Becul se aprinde doar din aplicație, întrerupătorul nu mai funcționează.
+# centrală → centrala
+Termostatul inteligent a pornit centrala în mijlocul verii.
+# temperatură → temperatura, casa → casă
+Fiica mea a schimbat temperatura din casă de la facultate, din aplicație.
+# ca → că, centrală → centrala
+Ce bine că poți să pornești centrala de pe telefon când pleci de la serviciu.
+# școala → școală
+Laptopul pentru școală trebuie să aibă cameră, microfon și să țină bateria.
+# Cat → Cât, clasă → clasa
+Cât ar trebui să dau pe un laptop bun pentru un copil de clasa a cincea?
+# ca → că
+Nu-i lua cel mai scump, că oricum îl scapă pe jos.
+# încărcă → încarcă
+Profesorii trimit temele pe platformă și copiii le încarcă poze cu caietul.
+# încetoșată → încețoșată, profesoară → profesoara
+Poza cu tema era încețoșată și profesoara n-a putut citi nimic.
+# porniță → pornită, mâncă → mânca
+La ședința online cu părinții, un tată a uitat camera pornită în timp ce mânca.
+# cameră → camera
+Profesoara de matematică ne scria la tablă și ținea camera pe tavan.
+# nota → notă
+Am rămas fără internet în timpul tezei și am luat notă mică.
+# seară → seara
+Cum îl conving pe copil să lase telefonul seara?
+# Față → Fata
+Fata a protestat o săptămână, apoi s-a obișnuit.
+# tabletă → tableta
+Copiii de acum știu să folosească tableta înainte să știe să vorbească.
+# urgente → urgențe
+Băiețelul a sunat la urgențe din greșeală în timp ce se juca cu telefonul.
+# urgente → urgențe
+Cei de la urgențe au sunat înapoi și eu n-am știut ce să le spun.
+# biserica → biserică
+La biserică mi-a sunat telefonul cu manele și am vrut să intru în pământ.
+# că → ca, radă → râdă
+Fiul meu mi-a pus ca sonerie o melodie care face pe toată lumea să râdă.
+# ma → mă
+Nu știu să schimb melodia de apel, mă ajuți?
+# Setari → Setări
+Setări, sunete, ton de apel, apoi alegi ce vrei.
+# supără → supăra
+Nu te supăra, poate a văzut mesajul în trafic și a uitat să-ți scrie.
+# setari → setări
+Am scos ultima conectare din setări, ca să nu mai vadă nimeni când sunt online.
+# Tine → Ține
+Ține apăsat pe mesaj și apasă pe șterge pentru toată lumea.
+# ca → că, tie → ție
+Am scris în grupul de la serviciu că mi-e dor de tine, credeam că-ți scriu ție.
+# Tine → Ține, litera → literă
+Ține apăsat pe literă și îți apar variantele cu diacritice.
+# tastatură → tastatura
+Am pus tastatura în română, dar tot scrie fără diacritice.
+# bunică → bunica
+Am primit de la bunica un mesaj de patru rânduri fără niciun spațiu.
+# ca → că
+Mă pune să-i scriu cu litere mici, că altfel par nervoasă.
+# sa → să
+Mi-ar plăcea să mai și vorbim la telefon, nu doar să ne scriem.
+# dată → data
+Nimeni n-a votat, așa că am ales noi data.
+# dimineața → dimineață
+Bunicul ne trimite poze cu roșiile din grădină în fiecare dimineață.
+# Fața → Fata
+Fata mi-a explicat abrevierile și mi-a zis că sunt prea bătrână pentru ele.
+# Mama → Mamă
+Mamă, nu-ți face griji, pozele nu s-au pierdut, sunt doar în alt dosar.
+# Tata → Tată, lasa → lasă
+Tată, lasă că-ți fac eu programarea, tu spune-mi doar ce zi îți convine.
+# draga → dragă
+Nu, dragă, mi-a apărut ceva în engleză și m-am speriat.
+# ca → că
+Acum îți explic, dar ia-ți întâi ochelarii, că scrie mărunt.
+# Fața → Fata
+Fata mea a plecat la studii în Olanda și vorbim în fiecare seară pe cameră.
+# tinem → ținem
+Ne lipsește să-i ținem în brațe, nu doar să-i vedem pe telefon.
+# biserica → biserică
+Mama se uită la slujbe de la biserică pe internet când nu poate merge.
+# rădeau → râdeau, că → ca
+Se uitau la filmele lor din tinerețe și râdeau ca niște copii.
+# scârțaia → scârțâia
+Aveam o imprimantă care scârțâia de se auzea în tot blocul.
+# printă → printa
+Imprimanta veche printa un rând pe minut și făcea un zgomot îngrozitor.
+# imprimantă → imprimanta
+Nu înțeleg de ce imprimanta mea printează totul cu dungi.
+# cerneală → cerneala
+Am cumpărat o imprimantă laser ca să scap de problemele cu cerneala.
+# imprimantă → imprimanta, listă → lista, porniță → pornită
+Nu găsesc imprimanta în lista de dispozitive, deși e pornită.
+# Imprimantă → Imprimanta
+Imprimanta e conectată la altă rețea, cea pentru musafiri.
+# că → ca
+Semnătura mea făcută cu degetul arată ca a unui copil de cinci ani.
+# bancă → banca
+Am făcut identificarea video cu banca și m-au pus să-mi întorc buletinul de trei ori.
+# arat → arăt
+Curierul cu cardul mi-a cerut să-i arăt buletinul la ușă.
+# că → ca
+Am plătit o rată online și apare tot ca restantă.
+# schimbă → schimba
+Ai depășit probabil limita zilnică de pe card, o poți schimba din aplicație.
+# singura → singură
+A doua zi m-a sunat să-mi spună că a blocat singură un număr dubios.
+# întreaga → întreagă
+Pe când al meu nu ține nici o zi întreagă.
+# descărcă → descarcă
+Bateria mi se descarcă foarte repede de când am făcut actualizarea.
+# setari → setări
+Vezi în setări care aplicație consumă cel mai mult.
+# setari → setări
+Ai activat din greșeală un mod pentru somn, îl scoatem din setări.
+# ca → că, oră → ora
+Telefonul îmi zice în fiecare seară la zece că e ora de culcare.
+# altcuivă → altcuiva
+Am cumpărat un telefon la mâna a doua și era blocat pe contul altcuiva.
+# țara → țară
+Producătorul zice că trebuie să trimit căștile în altă țară pe banii mei.
+# Caștile → Căștile
+Căștile au costat mai puțin decât transportul până la ei.
+# caști → căști
+Mi-am luat căști fără fir și am pierdut una în prima săptămână.
+# Caștile → Căștile
+Căștile mele nu se mai conectează decât la laptop, nu și la telefon.
+# Fața → Fata
+Fata mea poartă căștile toată ziua și nu aude când o strig.
+# ușa → ușă
+Ne-am certat cu vecinul pentru că nu auzeam cum bate la ușă.
+# întreaga → întreagă
+Am stat o după-amiază întreagă cu el să tăiem un clip de trei minute.
+# Fața → Fata
+Fata mea și prietenele ei fac dansuri pe telefon în parc.
+# ca → că
+Le-am zis să nu filmeze în casă, că se vede adresa pe geam.
+# cumpărătura → cumpărătură
+De atunci, fiecare cumpărătură trebuie aprobată de mine.
+# bunică → bunica
+Am jucat cu bunica un joc de cuvinte și m-a bătut de fiecare dată.
+# seară → seara
+Bunica joacă solitaire pe telefon de dimineața până seara.
+# Tată → Tata, țară → țara
+Tata joacă table online cu oameni din toată țara.
+# colegă → colega, săptămână → săptămâna
+Am primit de la colega de birou cereri de vieți în joc toată săptămâna.
+# lasă → lăsa
+Fratele meu mai mare mă lăsa să joc doar dacă îi făceam patul.
+# Nepoată → Nepoata
+Nepoata ne trimite poze cu desenele ei și noi i le comentăm la telefon.
+# mama → mamă
+mamă, te rog nu mai da forward la toate mesajele cu leacuri minune
+# Tata → Tată
+Tată, aia nu e o știre adevărată, e o glumă de pe un site de satiră.
+# apă → apa
+Mătușa a trimis pe grup că apa de la robinet e otrăvită și s-a speriat tot blocul.
+# șocanță → șocantă
+Când vezi o știre șocantă, uită-te întâi de unde vine.
+# ca → că
+Mama a văzut pe internet că o vedetă a murit, dar omul trăiește bine.
+# proștii → prostii
+Am primit un clip cu un politician care spunea prostii, dar era făcut de calculator.
+# că → ca
+Acum se pot face clipuri false care arată ca adevărate, să fii atentă.
+# banca → bancă
+Doamna de la bancă mi-a spus că nu au trimis niciun mesaj azi.
+# ca → că
+Mi-e rușine să recunosc că am căzut în plasa lor.
+# parolă → parola
+Am scris parola pe o bucată de hârtie și am pus-o într-o carte.
+# biletelul → bilețelul
+Am răsfoit toată biblioteca până am găsit bilețelul.
+# biletel → bilețel
+Pe bilețel scria doar jumătate din parolă, restul îl țineam minte.
+# Stiam → Știam, litera → literă
+Știam că am pus numele câinelui, dar nu știam dacă e cu literă mare.
+# sună → suna
+Mama mă suna disperată că a scris greșit codul și acum e blocat.
+# apasă → apăsa
+Bunica scria codul cu unghia și apăsa pe două cifre deodată.
+# simta → simtă
+Bunicul ține telefonul în buzunarul de la piept, să-l simtă când sună.
+# Bunică → Bunica, abtibilduri → abțibilduri
+Bunica a ținut folia de protecție de la cumpărare, cu tot cu abțibilduri.
+# tine → ține, telecomandă → telecomanda
+Mama ține telecomanda învelită în plastic, să nu se murdărească.
+# banda → bandă
+Tata a lipit bandă adezivă pe butoanele de la telecomandă pe care nu le folosește.
+# Apasa → Apasă
+Apasă pe butonul care scrie sursă până apare iar imaginea.
+# consolă → consola
+Mai apasă o dată, că aia e pentru consola copiilor.
+# va → vă
+Nici eu nu știu ce v-ați face, dar vă iubesc oricum.
+# aștea → astea
+Vreau să mă dezabonez de la toate newsletterele astea.
+# tii → ții
+Tu cum îți ții inboxul curat? Al meu e un dezastru.
+# Sterg → Șterg, seară → seara
+Șterg tot ce nu e important în fiecare vineri seara.
+# lasa → lasă
+Aplicația clinicii mă lasă să-mi fac programare la orice oră.
+# clinica → clinică
+Mi-a venit un SMS de la clinică să-mi confirm programarea, cu un link.
+# asta → ăsta, clinică → clinica
+Linkul ăsta e bun, e de la clinica mea, am verificat cu ei.
+# Bunică → Bunica
+Bunica a ținut camera prea aproape și doctorul vedea doar un ochi.
+# Reteta → Rețeta
+Rețeta mi-a venit pe mail și am arătat-o la farmacie de pe telefon.
+# Farmacistă → Farmacista
+Farmacista a zis că nu poate citi codul de pe ecranul meu spart.
+# piața → piață
+Ecranul pus la service-ul din piață s-a dezlipit după o lună.
+# banda → bandă
+Am lipit ecranul cu bandă adezivă până îmi iau altul.
+# banda → bandă
+Cablul de la încărcător e rupt la capăt și l-am înfășurat cu bandă.
+# Pisică → Pisica
+Pisica a ros toate cablurile de pe lângă birou.
+# cartela → cartelă
+Băiețelul a introdus o monedă în locul pentru cartelă.
+# monedă → moneda
+Am scos moneda cu o pensetă, dar locul de cartelă e stricat.
+# factura → factură
+Suma de pe factură nu se potrivește cu ce mi s-a promis la semnare.
+# va → vă
+Voiam doar să vă spun că nu mai vreau să plătesc pentru canalele de sport.
+# duminică → duminica
+Tata s-a supărat că nu mai poate vedea meciurile duminica.
+# ușa → ușă, chitantierul → chitanțierul
+Pe vremuri plăteam cablul la omul care trecea pe la ușă cu chitanțierul.
+# mamă → mama
+Omul cu cablul venea în fiecare lună și stătea la o cafea cu mama.
+# înclină → înclina
+Antena noastră de pe bloc se înclina după fiecare furtună.
+# urcă → urca, strigăm → strigam
+Tata urca pe acoperiș și eu strigam de jos dacă se vede.
+# țipă → țipa
+Se vede? Acum? Dar acum? Așa țipa tata de pe bloc.
+# duminică → duminica, dimineață → dimineața
+Ne uitam la desene doar duminica dimineața, era cea mai frumoasă oră.
+# Așteptăm → Așteptam, seară → seara
+Așteptam toată săptămâna serialul de vineri seara.
+# strică → strica
+Pe vremea mea, dacă se strica televizorul, venea meșterul acasă.
+# palmă → palma
+Meșterul bătea cu palma în televizor și pornea.
+# palmă → palma
+Eu încă bat cu palma în laptop când se blochează.
+# asta → ăsta, mutari → mutări
+Laptopul ăsta a supraviețuit la trei mutări și doi copii.
+# posetă → poșetă
+Fiica mea și-a luat un laptop subțire și ușor, pe care îl ține în poșetă.
+# Tine → Ține, iconiță → iconița, pătrătele → pătrățele
+Ține apăsat pe iconița cu pătrățele și alege închide tot.
+# asta → ăsta
+Ce-i cu sunetul ăsta? Ce site ai deschis?
+# sa → să, porniță → pornită
+Unele site-uri nu mă mai lasă să intru dacă am blocarea de reclame pornită.
+# luăm → luam, chiosc → chioșc
+Pe vremuri luam ziarul de la chioșc și îl citeam toată familia.
+# arat → arăt, camera → cameră
+La consultația video, doctorul mi-a zis să-mi arăt gâtul la cameră.
+# Buna → Bună
+Bună seara, aș vrea să știu de ce mi s-a oprit internetul mobil la jumătatea lunii.
+# viteză → viteza
+Ați consumat tot traficul inclus și viteza a fost redusă.
+# liniute → liniuțe
+Mi-a dispărut semnalul de cum am intrat în casă, afară am patru liniuțe.
+# fereastră → fereastra
+Pot să vorbesc doar dacă stau lângă fereastra din bucătărie.
+# casă → casa
+Am pus apelurile prin wifi și acum se aude perfect în toată casa.
+# țara → țară
+La țară, la bunici, trebuie să urci pe deal ca să ai semnal.
+# sună → suna
+Mama mă suna și închidea, iar eu trebuia s-o sun înapoi de pe fix.
+# termină → termina
+Cartela se termina mereu în momentul cel mai important.
+# împrumutăm → împrumutam
+Ne împrumutam credit unii altora prin transfer de la operator.
+# chiosc → chioșc
+Făceam coadă la chioșc să încărcăm cartela cu cinci euro.
+# Ma → Mă
+Mă sperii când îmi sună telefonul, cred că s-a întâmplat ceva.
+# căsuță → căsuța
+Cum ascult mesajele din căsuța vocală? Mi-a apărut o iconiță cu o casetă.
+# căsuță → căsuța, ca → că, ascultăm → ascultam
+Am dezactivat căsuța vocală, că oricum nu ascultam nimic.
+# altcuivă → altcuiva
+Numărul meu de telefon a fost înainte al altcuiva și primesc mesajele lui.
+# între → intre
+Cineva încearcă să-ți intre în cont, schimbă parola imediat.
+# paștile → pastile
+Prietenii mei au primit de la mine mailuri cu pastile de slăbit.
+# întreaga → întreagă
+Băiatul a plâns o zi întreagă după contul pierdut.
+# Fața → Fata
+Fata mea îmi traduce instrucțiunile la aparatele luate de pe internet.
+# cameră → camera
+Am pus instrucțiunile în aplicația de traducere cu camera și a mers.
+# ras → râs
+În Grecia am vorbit cu chelnerul prin aplicația de traducere și am râs amândoi.
+# tine → ține, hartă → harta
+Mama ține harta din hârtie în torpedou, pentru orice eventualitate.
+# Fața → Fata
+Fata noastră are o aplicație cu care vedem unde e, dar ea o închide.
+# tableta → tabletă
+Fetița mi-a ghicit parola de la tabletă după ce m-a privit de la spate.
+# ca → că, descărci → descarci
+Înseamnă că o descarci gratis, dar apoi îți cere bani pentru tot felul de lucruri.
+# proba → probă
+Perioada de probă s-a terminat și mi-au luat banii fără să-mi spună.
+# Ti-a → Ți-a
+Ți-a trimis mail înainte, doar că nu l-ai citit.
+# Plateam → Plăteam, ascultăm → ascultam
+Plăteam pentru trei platforme de muzică și ascultam doar radio.
+# tată → tata
+Radioul are întârziere față de televizor și tata află golurile înainte.
+# striga → strigă
+Vecinul strigă gol cu zece secunde înaintea noastră, că el are cablu.
+# ca → că
+Am oprit notificările de la aplicația de sport, că mi-au stricat meciul.
+# repriză → repriza
+Mi-a venit pe ecran rezultatul final înainte să văd repriza a doua.
+# greșeala → greșeală
+Fratele meu a șters din greșeală toate înregistrările mamei.
+# certăm → certam
+Seara, toată familia stătea în fața televizorului și ne certam pe telecomandă.
+# tată → tata, telecomandă → telecomanda
+Câștiga mereu tata, că el avea telecomanda în buzunar.
+# uităm → uitam
+Noi, copiii, ne uitam pe furiș la televizor după ce adormeau părinții.
+# Dadeam → Dădeam
+Dădeam sonorul încet și stăteam lipiți de ecran.
+# luăm → luam
+Calculatorul îl țineam în camera mea și mama îmi lua cablul de alimentare când luam note proaste.
+# dă → da
+Ce înseamnă că îmi cere să accept cookie-urile? Să zic da?
+# apas → apăs
+Pe fiecare site trebuie să apăs pe accept, mă enervează.
+# sters → șters
+Am șters aplicația și reclamele au dispărut.
+# ca → că
+Am citit că unele aplicații ascultă ce vorbim ca să ne pună reclame.
+# Șoțul → Soțul, surpriză → surpriza
+Soțul meu a căutat un cadou pentru mine și reclamele i-au stricat surpriza.
+# sa → să
+Mi-a apărut reclama exact la inelul pe care voia să mi-l cumpere.
+# Cumpăra → Cumpără
+Cumpără cadourile din modul privat, ca să nu rămână istoric.
+# sters → șters
+Am șters istoricul ca să nu vadă copiii ce cadouri le-am luat de Crăciun.
+# singura → singură, coada → coadă
+Am mers la depozit să-mi iau singură coletul și am stat la coadă o oră.
+# altcuivă → altcuiva
+Când am ajuns acasă, mi-am dat seama că mi-au dat coletul altcuiva.
+# bocănci → bocanci
+Au schimbat etichetele și am primit o pereche de bocanci de bărbat.
+# firmă → firma
+Am sunat la firma de curierat și m-au trimis la magazin, care m-a trimis la curierat.
+# sampon → șampon
+Similare? Mi-au trimis șampon în loc de iaurt.
+# va → vă, plata → plată
+Cereți-i, vă rog, operatorului să blocheze serviciile cu plată prin SMS.
+# Mama → Mamă
+Mamă, ți-am pus pe telefon o aplicație care mărește scrisul când citești.
+# Tata → Tată, ca → că
+Tată, ai grijă că aplicația aia de curent îți cere acum să te loghezi din nou.
+# Fața → Fata, cumpăra-ți → cumpără-ți
+Fata mea, ți-am trimis bani pe card, cumpără-ți ceva frumos.
+# Draga → Dragă
+Dragă, poți să-mi spui cum se face o poză cu ecranul?
+# Apesi → Apeși
+Apeși deodată pe butonul de volum și pe cel de pornire.
+# apasate → apăsate
+Nu le ține apăsate mult, doar o secundă, apoi le dai drumul.
+# Ti-a → Ți-a
+Ți-a ieșit o poză cu ecranul, uite-o în galerie.
+# asta → ăsta
+Mama a făcut două sute de capturi de ecran învățând trucul ăsta.
+# imprimantă → imprimanta
+Ce mai faci cu imprimanta? Ai reușit să printezi biletele?
+# pagină → pagina
+Am fugit la papetărie și am printat acolo, cu un leu pagina.
+# urgență → urgentă
+Noi la birou avem o imprimantă care se blochează doar când ai treabă urgentă.
+# imprimantă → imprimanta
+Fiecare coleg are un truc diferit pentru imprimanta de la birou.
+# școala → școală
+Fiul meu face prezentări pentru școală mai frumoase decât ale mele de la serviciu.
+# Fața → Fata
+Fata mea a făcut un proiect despre planete cu animații și sunet.
+# nota → notă
+Profesorul i-a dat notă mare și a cerut să le arate și altor clase.
+# statusem → stătusem
+Ea a reparat formulele în două minute, eu stătusem o oră.
+# biblioteca → bibliotecă, sa → să
+Mergeam la bibliotecă să căutăm informații pentru proiecte.
+# clasa → clasă
+Profesoara și-a dat seama că jumătate din clasă a copiat același text.
+# profesoară → profesoara
+Fiul meu a scris compunerea cu ajutorul inteligenței artificiale și profesoara l-a prins.
+# ala → ăla
+Am întrebat programul ăla ce să gătesc cu ce am în frigider și mi-a dat o rețetă bună.
+# ploua → plouă
+Mama a întrebat programul dacă o să plouă la Paști și i-a dat un răspuns lung.
+# de-asta → de-ăsta
+Am folosit un program de-ăsta ca să-mi scriu scrisoarea de intenție.
+# sună → suna
+Scrisoarea suna prea pompos și am rescris-o singur.
+# pisică → pisica
+Am avut un interviu pe video și pisica a sărit pe tastatură.
+# pijamă → pijama
+Am stat la interviu cu cămașă și cu pantalonii de pijama.
+# porniță → pornită, curaț → curat
+Colega mea a uitat camera pornită și s-a văzut cum face curat.
+# doua → două
+Băiatul de la IT a venit, a dat două clickuri și a plecat.
+# repara → repară, căuta → caută
+Colegul cel nou repară tot ce atinge și acum îl caută toată lumea.
+# ca → că
+Am apăsat pe link și mi-a apărut că trebuie să fac un curs de securitate.
+# apas → apăs
+Cursul a durat o oră și am învățat să nu mai apăs pe nimic.
+# Sefa → Șefa
+Șefa a primit un mail de la director care cerea carduri cadou, dar nu era el.
+# Ăi → Ai
+Ai văzut că a apărut o aplicație care te anunță când vine autobuzul?
+# mașinută → mașinuța, harta → hartă
+Am urmărit mașinuța pe hartă până a ajuns acasă.
+# așteptăm → așteptam, lumină → lumina, mașina → mașină
+Pe vremuri așteptam la geam până vedeam lumina de la mașină.
+# așteptăm → așteptam
+Nu aveam cum să știm unde e, doar așteptam să sune.
+# pă → pa
+Am ajuns, pa, atât mi-a scris, după o zi de așteptare.
+# vecina → vecină
+Fiul meu a sunat la vecină când nu i-am răspuns două ore.
+# grădina → grădină
+Eram în grădină și telefonul era în casă, pe masă.
+# snur → șnur
+De atunci, port telefonul la gât, într-o husă cu șnur.
+# Bunică → Bunica
+Bunica a primit un telefon cu buton de urgență pentru seniori.
+# fuga → fugă
+Bunica l-a apăsat din greșeală și am venit toți patru în fugă.
+# ca → că
+Mama zice că pe telefonul vechi vedea mai bine numele care o sună.
+# Stiam → Știam
+Știam pe de rost numerele tuturor colegilor de clasă.
+# Strange → Strânge
+Strânge bani din zilele de naștere de doi ani pentru un telefon.
+# școala → școală
+La școală nu au voie cu telefoanele în clasă, le lasă într-o cutie.
+# școala → școală
+A trebuit să merg eu la școală să-l recuperez.
+# ca → că
+Fiul meu a fost atât de plictisit fără telefon, că a citit o carte.
+# rau → rău
+Mi-a zis că nu e chiar așa rău să citești, dar să nu spun nimănui.
+# ca → că, verifică → verifica
+Tata a pierdut de trei ori la rând, că verifica rezultatele meciurilor.
+# bunică → bunica, supără → supăra
+Tradiția asta a pornit de la bunica, care se supăra că nu vorbim cu ea.
+# Șoțul → Soțul
+Soțul meu mi-a trimis o inimioară și m-a întrebat ce gătesc la cină.
+# sa → să
+Mi-a scris soția să iau pâine și eu am înțeles să iau pizza.
+# feței → fetei
+I-am luat fetei primul ei telefon abia la doisprezece ani.
+# porniță → pornită
+Ședința online a durat două ore, iar jumătate dintre noi nu aveam camera pornită.
+# Mama → Mamă
+Mamă, n-ai cum să strici internetul dacă apeși pe un buton greșit.
+# Tata → Tată
+Tată, ți-am schimbat bateria la telecomandă, acum ar trebui să meargă.
+# pătrătel → pătrățel
+Cum se face să văd filmul pe tot ecranul, nu doar într-un pătrățel?
+# Ti → Ți
+Ți se oprește laptopul pe economisire, trebuie să-l bagi în priză.
+# pămatuf → pămătuf, că → ca
+L-am curățat cu un pămătuf și acum merge ca nou.
+# pasta → pastă
+Am pus pastă termică nouă pe procesor, cum am văzut pe un tutorial.
+# tată → tata, repară → repara
+Pe vremuri, tata repara singur radioul cu ciocanul de lipit.
+# tată → tata
+Cu antena făcută de tata prindeam și programele bulgărești.
+# ascultă → asculta
+Bunicul avea un radio vechi pe care asculta Europa Liberă pe ascuns.
+# ala → ăla
+Radioul ăla încă merge și îl ținem în bucătărie.
+# încurcă → încurca, bandă → banda, rebobinăm → rebobinam
+Când se încurca banda, o rebobinam cu creionul.
+# tătei → tatei
+Am dat peste discurile tatei de vinil și i-am cumpărat un pick-up nou.
+# muzică → muzica, ca → că
+Fiul meu ascultă muzica atât de tare în căști, că o aud și eu.
+# limită → limita
+A găsit cum să scoată limita în zece minute.
+# muzică → muzica
+Vecinii au bătut în perete când am dat muzica tare la boxă.
+# singura → singură
+Boxa s-a conectat singură la telefonul vecinului și i-a cântat manelele lui.
+# asta → ăsta
+Ce e bluetooth-ul ăsta? Îmi tot cere să-l pornesc.
+# mașina → mașină
+Telefonul nu se mai conectează la mașină de când l-am schimbat.
+# adăugi → adaugi
+Trebuie să ștergi telefonul vechi din lista mașinii și să adaugi unul nou.
+# mașina → mașină
+Mi-a citit în mașină un mesaj de la medic, cu toată familia de față.
+# ca → că
+Tata are o mașină din anii nouăzeci și zice că e cea mai sigură, că n-are calculator.
+# mașină → mașina
+Fratele meu are o aplicație cu care deschide mașina de pe telefon.
+# intră → intra, mașina → mașină
+Ieri i s-a descărcat telefonul și n-a mai putut intra în mașină.
+# ca → că
+Încuietoarea de la ușă se deschide cu telefonul și sunt mereu speriată că rămân pe afară.
+# inteligență → inteligentă
+Mi s-a blocat yala inteligentă și am chemat un lăcătuș de modă veche.
+# casă → casa, lumină → lumina
+Fratele meu a pus prize inteligente în toată casa și acum nimeni nu știe cum să aprindă lumina.
+# vizita → vizită
+Mama a venit în vizită și nu a putut să aprindă lumina la baie.
+# poză → poza
+Jocul putea să-i folosească poza în reclame, dacă voia.
+# Fața → Fata
+Fata a zis că pe privat nu o mai găsesc prietenii.
+# află → afla, școala → școală
+Din uniformă se poate afla la ce școală merge.
+# soacră → soacra
+Am rugat-o pe soacra mea să filmeze, iar ea a filmat podeaua.
+# șoacrei → soacrei
+Filmul de la serbare are zece minute cu pantofii soacrei.
+# lasă → lăsa, tată → tata
+Nu mă lăsa să șterg conversația cu tata, acolo sunt ultimele lui mesaje.
+# bunică → bunica
+Am salvat conversația cu bunica într-un fișier, ca să nu se piardă.
+# tătei → tatei
+Telefonul vechi al tatei îl țin într-un sertar, cu toate pozele lui.
+# tăței → tatei
+Nu știu codul de la telefonul tatei și nu pot vedea pozele.
+# nunta → nuntă
+Fotograful de la nuntă ne-a trimis pozele abia după un an.
+# urari → urări
+Mătușa a lăsat un comentariu lung cu urări sub transmisiunea live.
+# mâna → mână
+Am ținut telefonul în mână tot timpul, ca să vadă și el slujba.
+# Nepotica → Nepoțica
+Nepoțica a cântat la mulți ani în germană și mama n-a înțeles nimic.
+# singura → singură
+Mama a învățat să comande singură mâncare și acum comandă în fiecare vineri.
+# seara → seară
+Tata adoarme în fiecare seară ascultând romane polițiste.
+# dimineața → dimineață
+Toată strada aude predicile bunicii în fiecare dimineață.
+# Tine-mi → Ține-mi
+Ține-mi telefonul puțin, să-mi scot mănușile, că nu merge ecranul cu ele.
+# țigaie → tigaie
+L-am lăsat pe bordul mașinii și s-a făcut fierbinte ca o tigaie.
+# plaja → plajă, între → intre
+Pe plajă am ținut telefonul într-o pungă de plastic, ca să nu intre nisip.
+# mufă → mufa, încărcă → încarcă
+Mi-a intrat nisip în mufa de încărcare și acum nu mai încarcă bine.
+# mufă → mufa
+Am curățat mufa cu o scobitoare și a mers din nou.
+# țaica-su → taică-su
+Am scăpat telefonul în mare și l-a scos un copil cu taică-su.
+# ca → că
+Telefonul zice că e rezistent la apă, dar nu și la apă sărată.
+# schimbă → schimba
+Recepționerul ne-a dat o parolă care se schimba în fiecare zi.
+# seară → seara
+Am stat seara în holul hotelului, cu toți turiștii, ca să prindem internetul.
+# seară → seara
+Copiii au plâns prima zi, a doua zi s-au jucat afară până seara.
+# cauta → caută
+Recepția ne-a bătut la ușă la unsprezece noaptea, că ne caută mama.
+# ca → că
+Am descoperit că omul cu care vorbeam pe aplicație era vecinul de la etajul patru.
+# fața → față
+Nu trimite niciodată bani cuiva pe care nu l-ai văzut față în față.
+# Fața → Fata
+Fata mea și-a cunoscut iubitul într-un joc online.
+# salată → salata
+Aplicația mi-a spus că salata mea e o plantă otrăvitoare.
+# murătură → murătura
+Tata s-a certat cu un necunoscut pe internet despre cum se face murătura.
+# arată → arăta
+Ieri am mâncat o prăjitură de pe internet care arăta mai bine în poză.
+# tătei → tatei, sta → stă
+Aparatul foto al tatei stă în dulap de zece ani, cu tot cu film.
+# pisică → pisica
+Ea a pus doar poze cu pisica ei, o sută cincizeci de pagini.
+# că → ca
+Mama a pus filtre pe toate pozele și acum toată lumea arată ca o păpușă.
+# poză → poza
+Am făcut poza de grup și unul a ieșit cu ochii închiși.
+# asta → ăsta
+Telefonul ăsta face mai multe poze deodată și o alege pe cea mai bună.
+# Fața → Fata
+Fata mea își face douăzeci de poze până să posteze una.
+# așteptăm → așteptam
+Mergeam la fotograf să developăm filmul și așteptam o săptămână.
+# urâțe → urâte
+Le puneam pe toate în album, chiar și pe cele urâte.
+# Ma → Mă
+Mă gândesc să trec pe radio, ca pe vremuri.
+# descărc → descarc
+Am făcut o listă de melodii pentru drumul la mare și am uitat s-o descarc.
+# cântă → cânta, tată → tata
+Copiii au descoperit că le plac melodiile vechi pe care le cânta tata.
+# sa → să
+Pe drum, fiecare voia să pună muzica lui pe boxa mașinii.
+# biletel → bilețel
+Am stat cu toții să tastăm parola de pe un bilețel lipit pe geam.
+# parolă → parola
+Când am terminat de scris parola, am plecat mai departe.
+# maces → măceș
+Am comandat un trandafir rar de pe un site și a crescut un măceș.
+# Mama → Mamă, ca → că
+Mamă, scrie-mi când ajungi, că altfel stau ca pe ace.
+# Tata → Tată
+Tată, citește-mi te rog ce scrie pe ecranul routerului, pe spate.
+# stângă → stânga, cameră → camera
+Ioana, mută-te puțin mai la stânga, să te prindă camera.
+# Suna-l → Sună-l
+Sună-l pe frate-tu și spune-i să-și verifice mailul.
+# ala → ăla, ofertă → oferta
+Trimite-mi și mie linkul ăla cu oferta, să mă uit.
+# parolă → parola
+Scrie-mi pe o hârtie numele rețelei și parola, te rog.
+# Uita-te → Uită-te, setari → setări
+Uită-te și tu în setări, poate vezi ce n-am văzut eu.
+# ca → că
+Pune-i o parolă mai lungă, că asta o ghicește oricine.
+# arat → arăt
+Dă-mi telefonul să-ți arăt, că așa nu se înțelege.
+# Fa-mi → Fă-mi
+Fă-mi te rog o poză cu ce scrie pe ecran și trimite-mi-o.
+# Lasa-mă → Lasă-mă, ca → că
+Lasă-mă pe mine, că mă descurc mai repede.
+# Muta-ți → Mută-ți
+Mută-ți pozele pe laptop înainte să resetezi telefonul.
+# Asculta-mă → Ascultă-mă, intră → intra, ala → ăla
+Ascultă-mă, nu mai intra pe site-ul ăla, e plin de viruși.
+# Tine → Ține
+Ține minte: nu-i dai niciodată nimănui codul primit prin SMS.
+# baga-l → bagă-l
+Scoate-l din priză, numără până la treizeci și bagă-l la loc.
+# Arata-mi → Arată-mi
+Arată-mi și mie cum ai făcut, că vreau să învăț.
+# Explica-mi → Explică-mi
+Explică-mi din nou, dar mai încet, te rog.
+# imprimantă → imprimanta
+Treci pe la mine după serviciu, să-mi pui imprimanta.
+# va → vă
+Hai pe cameră, că vrea bunica să vă vadă pe toți.
+# mamă → mama
+Vino lângă mine, că nu te vede mama pe ecran.
+# sa → să
+Zi-i lui tata să nu mai apese pe toate butoanele.
+# ca → că
+Ai zis că vii să-mi repari laptopul și n-ai mai venit.
+# lucrăm → lucram
+Pe vremea când lucram la bancă, nimeni nu știa ce e un cont online.
+# banca → bancă, uităm → uitam, frica → frică
+Eram la bancă când a venit primul calculator și ne uitam la el cu frică.
+# anunță → anunța, postărită → poștărița
+Când trebuia să sune cineva din străinătate, ne anunța poștărița.
+# alergă → alerga, poșta → poștă
+Bunicul alerga la poștă când auzea că-l caută fiul din Germania.
+# tată → tata
+Vorbeam la telefon cu tata o dată pe lună, cinci minute.
+# certăm → certam
+Ne certam cine vorbește primul cu tata.
+# bucurăm → bucuram
+Ce ne bucuram când auzeam vocea lui, chiar dacă se auzea prost.
+# jucăm → jucam
+Nu aveam voie la jocuri în laboratorul de informatică, dar ne jucam pe ascuns.
+# oră → ora
+Când ne prindea profesorul, ne punea să scriem programe toată ora.
+# conectă → conecta
+Mi-aduc aminte cum se auzea modemul când se conecta la internet.
+# ala → ăla
+Sunetul ăla de modem îl țin minte și acum.
+# descărcăm → descărcam, încărcă → încărca
+Pe atunci descărcam o poză și se încărca rând cu rând, de sus în jos.
+# descărc → descarc
+Mi-a luat o săptămână să descarc un film, și apoi era în altă limbă.
+# scăpă → scapă
+Cum se scapă de reclamele care apar pe ecranul de blocare?
+# poză → poza
+Cine a dat like de pe contul meu la poza aia?
+# Cat → Cât
+Cât de des ar trebui să-mi schimb parola de la bancă?
+# mamă → mama
+Mai ții minte parola de la contul de streaming? Mi-a cerut-o mama.
+# pătit → pățit
+Ai mai pățit și tu să-ți dispară toate contactele din telefon?
+# suna → sună
+Te sună o dată, închide, și dacă suni înapoi, plătești o avere.
+# ca → că
+Mi-au scris că reclamația e întemeiată și că primesc banii înapoi.
+# Va → Vă, legătura → legătură, problema → problemă
+Vă scriu pentru a treia oară în legătură cu aceeași problemă.
+# Va → Vă, sa → să
+Vă rog să mă sunați înapoi, nu mai pot sta o oră pe așteptare.
+# Va → Vă
+Vă mulțumesc pentru răspuns, dar nu mi-ați rezolvat problema.
+# Va → Vă
+Vă rog să-mi explicați de ce mi s-a schimbat prețul fără să fiu anunțat.
+# rugă → ruga
+V-aș ruga să-mi trimiteți un curier să ridice coletul.
+# Va → Vă
+Vă anunț că dacă nu primesc răspuns, mă adresez protecției consumatorilor.
+# Va → Vă, va → vă
+Vă doresc o zi bună, și sper să nu mai fie nevoie să vă sun.
+# Va → Vă, uită → uita
+Vă puteți uita în sistem dacă mi s-a înregistrat plata?
+# Va → Vă
+Vă rog să-mi spuneți cum pot să mut abonamentul pe numele soției.
+# va → vă
+Spuneți-mi, vă rog, ce documente trebuie să aduc la magazin.
+# întâmpina → întâmpină
+Ne cerem scuze, dar sistemul nostru întâmpină dificultăți tehnice.
+# va → vă
+Apelul dumneavoastră este important pentru noi, vă rugăm să nu închideți.
+# muzică → muzica
+Am stat atât de mult pe așteptare că am învățat muzica pe de rost.
+# dată → data
+Mi-au cerut să confirm data nașterii și numele mamei.
+# adresa → adresă
+Am uitat ce adresă de mail am dat când am făcut contractul.
+# Față → Fata
+Fata de la magazin a fost mai de ajutor decât toți cei de la telefon.
+# proasta → proastă
+Am dat o recenzie proastă unui magazin și m-au sunat să-mi ceară s-o șterg.
+# cumpăra → cumpără
+Prietena mea scrie recenzii lungi la orice produs cumpără.
+# Mama → Mamă
+Mamă, nu mai răspunde la numerele care te sună de trei ori și închid.
+# Tata → Tată
+Tată, ascultă-mă, banca nu-ți cere niciodată parola la telefon.
+# arați → arăți
+Bunicule, ce bine arăți pe cameră, te-ai tuns?
+# Mătușa → Mătușă
+Mătușă, ai primit pozele de la botez sau să ți le trimit iar?
+# diseara → diseară
+Vere, vii diseară online? Avem nevoie de al patrulea om.
+# camera → cameră
+Soro, mi-ai luat iar încărcătorul din cameră?
+# va → vă
+Doamna Maria, vă rog să nu mai dați click pe reclamele cu premii.
+# va → vă, va → vă, uități → uitați
+Domnule doctor, vă trimit rezultatele pe mail, să vă uitați peste ele.
+# Doamna → Doamnă, ședința → ședință
+Doamnă dirigintă, linkul pentru ședință nu se deschide la mine.
+# Doamna → Doamnă, fetiță → fetița, intră → intra, parola → parolă
+Doamnă învățătoare, fetița nu poate intra pe platformă, îi cere o parolă nouă.
+# mașina → mașină
+Iubitule, adu-mi te rog încărcătorul din mașină când urci.
+# ca → că
+Copii, închideți tabletele, că mergem la masă.
+# Fețelor → Fetelor, ca → că
+Fetelor, opriți filmatul, că vine mâncarea.
+# consolă → consola, va → vă, strica → strică
+Băieți, mai lăsați consola, că vă strică ochii.
+# va → vă
+Dragilor, vă anunț că ne-am mutat pe alt grup de familie.
+# uitați-va → uitați-vă, poza → poză, bunică → bunica, tastatura → tastatură
+Ia uitați-vă ce poză mi-a trimis bunica, cu pisica pe tastatură.
+# Puneți-va → Puneți-vă, va → vă
+Puneți-vă pe toți pe cameră, că vrea tata să vă vadă.
+# Aduceti-mi → Aduceți-mi, tabletă → tableta
+Aduceți-mi și mie tableta, să citesc știrile.
+# Haideti → Haideți, camera → cameră
+Haideți să ne vedem pe cameră duminică la prânz, toată familia.
+# va → vă
+Să vă spun ce mi s-a întâmplat azi cu aplicația băncii.
+# încărci → încarci
+Să nu uiți să încarci telefonul înainte de drum.
+# comandă → comanda
+Să-ți fac eu comanda, că tu te încurci cu cardul.
+# ca → că
+Să-i dăm bunicii telefonul vechi al meu, că e mai bun decât al ei.
+# urcă → urca, antenă → antena
+Nea Ion se urca pe bloc la orice vânt să ne repare antena.
+# Lenuta → Lenuța
+Tanti Lenuța ne cerea mereu să-i dăm canalul cu filme indiene.
+# ca → că
+Venea vecinul la noi să se uite la meci, că el n-avea televizor color.
+# seară → seara
+Mama făcea floricele și ne strângeam toți la film sâmbătă seara.
+# termină → termina
+Când se termina programul, apărea un ecran cu dungi colorate.
+# Stiam → Știam, revistă → revista, chiosc → chioșc
+Știam programul tv pe de rost, din revista cumpărată de la chioșc.
+# carnetel → carnețel, ora → oră
+Bunicul nota în carnețel la ce oră e jurnalul de știri.
+# strică → strica
+Dacă se strica televizorul, era o tragedie pentru toată familia.
+# piesă → piesa
+Am așteptat o lună piesa pentru televizor, adusă de un vecin din străinătate.
+# telecomandă → telecomanda
+Fratele meu a stricat telecomanda și tata ne-a ținut fără televizor o săptămână.
+# caseta → casetă
+Cu bani de buzunar strânși, mi-am cumpărat primul joc pe casetă.
+# încărcă → încărca
+Jocul se încărca douăzeci de minute și de multe ori dădea eroare.
+# certăm → certam, ca → că
+Ne certam atât de tare că mama ne lua joystickul.
+# Ma → Mă
+Mă jucam cu prietenii în fața blocului, dar seara fugeam la calculator.
+# ala → ăla, enervă → enerva
+Discul ăla se întorcea încet și te enerva dacă greșeai o cifră.
+# dă → da
+Fiica mea a întrebat de ce nu putem da înapoi la radio.
+# ca → că, că → ca
+Fiul meu zice că pe vremea mea era ca în evul mediu.
+# seară → seara
+Mi-am pus telefonul pe nu deranjați după ora nouă seara.
+# camera → cameră
+Am început să las telefonul în altă cameră când citesc.
+# noptiera → noptieră
+Mi-am cumpărat un ceas cu alarmă, ca să nu mai țin telefonul pe noptieră.
+# Șoțul → Soțul
+Soțul meu citește știri în pat și lumina ecranului mă trezește.
+# lumină → lumina
+I-am pus modul de noapte și acum lumina e portocalie.
+# față → fata, tabletă → tableta
+Am găsit-o pe fata mea dormind cu tableta pe față.
+# seară → seara
+Fiecare membru al familiei are acum o oră fără ecrane seara.
+# nunta → nuntă
+La nuntă, mirii au cerut invitaților să nu facă poze în biserică.
+# sa → să
+Au angajat un fotograf și au rugat lumea să lase telefoanele.
+# regulă → regula
+Toată lumea a respectat regula, în afară de o mătușă.
+# ca → că
+Bunicii au primit invitație tipărită, că altfel nu credeau.
+# sters → șters
+Am șters câteva comentarii, ca să nu se supere nimeni.
+# Tata → Tată
+Tată, nu închide, stai că te pun pe difuzor să te audă și copiii.
+# că → ca
+Bunico, te aud ca din fundul fântânii, mută-te mai aproape de router.
+# dus → duș
+Scumpule, vezi că ți-a sunat telefonul de trei ori cât erai la duș.
+# Fetito → Fetițo, apasă → apăsa, ca → că, bunică → bunica
+Fetițo, nu mai apăsa pe ecran, că o închizi pe bunica.
+# Mai → Măi
+Măi băiete, ți-am zis să nu instalezi jocuri de pe site-uri dubioase.
+# ala → ăla
+Când ai de gând să-ți schimbi telefonul ăla crăpat?
+# Cat → Cât, Sta → Stă
+Cât timp mai durează actualizarea asta? Stă la nouăzeci și nouă la sută de o oră.
+# pisică → pisica
+Cum e posibil să am zece mii de poze cu pisica?
+# ca → că, factură → factura
+Ce bine că ai sunat, voiam să te întreb ceva despre factura de telefon.
+# ca → că, ala → ăla, sa → să
+Ce noroc că mi-ai spus de mesajul ăla, era să dau datele cardului.
+# rusine → rușine
+Ce rușine, mi-a sunat telefonul la teatru, în mijlocul piesei.
+# lună → luna, poză → poza
+Ce frumos se vede luna în poza asta, cu ce telefon ai făcut-o?
+# asta → ăsta
+Ce greu mi-a fost să învăț să scriu pe ecranul ăsta mic.
+# frica → frică, sa → să, apas → apăs
+Mi-e frică să nu apăs pe ceva și să șterg tot.
+# bunică → bunica
+Mi-e milă de bunica, nu se descurcă deloc cu telefonul nou.
+# jena → jenă
+Mi-e jenă să întreb iar același lucru, dar nu țin minte.
+# încărcă → încarcă
+Mi-e foame și aplicația de livrări nu se încarcă.
+# ca → că
+Mi s-a părut ciudat că banca îmi scrie pe WhatsApp.
+# tabletă → tableta
+Mi s-a blocat tableta în timp ce o actualizam.
+# voua → vouă, sa → să
+Vi s-a întâmplat și vouă să nu primiți codul de la bancă?
+# Ti → Ți
+Ți s-a descărcat telefonul? Te-am sunat de zece ori.
+# Ti → Ți
+Ți s-a schimbat vocea pe mesajele vocale, ești răcit?
+# sună → suna
+Nu v-am putut suna, că n-aveam semnal pe munte.
+# ca → că
+Nu le-am zis părinților că am cumpărat un televizor nou.
+# lasă → lăsa, tabletă → tableta
+Nu-l mai lăsa pe copil cu tableta în mașină, că îi e rău.
+# uită → uita, stradă → strada
+Nu te mai uita la telefon când traversezi strada.
+# va → vă, ca → că
+Nu vă mai certați pe telecomandă, că o rup.
+# suna-mă → sună-mă
+Nu știu pe unde mi-am lăsat telefonul, sună-mă să-l aud.
+# bunică → bunica
+Nu știam că bunica are cont pe internet și ne urmărește pe toți.
+# uită → uita
+Habar n-avea tata că se poate uita la meciuri pe telefon.
+# rațe → rate, sumă → suma
+Aș putea să plătesc factura în rate, că acum nu am toată suma?
+# As → Aș
+Aș fi vrut să știu mai devreme că există o ofertă mai ieftină.
+# ca → că, asta → ăsta
+Aș zice să-ți iei un telefon mai simplu, că tot nu folosești nimic din ăsta.
+# V-as → V-aș, sa → să, seară → seara
+V-aș ruga să nu mai sunați după ora opt seara.
+# Ti-aș → Ți-aș, poză → poza
+Ți-aș trimite poza, dar nu știu cum.
+# plățim → plătim
+Ne-am mutat toate abonamentele pe un singur card, să știm ce plătim.
+# bunică → bunica
+Ne-am împăcat după ce bunica a trimis o poză cu plăcinte.
+# imprimantă → imprimanta
+V-ați descurcat cu imprimanta sau să vin mâine?
+# cerneală → cerneala
+S-a terminat cerneala exact când trebuia să printez biletele.
+# ca → că
+Se pare că problema e la cablul din fața blocului.
+# bazâit → bâzâit
+Se aude un bâzâit ciudat din boxele televizorului.
+# încarca → încarcă, pagina → pagină, seară → seara
+Se încarcă foarte greu orice pagină după ora opt seara.
+# descărcă → descarcă
+Am observat că se descarcă bateria mai repede când e frig.
+# ca → că
+Am aflat abia acum că plăteam două abonamente la același serviciu.
+# singura → singură
+Am reușit singură să-mi schimb parola, sunt foarte mândră.
+# sala → sală
+Am uitat de tot că trebuia să plătesc abonamentul la sală prin aplicație.
+# ras → râs, urât → urat
+Am râs amândoi și ne-am urat o zi bună.
+# agendă → agenda
+Toată agenda a văzut poza mea cu masca de față verde.
+# arat → arăt
+Mi-a scris și doctorul de familie că arăt bine.
+# Mama → Mamă, greșeala → greșeală
+Mamă, iar ai dat din greșeală apel video, îți văd doar tavanul.
+# ca → că
+Am remarcat că imprimanta merge doar dacă e cald în cameră.
+# față → fata
+Bunica a numit toate contactele după relație: fata, nepotul, doctorul.
+# sters → șters
+Mama a șters din greșeală tot grupul de familie, cu toate pozele.
+# băgam → băgăm
+Bunicul a ieșit din grup din greșeală și ne-a sunat să-l băgăm la loc.
+# logodnă → logodna
+Vărul meu și-a anunțat logodna pe grup, cu o poză cu inelul.
+# nuntă → nunta
+Bunica a răspuns la poză cu întrebarea când e nunta.
+# Matușa → Mătușa
+Mătușa a trimis o sută de inimioare și un mesaj vocal de trei minute.
+# nepotelul → nepoțelul
+Când s-a născut nepoțelul, prima poză a ajuns pe grup după zece minute.
+# poza → poză
+Tata a dat forward la poză tuturor prietenilor lui.
+# tine → ține
+Mama ține în telefon un dosar special doar cu pozele nepoților.
+# lăuda → laudă
+Una a primit cel mai nou telefon de la fiu și se laudă toată ziua.
+# Cealalta → Cealaltă, ca → că
+Cealaltă a zis că al ei e mai bun, că face poze mai luminoase.
+# Amândoua → Amândouă
+Amândouă s-au supărat pe mine.
+# că → ca
+I-am schimbat ora și mi-a adus o sticlă de vin ca mulțumire.
+# problema → problemă
+De atunci vine la mine cu orice problemă, chiar și cu televizorul.
+# prognoză → prognoza
+Ieri m-a chemat pentru o notificare cu prognoza meteo.
+# dulceată → dulceață
+Mi-a mulțumit și m-a servit cu dulceață de cireșe.
+# bațe → bate, ușa → ușă
+Seara, cineva bate la ușă cu un laptop sub braț.
+# imprimantă → imprimanta
+Mătușa îl sună când nu-i merge imprimanta, deși el face aplicații pentru bănci.
+# imprimantă → imprimanta
+Mama a crezut că e o glumă și i-a adus imprimanta a doua zi.
+# repară → repara
+I-am explicat că nu se mai poate repara și că trebuie unul nou.
+# ala → ăla
+A zis că pe ăla îl are de la bunicul și nu vrea altul.
+# seară → seara
+Bunica le citește seara, înainte de culcare.
+# ca → că, altcuivă → altcuiva
+Mi-a explicat fiul meu că cloud-ul e tot un calculator, doar că al altcuiva.
+# altcuivă → altcuiva
+Nu știu dacă să am încredere în calculatorul altcuiva.
+# nuntă → nunta
+Bunica a păstrat fotografiile de la nunta ei într-o cutie de bomboane.
+# miste → miște
+Am trimis pozele vechi unei aplicații care le face să se miște.
+# bunică → bunica
+Bunicul din poză a zâmbit și a clipit, iar bunica s-a speriat.
+# ca → că, bunică → bunica
+Nu-mi mai trimite din astea, că parcă e o fantomă, a zis bunica.
+# sters → șters, poză → poza
+Am șters animația și i-am trimis doar poza originală, cum era.
+# sifonate → șifonate
+Coletul s-a întors după două săptămâni, deschis și cu hainele șifonate.
+# carat → cărat, scari → scări
+Studentul a venit cu trei prieteni și au cărat canapeaua pe scări.
+# marfă → marfa
+Firma de transport zice că nu răspunde pentru marfa care nu e asigurată.
+# bicicletă → bicicleta
+Am montat bicicleta după un video și mi-a rămas un șurub în plus.
+# ala → ăla
+Merge perfect și fără șurubul ăla, dar sunt îngrijorat.
+# Mama → Mamă, ala → ăla
+Mamă, șterge mesajul ăla și nu mai răspunde, că e de la escroci.
+# Tata → Tată, poză → poza
+Tată, apasă pe poza mea din listă și o să mă suni direct.
+# ca → că
+Ioane, adu-mi și mie căștile de pe birou, că am apel.
+# ca → că
+Mihai, închide calculatorul, că e trecut de miezul nopții.
+# va → vă
+Doamna Popescu, vă trimit eu linkul pe WhatsApp, să nu-l scrieți de mână.
+# va → vă
+Domnule, vă rog să nu-mi mai trimiteți mesaje la ora asta.
+# va → vă
+Băieți, vă rog să nu mai puneți poze cu mine pe grupul echipei.
+# Fețelor → Fetelor
+Fetelor, cine a luat telefonul meu de pe masă?
+# Bunicuto → Bunicuțo
+Bunicuțo, te sun eu înapoi, acum sunt în autobuz.
+# suna-mă → sună-mă
+Puiule, sună-mă imediat ce ajungi la școală, da?
+# întrună → întruna
+Iubito, vezi că ai lăsat telefonul în mașină și sună întruna.
+# ca → că
+Frate, pune-te pe server, că începem acum.
+# Mai → Măi
+Măi, voi ați primit factura asta uriașă de la internet?
+# ala → ăla
+Tu chiar ai crezut mesajul ăla cu moștenirea din Nigeria?
+# ca → că
+Eu am crezut că e o glumă, dar unchiul meu chiar a trimis bani.
+# sa → să
+De atunci, unchiul nu mai deschide niciun mail fără să mă întrebe.
+# Ma → Mă, suna → sună
+Mă sună și îmi citește fiecare mail, chiar și pe cele de la bancă.
+# păcăliță → păcălită
+Mătușa mea a fost păcălită de un vânzător online care vindea câini.
+# există → exista
+A plătit avansul pentru un cățel care nu exista.
+# frică → frica
+Escrocii folosesc frica, ca să nu mai gândești limpede.
+# prințat → printat
+Administratorul a printat avertismentul și l-a lipit la intrare.
+# Listă → Lista
+Lista de întreținere am primit-o pe mail, dar mama vrea s-o vadă pe hârtie.
+# listă → lista
+Am printat lista și am dus-o mamei, să fie liniștită.
+# sa → să
+Nu l-a schimbat niciodată, și nici nu vrea să audă de aplicații.
+# Tată → Tata
+Tata încă face calculele pe o foaie, cu creionul.
+# gresesc → greșesc
+Eu fac calculele pe telefon și tot greșesc mai des decât el.
+# ajuta → ajută, teza → teză
+I-am zis că programul nu-l ajută la teză.
+# teza → teză
+La teză, telefoanele se lasă în ghiozdan, închise.
+# uită → uita
+Elevul zicea că se uita doar la ceas.
+# fituici → fițuici
+Pe vremea mea, copiam de pe fițuici ascunse în pix.
+# caști → căști
+Acum copiii au ceasuri inteligente și căști cât un bob de fasole.
+# că → ca
+Fiica mea a dat bacul și a zis că se simțea ca la emisiunile cu camere ascunse.
+# mâna → mână, reîncărcă → reîncărca, pagină → pagina
+Toată familia stătea cu telefoanele în mână și reîncărca pagina.
+# intră → intra
+Site-ul a picat de la atâta lume care intra deodată.
+# bunică → bunica
+Fiica mea a luat nota mare și am sunat-o pe bunica la două noaptea.
+# vecina → vecină
+A doua zi a sunat-o pe fiecare vecină să le spună.
+# platforma → platformă
+Fiica mea a încărcat toate actele pe platformă, scanate.
+# megă → mega
+Platforma a cerut ca fiecare fișier să fie mai mic de doi mega.
+# sa → să, pagina → pagină
+Am stat toată seara să micșorăm fișierele, pagină cu pagină.
+# cameră → camera, că → ca
+Fiica mea a întors camera spre frigider, ca s-o liniștească.
+# zăcușcă → zacuscă
+Coletul a venit cu borcane de zacuscă și o prăjitură.
+# poză → poza
+I-am zis că mamele știu tot, fără să-i spun că am văzut poza.
+# ca → că
+Mi-a cerut să nu-l mai urmăresc pe internet, că îl fac de râs.
+# ca → că
+Mi-a explicat că mamele nu dau like în public.
+# Șoțul → Soțul
+Soțul meu nu are niciun cont pe internet și se mândrește cu asta.
+# ras → râs, întreaga → întreagă
+A râs o seară întreagă și a zis că el arată mai bine.
+# sa → să, ma → mă
+Am alergat zece kilometri și aplicația s-a oprit la cinci, ca să mă enerveze.
+# dimineața → dimineață
+Cântarul inteligent îmi trimite greutatea pe telefon în fiecare dimineață.
+# debară → debara
+Am pus cântarul în debara, ca să nu mai văd notificările.
+# Va → Vă
+Vă rog să-mi spuneți dacă e vreo problemă la rețea în cartierul Titan.
+# Va → Vă
+Vă scriu deoarece de o săptămână televizorul nu mai prinde niciun canal.
+# Va → Vă, ca → că
+Vă reamintesc că ați promis să-mi trimiteți un tehnician până vineri.
+# Va → Vă
+Vă rog frumos, nu mă mai transferați la alt departament.
+# Va → Vă
+Vă rog să-mi dați un număr de înregistrare pentru reclamație.
+# Va → Vă
+Vă rog să-mi trimiteți contractul pe mail, nu l-am primit la semnare.
+# Va → Vă
+Vă rog să verificați de ce mi s-a dublat abonamentul luna asta.
+# Va → Vă
+Vă rog să-mi spuneți cum pot să schimb adresa de facturare.
+# Va → Vă
+Vă rog să opriți reînnoirea automată a abonamentului meu.
+# Va → Vă, rugam → rugăm
+Vă rugăm să ne transmiteți seria contorului și o poză cu indexul.
+# Va → Vă, rugam → rugăm
+Vă rugăm să introduceți codul primit prin SMS în următoarele cinci minute.
+# Va → Vă
+Vă informăm că plata dumneavoastră a fost înregistrată cu succes.
+# Va → Vă, informam → informăm
+Vă informăm că în data de cinci va avea loc o întrerupere programată a furnizării energiei.
+# Va → Vă
+Vă așteptăm la oricare dintre magazinele noastre pentru schimbarea cartelei.
+# Va → Vă, va → vă
+Vă mulțumim că ați ales serviciile noastre și vă dorim o zi frumoasă.
+# poză → poza
+Te rog să-mi trimiți poza cu bonul, ca să fac returul.
+# tabletă → tableta
+Te rog să-i explici tu bunicii cum se folosește tableta, că eu n-am răbdare.
+# imprimantă → imprimanta
+Te rog frumos, oprește jocul și ajută-mă puțin cu imprimanta.
+# ca → că
+Te rog să verifici dacă ți-a intrat transferul, că la mine scrie trimis.
+# camera → cameră, tată → tata
+Te așteptăm pe cameră la șapte, să-i cântăm lui tata la mulți ani.
+# ca → că
+Te sun mai târziu, că acum am bateria pe ultimul procent.
+# sună → suna
+Mă poți suna înapoi pe fix? Pe mobil nu se aude nimic.
+# Ma → Mă
+Mă tot întreb de ce mi se golește bateria atât de repede.
+# Ma → Mă
+Mă enervează că nu pot să sar peste reclamele de la început.
+# Ma → Mă, ca → că
+Mă bucur că ai învățat să faci apeluri video, ne vedem mai des.
+# Ma → Mă
+Mă doare capul de la atâtea parole și coduri.
+# Ma → Mă
+Mă sperie cât de multe știe telefonul despre mine.
+# Ma → Mă
+Mă gândeam să-i iau mamei un ceas care să-i măsoare tensiunea.
+# tableta → tabletă
+Mă uitam la un film pe tabletă și s-a oprit curentul în tot blocul.
+# Ma → Mă
+Mă jucam pe telefon în autobuz și mi-am ratat stația.
+# sală → sala, bunică → bunica
+Mă duceam la sala de jocuri cu banii de la bunica și mă întorceam fără un leu.
+# strangeam → strângeam
+Ne strângeam în fața blocului și comparam jocurile de pe telefoanele cu taste.
+# supără → supăra, mamă → mama
+Ne povesteam la telefonul fix ore în șir, până se supăra mama.
+# mamă → mama, sună → suna
+Ne închidea mama telefonul ca să poată suna ea la sora ei.
+# biletele → bilețele
+Ne scriam bilețele în clasă, iar acum copiii își scriu pe telefon din aceeași bancă.
+# bucurăm → bucuram
+Ne bucuram de orice joc nou, acum copiii se plictisesc după cinci minute.
+# semănă → semăna
+Mi-a arătat apartamentul nostru din joc și chiar semăna.
+# plans → plâns
+A plâns de parcă murise un animal adevărat.
+# ca → că
+Mama lui zice că face bani din asta, dar eu nu înțeleg cum.
+# camera → cameră
+I-am cumpărat un microfon de ziua lui, și acum vorbește singur în cameră toată ziua.
+# sters → șters
+L-am șters și am lăsat un comentariu de pe contul tatălui său.
+# ca → că
+Mi-au explicat că în joc se aude mai bine.
+# masa → masă
+Le-am făcut clătite și au venit la masă fără să lase telefoanele.
+# masa → masă
+După masă s-au repezit la telefoane ca la ultimul colac de salvare.
+# cașcă → casca
+Am încercat și eu casca și am căzut pe canapea de frică.
+# cașcă → casca
+A stat o oră cu casca pe cap și a plâns de emoție.
+# casca → cască
+Ne-a zis că Parisul e frumos, dar că i-a fost rău de la cască.
+# cască → casca, strica → strică
+Tata nu a vrut să încerce casca, zicea că îi strică ochii.
+# tableta → tabletă
+Bunica a primit tabletă și a intrat pe grupul satului.
+# sta → stă, tabletă → tableta
+Bunica stă pe bancă în fața porții, cu tableta în mână.
+# tableta → tabletă
+Una dintre vecine a cerut și ea tabletă de la copii.
+# tablețele → tabletele
+Satul s-a modernizat de când au venit nepoții în vacanță cu tabletele.
+# slujba → slujbă
+Bunicul s-a uitat la slujbă pe telefon când era bolnav.
+# strigăi → strigai, căuți → cauți
+Pe vremuri strigai după cal pe uliță, acum îl cauți pe WhatsApp.
+# Mama → Mamă
+Mamă, ți-am pus în telefon numărul de la farmacie, să-l ai la îndemână.
+# Tata → Tată
+Tată, ai primit mesajul meu sau iar ți-e telefonul pe silențios?
+# ca → că, ține → tine
+Bunico, mută telefonul de la ureche, că e apel video și te văd doar pe tine din profil.
+# seară → seara
+Am folosit bateria externă toată seara, ca să putem vorbi cu ai noștri.
+# geanță → geantă, căptușeală → căptușeala
+Mi-a explodat bateria externă în geantă și s-a ars căptușeala.
+# Încărcăm → Încărcam, duminică → duminica, seară → seara
+Încărcam telefonul doar duminica seara, ca pe un ritual.
+# asta → ăsta
+Telefonul ăsta încape doar în buzunarul de la geacă.
+# ca → că, feței → fetei
+Bunicul a zis că telefonul fetei e cât un televizor de buzunar.
+# frica → frică
+Am cumpărat un telefon pliabil și mi-e frică să-l deschid.
+# Garantia → Garanția, îndoitură → îndoitura, uzura → uzură
+Garanția nu acoperă îndoitura, zic ei, că e uzură normală.
+# uzura → uzură
+Cum adică uzură normală, dacă tot rostul lui e să se îndoaie?
+# firmă → firma
+Am pus povestea pe internet și m-a sunat firma în aceeași zi.
+# rezolva → rezolvă
+Se pare că doar așa se rezolvă lucrurile acum, făcând scandal public.
+# sters-o → șters-o
+N-am șters-o, dar am adăugat că mi-au rezolvat problema.
+# problema → problemă
+Prietena mea a avut aceeași problemă și nu i-a răspuns nimeni.
+# poștare → postare
+I-am dat sfatul să facă și ea o postare, dar n-a vrut.
+# ca → că
+Primăria zice că operatorul n-a depus nicio cerere.
+# stam → stăm
+Între timp, noi stăm fără internet în cartierul nou de doi ani.
+# pliță → plită
+Am pus telefonul pe post de router și s-a încins ca o plită.
+# lună → luna
+Factura de telefon a fost de trei ori mai mare luna asta.
+# fibră → fibra
+După jumătate de an, au venit în sfârșit cu un camion și au tras fibra.
+# stradă → strada
+Toată strada a ieșit să se uite la muncitori, ca la un spectacol.
+# fibră → fibra, zăcuscă → zacuscă
+Tehnicianul care ne-a instalat fibra a primit un borcan de zacuscă de la fiecare vecin.
+# limba → limbă
+Laptopul scump a venit cu o tastatură în altă limbă și n-are diacritice.
+# abtibilduri → abțibilduri
+Am lipit abțibilduri cu literele românești pe taste.
+# In → În
+În weekend avem voie trei ore, dar după ce terminăm treburile casei.
+# sta → stă
+Fiica mea nu se joacă, dar stă pe aplicații de socializare toată ziua.
+# ca → că
+I-am explicat că pozele perfecte de pe internet nu sunt reale.
+# ca → că
+Am observat că și eu mă simt mai prost după o seară pe rețele.
+# sters → șters
+Am șters aplicația de pe telefon și o folosesc doar de pe calculator.
+# asta → ăsta
+Trucul ăsta mi l-a spus o colegă și chiar funcționează.
+# In → În
+În weekend lasă smartphone-ul acasă și umblă doar cu telefonul simplu.
+# bată → bâta
+Am întrebat un cioban pe unde se ajunge, și ne-a arătat cu bâta.
+# arată → arăta, piscină → piscina, arată → arăta
+Nepotul îi arăta piscina, iar bunicul îi arăta vacile.
+# Bunică → Bunica
+Bunica a învățat să scoată banii de la bancomat doar ca să-i primească de la fiu.
+# vară → vara
+Când vine fiul acasă vara, îi dă banii înapoi într-un plic.
+# sta → stă
+Acum stă toată ziua pe el, iar media din semestrul ăsta a scăzut.
+# Mama → Mamă, ala → ăla
+Mamă, nu mai cumpăra nimic de pe site-ul ăla, că nu trimit nimic.
+# Tata → Tată, ala → ăla
+Tată, ți-am zis că mesajul ăla cu pachetul e fals, șterge-l.
+# Mama → Mamă
+Mamă, ai grijă că ți-a expirat cardul și nu mai merge plata automată.
+# Tata → Tată, pătit → pățit
+Tată, ce-ai pățit cu telefonul? Te sun de o oră și sună ocupat.
+# fetiță → fetița, că → ca
+Bunico, ți-am trimis o poză cu fetița, dă-i zoom ca s-o vezi mai bine.
+# va → vă
+Mătușa Ileana, vă rog să nu mai trimiteți lanțuri pe grup, că se enervează toată lumea.
+# ala → ăla
+Ce faci, frate? Ai trecut de nivelul ăla greu?
+# ca → că
+Hai să-l facem împreună diseară, că e mai ușor în doi.
+# că → ca
+Te aștept la nouă pe server, nu întârzia ca data trecută.
+# sa → să
+Data trecută am întârziat pentru că m-a pus mama să duc gunoiul.
+# aia → ăia
+Am zis că nu, dar avea ochii ăia care știu tot.
+# ca → că
+Mi-a zis că o tastatură bună te face să joci mai bine.
+# razând → râzând
+Problema nu e la tastatură, e la tine, mi-a zis râzând.
+# până → pana
+Am scris la suport că a fost pana de curent, dar nu m-au crezut.
+# factură → factura
+Am trimis și o poză cu factura de curent, ca dovadă.
+# Șoțul → Soțul
+Soțul meu se preface că înțelege, dar nici el nu știe nimic.
+# ras → râs
+A râs atât de tare că a trebuit să ia o pauză.
+# Sta → Stă
+Stă cu volanul în sufragerie și nu-l mai poate scoate nimeni de acolo.
+# sală → sala
+Când eram mici, tata ne lua la sala de jocuri de pe litoral.
+# fișe → fise, seară → seara
+Ne dădea câte cinci fise fiecăruia și trebuia să le facem să ajungă toată seara.
+# terminăm → terminam, uităm → uitam
+Eu le terminam în cinci minute și mă uitam apoi la ceilalți.
+# fișă → fisă
+Fratele meu era foarte bun și juca o fisă o oră întreagă.
+# strangeam → strângeam
+Ne strângeam toți în jurul lui ca la un meci de fotbal.
+# apas → apăs
+Totuși, mă uit la trei episoade, doar că apăs eu pe ele.
+# Șoțul → Soțul
+Soțul meu adoarme mereu la primul episod și apoi vrea să știe ce s-a întâmplat.
+# duminică → duminica, uităm → uitam
+Mergeam la cinema duminica și ne uitam la orice film era.
+# sa → să
+Acum avem mii de filme acasă și stăm o oră să alegem unul.
+# piesa → piesă
+La teatru, actorul s-a oprit din piesă când a sunat un telefon.
+# doamnă → doamna
+A așteptat în tăcere până a închis doamna, apoi a continuat.
+# sală → sala, aplăudat → aplaudat
+Toată sala a aplaudat, iar doamna s-a făcut roșie.
+# filmă → filma, uită → uita
+La concert, toată lumea filma și nimeni nu se uita la scenă.
+# atmosferă → atmosfera
+Mi-a zis că sunetul e groaznic, dar se simte atmosfera.
+# sa → să, mamă → mama
+Am făcut un apel video din mulțimea de la concert, ca să audă și mama.
+# ca → că
+Mama zice că cele zece minute ale mele durează două ore.
+# Mama → Mamă
+Mamă, dacă îți cere cineva să instalezi o aplicație la telefon, închide imediat.
+# Tata → Tată, ca → că
+Tată, te rog să nu mai dai numărul cardului nimănui, nici dacă zice că e de la poliție.
+# Asculta → Ascultă, mama → mamă, bancă → banca
+Ascultă, mamă, banca nu te sună ca să-ți ceară codul de pe card.
+# căuți → cauți
+Uite ce faci: închizi, cauți numărul băncii pe spatele cardului și suni tu.
+# fa-i → fă-i
+Dacă ți se pare ciudat un mesaj, fă-i o poză și trimite-mi-o mie.
+# grabi → grăbi
+Nu te grăbi niciodată când îți cere cineva bani pe internet.
+# ca → că
+Am primit un mesaj că am o reducere de nouăzeci la sută la telefoane.
+# arată → arăta, că → ca
+Site-ul arăta exact ca magazinul adevărat, doar adresa era alta.
+# sa → să
+A comandat o pătură și a sunat pe toată lumea să spună că a ajuns.
+# comanda → comandă
+Acum comandă de toate și curierul o știe pe nume.
+# bicicleta → bicicletă
+Livratorul a venit pe bicicletă prin ploaie și mi-a fost milă de el.
+# bacsis → bacșiș
+I-am lăsat bacșiș mare și i-am dat o umbrelă.
+# comanda → comandă
+Fiul meu comandă mâncare de trei ori pe săptămână din banii lui.
+# lasa → lasă
+Mama urmărește canalul fiului și îi lasă comentarii cu sfaturi.
+# față → fața
+Contul de la bancă a cerut o poză cu fața mea ca să mă recunoască.
+# poză → poza, seară → seara
+Am făcut poza seara, pe întuneric, și n-a mers.
+# banca → bancă
+Am sunat la bancă să le spun că sistemul lor nu deosebește gemenii.
+# parola → parolă
+Acum am parolă, amprentă și cod, și tot nu mă simt în siguranță.
+# asta → ăsta
+Programul ăsta îmi blochează și site-urile bune.
+# ca → că, ca → că
+Nu pot să intru pe site-ul școlii pentru că antivirusul zice că e periculos.
+# sa → să, frică → frica
+Bunica nu voia să atingă calculatorul de frica virușilor.
+# radem → râdem
+Acum râdem de asta, dar atunci chiar credeam că e posibil.
+# umbrelă → umbrela
+Fiul meu a crezut un clip în care un om zicea că poți zbura cu umbrela.
+# ca → că
+I-am explicat că pe internet sunt multe minciuni frumoase.
+# Ma → Mă, ca → că
+Mă bucur că încă vine la mine cu întrebări.
+# că → ca
+Mi-a pus o melodie de-a ei ca sonerie și acum toată lumea râde.
+# supară → supără, nepoată → nepoata
+Nu o schimb, că se supără nepoata.
+# strada → stradă
+Acum îl opresc oamenii pe stradă să-l întrebe de dans.
+# țări → tari
+Prima lui încercare a fost o tavă de clătite arse și tari ca pielea.
+# Mama → Mamă
+Mamă, iar ai închis din greșeală wifi-ul, de aia nu-ți merge nimic.
+# Tata → Tată
+Tată, nu-ți face griji, ți-am salvat toate contactele pe cont.
+# Fața → Fata
+Fata mea, te rog, scrie-mi măcar un rând când ajungi la cămin.
+# Sa → Să, ca → că
+Să nu-mi spui că ai șters iar galeria ca să faci loc pentru jocuri.
+# certă → certa, ca → că
+Nu mă certa, că oricum mă simt destul de prost.
+# Apașa → Apasă
+Apasă pe selectează tot și apoi pe restaurează, jos de tot.
+# factura → factură
+Am trimis indexul pe douăzeci și unu și mi-au făcut factură estimată.
+# scadentă → scadență
+Telefonul mă anunță acum cu o zi înainte de fiecare scadență.
+# ca → că
+După o lună, dosarul era tot gol, că am uitat să le mut.
+# vină → vina, vină → vina
+Banca a zis că e vina furnizorului, furnizorul a zis că e vina băncii.
+# Tată → Tata
+Tata citește extrasul de cont ca pe un ziar, cu ochelarii pe nas.
+# costa → costă
+Banca i-a spus că extrasul pe hârtie costă cinci lei pe lună.
+# ca → că
+Mama a zis că plătește, numai să nu se uite pe telefon.
+# ca → că, imprimantă → imprimanta
+A zis că imprimanta mea e prea complicată și a renunțat.
+# duminică → duminica, ciorbă → ciorba
+Acum îi printez eu extrasul lunar și i-l duc duminica, odată cu ciorba.
+# urgente → urgențe
+L-am rugat să lase măcar o parte pe card, pentru urgențe.
+# Macar → Măcar
+Măcar e un progres, zic eu.
+# răzând → râzând
+Mi-a zis bunicul râzând că, dacă n-ai cont, nu ți-l poate bloca nimeni.
+# bunică → bunica
+Acum bunica răspunde doar dacă aude numele nostru.
+# pisică → pisica
+E ca un joc fără sfârșit, de-a șoarecele și pisica.
+# sa → să
+Era să nu-i răspund doctorului din cauza aplicației.
+# refuză → refuza
+Mama era în bucătărie și auzea cum el refuza apelurile ei de la serviciu.
+# Tată → Tata
+Tata l-a învățat să spună cine sună și să cheme pe cineva mare.
+# ca → că
+Scrie că e la poartă și apoi sună la sonerie, ca să fie sigură.
+# ca → că
+Totuși, mă bucur că știu dinainte și pot să fac curat.

@@ -1,0 +1,2017 @@
+# Everyday Romanian: wishes, condolences, relationships, memories and traditions.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# mama → mamă
+La mulți ani, mamă! Îți mulțumesc pentru tot ce ai făcut pentru mine.
+# Sa → Să, ca → că
+Să te bucuri de ziua ta cum se cuvine, că o meriți din plin.
+# Ti-am → Ți-am
+Ți-am pregătit o surpriză, dar trebuie să ajungi acasă până la opt.
+# Cate → Câte
+Câte lumânări să pun pe tort? Nu mai țin minte câți ani face bunicul.
+# ca → că
+La mulți ani cu sănătate, că restul vine de la sine!
+# Sa → Să
+Să ai parte numai de zile senine și de nopți liniștite.
+# urari → urări
+Mulțumesc tuturor pentru urări, m-ați făcut să mă simt cel mai iubit om din lume.
+# parca → parcă
+Fetița noastră a împlinit azi un an, parcă ieri o aduceam acasă de la maternitate.
+# cumințe → cuminte
+Să crești mare și cuminte și să ne asculți măcar din când în când.
+# gată → gata
+Tort, baloane, invitați, totul e gata, numai sărbătoritul încă doarme.
+# Ti-am → Ți-am
+Ți-am luat un cadou mic, dar l-am ales cu tot sufletul.
+# placa → placă
+Sper să-ți placă ceasul, l-am căutat prin toate magazinele din oraș.
+# nasule → nașule, nasă → nașa, incolo → încolo
+La mulți ani, nașule! Să ne trăiți alături de nașa încă mulți ani de acum încolo.
+# in → în
+Te pup și te îmbrățișez strâns, ne vedem în weekend să sărbătorim cum trebuie.
+# Sa → Să
+Să ai putere să-ți împlinești visurile și curaj să-ți faci altele noi.
+# diseara → diseară
+la mulți ani, scumpo! abia aștept să ne vedem diseară
+# va → vă
+Am făcut rezervare la restaurantul vostru preferat, vă așteptăm sâmbătă la șapte.
+# după-amiază → după-amiaza
+Copiii ți-au desenat o felicitare, au stat toată după-amiaza la ea.
+# asta → ăsta, căuți → cauți
+Să-ți aducă anul ăsta liniștea pe care o cauți de atâta vreme.
+# parca → parcă
+Doamne, ce repede trec anii, parcă ieri sărbătoream împreună în cămin.
+# Sărbătorită → Sărbătorita, cascată → căscată, ușa → ușă
+Sărbătorita nu bănuia nimic, a rămas cu gura căscată când a intrat pe ușă.
+# asta → ăsta
+Unde facem petrecerea anul ăsta, la voi sau la noi?
+# dată → data
+Ne-ai lipsit tare mult la masă, data viitoare te așteptăm negreșit.
+# sora → soră
+Pentru cea mai bună soră din lume, la mulți ani și să rămâi la fel de nebunatică!
+# ține → tine
+Îmi pare rău că nu pot ajunge, sunt cu gândul la tine toată ziua.
+# Sa → Să, răzi → râzi
+Să ai parte de un an în care să râzi mai mult decât să plângi.
+# ține → tine
+Ce faci de Sfântul Ion, îi chemi pe toți la tine ca anul trecut?
+# Maine → Mâine, ghețute → ghetuțe
+Mâine e Sfântul Nicolae, nu uita să le pui copiilor ceva în ghetuțe.
+# onomastică → onomastica
+La mulți ani tuturor celor care își serbează onomastica azi!
+# bunică → bunica
+De Sfântul Andrei bunica punea usturoi la ferestre și ne spunea povești cu strigoi.
+# stradă → strada
+Tata își serba ziua numelui mai ceva decât ziua de naștere, cu toată strada la masă.
+# Sa → Să, primăvara → primăvară
+Florin, la mulți ani de Florii! Să ai o primăvară frumoasă.
+# Lenuță → Lenuța
+De Sfinții Constantin și Elena mergem la mătușa Lenuța, ca în fiecare an.
+# Ti-am → Ți-am
+Ți-am adus o sticlă de vin bun de ziua numelui, să o deschidem împreună.
+# ca → că
+Am primit atâtea telefoane de Sfântul Ilie că mi s-a descărcat bateria.
+# asta → ăsta
+Anul ăsta nu fac nimic de onomastică, mi-ajunge că mă sună ai mei.
+# colindatori → colindători
+Bunicul se numea Vasile și de Anul Nou casa lui era plină de colindători.
+# plăcinta → plăcintă
+Vecina ne-a adus plăcintă de Sfânta Maria, că așa face ea în fiecare an.
+# iarnă → iarna
+Nu știam că Elena își serbează numele în mai, credeam că e iarna.
+# arată → arăta, că → ca, slabea → slăbea
+Nunta a fost superbă, mireasa arăta ca o regină, iar mirele n-o slăbea din ochi.
+# Casa → Casă, va → vă
+Casă de piatră și să vă iubiți până la adânci bătrâneți!
+# Va → Vă
+Vă doresc o viață lungă împreună, cu răbdare, înțelegere și mulți copii zglobii.
+# tată → tata
+Am plâns ca un copil când tata a condus-o pe sora mea la altar.
+# sală → sala
+Când a început hora, s-a prins toată sala, de la bunici până la nepoți.
+# nunta → nuntă
+Cât se dă la nuntă acum de cap de om? Nu vreau să mă fac de râs.
+# Va → Vă
+Vă mulțumim din suflet pentru darul de nuntă, ne-ați ajutat enorm la început de drum.
+# nuntă → nunta
+Felicitări pentru logodnă! Când facem nunta?
+# dă → da, frază → fraza
+Mi-a cerut mâna pe malul mării, la apus, și am zis da înainte să termine fraza.
+# va → vă
+Să fiți fericiți și să vă aduceți aminte mereu de ziua asta frumoasă!
+# Felicitari → Felicitări
+Felicitări, porumbeilor! V-a stat atât de bine împreună.
+# că → ca
+Sper ca nunta să fie doar începutul unei povești frumoase.
+# va → vă
+Ne-ați făcut cinste mare că ne-ați ales să vă fim nași.
+# va → vă
+Vrem să vă rugăm să ne fiți nași de botez pentru băiețel.
+# finutei → finuței
+Ce i-ați luat finuței de botez? Eu mă gândeam la o brățară de aur.
+# Nasa → Nașa
+Nașa i-a pus o iconiță la cap și i-a zis să crească frumos.
+# prezenta → prezență, seară → seara
+Mulțumim pentru prezență și pentru cadouri, micuța a dormit buștean toată seara.
+# poză → poza
+Am primit poza de la botez, ce frumos e îmbrăcat în costumul popular!
+# diplomă → diploma
+Să-ți fie diploma începutul unui drum frumos, plin de reușite.
+# scena → scenă, diplomă → diploma
+Când a urcat pe scenă să-și ia diploma, toată familia a început să aplaude.
+# mândra → mândră
+Sunt mândră de tine, ai terminat facultatea cu brio, deși ai muncit în paralel.
+# mama → mamă
+Felicitări pentru bacalaureat, mamă, ai luat zece la română!
+# ca → că
+Îți doresc mult succes la noul loc de muncă, sunt sigur că o să te descurci de minune.
+# muncă → munca
+Felicitări pentru promovare, era și timpul să-ți vadă cineva munca.
+# Felicitari → Felicitări, va → vă
+Felicitări, proaspeților părinți! Să vă crească sănătos și cuminte.
+# taticul → tăticul
+Cum se simte tăticul? Ai dormit măcar două ore azi-noapte?
+# față → fată
+Știi deja ce e, băiat sau fată? Spune-mi, că nu mai pot de curiozitate.
+# Ti-a → Ți-a
+Ți-a luat ceva să te hotărăști, dar a meritat, noul job sună perfect pentru tine.
+# masă → masa
+Mulțumim pentru masa de duminică, a fost totul delicios, mai ales ciorba.
+# Va → Vă, grijă → grija, mamă → mama
+Vă mulțumesc din suflet pentru grija cu care ați avut-o pe mama în spital.
+# Doamna → Doamnă, va → vă, va → vă
+Doamnă învățătoare, vă mulțumim pentru acești patru ani, copiii vă vor iubi mereu.
+# ca → că
+Mulțumesc că m-ai ascultat aseară, aveam mare nevoie să vorbesc cu cineva.
+# sa → să
+Nu ai fi fost obligat să mă ajuți, dar ai făcut-o fără să ceri nimic în schimb.
+# Ti-am → Ți-am, asta → ăsta
+Ți-am scris câteva rânduri ca să-ți mulțumesc pentru tot ce ai făcut anul ăsta.
+# masă → masa
+Să aveți sărbători liniștite, cu cei dragi aproape și cu masa plină.
+# așteptăm → așteptam
+Când eram mici, așteptam toată noaptea să-l prindem pe Moș Crăciun la fereastră.
+# asta → ăsta
+Anul ăsta facem bradul împreună, ca pe vremuri, cu globurile vechi ale mamei.
+# său → sau
+Ce mâncăm de Crăciun, facem și sarmale sau doar friptură?
+# cântăm → cântam
+Steaua sus răsare, cântam cu glas tare pe ulița satului.
+# Va → Vă
+Vă doresc un Crăciun cald, cu miros de cetină și de cozonac proaspăt.
+# coada → coadă
+Am stat la coadă două ore pentru brad, dar a meritat, e cel mai frumos de până acum.
+# colindatori → colindători
+Am primit colindători aseară, niște copii din bloc care cântau foarte frumos.
+# masă → masa, lasă → lăsa
+Mama pregătea masa de Crăciun cu o săptămână înainte și nu ne lăsa să gustăm nimic.
+# uităm → uitam, mâncăm → mâncam
+În noaptea de Ajun ne uitam la televizor la colinde și mâncam nuci.
+# zăpadă → zăpada
+Mi-e dor de Crăciunurile din copilărie, când zăpada era până la genunchi.
+# veselă → vesela
+Sorcova, vesela, să trăiți, să înfloriți, ca merii, ca perii, în mijlocul verii!
+# asta → ăsta
+Unde faceți revelionul anul ăsta? Noi stăm acasă, cu prietenii.
+# ca → că, tin → țin
+Am promis că de anul nou mă las de fumat, vedem cât țin.
+# dis-de-dimineața → dis-de-dimineață
+Bunicul ne trezea dis-de-dimineață de Anul Nou să-i facem urarea cu sorcova.
+# pijamă → pijama
+Ziua de întâi ianuarie o petrecem mereu în pijama, cu resturi de la masă.
+# Pașca → Pasca
+Pasca bunicii era cea mai bună din tot satul, cu brânză dulce și stafide.
+# mâncăm → mâncam, masa → masă
+De Paște mâncam miel la cuptor și drob, iar după masă ieșeam la plimbare prin sat.
+# asta → ăsta
+Ce culoare facem ouăle anul ăsta? Copiii vor neapărat și albastre.
+# incondeiat → încondeiat
+Am încondeiat ouă cu ceară, ca în Bucovina, și au ieșit superbe.
+# Paste → Paște, va → vă, primăvara → primăvară
+Paște fericit, dragilor! Să vă bucurați de primăvară și de cei dragi.
+# spalam → spălam
+Ne spălam pe față cu apă în care puneam un ou roșu și un bănuț, ca să fim sănătoși.
+# asta → ăsta
+Am ținut tot postul anul ăsta și abia aștept să mănânc o bucată de cozonac.
+# Paste → Paște
+Ce ați făcut de Paște? Noi am fost la socri, în Oltenia.
+# crengute → crenguțe
+În Duminica Floriilor duceam crenguțe de salcie la biserică.
+# bunică → bunica
+Mărțișorul ți l-am făcut eu, cu fir roșu și alb, ca la bunica.
+# primăvara → primăvară
+La mulți ani de 1 Martie! Să ai o primăvară frumoasă și plină de soare.
+# lună → luna
+Mărțișorul se poartă toată luna și apoi se agață de un pom înflorit.
+# Imi → Îmi, babă → baba, noua → nouă
+Îmi alesesem baba pe nouă martie și a fost frig toată ziua.
+# Ti-am → Ți-am
+Ți-am luat o lalea și o ciocolată, știu că nu-i mult, dar e din inimă.
+# razi → râzi
+Mi-e dor de tine, de vocea ta și de felul în care râzi.
+# ține → tine
+Nu pot să dorm, mă tot gândesc la tine și la seara de ieri.
+# ca → că
+Îți mulțumesc că mă suporți și în zilele mele proaste.
+# ține → tine
+Vreau să îmbătrânesc lângă tine și să ne certăm pe telecomandă la optzeci de ani.
+# Ti-am → Ți-am, biletel → bilețel
+Ți-am lăsat un bilețel în buzunarul de la geacă, să-l citești în pauză.
+# Iarta-mă → Iartă-mă
+Iartă-mă, am fost nedrept cu tine și mi-am vărsat nervii pe tine.
+# Ma → Mă
+Mă doare că nu m-ai sunat deloc toată ziua, măcar un mesaj puteai să-mi trimiți.
+# ascultă → asculta
+Mereu uiți ce-ți spun, de parcă nu m-ai asculta niciodată.
+# aseara → aseară
+Te-ai supărat pe mine? De aseară nu-mi mai răspunzi la mesaje.
+# împăcam → împăcăm
+Ce-ar fi să ieșim diseară la o plimbare, să ne mai împăcăm?
+# impaci → împaci
+Iubirea nu înseamnă să nu te cerți niciodată, ci să știi să te împaci.
+# continuă → continua
+Trebuie să vorbim serios despre noi, nu mai putem continua așa.
+# Ma → Mă
+Mă doare sufletul când văd lucrurile tale încă prin casă.
+# tată → tata
+Mama și tata s-au cunoscut la o horă în sat, iar după trei luni s-au luat.
+# ține → tine
+Sunt atât de mândru de tine și de tot ce ai realizat singură.
+# diseara → diseară
+Te sun diseară, după ce adorm copiii, să vorbim liniștiți.
+# ca → că
+Iubito, am ajuns cu bine, îți scriu mâine dimineață, că acum pic de somn.
+# ține → tine
+Sufletul meu, te rog să ai grijă de tine cât sunt plecat.
+# casnicie → căsnicie
+Am făcut zece ani de căsnicie și parcă ne-am cunoscut ieri.
+# Ti-am → Ți-am, cină → cina
+Ți-am pregătit cina, am pus și lumânări, vino repede acasă.
+# ține → tine, ca → că
+Sunt alături de tine în aceste clipe grele, să știi că poți conta pe mine.
+# condoleante → condoleanțe, țărână → țărâna
+Sincere condoleanțe, să-i fie țărâna ușoară și amintirea veșnică.
+# suna-mă → sună-mă, oră → ora
+Dacă ai nevoie de ceva, orice, sună-mă, nu contează ora.
+# mână → mâna
+Tata a plecat dintre noi liniștit, în somn, cu mâna în mâna mamei.
+# răzând → râzând
+Nu-mi vine să cred că n-o să-l mai aud râzând niciodată.
+# slujba → slujbă
+Fac parastasul de patruzeci de zile duminică, după slujbă.
+# bunică → bunica, duminică → duminica
+Mi-e dor de bunica în fiecare zi, mai ales duminica, la masă.
+# Incă → Încă
+Încă îi păstrez numărul în telefon și uneori vreau să o sun.
+# pește → peste
+Gândul meu e la voi, să aveți putere să treceți peste.
+# ca → că
+Ne vedem la slujbă, o să aduc și eu flori albe, că așa îi plăceau.
+# ca → că
+Au trecut cinci ani de când a plecat mama și tot mi se pare că o să intre pe ușă.
+# Sa → Să
+Să ai multă putere, prietene, și să știi că nu ești singur.
+# Bafta → Baftă, stresă → stresa
+Baftă mâine la examen! Știi tot, nu te mai stresa.
+# Tin → Țin
+Țin pumnii pentru tine, sună-mă imediat ce ieși din sală.
+# ca → că
+Sunt sigură că o să iei o notă mare, ai muncit enorm tot semestrul.
+# panică → panica
+Nu te panica dacă nu știi un subiect, treci la următorul și revino la el.
+# tinem → ținem
+Mult succes la admitere! Îți ținem pumnii toată familia.
+# Respira → Respiră
+Respiră adânc, citește cu atenție și ia-o pas cu pas.
+# Maine → Mâine
+Mâine e marea zi, tu doar ai încredere în tine.
+# ca → că, inimă → inima
+Ai trecut! Știam eu că o să reușești, felicitări din toată inima!
+# asta → ăsta
+Interviul de mâine o să meargă bine, ești cea mai potrivită pentru postul ăsta.
+# uită → uita
+Nu uita să zâmbești, ești mult mai bun decât crezi.
+# Ma → Mă, ține → tine
+Mă rog pentru tine să iasă totul bine la operație.
+# slava → slavă
+Operația a decurs bine, slavă Domnului! Acum doarme.
+# Sa → Să, ține → tine
+Să te faci bine repede, că ne e dor de tine la birou.
+# renunță → renunța
+Fiecare zi e un pas mai aproape de vindecare, nu renunța.
+# ca → că
+Sper că primești toate mesajele noastre și că te fac să zâmbești.
+# descult → desculț
+Când eram mic, mergeam vara la bunici și stăteam toată ziua desculț prin curte.
+# dis-de-dimineața → dis-de-dimineață, ascultăm → ascultam, apă → apa
+Bunicul mă lua cu el la pescuit dis-de-dimineață și nu vorbeam deloc, doar ascultam apa.
+# marar → mărar
+Bunica ne făcea plăcintă cu brânză și mărar în cuptorul din curte.
+# adunăm → adunam, ascultăm → ascultam
+Seara ne adunam cu toții pe prispă și ascultam poveștile bunicului din război.
+# spală → spăla, seară → seara
+Mama ne spăla în albie, cu apă încălzită pe sobă, în fiecare sâmbătă seara.
+# întunecă → întuneca
+Iarna ne dădeam cu sania pe dealul din spatele bisericii până se întuneca.
+# Tată → Tata
+Tata ne citea seara din cartea cu povești a lui Creangă și adormeam înainte de final.
+# chemă → chema, Mita → Mița
+În copilărie aveam o pisică pe care o chema Mița și dormea mereu la picioarele mele.
+# școala → școală
+Mergeam la școală pe jos, câte trei kilometri, și nu ne plângeam niciodată.
+# strigăm → strigam
+Pe vremea aceea nu aveam telefoane, ne strigam pe la geamuri să ieșim afară.
+# casă → casa
+Duminica dimineața mirosea în toată casa a cafea și a gogoși.
+# certă → certa
+Vara culegeam cireșe din pomul vecinului și ne certa de fiecare dată.
+# plouă → ploua, numărăm → număram
+Când ploua, stăteam cu fratele meu la fereastră și număram tunetele.
+# cântă → cânta
+Mama cânta mereu în timp ce gătea, și acum îi aud vocea când fac și eu mâncare.
+# munca → muncă
+Tata venea de la muncă obosit, dar avea mereu timp să se joace cu noi.
+# strangeam → strângeam, vacanță → vacanța
+Ne strângeam toți verii în vacanța de vară și făceam echipe de fotbal pe maidan.
+# Tin → Țin
+Țin minte și acum mirosul de pâine caldă din brutăria de pe colț.
+# ascultă → asculta
+Bunicul avea un aparat de radio vechi și asculta știrile în fiecare seară.
+# învață → învăța, bunică → bunica
+Îmi amintesc cum ne învăța bunica să facem colaci pentru pomană.
+# studență → studentă
+Pe când eram studentă, împărțeam o cameră de cămin cu alte trei fete.
+# armata → armată
+În armată îi scriam mamei câte o scrisoare pe săptămână.
+# codite → codițe, dimineața → dimineață
+Bunica îmi împletea codițe în fiecare dimineață înainte de școală.
+# jucăm → jucam
+Când nu era curent, ne strângeam în jurul lămpii și jucam cărți.
+# fură → fura
+Mi-e dor de vremurile când puteai să lași ușa descuiată și nu-ți fura nimeni nimic.
+# tabără → tabăra, chitară → chitara
+Ce dor mi-e de tabăra de la munte, cu chitara și focul de tabără.
+# Ti-aduci → Ți-aduci
+Ți-aduci aminte de dirigintele nostru, care ne punea să învățăm poezii pe de rost?
+# sa → să, stă → sta
+Dacă aș putea să mă întorc în timp, aș mai sta o vară la bunici.
+# mamă → mama, certăm → certam, ultimă → ultima
+Îmi lipsesc serile în care mama ne făcea clătite și ne certam pe ultima.
+# aruncă → arunca
+Bunicul repara orice cu sârmă și cu răbdare, nu arunca nimic.
+# inimă → inima
+Am trecut azi pe lângă școala mea veche și mi s-a strâns inima.
+# data → dată
+Bunica ne aștepta la poartă de fiecare dată când veneam de la oraș.
+# grădinița → grădiniță
+Mama păstrează și acum desenele pe care i le făceam la grădiniță.
+# mâncăm → mâncam
+Când eram la facultate, mâncam numai conserve și pâine, dar ne simțeam regi.
+# rău → râu
+Bunicul m-a învățat să înot în râu, ținându-mă de burtă.
+# bălci → bâlci, cumpără → cumpăra
+Mergeam la bâlci cu bunicul și îmi cumpăra de fiecare dată vată de zahăr.
+# apără → apăra
+Fratele meu mai mare mă apăra mereu de băieții de pe stradă.
+# fan → fân
+Copilăria mea a mirosit a fân, a lapte proaspăt și a pământ ud.
+# jucăm → jucam, bete → bețe
+Nu ne trebuiau jucării scumpe, ne jucam cu bețe, pietre și cutii de chibrituri.
+# biletele → bilețele, doamnă → doamna, romană → română
+Ne trimiteam bilețele în timpul orei și ne prindea mereu doamna de română.
+# seară → seara
+Ne-am revăzut cu colegii la douăzeci de ani de la terminarea liceului și am râs toată seara.
+# lasă → lăsa
+Când m-am întors acasă după primul an de muncă în străinătate, mama nu mă mai lăsa din brațe.
+# parca → parcă, jucăm → jucam
+Au trecut atâția ani, dar parcă tot ieri ne jucam în fața blocului.
+# pivnița → pivniță, sa → să
+Bunica punea murături în butoaie și ne trimitea în pivniță să aducem varză.
+# tată → tata
+Mergeam cu toată familia la cules de ciuperci, iar tata le știa pe toate după nume.
+# Tin → Țin
+Țin minte cum ne-a adus tata primul televizor color și s-au strâns vecinii să-l vadă.
+# îmbracă → îmbrăca, sora-mea → soră-mea, enervă → enerva
+Mama ne îmbrăca la fel pe mine și pe soră-mea, și ne enerva îngrozitor.
+# povești → povesti
+Mi-ar plăcea să le pot povesti copiilor mei ce frumos era la bunici.
+# colecționăm → colecționam, abtibildurile → abțibildurile
+Eram atât de fericiți când primeam o gumă cu surprize, colecționam toate abțibildurile.
+# acădea → acadea
+Mama mă trimitea la pâine cu bani numărați și îmi dădea voie să-mi iau și o acadea.
+# salută → saluta
+Bunicul fuma pipă pe banca de la poartă și saluta pe toți cei care treceau.
+# strangeam → strângeam, bunică → bunica
+Ne strângeam la bunica la tăiatul porcului și era ca o mică sărbătoare.
+# uităm → uitam
+Vara dormeam în podul casei, pe fân, și ne uitam la stele prin crăpăturile acoperișului.
+# saniute → săniuțe
+Iarna, bunicul ne făcea săniuțe din lemn și le ungea cu seu să alunece mai bine.
+# casnicia → căsnicia
+Ne-am început căsnicia într-o garsonieră cu chirie, dar ne-a fost tare bine acolo.
+# toamna → toamnă, ajutăm → ajutam
+În fiecare toamnă ajutam la culesul viei și apoi stăteam la teasc cu bunicul.
+# firmă → firma
+Am auzit că ai început la firma cea nouă, cum e acolo? Sunt colegii de treabă?
+# merită → merita
+Felicitări pentru postul de director, nimeni nu-l merita mai mult ca tine.
+# Stiam → Știam, ca → că
+Știam eu că o să te aleagă, ai fost cel mai bine pregătit dintre toți.
+# Sa → Să
+Să ai spor la treabă și un șef înțelegător!
+# rată → rata
+Ne pare rău că pleci de la noi, dar ne bucurăm pentru tine, e o ocazie pe care n-o poți rata.
+# Ti-am → Ți-am, echipă → echipa
+Ți-am lăsat pe birou o mică amintire de la toată echipa.
+# Sa → Să
+Să ai o pensie liniștită, cu mulți nepoți și multe plimbări!
+# diplomă → diploma
+Mama a plâns când i-au dat diploma de fidelitate, după treizeci de ani la aceeași școală.
+# va → vă
+Felicitări pentru casa cea nouă! Să vă fie cu noroc și să aveți numai bucurii în ea.
+# va → vă, rasete → râsete
+Să vă fie casa plină de râsete de copii și miros de mâncare bună.
+# ca → că, tatic → tătic
+Am aflat că o să fii tătic, bravo, frate! Pregătește-te de nopți nedormite.
+# Felicitari → Felicitări, Seamăna → Seamănă
+Felicitări, dragă, ce minune de fetiță! Seamănă leit cu tine.
+# poză → poza, obrajori → obrăjori
+Cum îl cheamă pe micuț? Am văzut poza, are niște obrăjori de-ți vine să-l mănânci.
+# va → vă
+Să-l vedeți mare și sănătos, și să vă aducă numai bucurii!
+# Va → Vă
+Vă dorim multă răbdare, somn cât de cât și sănătate pentru toți trei.
+# Ti-am → Ți-am, ușa → ușă, va → vă
+Ți-am pregătit un coș cu de toate pentru bebe, îl las la ușă să nu vă deranjez.
+# inimă → inima
+Primul zâmbet al ei mi-a topit inima, am stat să mă uit la ea o oră.
+# tată → tata
+Fiul nostru a făcut primii pași azi, s-a ținut de canapea și apoi a pornit spre tata.
+# mamă → mama
+A zis prima dată „mama” și m-am topit pe loc.
+# palma → palmă
+Cât de repede crește, ieri încăpea într-o singură palmă.
+# nepotelul → nepoțelul
+Ce mult a crescut nepoțelul, nu l-aș mai fi recunoscut pe stradă.
+# va → vă, asta → ăsta
+Nu știu cum să vă mulțumesc pentru tot ce ați făcut pentru noi anul ăsta.
+# Va → Vă, că → ca
+Vă mulțumim pentru ospitalitate, ne-am simțit ca acasă la voi.
+# lasă → lăsa
+Mulțumesc frumos pentru cartea primită, am început-o deja și nu o pot lăsa din mână.
+# va → vă, mamă → mama
+Domnule doctor, vă mulțumim din suflet că ați salvat-o pe mama.
+# ca → că
+Mulțumesc că mi-ai fost prieten în toți acești ani, chiar și când n-am meritat.
+# Ti-am → Ți-am
+Ți-am rămas recunoscătoare pentru sfatul pe care mi l-ai dat atunci, mi-a schimbat viața.
+# Va → Vă
+Vă mulțumesc pentru răbdarea pe care ați avut-o cu mine la ore.
+# întâmplă → întâmpla
+Draga mea, sunt aici pentru tine, orice s-ar întâmpla.
+# ca → că
+Ai voie să fii trist, nu trebuie să te prefaci că e totul bine.
+# diseara → diseară
+Hai la mine diseară, facem un ceai, vorbim și ne uităm la un film prost.
+# ține → tine, ca → că
+Am încredere în tine și știu că o să găsești o soluție.
+# stăi → stai, ține → tine
+Dacă vrei doar să stai în liniște, pot să stau lângă tine fără să zic nimic.
+# Ma → Mă, ține → tine
+Mă gândesc la tine și îți trimit o îmbrățișare mare.
+# învinovați → învinovăți
+Nu te mai învinovăți, ai făcut tot ce ai putut.
+# ca → că, îngrijorăm → îngrijoram
+Ce bine că mi-ai scris, mă îngrijoram că nu mai dai niciun semn.
+# Suna-ți → Sună-ți
+Sună-ți părinții mai des, că nu-i ai pentru totdeauna.
+# Mama → Mamă, asta → ăsta, Paste → Paște
+Mamă, te rog să nu te superi, dar anul ăsta nu putem veni de Paște.
+# Tata → Tată
+Tată, îți mulțumesc că m-ai învățat să nu renunț niciodată.
+# ține → tine
+Bunicule, să ai grijă de tine și să nu mai urci pe scară la cireș.
+# Fața → Fata
+Fata mea, sunt atât de mândră de femeia care ai devenit.
+# Sora-mea → Soră-mea
+Soră-mea s-a mutat în Spania și mi-e dor de ea în fiecare zi.
+# noptile → nopțile, descărcă → descărca
+Mi-e dor de nopțile în care vorbeam la telefon până se descărca bateria.
+# gâșcă → gașca
+Ce-ar fi să ne vedem toată gașca, ca pe vremuri, la o cafea?
+# proștii → prostii, împăcam → împăcăm
+Ne-am supărat din cauza unei prostii și acum nu mai știm cum să ne împăcăm.
+# ca → că
+I-am scris prima, că mi-era dor de ea, și am vorbit trei ore.
+# că → ca
+Te rog să nu mai pleci trântind ușa, hai să discutăm ca oamenii.
+# tip → țip
+Nu țip la tine, doar vreau să mă asculți măcar o dată până la capăt.
+# urate → urâte
+Am greșit, recunosc, dar și tu ai zis niște lucruri urâte.
+# dată → data
+Gata, ne-am împăcat, dar data viitoare nu mai pleci fără să-mi spui unde.
+# bunică → bunica
+În Ajunul Crăciunului venea preotul cu icoana și bunica îl aștepta cu masa întinsă.
+# asta → ăsta
+Cozonacul n-a crescut deloc anul ăsta, cred că aluatul a stat în curent.
+# ca → că, frămânță → frământă
+Mama zice că un cozonac bun se frământă până se desprinde aluatul de pe mâini.
+# lasă → lăsa
+Bunica nu ne lăsa să trântim ușa cât timp creștea aluatul, să nu se lase.
+# că → ca
+Am încercat rețeta bunicii de cozonac, dar parcă nu iese niciodată ca al ei.
+# asta → ăsta, mamă → mama
+Anul ăsta am făcut și eu sarmale în foi de viță, cum le făcea mama.
+# beteală → beteala, ca → că
+Am atârnat beteala și luminițele, acum chiar se simte că vin sărbătorile.
+# poza → poză
+Ne-am pus pijamale la fel toată familia și am făcut poză lângă brad.
+# Colindatorii → Colindătorii
+Colindătorii au venit la noi pe la unsprezece noaptea și i-am servit cu cozonac și vin fiert.
+# Cat → Cât, costa → costă, asta → ăsta
+Cât costă un brad natural anul ăsta? Am auzit că s-au scumpit iar.
+# bunică → bunica, perna → pernă
+De Bobotează preotul ne-a stropit casa cu agheasmă, iar bunica a pus busuioc sub pernă.
+# Fețele → Fetele, perna → pernă
+Fetele puneau busuioc sub pernă de Sfântul Andrei, să-și viseze ursitul.
+# lasă → lăsa
+În Joia Mare bunica vopsea ouăle și nu lăsa pe nimeni să o ajute.
+# îmbrăcăm → îmbrăcam
+Ne îmbrăcam în haine noi de Paște, chiar dacă era încă frig afară.
+# biserica → biserică, bunică → bunica
+Am fost la biserică de Rusalii și am adus acasă frunze de nuc, cum făcea bunica.
+# Sanziene → Sânziene, fețele → fetele
+În ziua de Sânziene fetele își puneau coronițe de flori galbene.
+# ziua → ziuă
+La nunta din sat s-a jucat hora până la ziuă, cu taraful bătrânesc.
+# nunta → nuntă, nasa → nașa, sală → sala, sa → să
+La nuntă nașa a ținut un discurs care a făcut toată sala să plângă.
+# mână → mâna
+Doamne, ce emoții am avut când am semnat la starea civilă, îmi tremura mâna.
+# nuntă → nunta
+Părinții mei își sărbătoresc nunta de aur luna viitoare și vrem să le facem o surpriză.
+# căfeaua → cafeaua, dimineața → dimineață
+Ne-am dat seama că, după douăzeci și cinci de ani împreună, încă ne facem unul altuia cafeaua în fiecare dimineață.
+# casnicie → căsnicie
+Bunicii au refăcut jurămintele la cincizeci de ani de căsnicie, la aceeași biserică.
+# că → ca
+Ți-am scris o scrisoare de dragoste ca pe vremuri, cu stiloul, pe hârtie adevărată.
+# rădeai → râdeai
+Când te-am văzut prima dată, purtai o rochie galbenă și râdeai cu prietenele.
+# viață → viața
+Am știut din prima zi că tu ești omul cu care vreau să-mi petrec viața.
+# viață → viața
+Mi-ai schimbat viața în cel mai frumos mod cu putință.
+# dimineața → dimineață
+Îți mulțumesc pentru fiecare dimineață în care mă trezești cu un sărut.
+# ma → mă
+mă bucur enorm pentru voi, ați meritat toată fericirea asta
+# imi → îmi
+îmi pare rău, n-am știut, sunt cu gândul la tine
+# ca → că
+hai că poți, mai e doar un examen și ai scăpat
+# nemâncăt → nemâncat
+ți-am lăsat micul dejun pe masă, nu pleca nemâncat
+# bunică → bunica, va → vă
+am ajuns la bunica, a făcut deja plăcinte, vă aștept
+# gată → gata, diseara → diseară
+gata, ne-am împăcat, mergem la un film diseară
+# mama → mamă
+mamă, ți-am trimis bani pentru medicamente, să-mi zici dacă au ajuns
+# tată → tata, ca → că, scăpă → scapă
+tata zice că vine și el la serbare dacă scapă mai devreme
+# poza → poză, măria → maria
+ai văzut ce poză frumoasă a pus maria de la nuntă?
+# condoleante → condoleanțe
+condoleanțe, să știi că sunt aici dacă ai nevoie
+# maine → mâine
+mâine e ziua mamei, nu uita să-i iei flori
+# Ti-am → Ți-am
+Ți-am păstrat felicitarea pe care mi-ai dat-o acum zece ani, o țin în sertarul de la birou.
+# tată → tata
+Fiecare Crăciun fără tata e mai greu, dar încercăm să păstrăm obiceiurile lui.
+# asta → ăsta
+Anul ăsta i-am pus scaunul lui bunicul la masă, chiar dacă nu mai e printre noi.
+# sacose → sacoșe, rugăm → rugam
+Mama ne trimitea mereu acasă cu sacoșe pline de mâncare, deși noi o rugam să nu mai facă asta.
+# cămași → cămăși, cusuțe → cusute
+Pe vremea bunicii, fetele își făceau zestrea de mici, cu ștergare și cămăși cusute.
+# bunică → bunica
+Mi-a rămas de la bunica o ie cusută de mâna ei, o port de Ziua Iei.
+# lasă → lăsa
+Bunica avea un cufăr plin de lucruri vechi și ne lăsa să ne jucăm cu ele.
+# ca → că
+Bunicul obișnuia să zică că omul sfințește locul, și acum îi dau dreptate.
+# tată → tata
+Am crescut într-o casă plină de cărți, tata citea orice îi cădea în mână.
+# certăm → certam
+Când eram mici, ne certam toată ziua, iar seara nu puteam adormi unul fără altul.
+# ora → oră
+Ne uitam în fiecare duminică la desene animate, era singura oră de desene din săptămână.
+# tată → tata, piața → piață, sâmbătă → sâmbăta
+Mergeam cu tata la piață sâmbăta dimineața și îmi cumpăra mereu un covrig cald.
+# hainute → hăinuțe
+Bunica îmi cosea hăinuțe pentru păpuși din resturile de material.
+# învăță → învăța, sa → să
+Doamna învățătoare ne învăța să scriem frumos, cu peniță și călimară.
+# bicicleta → bicicletă
+Tata m-a învățat să merg pe bicicletă în curtea școlii, alergând după mine.
+# Tin → Țin
+Țin minte ziua în care m-a sunat tata să-mi spună că a câștigat la loto o sumă mică și că mergem la mare.
+# cântăm → cântam
+Plecam în tabără cu trenul, și toată noaptea cântam și nu dormea nimeni.
+# soba → sobă, sanius → săniuș
+Ne încălzeam mâinile la sobă după ce veneam de la săniuș, cu obrajii roșii.
+# scorțișoara → scorțișoară
+Bunicul punea mere la copt pe plita sobei și toată casa mirosea a scorțișoară.
+# bunică → bunica
+Seara, bunica ne spunea povești cu zmei și feți-frumoși până adormeam.
+# întreaga → întreagă, servețele → șervețele
+Aveam o colecție întreagă de șervețele și ne făceam schimb cu colegele.
+# jucăm → jucam
+Toată vara jucam fotbal în fața blocului până nu mai vedeam mingea.
+# tată → tata, uniforma → uniformă
+Mi-amintesc ce mândru era tata când m-a văzut prima dată în uniformă.
+# apără → apăra
+Sora mea cea mare mă ducea de mână la grădiniță și mă apăra de toți.
+# dimineața → dimineață
+Ne trezeam în fiecare dimineață cu cântecul păsărilor și cu mirosul de lapte fiert.
+# Ti-am → Ți-am
+Ți-am trimis o poză cu noi doi de acum douăzeci de ani, mai știi unde eram?
+# va → vă
+Sunt alături de voi în durere și vă transmit sincere condoleanțe din partea întregii familii.
+# Ti-am → Ți-am, grijă → grija
+Ți-am adus niște mâncare gătită, să nu mai ai grija asta zilele astea.
+# plecam → plecăm, dimineața → dimineață
+Ne vedem la înmormântare, plecăm cu mașina vineri dimineață.
+# Mosi → Moși, bunică → bunica
+Mergem la cimitir de Moși, să împărțim ulcele cu apă, cum făcea bunica.
+# mamă → mama, tată → tata
+În fiecare duminică mama aprinde o lumânare pentru tata.
+# biserica → biserică
+De Sâmbăta Morților am dus colivă la biserică și am pomenit pe toți ai noștri.
+# primă → prima, tată → tata
+Îmi aduc aminte de prima mea bicicletă, era roșie, iar tata o luase de la un vecin și o reparase.
+# Draga → Dragă, ține → tine
+Dragă Ana, îți scriu de departe ca să-ți spun că mă gândesc la tine în fiecare zi.
+# Scumpă → Scumpa, asta → ăsta
+Scumpa mea, știu că anul ăsta a fost greu pentru tine, dar ai rezistat cu atâta curaj.
+# va → vă
+Dragii mei, vă mulțumesc că ați fost alături de mine în ziua cea mai importantă din viața mea.
+# tăței → tatei
+Prietene, ai fost acolo la fiecare pas, și la nunta mea, și la înmormântarea tatei.
+# dațile → dățile
+Îmi cer iertare pentru toate dățile în care n-am fost acolo când ai avut nevoie de mine.
+# ca → că
+Copilul meu drag, să știi că oricât de mare ai fi, pentru mine rămâi tot puiul meu.
+# Mama → Mamă, ca → că
+Mamă, abia acum, că am și eu copii, înțeleg câte nopți ai stat trează pentru noi.
+# Tata → Tată
+Tată, îmi pare rău că nu ți-am spus mai des cât de mult însemni pentru mine.
+# va → vă, că → ca, fiica → fiică
+Draga mea soacră, vă mulțumesc că m-ați primit în familie ca pe propria fiică.
+# certăm → certam
+Fratele meu, chiar dacă ne certam toată ziua când eram mici, ești cel mai bun prieten al meu.
+# simț → simt
+Bunico, încă îți simt mâinile calde pe obraz când închid ochii.
+# Doamna → Doamnă
+Doamnă profesoară, ne-ați învățat mai mult decât gramatică, ne-ați învățat să fim oameni.
+# va → vă
+Am stat azi și m-am gândit cât de norocoasă sunt că vă am pe voi.
+# mândra → mândră
+Vreau să știi că sunt mândră de tine, indiferent ce alegi să faci mai departe.
+# viață → viața
+Ne-am cunoscut când eram doi copii și acum suntem părinți, cum trece viața!
+# Sa → Să
+Să ai succes la facultate și să-ți faci prieteni pe viață, ca noi.
+# pizză → pizza
+Să ne suni în fiecare duminică, și să mănânci ca lumea, nu doar pizza.
+# Felicitari → Felicitări
+Ai luat permisul din prima! Felicitări, acum ești șoferul familiei.
+# coada → coadă
+Îți mulțumesc că mi-ai ținut locul la coadă la spital toată dimineața.
+# nasul → nașul
+Ne-a impresionat discursul tău de la nuntă, nașul a plâns ca un copil.
+# nuca → nucă, dulceată → dulceață, mamă → mama
+Ți-am trimis prin curier un pachet cu cozonac, nucă și dulceață de la mama.
+# Va → Vă, va → vă
+Vă trimitem din Italia toată dragostea noastră și vă dorim un Crăciun liniștit.
+# asta → ăsta, va → vă
+Anul ăsta nu putem veni acasă de sărbători, dar o să vă sunăm pe video la masă.
+# zăpadă → zăpada
+Mi-e dor de ai mei, de colindele din sat și de zăpada din curte.
+# zăcuscă → zacuscă, mamă → mama
+Am adus de acasă un borcan cu zacuscă de la mama și îl țin pentru zile grele.
+# prietenă → prietena
+Am regăsit-o pe prietena mea din copilărie pe internet după douăzeci de ani.
+# Arați → Arăți
+Ce bucurie să te revăd! Arăți exact la fel ca în liceu.
+# Sa → Să
+Să ai grijă de tine, că ești singura mea soră.
+# singura → singură
+Bunica a rămas văduvă de tânără și i-a crescut singură pe toți cei patru copii.
+# vindecă → vindeca
+Bunica știa toate leacurile băbești și ne vindeca de răceală cu ceai de tei și miere.
+# bunică → bunica, cântă → cânta
+De câte ori aveam febră, bunica ne făcea frecții cu oțet și ne cânta încet.
+# lasă → lăsa, termină → termina
+Mama ne lăsa să lingem castronul cu cremă după ce termina tortul.
+# bunică → bunica
+Duminica mergeam la biserică cu bunica, îmbrăcați în cele mai bune haine.
+# mașină → mașina
+Când ne vedea triști, tata ne lua la plimbare cu mașina, fără nicio destinație.
+# Tin → Țin, zăpadă → zăpada
+Țin minte prima ninsoare de la casa bunicilor, când zăpada acoperise tot gardul.
+# mamă → mama
+Noaptea ne speriam de ploaie și fugeam la mama în pat.
+# strangeam → strângeam, jucăm → jucam, sotron → șotron, întunecă → întuneca
+Ne strângeam toți copiii de pe stradă și jucam șotron până se întuneca.
+# bunică → bunica
+Mergeam la bunica cu trenul personal, care oprea în fiecare gară.
+# toamna → toamnă, zăcuscă → zacuscă, dulceată → dulceață
+Mama făcea în fiecare toamnă bulion, zacuscă și dulceață de prune.
+# bunică → bunica, grădina → grădină, sa → să, mâncăm → mâncam
+Ne trimitea bunica în grădină să culegem roșii și le mâncam direct cu sare.
+# uităm → uitam
+În vacanțele de iarnă ne uitam la filme cu toții, înghesuiți pe aceeași canapea.
+# ajută → ajuta
+Ne făceam singuri jucăriile, iar bunicul ne ajuta cu briceagul.
+# ascultăm → ascultam, bandă → banda
+Aveam o casetă cu muzică pe care o ascultam până se tocea banda.
+# tată → tata
+Primul meu concert a fost cu tata, aveam paisprezece ani și eram în al nouălea cer.
+# vacanță → vacanța
+Ce bine era când singura grijă era ce ne facem în vacanța de vară!
+# așteptăm → așteptam
+Pe vremea noastră nu existau mesaje, așteptam scrisoarea cu săptămânile.
+# ciorba → ciorbă
+Îmi lipsesc duminicile la bunici, cu ciorbă de perișoare și prăjitură cu mere.
+# ciorbă → ciorba
+Când am făcut prima dată ciorba bunicii, toată familia a zis că are același gust.
+# bunică → bunica
+Mama îmi tot spune că semăn cu bunica, mai ales când mă enervez.
+# ține → tine
+Ce dor o să-mi fie de tine când pleci la studii în altă țară.
+# Va → Vă
+Vă așteptăm cu drag la nunta noastră, pe 14 iunie, la Sibiu.
+# Va → Vă, rugam → rugăm, prezenta → prezența
+Vă rugăm să ne confirmați prezența până la sfârșitul lunii.
+# Va → Vă
+Vă mulțumim că ați fost alături de noi și ați făcut ziua noastră de neuitat.
+# va → vă, fetiță → fetița, va → vă
+Să vă trăiască fetița și să vă bucurați de ea mulți ani!
+# ceartă → cearta
+Să știi că nu-ți port pică, am uitat de mult cearta aia.
+# bunică → bunica
+Să fii cuminte la bunici și să asculți de ce-ți spune bunica.
+# rochiță → rochița
+Ți-am cumpărat rochița pentru botez, sper să-i vină bine micuței.
+# Ti-a → Ți-a, surpriză → surpriza
+Ți-a plăcut surpriza? Am pus la cale totul cu sora ta de o lună.
+# Ti-aș → Ți-aș
+Ți-aș fi spus mai devreme, dar nu voiam să-ți stric ziua.
+# Ti-e → Ți-e
+Ți-e dor de casă? Mie îmi e dor de mâncarea mamei.
+# Ti-ai → Ți-ai
+Ți-ai luat rochie pentru nunta Andreei sau mergem împreună la cumpărături?
+# dimineața → dimineață
+Mi-e dor de tine, mamă, de cafeaua de dimineață pe balcon și de sfaturile tale.
+# Mama → Mamă
+Mamă, nu-ți face griji pentru mine, mănânc bine și dorm destul.
+# Tata → Tată, nepotelul → nepoțelul
+Tată, vino să vezi ce a desenat nepoțelul tău pentru tine.
+# Mătușa → Mătușă
+Mătușă, mulțumim pentru dulceață, copiii au terminat deja un borcan.
+# Draga → Dragă
+Dragă, nu mai plânge, totul o să se aranjeze.
+# Fețelor → Fetelor
+Fetelor, ne vedem sâmbătă la petrecerea burlăcițelor, fără bărbați!
+# va → vă
+Nașule, vă așteptăm duminică la masă, a făcut mama sarmale.
+# doamna → doamnă
+La mulți ani, doamnă dirigintă, și mulțumim pentru tot ce ne-ați dat!
+# ține → tine
+Am venit la tine să-ți spun că te iubesc, nu să ne certăm.
+# ține → tine, casă → casa, ma → mă
+Fără tine casa e goală și liniștea mă apasă.
+# ține → tine, as → aș
+Pentru tine aș traversa țara pe jos.
+# ține → tine
+De la tine am învățat să fiu răbdătoare.
+# ține → tine
+Cu tine timpul trece atât de repede!
+# ține → tine
+M-am gândit la tine toată ziua și am zâmbit ca o proastă la birou.
+# martora → martoră
+Am o rugăminte la tine, poți să-mi fii martoră la cununie?
+# nuntă → nunta
+Mama vrea să facem nunta în sat, la căminul cultural, cum s-a făcut și a ei.
+# schimbă → schimba
+Nunta a costat cât o mașină, dar n-aș schimba nicio clipă.
+# sa → să
+Mirele a întârziat o oră la biserică și mireasa era să leșine de emoție.
+# nasul → nașul
+Când ne-a ținut nașul lumânarea, mi-au tremurat genunchii.
+# tată → tata
+Dansul cu tata la nunta mea a fost cel mai emoționant moment din viața mea.
+# sală → sala
+Cineva a prins buchetul miresei și s-a înroșit toată sala.
+# Muzică → Muzica, nuntă → nunta
+Muzica a fost groaznică, dar mâncarea a salvat toată nunta.
+# Maine → Mâine
+Mâine e cununia civilă, mai am de călcat cămașa și de lustruit pantofii.
+# Ma → Mă
+Mă duc la ai lui pentru prima dată, am emoții, ce să le duc?
+# țuica → țuică
+Părinții ei m-au primit foarte frumos, tatăl ei mi-a dat o sticlă de țuică făcută de el.
+# față → fața
+Prima întâlnire cu socrii a fost un dezastru, am vărsat vinul pe fața de masă.
+# simț → simt, ca → că
+I-am mărturisit ce simt și mi-a zis că și el simte la fel.
+# tremurandă → tremurândă
+Mi-a scris o poezie și mi-a citit-o la telefon, cu vocea tremurândă.
+# suparâm → supărăm
+Ne-am certat iar pe aceeași temă, cine sună primul după ce ne supărăm.
+# frica → frică, ca → că
+Mi-e frică să-i spun părerea mea, că se supără imediat.
+# dam → dăm
+Hai să ne dăm o a doua șansă, cred că merităm.
+# bancă → banca
+Ne-am împăcat la o înghețată, pe banca unde ne-am cunoscut.
+# casnicie → căsnicie
+Ne-a fost greu în primii ani de căsnicie, dar am învățat să ne ascultăm.
+# ca → că, casnicie → căsnicie
+Mama zice că o căsnicie fericită înseamnă doi oameni care se iartă în fiecare zi.
+# nunta → nuntă
+Mama mi-a dat la nuntă inelul primit de la bunica ei.
+# bunică → bunica
+Am primit de la bunica, la botezul băiatului, o iconiță veche care a fost în familie de o sută de ani.
+# tătei → tatei
+Ne-am adunat toți frații după înmormântarea tatei și am stat până dimineața la povești.
+# mamă → mama
+După ce a murit mama, am păstrat obiceiul ei de a face plăcintă în fiecare duminică.
+# ca → că
+Nu știu cum să le explic copiilor că bunicul nu mai vine.
+# bunică → bunica
+Fetița m-a întrebat dacă bunica o vede de acolo, de sus, și i-am zis că da.
+# Vecinîi → Vecinii
+Vecinii au adus mâncare zile la rând după înmormântare, nu i-am cerut nimic nimănui.
+# tată → tata
+Am primit atâtea mesaje frumoase despre tata, nici nu știam câți oameni l-au iubit.
+# asta → ăsta
+La mulți ani, șefa! Să ne conduceți cu aceeași răbdare și anul ăsta.
+# echipă → echipa, spă → spa, ca → că
+Am strâns bani de la toată echipa și ți-am luat un voucher la spa, că meriți să te relaxezi.
+# uram → urăm
+Îți urăm un an plin de proiecte reușite și de weekenduri lungi!
+# înțeleapta → înțeleaptă
+Am împlinit patruzeci de ani și nu mă simt deloc mai înțeleaptă.
+# ca → că
+Ziua mea a căzut într-o luni, așa că o sărbătorim sâmbătă, la munte.
+# Ti-am → Ți-am
+Ți-am trimis cadoul prin curier, ar trebui să ajungă până joi.
+# Sa → Să, ca → că, asta → ăsta
+Să te bucuri de fiecare an care vine, că ăsta e adevăratul cadou.
+# Va → Vă, urari → urări
+Vă mulțumesc tuturor pentru urări, am răspuns cu întârziere, dar le-am citit pe toate cu drag.
+# tătei → tatei
+Ce să-i iau tatei de ziua lui? Are de toate și nu vrea nimic.
+# Șoțul → Soțul
+Soțul meu mi-a organizat o petrecere surpriză și a chemat colegele din liceu.
+# Sa → Să
+Să ai o aniversare liniștită, fără telefoane de la serviciu!
+# parca → parcă
+Nu-mi vine să cred că suntem căsătoriți de douăzeci de ani, parcă ieri ne-am luat.
+# Va → Vă, ca → că
+Vă urez multă dragoste și răbdare unul cu altul, că restul vine de la sine.
+# Felicitari → Felicitări
+Felicitări pentru nunta de argint! Sunteți un exemplu pentru noi toți.
+# Ma → Mă, ține → tine
+Mă uit la tine după atâția ani și încă mi se pare că te văd prima dată.
+# lucrăm → lucram
+Când ne-am cunoscut lucram amândoi la un magazin de electrocasnice.
+# Begai → Begăi, casă → casa
+Ne plimbam seara pe malul Begăi și visam la casa pe care o s-o avem.
+# mâncăm → mâncam, deșertul → desertul
+În studenție mâncam la cantină și ne împărțeam desertul.
+# cântă → cânta, certă → certa
+Colegul meu de cameră din cămin cânta la chitară în fiecare seară, până ne certa administratorul.
+# strangeam → strângeam, sâmbătă → sâmbăta, jucăm → jucam
+Ne strângeam sâmbăta seara în camera cuiva și jucam cărți până dimineața.
+# asistență → asistentă
+Mama era asistentă și făcea ture de noapte, iar dimineața ne pregătea totuși micul dejun.
+# colindăm → colindam
+În cartierul nostru toată lumea se știa, iar de sărbători ne colindam unii pe alții.
+# armata → armată, țară → țara, legătură → legătura
+În armată am cunoscut oameni din toată țara, cu unii mai țin legătura și azi.
+# cântăm → cântam
+Mergeam cu clasa în excursie la Cheile Bicazului și cântam tot drumul în autocar.
+# ora → oră, sa → să
+Când eram la liceu, fugeam de la ultima oră să prindem filmul de la cinematograful din centru.
+# lucrăm → lucram, sunăm → sunam
+Pe vremea când lucram în Anglia, sunam acasă în fiecare duminică de la un telefon public.
+# lasa → lăsa, biletele → bilețele, păstrăm → păstram
+Fostul meu iubit îmi lăsa bilețele pe parbriz, iar eu le păstram în torpedou.
+# nouă → noua, ca → că
+Felicitări pentru noua ta afacere, sunt sigură că o să aibă succes!
+# mândra → mândră, sa → să
+Ce frumos ai vorbit la conferință, eram mândră să spun că te cunosc.
+# Sa → Să
+Să ai o sarcină ușoară și o naștere fără probleme!
+# așteptăm → așteptam
+Bun venit, micuțo! Te așteptam de nouă luni.
+# Felicitari → Felicitări
+Felicitări, ați devenit bunici! Acum chiar puteți să-l răsfățați pe cel mic fără limite.
+# Va → Vă
+Vă dorim să-l vedeți crescând sănătos și fericit.
+# Șoțul → Soțul, radem → râdem
+Soțul meu a leșinat în sala de nașteri, acum râdem de asta.
+# pisică → pisica, sta → stă
+Am adus-o acasă pe micuță și pisica stă de pază lângă pătuț.
+# hainuțele → hăinuțele
+Mulțumesc frumos pentru hăinuțele de bebe, sunt adorabile.
+# va → vă
+Doamna doctor, vă mulțumim că ați fost atât de blândă cu noi la naștere.
+# asistențelor → asistentelor
+Vreau să le mulțumesc asistentelor de la neonatologie, au fost niște îngeri.
+# Va → Vă, doamna → doamnă
+Vă mulțumim, doamnă educatoare, pentru dragostea cu care ați avut grijă de copiii noștri.
+# Va → Vă
+Vă mulțumim pentru donație, copiii din centru se vor bucura enorm.
+# zăpadă → zăpada, iarnă → iarna
+Vreau să-i mulțumesc public vecinului nostru, care ne-a dat zăpada din fața porții toată iarna.
+# Ti-am → Ți-am
+Ți-am făcut o prăjitură ca să-ți mulțumesc că ai avut grijă de pisică.
+# asta → ăsta
+Nu știu cum aș fi trecut prin anul ăsta fără voi.
+# canți → cânți
+Să cânți la concert cum cânți acasă, fără emoții!
+# ședință → ședința
+Am încredere în tine, o să conduci ședința de mâine perfect.
+# ca → că
+Hai, că e doar un interviu, nu un examen pe viață și pe moarte.
+# întâmplă → întâmpla
+Ce-ar fi cel mai rău lucru care s-ar putea întâmpla? Nimic grav, deci du-te liniștit.
+# Ti-ai → Ți-ai, uită → uita
+Ți-ai pregătit actele pentru mâine? Nu uita buletinul și pixul.
+# Sa → Să
+Să te întorci cu medalia, campioano!
+# Maine → Mâine, repetă → repeta
+Mâine îți susții lucrarea de licență, așa că dormi devreme și nu mai repeta.
+# ține → tine
+Am emoții pentru tine mai mari decât ale tale, să știi!
+# Tin → Țin
+Țin pumnii strânși pentru biopsie, sper să fie totul bine.
+# așteptăm → așteptam
+Am trecut de prima ședință de chimioterapie, a fost mai ușor decât mă așteptam.
+# ține → tine, ca → că
+Sunt mândru de tine că ai avut curajul să mergi la control, mulți amână.
+# Va → Vă, asta → ăsta
+Crăciun fericit, vecini dragi! Vă mulțumim pentru tot ajutorul de anul ăsta.
+# Va → Vă
+Vă dorim un Crăciun cu pace, cu lumină și cu cei dragi aproape.
+# colindatori → colindători
+Să aveți parte de un Ajun liniștit și de colindători mulți la ușă!
+# satura → satură, sa → să
+Am pus bradul încă de la 1 decembrie și copiii nu se mai satură să se uite la el.
+# grădinița → grădiniță, rochiță → rochița
+Vine Moșul la grădiniță joi, trebuie să-i pregătim fetiței rochița de fulg de nea.
+# aplăudat → aplaudat
+Băiatul a zis o poezie la serbare și a uitat ultima strofă, dar l-au aplaudat toți.
+# asta → ăsta
+Anul ăsta i-am cerut Moșului doar un pic de liniște.
+# rețetă → rețeta
+Am făcut cozonac după rețeta mamei, dar mi-a ieșit mai mult ca o pâine dulce.
+# Colindă → Colinda
+Colinda mea preferată e O, ce veste minunată, mă face să plâng de fiecare dată.
+# va → vă, asta → ăsta
+Nu vă supărați, dar noi anul ăsta nu mai facem cadouri, punem banii deoparte pentru o vacanță.
+# va → vă
+Să vă aducă Moșul tot ce v-ați dorit și ceva în plus!
+# partie → pârtie
+Revelionul l-am petrecut pe pârtie, cu artificii la miezul nopții și ciocolată caldă.
+# viața → viață
+An nou, viață nouă! Mă înscriu la sală de luni, pe bune de data asta.
+# asta → ăsta
+Îți mulțumesc pentru tot anul ăsta, sper să-l facem pe următorul și mai frumos.
+# Sa → Să, lăsam → lăsăm
+Să lăsăm supărările în anul vechi și să intrăm curați în anul nou.
+# Boboteaza → Bobotează, rău → râu
+De Bobotează am fost la râu să vedem cum se aruncă crucea în apă.
+# Ti-am → Ți-am
+Ți-am adus un buchet de ghiocei, primii pe care i-am găsit în piață.
+# școala → școală, pașă → pasă
+La școală, băieții ne aduceau mărțișoare și noi ne făceam că nu ne pasă.
+# Mama → Mamă
+Mamă, la mulți ani de 8 Martie! Tu ești primăvara noastră.
+# biserica → biserică
+De Florii ne-am dus cu ramuri de salcie la biserică și le-am pus apoi la icoane.
+# asta → ăsta
+Cine a câștigat la ciocnit ouă la voi anul ăsta?
+# Paste → Paște
+Hristos a înviat, dragă! Să ai un Paște luminat și liniștit.
+# Ti-am → Ți-am
+Ți-am pregătit un coșuleț cu pască, ouă roșii și drob pentru Paște.
+# pașcă → pască, mamă → mama
+Am dus la sfințit coșul cu ouă, pască și sare, cum am învățat de la mama.
+# asta → ăsta
+Paștele ăsta îl petrecem la mare, pentru prima dată departe de casă.
+# Paste → Paște
+A doua zi de Paște am făcut grătar în curte cu toată familia.
+# Uda → Udă
+Ne-am stropit cu apă de Lunea Udă, cum se face pe la noi prin Ardeal.
+# vecină → vecina
+Am primit de la vecina un ou încondeiat de mâna ei, e o adevărată operă de artă.
+# rau → râu
+De Rusalii se zice că nu e bine să faci baie în râu.
+# țară → țara
+La hramul mănăstirii vin oameni din toată țara, iar noi împărțim apă și pâine.
+# vecină → vecina, singura → singură
+Am trimis cozonac și sarmale la vecina singură de la etajul unu, să nu-i fie dor de ai ei.
+# colindăm → colindam
+Când colindam pe la blocuri, ne deschideau doar oamenii în vârstă, ceilalți se ascundeau.
+# colindă → colinda
+Pe vremuri, în cartier se colinda din casă în casă și ușile erau mereu deschise.
+# debară → debara
+Mama pregătea dulciurile de sărbători cu o săptămână înainte și le ascundea în debara.
+# pifție → piftie
+Tata era singurul care știa să facă piftie, iar Crăciunul nu era Crăciun fără ea.
+# costumă → costuma
+Fratele meu se costuma în Moș Crăciun și credeam că e chiar Moșul.
+# ascultăm → ascultam, antenă → antena
+De Crăciun ascultam colinde pe un radio mic, cu antena înfășurată în staniol.
+# tată → tata
+De Paște mergeam cu tata la biserica de lemn din deal și duceam lumânarea aprinsă până acasă.
+# adolescență → adolescentă, strada → stradă
+Când eram adolescentă, ieșeam de 1 Martie pe stradă să împărțim mărțișoare la necunoscuți.
+# plecăm → plecam, masă → masa
+În studenție, de Crăciun, ne strângeam cei care nu plecam acasă și făceam masa în cămin.
+# colindăm → colindam
+Ne colindam colegii de cămin cu o tobă făcută dintr-o cratiță.
+# lucrăm → lucram
+Când ne-am cunoscut, lucram în același birou și ne trimiteam mesaje pe ascuns.
+# ca → că
+În primul an de relație ne vedeam doar în weekend, că el lucra în alt oraș.
+# seară → seara, comandăm → comandam, pizză → pizza
+Mergeam în fiecare vineri seara la același local și comandam aceeași pizza.
+# certăm → certam, ca → că
+Ne certam des la început, pentru că amândoi voiam să avem ultimul cuvânt.
+# promițeam → promiteam, ca → că
+Ne uitam la stele de pe balcon și ne promiteam că o să călătorim peste tot.
+# așteptăm → așteptam
+Îl așteptam la gară în fiecare duminică, cu inima cât un purice.
+# Ascultăm → Ascultam
+Ascultam aceleași melodii în căști, câte o cască fiecare, în autobuz.
+# desparțeam → despărțeam
+Ne despărțeam la colțul străzii, ca să nu ne vadă părinții.
+# stricăm → stricam
+Când eram la începuturi, găteam împreună și stricam aproape fiecare rețetă.
+# Vișam → Visam
+Visam la o casă cu grădină și un câine mare, iar acum le avem pe toate.
+# Ma → Mă
+Mă aștepta mereu cu ceai cald când veneam târziu de la muncă.
+# sunăm → sunam, pauză → pauza
+Ne sunam în pauza de prânz doar ca să ne auzim vocea.
+# numărăm → număram
+În anul în care am stat departe, număram zilele până ne revedeam.
+# ceartă → cearta
+Nu mai știu de la ce am început cearta, dar știu că am terminat-o îmbrățișați.
+# că → ca
+Nu mă mai iubești ca înainte, sau mi se pare mie?
+# vină → vina
+Mereu e vina mea, nu-i așa? Tu nu greșești niciodată.
+# desparțim → despărțim
+Nu vreau să ne despărțim, vreau doar să mă vezi și pe mine.
+# cină → cina
+Sunt supărată că ai uitat de cina cu părinții mei.
+# ține → tine
+Am vorbit cu tine ca și cum aș fi vorbit cu un perete.
+# mașina → mașină, mamă → mama
+Ne-am certat în mașină tot drumul până la mama, apoi am zâmbit amândoi la masă de parcă nimic nu s-ar fi întâmplat.
+# ca → că
+Îmi pare rău că te-am făcut să plângi, nu merit lacrimile tale.
+# Ti-am → Ți-am, ciocolată → ciocolata
+Ți-am cumpărat ciocolata ta preferată ca ofrandă de pace.
+# ca → că
+Nu-ți promit că n-o să mai greșesc, dar îți promit că o să încerc.
+# fostă → fosta
+Am păstrat prietenia cu fosta mea soacră, e o femeie minunată.
+# Ti-am → Ți-am
+Ți-am adus înghețată și batiste, hai să ne uităm la o comedie.
+# vină → vina
+Nu e vina ta că s-a terminat, uneori oamenii pur și simplu se schimbă.
+# Ma → Mă, sa → să
+Mă tot uit la ultimul lui mesaj, în care îmi spunea să am grijă de mine.
+# cani → căni
+Încă pun două căni de cafea dimineața, din obișnuință.
+# sarcină → sarcina
+Prietena mea și-a pierdut sarcina și nu știu cum s-o ajut.
+# tătei → tatei, asta → ăsta
+Am fost la cimitir azi și i-am povestit tatei tot ce s-a întâmplat anul ăsta.
+# pomană → pomana
+Am pregătit colivă și sarmale pentru pomana de șase luni.
+# mamă → mama
+Mulțumesc pentru cuvintele frumoase despre mama, i-ar fi plăcut să le audă.
+# uită → uita
+Ne-ați fost alături la greu, nu vom uita asta niciodată.
+# viață → viața, că → ca
+La mulți ani, Elena! Să-ți fie viața la fel de frumoasă ca numele pe care îl porți.
+# asta → ăsta
+De Sfântul Pantelimon îl sunăm pe Pantelie, singurul din familie cu numele ăsta.
+# Maine → Mâine
+Mâine e Sfânta Paraschiva, nu uita să o suni pe mătușa Veta.
+# ca → că
+De Sfântul Dumitru facem mereu o masă mare, că avem trei oameni cu numele Dumitru în familie.
+# ora → oră
+Ne-a chemat Ionuț de ziua numelui, dar n-a mai zis la ce oră.
+# asta → ăsta, ghețele → ghetele
+Anul ăsta de Sfântul Nicolae am fost noi cei care am pus cadouri în ghetele părinților.
+# dimineața → dimineață
+Te-am sunat de dimineață să-ți urez la mulți ani, dar aveai telefonul închis.
+# Sa → Să
+Să ai un an bun și să-ți poarte noroc numele pe care îl porți!
+# va → vă, doamna → doamnă
+Felicitări pentru noul post, să vă meargă bine la noua școală, doamnă directoare!
+# bursă → bursa
+Ai luat bursa! Știam că tu o să o primești, ești cea mai muncitoare persoană pe care o știu.
+# Ti-ai → Ți-ai
+Ți-ai deschis în sfârșit atelierul, sunt atât de mândră de tine!
+# Felicitari → Felicitări
+Felicitări pentru primul salariu, să-l cheltuiești pe ceva ce-ți place!
+# Va → Vă
+Vă felicit pentru frumoasa familie pe care ați clădit-o.
+# Felicitari → Felicitări
+Felicitări, ați primit în sfârșit aprobarea pentru adopție! Ce zi frumoasă!
+# așteptăm → așteptam, sa → să
+Bun venit în familie, micuțule! Abia așteptam să te cunoaștem.
+# primă → prima, fiică → fiica
+Când am văzut-o prima dată pe fiica noastră, a zâmbit de parcă ne știa de-o viață.
+# mătușa → mătușă
+Mulțumesc pentru cele mai frumoase vacanțe din viața mea, mătușă dragă.
+# prăjitură → prăjitura
+Mulțumesc, dragă vecină, pentru prăjitura cu mere, era încă caldă când ai adus-o.
+# Va → Vă
+Vă mulțumim pentru cadoul de nuntă, l-am pus la loc de cinste în sufragerie.
+# Va → Vă
+Vă mulțumesc, colegi dragi, pentru felicitarea pe care mi-ați semnat-o toți.
+# mamă → mama
+Mulțumesc pentru că ai avut grijă de mama cât am fost eu în spital.
+# stam → stăm, uită → uita
+Ne-ați primit la voi acasă când n-aveam unde să stăm, nu vom uita asta.
+# Va → Vă, muncă → munca
+Vă suntem recunoscători pentru toată munca de la serbare, copiii au strălucit.
+# va → vă
+Ne-ați ajutat să ne mutăm într-o singură zi, vă datorăm o masă bună.
+# Va → Vă
+Vă mulțumim pentru ploaia de mesaje de ziua mea, m-ați copleșit.
+# întreaga → întreagă
+Mersi frumos pentru flori, au stat proaspete o săptămână întreagă.
+# ca → că
+Hai că poți, mai e o singură probă și ești în finală!
+# asta → ăsta
+Ai muncit atâta pentru momentul ăsta, acum doar bucură-te de el.
+# fa → fă
+Nu te mai gândi la ce zic alții, fă ce simți.
+# pizză → pizza
+Dacă iese, bine, dacă nu, mergem la o pizza și uităm de tot.
+# pașă → pasă
+Ai emoții? E normal, înseamnă că îți pasă.
+# ca → că, răzi → râzi
+Gândește-te că peste o săptămână o să râzi de cât de stresat ai fost.
+# Maine → Mâine
+Mâine e operația, dar doctorul a zis că e o procedură simplă, nu mai plânge.
+# ca → că, sală → sala
+Mama a zis că o să fie primul om care te vede când ieși din sala de operație.
+# grabi → grăbi
+Nu te grăbi, recuperarea durează, iar tu ai voie să fii obosit.
+# supă → supa
+O să-ți aduc supa de pui a mamei, aia care face minuni.
+# tin → țin
+Te țin în gând și în rugăciune, să ai o operație ușoară.
+# Ti-am → Ți-am, placa → placă
+Ți-am trimis o carte ca să ai ce citi în spital, sper să-ți placă.
+# sa → să
+Te-ai ținut tare tot tratamentul, acum e vremea să te bucuri de viață.
+# Sa → Să
+Să ai liniște sufletească și multă putere în zilele care urmează.
+# calcă → călca
+Ne-am cunoscut la un curs de dans, el mă călca pe picioare la fiecare pas.
+# masă → masa
+Ne-am întâlnit prima dată la o nuntă, eram amândoi la masa celor singuri.
+# nasă → nașă
+Ne-a făcut cunoștință o prietenă comună, care acum ne e nașă.
+# biblioteca → bibliotecă, sa → să
+L-am văzut prima dată la bibliotecă și am împrumutat aceeași carte de trei ori ca să dau de el.
+# răzând → râzând
+Când am văzut-o râzând, am știut că e ea.
+# înghiț → înghit
+Mi-a pus inelul într-o prăjitură și era să-l înghit.
+# dă → da, gură → gura
+Am zis da cu gura plină de tort, cel mai neromantic moment, dar al nostru.
+# radă → râdă
+Fratele meu a ținut un toast la nunta mea care a făcut toată sala să râdă.
+# soacră → soacra, sală → sala
+Am dansat cu soacra pe o melodie populară și am fost aplaudați de toată sala.
+# nunta → nuntă
+Nu vreau nuntă mare, vreau doar să te văd zâmbind la altar.
+# muzică → muzica
+Am vorbit cu formația, încep cu muzica populară după tort.
+# nunta → nuntă
+Am primit la nuntă trei prăjitoare de pâine și niciun storcător.
+# făini → faini
+Ce noroc pe noi că am avut nași atât de faini!
+# Va → Vă
+Vă mulțumim că ne-ați fost nași și ne-ați purtat de grijă la fiecare pas.
+# Sa → Să, rasete → râsete
+Să aveți o căsnicie cu mai multe râsete decât certuri!
+# va → vă, că → ca
+Să vă fie dragostea ca vinul, cu cât trece timpul, cu atât mai bună.
+# Va → Vă, va → vă
+Vă doresc să vă găsiți mereu drumul unul spre celălalt.
+# Sa → Să, va → vă, tineți → țineți
+Să vă țineți de mână și la bine, și la greu.
+# va → vă
+Felicitări mirilor! Să vă bucurați de fiecare zi împreună.
+# nepotelului → nepoțelului
+Am fost la botezul nepoțelului și mi-a dat lacrimile când a plâns în apă.
+# Nasa → Nașa, slujbă → slujba, fetiță → fetița
+Nașa a ținut-o în brațe toată slujba, deși fetița plângea de mama focului.
+# rochită → rochița
+Ce bine i-a stat micuței în rochița albă de botez!
+# va → vă
+Felicitări pentru botez! Să vă crească sănătoasă și voioasă.
+# Va → Vă
+Vă așteptăm cu drag la botezul fiului nostru, sâmbătă, la ora doisprezece.
+# fetiță → fetița, pensulă → pensula
+Când a tras de moț, fetița a ales mai întâi pensula, apoi cartea.
+# motul → moțul
+Cine i-a tăiat moțul? Am auzit că ați făcut o petrecere frumoasă.
+# ca → că, nasă → nașă
+Ce emoție am avut când m-a sunat sora mea să-mi spună că o să fiu nașă!
+# hainute → hăinuțe
+Am pregătit trusoul de botez de o lună: lumânare, prosop și hăinuțe albe.
+# Va → Vă, inima → inimă, va → vă
+Vă felicit din inimă pentru absolvire și vă doresc un drum frumos în viață.
+# îmbrățișari → îmbrățișări
+Ce zi frumoasă a fost ultimul clopoțel, cu flori, lacrimi și îmbrățișări!
+# învățăm → învățam
+Pe vremea liceului, ne strângeam la cineva acasă și învățam pentru bac până dimineața.
+# ajutăm → ajutam, seară → seara
+Ne ajutam la teme pe telefon și ne plângeam de profesori toată seara.
+# așteptăm → așteptam
+Ultima zi de școală parcă a trecut într-o clipă, deși așteptam de patru ani să se termine.
+# Felicitari → Felicitări
+Felicitări pentru media de la bac! Acum chiar poți să alegi orice facultate.
+# țară → țara
+Ne strângeam în parcul din fața facultății și puneam țara la cale.
+# alergăm → alergam
+Ne trezeam la ultimul minut și alergam la cursul de opt fără să ne spălăm pe dinți.
+# licență → licența
+Când am susținut licența, toată familia era în sală, chiar și mătușa din Craiova.
+# diplomă → diploma, tată → tata
+Am primit diploma și primul lucru pe care l-am făcut a fost să-l sun pe tata.
+# coroniță → coronița
+Ne-a adus acasă coronița de premiant și a pus-o pe capul pisicii.
+# diplomă → diploma
+Felicitări pentru diploma de la olimpiadă, ai muncit tot anul pentru ea!
+# Ma → Mă
+Mă bucur atât de mult că ai intrat la liceul pe care ți l-ai dorit!
+# răzând → râzând
+Ne-a strigat catalogul ca pe vremuri și am răspuns toți „prezent” râzând.
+# Mama → Mamă, ține → tine
+Mamă, îți mulțumesc că ai venit să stai cu copiii, fără tine nu ne-am fi descurcat.
+# Tata → Tată
+Tată, să nu mai urci pe acoperiș singur, te rog, cheamă-mă pe mine.
+# Mama → Mamă, diseara → diseară
+Mamă, te sun diseară, acum sunt în ședință.
+# Sora → Soră
+Soră dragă, te rog să nu mai fii supărată pe mine, mi-e dor de tine.
+# Verișoara → Verișoară
+Verișoară, ne vedem la nunta lui Mihai? Să ne așezăm la aceeași masă.
+# asta → ăsta
+Prietena mea dragă, ești omul care m-a ținut pe linia de plutire anul ăsta.
+# dimineața → dimineață
+Colega mea dragă, o să-mi lipsească cafelele noastre de dimineață.
+# Draga → Dragă, doamna → doamnă, va → vă
+Dragă doamnă vecină, vă mulțumesc că ne-ați primit coletele cât am fost plecați.
+# Doamna → Doamnă, va → vă
+Doamnă doctor, vă mulțumesc că ați avut răbdare să-mi explicați totul.
+# va → vă, frumoasa → frumoasă
+Părinte, vă mulțumim pentru slujba frumoasă de la cununie.
+# uită → uita
+Scumpule, nu uita că avem cină cu ai mei vineri.
+# râul → răul
+Copile, ascultă-mă o dată, că nu-ți vreau răul.
+# Fetito → Fetițo
+Fetițo, ce frumos ai cântat la serbare!
+# vorba → vorbă
+Ne-am întâlnit întâmplător în piață și am stat de vorbă două ore.
+# surpriza → surpriză, va → vă
+Ce surpriză să te văd la nunta Ioanei, habar n-aveam că vă cunoașteți.
+# ține → tine
+Mă bucur atât de mult că ai venit, fără tine n-ar fi fost la fel.
+# masă → masa, dată → data
+Ne-a lipsit prezența ta la masa de duminică, data viitoare vii neapărat.
+# ține → tine
+Am povestit cu toții despre tine la cină și ne-a fost tare dor.
+# dimineața → dimineață
+Mi-ai făcut ziua cu mesajul tău de dimineață.
+# va → vă
+Îmi pare bine că v-ați împăcat, era păcat să vă pierdeți din cauza unei neînțelegeri.
+# parca → parcă
+De câte ori ne vedem, parcă reîntineresc cu zece ani.
+# așteptăm → așteptam
+Te așteptam de mult să ne suni, credeam că ai uitat de noi.
+# sa → să
+Mi-ar plăcea să ne vedem mai des, nu doar la nunți și înmormântări.
+# săptămână → săptămâna
+Îmi pare rău că n-am putut veni la botez, o să trec cu un cadou săptămâna viitoare.
+# Va → Vă, prezentă → prezența
+Vă confirmăm prezența, venim doi adulți și un copil.
+# va → vă
+Din păcate nu putem ajunge la nuntă, suntem plecați din țară, dar vă trimitem darul prin nași.
+# Va → Vă, fetiță → fetița
+Vă rog să ne scuzați că nu putem veni la petrecere, fetița e bolnavă.
+# urma → urmă
+Hai să lăsăm trecutul în urmă și să începem de la zero.
+# Va → Vă
+Vă mulțumim, dragi prieteni, pentru că ne-ați fost alături la cea mai frumoasă zi din viața noastră.
+# Va → Vă
+Vă mulțumesc tuturor, cei care ați venit, cei care ați sunat și cei care v-ați gândit la mine.
+# va → vă
+Să vă răsplătească bunul Dumnezeu pentru tot binele pe care l-ați făcut!
+# tinem → ținem, legătură → legătura
+Să ne ținem legătura, chiar dacă nu mai lucrăm împreună.
+# ca → că
+Felicitări pentru noul rol, sunt sigur că o să faceți o treabă extraordinară!
+# ține → tine
+Ne-a fost dor de tine la birou, bine ai revenit din concediu!
+# Sa → Să
+Să ai o pensie lungă și frumoasă, cu multe călătorii și nepoți!
+# urma → urmă
+Mama își făcea de fiecare dată planuri mari de Crăciun și până la urmă găteam toți la ea.
+# Tată → Tata, insistă → insista
+Tata insista să taie el bradul din pădure, cu permis de la ocol, cum se făcea pe vremuri.
+# coada → coadă
+Pe vremea când locuiam la Iași, de Sfânta Parascheva stăteam la coadă ore întregi la catedrală.
+# îmbrăcăm → îmbrăcam, umblăm → umblam
+Când eram copii, ne îmbrăcam în urs și capră de Anul Nou și umblam prin tot cartierul.
+# Mălanca → Malanca
+Prietenii mei din Bucovina mă chemau în fiecare an la Malanca, cu măști și tobe.
+# colindatorii → colindătorii
+În Moldova, la noi, colindătorii veneau cu Capra și dansau până amețeau.
+# umblă → umbla
+Unchiul meu umbla cu Steaua, făcută de el din carton și hârtie colorată.
+# ascultăm → ascultam
+Ne adunam în sufrageria părinților și ascultam de la radio discursul de Anul Nou.
+# Paste → Paște
+În cartierul în care am crescut, de Paște toată lumea ieșea la Înviere cu lumânările aprinse.
+# Profesoară → Profesoara, învăță → învăța, incondeiem → încondeiem
+Profesoara noastră de religie ne învăța să încondeiem ouă în fiecare primăvară.
+# mâncăm → mâncam
+În copilărie primeam de Paște câte un iepuraș de ciocolată și îl mâncam pe bucăți o săptămână.
+# școala → școală, sârma → sârmă
+La școală făceam mărțișoare din sârmă colorată și le dădeam mamelor.
+# Fețele → Fetele, clasa → clasă
+Fetele din clasă purtau mărțișoarele prinse unul lângă altul, ca pe niște medalii.
+# primăvara → primăvară
+Mergeam în fiecare primăvară cu clasa la plantat de pomi în parcul din spatele școlii.
+# toamna → toamnă, tată → tata
+În fiecare toamnă mergeam cu tata la târgul de toamnă și ne cumpăra mere caramelizate.
+# viață → viața, șefă → șefa
+Prima mea zi de muncă mi-a schimbat viața, iar șefa de atunci mi-a devenit prietenă.
+# casnicie → căsnicie, învățăm → învățam
+În primul an de căsnicie locuiam cu socrii și învățam să gătesc după gustul soacrei.
+# mama → mamă
+Pe vremea când eram mamă tânără, nu dormeam deloc, dar îmi amintesc doar de zâmbetele copiilor.
+# cumpărăm → cumpăram
+Mergeam în fiecare duminică cu cei mici la parc și le cumpăram porumb fiert.
+# uităm → uitam
+Ne adunam toți părinții la ușa grădiniței și ne uitam pe geam la serbare.
+# duminică → duminica
+Când erau mici, copiii mă trezeau duminica dimineața sărind în patul nostru.
+# bicicletă → bicicleta, dimineața → dimineață
+Tatăl meu mă ducea la școală cu bicicleta, pe portbagaj, în fiecare dimineață.
+# seară → seara, ascultă → asculta
+Vecinul nostru cânta la saxofon seara pe balcon și tot blocul îl asculta.
+# salută → saluta
+În orașul în care am copilărit, toată lumea se cunoștea și se saluta pe stradă.
+# planificăm → planificam
+Pe atunci ne permiteam doar o vacanță pe an, dar o planificam luni de zile.
+# certă → certa
+În fiecare an, mama făcea salată de boeuf și se certa cu mătușa pe câtă maioneză să pună.
+# casă → casa
+Te iubesc, chiar și când lași șosetele prin toată casa.
+# Ti-am → Ți-am
+Ți-am păstrat ultima bucată de prăjitură, asta e dragoste adevărată.
+# ține → tine
+Nu-mi trebuie vacanțe exotice, îmi ajunge o seară cu tine pe canapea.
+# poză → poza
+Am găsit poza de la prima noastră excursie și am zâmbit toată ziua.
+# ca → că, rad → râd
+Îți mulțumesc că mă faci să râd chiar și când n-am chef.
+# grija → grijă
+Ai grijă la drum, iubire, și scrie-mi când ajungi la hotel.
+# Buna → Bună
+Bună dimineața, frumoaso! Să ai o zi la fel de frumoasă ca tine.
+# diseara → diseară
+Îți trimit un pupic mare și te aștept diseară cu cina gata.
+# ține → tine
+M-am îndrăgostit de tine din nou azi, când te-am văzut jucându-te cu copiii.
+# ca → că
+Ce noroc am avut că te-am întâlnit la petrecerea aia unde nici nu voiam să merg.
+# ține → tine
+Știu că nu sunt perfect, dar pentru tine încerc să fiu mai bun în fiecare zi.
+# arați → arăți
+Îmi place să te privesc când dormi, arăți atât de liniștită.
+# ține → tine
+Fără tine aș fi doar o jumătate de om.
+# ține → tine
+Am o slăbiciune pentru tine de când te știu.
+# ciorbă → ciorba
+Vino acasă, că ți-am făcut ciorba aia pe care o iubești.
+# ca → că
+Îți scriu de pe scaunul din sala de așteptare, să știi că mă gândesc la tine.
+# ca → că
+Mulțumesc că mi-ai fost alături când am pierdut slujba, nu m-ai lăsat să cad.
+# ca → că, incolo → încolo
+Promit că de acum încolo te ascult până la capăt înainte să sar în sus.
+# ca → că
+Am învățat că uneori e mai important să fii fericit decât să ai dreptate.
+# Sa → Să, împărți → împarți
+Să ai mereu un motiv să te bucuri și un om cu care să împarți bucuria!
+# Sa → Să, ca → că
+Să te bucuri de tinerețe, că trece mai repede decât crezi.
+# căuți → cauți
+Să-ți găsești liniștea pe care o cauți și oamenii care te merită.
+# Sa → Să
+Să ai noroc în dragoste și în tot ce-ți propui!
+# Sa → Să, roată → roata
+Să ai parte de o zi minunată și de un tort cât roata carului!
+# Sa → Să, ține → tine
+Să ai răbdare cu tine și curaj în fața vieții!
+# tată → tata
+Să crești mare, să fii cuminte și să-i asculți pe mama și pe tata!
+# Ti-am → Ți-am
+Ți-am făcut tortul preferat, cu ciocolată și vișine, ca în fiecare an.
+# Va → Vă, va → vă
+Vă transmitem toată compasiunea noastră și vă îmbrățișăm de departe.
+# Va → Vă, rugam → rugăm
+Vă rugăm să primiți condoleanțele noastre sincere.
+# Va → Vă, slujba → slujbă
+Vă mulțumim pentru coroana de flori și pentru cuvintele frumoase de la slujbă.
+# Va → Vă, rugam → rugăm
+Vă rugăm să ne iertați că n-am venit la înmormântare, am aflat prea târziu.
+# vorba → vorbă
+Am vrut să-ți spun la telefon, dar nu mi-a ieșit nicio vorbă.
+# Ma → Mă, ține → tine
+Mă gândesc la tine și la mama ta în fiecare seară.
+# căfeaua → cafeaua
+Mi-e greu să cred că n-o să mai vină la cafeaua de sâmbătă.
+# masă → masa
+Ne lipsește în fiecare zi, mai ales la masa de duminică.
+# pește → peste
+Am pierdut-o pe cea mai bună prietenă a mea, și nu știu cum să trec peste.
+# Tinea → Ținea, geanță → geantă
+Ținea mereu o pungă cu bomboane în geantă pentru copiii din vecini.
+# sa → să
+Îi plăcea să cânte la chitară la petreceri, și acum mi se pare că-l aud.
+# Ma → Mă, sună → suna, duminica → duminică
+Mă suna în fiecare duminică să mă întrebe ce-am mâncat.
+# grădină → grădina, dimineața → dimineață
+Ne trimitea mereu poze cu florile din grădina ei, în fiecare dimineață.
+# duminică → duminica
+De când a plecat, telefonul nu mai sună duminica la prânz.
+# geacă → geaca, tătei → tatei
+Am păstrat geaca tatei în cuier, n-am putut s-o dau.
+# tătei → tatei, duminică → duminica
+Mama își pune în continuare tacâmul tatei pe masă duminica.
+# ras → râs, năzbațiile → năzbâtiile
+Ne-am adunat de pomenirea de un an și am râs povestind despre năzbâtiile lui.
+# Ti-am → Ți-am, ușa → ușă, mâncă → mânca
+Ți-am lăsat la ușă o oală cu supă și niște cozonac, să ai ce mânca.
+# lăbută → lăbuța
+Ne-am luat rămas-bun de la pisică la veterinar, i-am ținut lăbuța până la capăt.
+# seară → seara
+Copiii au plâns toată seara după hamster, i-am făcut o mică înmormântare în grădină.
+# Maine → Mâine, stresă → stresa
+Mâine e simularea de la bac, nu te stresa, e doar un exercițiu.
+# tine-te → ține-te
+Te sun după examen să-mi spui cum a fost, ține-te tare!
+# nota → notă
+Indiferent ce notă iei, eu tot te duc la înghețată.
+# Maine → Mâine
+Mâine e prima ta zi la grădiniță, o să te distrezi de minune cu copiii.
+# Maine → Mâine
+Mâine ai audiția, cântă din suflet și restul vine de la sine.
+# ca → că
+Sunt sigură că o să ai succes la noul job, oamenii de acolo au noroc cu tine.
+# întâmplă → întâmpla
+Nu-ți fie frică de schimbare, uneori e cel mai bun lucru care ni se poate întâmpla.
+# grabi → grăbi
+Ești pregătit, doar respiră și nu te grăbi.
+# față → fața
+Ce curaj ai avut să vorbești în fața a o mie de oameni!
+# Sa → Să
+Să ai o operație ușoară și o recuperare rapidă, te așteptăm acasă!
+# după-amiaza → după-amiază
+Ești în rezervă acum? Pot să vin să te văd după-amiază?
+# Ti-am → Ți-am
+Ți-am adus pijamale noi, papuci și cărțile tale preferate la spital.
+# grabi → grăbi
+Nu te grăbi să te ridici din pat, ascultă ce zic medicii.
+# cumințe → cuminte, asistențele → asistentele
+Să fii cuminte la spital și să mănânci tot ce-ți dau asistentele.
+# rugam → rugăm
+Ne rugăm toată familia pentru sănătatea ta.
+# Va → Vă, stam → stăm
+Vă stăm la dispoziție cu orice ajutor de care aveți nevoie la înmormântare.
+# Ma → Mă, sună → suna
+Mă suna mereu de ziua mea, primul dintre toți, la ora șapte dimineața.
+# ține → tine, mâncăm → mâncam
+Mi-am amintit de tine când am trecut pe lângă cofetăria unde mâncam savarine.
+# Ti-aduci → Ți-aduci
+Ți-aduci aminte de excursia la Sinaia, când am rămas blocați în telegondolă?
+# biblioteca → bibliotecă
+Mai știi cum fugeam de la ora de sport și ne ascundeam în bibliotecă?
+# programam → programăm
+Ce dor mi-e de vremurile când ne vedeam în fiecare zi, fără să ne programăm.
+# gâscă → gașca
+Pe vremea aia credeam că o să fim mereu împreună, toată gașca.
+# Tin → Țin
+Țin minte ce emoționați eram la primul nostru concert de rock.
+# seară → seara, ca → că
+Îmi amintesc perfect seara în care ne-am promis că o să rămânem prieteni pe viață.
+# cumpărăm → cumpăram
+Ne cumpăram cu ultimii bani bilete la film și împărțeam o pungă de semințe.
+# Stateam → Stăteam, fișe → fise
+Stăteam ore întregi în cabina telefonică, cu fise numărate, să vorbesc cu tine.
+# cabana → cabană, pături → paturi
+Plecam la munte cu rucsacii în spate și dormeam la cabană, în paturi suprapuse.
+# lucrăm → lucram, că → ca
+Pe vremea când lucram la spital, colegii îmi erau ca o a doua familie.
+# strangeam → strângeam, pauză → pauza
+Ne strângeam în pauza de masă în curtea fabricii și împărțeam ce aduceam de acasă.
+# invită → invita, echipă → echipa
+Șeful meu de atunci ne invita la el acasă de Crăciun pe toată echipa.
+# biletele → bilețele, geanță → geantă
+Fiica mea îmi scria bilețele cu „te iubesc, mami” și mi le punea în geantă.
+# uităm → uitam
+Aveam un obicei: în fiecare vineri seara făceam clătite și ne uitam la un film.
+# certăm → certam
+Ne jucam Monopoly până după miezul nopții și ne certam pe hoteluri.
+# Șoțul → Soțul, duminică → duminica
+Soțul meu făcea pe bucătarul duminica și ieșea mereu o mâncare ciudată, dar bună.
+# Cantam → Cântam, mașina → mașină, tacem → tăcem
+Cântam în mașină cât era drumul de lung, iar copiii ne rugau să tăcem.
+# ca → că
+Îmi ziceai că o să ne luăm o casă la țară când ieșim la pensie.
+# seara → seară
+Pe vremea logodnei mergeam în fiecare seară la plimbare pe malul mării.
+# așteptă → aștepta, poartă → poarta
+Copiii aveau un câine care îi aștepta în fiecare zi la poarta școlii.
+# dimineața → dimineață
+Mama mea venea în fiecare dimineață să ne ajute cu cel mic, cu autobuzul.
+# învață → învăța, lasa → lăsa
+Socrul meu îi învăța pe copii să joace șah și îi lăsa să câștige.
+# plouă → ploua
+În anii aceia, de fiecare dată când ploua, ne puneam cizmele și ieșeam să sărim prin bălți.
+# Tin → Țin
+Țin minte ce mândri am fost când copilul nostru a citit primul cuvânt.
+# arătăm → arătam
+Vorbeam cu mama pe video în fiecare seară și îi arătam ce am gătit.
+# zăcuscă → zacuscă, păstrăm → păstram, că → ca
+Ne aduceau prietenii de acasă zacuscă și brânză, iar noi le păstram ca pe niște comori.
+# ca → că
+Când am venit prima oară acasă după trei ani, mi s-a părut că totul e mai mic.
+# săptămână → săptămâna, ca → că
+Hai să ne vedem săptămâna asta, că ți-am adus ceva din vacanță.
+# ține → tine
+Te pup, ai grijă de tine și dă-mi un semn când ajungi.
+# prietenă → prietena
+Mulțumesc că ai fost prietena mea în cel mai greu an din viața mea.
+# că → ca
+Nu știu ce-am făcut să merit o prietenă ca tine.
+# ca → că
+Ne vedem duminică la masă, mama a zis că face friptură.
+# țăria → tăria
+Te felicit pentru decizia curajoasă, mulți n-ar fi avut tăria asta.
+# Ma → Mă, ca → că
+Mă bucur că ai găsit în sfârșit un om care să te iubească cum meriți.
+# va → vă
+Am auzit că te-ai mutat împreună cu iubitul, să vă fie cu noroc!
+# ca → că
+Ne bucurăm atât de mult pentru voi, că după atâția ani ați devenit părinți!
+# Felicitari → Felicitări, va → vă, țara → țară
+Felicitări că ați reușit să vă cumpărați casa la țară, cum ați visat!
+# asta → ăsta, mamă → mama
+Crăciunul ăsta e primul fără mama, așa că am făcut cozonacul după caietul ei.
+# uităm → uitam
+De Crăciun ne uitam mereu la același film vechi la televizor, cu toată familia înghesuită pe canapea.
+# față → fața
+Ne pregăteam de Ajun cu o săptămână înainte, făceam curat și scoteam fața de masă cea bună.
+# colindăm → colindam
+Pe vremea când eram la Cluj, de Crăciun colindam cu corul facultății prin cartiere.
+# sa → să
+În fiecare Ajun mergeam cu tata să cumpărăm brad de la piață, în ultima clipă.
+# terminăm → terminam
+La noi în familie, cadourile se deschideau abia după ce terminam de mâncat.
+# bănut → bănuț
+Am păstrat obiceiul mamei de a pune un bănuț în cozonac, iar cine îl găsește are noroc tot anul.
+# asta → ăsta
+Anul ăsta am învățat-o pe fiica mea să împletească colacii pentru Moși.
+# mătușă → mătușa
+Ne-am adunat toți la mătușa de la Brașov, unde ninge mereu de Crăciun.
+# mamă → mama
+Am primit un pulover tricotat de mama, cu reni pe el, și îl port cu mândrie.
+# regulă → regula
+De sărbători nu vorbim despre politică la masă, e regula casei.
+# Sa → Să
+Să aveți un Revelion cu prieteni buni, muzică și mult râs!
+# asta → ăsta
+Revelionul ăsta îl facem mic, doar noi doi și o sticlă de vin.
+# biletel → bilețel
+Ne-am pus la miezul nopții câte o dorință pe un bilețel și l-am ars în lumânare.
+# supăram → supărăm
+Ne-au trezit vecinii cu Plugușorul la șapte dimineața, dar n-am putut să ne supărăm.
+# bancute → băncuțe
+Am stat la slujba de Înviere până la capăt, iar copiii au adormit pe băncuțe.
+# șoacrei → soacrei
+Am făcut pască după rețeta soacrei și a ieșit mai bună decât a ei, dar nu i-am zis.
+# Paste → Paște
+Ne-am adunat la masa de Paște cu toată familia, inclusiv cu verii din Italia.
+# Paste → Paște
+De Paște ne-am dus cu daruri la bătrânii singuri din cartier.
+# Paste → Paște, îmbrăcăm → îmbrăcam, biserica → biserică
+De Paște ne îmbrăcam toți în alb și mergeam la biserică ținându-ne de mână.
+# ca → că, Paste → Paște
+Ce bine că ați ajuns de Paște, ne-ați făcut cea mai mare bucurie!
+# că → ca
+Am dăruit mărțișoare tuturor doamnelor de la birou și s-au bucurat ca niște copii.
+# marțișor → mărțișor
+De 1 Martie mi-a lăsat cineva un mărțișor pe birou, fără bilet, și tot încerc să ghicesc cine.
+# școala → școală
+Fiul meu a făcut mărțișoare la școală și i-a dat unul și doamnei de la cantină.
+# Mama → Mamă
+Mamă, la mulți ani de Ziua Mamei! Ai fost și ești cea mai bună.
+# Ti-am → Ți-am, că → ca
+Ți-am adus flori de Ziua Mamei, ca în fiecare an de când mă știu.
+# ca → că
+De Dragobete se zice că păsările își aleg perechea, și noi ne-am ales acum zece ani.
+# ca → că
+Îți mulțumesc că m-ai sunat azi, chiar aveam nevoie să aud o voce cunoscută.
+# poză → poza, micuță → micuța
+Mulțumesc pentru poza cu micuța, am pus-o pe frigider.
+# Va → Vă, masă → masa, burtă → burta
+Vă mulțumim pentru masa minunată, plecăm acasă cu burta plină și cu sufletul bucuros.
+# Va → Vă, prezența → prezență
+Vă mulțumim pentru prezență și pentru darul generos, ne-ați făcut ziua de neuitat.
+# mama → mamă, ca → că
+Mulțumesc, mamă, că ai venit să-mi faci curat după operație, deși ți-am zis să nu.
+# Va → Vă, doamna → doamnă, educătoare → educatoare
+Vă mulțumim, doamnă educatoare, pentru serbarea minunată, copiii au fost în extaz.
+# nuntă → nunta, va → vă
+Ne-ați ajutat atât de mult cu nunta, nu știm cum să vă mulțumim.
+# Ti-am → Ți-am, săptămână → săptămâna
+Ți-am rămas datoare cu o cină, dar te invit eu săptămâna viitoare.
+# Va → Vă, tată → tata
+Vă mulțumesc tuturor pentru că ați fost alături de noi la despărțirea de tata.
+# oglindă → oglinda
+Ți-am scris pe oglinda din baie „te iubesc” cu rujul, sper să nu te superi.
+# dimineața → dimineață
+Mi-ai trimis un mesaj de dimineață și m-a ținut cu zâmbetul pe buze toată ziua.
+# razi → râzi
+Îmi place cum râzi când crezi că nu te vede nimeni.
+# ca → că
+Când am aflat că o să fim părinți, ne-am îmbrățișat în mijlocul străzii.
+# ține → tine
+Mi-e dor de tine ca de o vară care nu se mai termină.
+# ca → că
+Ar trebui să dormi, dar eu tot îți scriu, pentru că mi-e dor.
+# vorba → vorbă
+Aș vrea ca timpul să se oprească în serile în care stăm de vorbă pe balcon.
+# ca → că, sa → să
+Mulțumesc că ai stat cu mine la spital toată noaptea, fără să te plângi o clipă.
+# Ti-am → Ți-am
+Ți-am dus dorul în fiecare minut al delegației.
+# ciocolată → ciocolata
+Trebuie să-ți mărturisesc ceva: am mâncat toată ciocolata pe care ai ascuns-o.
+# iarta-mă → iartă-mă
+Am fost egoist și n-am văzut cât de obosită erai, iartă-mă.
+# împăcam → împăcăm, ca → că
+Hai să ne împăcăm, că mâine vin ai tăi și nu vreau să ne vadă supărați.
+# mâna → mână, seară → seara
+Ai zis că suni și n-ai sunat, iar eu am stat cu telefonul în mână toată seara.
+# uită → uita
+Recunosc, am fost geloasă, dar nu mi-a plăcut cum se uita la tine.
+# vorba → vorbă
+Am stat de vorbă până la trei dimineața și am lămurit tot.
+# pizză → pizza
+Prima dată când am gătit pentru el, am ars orezul și am comandat pizza.
+# sforaim → sforăim
+Ne-am mutat împreună în pandemie și am descoperit că amândoi sforăim.
+# nuntă → nunta
+Am făcut nunta după opt ani de relație, când nimeni nu mai credea că o facem.
+# va → vă, că → ca
+Să vă iubiți la fel de mult și peste treizeci de ani, ca acum!
+# va → vă, ținându-va → ținându-vă
+Ce frumos e să vă văd și acum ținându-vă de mână, după atâția ani!
+# ca → că
+Mi-a spus cineva odată că o căsnicie bună se construiește din mici gesturi zilnice.
+# tată → tata, biletele → bilețele
+Mama și tata își scriu și acum bilețele pe frigider, după patruzeci de ani.
+# Ti-ai → Ți-ai
+Ți-ai luat deja rochia pentru botezul Mariei? Hai să mergem sâmbătă împreună.
+# că → ca
+Sper ca Andrei să-și găsească o fată bună și să-l văd la casa lui.
+# nunta → nuntă, va → vă
+Ne pare rău că lipsim de la nuntă, dar vă trimitem toată dragostea noastră din Canada.
+# Va → Vă, rugam → rugăm
+Vă rugăm să ne spuneți dacă aveți preferințe pentru meniu, avem și variante de post.
+# dansăm → dansam, descultă → desculță
+Mi-am pus pantofii cu toc la nuntă și după două ore dansam desculță.
+# nunta → nuntă
+Am mâncat atât de mult la nuntă încât n-am mai putut să dansez.
+# dimineață → dimineața
+Nunta a ținut până la șase dimineața, iar noi am fost printre ultimii care au plecat.
+# strigăt → strigat, pompa → pompă, sală → sala, aplăudat → aplaudat
+Nașul a strigat darul cu atâta pompă încât toată sala a aplaudat.
+# doua → două
+Mirii au plecat în luna de miere a doua zi dimineață, abia dormiseră două ore.
+# umbrelă → umbrela, ca → că, ca → că, ploua → plouă
+ne vedem la botez, adu și umbrela că zice că plouă
+# condoleante → condoleanțe
+condoleanțe, frate, sunt cu tine
+# diseara → diseară
+la mulți ani, tată! te sun diseară când ies de la muncă
+# așeara → aseară
+mamă, ai primit florile? le-am comandat de aseară
+# gată → gata
+gata, nu mai sunt supărat, vino acasă
+# ca → că
+hai că o să fie bine la operație, te aștept cu ciorbă
+# ca → că
+ai trecut? zi-mi repede, că mor de emoții
+# pizză → pizza, diseara → diseară
+bravo, știam că poți! mergem la o pizza diseară?
+# dău → dau
+mi-a dat mama cozonac pentru voi, trec mâine să vi-l dau
+# va → vă
+crăciun fericit, sper să vă fi adus moșul tot ce ați vrut
+# pranz → prânz
+hristos a înviat! ne vedem la masă la prânz
+# uită → uita, ca → că, onomastică → onomastica
+nu uita că mâine e onomastica Mariei, sun-o
+# diseara → diseară, cina → cină
+iartă-mă, iubire, diseară te scot la cină
+# mândra → mândră
+sunt mândră de tine, ai fost curajoasă la dentist
+# urari → urări
+mulțumim pentru urări, am citit tot și am plâns de emoție
+# terasă → terasa
+Ne vedeam cu toții în fiecare vineri la terasa din colțul pieței și stăteam până la închidere.
+# așteptăm → așteptam
+Ne așteptam unul pe altul după cursuri și mergeam împreună spre cămin.
+# împrumută → împrumuta
+Colegul meu de bancă din liceu îmi împrumuta mereu temele și nu-mi cerea nimic în schimb.
+# cântăm → cântam
+Ne adunam în garajul unui prieten și cântam în trupa noastră, care n-a avut niciodată un nume.
+# lucrăm → lucram
+Pe vremea când lucram în Italia, petreceam fiecare duminică cu ceilalți români la biserică.
+# învăță → învăța
+Antrenorul nostru ne lua în fiecare vară în cantonament la munte și ne învăța să fim echipă.
+# ascultăm → ascultam
+Când eram voluntari la Crucea Roșie, împărțeam pachete și ascultam poveștile oamenilor.
+# strangeam → strângeam
+Ne strângeam la cenaclu în fiecare joi și ne citeam poeziile unii altora.
+# uităm → uitam
+Ne duceam în fiecare an la festivalul de film din Cluj și ne uitam la câte cinci filme pe zi.
+# repetăm → repetam
+În tabăra de muzică ne trezeam devreme și repetam în pădure.
+# Traiam → Trăiam
+Trăiam într-o garsonieră cu două prietene și ne împărțeam patul pe rând.
+# învață → învăța, bancă → banca
+Vecinul nostru era un domn bătrân care ne învăța pe toți să joace table pe banca din fața blocului.
+# masă → masa
+Patronul primului restaurant unde am lucrat ne gătea el masa de prânz, în fiecare zi.
+# limbă → limba
+Ne-am cunoscut toți la un curs de limba spaniolă și am rămas prieteni după zece ani.
+# hotărâm → hotăram, plecam → plecăm, plecăm → plecam
+Pe vremea când nu aveam copii, ne hotăram vineri seara să plecăm undeva și plecam.
+# așteptăm → așteptam, că → ca
+Ne permiteam o singură ieșire pe lună la restaurant, iar ziua aia o așteptam ca pe o sărbătoare.
+# apără → apăra
+Fratele meu era mereu cel care mă apăra la școală, chiar dacă mai apoi mă tachina acasă.
+# împrumută → împrumuta
+Sora mea îmi împrumuta hainele fără să știe, iar eu i le puneam la loc înainte să vină.
+# tată → tata
+Pe vremea când tata lucra pe șantier, venea acasă doar o dată pe lună și era sărbătoare.
+# imită → imita
+Mama ne citea cu voce tare din Harry Potter și imita toate vocile.
+# tatic → tătic, felicitari → felicitări
+Am aflat că ai devenit tătic, felicitări! Ce nume i-ați dat?
+# va → vă
+Să vă trăiască gemenii și să aveți putere pentru amândoi!
+# tăței → tatei, minunație → minunăție
+Fetița voastră are ochii mamei și zâmbetul tatei, e o minunăție.
+# mamă → mama, tată → tata, pisică → pisica
+Ne-a spus primul cuvânt, și nu a fost nici mama, nici tata, ci pisica.
+# Sa → Să, că → ca, ține → tine
+Să ai parte de o zi a numelui la fel de luminoasă ca tine!
+# Maine → Mâine
+Mâine e Sfântul Spiridon, nu uita să-i dai un mesaj lui nea Spiridon de la etajul doi.
+# Vași → Vasi
+De Sfântul Vasile ne-am strâns la Vasi acasă și am mâncat până n-am mai putut.
+# va → vă
+La mulți ani tuturor celor care poartă numele Sfintei Maria, să vă ocrotească Maica Domnului!
+# onomastică → onomastica
+Să-ți fie onomastica plină de flori și de vorbe bune!
+# Va → Vă
+Vă doresc mult noroc în noua casă și vecini cumsecade!
+# va → vă
+Să vă fie casa nouă plină de lumină și de oameni dragi!
+# casă → casa
+Am făcut prima masă în casa nouă pe cutii de carton, dar a fost cea mai frumoasă masă.
+# casă → casa, mașina → mașină
+Ne-am luat la revedere de la casa în care am crescut și am plâns în mașină.
+# Sa → Să
+Să ai o pensie liniștită și sănătoasă, cu mult timp pentru grădină!
+# sa → să
+Ne-am adunat toată catedra să o sărbătorim pe doamna profesoară la ieșirea la pensie.
+# Sa → Să
+Să ai o primă zi frumoasă la noul job și colegi care să te primească bine!
+# dimineața → dimineață
+Mult succes cu afacerea, vin primul client mâine dimineață!
+# angajată → angajata
+Ce mândru sunt că ai fost aleasă angajata lunii!
+# perioadă → perioada
+Am trecut perioada de probă, de mâine sunt angajat cu acte în regulă!
+# Felicitari → Felicitări, făini → faini
+Felicitări pentru noul post, să aveți parte de un șef înțelegător și de colegi faini!
+# Sa → Să
+Să ai spor la noul loc de muncă și să te bucuri de fiecare zi acolo!
+# optă → opta
+Când eram în clasa a opta, ne strângeam în fața școlii cu o oră înainte să înceapă orele.
+# uităm → uitam
+Ne uitam la meciurile naționalei toți vecinii, în curtea blocului, pe un televizor adus de acasă.
+# lucrăm → lucram, comandăm → comandam
+Pe vremea când lucram la ziar, rămâneam la redacție până la miezul nopții și comandam mâncare.
+# mâncăm → mâncam
+Când eram în anul întâi, nu știam să gătesc nimic și mâncam doar ouă prăjite.
+# fântână → fântâna
+Ne vedeam la ora cinci la fântâna din parc, fără telefoane, și nu întârzia nimeni.
+# gâșcă → gașca, lasă → lăsa
+Mergeam cu toată gașca la lac și făceam baie până se lăsa întunericul.
+# plecăm → plecam
+Pe vremea aceea, în fiecare vacanță de iarnă plecam la schi cu clubul școlii.
+# jucăm → jucam
+Ne strângeam în fiecare sâmbătă la sala de sport a școlii și jucam baschet ore întregi.
+# învăță → învăța, tăței → tatei
+Fratele meu mă învăța să conduc pe un drum de țară, în mașina tatei.
+# fețele → fetele, uităm → uitam
+Stăteam cu fetele pe acoperișul blocului și ne uitam la stele căzătoare în august.
+# vară → vara, strând → ștrand
+Mătușa Lucia ne primea vara la ea, la Oradea, și ne ducea la ștrand în fiecare zi.
+# arată → arăta
+Unchiul Vasile ne povestea de pe vremea când lucra pe vapor și ne arăta hărți.
+# păpanasi → papanași
+Prietena mamei, doamna Marin, ne îngrijea când părinții erau la muncă și ne făcea papanași.
+# alergă → alerga
+Profesorul de sport ne alerga prin parc dimineața și noi îl uram, dar acum îi mulțumim.
+# cantină → cantina
+Doamna de la cantina facultății îmi punea mereu o porție mai mare, că eram slab.
+# cântăm → cântam
+Ne vedeam toți colegii de birou de ziua cuiva și cântam „Mulți ani trăiască” fals.
+# lucrăm → lucram
+Când lucram în tura de noapte, colegii aduceau fiecare câte ceva bun de acasă.
+# chitară → chitara, ciorba → ciorbă
+Ne petreceam toate revelioanele la cabană, cu chitara și ciorbă de fasole.
+# casnicie → căsnicie, mâncăm → mâncam, soacră → soacra, săptămână → săptămâna
+În primii ani de căsnicie mâncam în fiecare duminică la socri, iar soacra ne dădea mâncare pentru toată săptămâna.
+# dulceată → dulceață
+Vecina de vizavi ne aducea mereu dulceață de cireșe amare, făcută de ea.
+# lasă → lăsa, biletele → bilețele, casa → casă
+Fiica noastră ne lăsa bilețele prin casă când pleca la școală.
+# strangeam → strângeam
+Ne strângeam cu toții în jurul mesei în fiecare duminică și nimeni nu avea voie cu telefonul.
+# așteptă → aștepta, lumină → lumina
+Mama ne aștepta mereu cu lumina aprinsă pe hol, oricât de târziu veneam.
+# învăță → învăța
+Tata ne învăța să ne cerem iertare primii, chiar dacă nu greșeam noi.
+# flamand → flămând
+Mama zicea mereu că nimeni nu pleacă de la ea flămând, și avea dreptate.
+# Nasa → Nașa
+Nașa mea îmi trimitea în fiecare an, de ziua mea, câte o carte cu dedicație.
+# Va → Vă, ca → că
+Vă mulțumim că ați venit de atât de departe să fiți alături de noi la cununie.
+# Va → Vă
+Vă suntem recunoscători pentru tot sprijinul din ultimele luni.
+# Va → Vă, va → vă
+Vă iubim și vă așteptăm cât mai curând la noi, că ne e tare dor.
+# Va → Vă
+Vă rog să-i transmiteți mamei dumneavoastră condoleanțele mele.
+# Va → Vă, va → vă
+Vă urez multă sănătate și să vă bucurați de nepoți!
+# Va → Vă, va → vă
+Vă felicităm pentru frumosul eveniment și vă dorim o viață lungă împreună!
+# ca → că
+Ce bine că ați venit, ne-a fost dor de voi ca de soare.
+# Ti-am → Ți-am
+Ți-am păstrat un loc lângă mine la masă, grăbește-te!
+# Ti-am → Ți-am
+Ți-am cumpărat bilete la teatru de ziua ta, mergem vineri.
+# Ti-am → Ți-am
+Ți-am trimis pe e-mail pozele de la nuntă, sunt peste cinci sute.
+# Ti-ar → Ți-ar, nasa → nașa
+Ți-ar plăcea să fii nașa copilului nostru?
+# Ti-e → Ți-e
+Ți-e frică de operație? E normal, dar o să fie bine.
+# Ti-am → Ți-am
+Ți-am lăsat în frigider tot ce-ți trebuie pentru o săptămână, să nu mai gătești.
+# ține → tine
+Să știi că mama ta ar fi fost tare mândră de tine azi.
+# Sa → Să, mireasă → mireasa
+Să ne trăiască mireasa și mirele, și să vină cât mai repede și botezul!
+# ca → că
+Să nu-ți faci griji, ai grijă de tine, că de restul ne ocupăm noi.
+# Sa → Să
+Să ai o călătorie frumoasă și să ne trimiți poze de peste tot!
+# ca → că
+Să fii fericită, că meriți asta mai mult decât oricine.
+# ține → tine, arat → arăt
+Mi-e drag de tine mai mult decât îți arăt.
+# ține → tine
+Mi-e bine lângă tine și nu-mi mai trebuie nimic altceva.
+# ciorba → ciorbă
+Mama a făcut ciorbă de perișoare, cum îți place ție, vino la masă.
+# Fața → Fata
+Fata mea cea mare se mărită la vară, și încă nu-mi vine să cred.
+# Fața → Fata, scară → scara
+Fata vecinilor a luat zece la bacalaureat, toată scara s-a bucurat.
+# casa → casă
+Seara e cea mai grea, când liniștea din casă devine prea mare.
+# Paste → Paște
+Masa de Paște a fost întinsă în curte, sub nucul cel mare.
+# ține → tine
+Viața fără tine nu mai are același gust.
+# va → vă
+Bucuria mea e să vă văd pe toți la aceeași masă.
+# degeabă → degeaba
+Ne-am făcut griji degeaba, totul a ieșit bine până la urmă.
+# slujba → slujbă
+Ce frumos ați vorbit despre el la slujbă, i-ar fi plăcut tare mult.
+# gresim → greșim
+Nu-ți mai cere scuze, nu ai de ce, toți greșim.
+# Ma → Mă, ca → că
+Mă bucur că ai avut curajul să-mi spui ce simți.
+# recuperam → recuperăm
+Ne-am pierdut atâția ani din cauza orgoliului, hai să recuperăm.
+# tătei → tatei
+Ce mult înseamnă pentru mine că ai venit la înmormântarea tatei.
+# așteptă → aștepta, sacosă → sacoșă
+Mătușa Rodica ne aștepta mereu în gară cu o sacoșă de pere din grădina ei.
+# sună → suna
+Prietena mea din Timișoara mă suna de fiecare dată când ningea, să-mi spună că e frumos.
+# ma → mă
+Colegii de facultate mă chemau „mama grupei”, pentru că le găteam la toți.
+# lasă → lăsa, ușa → ușă
+Vecina de la etajul cinci îmi lăsa la ușă ziarul după ce îl citea ea.
+# lasă → lăsa
+Profesorul de chimie ne lăsa să rămânem în laborator după ore și să facem experimente.
+# fețele → fetele, uităm → uitam
+Ne adunam cu fetele la mine acasă în fiecare joi și ne uitam la telenovele.
+# dimineața → dimineață
+Fostul meu coleg de cameră mă trezea în fiecare dimineață cu muzică populară.
+# îmbrățișă → îmbrățișa
+Antrenoarea mea de gimnastică ne îmbrățișa pe toate înainte de fiecare concurs.
+# ma → mă
+Mama mă aștepta cu ceai și cozonac după fiecare examen, oricum ar fi ieșit.
+# sună → suna
+Sora mea mă suna din Germania în fiecare seară și adormeam cu telefonul la ureche.
+# învăță → învăța, bicicletă → bicicleta
+Tata mă învăța să repar bicicleta în fața blocului, iar vecinii se opreau să ne dea sfaturi.
+# grădinița → grădiniță
+Fiul meu îmi aducea flori culese din parc de fiecare dată când venea de la grădiniță.
+# navetă → naveta
+Pe vremea când făceam naveta, citeam în tren câte o carte pe săptămână.
+# muzică → muzica
+Ți-am pregătit o seară romantică, cu cina pe terasă și muzica noastră.
+# mâna → mână
+Ne-am ținut de mână tot drumul spre maternitate, iar el tremura mai tare decât mine.
+# nasă → nașă
+Mi-a spus că o să fiu nașă de cununie și am țipat de bucurie în mijlocul magazinului.
+# Va → Vă, ca → că, logodna → logodnă
+Vă mulțumesc că ne-ați fost alături la fiecare pas, de la logodnă până la botez.
+# vorba → vorbă
+Ne-am revăzut după zece ani și am stat de vorbă ca și cum nu ne-am fi despărțit niciodată.
+# ca → că
+Am hotărât să ne împăcăm de Crăciun, pentru că mama și-ar fi dorit asta.
+# Va → Vă, curaț → curat, masă → masa
+Vă doresc un Crăciun cu suflet curat și cu masa plină de oameni dragi!
+# strangeam → strângeam, echipa → echipă
+Ne strângeam cu colegii de echipă după fiecare meci și sărbătoream, chiar dacă pierdeam.
+# urcăm → urcam
+Când locuiam în Brașov, urcam în fiecare duminică pe Tâmpa cu prietenii.
+# Ti-am → Ți-am
+Ți-am promis că vin la absolvirea ta și uite că am venit tocmai din Irlanda.

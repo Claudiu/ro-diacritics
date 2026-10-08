@@ -1,0 +1,2013 @@
+# Everyday Romanian: students, teenagers, and village life with grandparents.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# Maine → Mâine, dam → dăm
+Mâine dăm teza la matematică și eu n-am înțeles nimic din capitolul cu funcții.
+# Mama → Mamă, ca → că
+Mamă, pot să rămân la Andreea până la zece? Promit că vin cu taxiul.
+# lună → luna
+Chiria a crescut cu o sută de lei, așa că o împărțim la trei de luna asta.
+# ca → că, fântână → fântâna
+bunicul zice că fântâna din curte are cea mai rece apă din tot satul
+# fan → fân, bunică → bunica, caută → căuta
+Când eram mică, mă ascundeam în podul cu fân și bunica mă căuta peste tot.
+# noua → nouă
+Mi-a ieșit nota la bac și am luat nouă și cincizeci la română!
+# Duminica → Duminică, bunică → bunica, rochită → rochița
+Duminică dimineața mergeam cu bunica la biserică, îmbrăcată în rochița cea nouă.
+# țanti → tanti
+Vecina bunicii, tanti Floarea, ne aducea mereu plăcintă cu brânză și mărar.
+# cotet → coteț
+Dragii mei nepoți, aici a nins mult și găinile nu mai ies din coteț.
+# zăcuscă → zacuscă
+Bunica mi-a pus în bagaj trei borcane de zacuscă și un cozonac întreg.
+# căruță → căruța, turta → turtă
+Mergeam cu bunicul la târg în oraș cu căruța și ne cumpăra turtă dulce.
+# biblioteca → bibliotecă, sa → să
+Cine vine cu mine la bibliotecă să învățăm pentru colocviu?
+# bursă → bursa
+Am rămas fără bani de mâncare și mai sunt zece zile până vine bursa.
+# tată → tata
+nu-i spune lui tata că am luat patru la chimie, te rog frumos
+# învăță → învăța
+Bunicul ne învăța să pescuim la iazul din spatele satului.
+# saturat → săturat
+Colegii mei de apartament nu spală niciodată vasele și m-am săturat.
+# uități → uitați
+Să nu uitați să-i dați apă câinelui, că e foarte cald afară.
+# dirigintă → diriginta, notă → nota
+Mi-a zis diriginta că dacă mai lipsesc o dată, îmi scade nota la purtare.
+# seară → seara
+Bunica avea o grădină plină de trandafiri și ne punea să-i udăm seara.
+# sa → să
+Am stat toată noaptea să termin proiectul și profesorul nici n-a venit la curs.
+# inseră → însera, lampă → lampa
+Când se însera, bunicul aprindea lampa și ne citea din cărțile lui vechi.
+# ține → tine
+Pot să dorm la tine după banchet? Ai mei pleacă la țară.
+# asta → ăsta
+Ai văzut orarul pe semestrul ăsta? Avem curs luni de la opt.
+# rău → râu
+Mergeam desculți prin iarbă până la râu și ne întorceam plini de noroi.
+# mama → mamă, clasă → clasa, costa → costă
+mamă, îmi dai voie să merg în tabără cu clasa? costă cinci sute de lei
+# vacanță → vacanța
+Am terminat sesiunea cu toate examenele luate, abia aștept vacanța.
+# lasă → lăsa
+Bunicul ne lăsa să mânăm caii când mergeam la fân.
+# Stateam → Stăteam
+Stăteam toată vara la bunici și nu ne mai venea să ne întoarcem la oraș.
+# slujba → slujbă
+Bunica ne făcea gogoși în fiecare duminică după slujbă.
+# Bubulica → Bubulică
+Vecinul bunicilor, nea Ion, avea un măgar pe care îl chema Bubulică.
+# Ti-am → Ți-am, stăi → stai
+Ți-am zis să nu mai stai pe telefon la masă, lasă-l în cameră.
+# bunică → bunica
+Mi-a scris bunica o scrisoare de mână și am plâns când am citit-o.
+# seara → seară, vacă → vaca, bunică → bunica, cântă → cânta
+În fiecare seară mulgeam vaca împreună cu bunica și ea cânta încet.
+# lasă → lăsa
+Bunicul ne ducea pe bicicletă până la moară și ne lăsa să ne uităm la roată.
+# cântă → cânta
+Cocoșul vecinilor cânta la patru dimineața și nu mai puteam dormi.
+# suna-mă → sună-mă
+nu mai am credit pe cartelă, sună-mă tu când poți
+# învăță → învăța
+Bunica ne învăța să facem pâine în cuptorul din curte.
+# jucăm → jucam, capitele → căpițele, fan → fân
+Când eram copii, ne jucam de-a v-ați ascunselea printre căpițele de fân.
+# clasa → clasă
+Profesorul de chimie ne-a dat test surpriză și jumătate din clasă a luat sub cinci.
+# factură → factura
+Ne-am certat cu colegul de cameră pe cine plătește factura la internet.
+# cotetul → cotețul, cocos → cocoș
+Bunica ne trimitea după ouă în cotețul găinilor și noi ne temeam de cocoș.
+# bunică → bunica
+Am dus-o pe bunica la piață în oraș să vândă brânză și smântână.
+# tine-mi → ține-mi
+Dacă ajungi mai devreme, ține-mi un loc în primul rând la curs.
+# ridică → ridica, sa → să
+Bunicul se ridica la cinci și se ducea să dea de mâncare la porci.
+# profă → profa
+mi-a zis profa că eseul meu e cel mai bun din clasă, nu-mi vine să cred
+# vara → vară
+Cu banii din vară mi-am plătit cursurile de engleză pentru tot anul.
+# sa → să
+Seara, toți vecinii se adunau pe banca de la poartă să mai stea la povești.
+# frica → frică
+Mi-e frică să-i spun mamei că vreau să mă las de facultate.
+# stâna → stână, cas → caș
+Am stat cu bunicul la stână trei zile și am învățat să fac caș.
+# va → vă
+Când veniți de Paști, bunicul a promis că vă duce cu barca pe lac.
+# școala → școală, sa → să
+În pauza mare fugeam la chioșcul de lângă școală să ne luăm covrigi.
+# Maine → Mâine
+Mâine avem ședința cu părinții și sigur dirigintele îi spune mamei de absențe.
+# bunică → bunica
+Am primit coletul de la bunica, are înăuntru slănină, ouă și o sticlă de vin.
+# seară → seara
+Lucrez seara la un call center ca să-mi plătesc chiria și mâncarea.
+# Vară → Vara, căsuță → căsuța
+Vara dormeam în căsuța de vară a bunicilor, pe un pat de fier.
+# impac → împac, colegă → colega, ceartă → cearta
+Nu știu cum să mă împac cu colega de cameră după cearta de aseară.
+# Cosânzeană → Cosânzeana
+Bunica ne spunea povești cu Ileana Cosânzeana până adormeam.
+# Mama → Mamă, singura → singură
+Mamă, nu mai sunt copil, pot să-mi aleg singură hainele.
+# da → dă, tremuram → tremurăm
+Profesorul de statistică dă examenul oral și toți tremurăm.
+# așteptă → aștepta, rău → râu
+Câinele bunicii, Grivei, ne aștepta în fiecare zi la poartă când veneam de la râu.
+# bunică → bunica
+bunica a făcut sarmale și m-a sunat să vin acasă în weekend
+# săptămână → săptămâna
+Dacă nu-ți faci temele, nu mai primești bani de buzunar săptămâna asta.
+# arată → arăta
+Bunicul ne arăta cum se altoiesc pomii în livadă primăvara.
+# grupa → grupă
+Colegii din grupă au făcut un grup pe care pun subiectele de anul trecut.
+# icoana → icoană, intrăm → intram
+Bunica ne dădea câte un ban să-l punem la icoană când intram în biserică.
+# mâncăm → mâncam, masă → masa
+Seara mâncam pe masa din curte, sub vița de vie, cu toată familia.
+# bunică → bunica
+Bunicul ne povestea cum a cunoscut-o pe bunica la o horă în sat.
+# dimineața → dimineață, bunică → bunica, masa → masă
+În fiecare dimineață bunica ne punea la masă mămăligă cu lapte.
+# strigă → striga
+Vecina de la colț ne striga pe nume de fiecare dată când treceam pe lângă ea.
+# Draga → Dragă, ca → că
+Dragă nepoate, să înveți bine și să asculți de părinți, că ei știu ce e mai bine.
+# restantă → restanță
+Am o restanță la engleză și trebuie s-o dau până la sfârșitul lunii.
+# lasă → lăsa
+Bunica ne lăsa să frământăm aluatul pentru colaci de Crăciun.
+# certăm → certam, fața → față
+Eu și fratele meu ne certam mereu pe cine stă în față în mașină.
+# Ti-am → Ți-am, pres → preș, seară → seara
+Ți-am lăsat cheia sub preș, eu plec la cursuri până seara.
+# repară → repara
+Bunicul repara singur acoperișul casei, deși avea peste șaptezeci de ani.
+# Mama → Mamă
+Mamă, am nevoie de bani pentru cărți, nu pentru haine, îți jur.
+# burtă → burta
+Bunica ne dădea să bem ceai de mușețel când ne durea burta.
+# spală → spăla
+Bunica ne spăla în albia de lemn din curte, cu apă încălzită la soare.
+# clasa → clasă, săptămână → săptămâna, tablă → tabla
+Sunt de serviciu în clasă săptămâna asta și trebuie să șterg tabla.
+# dimineața → dimineață, cărăm → căram, sopron → șopron
+Bunicul tăia lemne în fiecare dimineață și noi le căram în șopron.
+# perna → pernă
+Bunica punea busuioc sub pernă ca să visăm frumos, așa zicea ea.
+# sală → sala
+Am întârziat la primul curs pentru că n-am găsit sala în clădirea nouă.
+# grupă → grupa, pizză → pizza
+Ne-am adunat toată grupa la o pizza după ce am terminat ultimul examen.
+# ca → că
+Mama mi-a zis că pot să ies doar dacă îi trimit locația din oră în oră.
+# vara → vară, gâșcă → gașcă
+În fiecare vară ne întâlneam cu verii la bunici și făceam o gașcă mare.
+# culcă → culca, poartă → poarta, verifică → verifica
+Bunicul nu se culca niciodată până nu închidea poarta și nu verifica animalele.
+# proprietară → proprietara, treabă → treaba
+Mi s-a stricat frigiderul din cameră și proprietara zice că nu e treaba ei.
+# masă → masa, după-amiază → după-amiaza
+Bunica ne punea să alegem fasolea pe masa din bucătărie toată după-amiaza.
+# Politehnica → Politehnică
+Am dat admiterea la Politehnică și aștept rezultatele cu sufletul la gură.
+# plouă → ploua, jucăm → jucam
+Când ploua, ne strângeam toți în bucătăria de vară și jucam cărți cu bunicul.
+# învăță → învață
+Tata mi-a promis că mă învață să conduc dacă iau bacul din prima.
+# numără → număra, vreună → vreuna
+Seara, bunica număra găinile și ne certa dacă lipsea vreuna.
+# vacanța → vacanță
+Profesoara de română ne-a pus să citim „Ion” până la vacanță.
+# școală → scoală, dimineața → dimineață
+Bunicul avea o vorbă: cine se scoală de dimineață, departe ajunge.
+# vacă → vaca, mâncăm → mâncam
+Mergeam cu vaca la păscut pe marginea drumului și mâncam mere verzi.
+# repară → repara
+Vecinul cel bătrân ne chema la el să ne arate ceasurile pe care le repara.
+# duminică → duminica
+Bunicul ne ducea duminica la meciul de fotbal din satul vecin.
+# țuica → țuică, lasa → lăsa
+Toamna făceam țuică împreună cu bunicul și el ne lăsa doar să mirosim.
+# Cat → Cât, costa → costă, lună → luna
+Cât costă abonamentul la sală pentru studenți? Vreau să încep de luna viitoare.
+# urcă → urca
+Când eram mici, bunicul ne urca pe cal și ne plimba prin curte.
+# ca → că
+Ne-a sunat proprietarul să ne spună că vinde apartamentul și trebuie să ne mutăm.
+# bunică → bunica, mamă → mama
+Mi-a dat bunica bani de buzunar pe ascuns, să nu afle mama.
+# practică → practica
+Am terminat practica de vară la spital și am învățat mai mult decât într-un an de cursuri.
+# cățărăm → cățăram
+În curtea bunicilor era un păr uriaș și noi ne cățăram în el.
+# echipa → echipă
+Avem de făcut un proiect în echipă și nimeni nu răspunde la mesaje.
+# învață → învăța
+Bunicul ne învăța numele tuturor păsărilor din pădure după cântec.
+# lasa → lasă, sa → să
+Mi-am pierdut legitimația de student și nu mă lasă să intru în cămin.
+# chemăm → chemam
+Seara mergeam cu bunica după vaci, la marginea satului, și le chemam pe nume.
+# restanțe → restante
+Am trecut la anul doi cu credite restante, dar măcar am trecut.
+# vacanță → vacanța
+Dacă nu iei măcar opt la teză, uită de vacanța la mare.
+# arată → arăta, lână → lâna, încurcăm → încurcam
+Bunica ne arăta cum se toarce lâna pe furcă, iar noi încurcam firele.
+# dimineața → dimineață
+Bunicul ținea porumbei în pod și le dădea drumul în fiecare dimineață.
+# Maine → Mâine
+Mâine e banchetul și încă nu mi-am găsit rochie.
+# frica → frică
+De ce nu răspunzi la telefon? Te sun de o oră, mi-e frică să nu ți se fi întâmplat ceva.
+# învăță → învăța
+Bunicul făcea fluiere din salcie și ne învăța să cântăm la ele.
+# vecină → vecina
+Bunica ne trimitea la vecina de peste drum să-i ducem lapte proaspăt.
+# ca-mi → că-mi
+Mama zice că-mi dă voie să merg la concert numai dacă vine și fratele meu.
+# apă → apa, dus → duș
+Ne-au tăiat apa caldă în cămin și facem duș la sală.
+# sapa → săpa
+Bunicul săpa grădina primăvara și noi veneam în urma lui și puneam cartofii.
+# tuseam → tușeam
+Bunica ne dădea zahăr ars când tușeam și ne trecea pe loc.
+# iarnă → iarna, sânii → sănii
+Când venea iarna, bunicul ne făcea sănii din scânduri vechi.
+# rugă → ruga
+Bunica se ruga în fiecare seară în genunchi, în fața icoanei din colț.
+# cumpăra → cumpără
+Ai mei au zis că dacă intru la buget, îmi cumpără mașină.
+# lăcat → lacăt
+Mi-au furat bicicleta din fața căminului, deși era legată cu lacăt.
+# Aseara → Aseară, dimineața → dimineață, întrună → întruna
+Aseară am stat cu fetele din cameră până dimineață și am râs întruna.
+# martea → marțea
+Nu mai am răbdare cu tâmpenia asta de orar, avem pauză de patru ore marțea.
+# școala → școală
+Bunicul ne povestea cum fugea de la școală să meargă la scăldat.
+# presară → presăra
+Bunica ne ungea pâinea cu untură și ne presăra boia de ardei.
+# lasa → lăsa, sa → să, umbră → umbra
+Bunicul ne lua cu el la câmp și ne lăsa să ne odihnim la umbra căruței.
+# spălăm → spălam
+Bunica ne dădea să mâncăm cireșe doar după ce le spălam în ligheanul cu apă rece.
+# asta → ăsta
+Mi-a ieșit bursa socială, deci anul ăsta nu mai plătesc căminul.
+# poșta → poștă
+Bunicul mergea în fiecare joi la oraș să-și ia pensia de la poștă.
+# dimineața → dimineață
+Fratele meu mai mare m-a învățat să fac clătite, acum le fac în fiecare dimineață.
+# îmbracă → îmbrăca
+Bunica ne îmbrăca în costume populare de Sânziene și ne ducea la horă.
+# colindăm → colindam, uliță → ulița
+În vacanța de iarnă colindam toată ulița și primeam mere și nuci.
+# certă → certa, urcăm → urcam
+Bunica ne certa când ne urcam pe gard, dar ne dădea și câte o bomboană.
+# profesoară → profesoara
+Am uitat tema acasă și profesoara n-a crezut că am făcut-o.
+# sa → să, măcinăm → macinăm
+Mergeam cu bunicul la moară să macinăm grâul și ne întorceam albi de făină.
+# seară → seara
+Bunica ne citea din Biblie seara, la lumina lămpii cu gaz.
+# geanță → geantă
+Am venit acasă de la cămin cu o geantă plină de haine murdare.
+# zăpadă → zăpada
+Bunicul repara gardul în fiecare primăvară, după ce se topea zăpada.
+# martea → marțea
+Ne-am înscris la un curs de dans și mergem marțea și joia.
+# dulceată → dulceață
+Bunica ținea în cămară un borcan mare cu dulceață de vișine pentru nepoți.
+# clasă → clasa
+Am fost cu clasa în excursie la Sibiu și am dormit într-o cabană.
+# latra → latră
+Bunicul ne zicea că lupul nu vine în sat dacă latră câinii.
+# asta → ăsta
+Dacă iau examenul ăsta, fac o petrecere la noi în cameră.
+# lasă → lăsa
+Bunica ne lăsa să dormim în pat cu ea când tuna afară.
+# vacanță → vacanța
+Mi-a cerut tata să-l ajut la magazin în vacanța de vară.
+# bunică → bunica, așteptă → aștepta
+Când ne întorceam de la scăldat, bunica ne aștepta cu masa pusă.
+# arată → arăta
+Bunicul ne arăta stelele și ne spunea cum le cheamă pe fiecare.
+# biblioteca → bibliotecă
+Am stat toată ziua la bibliotecă și am citit doar trei pagini.
+# matură → mătura
+Bunica mătura curtea în fiecare dimineață cu o mătură de nuiele făcută de bunicul.
+# Mama → Mamă
+Mamă, te rog, mai lasă-mă o oră, toți colegii mei sunt încă la petrecere.
+# cantină → cantina
+Ne-am întâlnit în fața căminului și am mers împreună la cantina facultății.
+# Fața → Fata
+Fata vecinilor venea în fiecare seară la noi să se joace cu pisicile.
+# arată → arăta, sură → șură
+Bunicul ara cu boii pe vremea când era tânăr și ne arăta jugul vechi din șură.
+# colegă → colega, lasa → lasă
+Nu-mi place colega nouă de cameră, își lasă hainele peste tot.
+# maturi → mături
+Bunica ne spunea că nu e bine să mături casa după ce apune soarele.
+# Cat → Cât
+Cât am stat la bunici, am uitat complet de telefon și de internet.
+# calcâm → călcam
+Bunicul se supăra când călcam pe straturile cu ceapă din grădină.
+# mămăliga → mămăligă
+Vara, bunicul ne ducea la stână și ne dădea urdă proaspătă cu mămăligă.
+# Ti-am → Ți-am, ca → că
+Ți-am păstrat o felie de tort în frigider, dar grăbește-te, că o mănâncă colegii.
+# coada → coadă
+Am stat trei ore la coadă la cantină și mâncarea era deja rece.
+# fântână → fântâna, găleață → găleata
+Mergeam în fiecare seară la fântâna din capul satului să aducem apă cu găleata.
+# ca → că
+Mama nu înțelege că vreau să fiu actriță, zice că e o meserie nesigură.
+# dimineața → dimineață
+Am pierdut autobuzul de dimineață și am ajuns la examen cu zece minute întârziere.
+# bursa → bursă
+Colegul meu de grupă a luat bursă de performanță, e cel mai bun din an.
+# saturat → săturat
+Vreau să-mi iau o cameră singură anul viitor, m-am săturat de colegi.
+# coborâu → coborau, iarnă → iarna
+Bunicul ne povestea despre lupii care coborau iarna până la marginea satului.
+# alarmă → alarma
+Am uitat să-mi pun alarma și am dormit până la prânz, am pierdut două cursuri.
+# tată → tata
+Mi-a cumpărat tata un telefon nou, dar mi-a zis că e cadou și de ziua mea, și de Crăciun.
+# mâncăm → mâncam, cos → coș
+Ne duceam cu bunicul la cules de prune și mâncam mai multe decât puneam în coș.
+# pliță → plita
+Bunica gătea pe plita din bucătăria de vară și mirosea în toată curtea.
+# sa → să, bunică → bunica
+Când a venit vremea să plec la facultate, bunica a plâns toată dimineața.
+# lasă → lăsa, lanternă → lanterna
+Bunicul ne lăsa să-l ajutăm să potcovească calul, dar numai să ținem lanterna.
+# față → fată
+Am cunoscut o fată de la Litere la petrecerea din cămin și vorbim de o săptămână.
+# singura → singură
+Bunica își făcea singură săpunul din grăsime și sodă, în ceaunul din curte.
+# certă → certa
+Bunicul se certa cu vecinul pe gard, dar seara beau împreună un pahar de vin.
+# jucăm → jucam, întunecă → întuneca
+Seara ne strângeam toți copiii pe uliță și ne jucam de-a prinselea până se întuneca.
+# cântă → cânta
+Bunicul ne lua pe genunchi și ne cânta cântece vechi de la oaste.
+# ca → că, urate → urâte
+Bunica ne zicea să nu ne uităm în oglindă noaptea, că vedem lucruri urâte.
+# profesoară → profesoara
+Am cerut prelungire la termenul pentru proiect și profesoara a fost de acord.
+# Ma → Mă
+Mă bate gândul să mă las de job, nu mai am timp să învăț deloc.
+# medității → meditații
+Nu mai vreau să merg la meditații, profesorul vorbește doar despre el.
+# învață → învăța
+Bunicul ne învăța că nu se lasă niciodată pâine aruncată pe jos.
+# traistă → traista
+Bunica ne trimitea la câmp cu traista plină de ouă fierte și roșii.
+# numără → număra, seară → seara
+Bunicul număra oile seara la intrarea în ocol și știa fiecare oaie după nume.
+# carpea → cârpea, lumină → lumina
+Bunica ne cârpea ciorapii găuriți la lumina ferestrei.
+# iarbă → iarba
+Bunicul cosea iarba de pe deal și noi o întorceam cu greblele.
+# flacău → flăcău
+Bunica ne spunea că bunicul a fost cel mai frumos flăcău din sat.
+# lasă → lăsa
+Bunicul nu ne lăsa să intrăm în grajd fără el, că ne lovește calul.
+# cusuțe → cusute
+Bunica avea un dulap plin de prosoape cusute de mână, pentru zestrea nepoatelor.
+# tată → tata
+Mi-a scris tata că bunicul s-a internat și m-am urcat imediat în tren.
+# tavă → tava, pătrătele → pătrățele
+Bunica ne făcea plăcintă cu mere în tava cea mare și o tăia în pătrățele.
+# grupă → grupa
+Am făcut cerere să schimb grupa, pentru că am cursuri suprapuse.
+# lasă → lăsa
+Bunicul punea vinul în damigene și ne lăsa să le astupăm cu dopuri.
+# ca → că
+Mama nu vrea să mă lase singură la mare cu prietenii, zice că mai am timp.
+# bunică → bunica, așteptă → aștepta
+Când veneam de la școală, bunica ne aștepta cu supă caldă pe masă.
+# vară → vara
+Bunica ne cumpăra de la târg câte o pereche de sandale pentru toată vara.
+# terminăm → terminam
+Bunicul se supăra când nu ne terminam mâncarea din farfurie.
+# colegă → colega
+Mi-a zis colega de bancă că s-a îndrăgostit de profesorul de sport.
+# săptămână → săptămâna
+Am fost la bunici de Rusalii și am mâncat cozonac pe toată săptămâna.
+# bunică → bunica
+Mergeam cu bunica la piața din oraș să vindem ouă și ne întorceam cu zahăr și ulei.
+# Ti-ai → Ți-ai, casa → casă
+Ți-ai luat ceva de mâncare pentru drum? Trenul spre casă face șase ore.
+# lasă → lăsa
+Bunicul ne lăsa să călărim calul cel bătrân, care mergea mai încet decât noi pe jos.
+# ata → ața
+Bunica ne făcea mămăligă în ceaun și o tăia cu ața.
+# ziua → ziuă
+Am stat cu colegii pe terasa căminului până s-a luminat de ziuă.
+# adună → aduna
+Bunicul ne aduna în jurul sobei și ne povestea cum a fost pe front.
+# biserica → biserică
+Bunica mergea la biserică în fiecare duminică, chiar și când era bolnavă.
+# bunică → bunica
+Când ne prindea bunica furând cireșe de la vecini, ne trăgea de urechi.
+# șoba → sobă, culcâm → culcăm
+Bunica ne încălzea pătura pe sobă înainte să ne culcăm.
+# colegă → colega
+Mi-a promis colega de cameră că plătește jumătate din factură, dar n-a mai plătit.
+# căruță → căruța, gara → gară, plecăm → plecam
+Bunicul ne ducea cu căruța la gară când plecam înapoi la oraș.
+# Draga → Dragă
+Dragă Ioana, am primit pachetul tău și m-am bucurat ca un copil.
+# va → vă, vacanța → vacanță
+Ne e dor de voi și vă așteptăm cu drag în vacanță.
+# ca → că, dată → data
+cine are tema la mate? jur că o fac singur data viitoare
+# tată → tata, consolă → consola
+mi-a zis tata că dacă mai iau o notă sub cinci, îmi vinde consola
+# Fețele → Fetele, cameră → camera, seara → seară
+Fetele din camera de vizavi fac în fiecare seară clătite și miroase pe tot holul.
+# resoul → reșoul
+Administratorul căminului a venit în control și ne-a găsit cu reșoul în priză.
+# camera → cameră
+Am stat la un hostel în primele zile de Erasmus până mi-am găsit cameră.
+# bacșisul → bacșișul
+Lucrez ca ospătar în weekend și bacșișul e mai bun decât salariul.
+# lună → luna
+Mi-au scăzut din salariu pentru că am întârziat de două ori luna asta.
+# Sefa → Șefa
+Șefa de la magazin mi-a zis că pot să lucrez doar dimineața, din cauza cursurilor.
+# școala → școală
+Dacă mai stai mult în baie, întârzii la școală și eu nu te mai duc cu mașina.
+# bunică → bunica
+De ce ai venit acasă cu părul vopsit în verde? Ce o să zică bunica?
+# Ti-am → Ți-am, anulam → anulăm
+Ți-am luat abonament la internet, dar dacă nu iei note bune, îl anulăm.
+# Mama → Mamă, clasa → clasă, asta → ăsta
+Mamă, toată lumea din clasă are deja telefonul ăsta, numai eu nu.
+# Tata → Tată, mașină → mașina, seară → seara, ca → că
+Tată, pot să iau mașina sâmbătă seara? Promit că o aduc cu benzină.
+# așezăm → așezam
+Femeile aduceau mâncarea la câmp în coșuri și ne așezam toți la umbră.
+# casa → casă
+Bunica spunea că pâinea făcută în casă ține o săptămână și nu se strică.
+# apă → apa
+Era o fântână cu cumpănă în fața casei și ne plăcea să tragem apa.
+# primăvara → primăvară, bunică → bunica, casă → casa, ajutăm → ajutam
+În fiecare primăvară bunica văruia casa și noi o ajutam cu pensulele.
+# ca → că
+Nu-mi plăcea să merg la biserică, pentru că slujba ținea trei ore.
+# sa → să
+Bunica ne dădea anafură la ieșirea din biserică și ne spunea să n-o pierdem.
+# ascultă → asculta, comentă → comenta
+În fiecare seară, bunicul asculta știrile la radio și comenta cu voce tare.
+# bunică → bunica, îmbrăcăm → îmbrăcam, că → ca
+Mergeam la bunica în pod să căutăm haine vechi și ne îmbrăcam ca la teatru.
+# prăștii → praștii
+Copiii din sat ne învățau să prindem broaște și să facem praștii.
+# copită → copita
+Am încercat să mulg capra și m-a dat cu copita peste mână.
+# certă → certa
+Ne plăcea să ne urcăm pe claia de fân și să sărim jos, deși bunicul ne certa.
+# Ti-am → Ți-am, bicicletă → bicicleta
+Ți-am spus de o mie de ori să nu mai lași bicicleta în ploaie, s-a ruginit lanțul.
+# poză → poza
+Mi-a ieșit o bubă pe nas fix înainte de poza de absolvire.
+# dirigintă → diriginta
+Am primit un premiu la concursul județean de matematică și diriginta m-a lăudat la careu.
+# singură → singura, clasa → clasă
+Eram singura din clasă care nu avea voie să meargă la discotecă.
+# încheietura → încheietură
+Vreau să-mi fac un tatuaj mic pe încheietură, dar mama zice că nu.
+# două → doua
+Am dat la medicină de două ori și abia a doua oară am intrat.
+# valiza → valiză
+Când am plecat de acasă, mama mi-a pus în valiză și o icoană mică.
+# Bunică → Bunica
+Bunica a învățat să facă apel video doar ca să-și vadă nepoții.
+# ca → că
+Mi-a zis bunicul la telefon că a plantat roșii și că mă așteaptă să le culeg.
+# tată → tata
+Am venit acasă și am găsit camera mea transformată în birou pentru tata.
+# bicicleta → bicicletă
+Bunicul m-a învățat să schimb o roată la bicicletă când aveam șapte ani.
+# sa → să
+Ne plăcea să ascultăm ploaia pe acoperișul de tablă al casei bunicilor.
+# pătură → pătura
+Dimineața, bunicul ne trezea cu un cântec și ne trăgea pătura de pe noi.
+# bunică → bunica
+Mi-a dat bunica o batistă brodată de ea când am plecat la facultate.
+# clapeta → clapetă
+Bunicul s-a dus la oraș să-și cumpere un telefon mobil și s-a întors cu unul cu clapetă.
+# bunică → bunica
+Mi-a explicat bunica de trei ori cum se face cozonacul și tot n-am reușit.
+# strangeam → strângeam, poartă → poarta, uităm → uitam, bunică → bunica
+Ne strângeam la poarta bunicilor și ne uitam la stele până ne chema bunica la culcare.
+# profesoară → profesoara
+Am cerut o recomandare de la profesoara de franceză pentru bursa din Belgia.
+# dirigintă → diriginta
+Mi-a dat diriginta un sfat bun: să nu aleg facultatea doar ca să-i mulțumesc pe părinți.
+# limita → limită
+Am primit nota la lucrarea de semestru și am trecut la limită.
+# gara → gară, seară → seara
+Cine vrea să împartă cu mine un taxi până la gară vineri seara?
+# curaț → curat
+Proprietara vine în fiecare lună să vadă dacă e curat.
+# săptămână → săptămâna
+Colegul meu de apartament gătește în fiecare duminică pentru toată săptămâna.
+# cascată → căscată
+Ne-au venit facturile pe trei luni deodată și am rămas cu gura căscată.
+# cânta → cântă
+Seara, cei din camera de alături cântă la chitară și se aude în tot căminul.
+# cameră → camera
+Ne-am ales camera la etajul trei, cu vedere spre parc.
+# pături → paturi
+Am pus o perdea între paturi, ca să avem fiecare un pic de intimitate.
+# bunică → bunica
+Am adus de acasă o plapumă de la bunica și e cea mai caldă din tot căminul.
+# țigaie → tigaie
+Am învățat să gătesc în cămin, cu un singur ochi de aragaz și o tigaie.
+# mamă → mama
+Când vine mama în vizită, aduce mâncare pentru toți colegii de pe etaj.
+# restanță → restanța
+Mi-a ajuns bursa pe card și am plătit imediat restanța la cămin.
+# întru → intru
+Dacă iau toate examenele din prima, intru la bursă de merit și semestrul viitor.
+# restantă → restanță
+Am pierdut bursa pentru că am avut o restanță la fizică.
+# asta → ăsta
+Cu bursa de anul ăsta mi-am luat abonament la sală și cărți pentru licență.
+# nuntă → nunta
+Vara se făcea nunta în curtea mare a vecinilor și cântau lăutarii până dimineața.
+# jucăm → jucam
+Când ne jucam pe uliță, toți vecinii știau a cui copii eram.
+# fațat → fătat
+Vaca a fătat un vițel și l-am botezat Fulger, după cum fugea prin curte.
+# lucră → lucra, termină → termina
+Bunica avea o cusătură pe care o lucra de doi ani și nu o termina niciodată.
+# bunică → bunica
+În serile de iarnă, femeile din sat veneau la bunica la șezătoare.
+# ascultăm → ascultam
+Torceau, coseau și povesteau, iar noi stăteam pe cuptor și ascultam.
+# sună → suna
+Mama mă suna în fiecare seară la bunici să vadă dacă am mâncat.
+# caisii → caișii
+Ne-a scris bunicul pe o carte poștală că a venit primăvara și au înflorit caișii.
+# dulceată → dulceață, bunică → bunica, țigăi → tigăi
+Am făcut dulceață de caise cu bunica și am ars două tigăi.
+# bunică → bunica
+Am mers cu bunica la cimitir de Ziua Morților și am aprins lumânări.
+# învăță → învăța
+Bunica ne învăța să facem semnul crucii cu trei degete.
+# turmă → turma, ridică → ridica
+Când trecea turma prin sat, se ridica un nor de praf pe uliță.
+# ploua → plouă, toamna → toamnă
+Bunica ne spunea că dacă plouă de Sfântul Ilie, va fi toamnă lungă.
+# bunică → bunica
+Am dat de bunica pe internet, avea cont pe o rețea de socializare și ne urmărea pozele.
+# bunică → bunica
+Mi-a scris bunica un comentariu la poză: „Ce frumoasă ești, să te țină Dumnezeu!”
+# sa → să
+nu mai pot, profa de chimie ne-a dat iar test fără să ne anunțe
+# diseara → diseară
+cine vine diseară la film? eu iau popcornul
+# ca → că
+nu m-a lăsat mama la petrecerea Biancăi, zice că părinții ei nu sunt acasă
+# teza → teză
+am luat zece la teză și ai mei nici nu m-au felicitat
+# nunta → nuntă
+ai mei au plecat la nuntă și am rămas singur acasă tot weekendul
+# clasa → clasă
+am ieșit din clasă fără voie și acum am de dat o explicație scrisă
+# există → exista
+Mi-a zis mama că pe vremea ei nu exista telefon și se descurcau foarte bine.
+# Tată → Tata
+Tata îmi controlează mereu istoricul de pe telefon și mă enervează.
+# bunică → bunica
+Am primit de la bunica, de ziua mea, un plic cu bani și o iconiță.
+# corigente → corigențe, vară → vara
+Mi-a spus mama că dacă trec clasa fără corigențe, merg vara la bunici.
+# Ma → Mă, întreaba → întreabă
+Mă tot întreabă rudele ce vreau să fac după liceu și nu știu ce să le răspund.
+# nouă → noua
+În clasa a noua eram cea mai timidă, acum vorbesc cu toată lumea.
+# grădinița → grădiniță
+Am rămas prietenă cu colega mea din grădiniță până azi.
+# coada → coadă
+Am mers la prima mea înmatriculare și am stat la coadă toată ziua.
+# prezenta → prezență
+Profesorul de la seminar ne-a spus că nu trece nimeni fără prezență.
+# sala → sală
+Am stat în sală trei ore la examen și am scris doar două pagini.
+# luăm → luam
+Am trecut cu nota cinci și sunt mai fericit decât dacă luam zece.
+# Maine → Mâine, dam → dăm
+Mâine dăm examenul de anatomie și eu încă nu știu oasele mâinii.
+# Ti-a → Ți-a, platforma → platformă
+Ți-a ieșit nota la mate? A mea încă nu e trecută pe platformă.
+# adeverință → adeverința
+Am primit adeverința de student și o duc la bancă pentru card.
+# alta → altă
+Am vrut să mă transfer la altă specializare, dar trebuia să dau diferențe.
+# mamă → mama
+Ai mei au venit la festivitatea de absolvire și mama a plâns tot timpul.
+# bunică → bunica, piața → piață, sâmbătă → sâmbăta
+Mergeam cu bunica la piață sâmbăta și ne cumpăra câte un covrig.
+# piață → piața
+Bunica avea o tarabă la piața din oraș, unde vindea legume din grădină.
+# căruță → căruța
+Ne trezeam la patru să încărcăm căruța cu roșii și castraveți.
+# piața → piață, vorba → vorbă
+La piață, bunica știa pe toată lumea și stătea de vorbă cu fiecare.
+# învăță → învăța, sa → să, dam → dăm
+Bunica ne învăța să dăm restul corect și să zâmbim la clienți.
+# masă → masa, bunică → bunica
+Seara număram banii pe masa din bucătărie și bunica ne dădea și nouă câțiva.
+# bunică → bunica
+Când se vindea tot devreme, bunica ne ducea la cofetărie.
+# masă → masa
+Bunicul ne aștepta acasă cu masa pusă și ne întreba cât am vândut.
+# Bunică → Bunica
+Bunica nu vindea niciodată ouăle mici, le păstra pentru casă.
+# arată → arăta
+Mergeam cu bunicul la cules de ciuperci după ploaie și ne arăta care sunt otrăvitoare.
+# bunică → bunica
+Ne plăcea să ne ascundem în lanul de porumb, dar bunica se speria de fiecare dată.
+# peste → pește, seară → seara
+Am prins primul meu pește la zece ani și bunicul l-a prăjit seara.
+# lasă → lăsa, rău → râu, mâncăm → mâncam, apă → apa
+Bunica nu ne lăsa să înotăm în râu după ce mâncam, că ne ia apa.
+# spălăm → spălam
+Seara ne spălam picioarele în ligheanul din curte înainte să intrăm în casă.
+# înnoptă → înnopta
+Iarna, ne dădeam cu sania pe dealul de lângă biserică până se înnopta.
+# uscă → usca
+Bunica ne usca hainele ude pe sobă și ne dădea ceai fierbinte.
+# ajută → ajuta
+Bunicul tăia porcul înainte de Crăciun și toată familia ajuta.
+# caltăboși → caltaboși, mașină → mașina
+Bunica făcea cârnați și caltaboși, iar noi învârteam la mașina de tocat.
+# placea → plăcea, colindă → colinda
+Ne plăcea să mergem cu colinda la vecini și ne întorceam cu buzunarele pline.
+# capră → capra
+De Anul Nou, băieții din sat umblau cu capra și cu ursul.
+# lasă → lăsa
+Bunica ne făcea colaci de Crăciun și ne lăsa să-i împletim noi.
+# slujbă → slujba
+În noaptea de Crăciun, bunicul ne ducea la slujba de la miezul nopții.
+# îmbrăcă → îmbrăca, lasa → lăsa, sa → să, murdarim → murdărim
+Bunica ne îmbrăca în haine noi de Paște și nu ne lăsa să ne murdărim.
+# strangeam → strângeam
+Ne strângeam toți nepoții la masa mare de Paște și eram peste douăzeci.
+# așteptăm → așteptam
+Bunicul ținea discursul la masă, iar noi abia așteptam să mâncăm.
+# învăță → învăța, radem → râdem
+Bunica ne învăța să nu râdem la înmormântări și să stăm cuminți.
+# placea → plăcea
+Ne plăcea să ne uităm la pozele vechi ale bunicilor, în albumul cu coperte de catifea.
+# poză → poza
+Bunicul era cel mai frumos în poza de la armată, cu mustață și chipiu.
+# arată → arăta, păstră → păstra
+Bunica ne arăta rochia de mireasă pe care o păstra în dulap.
+# bunică → bunica
+Ne spunea bunica cum a fugit cu bunicul de acasă, pentru că părinții ei nu-l voiau.
+# ca → că
+Am promis bunicii că o să vin în fiecare vară, chiar și când o să fiu mare.
+# întrebam → întrebăm
+Bunicul ne dădea sfaturi despre viață, de multe ori fără să-l întrebăm.
+# învăță → învăța
+Bunicul ne învăța să ne uităm omului în ochi când vorbim cu el.
+# ca → că
+Bunica zicea că un om se cunoaște după cum se poartă cu cei mai slabi.
+# învățătură → învățătura, singură → singura
+Bunica ne repeta mereu că învățătura e singura avere pe care nu ți-o ia nimeni.
+# bunică → bunica
+Ne așteptau cadourile sub brad, iar bunica zicea că le-a adus Moș Crăciun cu sania.
+# nota → notă
+Ce notă ai luat la proiect? Eu am luat opt, deși am muncit două săptămâni la el.
+# cerneală → cerneala, imprimanta → imprimantă
+Mi s-a terminat cerneala la imprimantă chiar înainte să printez lucrarea.
+# sună → suna
+Când suna clopoțelul de final, fugeam primii pe ușă.
+# nouă → noua
+Bobocii din clasa a noua au făcut cel mai frumos program la bal.
+# saturat → săturat
+Ne-am săturat de uniformă, vrem să venim îmbrăcați cum vrem.
+# taxă → taxa
+Mi-e teamă că nu o să intru la buget și ai mei nu-și permit taxa.
+# Politehnica → Politehnică
+Am fost la ziua porților deschise de la Politehnică și mi-a plăcut mult.
+# școala → școală
+Am mers la mall după școală și ne-am cheltuit toți banii de buzunar.
+# tată → tata, proștii → prostii
+Mi-a zis tata că nu-mi mai dă bani dacă îi cheltui pe prostii.
+# ca → că, spal → spăl, singura → singură
+Mama zice că sunt destul de mare ca să-mi spăl singură hainele.
+# dimineață → dimineața
+Ne certăm mereu pe baie dimineața, că suntem patru și avem una singură.
+# parola → parolă
+Ai mei au pus parolă la televizor ca să nu mă uit noaptea.
+# frica → frică
+Ai mei nu știu că am prieten și mi-e frică să le spun.
+# tată → tata, ca → că
+Mi-a zis tata că pe prietenul meu trebuie să-l aduc acasă să-l cunoască.
+# bunică → bunica
+Când mă cert cu mama, mă duc la bunica și ea mă împacă.
+# supără → supăra, bunică → bunica
+Mama se supăra că bunica ne strică, dându-ne dulciuri toată ziua.
+# slujba → slujbă
+În fiecare duminică după slujbă, oamenii se adunau în centrul satului.
+# seară → seara
+Autobuzul spre oraș trecea doar de două ori pe zi, dimineața și seara.
+# strică → strica, căruță → căruța
+Când se strica autobuzul, oamenii mergeau la oraș cu căruța sau pe jos.
+# biletel → bilețel
+Bunica ne trimitea la magazin cu bilețel scris și noi nu știam ce scrie.
+# soba → sobă
+Bunica a învățat să citească la școala satului, în clasa cu sobă de teracotă.
+# școala → școală
+Bunicul ne povestea că mergeau la școală desculți până venea frigul.
+# dimineața → dimineață
+Bunicul citea ziarul în fiecare dimineață și făcea cuvinte încrucișate.
+# căutăm → căutam
+Când nu știa un cuvânt, bunicul mă întreba pe mine și eu căutam pe telefon.
+# bunică → bunica, că → ca
+Ne-a lăsat bunica moștenire caietul ei de rețete și îl păstrăm ca pe o comoară.
+# ciorba → ciorbă, casă → casa
+Bunica punea leuștean în ciorbă și mirosea în toată casa.
+# bunică → bunica, păpanasi → papanași
+Seara bunica ne făcea papanași, iar bunicul mânca mai mulți decât noi.
+# Mancam → Mâncam
+Mâncam roșii direct din grădină, calde de la soare, cu puțină sare.
+# cană → cana
+Bunica ne făcea limonadă din lămâi și miere, în cana cea mare de lut.
+# pivnița → pivniță, varza → varză
+Iarna, bunica scotea din pivniță varză murată și ne făcea sarmale în ceaun.
+# cămara → cămară, sa → să, lingură → lingura
+Ne plăcea să ne furișăm noaptea în cămară să mâncăm gem cu lingura.
+# că → ca, bunică → bunica
+Mama zice că nimeni nu face mămăligă ca bunica, nici măcar ea.
+# dulceată → dulceață
+Bunica ne dădea pâine cu dulceață la ora cinci și ne trimitea înapoi la joacă.
+# strangeam → strângeam
+Ne strângeam toți verii la bunici de ziua bunicului și făceam grătar în curte.
+# plecăm → plecam
+Bunica plângea de fiecare dată când plecam, chiar dacă veneam iar peste o lună.
+# rețetă → rețeta
+Am sunat-o pe bunica să-mi spună rețeta de gogoși și am vorbit două ore.
+# bunică → bunica, sa → să
+Mi-a zis bunica la telefon că a ieșit la poartă să mă aștepte, deși știa că nu vin azi.
+# bunică → bunica
+Am primit de la bunica o scrisoare cu o floare uscată din grădina ei.
+# ca → că, vacă → vaca, fațat → fătat, ca → că
+Mi-a scris bunicul că vaca a fătat și că vițelul e sănătos.
+# biserica → biserică
+Mi-a scris bunica să nu uit să merg la biserică de hram.
+# ca → că
+Ne-a ajutat vecinul să culegem porumbul, că noi nu mai putem singuri.
+# ca → că
+Să nu stai prea mult la calculator, că îți strici ochii.
+# fan → fân, ca → că
+Să vii și de Rusalii, să ne ajuți la fân, că bunicul nu mai e ce a fost.
+# bunică → bunica
+Te pupăm și te așteptăm, cu drag, bunica și bunicul.
+# școala → școală, mâncăm → mâncam
+Pe drumul spre școală treceam pe lângă un cireș uriaș și mâncam cireșe în fiecare zi.
+# înnoră → înnora
+Când se înnora, bunica strângea repede rufele de pe sârmă.
+# lasă → lăsa
+Mama ne lăsa la bunici și pleca la muncă în Italia pentru câteva luni.
+# sună → suna, mamă → mama, bunică → bunica
+Ne suna mama în fiecare duminică și bunica ținea telefonul lângă urechea noastră.
+# explică → explica
+Bunicul ne explica de ce rândunelele zboară jos înainte de ploaie.
+# arată → arăta, grădină → grădina, ceapă → ceapa
+Bunica ne arăta cum se plivește grădina fără să smulgem și ceapa.
+# rău → râu, bunică → bunica
+Toată ziua stăteam în apă la râu și seara bunica ne ungea cu smântână pe spate.
+# bunică → bunica
+Ne ardea soarele pe câmp și bunica ne punea pălării de paie.
+# vacă → vaca, vacă → vaca
+Bunicul fluiera când mulgea vaca și vaca stătea liniștită.
+# strigă → striga
+Vecina noastră avea un păun care striga noaptea ca un copil.
+# frica → frică
+Ne era frică de gâștele vecinei, că ne fugăreau până la poartă.
+# numără → număra, seară → seara
+Bunica ținea rațele într-un țarc lângă baltă și le număra seara.
+# ușa → ușă, că → ca
+Pisica bunicii prindea șoareci și ni-i aducea la ușă ca pe un cadou.
+# lasă → lăsa, sa → să, păpadie → păpădie
+Bunicul ne lăsa să hrănim iepurii cu păpădie și trifoi.
+# casa → casă
+Calul bunicului știa singur drumul spre casă de la câmp.
+# atacă → ataca, intrăm → intram
+Cocoșul bunicii ne ataca de fiecare dată când intram în curte.
+# plimbă → plimba
+Bunicul a cumpărat un tractor vechi și ne plimba cu el prin sat.
+# certă → certa, seară → seara, spală → spăla
+Bunica ne certa că ne murdărim de noroi, dar seara ne spăla fără să zică nimic.
+# lazi → lăzi
+Toamna mergeam cu bunicul la culesul merelor și le puneam în lăzi.
+# primăvara → primăvară
+Bunica ținea merele în pod, pe paie, și le aveam până în primăvară.
+# amestecă → amesteca
+Bunicul făcea magiun de prune într-un ceaun mare și îl amesteca toată ziua.
+# sa → să
+Bunica punea gutui pe dulap ca să miroasă frumos în casă.
+# cataram → cățăram
+Ne cățăram în nuc să culegem nuci și ne înnegream mâinile de la coji.
+# spală → spăla, lesie → leșie
+Bunica ne spăla mâinile cu leșie, dar tot rămâneau negre o săptămână.
+# arată → arăta
+Bunicul ne arăta cum se cunoaște un pepene copt după sunet.
+# frica → frică, sa → să
+Mi-era frică să dorm afară, dar nu voiam să recunosc în fața verilor.
+# placea → plăcea, sa → să, căruță → căruța, fan → fân
+Ne plăcea să stăm în căruța plină de fân și să ne uităm la cer.
+# lasă → lăsa, tinem → ținem, haturile → hățurile
+Bunicul ne lăsa să ținem hățurile pe drumul drept, spre casă.
+# saluță → saluta
+Ne întâlneam pe drum cu alte căruțe și bunicul saluta pe toată lumea.
+# casă → casa
+Preotul venea la bunici de Bobotează să sfințească casa.
+# ușa → ușă
+Ne ascundeam după ușă când venea preotul, că ne stropea cu apă rece.
+# învăță → învăța, ascultă → asculta, seară → seara
+Bunica ne învăța rugăciunile și ne asculta seara, înainte de culcare.
+# bașmaua → basmaua
+Duminica, bunica își punea basmaua cea neagră și mergea la biserică.
+# ușa → ușă, slujba → slujbă
+Bunicul stătea mereu în spate, lângă ușă, la slujbă.
+# slujba → slujbă
+După slujbă se împărțea pomană în curtea bisericii.
+# bunică → bunica
+Mergeam la mănăstire cu bunica o dată pe an, în pelerinaj.
+# bunică → bunica, căruță → căruța
+Bunicul nu era prea credincios, dar o ducea pe bunica la biserică cu căruța.
+# bunică → bunica
+Mi-a dat bunica o cruciuliță de argint când am plecat la facultate.
+# poștea → postea
+Bunicul postea doar în Săptămâna Mare, ca să-i facă pe plac bunicii.
+# mâncăm → mâncam
+Ne spunea bunica să nu mâncăm carne vinerea, dar noi mâncam pe ascuns.
+# ora → oră, cantină → cantina, sâmbătă → sâmbăta
+știi la ce oră se deschide cantina sâmbăta?
+# biblioteca → bibliotecă
+am rămas încuiat pe afară, colegul meu e la bibliotecă și nu răspunde
+# tastatura → tastatură
+mi-a luat colegul de cameră laptopul și i-a vărsat cafea pe tastatură
+# ma → mă, bolnava → bolnavă
+mă poți acoperi la cursul de mâine? zi că sunt bolnavă
+# săptămână → săptămâna
+mi-a zis administratorul că ne mută de cameră săptămâna viitoare
+# proprietară → proprietara
+am uitat să plătesc chiria și proprietara m-a sunat de cinci ori
+# biblioteca → bibliotecă
+mi-am făcut cont la bibliotecă și am împrumutat zece cărți dintr-odată
+# sală → sala
+cine știe unde e sala doi sute patru? sunt de zece minute pe hol
+# camera → cameră
+ai mei vin în weekend în vizită și trebuie să fac curat în cameră
+# uniforma → uniformă
+avem vizită de la inspectorat mâine, toată lumea să vină în uniformă
+# lista → listă
+mi-a zis colega că s-au afișat notele, dar eu nu mă găsesc pe listă
+# franceză → franceza
+În Erasmus am învățat să gătesc, să-mi gestionez banii și să vorbesc franceza.
+# că → ca
+Familia la care am stat în Spania m-a primit ca pe copilul lor.
+# învăță → învață
+Colega mea de cameră din Polonia mă învață să fac pierogi.
+# duminică → duminica
+Ne-am făcut un grup cu toți românii din Erasmus și ne vedem duminica.
+# reședința → reședință
+Am stat într-o reședință studențească cu bucătărie comună pe etaj.
+# hărtii → hârtii
+Mi-au recunoscut creditele de la Erasmus abia după trei luni de hârtii.
+# seară → seara
+Lucram seara într-un restaurant din Barcelona ca să-mi permit chiria.
+# colegă → colega
+Am cunoscut-o pe colega mea din Grecia la prima petrecere de Erasmus.
+# duminică → duminica
+Mi s-a părut ciudat că la ei magazinele se închid duminica.
+# bicicletă → bicicleta, iarnă → iarna
+Studenții de acolo merg la facultate cu bicicleta, chiar și iarna.
+# experiență → experiența
+Am făcut un vlog despre experiența mea de Erasmus pentru cei din anul următor.
+# ca → că, lăsă → lasă
+Mi-a zis bunicul să nu mă mărit cu un străin, că pleacă și mă lasă.
+# arat → arăt
+Am vrut să-i arăt bunicii pozele, dar ea voia doar să știe dacă am mâncat bine.
+# amestecăm → amestecam
+Noi amestecam pe rând cu lingura de lemn, până ne dureau mâinile.
+# rău → râu
+Îmi aduc aminte de mirosul fânului cosit, seara, când veneam de la râu.
+# intră → intra, sala → sală, sa → să
+Profesorul de algebră intra în sală fără să salute și începea direct cu demonstrațiile.
+# verifică → verifica, dimineața → dimineață
+Când eram în clasa a zecea, mama îmi verifica ghiozdanul în fiecare dimineață.
+# Mama → Mamă
+Mamă, nu-mi mai controla telefonul, am șaptesprezece ani!
+# teza → teză
+Nota la teză contează dublu, așa că trebuie să învăț serios.
+# prezenta → prezența
+Diriginta noastră știa mereu cine a lipsit, chiar dacă nu făcea prezența.
+# ține → tine
+Am stat cu tine la telefon până la trei și acum nu mă pot trezi.
+# Maine → Mâine, imprimantă → imprimanta
+Mâine trebuie să predau referatul și imprimanta din cămin e iar stricată.
+# Cat → Cât, învățăm → învățam
+Cât timp am lucrat la cafenea, învățam pentru examene în pauzele de țigară ale colegilor.
+# sună → suna
+Mama mă suna de trei ori pe zi când eram în primul an la facultate.
+# ciocolată → ciocolata
+Fratele meu mai mic mi-a mâncat ciocolata pe care o ascundeam în sertar.
+# tată → tata
+Când a aflat tata că am picat la fizică, mi-a luat telefonul pentru o lună.
+# profesoară → profesoara
+Colega de bancă îmi șoptea răspunsurile, iar profesoara se făcea că nu vede.
+# sâmbătă → sâmbăta
+Ți-am zis că n-ai voie să ieși în timpul săptămânii, doar vinerea și sâmbăta.
+# lucrăm → lucram
+Când lucram la call center, mă certau clienții toată ziua și seara nu mai voiam să vorbesc cu nimeni.
+# grupă → grupa
+Ne-am strâns toată grupa în camera mea să învățăm și am terminat jucând cărți.
+# ajută → ajuta, enervă → enerva
+Sora mea mai mare mă ajuta la teme, dar se enerva când nu înțelegeam.
+# Ti-ai → Ți-ai, tabăra → tabără, Plecam → Plecăm
+Ți-ai făcut bagajul pentru tabără? Plecăm mâine la șase dimineața.
+# frica → frică
+Mi-e frică de proba orală, mă blochez mereu când vorbesc în fața comisiei.
+# as → aș
+La cămin plătesc trei sute de lei, dar în chirie aș plăti dublu.
+# data → dată
+Mama făcea scandal de fiecare dată când veneam acasă după ora stabilită.
+# mașină → mașina
+Tata nu zicea nimic, dar a doua zi nu-mi mai dădea mașina.
+# școala → școală
+Când aveam paisprezece ani, mă lăsau ai mei să merg singură la școală doar cu tramvaiul.
+# sa → să
+Ne-a dat diriginta să completăm un chestionar despre ce vrem să devenim.
+# ca → că
+Mi-a zis profesorul că lucrarea mea de licență e bună de publicat.
+# Ti-a → Ți-a
+Ți-a venit răspunsul de la masterat? Eu încă aștept.
+# vara → vară
+Mi-a rămas după vară destul cât să-mi plătesc chiria pe tot semestrul.
+# Dadeam → Dădeam, câștigăm → câștigam
+Dădeam meditații la română copiilor din bloc și câștigam mai mult decât la cafenea.
+# proprietară → proprietara
+Ne-a sunat proprietara și ne-a spus că mărește chiria de la anul.
+# mașină → mașina
+Când m-am mutat prima dată singură, nu știam nici să pornesc mașina de spălat.
+# apără → apăra
+Fratele meu era cel care mă apăra mereu de băieții mai mari de la școală.
+# geanță → geantă, încurcăm → încurcam
+În clasa a șasea, toată clasa avea aceeași geantă și ne încurcam mereu.
+# romană → română, așteptăm → așteptam
+Doamna de română ne citea poezii la sfârșitul orei și eu așteptam asta toată ziua.
+# profesoară → profesoara
+Ne-a dus profesoara de geografie în excursie la peștera de lângă oraș.
+# clasa → clasă
+Mi-a spus colega că mâine ne dă testul înapoi și că jumătate din clasă a picat.
+# lasă → lăsa, sa → să
+Când eram mică, mama mă lăsa să mă uit la desene doar o oră pe zi.
+# tată → tata, ca → că
+Mi-a zis tata că pot să plec în excursie cu clasa doar dacă vine și dirigintele.
+# Ti-am → Ți-am
+Ți-am trimis linkul cu subiectele de bac de anul trecut, uită-te pe ele.
+# masa → masă
+Mi-a mâncat pisica de pe masă cârnații pe care mi i-a trimis mama.
+# camera → cameră
+Ne-a spart cineva ușa de la cameră și ne-a furat laptopul.
+# vinovăt → vinovat
+Am făcut reclamație la administrație, dar n-au găsit pe nimeni vinovat.
+# cantină → cantina
+Mergeam la cantina facultății pentru că era cea mai ieftină mâncare din oraș.
+# mâncăm → mâncam, deșert → desert
+Cu zece lei mâncam o ciorbă, un fel doi și un desert.
+# luăm → luam
+Ne trimitea mama pachete cu autobuzul și le luam de la autogară.
+# bursă → bursa, pizză → pizza, sa → să
+Când a venit bursa, ne-am dus toți la o pizza să sărbătorim.
+# tată → tata
+Mi-a scris tata un mesaj lung despre cum să-mi gestionez banii.
+# ca → că
+Mi-a zis bunicul că el, la vârsta mea, trimitea bani acasă, nu cerea.
+# iarbă → iarba
+Vecinul de peste drum își cosea iarba dimineața devreme și mă trezea în fiecare zi.
+# latră → lătra, mașina → mașină
+Câinele vecinilor lătra la fiecare mașină care trecea pe drum.
+# lasă → lăsa, sa → să
+Ciobanul se oprea la poartă și ne lăsa să mângâiem mieii.
+# tarabă → taraba
+Femeia de la taraba din colț ne dădea mereu o mână de cireșe în plus.
+# piața → piață
+Am învățat să negociez la piață de la o vecină bătrână care nu plătea niciodată prețul cerut.
+# transformă → transforma
+Când ploua, ulița se transforma într-un râu de noroi și nu puteai ieși nicăieri.
+# dimineața → dimineață
+Vecina de alături ne aducea în fiecare dimineață un pahar cu lapte de capră.
+# urmă → urma
+Tanti Maria avea un cățel mic care o urma peste tot, chiar și la biserică.
+# fugarea → fugărea, gașcanul → gâscanul
+Ne fugărea gâscanul vecinei până la poartă și noi fugeam țipând.
+# găleată → găleata
+Am tras apă cu găleata din fântână și am vărsat jumătate pe mine.
+# grădină → grădina, tânțarii → țânțarii
+Ne-am apucat să curățăm grădina de buruieni și ne-au mâncat țânțarii.
+# gură → gura, cascată → căscată
+Ne-am uitat cum se naște un miel și am rămas toți cu gura căscată.
+# Mos → Moș
+Moș Gheorghe stătea toată ziua pe bancă și ne întreba pe fiecare ai cui suntem.
+# învățăm → învățam, camera → cameră
+Când învățam pentru admitere, mama îmi aducea ceai în cameră la fiecare oră.
+# vacanță → vacanța
+Ce faci în vacanța de primăvară? Rămâi în cămin sau mergi acasă?
+# cameră → camera
+Colega mea de cameră a plecat acasă și am camera toată pentru mine o săptămână.
+# ca → că, seară → seara
+Tata zice că telefonul e o unealtă, nu o jucărie, dar el stă pe el toată seara.
+# profesoară → profesoara, fituici → fițuici
+Ne-a prins profesoara cu fițuici și ne-a anulat lucrarea la toți trei.
+# Ma → Mă
+Mă tot întreba mama dacă am mâncat, dacă am dormit și dacă am învățat.
+# lucrăm → lucram
+Pe vremea când lucram la pizzerie, veneam acasă mirosind a usturoi.
+# tată → tata
+Am cerut de la tata bani pentru o excursie, dar mi-a zis să muncesc pentru ei.
+# chiuveta → chiuvetă
+Dacă mai lași vasele nespălate în chiuvetă, le pun în camera ta.
+# sâmbătă → sâmbăta
+Ne-am pus de acord să facem curat sâmbăta dimineața, pe rând.
+# curaț → curat
+A venit mama în vizită la cămin și a făcut curat până și sub paturi.
+# cameră → camera
+Am adus la cămin un covor de acasă și camera arată mult mai bine acum.
+# sa → să
+Colegul de apartament și-a adus prietena să locuiască la noi fără să ne întrebe.
+# seară → seara
+Când stăteam la cămin, nu aveam voie cu oaspeți după ora zece seara.
+# strecurăm → strecuram, fereastră → fereastra
+Ne strecuram colegii din alte cămine pe fereastra de la parter.
+# amenință → amenința
+Paznicul ne prindea mereu și ne amenința că ne dă afară.
+# Ti-am → Ți-am
+Ți-am spus să nu te stresezi, ai învățat destul ca să iei examenul.
+# asta → ăsta
+Ne-am uitat pe forum și se pare că anul ăsta examenul e mai greu.
+# bunică → bunica
+Mi-a zis bunica la telefon că ea nu înțelege de ce mai învăț după douăzeci și patru de ani.
+# că → ca
+Am lucrat ca voluntar la un festival și am intrat gratis la toate concertele.
+# lucrăm → lucram
+Când lucram în weekend, nu mai aveam timp nici să-mi sun părinții.
+# tabăra → tabără, seară → seara
+Profesorii de la tabără ne puneau să predăm telefoanele seara.
+# cabana → cabană, sa → să
+Ne-am strecurat din cabană noaptea să ne uităm la stele.
+# banca → bancă, clasă → clasa
+Am primit o scrisoare anonimă în bancă și toată clasa a râs de mine.
+# dirigintă → diriginta
+Ne-a mutat diriginta în bănci diferite pentru că vorbeam prea mult.
+# noua → nouă
+Am luat nouă la evaluarea națională și am intrat la liceul pe care îl voiam.
+# legătura → legătură
+Am rămas în legătură doar cu doi colegi din generală.
+# școala → școală, sa → să
+Mama ne lua la ora șase de la școală și ne grăbea să ne facem temele.
+# ca → că
+Mi-a zis mama că o să-i mulțumesc când o să fiu mare pentru lecțiile de vioară.
+# tată → tata
+Ne lua tata la pescuit în fiecare sâmbătă, iar noi ne plictiseam de moarte.
+# tată → tata
+Acum mi-e dor de diminețile acelea pe lac, cu tata și cu fratele meu.
+# dirigintă → diriginta
+Cineva a trimis din greșeală pe grupul clasei o poză cu diriginta și s-a făcut scandal.
+# clasă → clasa
+Diriginta a intrat pe grupul de părinți și le-a spus că am chiulit toată clasa.
+# întreaga → întreagă
+A doua zi, dirigintele ne-a ținut o oră întreagă de morală.
+# bunică → bunica
+Am înregistrat-o pe bunica povestind despre copilăria ei și am luat zece la proiect.
+# bunică → bunica, mamă → mama
+Mi-a spus bunica lucruri despre război pe care nu le știa nici mama.
+# școala → școală
+Mi-a dat bunica voie să iau albumul cu mine la școală pentru prezentare.
+# acasa → acasă
+Vin acasă doar de sărbători și atunci satul se umple de mașini cu numere străine.
+# ulită → ulița
+Când trecea poștașul pe bicicletă, toată ulița ieșea la poartă.
+# toamna → toamnă, sa → să
+Ne-am dus cu vecinii la târgul de toamnă din oraș să cumpărăm un purcel.
+# sa → să, carușelul → caruselul, vață → vata
+Ne plăcea să mergem la târg pentru caruselul vechi și vata de zahăr.
+# tată → tata
+Ne-am rătăcit prin mulțimea de la târg și ne-a găsit tata la standul cu mici.
+# piața → piață
+Femeile din sat duceau la piață coșuri cu ouă și găini legate de picioare.
+# cotet → coteț
+Cocoșul nostru a fugit din coteț și l-a prins câinele vecinului.
+# pandă → pândă, întreaga → întreagă
+Am stat la pândă o noapte întreagă să prindem vulpea, dar n-a mai venit.
+# sură → șură
+Pisica noastră făcea pui în fiecare primăvară în fânul din șură.
+# surii → șurii
+Ne-am urcat pe acoperișul șurii și n-am mai știut să coborâm.
+# mână → mâna
+Am căzut din cireș și mi-am rupt mâna în prima zi de vacanță.
+# mâncăm → mâncam
+Coceam cartofi în jar și îi mâncam fierbinți, cu mâinile negre.
+# frica → frică, sa → să
+Ne spuneam povești de groază la foc și apoi ne era frică să mergem acasă.
+# lasă → lăsa, terminăm → terminam
+Profesoara de chimie ne lăsa să plecăm mai devreme dacă terminam experimentul.
+# catedra → catedră
+Dirigintele nostru ne chema pe rând la catedră și ne întreba de ce am lipsit.
+# plecă → pleca, sacose → sacoșe
+Colega mea de cameră pleca în fiecare vineri acasă și se întorcea luni cu sacoșe pline.
+# sună → suna
+Proprietarul ne suna mereu în ziua de întâi să ne amintească de chirie.
+# iarnă → iarna
+Tata ne ducea la școală iarna cu sania, când nu treceau mașinile.
+# învață → învăța
+Sora mea învăța cu voce tare și eu nu mă puteam concentra deloc.
+# lasă → lăsa
+Șefa de la cafenea ne lăsa să luăm acasă prăjiturile nevândute.
+# camară → cămară
+Mama ascundea telefonul meu în cămară în timpul săptămânii.
+# învăță → învăța, lasă → lăsa
+Fratele meu mă învăța să joc șah, dar mă lăsa mereu să câștig.
+# întrebă → întreba
+Profesorul de filosofie ne întreba ce credem noi, nu ce scrie în carte.
+# Maine → Mâine
+Mâine e ultima zi de școală și facem o petrecere în clasă.
+# Mama → Mamă
+Mamă, pot să mă duc cu colegii la munte în vacanță? Avem cazare la o cabană.
+# Tata → Tată
+Tată, nu mai vreau să fac mate-info, vreau să mă transfer la filologie.
+# suna → sună
+Fratele meu e la facultate în alt oraș și ne sună doar când are nevoie de bani.
+# sa → să
+Ne-a interzis mama să mai jucăm jocuri pe calculator după ora nouă.
+# Ma → Mă, ușa → ușă
+Mă enervează că ai mei nu bat la ușă înainte să intre în camera mea.
+# cearsafurile → cearșafurile
+Am uitat la cămin cearșafurile curate și am dormit pe saltea goală o săptămână.
+# seară → seara, întreaga → întreagă
+Ne-au dat cheile de la cameră abia seara, după o zi întreagă de așteptare.
+# prezența → prezență
+Profesorul ne-a dat media pe semestru doar după prezență și un test.
+# oua → ouă
+Laboratorul de chimie mirosea a ouă stricate tot semestrul.
+# sală → sala, leșinău → leșinau
+Profesorul de anatomie ne ducea la sala de disecție și jumătate din noi leșinau.
+# asistența-șefa → asistenta-șefă
+Mi-a zis asistenta-șefă că am mâini bune pentru injecții.
+# profesoară → profesoara, romană → română, ca → că
+Mi-a zis profesoara de română că am talent la scris și să nu-l irosesc.
+# frica → frică
+Mi-era frică de juriu, dar până la urmă au fost foarte drăguți.
+# bursă → bursa
+Am aflat că am pierdut bursa la două sutimi de un coleg.
+# tată → tata
+Mi-a zis tata că bursa nu e de cheltuit pe haine, ci pe cărți.
+# valiza → valiză
+Când am plecat cu Erasmus, mama mi-a pus în valiză zece pachete de supă instant.
+# seară → seara
+Mi-a fost greu să mă obișnuiesc cu programul lor de masă, cu cina la zece seara.
+# spaniolă → spaniola
+Am învățat spaniola din conversațiile cu vânzătoarea de la colț.
+# rădeau → râdeau
+Când m-am întors în țară, vorbeam cu accent spaniol și ai mei râdeau de mine.
+# Plateam → Plăteam, bursă → bursa
+Plăteam chiria în euro și cursul de schimb îmi mânca bursa.
+# lasă → lăsa, sa → să, sunăm → sunam
+Mama nu mă lăsa să călătoresc singură, așa că o sunam din fiecare oraș.
+# gară → gara
+Am stat o noapte în gara din Milano pentru că pierdusem trenul.
+# basmă → basma
+Bunicii i-am adus o basma de mătase din Florența și a purtat-o la biserică.
+# strangeam → strângeam, poartă → poarta, ascultăm → ascultam
+Ne strângeam pe banca de la poarta vecinei și ascultam poveștile ei de tinerețe.
+# placea → plăcea, sa → să, lasă → lăsa, sa → să
+Ne plăcea să mergem la mătușa Ana, pentru că ne lăsa să mulgem vacile.
+# lasă → lăsa, sa → să
+Vecinul cu tractorul ne lua și pe noi pe câmp și ne lăsa să stăm în remorcă.
+# lasa → lăsa
+Nea Vasile, fierarul satului, ne lăsa să batem cu ciocanul pe nicovală.
+# rău → râu
+Femeile din sat spălau rufele la râu și le băteau cu maiul pe pietre.
+# rău → râu
+Ne trimiteau mamele la râu să aducem rufele uscate de pe tufe.
+# Ulitele → Ulițele, vară → vara, toamnă → toamna
+Ulițele erau pline de praf vara și de noroi toamna.
+# țara → țară
+Acum, când merg la țară, toată lumea mă întreabă când mă mărit.
+# verișoară → verișoara
+Ne-am uitat cu vecinii la nunta transmisă pe telefon de verișoara din Spania.
+# sa → să
+Ne plăcea să mergem la balul satului, unde dansau toți, de la mic la mare.
+# nunta → nuntă
+Ne-am îmbrăcat în ie la nuntă și toată lumea ne-a lăudat.
+# tastatura → tastatură
+Pisica mea doarme pe tastatură când vreau să învăț.
+# profesoară → profesoara
+Câinele meu a mâncat temele fratelui meu și profesoara nu l-a crezut.
+# dimineața → dimineață
+Pisica vecinilor vine în fiecare dimineață la geamul meu să-i dau de mâncare.
+# urma → urmă
+Am luat acasă un cățel abandonat și ai mei au acceptat până la urmă să-l păstrăm.
+# amortit → amorțit
+Examenul de azi a durat trei ore și mi-a amorțit mâna de la scris.
+# clasă → clasa
+Teza de săptămâna trecută a ieșit prost la toată clasa.
+# vacanță → vacanța
+Sesiunea de iarnă începe imediat după Anul Nou, deci ne-a dispărut vacanța.
+# așteptăm → așteptam
+Bacul la română a fost mai ușor decât mă așteptam.
+# ca → că
+Proiectul de grup s-a transformat în proiectul meu, că ceilalți n-au făcut nimic.
+# strică → strica, mașină → mașina, tată → tata, enervă → enerva
+Ni se strica mașina pe drum în fiecare an și tata se enerva în surdină.
+# bursă → bursa
+nu mai am bani pe card, poți să-mi împrumuți cincizeci de lei până vine bursa?
+# cantină → cantina
+mi-e foame și cantina e închisă, comandăm ceva?
+# vara → vară
+ai mei au aflat de tatuaj și acum sunt pedepsită până la vară
+# racita → răcită
+mâine nu vin la școală, zi-i dirigintei că sunt răcită
+# ora → oră
+ești pe drum? te aștept în fața liceului de un sfert de oră
+# ăm → am
+am nevoie de cineva care să-mi explice derivatele până mâine
+# vacanța → vacanță
+nu pot să cred că profesorul ne-a dat examen în prima zi după vacanță
+# român → roman
+Profesorul de drept roman ne spunea mereu că nimeni nu ia zece la el.
+# așteptăm → așteptam
+Când am susținut lucrarea de licență, comisia m-a întrebat lucruri la care nu mă așteptam.
+# că → ca
+Colegii mei de la job sunt toți mai mari cu zece ani și mă tratează ca pe un copil.
+# ca → că
+Ne-am mutat într-un apartament mai mare, acum că lucrăm amândoi.
+# ca → că
+Ne-am promis că rămânem colegi de apartament până la treizeci de ani.
+# singura → singură
+Când a plecat colega mea de apartament, am rămas singură cu toată chiria.
+# Nouă → Noua
+Noua colegă de apartament e foarte ordonată și mă simt vinovată când las ceva pe masă.
+# împărtim → împărțim
+Ne împărțim cumpărăturile pe săptămâni: o săptămână eu, una ea.
+# ca → că
+Am descoperit că plătim prea mult la gaz și am oprit caloriferul din bucătărie.
+# factură → factura
+Ne-a crescut factura la curent pentru că fratele colegei a stat la noi o lună.
+# Proprietară → Proprietara
+Proprietara ne-a cerut să nu mai uscăm rufele pe balcon.
+# tată → tata
+Am primit de la tata un mesaj în care mă întreba dacă am bani de mâncare.
+# întreaga → întreagă, mamă → mama
+Am curățat apartamentul timp de o zi întreagă înainte să vină mama.
+# seară → seara
+Am crescut într-un bloc unde toți copiii se jucau în fața scării până seara.
+# strigă → striga, scară → scara
+Mama ne striga de la geam să venim la masă și toată scara auzea.
+# ca → că, gălagie → gălăgie
+Vecina de la etajul unu se plângea mereu că facem gălăgie.
+# mamă → mama
+Când aveam doisprezece ani, mă trimitea mama la pâine cu cinci lei.
+# cumpărăm → cumpăram, observă → observa
+Pe drum îmi cumpăram cu restul o gumă și mama nu observa niciodată.
+# clasă → clasa, purtăm → purtam
+Am primit prima cheie de la casă în clasa a cincea și o purtam la gât.
+# lasă → lăsa, singura → singură
+Mama nu mă lăsa să deschid ușa nimănui când eram singură acasă.
+# lasă → lăsa, după-amiază → după-amiaza, sună → suna
+Ne lăsa mama singuri acasă după-amiaza și ne suna la fiecare oră.
+# tată → tata
+Mi-a scris tata pe aplicație să nu mai postez poze cu casa noastră.
+# mamă → mama
+Am blocat-o pe mama pe rețeaua de socializare și s-a supărat o săptămână.
+# purtăm → purtam
+Am găsit în dulapul meu de acasă hainele pe care le purtam în clasa a opta.
+# grădinița → grădiniță
+Mama păstrează toate desenele mele de la grădiniță într-o cutie.
+# ras → râs
+Am găsit în cutia mamei primul meu carnet de note și am râs de note.
+# luăm → luam, uităm → uitam
+Când luam o notă mică, ascundeam carnetul și uitam să-l duc acasă.
+# dirigintă → diriginta
+Mi-a falsificat colegul semnătura mamei în carnet și ne-a prins diriginta.
+# școala → școală
+Ne-a chemat diriginta părinții la școală și am stat toți cu capul plecat.
+# explică → explica
+Ne explica atât de bine încât până și cei mai slabi au început să ia note bune.
+# vecină → vecina, brânză → brânza
+Am învățat de la vecina noastră cum se face brânza de vaci în casă.
+# dimineața → dimineață
+Ne trezea în fiecare dimineață claxonul mașinii care aducea pâine în sat.
+# martea → marțea, săptămână → săptămâna
+Mașina cu pâine venea marțea și vinerea, iar oamenii cumpărau pentru toată săptămâna.
+# ulita → ulița, că → ca
+Primăria a pus un singur felinar pe ulița noastră și ne simțeam ca la oraș.
+# piața → piață
+Vânzătorii de la piață ne cunoșteau și ne dădeau mereu câte ceva de gustat.
+# Gâstele → Gâștele
+Gâștele de pe ulița noastră erau mai periculoase decât orice câine.
+# jintită → jintiță
+Am fost la o stână pe munte și ciobanul ne-a dat jintiță.
+# lasa → lăsa
+Ne lăsa vecinul să ținem în brațe mieii abia născuți.
+# burtă → burta, mamă → mama
+Când ne durea burta, ne ducea mama la ea și ne dădea ceai de pelin.
+# vrăci → vraci
+În satul vecin era un vraci la care venea lume de departe.
+# vecină → vecina
+Ne povestea vecina că a văzut odată o lumină ciudată deasupra cimitirului.
+# lumină → lumina
+Toată noaptea după povestea aceea am dormit cu lumina aprinsă.
+# parat → pârât
+Când a venit mama acasă, l-am pârât imediat.
+# desenă → desena
+Colegul meu de bancă desena caricaturi cu profesorii pe ultima pagină a caietului.
+# dimineața → dimineață
+Mama mă trezea în fiecare dimineață cu muzică dată tare.
+# verifică → verifica, seară → seara
+Tata îmi verifica temele seara și găsea mereu câte o greșeală.
+# boxă → boxa
+Am cântat cu trupa la balul liceului și s-a stricat boxa la al doilea cântec.
+# sa → să
+Ne-a lăsat tata să stăm la bal până la două noaptea, ca excepție.
+# clasă → clasa
+Am făcut o poză cu toată clasa pe scările liceului, în ultima zi.
+# sa → să
+Mama a sunat toată familia să le spună că am intrat la facultate.
+# cămașă → cămașa, bunică → bunica
+În prima zi de facultate am purtat cămașa pe care mi-a cumpărat-o bunica.
+# bunică → bunica
+Mă întreba bunica de fiecare dată când vorbeam dacă îmi place la facultate.
+# căldură → căldura
+Iarna dormeam îmbrăcați, pentru că nu mergea căldura.
+# siguranță → siguranța
+Ne-am cumpărat un calorifer electric și ne-a sărit siguranța pe tot etajul.
+# siguranță → siguranța
+Toți studenții de pe etaj au ieșit pe hol să vadă cine a ars siguranța.
+# mamă → mama
+Am primit o pătură în plus de la mama, care a venit special din alt oraș.
+# spălăm → spălam
+Când stăteam la cămin, ne spălam rufele la mână, în chiuveta din baie.
+# camera → cameră
+Mama mi-a cumpărat o mașină de spălat mică pentru cameră și toată lumea mă invidia.
+# cameră → camera
+Am făcut prieteni pe viață în camera aceea mică din cămin.
+# cameră → camera
+Ne vedem și acum, după zece ani, cu fetele din camera trei sute doi.
+# trată → trata
+Am stat în chirie la o bătrână care ne trata ca pe nepoatele ei.
+# duminică → duminica, întrebă → întreba
+Bătrâna ne făcea plăcinte duminica și ne întreba de examene.
+# că → ca
+Când a murit gazda noastră, am plâns ca după o bunică.
+# Ma → Mă, sună → suna
+Mă suna proprietarul la miezul nopții să mă întrebe dacă am închis gazul.
+# carat → cărat
+Am cărat un dulap pe scări până la etajul cinci, fără lift.
+# tencuială → tencuiala
+Ne-a căzut tencuiala din tavan în baie și proprietarul a venit abia după două săptămâni.
+# lasă → lăsa, sa → să
+Șeful mă lăsa să împrumut cărți acasă, cu condiția să le aduc nedeteriorate.
+# învăță → învăța
+Mi-a dat șefa liber în sesiune, ca să pot învăța.
+# pijamă → pijama
+Am lucrat de acasă la un call center și vorbeam cu clienții din pijama.
+# lucrăm → lucram, sa → să, cântăm → cântam
+Când lucram ca baby-sitter, copilul nu voia să doarmă până nu-i cântam.
+# tată → tata, ca → că
+Mi-a zis tata că orice muncă e bună dacă e cinstită.
+# ca → că
+Mama s-a mirat că pot să lucrez și să iau note bune în același timp.
+# lucrăm → lucram
+Pe vremea când lucram la hotel, am cunoscut turiști din toată lumea.
+# sa → să, tură → tura
+Ne dădea managerul câte o cameră liberă să dormim după tura de noapte.
+# bacsis → bacșiș
+Ne plăteau la hotel cu bacșiș mai mult decât cu salariu.
+# tătei → tatei, întreaga → întreagă
+Când i-am spus tatei că vreau să fiu actor, a tăcut o zi întreagă.
+# tine → ține
+Mama ține pe frigider un calendar cu zilele până vine sora mea acasă.
+# urmă → urma, enervă → enerva
+Când era mică, sora mea mă urma peste tot și mă enerva.
+# țara → țară
+La țară, toamna mirosea a gutui și a fum de frunze arse.
+# ridică → ridica
+Vecinii ardeau frunzele în grădină și fumul se ridica peste tot satul.
+# mașină → mașina
+Mustul a fermentat în portbagaj și ne-a mirosit mașina o lună.
+# carat → cărat
+Am umplut doi saci cu nuci și i-am cărat pe umeri până acasă.
+# uităm → uitam
+Ne urcam pe deal la apus și ne uitam cum se aprind luminile în sat.
+# seară → seara
+Satul are un singur magazin, care se închide la șase seara.
+# uitâi → uitai
+Dacă uitai să cumperi pâine, rămâneai fără până a doua zi.
+# ciorba → ciorbă
+La sfârșitul nunții, toată lumea a mâncat ciorbă de potroace.
+# vizităm → vizitam
+Vecina a rămas singură în casa mare și o vizitam în fiecare zi.
+# ajutăm → ajutam
+O ajutam la cumpărături și ea ne povestea despre tinerețea ei.
+# vecină → vecina
+Mi-a dat vecina o carte veche de rugăciuni care fusese a mamei ei.
+# tema → temă
+Profesorul ne-a dat voie să alegem orice temă pentru eseu, iar eu am scris despre sat.
+# fântână → fântâna
+Am scris în eseu despre fântâna din curte și despre cum se schimbă satul.
+# diriginta → dirigintă, sa → să
+Ne-a cerut doamna dirigintă să aducem fiecare o fotografie veche din familie.
+# străbunică → străbunica, clasă → clasa
+Am adus o poză cu străbunica mea la o șezătoare și toată clasa a fost curioasă.
+# țara → țară
+Ce ai făcut în vacanță? Eu am stat o lună la țară și am învățat să mulg.
+# țara → țară
+Cum a fost la țară? Ai avut semnal să vorbești cu noi?
+# Cat → Cât, asta → ăsta
+Cât timp stai la cămin anul ăsta? Ai cerut prelungire?
+# Ăi → Ai
+Ai vorbit cu proprietarul despre caloriferul care curge?
+# tată → tata
+M-a ajutat tata la mutare cu mașina lui veche, care s-a oprit de două ori pe drum.
+# strigă → striga
+Profesoara de matematică ne striga la tablă în ordinea din catalog.
+# sandvisuri → sandvișuri, școala → școală, uităm → uitam
+Mama îmi pregătea sandvișuri pentru școală și le uitam mereu pe masă.
+# cântăm → cântam, clasă → clasa, muzică → muzica
+În autobuz, cântam toată clasa și șoferul dădea muzica mai tare.
+# sa → să
+Am ajuns la mănăstire și ne-a pus călugărița să ne acoperim capul.
+# învăță → învață
+Mi-a zis mama să nu-mi pierd timpul cu prieteni care nu învață.
+# certăm → certam
+Am avut o perioadă în care mă certam cu ai mei în fiecare zi.
+# tranteam → trânteam
+Mama plângea în bucătărie și eu trânteam ușa de la cameră.
+# urasc → urăsc
+Acum înțeleg că se temeau pentru mine, dar atunci mi se părea că mă urăsc.
+# dimineață → dimineața
+Tata a venit la mine în cameră într-o seară și am vorbit până la trei dimineața.
+# singura → singură
+Am primit de la ai mei voie să plec singură în vacanță la optsprezece ani.
+# poșta → poștă, vacanță → vacanța
+Mama ne-a trimis bani prin poștă și ne-a salvat vacanța.
+# ca → că
+Am învățat atunci că trebuie să-mi fac un buget și să-l respect.
+# tată → tata
+Mi-a dat tata un sfat pe care nu-l uit: niciodată să nu împrumuți bani prietenilor.
+# tată → tata
+Am pierdut și banii, și prietenul, exact cum mi-a zis tata.
+# vacanță → vacanța
+Ce ai de gând să faci în vacanța de vară? Lucrezi sau te odihnești?
+# tabăra → tabără
+Copiii din tabără mă strigau pe nume toată ziua și seara cădeam lată.
+# brățară → brățara
+Am păstrat brățara aceea în cutia mea cu amintiri.
+# ca → că
+Mi-a zis directoarea taberei că mă cheamă și la anul.
+# învăt → învăț
+Mă tot întreabă colegii cum reușesc să lucrez și să învăț în același timp.
+# dimineața → dimineață
+Mi-am făcut un orar pe ore, de dimineață până seara, și îl respect cu strictețe.
+# întreaga → întreagă
+Când sunt prea obosită, mă duc acasă la ai mei și dorm o zi întreagă.
+# ciorba → ciorbă, sa → să
+Mama îmi face ciorbă și mă lasă să dorm până la prânz.
+# gara → gară, dimineața → dimineață
+Tata mă duce înapoi la gară luni dimineață și îmi dă bani pe ascuns.
+# seară → seara
+Ne-am uitat împreună la pozele de când eram mici și am râs toată seara.
+# școala → școală
+În satul unde am copilărit, toți copiii mergeau la școală pe jos.
+# școala → școală
+Iarna, drumul spre școală era acoperit de zăpadă până la genunchi.
+# așteptă → aștepta, sobă → soba
+Ne aștepta învățătoarea cu soba aprinsă și cu ceai cald.
+# clasa → clasă
+Școala din sat avea o singură clasă pentru toți copiii, de la întâi la a patra.
+# vecina → vecină
+Când am trecut la gimnaziu, am mers la școala din comuna vecină.
+# comuna → comună
+Profesorii de la școala din comună veneau de la oraș și plecau imediat după ore.
+# rădeau → râdeau
+Colegii de la oraș râdeau de accentul meu în primele săptămâni.
+# că → ca, că → ca
+Am învățat repede să vorbesc ca ei, dar acasă vorbeam tot ca înainte.
+# ma → mă, așteptă → aștepta
+Mama mă aștepta în fiecare vineri la stația de autobuz din sat.
+# In → În, ajutăm → ajutam
+În weekend o ajutam în gospodărie: hrăneam animalele și făceam curat în grajd.
+# Duminica → Duminică, plecăm → plecam, geanță → geanta
+Duminică seara plecam înapoi la oraș cu geanta plină de mâncare.
+# verifică → verifica, pături → paturi
+Pedagoga de la internat ne verifica seara dacă suntem în paturi.
+# strecurăm → strecuram
+Ne strecuram după stingere în camera băieților să ne uităm la filme.
+# spălam → spălăm
+Ne-a prins pedagoga o dată și ne-a pus să spălăm holurile o săptămână.
+# capitala → capitală
+După liceu, am plecat la facultate în capitală și satul mi s-a părut și mai mic.
+# tată → tata
+Mama încă ține găini și o vacă, deși tata zice că nu mai e nevoie.
+# biblioteca → bibliotecă
+Ne vedem la bibliotecă la nouă? Eu aduc cafeaua.
+# săptămână → săptămâna
+Cine are notițele de la cursul de săptămâna trecută? Am fost bolnav.
+# seminării → seminarii
+Profesorul a zis că examenul va fi din cursuri și din seminarii.
+# că → ca
+Am lucrat la proiect toată noaptea, cu colegul meu de cameră ca ajutor.
+# ca → că
+Mi-a zis o europarlamentară că tinerii trebuie să fie mai implicați.
+# cameră → camera
+Am pus desenul pe peretele din camera de cămin.
+# ca → că, bunică → bunica, școală → școala
+Am aflat atunci că bunica a vrut să se facă învățătoare, dar n-a avut cu ce să plătească școala.
+# bunică → bunica
+Ne-a povestit bunica cum citea noaptea la lumina lumânării, pe ascuns.
+# bunică → bunica, nepoată → nepoata
+Mi-a scris bunica pe ultima pagină a unei cărți: „Pentru nepoata mea, care m-a învățat să citesc iar.”
+# dimineața → dimineață
+Câinele vecinei venea la noi în curte în fiecare dimineață după resturi.
+# certă → certa
+Pisica noastră se certa cu câinele vecinei peste gard.
+# primăvara → primăvară
+Calul vecinului rupea gardul în fiecare primăvară și venea la noi la trifoi.
+# cotet → coteț
+Porcul nostru a scăpat din coteț și a fugit prin tot satul.
+# grădină → grădina
+L-am prins după o oră, în grădina preotului, mâncând cartofi.
+# rezolvă → rezolva
+Profesorul de chimie organică ne dădea teme pe care nu le rezolva nici el.
+# notite → notițe
+Colegul meu de grupă lua notițe atât de frumos încât le vindea la xerox.
+# profesoară → profesoara
+Ne-a spus profesoara că plagiatul se pedepsește cu exmatricularea.
+# Ti-a → Ți-a
+Ți-a zis coordonatorul ceva despre capitolul trei? Mie nu mi-a răspuns de o lună.
+# duminică → duminica
+Coordonatoarea mea de licență răspunde la e-mailuri doar duminica noaptea.
+# licență → licența
+Am susținut licența în fața a cinci profesori și mi-a tremurat vocea tot timpul.
+# bunică → bunica
+Ai mei au venit cu flori și cu bunica, care a ținut să vadă tot.
+# Mama → Mamă, îngrijoră → îngrijora
+Mamă, nu te mai îngrijora, am mâncat, am dormit și am învățat.
+# Tata → Tată, mașină → mașina
+Tată, n-am stricat eu mașina, era deja zgâriată când am luat-o.
+# geacă → geaca
+Fratele meu mi-a luat geaca nouă fără să întrebe și a pătat-o.
+# ca → că, proștii → prostii
+Nu-mi mai dați atâția bani de buzunar, că oricum îi cheltui pe prostii.
+# asta → ăsta
+Mi-a zis mama că pot să-mi iau telefon nou doar când se strică ăsta de tot.
+# tată → tata
+Mi-a dat tata o lecție despre responsabilitate de care îmi voi aminti mereu.
+# afara → afară
+Am negociat cu ai mei o oră în plus de stat afară în weekend.
+# întreaga → întreagă
+Ne-am înțeles: dacă vin acasă la timp o lună întreagă, primesc o oră în plus.
+# lună → luna
+Am venit acasă la timp toată luna și acum am voie până la unsprezece.
+# sală → sala
+Am cântat la serbare un cântec popular și toată sala a cântat cu mine.
+# finală → finala
+Am pierdut finala, dar am plâns de bucurie că am ajuns acolo.
+# adună → aduna
+Antrenorul ne aduna în vestiar și ne ținea discursuri ca la televizor.
+# cactuș → cactus, udă → uda
+La cămin, colegul meu de cameră ținea un cactus pe care îl uda în fiecare zi.
+# uităm → uitam, seară → seara
+Ne-am cumpărat împreună un televizor mic și ne uitam la seriale seara.
+# certăm → certam
+Ne certam pe ce să vedem, așa că am făcut un program pe zile.
+# repara → repară
+Am o colegă care a adus de acasă o mașină de cusut și ne repară hainele tuturor.
+# ușă → ușa, sacosă → sacoșă
+Am sunat-o pe mama plângând și a doua zi era la ușa mea cu o sacoșă de mâncare.
+# grija → grijă
+Mi-a scris mama un bilet și l-a pus în pachetul cu mâncare: „Ai grijă de tine, puiule.”
+# Lucram → Lucrăm
+Lucrăm într-un laborator mic, la subsolul facultății, fără ferestre.
+# rama → ramă
+Ai mei au printat articolul și l-au pus în ramă pe peretele din sufragerie.
+# bursă → bursa, tată → tata
+Mama vrea să accept bursa, tata vrea să mă angajez.
+# bursă → bursa
+Am ales doctoratul și nu regret nimic, chiar dacă bursa e mică.
+# Doctoriță → Doctorița, certă → certa
+Doctorița de la dispensar ne știa pe toți de mici și ne certa ca o mamă.
+# Plangeam → Plângeam
+Plângeam toți în cor, unul după altul, la ușa cabinetului.
+# dadea → dădea, doctorită → doctorița
+Ne dădea doctorița câte o bomboană după fiecare injecție.
+# ulită → ulița
+Am învățat să merg pe bicicletă pe ulița noastră plină de pietre.
+# tine → ține
+Când mi-am dat seama că nu mă mai ține, am căzut imediat.
+# fermă → ferma
+Toamna, la școală, ne trimiteau la cules de porumb la ferma din comună.
+# placea → plăcea
+Ne plăcea, pentru că nu aveam ore și primeam suc și sandvișuri.
+# întreaga → întreagă
+Am cules porumb o zi întreagă și seara nu-mi mai simțeam mâinile.
+# tată → tata, moara → moară, sa → să, măcinăm → macinăm
+Mergeam cu tata la moară să macinăm porumbul pentru mălai.
+# strigă → striga
+Morarul era un om bătrân și surd, care striga la toată lumea.
+# lasa → lăsa, făină → făina
+Ne lăsa morarul să ne uităm cum curge făina din pietre.
+# placea → plăcea, mâncăm → mâncam, seară → seara
+Ne plăcea mălaiul cu lapte, pe care îl mâncam seara, pe prispă.
+# prispa → prispă
+Pe prispă stătea mereu un pisoi care aștepta să-i dăm și lui lapte.
+# Pișoiul → Pisoiul
+Pisoiul acela a trăit optsprezece ani și l-am îngropat sub nucul din curte.
+# casă → casa
+Câinele nostru de la țară a trăit și el mult și păzea casa ca un soldat.
+# întreaga → întreagă
+Când am plecat la facultate, câinele a stat o zi întreagă la poartă.
+# tanți → tanti
+Mai trăiește tanti Elena de lângă biserică? Era tare bătrână când am plecat.
+# Cate → Câte
+Câte găini mai aveți acum? Bunicul zicea că vrea să le vândă pe toate.
+# asta → ăsta
+Ați făcut deja vinul anul ăsta sau mai așteptați să se coacă strugurii?
+# fântână → fântâna
+Ai mai fost pe la fântâna din vale? Mai are apă sau a secat?
+# dimineața → dimineață
+Mai merge autobuzul de dimineață spre oraș sau l-au anulat?
+# seară → seara
+Mergem împreună acasă de sărbători? Prindem trenul de vineri seara.
+# romană → română, lasă → lăsa, sa → să
+Profesoara de română ne lăsa să citim ce vrem, cu condiția să-i povestim cartea.
+# poartă → poarta
+Mama ne aștepta la poarta școlii cu covrigi calzi în fiecare vineri.
+# arată → arăta, harta → hartă
+Dirigintele ne arăta pe hartă orașele unde plecaseră absolvenții de anul trecut.
+# Tată → Tata
+Tata pleca la muncă la cinci și se întorcea după ce adormeam.
+# caută → căuta
+Sora mea mă căuta prin tot cartierul când întârziam de la joacă.
+# strigă → striga
+Colegul de apartament juca jocuri pe calculator toată noaptea și striga la căști.
+# explică → explica
+Profesorul de fizică explica totul cu exemple din bucătărie.
+# lasa → lăsa, sa → să
+Șeful de la restaurant ne lăsa să mâncăm gratis la sfârșitul turei.
+# lasa → lăsa, biletele → bilețele
+Mama lucra în schimburi și ne lăsa bilețele pe frigider cu ce avem de făcut.
+# rugă → ruga
+Fratele meu mă ruga să-i fac temele la română și îmi dădea în schimb ciocolată.
+# cântă → cânta
+Doamna învățătoare ne cânta la acordeon la serbarea de Crăciun.
+# strigă → striga, jucăm → jucam
+Vecina de la etajul doi ne striga de la balcon când jucam fotbal sub geamul ei.
+# clasa → clasă, fețele → fetele, tipău → țipau
+Profesoara de biologie aducea în clasă broaște vii și fetele țipau.
+# învăță → învăța
+Tata mă învăța să conduc pe un câmp de lângă oraș, duminica dimineața.
+# Mama → Mamă, școala → școală, sa → să
+Mamă, te rog, nu mai veni la școală să vorbești cu dirigintele!
+# Tata → Tată
+Tată, ai văzut unde mi-am lăsat cheile? Întârzii la curs.
+# Mama → Mamă, dimineața → dimineață
+Mamă, poți să-mi calci cămașa albă? Am prezentare mâine dimineață.
+# va → vă
+Doamna profesoară, vă rog să-mi mai dați o șansă la test.
+# Față → Fata
+Fata de la secretariat ne-a ajutat să completăm formularele de bursă.
+# seară → seara
+Am ajutat la strânsul fânului și ne-a ars soarele până seara.
+# mâncăm → mâncam
+Seara mâncam toți la o masă lungă, cu fermierul și familia lui.
+# țara → țară
+Mă tot gândesc să mă mut la țară după facultate.
+# rad → râd
+Prietenii mei râd de mine când le spun că vreau să am o livadă.
+# sa → să
+Ne-am apucat cu tata să plantăm pomi pe pământul acela.
+# mar → măr
+În primul an, ne-a mâncat grindina toate florile de măr.
+# ca → că
+Vecinii au fost uimiți că un băiat de la oraș se pricepe la pomi.
+# tipat → țipat
+Ce ți-a zis mama când a văzut nota? A țipat?
+# Cat → Cât, asta → ăsta
+Cât ai plătit pe manualele de anul ăsta? Eu am dat o avere.
+# ca → că, grupa → grupă
+Mi-a zis profesorul că pot să dau examenul cu altă grupă, dacă am motiv întemeiat.
+# secretară → secretara
+Ne-a dat secretara un formular de patru pagini pentru o simplă adeverință.
+# dimineața → dimineață, proștiile → prostiile
+Am stat până dimineață și am povestit toate prostiile din cămin.
+# scară → scara
+Ne-am amintit de noaptea în care am fugit de paznic pe scara de incendiu.
+# ras → râs
+Am râs până ne-au durut burțile, ca pe vremuri.
+# poză → poza
+Am deschis albumul și am găsit poza din prima zi de școală, cu ghiozdanul mai mare ca mine.
+# dată → data
+Mama a scris sub fiecare poză data și ce s-a întâmplat în ziua aceea.
+# tată → tata
+Ne-a mutat tata la oraș când eram în clasa a doua, ca să avem o școală mai bună.
+# casă → casa
+Mi-e dor de casa noastră de la țară, cu curtea mare și cu nucul din față.
+# uliță → ulița
+Ne-am plimbat cu mama pe ulița pe care am copilărit și ne-am amintit de toți vecinii.
+# vecină → vecina, ca → că
+Ne-a povestit vecina că toți copiii de pe uliță au plecat, iar ea a rămas singură.
+# vecină → vecina
+Ne-a trimis vecina de Crăciun un pachet cu nuci din curtea ei.
+# Văcile → Vacile, ferma → fermă
+Vacile de la fermă aveau toate nume și fermierul le știa pe toate.
+# rugă → ruga
+Colega mea de grupă se ruga înainte de fiecare examen și lua mereu zece.
+# arată → arăta
+Profesorul de economie ne arăta grafice și ne întreba ce ar face un om normal.
+# certă → certa, căciula → căciulă, iarnă → iarna
+Mama mă certa că nu port căciulă iarna, iar eu o scoteam după colțul blocului.
+# învață → învăța, ascultă → asculta
+Fratele meu învăța la ore târzii și asculta muzică clasică pentru concentrare.
+# clasa → clasă
+Profesoara de spaniolă ne aducea în clasă mâncare spaniolă la sfârșit de semestru.
+# verifică → verifica, ținută → ținuta
+Directorul liceului ne aștepta la poartă și ne verifica ținuta dimineața.
+# rugă → ruga
+Mama se ruga pentru mine în fiecare zi de examen la bac.
+# duminică → duminica
+Tata ne ducea duminica la patinoar și cădea mai des decât noi.
+# seara → seară
+Colega de apartament gătea în fiecare seară câte ceva nou și ne punea să gustăm.
+# săptămână → săptămâna
+Mama își lua concediu în fiecare an în săptămâna examenelor mele.
+# colegă → colega, profesoară → profesoara, vârstă → vârsta
+Mi-a spus colega că profesoara de engleză are copii de vârsta noastră.
+# greșeală → greșeala
+Am învățat din greșeala asta să nu mai cerem amânări.
+# ca → că, asta → ăsta
+Ce subiecte crezi că o să dea la bac la istorie anul ăsta?
+# testăm → testam
+Ne-am făcut cartonașe cu ani și evenimente și ne testam unii pe alții.
+# ma → mă, ascultă → asculta, seară → seara
+Mama mă asculta la istorie seara, cu manualul deschis pe genunchi.
+# profesoară → profesoara
+Mi-a dat mama nota zece la istorie, dar profesoara mi-a dat șapte.
+# accesari → accesări
+Când a ieșit lista cu rezultatele la bac, site-ul s-a blocat de la atâtea accesări.
+# pagină → pagina
+Am stat cu ochii pe ecran o oră până s-a încărcat pagina.
+# ca → că
+Am aflat că o colegă a luat zece pe linie și a apărut la televizor.
+# masă → masa, învățăm → învățam
+Bunicii ne aduceau mâncare la masa din grădină, unde învățam toată ziua.
+# paturi → pături
+Seara am făcut ceai pentru toată lumea și am stat pe hol, înveliți în pături.
+# peste → pește
+Am lucrat într-o vară la o pescărie de lângă port și am mirosit a pește o lună.
+# întreaga → întreagă
+Am cules căpșuni în Germania o vară întreagă cu prietenii de la facultate.
+# lucrăm → lucram
+Ne trezeam la cinci și lucram până la prânz, apoi ne odihneam la umbră.
+# bacsis → bacșiș
+Mi-a dat o turistă din Japonia un bacșiș cât salariul pe o zi.
+# medității → meditații, matematica → matematică, Politehnica → Politehnică
+Am dat meditații la matematică unei fete care a intrat apoi la Politehnică.
+# casă → casa
+În sat, iarna, se strângeau oamenii la casa cu televizor să vadă filmul de sâmbătă.
+# apucăm → apucam
+Când se întrerupea curentul, ne apucam să spunem povești la lumânare.
+# comună → comuna
+Seara de Revelion se făcea la căminul cultural, cu toată comuna.
+# data → dată, cântă → cânta
+Muzica era dată de o formație din satul vecin, care cânta doar melodii vechi.
+# față → fată
+Am dansat la Revelion cu o fată din sat și nu i-am mai uitat numele.
+# ca → că
+Ne povesteau bătrânii că în noaptea aceea umblă strigoii.
+# Fețele → Fetele, perna → pernă
+Fetele puneau busuioc sub pernă ca să-și viseze ursitul.
+# perna → pernă
+Ne-am pus și noi busuioc sub pernă, dar n-am visat nimic.
+# Boboteaza → Bobotează
+De Bobotează, băieții din sat săreau în râul înghețat după cruce.
+# clasa → clasă
+De Mărțișor, băieții din clasă ne aduceau mărțișoare făcute de mamele lor.
+# Sanziene → Sânziene, fețele → fetele
+Vara, de Sânziene, fetele făceau coronițe din flori galbene.
+# mătușă → mătușa, coroniță → coronița
+Ne spunea mătușa că dacă rămâne coronița pe acoperiș, te măriți în anul acela.
+# lasa → lăsa
+În Postul Crăciunului, mama nu ne lăsa să mâncăm carne, dar tata ne cumpăra mici pe ascuns.
+# mașina → mașină
+Ne-a prins mama mâncând mici în mașină și a râs și ea.
+# lasă → lăsa
+Mama făcea cozonaci și ne lăsa să lingem castronul.
+# masa → masă
+Ne primeau vecinii cu lacrimi în ochi și ne țineau la masă ore întregi.
+# tată → tata
+Ai cumpărat cadouri pentru toți? Eu încă n-am găsit nimic pentru tata.
+# ca → că
+Mi-a zis antrenorul de la sală că jumătate din abonamente se dau în ianuarie.
+# lasă → lăsa
+Profesoara de desen ne lăsa să pictăm afară când era frumos.
+# caută → căuta
+Mama căuta mereu ceva de criticat la prietenii mei.
+# uită → uita
+Colegul meu de cameră se uita la meciuri cu sonorul dat la maximum.
+# repară → repara, strică → strica
+Tata repara singur tot ce se strica în casă, de la robinet la televizor.
+# ca → că
+Sora mea mai mare se plângea că o copiez în tot ce face.
+# există → exista
+Profesorul de logică ne punea întrebări la care nu exista un răspuns corect.
+# Sefa → Șefa, dimineața → dimineață
+Șefa de la librărie ne aducea cafea în fiecare dimineață.
+# lasă → lăsa, sa → să, duminică → duminica
+Mama ne lăsa să alegem ce mâncăm duminica, pe rând.
+# postaș → poștaș
+Vecina noastră de palier ne aducea pachetul de la poștaș când nu eram acasă.
+# învăță → învăța
+Tata ne învăța să înotăm în lacul de lângă oraș, ținându-ne de burtă.
+# învață → învăța
+Colega asta învăța noaptea și dormea ziua, iar eu făceam invers.
+# seară → seara
+Ne vedeam doar seara, la cină, și ne povesteam ziua.
+# tată → tata, ca → că
+Mama zice că e o ocazie unică, tata zice că familia e mai importantă.
+# bunică → bunica
+Am vorbit cu bunica și mi-a zis să plec, dar să nu uit de unde am plecat.
+# seară → seara
+Am plecat și sun acasă în fiecare duminică seara.
+# tătei → tatei, dimineață → dimineața
+Mi-e dor de mâncarea mamei și de vocea tatei dimineața.
+# zăcuscă → zacuscă
+Am găsit în orașul nou un magazin cu produse românești și am cumpărat zacuscă.
+# mămăligă → mămăliga
+Colegii străini nu știau ce e mămăliga și au crezut că e piure.
+# Paste → Paște
+Am venit acasă de Paște după doi ani și am plâns în aeroport.
+# Fața → Fata, clasa → clasă
+Fata cea mai cuminte din clasă a plecat în jurul lumii cu rucsacul.
+# Dirigintă → Diriginta
+Diriginta a venit la reuniune și ne-a știut pe toți după nume.
+# dirigintă → diriginta
+Ne-a spus diriginta că am fost cea mai gălăgioasă clasă din cariera ei.
+# ras → râs
+Am râs toți și i-am dat un buchet mare de flori.
+# fanului → fânului
+În satul bunicilor, vara era timpul fânului și al secerișului.
+# Mancam → Mâncam
+Mâncam brânză, ceapă, roșii și pâine caldă, cu toții la un loc.
+# capitelor → căpițelor
+După masă, bărbații dormeau puțin la umbra căpițelor.
+# fan → fân
+Seara, căruțele încărcate cu fân intrau pe ulița satului una după alta.
+# fan → fân, cadem → cădem
+Copiii stăteam sus pe fân și ne țineam strâns ca să nu cădem.
+# descărcă → descărca
+În curte, fânul se descărca și se făcea o claie mare lângă grajd.
+# sa → să, fan → fân
+Ne plăcea să ne aruncăm în fân, deși ne zgâria pe tot corpul.
+# uliță → ulița, panta → pantă
+Ne dădeam cu sania pe ulița în pantă până la râul înghețat.
+# viața → viață
+Primăvara, satul se trezea la viață și toți ieșeau în grădini.
+# tată → tata
+Mi-a scris tata un mesaj: „Felicitări, campionule!” și mi-a dat lacrimile.
+# colegă → colega
+Am dus-o pe colega mea la cină, că m-a ajutat să învăț.
+# bunică → bunica
+Seara am sunat-o pe bunica să-i spun că am terminat sesiunea.
+# bunică → bunica
+Mi-a zis bunica că a aprins o lumânare pentru mine la biserică.
+# bunică → bunica
+Ne-a promis bunica o plăcintă cu brânză când venim acasă.
+# dirigintă → diriginta, ca → că
+Ne-a zis diriginta că e mândră de noi, cu ochii în lacrimi.
+# romană → română, roseam → roșeam
+Profesorul de română ne citea compunerile cu voce tare și ne roșeam toți.
+# lasă → lăsa, fereastră → fereastra, iarnă → iarna
+Colega mea de cameră lăsa fereastra deschisă iarna și eu dormeam cu căciulă.
+# cumpără → cumpăra
+Mama ne cumpăra în fiecare septembrie ghiozdane noi, deși cele vechi erau bune.
+# învață → învăța
+Fratele meu învăța la chitară aceeași melodie de o lună.
+# școala → școală
+Tata ne lua de la școală vinerea și mergeam direct la țară.
+# strigă → striga, dimineața → dimineață
+Dirigintele striga catalogul în fiecare dimineață, cu voce de sergent.
+# spală → spăla, curăță → curată
+Colegul de apartament spăla vasele doar când nu mai avea nicio farfurie curată.
+# lasă → lăsa, lumină → lumina
+Mama lăsa lumina de pe hol aprinsă până ajungeam acasă.
+# alergă → alerga, plouă → ploua
+Profesorul de sport ne alerga în jurul școlii chiar și când ploua.
+# lasă → lăsa
+Șeful de la depozit ne lăsa să plecăm mai devreme în zilele de examen.
+# tipa → țipa, supă → supa, mișcăm → mișcam
+Mama țipa din bucătărie că se răcește supa, iar noi nu ne mișcam de la televizor.
+# arată → arăta
+Tata ne arăta constelațiile de pe balconul blocului.
+# Mama → Mamă, cameră → camera
+Mamă, te rog să nu mai suni la cămin la miezul nopții, se trezește toată camera.
+# Tata → Tată
+Tată, poți să vii să mă iei de la gară? Ajung la unsprezece.
+# fa-mi → fă-mi
+Bunico, mi-e dor de plăcintele tale, fă-mi una când vin.
+# mamă → mama
+Frățioare, ai grijă de mama cât sunt eu plecată.
+# notă → nota
+Mi s-a părut nedrept și am vorbit cu profesorul, care mi-a mărit nota.
+# Rămai → Rămâi
+Ce ai de gând să faci după master? Rămâi în țară?
+# frica → frică, sa → să
+Ai mei mă susțin, deși le e frică să nu pierd tot.
+# tată → tata
+Mi-a zis tata că el n-a avut curaj să încerce, așa că e bucuros că am eu.
+# seară → seara
+Mi-au cerut elevii să le dau voie să învețe la mine până seara.
+# ulița → uliță
+Copiii se jucau pe uliță până când mamele îi strigau la cină.
+# mașina → mașină
+Un singur om din sat avea mașină și ducea pe toată lumea la spital.
+# duminică → duminica, biserica → biserică
+Femeile din sat mergeau duminica la biserică îmbrăcate în cele mai frumoase haine.
+# slujba → slujbă, poartă → poarta, vorba → vorbă
+După slujbă, oamenii se opreau la poarta bisericii să mai stea de vorbă.
+# razorul → răzorul, ocupă → ocupa
+Fiecare copil avea răzorul lui de flori și se ocupa de el toată primăvara.
+# razor → răzor
+Am primit o diplomă pentru cel mai frumos răzor de lalele.
+# diplomă → diploma
+Mi-a păstrat mama diploma aceea și acum e înrămată în casa părintească.
+# fațat → fătat, asta → ăsta
+A mai fătat capra anul ăsta? Mi-ai zis că aștepta iezi.
+# Cate → Câte
+Câte borcane de dulceață ați făcut? Puneți și pentru mine deoparte.
+# asta → ăsta, va → vă, ajuta → ajută
+Mi-a zis mama că anul ăsta s-au făcut multe prune și că vă ajută cineva la cules.
+# livadă → livada
+Să-mi trimiți poze cu livada când înfloresc pomii, te rog.
+# latra → latră
+Aici e liniște, doar câinele mai latră noaptea la vulpi.
+# cumpăra-ți → cumpără-ți
+Nu ne trimite bani, că avem tot ce ne trebuie, mai bine cumpără-ți ceva frumos.
+# asta → ăsta
+Grădina a dat anul ăsta cei mai frumoși ardei din ultimii ani.
+# rugam → rugăm, ține → tine
+Ne rugăm pentru tine în fiecare seară și aprindem câte o lumânare.
+# ca → că, iarnă → iarna
+Să te îmbraci bine, că se apropie iarna și la voi la oraș bate vântul rău.
+# grija → grijă, dă → da, ca → că
+Ai grijă la bani și nu-i da pe prostii, că greu se fac.
+# Sa → Să
+Să ne scrii când ai timp, chiar și numai două rânduri.
+# sa → să
+Am rămas cu o singură restanță și mi-e frică să le spun alor mei.
+# sună → suna, dimineața → dimineață
+Colega mea de grupă mă suna în fiecare dimineață să mă trezească pentru curs.
+# cântă → cânta
+Tata cânta la muzicuță seara, pe balcon, și vecinii ieșeau să asculte.
+# data → dată
+Mama mă aștepta cu ciorbă caldă de fiecare dată când veneam de la cămin.
+# arată → arăta
+Profesoara de geografie ne arăta pozele din vacanțele ei la fiecare oră.
+# îmbracă → îmbrăca
+Sora mea se îmbrăca în hainele mele și pleca înainte să mă trezesc.
+# Proprietară → Proprietara
+Proprietara ne aducea în fiecare lună câte un borcan de murături.
+# Mama → Mamă
+Mamă, unde mi-ai pus cartea de fizică? Nu o găsesc nicăieri.
+# Tata → Tată
+Tată, nu mai cumpăra pâine, am luat eu în drum spre casă.
+# ca → că
+Am pus lucrarea aceea pe perete, ca să-mi amintesc că se poate.
+# țara → țară, dimineața → dimineață
+Câinele vecinilor de la țară ne aducea în fiecare dimineață câte un papuc furat.
+# iarnă → iarna
+Pisica bunicii dormea pe cuptor toată iarna și nu cobora decât să mănânce.
+# Față → Fata, țeavă → țeava
+Fata din camera de alături ne-a primit la ea până s-a reparat țeava.

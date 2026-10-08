@@ -1,0 +1,2013 @@
+# Everyday Romanian: transport, cars, commuting and travel logistics.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# Va → Vă
+Vă rog să opriți la colț, lângă farmacie, de acolo merg pe jos.
+# doua → două
+Domnule, puteți să deschideți portbagajul? Am două valize mari.
+# legătură → legătura
+Am pierdut legătura la Brașov pentru că acceleratul a stat în câmp patruzeci de minute.
+# seară → seara
+Nu mai găsesc bilete la vagonul de dormit pentru vineri seara.
+# asta → ăsta
+Controlorul mi-a spus că legitimația de student nu e valabilă fără viza pe anul ăsta.
+# prostii → proștii
+Autobuzul 133 n-a mai trecut de o jumătate de oră, stăm toți în stație ca proștii.
+# ora → oră
+La ce oră pleacă primul microbuz spre Câmpulung?
+# coloana → coloană
+Am stat două ore în coloană pe Valea Prahovei, de la Comarnic până la Sinaia.
+# săptămână → săptămâna
+Benzina a mai crescut cu zece bani de săptămâna trecută.
+# sa → să
+Instructorul îmi tot zicea să mă uit în oglindă înainte să semnalizez.
+# Maine → Mâine
+Mâine dau a doua oară examenul la poliție și sunt foarte emoționată.
+# reprezentantă → reprezentanță
+Mașina are o sută optzeci de mii de kilometri reali, cu istoric la reprezentanță.
+# capota → capotă
+Când pornesc dimineața, se aude un scârțâit de sub capotă care trece după câteva minute.
+# termină → termina
+La vulcanizare era o coadă de nu se mai termina, am stat trei ore.
+# tablă → tabla
+Am avut un mic accident în intersecție, nu e nimeni rănit, doar tabla îndoită.
+# ca → că
+Celălalt șofer refuză să completeze formularul și zice că așteaptă poliția.
+# bicicletă → bicicleta
+Am luat-o cu bicicleta pe pista nouă de pe bulevard și e chiar plăcută.
+# cremă → crema
+La controlul de securitate mi-au aruncat crema pentru că avea peste o sută de mililitri.
+# gara → gară, dimineața → dimineață
+mă duci și pe mine la gară mâine dimineață? am trenul la șase și zece
+# curață → curată
+I-am dat cinci stele pentru că a fost foarte amabil și mașina era curată.
+# luăm → luam
+Pe vremuri luam personalul în fiecare vineri și ajungeam acasă noaptea târziu.
+# tată → tata
+Când eram copil, tata mă lua cu el în camion pe drumurile din Moldova.
+# repară → repara
+Bunicul conducea o Dacie veche pe care o repara singur în curte.
+# până → pană
+Am rămas în pană de benzină la zece kilometri de cea mai apropiată benzinărie.
+# mașină → mașina
+Ai cumva cabluri de pornire? Nu-mi mai pornește mașina.
+# bară → bara
+Mi-a intrat în spate un tip la semafor și acum am bara spartă.
+# purtăm → purtam
+Polițistul m-a oprit pentru că nu purtam centura pe bancheta din spate.
+# Franează → Frânează
+Frânează mai devreme, că ai gheață pe carosabil și nu te mai oprești.
+# costa → costă
+Tu ai văzut cât costă acum o parcare pe oră în centru?
+# amendă → amenda
+Am plătit parcarea prin SMS, dar a venit oricum agentul cu amenda.
+# grija → grijă, ca → că
+Ai grijă că pe DN1 sunt radare la fiecare intrare în localitate.
+# mașină → mașina
+Tipul care vinde mașina nu vrea să o ducem la verificare la service.
+# dauna → daună
+Am verificat seria de șasiu și mașina figurează cu daună totală în străinătate.
+# mașina → mașină
+Nu cumpăra niciodată mașină fără să-i verifici kilometrajul real.
+# Cat → Cât, sa → să
+Cât ar costa să schimbi distribuția la un motor de 1.5 diesel?
+# mașina → mașină
+Mi-a spart cineva geamul de la mașină noaptea și mi-a furat rucsacul.
+# Cat → Cât, mașină → mașina
+Cât timp durează să-ți dea mașina de schimb de la asigurare?
+# roată → roata
+Am venit cu bicicleta la birou și mi-au furat roata din față.
+# trotinetă → trotineta
+Purtați cască, chiar dacă mergeți doar până la colț cu trotineta.
+# costa → costă
+Taxiul de la aeroport până în centru costă mai mult decât biletul de avion.
+# umbrelă → umbrela
+Am lăsat umbrela în mașina de Bolt, cum pot să dau de șofer?
+# Plateam → Plăteam
+Plăteam cu cardul în aplicație, dar șoferul a insistat să-i dau cash.
+# dimineața → dimineață
+Ieri dimineață am mers pe jos până la serviciu pentru că nu circulau tramvaiele.
+# ca → că, săptămână → săptămâna
+Am auzit că pregătesc o grevă la metrou de săptămâna viitoare.
+# mâncăm → mâncam
+Mergeam cu frații mei la bunici cu trenul și mâncam semințe tot drumul.
+# există → exista, dură → dura, întreaga → întreagă
+Pe atunci nu exista autostradă și drumul până la mare dura o zi întreagă.
+# sala → sală
+Am trecut la sală din prima, dar la traseu am căzut de două ori.
+# mașină → mașina
+Am parcat pe un loc de handicap fără să-mi dau seama și mi-au ridicat mașina.
+# Ma → Mă, uităm → uitam
+Mă tot uitam la ceas și nu mai venea nimeni să mă ia.
+# benzină → benzina
+Motorina e acum mai scumpă decât benzina, ceea ce n-am mai văzut.
+# Merita → Merită, mașină → mașina
+Merită să treci mașina pe GPL dacă faci mulți kilometri pe lună?
+# treaptă → treapta
+Ambreiajul a început să patineze și nu mai urcă în treapta a cincea.
+# țeavă → țeava
+Mașina scoate fum alb pe țeava de eșapament când e rece.
+# uită → uita
+Nu uita că trebuie să ai trusă medicală și extinctor valabil în mașină.
+# lumină → lumina
+Mi-au dat un termen de o lună să repar lumina de frână și farul stâng.
+# mașină → mașina
+Drumul de la noi din sat e plin de gropi, ți se rupe mașina.
+# roată → roata, jantă → janta
+Am prins o groapă cu roata din dreapta și mi s-a îndoit janta.
+# alergăm → alergam
+Șoferul de autobuz a plecat din stație chiar când alergam spre ușă.
+# vară → vara
+Linia de tramvai din cartier o să fie închisă toată vara.
+# Cat → Cât, costa → costă, sa → să, adăugi → adaugi
+Cât costă să adaugi o valiză de cală după ce ai cumpărat biletul?
+# Va → Vă
+Vă rog să mă așteptați două minute, cobor imediat cu bagajele.
+# Cat → Cât
+Cât face o cursă de la Gara de Nord până în Drumul Taberei?
+# va → vă
+Puteți să dați muzica mai încet, vă rog? Am o durere de cap groaznică.
+# Plateam → Plăteam
+Plăteam mereu cu cardul, dar ieri aparatul de taxare nu funcționa.
+# casă → casa
+Stăteam la coadă la casa de bilete și trenul pleca peste cinci minute.
+# există → exista
+Vagonul cu numărul șapte nu exista, așa că ne-am urcat unde am apucat.
+# cusetă → cușeta
+Am dormit pe cușeta de sus și m-am lovit de tavan de fiecare dată când m-am ridicat.
+# bicicletă → bicicleta
+Personalul spre Mangalia oprește în fiecare sat, mergea mai repede bicicleta.
+# benzină → benzina
+Nu se poate ca biletul să coste mai mult decât benzina pentru aceeași distanță.
+# incolo → încolo
+Stația s-a mutat la două sute de metri mai încolo și nimeni n-a anunțat.
+# încărcă → încarcă
+Nu știu cum funcționează aici cardurile de călătorie, se încarcă la automat?
+# sacosele → sacoșele
+Ne înghesuiam toți în maxi-taxi, cu sacoșele pe genunchi.
+# Română → Romană
+Cobor la Piața Romană și te aștept lângă intrarea la metrou.
+# mașină → mașina
+Nu mai iau mașina în centru, pierd mai mult timp căutând parcare decât conducând.
+# coadă → coada
+Pe bulevard s-a făcut bandă pentru autobuze și acum e și mai mare coada.
+# claxonă → claxona, coloană → coloana
+Toată lumea claxona și nimeni nu știa de ce nu înaintează coloana.
+# ca → că
+Ia-o pe la Băneasa, că pe Aviatorilor e blocat de la manifestație.
+# strădute → străduțe
+Waze-ul mă trimite pe niște străduțe și tot ajung în același blocaj.
+# vinietă → vinieta, cumpăra → cumpără
+În Ungaria vinieta se cumpără online și se verifică automat după număr.
+# vama → vamă
+La vamă am stat trei ore pentru că verificau fiecare mașină.
+# ține → tine
+Ai pașaportul la tine sau l-ai lăsat în bagajul din portbagaj?
+# benzina → benzină
+Am rămas fără benzină chiar în vârful pasului, noroc cu un cioban.
+# hartă → harta
+Mama ținea harta pe genunchi și se certau la fiecare intersecție.
+# mașină → mașina
+Vreau să vând mașina, dar nu știu cât să cer pe ea.
+# chitanta → chitanța
+Proprietarul mi-a jurat că n-a avut niciun accident, apoi am văzut chitanța de la tinichigerie.
+# Cat → Cât, costa → costă
+Cât costă transcrierea și înmatricularea unei mașini aduse din Germania?
+# turbină → turbina
+Am luat o mașină second-hand și după o lună s-a stricat turbina.
+# ca → că
+Mecanicul mi-a explicat că pierde ulei pe la garnitura de chiulasă.
+# descărcă → descarcă, dimineața → dimineață
+Cred că e o problemă la alternator, că se descarcă bateria în fiecare dimineață.
+# scârțaie → scârțâie
+De când am pus plăcuțe noi, frânele scârțâie la fiecare oprire.
+# ajută → ajuta, roată → roata
+Mă poți ajuta să schimb roata? N-am mai făcut asta niciodată.
+# Va → Vă
+Vă sun pentru o daună, am fost lovit din spate la semafor.
+# dauna → daună
+Mi-au spus că dosarul de daună se rezolvă în maximum treizeci de zile.
+# bara → bară
+Nu credeam că o zgârietură pe bară costă atât de mult să o vopsești.
+# oglindă → oglinda
+Am făcut CASCO după ce mi s-a furat oglinda a doua oară.
+# bicicletă → bicicleta
+Am mers cu bicicleta pe Calea Victoriei și m-a acroșat o mașină.
+# valiza → valiză
+Am mutat lucrurile din valiză în rucsac ca să nu plătesc suprataxă.
+# poartă → poarta
+Pe ecran scrie că poarta se închide în zece minute și eu sunt încă la control.
+# turbulente → turbulențe
+Avionul a aterizat cu turbulențe și toată lumea a aplaudat la final.
+# pista → pistă
+Ne-au ținut în autobuzul de pe pistă până când au deschis ușile avionului.
+# lăcătul → lacătul
+Bagajul a ajuns după trei zile, cu lacătul spart.
+# lasa → lasă, îmbărci → îmbarci
+Ești sigur că n-ai uitat buletinul? Fără el nu te lasă să te îmbarci.
+# ca → că
+Am ajuns la aeroport și abia acolo am văzut că zborul era de pe alt terminal.
+# va → vă
+Mulțumesc pentru cursă, vă doresc o zi bună în continuare.
+# va → vă
+Am uitat telefonul pe bancheta din spate, puteți să vă întoarceți?
+# mașina → mașină
+Șoferul m-a sunat imediat ce a găsit portofelul meu în mașină.
+# bacsis → bacșiș, ușa → ușă
+Am dat bacșiș pentru că m-a ajutat cu bagajele până la ușă.
+# fumă → fuma, rugăm → rugam
+Instructorul meu fuma în mașină și deschidea geamul doar când îl rugam.
+# rampa → rampă
+Nu reușeam deloc să pornesc în rampă fără să se oprească motorul.
+# bordură → bordura
+La parcarea laterală am atins bordura și am primit puncte de penalizare.
+# tătei → tatei
+Fratele meu a condus mașina tatei fără permis și a lovit poarta.
+# curba → curbă
+Am depășit linia continuă și m-a oprit un echipaj care stătea după curbă.
+# grija → grijă, barieră → bariera
+Ai grijă la trecerea de cale ferată, bariera nu funcționează de multă vreme.
+# gată → gata
+Autostrada spre Moldova încă nu e gata, deci mergem tot pe drumul vechi.
+# mașina → mașină
+Am rămas înzăpeziți în mașină toată noaptea, cu motorul pornit din oră în oră.
+# ploua → plouă
+Ștergătoarele nu mai fac față când plouă așa de tare.
+# dimineața → dimineață, gheață → gheața
+În fiecare dimineață pierd zece minute să dau gheața de pe parbriz.
+# sacosă → sacoșă
+Puteți să mă lăsați chiar în fața scării? Am o sacoșă grea.
+# uită → uita, întrună → întruna
+Șoferul nu știa orașul deloc și se uita întruna pe telefon.
+# numărăm → număram
+Am stat în taxi cu ochii pe aparat și număram fiecare leu.
+# vorbăret → vorbăreț
+Domnul șofer era foarte vorbăreț și mi-a povestit toată viața lui.
+# ca → că
+Te rog să-mi scrii când ajungi acasă, că e târziu și mi-e frică pentru tine.
+# prințasem → printasem
+Am primit o amendă în tren pentru că nu-mi printasem biletul.
+# bunică → bunica, așteptă → aștepta
+Când ajungea trenul în gară, bunica ne aștepta mereu cu pachete pe peron.
+# circula → circulă
+Mai circulă trenul acela mic pe valea Vaserului?
+# Rezervați-va → Rezervați-vă
+Rezervați-vă locurile din timp, în weekend trenurile spre mare sunt pline.
+# gară → gara, Merița → Merită
+Cât de departe e gara de centrul vechi? Merită să iau un autobuz?
+# ora → oră
+Între Simeria și Deva trenul a mers cu treizeci la oră din cauza lucrărilor.
+# circula → circulă, seară → seara
+Nu circulă nimic în zona noastră după ora unsprezece seara.
+# geacă → geaca
+Am coborât din metrou și mi-am dat seama că mi-am uitat geaca pe scaun.
+# rulanță → rulantă
+Scara rulantă de la ieșire e oprită de o lună și urcăm pe jos.
+# strigăt → strigat
+Doamna din spatele meu a strigat la șofer pentru că a sărit peste stație.
+# mașină → mașina
+Lucrez la treizeci de kilometri de casă și fac naveta zilnic cu mașina.
+# bicicleta → bicicletă
+Mi-am luat bicicletă pliabilă ca să o pot lua cu mine în tren.
+# pedalăm → pedalam
+Ploua torențial și eu pedalam pe marginea drumului printre bălți.
+# Ma → Mă
+Mă enervează șoferii care deschid ușa fără să se uite după bicicliști.
+# seară → seara
+Am pus far și stop pe bicicletă, ca să mă vadă mașinile seara.
+# până → pană, roată → roata
+Am o pană la roata din spate și n-am cameră de rezervă.
+# trotinetă → trotineta, pistă → pista
+Am mers cu trotineta pe pista de biciclete și un biciclist m-a certat.
+# bicicletă → bicicleta
+Nu mai las bicicleta legată în fața blocului, mi-au furat deja două.
+# problema → problemă
+Mașina mea are deja doisprezece ani, dar n-am avut nicio problemă serioasă cu ea.
+# ca → că
+Mi-a zis vecinul că la o mașină veche trebuie să ai mereu un mecanic de încredere.
+# Suna → Sună, curbă → curba
+Sună ceva de parcă s-ar freca o tablă de roată când iau curba la stânga.
+# Cat → Cât, costa → costă
+Cât mă costă să schimb uleiul și filtrele la un service mic?
+# fază → faza
+Becul de faza scurtă s-a ars din nou, a doua oară în aceeași lună.
+# bandă → banda
+Mi s-a rupt cureaua de transmisie pe autostradă și am rămas pe banda de urgență.
+# urma → urmă
+Până la urmă a fost doar o siguranță arsă, nu toată instalația electrică.
+# boxă → boxa
+Am păstrat cauciucurile de vară în boxa de la subsol, înfășurate în saci.
+# Cat → Cât, rotile → roțile
+Cât a costat montajul și echilibrarea la toate patru roțile?
+# mașină → mașina
+Mergeam încet pe gheață și totuși mașina a alunecat spre marginea drumului.
+# întreaga → întreagă
+Iarna trecută am stat blocați pe autostradă o noapte întreagă.
+# înaintă → înainta
+Am întors mașina și am luat-o pe alt drum, că nu se mai putea înainta.
+# bandă → banda
+Mi-a intrat un camion în oglindă pe banda de lângă și a rupt-o complet.
+# Va → Vă
+Vă rog să-mi spuneți cât timp mai durează până vine tractarea.
+# costa → costă
+Mi-au dat despăgubire mult mai mică decât costă reparația la service.
+# sora-mea → soră-mea, sa → să, limita → limită
+Am rugat-o pe soră-mea să mi-l aducă și am prins avionul la limită.
+# sa → să
+Nu ne-au lăsat să stăm împreună în avion fără să plătim locurile.
+# sa → să
+Am cerut un loc la ieșirea de urgență ca să am mai mult loc pentru picioare.
+# cheltuială → cheltuiala
+Ne-au cazat la un hotel lângă aeroport pe cheltuiala companiei.
+# singura → singură
+Fiica mea zboară singură prima oară și sunt cu sufletul la gură.
+# autogara → autogară
+La autogară, nimeni nu știa de unde pleacă microbuzul spre Sighișoara.
+# geanță → geanta
+Am uitat geanta în cala autocarului și au plecat cu ea mai departe.
+# sforaia → sforăia
+Domnul de lângă mine sforăia atât de tare încât nu am dormit deloc.
+# fața → față
+Mi-a ieșit în față un câine și am frânat brusc, noroc că nu era nimeni în spate.
+# mână → mâna
+Când am trecut prin sat, toți copiii ne făceau cu mâna.
+# benzină → benzina
+Ne-am înțeles să ne împărțim benzina și taxele de autostradă.
+# Plecam → Plecăm, seară → seara
+Plecăm la mare de joi seara, ca să prindem drumul liber.
+# gara → gară, anunță → anunța
+Difuzorul din gară anunța ceva, dar nu se înțelegea niciun cuvânt.
+# coborî → cobori
+salut, sunt șoferul, am ajuns la poartă, cobori sau intru în curte?
+# lasa → lasă, sa → să
+Nu găsesc intrarea, e o barieră și paznicul nu mă lasă să intru.
+# Va → Vă
+Vă rog frumos, puteți să conduceți puțin mai încet? Mi-e rău de mașină.
+# ca → că, mișcă → mișca
+Am anulat cursa pentru că șoferul nu se mișca de zece minute din loc.
+# sună → suna
+Am încercat să sun la dispecerat, dar suna mereu ocupat.
+# stradă → strada
+I-am explicat de trei ori unde să mă lase și tot a greșit strada.
+# va → vă
+Am lăsat o geacă de piele în portbagaj, vă rog să mă contactați dacă o găsiți.
+# ascultă → asculta
+În compartimentul de alături cineva asculta muzică la maximum.
+# clasă → clasa
+Vagonul de clasa întâi avea prize, dar niciuna nu funcționa.
+# plată → plata
+Am încercat să cumpăr bilet din aplicație, dar plata nu trecea deloc.
+# întrebăm → întrebam
+Mă tot întrebam de ce stă trenul atât, apoi am aflat că se schimbă mecanicul.
+# curață → curată
+În gară la Craiova e o sală de așteptare nouă și curată.
+# gara → gară
+Mergeam cu bunicul la gară doar ca să vedem trenurile cum trec.
+# circula → circulă, dimineața → dimineață
+Nu mai circulă acceleratul de dimineață, l-au scos din grafic.
+# piulită → piuliță
+Autobuzul era atât de vechi încât se auzea fiecare piuliță.
+# scuipă → scuipa
+Am stat în autobuz lângă un domn care mânca semințe și scuipa cojile pe jos.
+# duminică → duminica
+Aici tramvaiul vine regulat, la fiecare șase minute, chiar și duminica.
+# seară → seara
+Pe linia de metrou nouă trenurile vin destul de rar seara.
+# schimbăm → schimbam, dimineața → dimineață
+Lucram în Militari și locuiam în Titan, deci schimbam două linii în fiecare dimineață.
+# Ieseam → Ieșeam
+Ieșeam de la birou la șase și ajungeam acasă abia la opt.
+# mașina → mașină
+Am renunțat la mașină și acum merg doar cu transportul în comun.
+# ședința → ședință
+Am ajuns la ședință cu o jumătate de oră întârziere, din nou din cauza traficului.
+# mașină → mașina, bicicletă → bicicleta
+Vecinul meu face o oră până la birou cu mașina, eu fac douăzeci de minute cu bicicleta.
+# ambulanță → ambulanța
+Când am auzit sirenele, toți s-au tras pe dreapta să treacă ambulanța.
+# Chitilă → Chitila
+Coloana începea de la ieșirea din Chitila și ținea până la Mogoșoaia.
+# lasă → lăsa, geanță → geanta, fața → față
+Nu-ți lăsa niciodată geanta pe scaunul din față când ești la semafor.
+# Cat → Cât, încărci → încarci
+Cât timp durează să încarci o mașină electrică la o stație rapidă?
+# mașină → mașina, duminică → duminica
+Am cumpărat mașina de la un domn în vârstă care o folosea doar duminica.
+# mașină → mașina
+Mergem mâine să vedem mașina, dar mai întâi verificăm actele.
+# că → ca, curață → curată
+Mașina era exact ca în poze, curată și bine întreținută.
+# că → ca
+Vânzătorul spune că kilometrii sunt reali, dar volanul e tocit ca la un taxi.
+# văjait → vâjâit, roată → roata
+Când merg cu peste o sută, se aude un vâjâit de la roata din față.
+# casa → casă
+Mergeam spre casă când s-a aprins becul de la frână și am oprit imediat.
+# mărșărier → marșarier
+Camera de marșarier e cel mai bun lucru pe care l-am pus la mașină.
+# ora → oră
+Prima dată când am condus pe zăpadă, am mers cu douăzeci la oră până acasă.
+# lasa → lasă
+Nu frâna brusc pe zăpadă, lasă motorul să încetinească singur.
+# vină → vina
+Nu e vina mea, el a dat cu spatele fără să se uite.
+# cameră → camera
+Am filmat totul cu camera de bord, deci e clar cine a greșit.
+# bicicletă → bicicleta, pistă → pista, trotinetă → trotineta
+Mergeam cu bicicleta pe pista din parc și m-a lovit un copil cu trotineta.
+# fața → față
+Am cumpărat o bicicletă de oraș cu coș în față pentru cumpărături.
+# casa → casă, bicicletă → bicicleta, ora → oră
+Pe dealul de lângă casă cobor cu bicicleta cu cincizeci la oră.
+# strada → stradă, bicicletă → bicicleta
+Pe stradă n-ai unde să lași bicicleta, nu sunt suporturi nicăieri.
+# trotinetă → trotineta
+Am lăsat trotineta la colțul străzii și aplicația zicea că e în afara zonei.
+# sa → să
+Compania ne-a mutat zborul cu șase ore mai devreme, fără să ne anunțe.
+# întreaga → întreagă
+Am ajuns acasă la două noaptea, după o zi întreagă de aeroporturi.
+# plouă → ploua, găleată → găleata
+Când am aterizat, ploua cu găleata și am fugit spre autobuzul de pe pistă.
+# sa → să, zburăm → zburam
+Îmi plăcea să mă uit pe geam la nori și să ghicesc peste ce oraș zburam.
+# Mama → Mamă
+Mamă, poți să vii după mine la gară? Trenul ajunge la zece și un sfert.
+# Tata → Tată
+Tată, ți-a mai făcut mașina zgomotul acela ciudat la pornire?
+# tine-te → ține-te, ca → că, întru → intru
+Frate, ține-te bine, că intru pe drumul de pământ.
+# Va → Vă
+Vă mulțumesc că m-ați așteptat, știu că am întârziat aproape zece minute.
+# Doamna → Doamnă, va → vă, va → vă
+Doamnă, vă rog să vă mutați bagajul de pe scaun, e locul meu.
+# va → vă
+Domnule șofer, la următoarea stație coborâm, vă rog să opriți.
+# Usa → Ușa, geanța → geanta
+Ușa din spate a autobuzului s-a închis pe geanta mea.
+# Mancam → Mâncam
+Mâncam ouă fierte și roșii în tren, iar mama tăia pâinea pe un ziar.
+# repară → repara, mașină → mașina
+Tata repara singur mașina în fiecare weekend, cu radioul pornit.
+# rugăm → rugam, vina → vină
+Conduceam cu frică pe drumul de munte și mă rugam să nu vină nimeni din față.
+# lucrăm → lucram, navetă → naveta
+Când lucram la Ploiești, făceam naveta cu trenul în fiecare zi.
+# vama → vamă
+Stăteam cu orele în vamă la Giurgiu, pe vremea când nu eram în Uniune.
+# orientăm → orientam
+Pe atunci nu aveam GPS, ne orientam după hărți și după oamenii de pe drum.
+# învățăm → învățam, roată → roata
+Ne învățam unii pe alții cum să schimbăm roata, nimeni nu chema asistența rutieră.
+# luăm → luam
+Când eram mică, mă luam la ceartă cu sora mea pentru locul de la geam.
+# gara → gară, plecă → pleca
+Am ajuns în gară și trenul tocmai pleca, l-am văzut cum se îndepărtează.
+# arat → arăt
+Când a trecut controlorul, m-a trezit din somn ca să-i arăt biletul.
+# târat → târât
+De la Sighișoara până la Mediaș trenul aproape că s-a târât.
+# casa → casă
+Nu se mai vând bilete la casă după ora unsprezece, doar din automat.
+# acceptă → accepta
+Automatul de bilete nu accepta bancnote mai mari de cincizeci.
+# chiosc → chioșc
+Biletul de autobuz se cumpără de la chioșc sau prin SMS?
+# lăsău → lăsau
+Controlorii stăteau la ușă și nu lăsau pe nimeni să coboare.
+# amenda → amendă
+Mi-au dat amendă deși aveam abonament, doar că nu-l validasem.
+# amendă → amenda
+Am contestat amenda și mi-au anulat-o după ce am arătat abonamentul.
+# ruta → rută
+Autobuzul a luat-o pe altă rută și am ajuns în celălalt capăt al orașului.
+# Ma → Mă, uităm → uitam, arată → arăta
+Mă tot uitam pe aplicație să văd unde e autobuzul, dar arăta mereu altceva.
+# școala → școală
+Am ajuns la școală cu copilul abia la nouă, din cauza autobuzului.
+# ma → mă
+Nu-mi place să merg cu metroul la ora de vârf, mă sufoc.
+# primăvara → primăvară
+Stația de metrou de lângă noi e închisă pentru renovare până în primăvară.
+# dărâmițe → darămite
+Nu mă mai urc cu nimeni în lift, darămite în metroul aglomerat.
+# că → ca
+Navetiștii stăteau la coadă la microbuzul spre Cornetu ca la pâine.
+# bicicletă → bicicleta
+Am încercat să merg cu bicicleta la serviciu, dar am ajuns transpirat leoarcă.
+# dusuri → dușuri, bicicletă → bicicleta, toamnă → toamna
+La birou nu avem dușuri, așa că bicicleta e o opțiune doar toamna.
+# ca → că
+Am pierdut ședința de la nouă pentru că un tir s-a răsturnat pe centură.
+# autostrada → autostradă
+Pe autostradă era o ceață de nu vedeai la zece metri în față.
+# dezmortim → dezmorțim
+Ne-am oprit la Sebeș să mâncăm ceva cald și să ne dezmorțim picioarele.
+# rulotă → rulota
+Pe Transalpina nu se poate merge cu rulota, drumul e prea îngust.
+# cabana → cabană
+Am ajuns la cabană seara târziu, după un drum lung prin pădure.
+# mașină → mașina
+Era atâta praf pe drumul forestier încât nu mai vedeam mașina din față.
+# Plecam → Plecăm
+Plecăm spre Grecia la patru dimineața, ca să prindem granița liberă.
+# arată → arăta
+Pe drum ne-am oprit la un motel care arăta mult mai bine în poze.
+# Cumpar → Cumpăr
+Cumpăr o mașină de la un prieten, dar vrea bani gheață pe loc.
+# capota → capotă
+Vopseaua de pe capotă are altă nuanță, clar a fost revopsită.
+# mașină → mașina
+Am făcut un test drive și mașina trăgea foarte bine, chiar și la deal.
+# mașină → mașina
+Vreau să vând mașina cât mai repede, mă mut în străinătate.
+# mașină → mașina
+Majoritatea vor doar să negocieze la telefon fără să vină să vadă mașina.
+# tremura → tremură
+De câte ori pornesc dimineața, mașina tremură puțin până se încălzește.
+# mașina → mașină
+Mi-a curs lichid verde sub mașină, e de la radiator?
+# va → vă
+Lăsați mașina până mâine la prânz și vă sun când e gata.
+# iarnă → iarna
+Mașina a stat iarna în curte și acum nu mai pornește.
+# mașină → mașina
+Pe zăpadă, mașina cu tracțiune spate devine practic de nefolosit.
+# intră → intra
+Mi-a înghețat încuietoarea ușii și n-am putut intra în mașină.
+# termină → termina
+Era o coadă la poliția rutieră de nu se mai termina, am stat toată ziua.
+# dauna → daună, săptămână → săptămâna
+Bună ziua, am o întrebare despre dosarul de daună pe care l-am deschis săptămâna trecută.
+# stradă → strada
+În Amsterdam pistele de biciclete sunt mai late decât strada la noi.
+# bicicletă → bicicleta, săcosele → sacoșele
+Mă duc cu bicicleta la piață, cu sacoșele agățate de ghidon.
+# încărcă → încarcă
+Am cumpărat o lumină pentru bicicletă care se încarcă de la USB.
+# tura → tură, bicicletă → bicicleta
+Am făcut prima tură lungă cu bicicleta, aproape optzeci de kilometri.
+# viteza → viteză
+Un tip pe trotinetă a trecut pe lângă mine pe trotuar cu viteză mare.
+# apă → apa
+Trotineta mea s-a stricat după prima ploaie, apa a intrat în baterie.
+# poartă → poarta
+Ne-am întâlnit la poarta de îmbarcare cu niște prieteni care zburau tot acolo.
+# bandă → banda
+Am așteptat bagajele o oră la banda de bagaje, iar valiza mea a venit ultima.
+# valiză → valiza
+Nu-mi găsesc valiza, pe bandă nu mai e nimic.
+# rotile → roțile
+Am uitat cheia de la piulițele de siguranță acasă și la vulcanizare nu puteau scoate roțile.
+# grija → grijă
+Ai grijă la portofel în gară, sunt mulți hoți de buzunare.
+# sa → să
+Ne-a lăsat taximetristul la capătul străzii pentru că nu voia să intre pe drumul cu gropi.
+# dimineața → dimineață
+Bolt-ul de azi dimineață a avut o mașină electrică, n-am auzit motorul deloc.
+# ca → că
+Mi s-a părut că șoferul a ales intenționat drumul cel mai lung.
+# diferență → diferența
+Am făcut o reclamație în aplicație și mi-au returnat diferența de bani.
+# nunta → nuntă, mașină → mașina
+O să întârziem la nuntă dacă nu vine mașina în cinci minute.
+# studență → studentă
+Când eram studentă, mergeam acasă cu trenul doar o dată pe lună, la sfârșit de lună.
+# grijă → grija
+În vagonul de dormit, nu închideam ochii de grija bagajelor.
+# partie → pârtie, bocăncii → bocancii
+Ne-am dat jos la Predeal și ne-am dus direct pe pârtie cu bocancii în mână.
+# Cat → Cât, costa → costă
+Cât costă un bilet de tren până la Galați pentru un student?
+# ca → că
+Am primit un mesaj că trenul meu circulă cu întârziere de două ore.
+# Cat → Cât
+Cât face autobuzul de la Piața Unirii până la aeroport?
+# circula → circulă
+Autobuzul expres spre aeroport circulă și noaptea sau doar ziua?
+# tipau → țipau
+Era un autobuz plin de elevi care țipau și cântau.
+# plouă → ploua
+Când ploua, autobuzele întârziau toate și se făceau cozi uriașe în stații.
+# ușa → ușă, coborî → cobori
+Bătrânii stau mereu lângă ușă și nu te lasă să cobori.
+# carat → cărat, scari → scări
+Am cărat căruciorul pe scări cu copilul în el, ajutată de un băiat.
+# navetă → naveta
+Colegul meu face naveta cu motorul, chiar și când plouă.
+# noua → nouă
+Am încercat să ajung la ora opt la serviciu și am ajuns la nouă și un sfert.
+# centura → centură, bara → bară, dimineața → dimineață
+Pe centură se circulă bară la bară de dimineață de la șase.
+# mașina → mașină, până → pană
+O mașină a rămas în pană în mijlocul podului și s-a blocat tot traficul.
+# stam → stăm
+Dacă tot stăm în coloană, măcar pune niște muzică bună.
+# mașină → mașina, mișcă → mișca, claxonă → claxona
+Când s-a făcut verde, mașina din fața mea nu se mișca și toată lumea claxona.
+# costa → costă
+Parcarea de la spital costă zece lei pe oră, e o nebunie.
+# mașină → mașina
+Nu mai las mașina în parcările private, au taxe ascunse peste tot.
+# Ti-am → Ți-am, mașina → mașină
+Ți-am lăsat cheile de la mașină la portar, mașina e parcată în curte.
+# grija → grijă
+Ai grijă la stâlpul din spate când ieși, nu se vede în oglindă.
+# oglindă → oglinda
+Am lovit oglinda de o mașină parcată, cum să-i las datele proprietarului?
+# coada → coadă
+Mi-a luat zece minute să ies din parcarea subterană, era coadă la barieră.
+# săptămână → săptămâna
+Prețul benzinei a scăzut puțin săptămâna asta, hai să facem plinul.
+# mașină → mașina
+Am pus benzină în loc de motorină și acum mașina nu mai pornește.
+# bicicletă → bicicleta
+Am început să merg mai des cu bicicleta de când s-a scumpit carburantul.
+# intră → intra, treaptă → treapta, enervă → enerva
+Nu-mi intra deloc treapta întâi și instructorul se enerva pe mine.
+# singura → singură, frână → frâna
+Am luat carnetul și prima dată când am mers singură am uitat să iau frâna de mână.
+# Cat → Cât, costa → costă
+Cât costă acum în total școala de șoferi, cu tot cu taxele de examen?
+# franez → frânez
+Când frânez brusc, mașina trage puternic spre stânga.
+# Sterg → Șterg, mânecă → mâneca
+Șterg mereu aburul de pe parbriz cu mâneca, pentru că nu merge climatizarea.
+# portieră → portiera, trantesc → trântesc
+Nu se mai închide bine portiera din spate, trebuie s-o trântesc.
+# manetă → maneta
+Mi s-a rupt maneta de la semnalizare și semnalizez cu mâna pe geam.
+# antenă → antena
+Radioul nu mai prinde nimic de când mi-au rupt antena.
+# ca → că
+Am pus o husă nouă pe scaune, că pe cea veche o rosese câinele.
+# tăcănit → țăcănit
+Când pornesc motorul, se aude un fel de țăcănit de la supape.
+# mașină → mașina
+De la service mi-au zis că trebuie să las mașina cel puțin trei zile.
+# fișe → fise
+Spălătoria cu fise de lângă bloc e mult mai ieftină decât cea cu personal.
+# mașina → mașină
+Ne-am pus scaun de copil în mașină și acum nu mai avem loc pentru bagaje.
+# mașină → mașina
+Bebelușul doarme doar dacă mergem cu mașina, așa că ne plimbăm noaptea prin oraș.
+# există → exista
+La predarea mașinii închiriate, ne-au acuzat de o zgârietură care exista deja.
+# Buna → Bună, va → vă
+Bună ziua, vă sun de pe autostradă, mi s-a spart parbrizul de la o piatră.
+# franciza → franciză
+Se poate înlocui parbrizul pe CASCO fără franciză?
+# basculă → bascula
+Am lovit o bordură și mi s-a îndoit bascula din față.
+# bicicletă → bicicleta
+Nu port căști când merg cu bicicleta, vreau să aud ce e în jurul meu.
+# trotinetă → trotineta
+Ce faci dacă trotineta electrică se oprește în mijlocul străzii?
+# trotinetă → trotineta
+Am plătit trotineta pe minut și m-a costat mai mult decât un taxi.
+# sa → să
+Am trecut prin controlul de securitate fără să scot nimic din buzunare și a sunat aparatul.
+# Va → Vă
+Vă rog să-mi spuneți dacă trenul de la ora cinci oprește și la Câmpina.
+# Va → Vă
+Vă așteptăm la ieșirea din parcare, lângă bariera galbenă.
+# Cat → Cât, costa → costă, sa → să, mașină → mașina
+Cât costă să lași mașina o noapte în parcarea gării?
+# Cat → Cât
+Cât ai dat pe mașina asta, dacă nu e secret?
+# Maine → Mâine
+Mâine nu pot să te duc la aeroport, am mașina la service.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață se închide bulevardul pentru maraton, plecați mai devreme.
+# circula → circulă, sâmbătă → sâmbăta
+Știi cumva dacă autobuzul spre Snagov circulă și sâmbăta?
+# tată → tata
+Spune-i lui tata că a rămas mașina fără benzină la intrarea în sat.
+# mașină → mașina, stradă → strada
+Să nu uiți să încui mașina, că s-au furat două de pe strada noastră.
+# ca → că
+E mai bine să plecăm acum, că după ora patru se blochează totul.
+# dimineața → dimineață
+Plecam în fiecare dimineață la șapte și ne întorceam seara la opt, frânți de oboseală.
+# Tineam → Țineam, mâna → mână, frica → frică, sa → să
+Țineam biletul în mână tot drumul, de frică să nu-l pierd.
+# uităm → uitam, cântăm → cântam
+Ne uitam pe geam la câmpurile de floarea-soarelui și cântam toată familia.
+# Purtăm → Purtam
+Purtam mereu cu noi o pătură în mașină, pentru că încălzirea nu mergea.
+# Învățăm → Învățam
+Învățam pentru examen în tren, cu caietul pe genunchi.
+# tată → tata, încărcă → încărca
+Când plecam la mare, tata încărca portbagajul de pe plafon până sus.
+# păștile → pastile, râu → rău
+Mama ne dădea pastile de rău de mașină înainte de fiecare drum lung.
+# certăm → certam, distrăm → distram
+Ne certam pe drum pentru fiecare oprire, dar ne distram de minune.
+# degeabă → degeaba
+Nu știam că drumul e închis și am mers zece kilometri degeaba.
+# viteza → viteză
+Mergeam cu viteză redusă pentru că ploua și se vedea foarte prost.
+# amănase → amânase
+Credeam că am pierdut avionul, dar se amânase îmbarcarea.
+# luăm → luam
+Locuiam la periferie și luam două autobuze până la liceu.
+# Bateam → Băteam
+Băteam la geamul taxiului ca să-l trezesc pe șofer, dormea liniștit.
+# câștigă → câștiga, vară → vara
+Fratele meu repara biciclete în garaj și câștiga bani frumoși vara.
+# frica → frică, bandă → banda
+Mi-era frică să trec pe lângă camioane, așa că rămâneam pe banda întâi.
+# coada → coadă
+Am stat cu orele la coadă la benzinărie pe vremea crizei.
+# spală → spăla, mașină → mașina
+În fiecare duminică, bunicul spăla mașina în fața blocului cu furtunul.
+# mașină → mașina, clatină → clătina
+Pe drumul acela forestier, mașina se clătina ca o barcă.
+# încăpă → încapă
+Am pus pe mine trei pulovere ca să încapă restul în bagajul de mână.
+# turbulente → turbulențe
+Pilotul ne-a anunțat că urmează o zonă de turbulențe și să ne punem centurile.
+# bunică → bunica
+Am cerut un scaun cu rotile pentru bunica la aeroport și ne-au ajutat imediat.
+# seară → seara
+Nu se mai poate ajunge la aeroport cu trenul de la ora unsprezece seara.
+# geanță → geantă
+Am cumpărat o cască pentru bicicletă care se pliază și încape în geantă.
+# pistă → pista
+Ce lungime are pista de biciclete din jurul lacului?
+# mașină → mașina
+Cu bicicleta ajung în centru în cincisprezece minute, cu mașina în patruzeci.
+# trotinetă → trotineta
+Cine a lăsat trotineta în fața porții noastre?
+# Va → Vă
+Vă rog să nu mai parcați în fața garajului meu, nu pot să ies.
+# carat → cărat, săcosele → sacoșele
+Am găsit un loc de parcare la două străzi distanță și am cărat sacoșele pe jos.
+# reședința → reședință
+Ne-au ridicat mașina pentru că era pe un loc de reședință fără abonament.
+# mașină → mașina
+Mi-a luat o oră să găsesc parcul auto unde ne duseseră mașina.
+# amendă → amenda
+Am plătit amenda și taxa de ridicare, aproape cinci sute de lei.
+# scârțaie → scârțâie
+Mecanicul mi-a zis că e normal să scârțâie frânele dimineața, din cauza umezelii.
+# ralanți → ralanti
+Mașina nu mai ține ralanti și se oprește la semafor.
+# esapament → eșapament, râu → rău
+Când pornesc dimineața, iese fum albăstrui din eșapament, e de rău?
+# plecăm → plecam
+Mi s-a defectat pompa de benzină chiar în ziua în care plecam în concediu.
+# mașină → mașina
+Ce zici, merită să repar mașina asta sau mai bine o vând la remat?
+# Cat → Cât, manoperă → manopera
+Cât e manopera pentru schimbarea ambreiajului la un Logan?
+# ține → tine
+Ce acte trebuie să ai la tine când mergi la ITP?
+# asistentă → asistență
+Când a venit omul de la asistență, a pornit mașina într-un minut.
+# frână → frâna, mașină → mașina, pantă → panta
+Am uitat să trag frâna de mână și mașina a coborât singură panta.
+# oglindă → oglinda
+Domnule, mi-ați lovit oglinda și ați plecat fără să opriți.
+# trusă → trusa
+Am fost oprit pentru un control de rutină și mi-au verificat tot, chiar și trusa medicală.
+# Tanți → Tanti
+Tanti din microbuz povestea tot drumul despre nora ei.
+# căruță → căruța
+Am mers la târg cu căruța, pentru că autobuzul nu mai circula.
+# ca → că
+Primăria a promis că asfaltează drumul până la iarnă, dar nu cred.
+# autogară → autogara
+Am cumpărat bilete la autocar pentru Germania, pleacă de la autogara din Pitești.
+# granița → graniță
+Ne-au oprit la graniță și ne-au verificat bagajele pe rând.
+# Soferii → Șoferii
+Șoferii de autocar se schimbau la fiecare patru ore.
+# mașină → mașina
+Am ajuns la Istanbul cu mașina după două zile de drum.
+# Plecam → Plecăm, mașină → mașina
+Plecăm spre Londra cu mașina prin Germania și Franța, apoi luăm trenul prin tunel.
+# vinietă → vinieta
+Am uitat să cumpărăm vinieta în Austria și am primit amendă de o sută douăzeci de euro.
+# Cat → Cât, costa → costă, vinietă → vinieta
+Cât costă vinieta în Bulgaria pentru o săptămână?
+# taxa → taxă
+Pe autostrăzile din Italia plătești taxă la fiecare ieșire.
+# mașină → mașina
+Ne-am întors acasă cu mașina plină de nisip și de scoici.
+# Buna → Bună, mașină → mașina
+Bună, am văzut anunțul cu mașina, mai e de vânzare?
+# dimineața → dimineață
+Mai e valabil anunțul pentru Golf? Aș putea veni s-o văd sâmbătă dimineață.
+# plată → plata
+Nu accept schimburi, doar vânzare directă, cu plata pe loc.
+# plecam → plecăm
+Am ales o mașină cu portbagaj mare, pentru că plecăm des cu cortul.
+# Cat → Cât, costa → costă
+Cât costă o mașină nouă de clasă mică acum, cu tot cu taxele?
+# mașină → mașina
+Am luat mașina prin programul Rabla și am primit o reducere bună.
+# Coadă → Coada, Rablă → Rabla
+Coada la programul Rabla s-a terminat în prima zi, n-am mai prins.
+# Buna → Bună
+Bună seara, aș vrea să rezerv un taxi pentru mâine la ora cinci dimineața.
+# apărat → aparat
+Am chemat un taxi la spital și a venit o mașină fără aparat de taxat.
+# frână → frâna, mâna → mână
+Șoferul a stat la semafoare cu frâna de mână trasă și cu telefonul în mână.
+# va → vă, costa → costă
+Spuneți-mi, vă rog, cât costă până la Otopeni, ca să știu de acasă.
+# muzică → muzica, cântă → cânta
+Șoferul ținea muzica foarte tare și cânta împreună cu radioul.
+# stăi → stai, scari → scări
+De Crăciun, trenurile spre Moldova sunt atât de pline încât stai și pe scări.
+# scaunel → scăunel
+Am luat un bilet în picioare și am stat toată noaptea pe un scăunel pliant.
+# circula → circulă, viteza → viteză
+Ne-au anunțat la difuzor că trenul circulă cu viteză redusă din cauza căldurii.
+# Sinele → Șinele
+Șinele s-au dilatat din cauza caniculei și trenurile mergeau încet.
+# perdelute → perdeluțe
+Mi-e dor de trenurile vechi cu compartimente și perdeluțe la geam.
+# tricotă → tricota
+Am stat lângă o doamnă care tricota și îmi povestea despre nepoți.
+# gara → gară
+De la gară până la casa bunicilor mergeam pe jos trei kilometri.
+# alergă → alerga
+Șoferul de autobuz a oprit pentru o bătrână care alerga spre stație.
+# reîncărcă → reîncarcă
+Am cumpărat un card de călătorie, dar nu știu cum se reîncarcă.
+# gara → gară
+Ce linie de autobuz merge de la gară până la spitalul județean?
+# cântă → cânta
+În tramvai, un tânăr cânta la chitară și oamenii îi dădeau bani.
+# Stateam → Stăteam
+Stăteam în picioare în metrou și citeam peste umărul cuiva.
+# scară → scara, rulanță → rulantă
+Am urcat pe scara rulantă cu o valiză grea și s-a oprit brusc.
+# sa → să
+Mi-ar plăcea să avem și noi un metrou ca în Budapesta.
+# coada → coadă
+Navetiștii stau la coadă la ghișeu în fiecare început de lună pentru abonament.
+# bandă → banda
+Toți se înghesuie pe banda din stânga și apoi se miră că nu se circulă.
+# bandă → banda
+Cineva a parcat pe banda întâi și a blocat jumătate de bulevard.
+# coada → coadă
+Am stat la coadă la ieșirea din parcarea stadionului două ore după meci.
+# laturalnice → lăturalnice
+Am luat-o pe străzi lăturalnice, dar toată lumea avea aceeași idee.
+# sâmbătă → sâmbăta, dimineața → dimineață
+Traficul se mișcă mai bine sâmbăta dimineață, dacă ai treabă prin oraș.
+# mașină → mașina, tusească → tușească
+Am alimentat la o benzinărie fără nume și mașina a început să tușească.
+# Cat → Cât, costa → costă
+Cât te costă un drum dus-întors până la Constanța în benzină?
+# mașină → mașina
+Pentru drumuri lungi, mi se pare mai ieftin cu trenul decât cu mașina.
+# tată → tata
+Am învățat să conduc cu tata, într-o parcare goală, duminica dimineața.
+# țipă → țipa, întrună → întruna
+La școala de șoferi am avut un instructor care țipa la mine întruna.
+# frica → frică, sa → să
+Încă mi-e frică să conduc noaptea, nu văd bine marcajele.
+# Cat → Cât
+Cât timp e valabil certificatul de la școala de șoferi?
+# roată → roata
+Am încercat să parchez lângă bordură și am urcat cu roata pe trotuar.
+# tociță → tocită
+Mecanicul mi-a arătat piesa veche, complet tocită.
+# ca → că, asta → ăsta
+Sunt sigur că service-ul ăsta m-a înșelat, n-o să mai merg acolo.
+# turbina → turbină
+Am auzit un fluierat când accelerez, ar putea fi de la turbină?
+# mașină → mașina
+Mi s-a descărcat bateria de la telecomandă și nu mai pot deschide mașina.
+# că → ca
+Pe zăpadă, mașina mea cu tracțiune integrală merge ca pe asfalt.
+# că → ca
+Drumul spre Rânca era acoperit de gheață, am mers ca melcul.
+# mașină → mașina, zăpadă → zăpada
+Am derapat într-o curbă și am ajuns cu mașina în zăpada de pe margine.
+# uită → uita
+Nu uita să verifici presiunea în pneuri, iarna scade mai repede.
+# ca → că
+Mi-a zis vulcanizatorul că anvelopele mele de iarnă mai țin un sezon.
+# căsuță → căsuța, corectă → corecta
+Am uitat să bifez căsuța cu manevra pe formular, se mai poate corecta?
+# ca → că
+Bună ziua, am primit un mesaj că dauna mea a fost aprobată, când primesc banii?
+# fața → față
+Mi-a explodat airbagul în față și am rămas cu o arsură pe mână.
+# mașina → mașină, mamă → mama
+Am ieșit din mașină tremurând și am sunat-o pe mama.
+# Teius → Teiuș
+Am ajuns cu bine la Cluj, dar trenul a mers ca melcul după Teiuș.
+# asta → ăsta
+nu mai vine autobuzul ăsta, mă duc pe jos până la metrou
+# Ti-am → Ți-am, poză → poza
+Ți-am trimis poza cu biletul, poți să verifici dacă e pentru ziua bună?
+# mașină → mașina
+Hai să lăsăm mașina acasă și să mergem cu taxiul, ca să putem bea ceva.
+# Ti-e → Ți-e
+Ți-e somn? Oprim la prima parcare și dormi zece minute.
+# plecam → plecăm
+Nu-ți face griji, am verificat uleiul și presiunea în roți înainte să plecăm.
+# rontait → ronțăit
+Ai luat apă și ceva de ronțăit pentru drum?
+# mașina → mașină, șerpentine → serpentine
+Fiul meu a vomitat în mașină după o oră de serpentine.
+# grățar → grătar
+Ne-am oprit la un popas pe Valea Oltului să facem grătar.
+# treaptă → treapta
+În curbele strânse, a trebuit să trec în treapta a doua.
+# sa → să
+Cine a avut ideea să plecăm la munte în prima zi de ninsoare?
+# mașină → mașina
+Când ajungeam la bunici, primul lucru era să spălăm mașina de praf.
+# bicicletă → bicicleta
+Bunicul nu avea permis și mergea doar cu bicicleta, chiar și la optzeci de ani.
+# bicicletă → bicicleta
+Mă duceam la școală cu bicicleta, chiar și când ningea.
+# mașină → mașina, ascultăm → ascultam
+Ne plimbam cu mașina pe faleză în serile de vară și ascultam muzică.
+# mașină → mașina, intrăm → intram
+Era atât de mică mașina încât intram cu greu cu picioarele lungi.
+# mașina → mașină
+Ne-am dus la mare cu cortul și am dormit lângă mașină.
+# nunta → nuntă
+Taxiul care ne-a dus la nuntă era decorat cu panglici albe.
+# biserica → biserică, intră → intra, mireasă → mireasa
+Am ajuns la biserică chiar când intra mireasa, ce emoții.
+# bunică → bunica
+Am comandat un taxi pentru bunica și i-am trimis numărul mașinii pe telefon.
+# ca → că, învăță → învață
+Fratele meu mi-a promis că mă învață să conduc în vacanța de vară.
+# sa → să
+Nu știu cum să țin ambreiajul fără ca mașina să sară în față.
+# va → vă
+Nu vă grăbiți să conduceți singuri imediat după examen, mai luați câteva ore.
+# amenda → amendă, fetiță → fetița
+Am primit amendă pentru că fetița nu era în scaunul special.
+# bicicletă → bicicleta
+Mi-a ieșit un copil cu bicicleta de după o mașină parcată, am frânat la timp.
+# asta → ăsta
+Pe trecerea de pietoni de lângă noi s-au produs trei accidente anul ăsta.
+# limițătoare → limitatoare
+Primăria a pus limitatoare de viteză pe strada școlii, abia acum.
+# dauna → daună
+Mașina a fost declarată daună totală și nu știu ce să mai fac.
+# polita → polița, grindină → grindina
+Bună ziua, vreau să știu dacă polița mea acoperă și grindina.
+# mașină → mașina, gropite → gropițe
+Grindina mi-a lăsat mașina plină de gropițe, ca o minge de golf.
+# roată → roata
+Primăria răspunde pentru gropile din asfalt dacă îți distrug roata?
+# groapă → groapa, jantă → janta
+Am făcut o plângere la primărie pentru groapa care mi-a spart janta.
+# până → pană, anvelopa → anvelopă
+Am pus spray de pană în anvelopă și am ajuns până la vulcanizare.
+# bandă → banda
+Când ți se dezumflă o roată pe autostradă, oprește doar pe banda de urgență.
+# bandă → banda
+Am văzut o familie cu copii mici stând pe banda de urgență în plin soare.
+# până → pană
+Am dat o sticlă de apă unor oameni rămași în pană pe autostradă.
+# bandă → banda
+Ai voie să mergi pe banda de urgență doar dacă ai o urgență reală.
+# ca → că
+Mi-a zis prietenul meu mecanic că bateria mai ține maxim o lună.
+# iarna → iarnă
+Pentru iarnă mi-am luat o perie și un răzuitor pentru geamuri.
+# zăpadă → zăpada
+Am scos zăpada de pe mașină cu o mătură, nu aveam altceva.
+# circula → circulă
+Nu se mai circulă spre Brașov, s-a închis drumul pe Valea Prahovei.
+# înaintăm → înaintam
+Ne-am întors din drum pentru că nu mai înaintam deloc pe zăpadă.
+# panta → pantă
+Cei care au plecat fără cauciucuri de iarnă au rămas blocați pe pantă.
+# rugăm → rugam
+Mergeam spre casă pe zăpadă și mă rugam să nu mă oprească nimeni.
+# dimineața → dimineață
+Mă întorc din vacanță cu trenul de noapte, ajung dimineață la șase.
+# costa → costă
+Biletul de vagon de dormit costă aproape cât biletul de avion.
+# vizită → vizita, țară → țara
+În vagonul de dormit am cunoscut o doamnă din Elveția care vizita țara.
+# încărci → încarci
+În unele trenuri noi poți să-ți încarci telefonul și ai internet.
+# seară → seara
+Mai merge cineva cu trenul de Mangalia de vineri seara?
+# locomotiva → locomotivă
+Tatăl meu a lucrat ca mecanic de locomotivă treizeci de ani.
+# gara → gară
+La gară nu era niciun panou cu sosirile, doar un difuzor stricat.
+# frica → frică, sa → să
+Mi-a fost frică să cobor din tren în stația aceea pustie, pe întuneric.
+# zăcusca → zacuscă
+Mi-au deschis valiza la control și au găsit borcanul cu zacuscă.
+# dulceată → dulceața
+Am încercat să iau dulceața de casă în bagajul de mână, dar mi-au confiscat-o.
+# zăcușcă → zacusca, valiza → valiză, întreaga → întreagă
+Am pus zacusca în valiză bine înfășurată și a ajuns întreagă la Londra.
+# Buna → Bună, va → vă
+Bună ziua, vă sun în legătură cu mașina pe care am lăsat-o ieri la reparat.
+# Va → Vă
+Vă rog să-mi trimiteți o ofertă pentru revizia completă, cu piese și manoperă.
+# Vreti → Vreți, va → vă, suficienta → suficientă
+Vreți să vă las și cheia de rezervă sau e suficientă una?
+# programă → programa, săptămână → săptămâna
+Mă puteți programa la geometrie săptămâna viitoare, marți sau miercuri?
+# ca → că, că → ca
+Puteți să verificați și frânele, că am impresia că nu mai frânează ca înainte?
+# limitătoare → limitatoare
+Am auzit un zgomot metalic când am trecut peste o limitatoare de viteză.
+# sa → să, său → sau
+Aș vrea să știu dacă mai merită să repar motorul sau să-l înlocuiesc.
+# Cat → Cât, costă → costa
+Cât m-ar costa o vopsitorie completă pentru o mașină de mărime medie?
+# esapamentul → eșapamentul
+Mi-a ruginit eșapamentul și se aude ca un tractor când accelerez.
+# mașină → mașina
+Am schimbat tobele de eșapament și mașina a redevenit liniștită.
+# oră → ora
+Mi-ați spus că e gata la prânz, dar e ora cinci și încă n-ați terminat.
+# montă → monta
+Am găsit o piesă la jumătate de preț pe internet, mi-o puteți monta?
+# lasă → lăsa, repară → repara
+Bunicul nu lăsa pe nimeni să se atingă de mașina lui, o repara doar el.
+# așteptăm → așteptam
+Pe atunci piesele se găseau greu, așteptam săptămâni întregi după un filtru.
+# descurcăm → descurcam
+Ne descurcam cu sârmă și bandă adezivă până ajungeam la un service.
+# iarnă → iarna, purtăm → purtam
+Mergeam la serviciu cu o mașină care nu avea încălzire și iarna purtam mănuși la volan.
+# bașmaua → basmaua
+Mama își punea basmaua și ochelarii de soare când mergeam cu geamurile deschise.
+# tată → tata
+Ne opream la fiecare benzinărie ca să-mi cumpere tata o ciocolată.
+# lăsă → lăsa
+Când eram mic, mă lăsa tata să țin volanul pe drumul de țară.
+# Stateam → Stăteam
+Stăteam pe genunchii bunicului și credeam că eu conduc tractorul.
+# dimineața → dimineață
+Așteptam autobuzul școlar în fiecare dimineață la marginea satului.
+# clasa → clasă
+Eram singurul din clasă care venea la școală cu tramvaiul.
+# placea → plăcea, sa → să
+Ne plăcea să stăm în ultimul rând al autobuzului și să ne uităm înapoi.
+# bicicleta → bicicletă
+Am pus aripi la bicicletă ca să nu mă mai stropesc pe spate.
+# bicicletă → bicicleta
+Mi-am făcut un traseu cu bicicleta prin parcuri, ca să evit bulevardele.
+# bicicletă → bicicleta
+Am mers cu bicicleta în Delta, pe digurile dintre canale.
+# bicicleta → bicicletă, lună → luna
+Am fost la serviciu pe bicicletă toată luna și am slăbit trei kilograme.
+# fața → față
+Mi-a ieșit o ușă deschisă în față și m-am lovit cu ghidonul de ea.
+# ca → că
+Am primit un mesaj de la aplicația de trotinete că am lăsat-o într-o zonă interzisă.
+# trotinetă → trotineta
+Am fost taxată suplimentar pentru că am parcat trotineta pe trotuar.
+# trotinetă → trotineta
+Am ajuns la birou cu trotineta în zece minute, fără să transpir.
+# trotinetă → trotineta, aluneca → alunecă
+Pe ploaie trotineta alunecă îngrozitor pe marcajele de pe stradă.
+# ca → că
+Ne-am mutat în Cluj și am descoperit că transportul în comun e mult mai bun.
+# bancă → banca, gara → gară, ca → că
+Am dormit pe banca din gară pentru că primul tren pleca la patru.
+# gara → gară
+În sala de așteptare din gară era cald, dar nu era nicăieri un loc liber.
+# circula → circulă
+Nu mai circulă trenuri directe spre satul nostru, trebuie să schimbi de două ori.
+# Ma → Mă
+Mă bucur de fiecare dată când trenul ajunge la timp, ceea ce e rar.
+# seară → seara
+Ultimul tren spre București pleca la nouă seara și era mereu plin.
+# varianta → variantă
+Ne-am uitat la mersul trenurilor și singura variantă era cu schimbare la Videle.
+# haină → haina
+Mi-a rămas haina prinsă în ușa tramvaiului și am mers așa o stație.
+# sine → șine
+Șoferul de tramvai a oprit și a coborât să scoată o mașină de pe șine.
+# coada → coadă
+Am stat la coadă la chioșcul de bilete, dar s-a închis fix în fața mea.
+# benzină → benzina
+Ne-a costat mutarea mai mult benzina decât toate cutiile cumpărate.
+# nouă → noua, mașină → mașina
+Mergeam spre noua casă cu mașina încărcată până în tavan.
+# lăudă → laudă
+Mi-am cumpărat o mașină mică de oraș și mi-o laudă toată lumea.
+# mașina → mașină
+Ce mașină îmi recomanzi pentru un șofer începător, cu buget mic?
+# as → aș, rațe → rate
+Eu aș lua o mașină mai veche, dar bine întreținută, decât una nouă în rate.
+# transe → tranșe
+Am un cumpărător pentru mașină, dar vrea să plătească în două tranșe.
+# mașină → mașina
+Ce trebuie să fac după ce vând mașina, s-o scot din evidență?
+# mașina → mașină
+Am plătit impozitul pe mașină la primărie și am primit reducere pentru plata anticipată.
+# Cat → Cât
+Cât e impozitul pe o mașină cu motor de doi litri?
+# ca → că
+Am observat că mă enervez la volan mult mai repede decât în rest.
+# frica → frică, sa → să
+Tu conduci prea agresiv, mi-e frică să mai merg cu tine.
+# țara → țară
+Ai voie să conduci în România cu permis din altă țară?
+# ca → că, purtăm → purtam, centură → centura
+M-a oprit un echipaj și m-a felicitat că purtam toți centura.
+# dauna → daună
+Bună ziua, am fost implicat într-un accident ușor și vreau să deschid un dosar de daună.
+# mașină → mașina
+Am trimis pozele cu mașina, dar mi-au cerut altele cu numărul de înmatriculare vizibil.
+# dauna → daună
+Cât durează în medie să primesc banii pe un dosar de daună RCA?
+# distanță → distanța
+Ne-am ales cu mașina reparată și cu o lecție despre distanța de siguranță.
+# ca → că
+Noroc că am cameră de bord, altfel nu aveam cum să dovedesc nimic.
+# mașină → mașina
+Nu credeam că o să-mi ia o săptămână să primesc mașina înapoi.
+# neîmbărcat → neîmbarcat
+Au strigat numele meu la difuzor pentru că eram ultimul pasager neîmbarcat.
+# mâna → mână
+Am fugit cu pantofii în mână de la controlul de securitate până la poartă.
+# poartă → poarta
+Ne-au mutat poarta de îmbarcare de trei ori, de la un capăt la altul.
+# casă → casa
+Când am zburat prima dată cu fiica mea, am luat cu noi toată casa.
+# ora → oră
+Poți să-mi spui la ce oră ajungi, să știu când să plec spre aeroport?
+# întreaga → întreagă
+Am ajuns acasă după un zbor de douăsprezece ore și am dormit o zi întreagă.
+# rugina → rugină, portiera → portieră, gaura → gaură
+Am rugină pe portieră de doi ani și acum a făcut gaură.
+# Vad → Văd
+Salut, ești șoferul de Bolt? Văd o mașină albastră parcată pe a doua bandă.
+# va → vă, geanța → geanta
+Stați puțin, vă rog, să-mi iau și geanta din spate.
+# centură → centura
+Șoferul n-a vrut să pornească până nu mi-am pus centura, foarte corect.
+# bombanit → bombănit
+Era o cursă scurtă și șoferul a bombănit tot drumul.
+# sa → să
+Ne-a dus șoferul pe drumul cel mai frumos, pe lângă lac, fără să ne coste în plus.
+# coada → coadă
+Am stat în taxi la coadă la intrarea în aeroport și aparatul curgea.
+# dată → data
+Nu mai iau Bolt noaptea singură, mi s-a părut ciudat un șofer data trecută.
+# cursă → cursa
+Am trimis cursa către mama ca să vadă unde sunt pe hartă.
+# sacosa → sacoșă
+Un domn ne-a oferit pepene din sacoșă, în compartiment.
+# prietenă → prietena
+Bunica mea a cunoscut-o pe prietena ei cea mai bună în tren, acum cincizeci de ani.
+# așezăm → așezam
+Ne așezam mereu în același vagon și ne știa controlorul pe toți.
+# luăm → luam, ștampilă → ștampila, dată → data
+Pe vremea aceea luam bilet de la un ghișeu mic și se ștampila cu data.
+# paletă → paleta
+Șeful de gară ieșea cu paleta roșie de fiecare dată când trecea trenul.
+# ridică → ridica, locomotivă → locomotiva
+Bunicul ne ridica pe umeri să vedem locomotiva cum intră în gară.
+# inimă → inima
+Acum gara e închisă și clădirea e părăsită, mi se strânge inima când trec pe acolo.
+# grija → grijă
+Ai grijă, la calea ferată de lângă noi trenurile vin foarte repede.
+# uiță-te → uită-te
+Nu se aude trenul până nu e aproape, uită-te de două ori.
+# sa → să
+Am scris la primărie să introducă o linie de autobuz în cartier.
+# tură → tura
+Dacă termin tura la unsprezece, vin acasă doar cu taxiul.
+# navetă → naveta
+Firma noastră ne decontează naveta, dar doar cu transport în comun.
+# grădinița → grădiniță
+Fiecare minut contează dimineața când ai copil la grădiniță și trebuie să ajungi la birou.
+# școala → școală
+Ies din casă la șapte și jumătate, las copilul la școală și prind metroul de opt.
+# ca → că
+Am auzit la radio că e accident pe Calea Floreasca și am ocolit.
+# marfă → marfa
+Un camion a pierdut marfa pe autostradă și s-a închis o bandă.
+# asta → ăsta
+Pe bulevardul ăsta nu poți ține viteza constant, semafoarele nu sunt sincronizate.
+# Parca → Parcă
+Parcă cu fiecare an traficul e tot mai rău în oraș.
+# coada → coadă, benzină → benzina
+Am stat la coadă la benzinărie pentru că se zvonise că se scumpește benzina.
+# benzină → benzina, altcuivă → altcuiva
+La benzinărie mi-au dat bonul greșit și am plătit benzina altcuiva.
+# ca → că, benzină → benzina
+Cum se face că benzina e mai scumpă la noi decât în Ungaria?
+# încărcă → încarcă
+Mașina electrică se încarcă peste noapte în garaj și nu mai merg la benzinărie.
+# manuală → manuala
+Am învățat să conduc într-o mașină automată și acum nu mă descurc cu manuala.
+# rampa → rampă
+Am pornit din rampă perfect, dar mi s-a oprit motorul la semafor.
+# frica → frică, sa → să
+Mi-a fost frică să mai conduc o lună după accident.
+# mașina → mașină
+Ce mașină să-mi iau pentru naveta zilnică de șaizeci de kilometri?
+# iarnă → iarna
+Mașina mea consumă mult mai mult iarna, mai ales pe drumuri scurte.
+# franez → frânez
+Am observat că mașina trage spre dreapta când frânez.
+# mașină → mașina
+Ce înseamnă când mașina tresare la trecerea dintr-o treaptă în alta?
+# capota → capotă
+Când accelerez brusc, se aude un sunet ca un fluierat de sub capotă.
+# roată → roata
+Mi s-a rupt arcul de la roata din spate și mașina stă strâmb.
+# că → ca
+Am o lumină galbenă pe bord care arată ca un semn de exclamare.
+# uzura → uzură
+Mi-au spus că defectul nu intră în garanție, pentru că e uzură normală.
+# gheață → gheața
+Am pus capac de protecție pe parbriz ca să nu mai dau gheața dimineața.
+# mașina → mașină
+Am uitat geamul deschis și a nins în mașină toată noaptea.
+# va → vă
+Sunt pe marginea drumului cu doi copii, vă rog să trimiteți repede pe cineva.
+# listă → lista
+Mi-au trimis lista de service-uri agreate, dar toate sunt departe de mine.
+# dăuna → daună
+Am primit banii pentru daună, dar nu ajung nici pentru jumătate din reparație.
+# bicicletă → bicicleta
+Am mers cu bicicleta până la gară, am lăsat-o acolo și am luat trenul.
+# gara → gară, bicicletă → bicicleta
+La gară nu există un loc sigur unde să-ți lași bicicleta peste zi.
+# urcă → urca
+În tren se pot urca biciclete doar în anumite vagoane.
+# bicicletă → bicicleta
+Am făcut o tură cu bicicleta pe malul Dunării, de la Orșova la Drobeta.
+# bicicletă → bicicleta
+Pe drumurile de țară bicicleta e cel mai bun mijloc de transport.
+# bicicletă → bicicleta
+Bunica mea merge și acum la piață cu bicicleta, la șaptezeci și cinci de ani.
+# coada → coadă
+Am stat la coadă la ghișeul companiei aeriene până la miezul nopții.
+# sandvis → sandviș
+Ne-au dat bonuri de masă de zece euro, cu care nu-ți iei nici un sandviș.
+# mașina → mașină
+Caut pe cineva care merge vineri spre Cluj și are un loc liber în mașină.
+# benzină → benzina
+Ne-am împărțit benzina în patru și ne-a costat mai puțin decât trenul.
+# mașina → mașină, plecam → plecăm
+Am găsit un loc în mașină până la Iași, plecăm la șase dimineața din Pipera.
+# Va → Vă
+Vă rog să fiți punctuali, la șapte fix plecăm, nu așteptăm pe nimeni.
+# granița → graniță
+Am trecut pe lângă o coloană de tiruri lungă de câțiva kilometri la graniță.
+# noptile → nopțile
+Mi-am luat motocicletă și acum mama nu mai doarme nopțile.
+# ca → că
+Mi-a zis instructorul de moto că primul lucru e să înveți să cazi.
+# circula → circulă, iarnă → iarna
+Pe scuter se circulă foarte ușor în oraș, dar iarna e un chin.
+# că → ca, gheață → gheața
+Pe ploaie, marcajele rutiere sunt ca gheața pentru motocicliști.
+# gara → gară
+În parcarea de la gară trebuie să iei bilet la intrare și să plătești la automat.
+# barieră → bariera
+Nu știu cum să ies din parcare, bariera nu se ridică deși am plătit.
+# bariera → barieră
+Am apăsat butonul de la barieră și mi-a răspuns cineva după zece minute.
+# sa → să
+Mi-a luat o oră să găsesc locul de parcare pe care îl rezervasem online.
+# mașină → mașina
+Au venit să ridice mașina din fața porții abia după trei ore.
+# găinat → găinaț
+Am parcat în spatele blocului și dimineața am găsit mașina plină de găinaț.
+# ma → mă
+Am făcut poze la mașina care mă blocase și le-am pus pe grupul blocului.
+# mașină → mașina, Va → Vă
+Cine are mașina roșie din fața scării? Vă rog să o mutați, vine salvarea.
+# Cat → Cât, costa → costă, aripă → aripa
+Cât costă să repar o zgârietură mică pe aripa din față?
+# retus → retuș
+Am rezolvat o zgârietură cu un creion de retuș cumpărat de la magazin.
+# mașină → mașina
+Mi-am lăsat cheia de rezervă la un vecin, ca să mute mașina dacă e nevoie.
+# mașină → mașina
+Am pornit mașina după concediu și scotea un zgomot de parcă se dezintegra.
+# ieș → ies
+Copiii au lipit autocolante pe geamurile din spate și nu mai ies.
+# roș → ros
+Câinele a ros centura de siguranță din spate cât am stat la cumpărături.
+# înghețată → înghețata
+Am uitat înghețata în portbagaj și s-a topit peste toate cumpărăturile.
+# peste → pește
+Ce miros ciudat e în mașină? Cred că a rămas un pește de la pescuit.
+# lasă → lăsa
+Nu-ți lăsa nimic la vedere în mașină, mai ales noaptea.
+# mașina → mașină
+Mi-am uitat cheile în mașină cu motorul pornit și ușile s-au blocat.
+# mașina → mașină, masa → masă
+Ai văzut unde am pus cheile de la mașină? Le-am lăsat pe masă aseară.
+# autostrada → autostradă
+Mergeam pe autostradă când mi s-a deschis brusc capota.
+# bandă → banda, capotă → capota
+Am oprit pe banda de urgență și am legat capota cu o sfoară.
+# costa → costă
+Mi-au spus că reparația costă mai mult decât valoarea mașinii.
+# tată → tata
+Am restaurat o mașină veche cu tata și am mers cu ea la o expoziție.
+# strangeam → strângeam, mașina → mașină, rău → râu
+Ne strângeam toți nepoții în mașină și bunicul ne ducea la râu.
+# rău → râu, troșnea → trosnea
+Pe drumul spre râu era un pod de lemn care trosnea sub roți.
+# mașină → mașina
+Ne speriam de fiecare dată când trecea mașina peste podul acela.
+# căruță → căruța, cadem → cădem
+Mergeam cu căruța la câmp și ne țineam de margini ca să nu cădem.
+# bicicletă → bicicleta
+În sat toată lumea mergea cu bicicleta, chiar și preotul.
+# bicicletă → bicicleta, sună → suna
+Poștașul venea cu bicicleta și suna din clopoțel la fiecare poartă.
+# principala → principală
+Pe șoseaua principală opreau microbuze care mergeau până la gară.
+# școala → școală
+Ne dădeau drumul de la școală mai devreme când viscolea, ca să prindem autobuzul.
+# antenă → antena
+Spălătoria automată mi-a rupt antena de pe plafon.
+# ca → că
+Ne-am uitat la ceas și am văzut că ultimul tren a plecat de zece minute.
+# circula → circulă
+Nu mai circulă nimic spre aeroport la ora asta, decât taxiurile.
+# încăp → încap
+Pe zborurile ieftine, scaunele sunt atât de înghesuite încât nu-ți încap genunchii.
+# plecari → plecări
+Pe panoul de plecări scria „întârziat”, fără nicio oră estimată.
+# escala → escală
+La escală am alergat de la un terminal la altul cu trenulețul aeroportului.
+# valiza → valiză
+Am pus un localizator în valiză și am văzut că a rămas la Frankfurt.
+# valiză → valiza
+Când ne-am întors din vacanță, valiza a ajuns acasă înaintea noastră.
+# frica → frică
+Mi-e frică de avion, așa că iau mereu trenul, chiar dacă durează mai mult.
+# ca → că
+Pilotul ne-a spus la microfon că zburăm deasupra Carpaților.
+# Ti-am → Ți-am, mașină → mașina
+Ți-am comandat mașina, e un Skoda negru, șoferul te sună când ajunge.
+# benzină → benzina
+Mă duci la aeroport sâmbătă la patru dimineața? Îți dau eu benzina.
+# Ti-am → Ți-am, mașină → mașina
+Ți-am lăsat mașina cu rezervorul plin și am spălat-o, ca să știi.
+# săptămână → săptămâna
+Dacă tot ai mașina mea, nu uita să-i schimbi uleiul săptămâna asta.
+# bară → bara
+Am împrumutat mașina fratelui meu și i-am zgâriat bara, nu știu cum să-i spun.
+# tătei → tatei
+I-am instalat tatei navigația pe telefon, dar el tot întreabă oamenii pe stradă.
+# rău → râu, văd → vad
+GPS-ul ne-a dus printr-un râu, pe un vad, unde nu era niciun pod.
+# insistă → insista, sa → să
+Am ajuns pe un drum închis pentru lucrări, iar navigația insista să merg înainte.
+# față → fată
+Am luat o fată la ocazie pe drum și am lăsat-o la Sibiu.
+# Buna → Bună, harta → hartă, apareți → apăreți
+Bună dimineața, sunteți în drum spre mine? Pe hartă apăreți tot la benzinărie.
+# Va → Vă
+Vă rog să mă sunați când ajungeți, interfonul nu funcționează.
+# mașina → mașină
+Sunt cu un bebeluș, aveți cumva scaun pentru copii în mașină?
+# lasa → lăsa, urgente → urgențe
+Ne puteți lăsa la intrarea de la urgențe, nu la cea principală?
+# mașina → mașină
+Am urcat în mașină și șoferul m-a întrebat dacă vreau să pornească aerul condiționat.
+# servetel → șervețel
+Șoferul mi-a oferit încărcător și un șervețel umed, foarte drăguț din partea lui.
+# ca → că
+Am primit un mesaj că șoferul a sosit, dar nu era nicio mașină în fața blocului.
+# fumă → fuma
+Am raportat un șofer care fuma în mașină și mi s-au returnat banii.
+# ploua → plouă
+De ce e mereu tariful mai mare exact când plouă?
+# inimă → inima
+Abia am prins ultimul tren spre casă, am fugit pe peron cu inima în gât.
+# asta → ăsta, tabela → tabelă
+Ești sigur că trenul ăsta merge la Constanța? Pe tabelă scrie Medgidia.
+# există → exista
+Ne-au vândut bilete pentru un tren care nu mai exista în grafic.
+# coada → coadă
+Am stat la coadă la casa de bilete în spatele unui grup de turiști care nu știau ce vor.
+# întreaga → întreagă
+Trenurile spre Maramureș sunt atât de lente încât îmi ia o zi întreagă.
+# cusetă → cușetă, piatră → piatra
+În trenul de noapte spre Satu Mare am dormit pe o cușetă tare ca piatra.
+# frumoasa → frumoasă, gară → gara
+Am ajuns la Timișoara cu trenul și am fost impresionat de cât de frumoasă e gara.
+# așteptă → aștepta
+Bunica ne aștepta pe peron cu o plasă de mere și cu lacrimi în ochi.
+# vacanță → vacanța
+Când ne întorceam la București, plângeam în tren că se terminase vacanța.
+# luăm → luam
+Ne luam rămas-bun pe peron până se urnea trenul.
+# mâna → mână
+Tata ne punea în mână câte o bancnotă, să avem bani de drum.
+# mâncăm → mâncam, mamă → mama
+În tren mâncam sandvișurile pregătite de mama și beam ceai din termos.
+# Va → Vă
+Vă rog să înaintați, mai sunt oameni care vor să urce.
+# sa → să
+Au schimbat traseul autobuzului fără să anunțe și am ajuns în altă parte.
+# circula → circulă, sâmbătă → sâmbăta
+De ce nu circulă metroul până la unu noaptea, măcar vinerea și sâmbăta?
+# dimineața → dimineață
+În fiecare dimineață, vagonul de metrou e plin până la refuz.
+# rulanta → rulantă
+Pe scara rulantă se stă pe dreapta, iar pe stânga se merge.
+# ca → că
+Am auzit la difuzor că metroul circulă cu întârzieri din cauza unei defecțiuni.
+# ora → oră
+Mi-a plăcut să fac naveta cu trenul, era singura oră din zi doar a mea.
+# lună → luna
+Am pierdut trenul de navetă și am întârziat la serviciu a treia oară luna asta.
+# navetă → naveta
+Șefa mea face naveta de la Brașov la București în fiecare zi, nu știu cum rezistă.
+# mașina → mașină, naveta → navetă
+Am calculat că petrec aproape zece ore pe săptămână în mașină doar pentru navetă.
+# fața → față
+Mi-a sărit în față un pieton cu ochii în telefon, am frânat ca un nebun.
+# stradă → strada
+Copilul meu traversează singur strada spre școală și mi-e frică în fiecare zi.
+# Ma → Mă
+Mă enervează motocicliștii care trec pe lângă bloc noaptea cu eșapamentul deschis.
+# dimineața → dimineață
+Ne trezește în fiecare dimineață un autobuz care pornește la cinci în fața blocului.
+# tremura → tremură
+Pe strada noastră camioanele merg cu viteză și tremură geamurile.
+# până → pană
+Am pus anvelope noi și după două săptămâni am făcut pană.
+# anvelopa → anvelopă
+La vulcanizare mi-au găsit un șurub înfipt în anvelopă.
+# până → pana
+Mi-au reparat pana cu un dop și m-au costat doar treizeci de lei.
+# roată → roata, ora → oră
+Am pus roata de rezervă și am mers cu optzeci la oră până acasă.
+# până → pana
+Nu aveam roată de rezervă, ci doar un kit de reparat pana, care n-a mers.
+# vară → vara
+Cauciucurile de iarnă se mai pot folosi și vara, sau se uzează prea repede?
+# debară → debara
+Unde îți ții cauciucurile când nu le folosești? Eu le țin în debara.
+# resăpate → reșapate
+Am cumpărat cauciucuri reșapate și nu mai fac asta niciodată.
+# iarnă → iarna
+Am mers toată iarna cu cauciucuri de vară și am avut noroc că n-a nins mult.
+# zăpadă → zăpada
+Am dat zăpada de pe mașină cu o cartelă bancară, n-aveam răzuitor.
+# curat → curăț
+Am găsit mașina acoperită de gheață și am stat o jumătate de oră s-o curăț.
+# gheață → gheața
+Am pornit motorul și am lăsat încălzirea să topească gheața de pe geamuri.
+# lasă → lăsa, porniță → pornită, nesupravegheață → nesupravegheată
+Nu lăsa mașina pornită nesupravegheată, chiar dacă e frig.
+# până → pană
+Bună ziua, sunt pe autostrada A1, la kilometrul o sută cincizeci, am rămas în pană.
+# mașină → mașina
+Ce trebuie să fac dacă mi se oprește mașina într-un tunel?
+# bandă → banda, canicula → caniculă
+Am stat trei ore pe banda de urgență, cu copiii în mașină, pe caniculă.
+# urma → urmă
+Până la urmă ne-a tractat un localnic cu o funie până la ieșirea din autostradă.
+# întreaga → întreagă
+Am stat la poliție o după-amiază întreagă ca să-mi dea hârtiile pentru asigurare.
+# tată → tata
+Am o bicicletă veche, cu trei viteze, pe care o am de la tata.
+# Saua → Șaua, stă → sta
+Șaua bicicletei e atât de tare încât nu pot sta pe ea mai mult de o oră.
+# bicicletă → bicicleta
+Am mers cu bicicleta la o pensiune la munte și am urcat ultimii kilometri pe jos.
+# lăcatul → lacătul, tăi → tai
+Am pierdut cheia de la lacătul bicicletei și a trebuit să tai lanțul.
+# încărcă → încarcă
+Bateria bicicletei se încarcă în patru ore și ține cam șaizeci de kilometri.
+# arat → arăt
+Mi-au cerut la aeroport să arăt biletul de întoarcere și rezervarea la hotel.
+# dimineața → dimineață
+Data viitoare iau zborul de dimineață, nu mai vreau să ajung noaptea.
+# Doamna → Doamnă, va → vă
+Doamnă, vă rog să-mi dați voie să cobor la stația următoare.
+# Ma → Mă, asta → ăsta
+Mă scuzați, locul ăsta e liber sau așteptați pe cineva?
+# Va → Vă
+Vă deranjează dacă deschid puțin geamul? E foarte cald aici.
+# Stiți → Știți
+Știți cumva dacă trenul oprește și la Breaza sau trece direct?
+# Va → Vă, zonă → zona
+Vă rog să-mi spuneți când ajungem la Sighișoara, nu cunosc deloc zona.
+# asta → ăsta
+Nu mai înțeleg nimic din biletul ăsta, pe ce loc stau de fapt?
+# dimineața → dimineață
+Am dormit într-un hotel lângă gară și am luat primul tren de dimineață.
+# oboseală → oboseala
+Am văzut răsăritul din tren, peste Bărăgan, și a meritat toată oboseala.
+# numără → număra
+Fratele meu număra tunelurile pe drumul spre Petroșani.
+# tinem → ținem
+Ne învățase tata să ne ținem respirația în fiecare tunel.
+# îmbracă → îmbrăca
+Mama ne îmbrăca în haine bune când mergeam cu trenul la oraș.
+# aventura → aventură
+Pe atunci, un drum cu trenul la București era o mare aventură pentru noi.
+# ca → că
+Acum am mers cu un tren modern și mi s-a părut că zbor.
+# asta → ăsta
+Nu-mi vine să cred că trenul a ajuns la minut, e prima dată anul ăsta.
+# cântă → cânta
+În autobuz, o fetiță cânta tot drumul și toți zâmbeau.
+# Va → Vă
+Vă rog să-mi spuneți la ce stație trebuie să cobor pentru spitalul de copii.
+# frecvență → frecvența
+Am cerut în scris primăriei să mărească frecvența autobuzelor.
+# tremura → tremură
+Când trece tramvaiul pe strada noastră, tremură paharele din vitrină.
+# sine → șine
+Tramvaiul a fost oprit de o mașină parcată pe șine și toată lumea a coborât.
+# gara → gară
+Am încercat să ajung la gară cu tramvaiul, dar linia era închisă pentru lucrări.
+# seară → seara
+Când am lucrat la Ploiești, plecam la șase și mă întorceam la șapte seara.
+# dimineața → dimineață
+Am prins traficul de dimineață și am stat zece minute la fiecare semafor.
+# harta → hartă
+Ne-am uitat pe hartă și tot orașul era colorat cu roșu.
+# seară → seara
+Toți pleacă la mare vineri după-amiază și se întorc duminică seara.
+# plecam → plecăm
+Ne-am învățat minte și acum plecăm marți și ne întoarcem joi.
+# casa → casă
+Pe drum spre casă ne-am oprit la un lan de floarea-soarelui să facem poze.
+# verifică → verifica
+Pe drumul spre Maramureș am dat de un baraj al poliției care verifica toate mașinile.
+# limita → limită
+M-a oprit poliția pentru viteză, dar mergeam doar cu cinci kilometri peste limită.
+# trusă → trusa
+Am primit o amendă pentru că nu aveam trusa medicală în mașină.
+# Cat → Cât
+Cât e amenda dacă nu ai rovinieta valabilă?
+# rovinietă → rovinieta, amenda → amendă
+Am uitat să-mi reînnoiesc rovinieta și mi-a venit amendă acasă după două luni.
+# rovinietă → rovinieta
+Am cumpărat rovinieta de pe telefon în timp ce mergeam spre autostradă.
+# mașină → mașina
+Vreau să vând mașina pentru că nu mai am timp să o folosesc.
+# arată → arăta
+Vânzătorul a jurat că mașina n-a fost lovită, dar raportul arăta altceva.
+# întreaga → întreagă, degeabă → degeaba
+Am pierdut o zi întreagă pe drum degeaba, mașina era un dezastru.
+# lasa → lasă
+Nu cumpăr mașină de la cineva care nu mă lasă să o duc la verificare.
+# căutari → căutări
+Am găsit în sfârșit mașina potrivită, după trei luni de căutări.
+# mașină → mașina
+Când am ajuns acasă cu mașina nouă, toți vecinii au ieșit să o vadă.
+# mașină → mașina
+Am dat cu mașina nouă de un stâlp în prima săptămână, ce rușine.
+# reprezentantă → reprezentanță
+Am primit mașina nouă de la reprezentanță și miroase a nou.
+# ușa → ușă
+Mi-au livrat mașina cu o zgârietură pe ușă și nu vor să recunoască.
+# mașină → mașina
+Garanția la mașina nouă e de cinci ani, dar trebuie să faci reviziile la ei.
+# mașină → mașina
+Am rugat să nu-mi spele mașina, dar au spălat-o oricum și mi-au zgâriat capota.
+# piesa → piesă
+Mecanicul mi-a arătat exact ce piesă s-a stricat și de ce.
+# încărcă → încarcă
+Ce bine e să găsești un mecanic cinstit, care nu te încarcă cu reparații inutile.
+# ca → că
+Mi-a zis mecanicul să mai aștept cu schimbul de plăcuțe, că mai țin o lună.
+# ca → că, scarțaie → scârțâie
+Mi s-a părut ciudat că frânele scârțâie doar dimineața, când e umed.
+# porniță → pornită
+Mi se aburesc geamurile în fiecare dimineață, chiar și cu ventilația pornită.
+# mașina → mașină
+Mirosul de mucegai din mașină a dispărut după ce am schimbat filtrul.
+# portieră → portiera
+Am o problemă cu închiderea centralizată, uneori nu se deschide portiera șoferului.
+# ușa → ușă
+Telecomanda mașinii funcționează doar dacă stau lângă ușă.
+# între → intre, apă → apa
+Am lipit o folie pe geamul stricat ca să nu intre apa peste noapte.
+# mașină → mașina
+Nu știu ce s-a întâmplat, dar mașina a început să consume ulei ca o nebună.
+# uită → uita
+Mi-a ieșit fum din motor la semafor și toată lumea se uita la mine.
+# banda → bandă
+Am legat furtunul cu bandă izolatoare și am ajuns încet la service.
+# repară → repara
+Acum mașinile sunt pline de electronice și nu mai poți repara nimic singur.
+# strică → strica, mașină → mașina, așteptă → aștepta
+Când se strica mașina pe drum, toată familia cobora și aștepta pe iarbă.
+# capotă → capota, uită → uita
+Tata deschidea capota și se uita în motor de parcă ar fi citit o carte.
+# statea → stătea, mașina → mașină, tătei → tatei
+Mama stătea în mașină cu harta și îi spunea tatei pe unde s-o ia.
+# mâncăm → mâncam
+Ne opream la fiecare restaurant de pe drum, dar mâncam mereu aceleași mici.
+# mașina → mașină
+Am dormit în mașină două nopți la rând, cu scaunele lăsate pe spate.
+# mașină → mașina, așteptă → aștepta
+Mergeam de mână pe plajă, iar mașina ne aștepta plină de nisip în parcare.
+# gață → gata
+mă duc să alimentez și vin după tine, ai grijă să fii gata
+# strada → stradă
+Am ajuns la intersecție, dar nu știu pe care stradă să intru.
+# centură → centura
+Ai pus centura? Pornim, că se face târziu.
+# mașină → mașina
+Data viitoare când îmi iei mașina, te rog să lași și benzină în rezervor.
+# seara → seară, mașină → mașina
+Fiul meu și-a luat permisul și acum vrea în fiecare seară mașina.
+# sa → să
+Am lăsat-o pe fiica mea să conducă până la bunici și am ținut de mânerul ușii tot drumul.
+# tată → tata
+Când conduce tata, toată lumea tace, nu are voie nimeni să vorbească.
+# bagam → băgam, banchetă → bancheta
+Când eram copii, ne băgam toți cinci pe bancheta din spate, fără centuri.
+# mașina → mașină
+Tata fuma în mașină cu geamurile închise, nimeni nu se gândea atunci la asta.
+# există → exista
+Nu exista aer condiționat și mergeam cu geamurile coborâte până la mare.
+# cară → căra
+Când adormeam în mașină, tata ne căra în brațe până în casă.
+# tată → tata
+Mă prefăceam că dorm doar ca să mă care tata în pat.
+# tată → tata
+Când era ceață, tata conducea cu capul scos pe geam.
+# tată → tata
+Odată am rămas fără benzină pe drumul de munte și tata a mers pe jos până în sat.
+# căruță → căruța
+Ne-a dus un om cu căruța până la benzinărie, cu canistra goală.
+# mașină → mașina
+Am ieșit pentru prima dată din țară cu mașina și am avut emoții la vamă.
+# zăcușcă → zacuscă
+Bunica ne-a pus în portbagaj zacuscă, dulceață și țuică pentru drum.
+# sacose → sacoșe, mamă → mama
+Am trecut granița cu două sacoșe de mâncare de la mama.
+# granița → graniță
+Am stat la graniță în soare trei ore, fără apă și fără umbră.
+# ca → că
+Am primit cartea verde odată cu polița RCA, nu știam că o am.
+# întreaga → întreagă
+La Odesa am ajuns cu autocarul, după o noapte întreagă de drum.
+# până → pană
+Autocarul a avut o pană la jumătatea drumului și am stat pe marginea autostrăzii.
+# geacă → geaca
+Am pus geaca pe mine și am îndesat-o cu haine ca să încapă rucsacul în cutie.
+# fetiță → fetița
+O doamnă de lângă noi s-a jucat cu fetița și a adormit-o.
+# acădea → acadea
+La aterizare, i-am dat copilului să sugă o acadea, ca să nu-l doară urechile.
+# durata → durată
+Am lăsat mașina la parcarea de lungă durată și am găsit-o zgâriată.
+# mașină → mașina
+Am pus o cameră de bord care filmează și când mașina e parcată.
+# sa → să
+Camera a filmat cum un domn a lovit mașina și a plecat fără să lase un bilet.
+# ca → că
+Mi-a zis polițistul că rar se întâmplă să-i găsească pe cei care fug.
+# mașină → mașina
+Am făcut o plângere la poliție după ce cineva mi-a spart mașina.
+# mașină → mașina
+Am pus mașina pe numele tatălui meu ca să plătesc mai puțin la asigurare.
+# va → vă
+Bună ziua, vreau să vă întreb dacă asigurarea acoperă și geamurile.
+# polită → polița
+Am încheiat polița online și am primit-o pe e-mail în cinci minute.
+# poliță → polița
+Am uitat să plătesc a doua rată la CASCO și mi-au suspendat polița.
+# bicicletă → bicicleta, lasă → lăsa
+Am mers cu bicicleta prin oraș și m-a ajuns din urmă un autobuz care nu-mi lăsa spațiu.
+# fața → față, pistă → pista
+Ce faci dacă îți iese în față un câine pe pista de biciclete?
+# bicicletă → bicicleta, furtună → furtuna
+Am făcut o tură lungă cu bicicleta și m-a prins furtuna în câmp.
+# geanță → geantă
+Am cumpărat o geantă impermeabilă pentru bicicletă și e perfectă.
+# bicicletă → bicicleta, lăcat → lacăt
+Mi s-a furat bicicleta din fața magazinului, deși o legasem cu lacăt.
+# bicicletă → bicicleta, recuperă → recupera
+Mi-am înregistrat bicicleta cu un număr de serie, ca să o pot recupera dacă o fură.
+# întreaga → întreagă
+Am folosit o trotinetă de închiriat și aplicația m-a taxat pentru o oră întreagă.
+# trotinetă → trotineta
+Am rămas în mijlocul cartierului cu trotineta descărcată și fără telefon.
+# trotinetă → trotineta
+Fiul meu merge la școală cu trotineta, dar trebuie să poarte cască.
+# că → ca, sa → să
+Ne-am pus de acord ca trotineta să stea pe balcon, nu în hol.
+# dimineața → dimineață
+Am prins un loc liber în trenul de dimineață, ceea ce e rar.
+# Față → Fata
+Fata de lângă mine citea aceeași carte ca mine și am râs amândouă.
+# că → ca
+La clasa întâi era la fel de cald și la fel de aglomerat ca la clasa a doua.
+# că → ca, ora → oră
+Ne-ar trebui și nouă trenuri ca acelea, care merg cu trei sute la oră.
+# apas → apăs
+Am stat zece secunde în fața ușii până mi-am dat seama că trebuie să apăs butonul.
+# apasat → apăsat
+Am apăsat butonul de oprire în autobuz, dar șoferul tot n-a oprit.
+# ca → că
+Mi-a explicat șoferul că stația aceea a fost desființată.
+# mașină → mașina
+Cu autobuzul am ajuns în același timp cu prietenul meu care venea cu mașina.
+# așteptăm → așteptam
+Prietenul meu a stat o jumătate de oră să parcheze, iar eu îl așteptam la cafea.
+# ca → că
+Am descoperit că e mai ieftin să iei taxiul decât să plătești parcarea din centru.
+# mașină → mașina
+Mi-a plăcut cât de silențioasă e mașina electrică, nu auzi nimic.
+# strada → stradă
+Pietonii nu aud mașina electrică și trec pe stradă fără să se uite.
+# jantă → janta
+Mi-a zis soțul că nu mai conduc mașina lui de când i-am îndoit janta.
+# numărăm → număram
+Pe drumul spre bunici număram mașinile roșii, ca să treacă timpul.
+# recuperă → recupera
+Bună ziua, mașina mea a fost ridicată de pe strada Lipscani, unde o pot recupera?
+# Va → Vă, mașină → mașina
+Vă rog să-mi spuneți ce acte trebuie să aduc ca să-mi eliberați mașina.
+# amendă → amenda
+Am plătit amenda, dar nu-mi dau mașina până nu aduc și talonul original.
+# ca → că
+Am mers la poliție să explic că mașina mea era în garaj în ziua aceea.
+# poză → poza
+Pe poza de la radar se vede clar că e altă mașină, doar numărul e la fel.
+# mașină → mașina
+Garajul nostru e plin de lucruri vechi și mașina stă afară.
+# plata → plată, stradă → strada
+Parcarea cu plată a eliberat strada, dar a mutat mașinile pe străzile vecine.
+# mașină → mașina
+Când vin părinții în vizită, nu au unde să lase mașina.
+# dubă → duba
+Mutarea a durat toată ziua pentru că duba nu încăpea pe stradă.
+# carat → cărat, mobilă → mobila, parcă → parca
+Am cărat mobila de la capătul străzii pentru că nu puteam parca mai aproape.
+# ca → că, firmă → firma
+Ce bine că șoferul de la firma de mutări știa să manevreze o dubă mare.
+# mobilă → mobila
+Am închiriat o remorcă pentru mobila veche și n-am mai condus niciodată cu remorcă.
+# sa → să
+Nu știam să dau cu spatele cu remorca și am blocat strada zece minute.
+# groapă → groapa, remorcă → remorca
+Am dus deșeurile la groapa de gunoi cu remorca împrumutată de la cumnatul meu.
+# Delta → Deltă
+Am pus un suport pentru caiac pe plafon și am plecat spre Deltă.
+# cabana → cabană
+Ne-am oprit pe Valea Mureșului să facem rafting și am lăsat mașina la cabană.
+# seara → seară
+Mi-am spălat mașina și în aceeași seară a plouat cu noroi.
+# spal → spăl, mașină → mașina, ploua → plouă
+De fiecare dată când spăl mașina, plouă a doua zi, e un blestem.
+# mașină → mașina, dimineața → dimineață
+Vecinul își lustruiește mașina în fiecare sâmbătă dimineață, cu muzică.
+# iarnă → iarna
+Am învățat să am mereu în mașină o lopată mică iarna.
+# mașina → mașină
+Ce trebuie să ai în mașină obligatoriu, conform legii?
+# insistă → insista
+Am chemat un taxi pentru prietenul meu, care insista că poate conduce.
+# dimineața → dimineață
+I-am luat cheile mașinii și nu i le-am dat înapoi până dimineață.
+# frica → frică
+Mi-a fost frică să-l depășesc, nu știam ce face în clipa următoare.
+# ti → ți
+Când ți se face somn la volan, cel mai bine e să oprești și să dormi puțin.
+# bandă → banda
+Am adormit la volan o fracțiune de secundă și m-am trezit pe banda cealaltă.
+# întreaga → întreagă
+Am stat o zi întreagă să-mi revin după drumul lung până la Barcelona.
+# stânga → stângă
+Când am condus prima dată în Anglia, pe partea stângă, am fost terifiat.
+# distanță → distanța
+În Germania toată lumea respectă distanța și semnalizează, e o plăcere să conduci.
+# autostradă → autostrada
+S-a construit autostrada și satul nostru a rămas izolat de traficul principal.
+# autostradă → autostrada
+Când s-a deschis autostrada, toată lumea a ieșit să o vadă.
+# bicicletă → bicicleta
+Mergem cu bicicleta pe marginea drumului național și ne e frică de camioane.
+# școala → școală
+Copiii din sat merg la școală pe jos, câte doi kilometri dimineața.
+# bucurăm → bucuram
+Ne bucuram de fiecare dată când se închidea drumul și nu era școală.
+# școala → școală
+Iarna mergeam la școală pe sanie, trași de frații mai mari.
+# căruță → căruța
+Unii oameni din sat încă merg la oraș cu căruța, mai ales în zilele de târg.
+# circula → circulă, căii → caii, vad → văd
+Nu mai circulă caii pe drumurile naționale, dar pe cele comunale încă se văd.
+# oșie → osie
+Am mers cu mașina pe un drum agricol și ne-am împotmolit până la osie.
+# văd → vad
+Am rămas cu mașina în râu când am încercat să trecem prin vad.
+# mașină → mașina
+Apa a intrat în motor și mașina a trebuit tractată până la oraș.
+# mașină → mașina
+Am învățat lecția și nu mai trec cu mașina prin apă, oricât de mică pare.
+# mașină → mașina
+Am avut o inundație în parcarea subterană și mașina a stat sub apă.
+# stradă → strada
+Bătrânii nu reușesc să traverseze strada cât e verde la semafor.
+# coada → coadă
+Au pus un semafor nou, dar acum se formează coadă până la colțul străzii.
+# amendă → amenda
+Am semnat procesul-verbal și am plătit amenda în cincisprezece zile, la jumătate.
+# amendă → amenda
+Dacă plătești amenda în cincisprezece zile, plătești doar jumătate din minim.
+# verifică → verifica, mașina → mașină
+Cum pot verifica dacă am amenzi neplătite pentru mașină?
+# amendă → amenda, ca → că
+Am tradus amenda cu telefonul și am văzut că mergeam cu douăzeci peste limită.
+# amendă → amenda
+Plătesc amenda din Ungaria sau o ignor? Ce se întâmplă dacă n-o plătesc?
+# granița → graniță
+Un prieten a ignorat o amendă din Austria și l-au oprit la graniță un an mai târziu.
+# limită → limita
+Nu-mi permit să mai primesc amenzi luna asta, merg doar cu limita de viteză.
+# autostradă → autostrada
+De când s-a făcut autostrada, nu mai trec tirurile prin centrul satului.
+# Suna-mă → Sună-mă
+Ești pe drum? Sună-mă când treci de pod, să pun de cafea.
+# ceață → ceața, dimineața → dimineață
+Nu pleca pe ceața asta, mai bine dormi la noi și pleci dimineață.
+# frica → frică, sa → să, mașină → mașina
+Mi-e frică să te las să pleci pe vremea asta cu mașina.
+# ora → oră
+Nu-ți face griji, am cauciucuri bune și merg cu cincizeci la oră.
+# Proprietară → Proprietara, paturi → pături
+Proprietara pensiunii ne-a făcut ceai și ne-a dat pături în plus.
+# prognoză → prognoza
+Ne-am înțeles să nu mai plecăm iarna fără să verificăm prognoza.
+# derăpase → derapase
+Un tir derapase și stătea de-a curmezișul drumului.
+# curba → curbă
+De atunci conduc mult mai atent și nu mai depășesc în curbă.
+# frică → frica
+Am făcut câteva ședințe cu un psiholog ca să scap de frica de condus.
+# autostradă → autostrada
+Acum conduc din nou, dar evit autostrada și orele de vârf.
+# frica → frică
+Prietena mea nu vrea să-și ia permisul pentru că i-e frică de trafic.
+# ca → că
+Eu zic că dacă poți conduce în București, poți conduce oriunde.
+# schimba → schimbă, bandă → banda
+Șoferii din București schimbă banda fără să semnalizeze și se bagă peste tine.
+# tăcănitul → țăcănitul
+Îmi plăcea să ascult țăcănitul semnalizării când dormeam pe bancheta din spate.
+# strigă → striga, tată → tata
+Fratele meu cel mic striga „verde” la fiecare semafor, ca să-l ajute pe tata.
+# numărăm → număram
+Ne plictiseam atât de tare pe drum încât număram stâlpii de pe margine.
+# enervă → enerva, mașină → mașina
+Tata se enerva pe noi și oprea mașina, amenințând că ne lasă acolo.
+# uităm → uitam, ceartă → cearta
+Când ajungeam la destinație, uitam de toată cearta de pe drum.
+# sa → să
+Bunicul stătea lângă mine și îmi spunea să nu mă grăbesc.
+# ca → că
+Bunicul a râs de mine și mi-a zis că o să fiu un șofer bun.
+# tată → tata
+Am primit de la tata prima mea mașină, o Dacie veche pe care o îngrijea de ani de zile.
+# tătei → tatei
+Am păstrat mașina tatei și după ce el nu a mai fost.
+# mașină → mașina
+Fiecare zgârietură de pe mașina aceea are o poveste.
+# mașină → mașina
+Nu cred că o să mă despart vreodată de mașina asta, chiar dacă e veche.
+# ca → că, mașină → mașina
+Mecanicul meu zice că mașina mai merge cel puțin încă zece ani, dacă o îngrijesc.
+# tapiteria → tapițeria, că → ca
+Am refăcut tapițeria scaunelor și arată ca nouă.
+# granița → graniță
+Autocarul oprește și la Arad sau merge direct spre graniță?
+# ora → oră
+La ce oră trebuie să fim la autogară, cu cât timp înainte de plecare?
+# sa → să
+Au schimbat locul de plecare fără să ne anunțe, iar noi stăteam în ploaie.
+# noua → nouă
+Am stat lângă geam, cu soarele în față, nouă ore.
+# numără → număra
+Șoferul ne număra la fiecare oprire, să nu rămână nimeni.
+# curaț → curat
+Transportul în comun din Viena e de vis, punctual și curat.
+# Căpri → Capri
+Am mers cu feribotul de la Napoli la Capri și ne-a fost rău tot drumul.
+# bicicletă → bicicleta
+În Amsterdam toată lumea merge cu bicicleta, chiar și pe ploaie.
+# ca → că
+Am fost aproape lovit de un biciclist în Amsterdam pentru că stăteam pe pistă.
+# mașină → mașina
+Ne-am mutat în Olanda și am vândut mașina, nu mai avem nevoie de ea.
+# mașină → mașina
+Fratele meu lucrează în Germania și vine acasă cu mașina de două ori pe an.
+# mașină → mașina, vama → vamă
+De Crăciun, toată lumea vine acasă cu mașina și la vamă se fac cozi uriașe.
+# granița → graniță
+Acum că suntem în Schengen, nu mai stăm la graniță deloc.
+# descărcă → descarcă
+Ce faci când ți se descarcă bateria de la telecomandă și nu poți porni?
+# ca → că
+Mi-a explicat un vecin că pot ține telecomanda lângă butonul de pornire.
+# mașina → mașină, roș → ros, capota → capotă
+Mi-a intrat în mașină un șoarece și a ros cablurile de sub capotă.
+# mașina → mașină
+Mecanicul a râs și mi-a zis că e a treia mașină cu șoareci săptămâna asta.
+# pisică → pisica, ca → că
+Vecinul ține pisica pe capota mașinii, că e caldă după drum.
+# mașină → mașina, lasa → lasă
+Pisica vecinilor doarme mereu pe mașina mea și îmi lasă urme de labe.
+# roată → roata
+Am găsit un pui de pisică în roata mașinii, tremurând de frig.
+# capota → capotă, iarnă → iarna
+Bat mereu în capotă iarna înainte să pornesc, să fugă pisicile.
+# mașină → mașina
+Ți-am împrumutat mașina o zi, nu o săptămână.
+# vacanță → vacanța
+Ce bine că am prins un preț bun la închirierea mașinii pentru toată vacanța.
+# mașină → mașina, întreaga → întreagă
+Am returnat mașina cu o oră întârziere și ne-au taxat o zi întreagă.
+# mașină → mașina
+Data viitoare filmez mașina pe toate părțile înainte să plec cu ea.
+# oglindă → oglinda, strădute → străduțe
+Am lovit oglinda de un zid într-un sat medieval cu străduțe înguste.
+# dauna → daună
+Am completat raportul de daună în franceză, cu ajutorul unui vecin de cameră.
+# ca → că, oglindă → oglinda
+Ce bine că am luat asigurarea completă, altfel plăteam oglinda din buzunar.
+# mașină → mașina
+Am ajuns la aeroport în ultima clipă, după ce am predat mașina în grabă.
+# coada → coadă
+Am stat la coadă la închirieri două ore, după un zbor de patru ore.
+# costa → costă
+Când am ajuns la hotel, ne-am dat seama că parcarea costă douăzeci de euro pe noapte.
+# amenda → amendă, sumă → suma, dată → data
+Am înțeles din amendă doar suma și data, restul era un mister.
+# sa → să
+Se pare că am intrat într-o zonă cu trafic restricționat fără să știm.
+# ca → că
+Mi-ar plăcea să pot lua trenul spre mare fără să-mi fac griji că întârzie.
+# asta → ăsta
+Am mers cu trenul la mare anul ăsta și chiar a ajuns la timp.
+# ca → că, ma → mă
+Sper ca data viitoare să fie la fel, că altfel mă întorc la mașină.
+# întreaga → întreagă, odihniță → odihnită
+Am citit o carte întreagă în tren și am ajuns odihnită.
+# coada → coadă
+Prietenii mei au venit cu mașina și au stat în coadă cinci ore.
+# seară → seara
+Ne-am întâlnit seara la o terasă și le-am povestit ce drum frumos am avut.
+# ora → oră
+Copiii erau atât de nerăbdători încât întrebau de zece ori pe oră cât mai e.
+# urât → urat, vacanța → vacanță
+Ne-a întrebat controlorul unde mergem și ne-a urat vacanță plăcută.
+# oboseală → oboseala
+Când am văzut marea, am uitat de toată oboseala de pe drum.
+# săptămână → săptămâna, pătit → pățit
+Mașina a stat toată săptămâna în parcare și n-a pățit nimic.
+# ca → că
+Am descoperit că putem să ne descurcăm și fără mașină, măcar în concediu.
+# Ma → Mă
+Mă gândesc serios să vând a doua mașină a familiei.
+# Șoțul → Soțul
+Soțul meu nu vrea să audă de vânzarea mașinii, zice că e libertatea lui.
+# mașină → mașina
+Pe un an, mașina ne costă cât o vacanță în străinătate.
+# mașina → mașină
+Am încercat o lună fără mașină și a fost mai ușor decât credeam.
+# comandăm → comandam
+Mergeam la cumpărături cu un cărucior și comandam online lucrurile mari.
+# grădinița → grădiniță, bicicletă → bicicleta, fetiță → fetița
+La grădiniță ajungeam cu bicicleta, cu fetița în scaunul din spate.
+# cântă → cânta
+Fetița adora să meargă pe bicicletă, îmi cânta tot drumul.
+# luăm → luam, uită → uita
+Când ploua, luam autobuzul și ea se uita pe geam la mașinile din trafic.
+# mașină → mașina
+Acum, când mergem cu mașina, mă întreabă de ce nu luăm autobuzul.
+# urma → urmă
+Până la urmă am păstrat-o, dar o folosim doar în weekend.
+# Buna → Bună
+Bună ziua, aș dori să știu dacă linia de autobuz spre noul cartier va fi prelungită.
+# Va → Vă, semnală → semnala
+Vă scriu pentru a semnala că stația din fața școlii nu are niciun adăpost.
+# Va → Vă
+Vă rog să analizați posibilitatea unei treceri de pietoni în dreptul stației.
+# Va → Vă
+Vă mulțumim pentru noul semafor, s-a simțit diferența imediat.
+# diferență → diferența
+Se vede diferența, mai ales la bătrâni, care se simt mai respectați.
+# că → ca
+Mi-ar plăcea ca toate liniile din oraș să aibă astfel de șoferi.

@@ -1,0 +1,2061 @@
+# Everyday Romanian: home, neighbours, repairs, garden and DIY.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# pungă → punga
+Bună ziua, vecini, cine a lăsat punga de gunoi lângă lift de aseară?
+# Va → Vă, rugam → rugăm
+Vă rugăm să nu mai lăsați bicicletele pe holul de la parter.
+# Va → Vă, mașină → mașina
+Vă rog frumos, după ora zece seara nu mai dați drumul la mașina de spălat.
+# poștala → poștală
+Cineva a rupt iar cutia poștală de la apartamentul doisprezece.
+# dimineața → dimineață
+Pisica cuiva a rămas închisă în boxă, se aude mieunând de dimineață.
+# apă → apa
+Se oprește apa caldă mâine între nouă și patru, din cauza unei avarii.
+# va → vă
+Nu mai fumați pe casa scării, vă rog, miroase până la etajul opt.
+# lună → luna
+Administratorul a zis că ne schimbă contoarele de apă luna viitoare.
+# va → vă
+Locul meu de parcare e plătit, vă rog să nu mai opriți acolo nici cinci minute.
+# pârcam → parcăm
+Ne-am înțeles cu vecinul să parcăm pe rând în fața garajului.
+# palpaie → pâlpâie
+Becul de la etajul trei pâlpâie de o săptămână, îl schimbă cineva?
+# siguranță → siguranța
+Ne trebuie un electrician bun, ne sare siguranța de fiecare dată când pornim cuptorul.
+# picura → picură, sa → să
+Robinetul de la bucătărie picură toată noaptea și nu mă lasă să dorm.
+# Cat → Cât, sa → să, dărâmam → dărâmăm
+Cât ar costa să dărâmăm peretele dintre bucătărie și sufragerie?
+# pață → pata
+Am dat două straturi de lavabilă și tot se vede pata de umezeală.
+# banda → bandă
+Pune bandă de hârtie pe margini ca să nu murdărești tavanul.
+# lasa → lasă
+Nu cumpăra trafalet ieftin, lasă fire de păr pe perete.
+# Smirghelește → Șmirghelește
+Șmirghelește bine gletul înainte să dai cu vopsea.
+# Usa → Ușa
+Ușa de la baie nu se mai închide de când s-a umflat parchetul.
+# scarțaie → scârțâie, dimineața → dimineață
+Parchetul scârțâie în fiecare dimineață când mă duc la bucătărie.
+# diseara → diseară
+Ai o șurubelniță în cruce să-mi dai și mie până diseară?
+# dus → duș, piesa → piesă
+Bateria de la duș are un mâner care s-a rupt, mai găsesc piesă?
+# chiuveta → chiuvetă
+Sifonul de la chiuvetă e înfundat, am încercat cu bicarbonat și oțet.
+# Centrală → Centrala, apă → apa
+Centrala face un zgomot ciudat când pornește apa caldă.
+# uități → uitați
+Revizia la centrală se face o dată pe an, nu uitați.
+# dus → duș
+Deschide geamul măcar zece minute după ce faci duș.
+# ploua → plouă
+Rufele nu se mai usucă pe balcon de când a început să plouă.
+# sara → sară
+Mașina de spălat a început să sară prin baie la centrifugă.
+# mașină → mașina
+Am găsit un ciorap prins în garnitura ușii de la mașina de spălat.
+# Calca → Calcă
+Calcă tu cămășile, eu mă ocup de vase și de aspirat.
+# dare → dâre
+Mopul nou lasă dâre pe gresie, nu știu ce detergent să folosesc.
+# iarna → iarnă
+La țară, bunicul taie lemne pentru iarnă încă din august.
+# încărci → încarci, seară → seara
+Soba de teracotă ține cald toată noaptea dacă o încarci seara.
+# ca → că, îngheața → îngheață
+Cine aprinde focul dimineața, că mie îmi îngheață mâinile?
+# uliță → ulița
+Am adus un tractor de bălegar pentru grădină, miroase toată ulița.
+# Rășadurile → Răsadurile
+Răsadurile de roșii s-au înălțat prea mult pe pervaz.
+# vinețe → vinete
+Am plantat ardei, vinete și castraveți, dar au venit înghețurile târzii.
+# salată → salata
+Melcii mi-au mâncat toată salata într-o singură noapte.
+# Uda → Udă
+Udă grădina seara, nu la prânz, că se ard frunzele.
+# lăsam → lăsăm
+Am cules merele de jos, cele de sus le lăsăm pentru păsări.
+# furtuna → furtună
+Gardul dinspre vecin s-a înclinat după furtună.
+# țara → țară
+Vecinul de la țară ne-a mutat stâlpul de la gard cu jumătate de metru.
+# lasa → lasă
+Cineva lasă găinile să intre la noi în grădină și ne scurmă straturile.
+# Pisică → Pisica, pres → preș
+Pisica a adus un șoarece mort pe preș, ca un cadou.
+# momeală → momeala
+Am pus capcane în cămară, dar șoarecii mănâncă momeala și pleacă.
+# noua → nouă
+Pisica și-a ales canapeaua nouă ca să-și ascută ghearele.
+# lasă → lăsa
+Nu mai lăsa mâncarea câinelui pe balcon, vin porumbeii.
+# ca → că, latra → latră
+Am adoptat un cățel de la adăpost și acum vecinii se plâng că latră.
+# mașina → mașină
+Am găsit un pui de pisică sub mașină, îl vrea cineva?
+# carat → cărat
+Am închiriat o dubă, dar nu avem cine să ne ajute la cărat.
+# nunta → nuntă
+Am spart două farfurii din setul de la nuntă la mutare.
+# Vecinîi → Vecinii
+Vecinii noi sunt foarte de treabă, ne-au adus o plăcintă.
+# mașină → mașina
+Am ales o cadă de colț, dar după montaj nu mai încape mașina de spălat.
+# cazii → căzii
+Chitul de la marginea căzii s-a desprins și intră apă dedesubt.
+# cadă → cada
+Cum se scoate silicon vechi fără să zgârii cada?
+# baga → băga, mână → mâna, siguranță → siguranța
+Nu băga mâna în tablou până nu oprești siguranța generală.
+# bazâit → bâzâit
+Se aude un bâzâit din tabloul electric, să chem pe cineva?
+# Maine → Mâine
+Mâine vin cei de la gaze să verifice instalația, să fie cineva acasă.
+# dimineața → dimineață
+Am schimbat geamurile, dar acum se aburesc în fiecare dimineață.
+# vară → vara
+Ce faceți cu hainele de iarnă vara? Noi nu mai avem loc în dulap.
+# bunică → bunica, căram → cărăm, apa → apă, galeți → găleți
+Când eram mici, bunica ne punea să cărăm apă de la fântână în găleți.
+# repară → repara, strică → strica
+Tata repara singur tot ce se strica în casă, nu chema niciodată meșteri.
+# zăcuscă → zacuscă
+În fiecare toamnă, mama făcea zacuscă și o punea în cămară pe rafturi.
+# strigă → striga
+Vecina de la parter ne striga pe nume când ne vedea jucându-ne pe scară.
+# rumegus → rumeguș
+Bunicul avea un atelier în spatele casei, unde mirosea a rumeguș și ulei.
+# urcăm → urcam, sacosele → sacoșele
+Înainte să se repare liftul, urcam zilnic nouă etaje cu sacoșele.
+# există → exista
+Pe atunci nu exista grup pe WhatsApp, lipeam un bilet pe ușa de la intrare.
+# duminică → duminica
+Ne trezeam devreme duminica, pentru că vecinul bătea covoarele în curte.
+# spală → spăla
+Mama spăla rufele în cadă și le întindea pe sârmă în curtea blocului.
+# curață → curăța, zăpadă → zăpada
+Iarna, bunicul curăța zăpada din fața porții înainte să se lumineze.
+# furtună → furtuna
+Am stat trei nopți fără curent după furtuna de anul trecut.
+# rezolva → rezolvă
+Doamna administrator a promis că se rezolvă problema cu ușa până la sfârșitul lunii.
+# ședința → ședință
+S-a hotărât în ședință să se strângă câte o sută de lei de apartament pentru reparații.
+# completam → completăm
+Fondul de rulment e aproape gol, trebuie să-l completăm.
+# restantieri → restanțieri
+Avem restanțieri care n-au mai plătit întreținerea de un an.
+# Listă → Lista, verificați-va → verificați-vă
+Lista de plată e afișată la avizier, verificați-vă sumele.
+# Usa → Ușa
+Ușa de la intrare rămâne deschisă pentru că nu se mai închide magnetul.
+# va → vă
+Nu vă mai urcați în lift cu mai mult de patru persoane, se blochează.
+# Ușă → Ușa
+Ușa liftului se închide prea repede, era să-mi prindă căruciorul.
+# Va → Vă, rugam → rugăm, sa → să
+Vă rugăm să sortați gunoiul, avem acum pubele separate pentru plastic și hârtie.
+# răstoarna → răstoarnă
+Câinii vagabonzi răstoarnă coșurile de gunoi în fiecare noapte.
+# va → vă, va → vă
+Puteți să vă luați papucii de pe hol, vă rog? Nu se mai poate trece.
+# boxă → boxa, stiți → știți
+Holul comun nu e boxa nimănui, să știți.
+# pervăzul → pervazul
+Am mutat ghivecele de pe hol pe pervazul de la scară.
+# ușa → ușă
+Am bătut la ușă de trei ori, dar n-a deschis nimeni.
+# scara → scară
+Au făcut petrecere până dimineața și au lăsat sticlele pe scară.
+# dată → data
+Dacă nu se potolesc, chem poliția data viitoare.
+# repara → repară, bicicletă → bicicleta, lasa → lasă
+Vecinul repară bicicleta pe hol și lasă urme de ulei pe gresie.
+# duminica → duminică
+Cineva bate cuie în fiecare duminică dimineața, chiar nu se poate altfel?
+# Va → Vă
+Vă rog să parcați mai aproape de bordură, nu mai încape nimeni.
+# mașină → mașina
+Ai parcat pe două locuri, nu mai am unde să pun mașina.
+# va → vă
+Se vinde un loc de garaj în curtea interioară, sunați-mă dacă vă interesează.
+# Cat → Cât, va → vă, faianța → faianță
+Cât timp vă ia să puneți faianță într-o baie de patru metri pătrați?
+# aluneca → alunecă
+Am cerut gresie mată și mi-au pus lucioasă, alunecă îngrozitor.
+# chiuveta → chiuvetă
+Placa de lângă chiuvetă sună a gol când o atingi.
+# Fișura → Fisura, frica → frică, sa → să, structura → structură
+Fisura din tavan se tot mărește, mi-e frică să nu fie de la structură.
+# Sapa → Șapa
+Șapa trebuie să se usuce câteva săptămâni înainte de parchet.
+# iarnă → iarna
+Am pus izolație la mansardă și acum e mult mai cald iarna.
+# apă → apa
+Burlanul s-a desprins și apa curge pe fațadă.
+# firmă → firma, streașină → streașina
+Am chemat firma de alpiniști utilitari să repare streașina.
+# picura → picură, vară → vara
+Unitatea exterioară a vecinului picură pe balconul meu toată vara.
+# decolă → decola
+Aerul condiționat face un zgomot de parcă ar decola un avion.
+# Suruburile → Șuruburile
+Șuruburile mici se pierd mereu în covor, pune-le într-un bol.
+# insurubat → înșurubat
+Am înșurubat balamaua strâmb și ușa de la dulap nu se mai închide.
+# tencuială → tencuiala
+Ia o bucată de bandă adezivă și lipește-o unde găurești, nu se mai sparge tencuiala.
+# asta → ăsta
+Cuiul s-a îndoit, peretele ăsta e mai tare decât credeam.
+# scândură → scândura
+Am măsurat de trei ori și tot am tăiat scândura prea scurtă.
+# urma → urmă
+Vopsește întâi tocul ușii și pe urmă ușa.
+# că → ca
+Am șlefuit masa veche a bunicii și arată ca nouă.
+# Șertarul → Sertarul
+Sertarul de la bucătărie se blochează mereu pe jumătate.
+# scarțaie → scârțâie
+Am uns balamalele cu ulei și nu mai scârțâie ușa.
+# Clanta → Clanța, azi-dimineața → azi-dimineață
+Clanța de la dormitor a rămas în mâna mea azi-dimineață.
+# Spalati-va → Spălați-vă
+Spălați-vă pe mâini după ce umblați cu substanțe pentru curățat.
+# mașină → mașina, apă → apa
+Pune sare specială în mașina de vase, apa la noi e foarte dură.
+# țigaia → tigaia
+Am ars tigaia de teflon și nu mai iese mirosul din casă.
+# Strange → Strânge
+Strânge rufele de pe sârmă, vine ploaia!
+# lână → lâna
+Nu mai pune lâna la centrifugă, ți-am spus de o mie de ori.
+# pătut → pătuț
+Cine are nevoie de un pătuț de copil în stare bună? Îl dau gratuit.
+# Daruim → Dăruim
+Dăruim un frigider vechi care merge perfect, trebuie doar luat de la etajul trei.
+# Mutam → Mutăm, masă → masa
+Mutăm masa din sufragerie în bucătărie sau o lăsăm unde e?
+# zugravim → zugrăvim
+Vrem să zugrăvim casa scării, dar nu ne înțelegem la culoare.
+# Lasam → Lăsăm, pres → preș
+Lăsăm cheia sub preș, să poată intra instalatorul.
+# Spalam → Spălăm
+Spălăm covoarele în curte, cât e soare.
+# Taiem → Tăiem, ca → că
+Tăiem crengile de la nuc, că intră în firele de curent.
+# soba → sobă, seară → seara
+Aprindem focul în sobă doar seara, ziua e destul de cald.
+# Caram → Cărăm, sopron → șopron
+Cărăm lemnele în șopron înainte să vină ploaia.
+# apă → apa, chiuveta → chiuvetă
+Închidem apa de la robinetul de sub chiuvetă și schimbăm furtunul.
+# Platim → Plătim
+Plătim întreținerea la casierie sau online?
+# Strangem → Strângem
+Strângem bani pentru o ușă nouă la intrare, contribuie fiecare cât poate.
+# firmă → firma
+Hotărâm în ședința de duminică dacă schimbăm firma de lift.
+# mutam → mutăm
+Ne mutăm la casă, nu mai suportăm zgomotul din bloc.
+# Cautam → Căutăm, bransament → branșament
+Căutăm un electrician autorizat, ne trebuie aviz pentru branșament.
+# cada → cadă
+Ai lăsat apa să curgă în cadă și ai uitat de ea?
+# Pața → Pata
+Pata de pe tavan s-a mărit după ploaie.
+# față → fața
+Mi-a pătat cafeaua fața de masă albă.
+# Fața → Fata
+Fata vecinilor ne ajută la udat florile cât suntem plecați.
+# între → intre
+Tata a pus o plasă pe gard, să nu mai intre găinile.
+# Tin → Țin
+Țin sarea grunjoasă pentru murături într-un borcan mare.
+# scârțaie → scârțâie
+Ușa de la intrare scârțâie de te trezește din somn.
+# Lasa → Lasă
+Lasă ușa deschisă, să se aerisească.
+# lucrăm → lucram, coborâm → coboram
+Când lucram la mansardă, coboram de zece ori pe zi după scule.
+# Mancam → Mâncam
+Mâncam în bucătăria de vară până la sfârșitul lui septembrie.
+# găleață → găleata
+Udam grădina cu apă din fântână, scoasă cu găleata.
+# adunăm → adunam
+Vara stăteam la bunici, iar seara ne adunam pe prispă.
+# urcă → urca, primăvara → primăvară
+Tata urca pe acoperiș în fiecare primăvară să verifice țiglele.
+# certăm → certam
+Ne certam cu frații cine spală vasele în seara aceea.
+# Matura → Mătura
+Mătura bunicii era făcută din sorg, legată cu sârmă.
+# ciorba → ciorbă, vecină → vecina
+Pe hol era un miros de ciorbă de perișoare de la vecina de la doi.
+# ușa → ușă
+Vecinul ne-a bătut la ușă să ne spună că ne curge apă pe fațadă.
+# creangă → creanga, intră → intra
+Am cules cireșele de pe creanga care intra în curtea noastră.
+# uda → udă, singura → singură
+Doamna de la patru udă singură toate florile din fața scării.
+# va → vă
+Strângeți după câini, vă rog, copiii se joacă acolo.
+# pisică → pisica
+Am pus o plasă pe balcon, să nu cadă pisica.
+# repeta → repetă, scara → scară
+Papagalul vecinei repetă tot ce aude de pe scară.
+# roș → ros
+Iepurele copiilor a ros cablul de la televizor.
+# cușca → cușcă
+Hamsterul a evadat din cușcă și l-am găsit după două zile în dulap.
+# cușca → cușcă, iarnă → iarna, vară → vara
+Câinele bunicii doarme în cușcă iarna și vara.
+# grija → grijă
+Ai grijă la crizanteme, sunt toxice pentru pisici.
+# dă → da, înecă → îneca
+Nu-i mai da câinelui oase de pui, se poate îneca.
+# soricel → șoricel
+Am un șoricel în bucătărie care iese doar noaptea.
+# Tânțarii → Țânțarii, seară → seara
+Țânțarii nu ne lasă să stăm pe terasă seara.
+# tânțarilor → țânțarilor
+Am pus o lampă împotriva țânțarilor, dar nu ajută prea mult.
+# asta → ăsta
+Viermii au mâncat toate merele de anul ăsta.
+# rariți → răriți
+Morcovii trebuie răriți, altfel nu cresc.
+# Ceapă → Ceapa
+Ceapa verde se pune primăvara devreme.
+# raznă → razna
+Dovleacul a luat-o razna și a ocupat jumătate de grădină.
+# Rășadurile → Răsadurile
+Răsadurile de la piață au murit după două zile.
+# varza → varză, murata → murată
+Butoiul cu varză murată trebuie umplut până sus cu saramură.
+# Sâmbăta → Sâmbătă, taiem → tăiem
+Sâmbătă tăiem lemne cu drujba la bunici.
+# crapat → crăpat
+Am crăpat lemne două ore și acum nu-mi mai simt mâinile.
+# cenușă → cenușa, soba → sobă
+Cine scoate cenușa dimineața din sobă?
+# Centrală → Centrala
+Centrala pe lemne trebuie alimentată de trei ori pe zi.
+# ascultă → asculta
+Seara, toată familia stătea în jurul sobei și asculta radioul.
+# soba → sobă
+Pe sobă era mereu un ibric cu ceai de tei.
+# intră → intra
+Prin geamurile vechi intra frigul, așa că puneam pături la ferestre.
+# țara → țară, sta → stă, goala → goală, iarnă → iarna
+Casa de la țară stă goală toată iarna, ne e frică de hoți.
+# poartă → poarta
+Am găsit poarta deschisă și curtea plină de oi.
+# țara → țară, uda → udă, grădină → grădina
+Vecinul de la țară ne udă grădina când nu suntem acolo.
+# iarbă → iarba
+Trebuie să tundem iarba până nu se face prea mare.
+# iarbă → iarba
+Mașina de tuns iarba nu mai pornește după iarnă.
+# Strangem → Strângem, greblă → grebla
+Strângem frunzele cu grebla și le punem la compost.
+# apă → apa
+Ne-am făcut un butoi pentru apa de ploaie, la colțul casei.
+# furtuna → furtună
+Folia de la solar s-a rupt la ultima furtună.
+# racordam → racordăm
+Ne racordăm la canalizare abia la anul, conform primăriei.
+# impotmolim → împotmolim
+Am pus pietriș pe alee, să nu ne mai împotmolim.
+# vară → vara
+Casa e din chirpici, așa că pereții țin răcoare vara.
+# străbunică → străbunica
+Am urcat în pod și am găsit cufere cu haine de la străbunica.
+# casă → casa
+Ne vindem casa de la țară, dar nu sunt cumpărători.
+# seară → seara
+bună seara, știe cineva de ce nu avem apă caldă la scara B?
+# firmă → firma
+cine are număr de telefon de la firma de lift? iar nu merge
+# va → vă
+vă rog, nu mai lăsați ușa de la terasă deschisă, intră porumbeii
+# zumzeț → zumzet
+se aude cumva și la voi un zumzet din pereți?
+# ă → a, apă → apa, azi-dimineața → azi-dimineață
+a sunat cineva la apă-canal? curge apa pe stradă de azi-dimineață
+# va → vă
+am pus anunțul cu ședința la avizier, vă rog să veniți
+# lună → luna
+cine e responsabil cu cheia de la subsol luna asta?
+# mașină → mașina
+astăzi trece mașina de gunoi mai devreme, scoateți pubelele
+# Doamna → Doamnă, va → vă, apă → apa
+Doamnă administrator, vă rog să verificați încă o dată calculul la apa caldă.
+# chitantă → chitanța
+Nu am primit chitanța pentru plata din luna trecută.
+# listă → lista
+Am plătit prin transfer bancar, dar nu apare nimic pe lista de plată.
+# Așteptam → Așteptăm, ușă → ușa
+Așteptăm de o lună să ne livreze ușa de la baie.
+# cameră → camera
+Gletuiesc în weekend camera mică, poate termin până duminică.
+# Spala → Spală
+Spală trafaletul imediat după ce termini, altfel îl arunci.
+# nuanță → nuanța
+Am greșit nuanța și acum sufrageria e mai degrabă roz decât bej.
+# faianță → faianța
+Am dat jos faianța veche și am găsit un perete plin de găuri.
+# scară → scara
+Cu flexul am făcut atâta praf că s-a umplut toată scara.
+# între → intre
+Puneți folie pe uși când dați cu glet, ca să nu intre praful în tot apartamentul.
+# fața → față
+Lucrați cu masca pe față când tăiați plăcile.
+# Chițul → Chitul
+Chitul de rosturi se curăță ușor cu un burete umed.
+# cazii → căzii
+Am luat faianță cu model de mozaic doar pentru peretele din spatele căzii.
+# pardoseala → pardoseală
+Încălzirea în pardoseală consumă mai puțin decât credeam.
+# rezistență → rezistentă, temperatura → temperatură
+Am vopsit caloriferul cu vopsea specială, rezistentă la temperatură.
+# Teava → Țeava
+Țeava de sub cadă a crăpat, iar vecinul de jos are pată pe tavan.
+# paguba → pagubă
+Asigurarea locuinței a acoperit doar jumătate din pagubă.
+# Duminica → Duminică
+Duminică demontăm patul vechi și îl ducem la tomberonul de voluminoase.
+# retapitat → retapițat
+Am cumpărat un fotoliu la mâna a doua și l-am retapițat.
+# apă → apa
+Am spălat canapeaua cu un aparat închiriat, a ieșit apa neagră.
+# cearsafuri → cearșafuri
+Am pus cearșafuri curate și am deschis geamul să intre aer.
+# par → păr
+Am aspirat de două ori și tot găsesc păr de pisică pe canapea.
+# sters → șters
+Am șters praful de pe toate rafturile și acum strănut de o oră.
+# Pețele → Petele, cada → cadă
+Petele de rugină din cadă ies cu acid citric.
+# dus → duș
+Calcarul de pe cabina de duș nu iese cu nimic.
+# ca → că
+Spray-ul de baie miroase atât de tare că mi-a dat dureri de cap.
+# fața → fata, masă → masa
+Băiatul duce gunoiul, iar fata pune masa.
+# țigaia → tigaia
+Cine a pus tigaia murdară înapoi în dulap?
+# telecomandă → telecomanda
+Tu ai mutat telecomanda? Nu o mai găsesc nicăieri.
+# mobilă → mobila, lună → luna
+Am mutat mobila de trei ori luna asta, soțul nu mai suportă.
+# oglindă → oglinda, cameră → camera
+Am pus oglinda pe peretele din față și camera pare dublă.
+# lumina → lumină
+Biroul l-am pus lângă geam, să am lumină naturală.
+# ușa → ușă
+Dulapul a intrat la milimetru între perete și ușă.
+# Cautam → Căutăm
+Căutăm o garsonieră aproape de metrou pentru fiica noastră.
+# reparam → reparăm
+Ne-a spus că dacă reparăm noi, scade din chirie.
+# problema → problemă
+Ne-a returnat garanția fără nicio problemă.
+# tăcâmurile → tacâmurile
+Am etichetat fiecare cutie, dar tot nu găsesc tacâmurile.
+# debară → debara
+Am găsit în sfârșit cutia cu oalele, era în debara.
+# firmă → firma
+Am rugat firma de mutări să împacheteze și vasele.
+# mutari → mutări
+Oamenii de la mutări au zgâriat ușa de la intrare.
+# spaclu → șpaclu
+Ne trebuie un glet de finisaj și un șpaclu mai lat.
+# iarbă → iarba
+Cine a pus mașina de tuns iarba lângă ușa de la beci?
+# Maine → Mâine, dimineața → dimineață, mașină → mașina, poartă → poarta
+Mâine dimineață vine mașina cu nisip, să fie poarta deschisă.
+# ca → că
+Pune o pătură pe canapea, că vin copiii cu câinele.
+# plianțe → pliante
+Cutiile poștale sunt pline de pliante, le aruncă cineva?
+# dimineața → dimineață
+Cineva ne fură ziarul din cutia poștală în fiecare dimineață.
+# Usa → Ușa, verificați-va → verificați-vă
+Ușa de la boxă a fost forțată, verificați-vă lucrurile.
+# lăcat → lacăt, scara → scară
+Puneți lacăt pe biciclete, chiar și în scară.
+# scari → scări
+Cine a lăsat căruciorul de copil sub scări? Nu-l mută nimeni de o lună.
+# Va → Vă
+Vă rog să fiți atenți, cineva a vărsat ulei pe treptele de la etajul doi.
+# scară → scara
+S-a spălat scara azi, nu călcați pe ude.
+# firmă → firma
+Am văzut un șobolan lângă ghenă, trebuie anunțată firma de deratizare.
+# tineți → țineți
+Deratizarea se face marți, țineți animalele de companie în casă.
+# Va → Vă
+Vă rog să folosiți grupul doar pentru lucruri legate de bloc.
+# urari → urări
+Nu mai trimiteți urări de bună dimineața pe grupul asociației.
+# scară → scara
+S-a oprit gazul pe toată scara până se repară scurgerea.
+# țigaie → tigaie
+Am pus un stingător în bucătărie, după ce mi-a luat foc uleiul în tigaie.
+# sa → să
+Era să dau foc la casă cu o lumânare uitată aprinsă.
+# incinge → încinge
+Nu băgați trei aparate în aceeași priză, se încinge.
+# siguranță → siguranța
+Mi-a sărit siguranța și nu știu care e cea de la bucătărie.
+# sigurante → siguranțe
+Lipiți etichete pe siguranțe, ca să știți care e care.
+# lumină → lumina
+Întrerupătorul de la hol trebuie apăsat de două ori ca să se aprindă lumina.
+# singura → singură
+Lumina din baie se aprinde singură noaptea, e ceva de speriat.
+# dimineața → dimineață
+Ne trebuie un electrician sâmbătă dimineață, aveți vreo recomandare?
+# Va → Vă
+Vă rog să-mi trimiteți un deviz detaliat înainte să începem.
+# factura → factură
+Lucrați cu factură sau doar cu bani cash?
+# Garantia → Garanția
+Garanția pentru manoperă e de un an, așa scrie în contract.
+# repară → repara
+Nu mai repara tu instalația electrică, cheamă un om care se pricepe.
+# clestele → cleștele, piuliță → piulița
+Ai cleștele mare? Vreau să strâng piulița de la sifon.
+# banda → bandă, insurubezi → înșurubezi
+Pune bandă de teflon pe filet înainte să înșurubezi.
+# mașină → mașina
+Racordul de la mașina de vase pierde câte o picătură.
+# Teava → Țeava, apă → apa
+Țeava de scurgere face un sunet ciudat când trage apa vecinul.
+# par → păr
+Am cumpărat o spirală pentru desfundat și am scos un ghem de păr.
+# chiuveta → chiuvetă, înfunda → înfundă
+Nu turnați ulei în chiuvetă, se înfundă țevile.
+# toaletă → toaleta, pompă → pompa
+Am desfundat toaleta cu pompa, dar am inundat baia.
+# dus → duș, cazii → căzii
+Vrem să punem o cabină de duș în locul căzii.
+# Cada → Cadă, dus → duș
+Cadă sau duș, ce e mai practic cu copii mici?
+# dus → duș, cădită → cădiță
+Am ales un duș italian, fără cădiță, arată superb.
+# dusul → dușul, apă → apa
+Panta de la dușul italian a fost făcută prost și stă apa.
+# sters → șters, dus → duș
+Paravanul de sticlă trebuie șters după fiecare duș.
+# dus → duș
+Apa caldă se termină după primul duș, boilerul e prea mic.
+# centrală → centrala
+Am setat centrala pe economic și acum e frig dimineața.
+# factură → factura
+Termostatul de cameră a redus factura la gaz cu o treime.
+# debransat → debranșat
+Ne-am debranșat de la termoficare și ne-am pus centrală proprie.
+# calda → caldă, căldută → călduță
+Apa caldă de la termoficare vine călduță și abia după zece minute.
+# Tevile → Țevile
+Țevile din subsol sunt ruginite și pierd apă.
+# boxă → boxa
+S-a spart o țeavă în subsol și s-a inundat boxa mea.
+# apă → apa
+Pompierii au scos apa din subsol cu o pompă.
+# groapă → groapa
+Băieții de la apă au săpat în fața blocului și au lăsat groapa deschisă.
+# ca → că
+Primăria a promis că asfaltează aleea până în toamnă.
+# înfunda → înfundă
+Toamna, frunzele de nuc înfundă jgheaburile.
+# casa → casă, tablă → tabla
+Ne-a plouat în casă pe la coș, trebuie refăcută tabla.
+# vata → vată, vară → vara
+Am pus vată minerală în pod, acum nu mai e cuptor vara.
+# vata → vată
+Am izolat casa la exterior cu vată bazaltică.
+# schela → schelă, căfeaua → cafeaua
+Muncitorii de pe schelă se uită pe geam când îmi beau cafeaua.
+# casa → casă
+Am mutat ghivecele în casă înainte de primul îngheț.
+# Lamâiul → Lămâiul
+Lămâiul din sufragerie a făcut trei lămâi, sunt foarte mândră.
+# așteptăm → așteptam
+Tomatele cherry de pe balcon au dat mai mult decât ne așteptam.
+# Muscătele → Mușcatele
+Mușcatele bunicii înfloresc doar la ea în geam.
+# bancă → banca
+Seara ieșeau toți bătrânii pe banca din fața scării și comentau.
+# întâmplă → întâmpla
+Vecina de la unu știa tot ce se întâmpla în bloc, mai bine ca administratorul.
+# strangeam → strângeam, jucăm → jucam
+Ne strângeam toți copiii din scară și ne jucam de-a v-ați ascunselea în subsol.
+# strică → strica
+Liftul se strica atât de des încât ne obișnuiserăm să urcăm pe jos.
+# seară → seara
+Apa caldă venea doar seara, între șapte și nouă.
+# adunăm → adunam
+Când se oprea curentul, ne adunam toți în bucătărie, la lumina unei lumânări.
+# cadă → cada, spală → spăla
+Tata făcea vin în cada din baie, iar noi nu ne puteam spăla o săptămână.
+# dulceată → dulceață
+Bunica făcea dulceață de cireșe într-un ceaun mare, în curte.
+# casă → casa
+Mirosea a gutui coapte în toată casa, de la dulapul din cameră.
+# supără → supăra
+Ne trezea cocoșul, dar nimeni nu se supăra.
+# căruță → căruța
+Mergeam cu bunicul la pădure după lemne, cu căruța.
+# ascutea → ascuțea, coasă → coasa, uliță → ulița
+Bunicul ascuțea coasa pe o piatră, iar sunetul se auzea în toată ulița.
+# vacă → vaca
+Seara mulgeam vaca și duceam laptele la vecina care nu avea.
+# iarnă → iarna
+Dormeam pe cuptor iarna, era cel mai cald loc din casă.
+# Mancam → Mâncam, uităm → uitam
+Mâncam pe prispă, cu fața spre grădină, și ne uitam la apus.
+# Spalam → Spălam
+Spălam vasele într-un lighean, cu apă încălzită pe sobă.
+# casă → casa, văr → var
+Bunica văruia casa în fiecare primăvară, cu var stins.
+# murdaream → murdăream
+Văruitul se făcea cu o bidinea, iar noi ne murdăream din cap până în picioare.
+# văr → var
+Am adus var de la depozit pentru gardul de la țară.
+# băit → baiț
+Gardul de lemn trebuie dat cu baiț din doi în doi ani.
+# tărăște → târăște
+Poarta s-a lăsat pe balamale și se târăște pe pământ.
+# poartă → poarta, zavorul → zăvorul
+Am sudat poarta, dar acum nu se mai închide zăvorul.
+# Lăcatul → Lacătul
+Lacătul de la poartă a ruginit și nu se mai deschide.
+# latra → latră
+Câinele vecinului latră la toată lumea care trece pe uliță.
+# grădina → grădină, vară → vara
+Am o grădină mică în spatele casei, dar îmi dă de lucru toată vara.
+# mână → mana
+Roșiile s-au înnegrit pe frunze, cred că e mana.
+# amărat → amărât
+Castraveții s-au amărât din cauza secetei.
+# iarna → iarnă
+Am pus fasole verde la congelator, pentru iarnă.
+# Borcănele → Borcanele, clocotiță → clocotită
+Borcanele se sterilizează în cuptor sau în apă clocotită.
+# Camara → Cămara, zăcușcă → zacuscă
+Cămara bunicii era plină de zacuscă, gem și compot.
+# Ceapă → Ceapa
+Ceapa se usucă la soare înainte să fie depozitată.
+# cămara → cămară
+Usturoiul îl împletim și îl atârnăm în cămară.
+# tinem → ținem
+Merele le ținem în pivniță, învelite în ziare.
+# asta → ăsta
+Ne-a ajutat toată familia la cules de nuci anul ăsta.
+# iarbă → iarba, coasă → coasa, basici → bășici
+Am tăiat iarba cu coasa, ca pe vremuri, și m-am ales cu bășici.
+# Fanul → Fânul
+Fânul trebuie întors de câteva ori ca să se usuce.
+# capite → căpițe
+Am strâns fânul în căpițe înainte să înceapă ploaia.
+# cotet → coteț
+Am făcut un coteț nou pentru găini, cu plasă și sub pământ.
+# iarbă → iarba
+Am fost înțepat de o albină când tundeam iarba.
+# Cartițele → Cârtițele
+Cârtițele mi-au făcut gazonul ca un câmp de luptă.
+# stricam → stricăm
+Rândunelele și-au făcut cuib sub streașină, nu-l stricăm.
+# Bârza → Barza
+Barza s-a întors pe stâlpul din fața casei, ca în fiecare an.
+# că → ca
+Am dus câinele la toaletaj, acum arată ca o oaie tunsă.
+# după-amiază → după-amiaza
+Pisica toarce lângă calorifer toată după-amiaza.
+# Pisică → Pisica
+Pisica a răsturnat ghiveciul cu ficusul și a împrăștiat pământul pe covor.
+# pisică → pisica
+Am pus folie de aluminiu pe blat, să nu mai sară pisica pe el.
+# roș → ros
+Puiul de câine a ros piciorul mesei din sufragerie.
+# ca → că, pisică → pisica, pervăzul → pervazul
+Vecinii au reclamat la asociație că pisica noastră se plimbă pe pervazul lor.
+# garduleț → gărduleț
+Am pus un gărduleț pe scară, ca să nu urce câinele în dormitoare.
+# hrănițe → hrănite, doamnă → doamna
+Pisicile din scară sunt hrănite de doamna de la doi.
+# ședința → ședință
+S-a hotărât la ședință să castrăm pisicile din curtea blocului.
+# mutam → mutăm
+Ne mutăm la Cluj și căutăm un apartament care acceptă câini.
+# seară → seara
+Agentul ne-a arătat apartamentul doar seara, să nu vedem igrasia.
+# umezeală → umezeala
+Pereții au absorbit umezeala de la subsol, de aceea miroase a mucegai.
+# iarnă → iarna
+Aerisiți de două ori pe zi, chiar și iarna, câteva minute.
+# ajuta → ajută
+Am pus grile de ventilație la geamuri, ne-a spus un vecin că ajută.
+# vecină → vecina
+Am rugat-o frumos pe vecina de sus să nu mai scuture covoarele pe balcon.
+# cămașă → cămașa
+Cum să-i cer vecinei să-mi dea înapoi cămașa căzută la ea pe balcon?
+# săptămână → săptămâna
+Cine are nevoie de ajutor la cumpărături, sunt acasă toată săptămâna.
+# biletel → bilețel
+Domnul de la nouă ne-a lăsat un bilețel de mulțumire pe ușă.
+# pervăzul → pervazul
+Vecinul mi-a mutat ghivecele de pe pervazul comun, fără să întrebe.
+# apă → apa
+Streașina garajului lui ne aruncă toată apa în curte.
+# grădină → grădina
+Nucul vecinului ne umbrește toată grădina de legume.
+# strangem → strângem
+Frunzele de la nucul lui le strângem noi în fiecare toamnă.
+# fan → fân
+Am găsit un cuib de ouă în fân, găinile se ascund când ouă.
+# Buna → Bună
+Bună dimineața, a mai rămas cineva fără apă rece la etajele de sus?
+# apă → apa
+la noi curge apa ruginie de la robinet, la voi la fel?
+# hotă → hota
+vecinul de la zece are o scurgere, ne picură pe hota din bucătărie
+# plată → plata
+cine vrea să participe la plata pentru noua ușă, să-mi scrie în privat
+# cat → cât, urma → urmă
+cât a costat până la urmă revizia la lift?
+# firmă → firma
+s-a mai rezolvat ceva cu firma de curățenie?
+# ședința → ședință
+eu zic să facem o ședință extraordinară, nu se mai poate așa
+# stradă → strada
+mâine la ora zece se taie curentul pe toată strada, pentru lucrări
+# factură → factura
+mi-a venit factura de la asociație cu o sumă uriașă la diverse
+# vreti → vreți
+vreți să facem un grup separat doar pentru anunțuri importante?
+# va → vă
+Firma de termoizolație începe lucrul de luni, vă rugăm să eliberați balcoanele.
+# Va → Vă, rugam → rugăm, schela → schelă
+Vă rugăm să nu mai uscați rufe pe schelă.
+# Rugam → Rugăm
+Rugăm proprietarii de mașini să mute autoturismele din spatele blocului, se toaletează copacii.
+# schimba → schimbă
+Se schimbă siguranțele de pe palier, curentul va fi oprit două ore.
+# coloană → coloana, diferență → diferența
+Avem o pierdere de apă pe coloana comună, plătim toți diferența.
+# pausal → paușal
+Am uitat să trimit indexul și mi s-a calculat consumul în paușal.
+# Cautam → Căutăm
+Căutăm un nou administrator, cine are o recomandare?
+# votam → votăm
+Am propus să votăm online, că nu vine nimeni la ședințe.
+# cititi-l → citiți-l, va → vă
+Procesul-verbal al ședinței e la avizier, citiți-l înainte să vă plângeți.
+# vecină → vecina
+Mi-a spus vecina că s-a mai stricat o dată interfonul, dar de data asta definitiv.
+# harăit → hârâit
+Nu se mai aude nimic prin interfon, doar un hârâit.
+# va → vă
+Nu mai deschideți ușa oricui sună la interfon, vă rog.
+# plianțe → pliante
+Au intrat niște băieți să împartă pliante și au lăsat mizerie pe toate etajele.
+# ușa → ușă
+Am pus o încuietoare suplimentară la ușă după ce s-au furat lucruri din boxe.
+# Usa → Ușa
+Ușa blindată a costat cât jumătate din salariul meu.
+# lăcat → lacăt
+Vecinul și-a pus un stâlp metalic cu lacăt pe locul lui de parcare.
+# măcăraua → macaraua
+Au venit cu macaraua și au ridicat trei mașini parcate pe spațiul verde.
+# seară → seara
+Nu am loc de parcare, așa că mă învârt câte o jumătate de oră seara.
+# față → fața, va → vă, între → intre
+Parcați cu fața, vă rog, ca să nu intre gazele de eșapament pe geamuri.
+# groapă → groapa
+Nisipul din groapa de nisip e plin de mucuri de țigară.
+# urgente → urgențe
+Am lăsat la avizier un număr de telefon pentru urgențe.
+# Lasam → Lăsăm, vecină → vecina
+Lăsăm o cheie de rezervă la vecina de încredere, pentru orice eventualitate.
+# geanță → geanta
+Mi-a rupt câinele vecinului geanta, iar el râdea.
+# apă → apa, scari → scări
+Am sunat la pompieri, că nu deschidea nimeni ușa și curgea apa pe scări.
+# soacră → soacra, apă → apa
+Au venit soacra și socrul și s-a oprit apa pe tot cartierul.
+# chiuveta → chiuvetă
+Pe vremea comunismului, prizele se puneau chiar lângă chiuvetă.
+# polite → polițe
+Am montat polițe în bucătărie pentru condimente.
+# ventuza → ventuză, faianță → faianța
+Cârligele cu ventuză nu țin pe faianța asta.
+# gaura → gaură
+Pune puțin adeziv în gaură înainte să bagi diblul.
+# casă → casa
+Am tras un cablu de internet prin toată casa, pe sub plintă.
+# ușă → ușa
+Pragul de la ușa de la baie e prea înalt, ne împiedicăm mereu.
+# căldură → căldura
+Vopseaua de pe calorifere miroase ani de zile de fiecare dată când pornește căldura.
+# spal → spăl
+Am stricat trei pensule până am învățat să le spăl.
+# mobilă → mobila, cada → cadă
+Am prins mobila de perete, să nu cadă peste copii.
+# scară → scara, cada → cadă
+Am pus o poartă la scara interioară, să nu cadă copilul.
+# scârțaie → scârțâie
+Patul supraetajat scârțâie de câte ori se întoarce cel de sus.
+# pătutul → pătuțul
+Am vândut pătuțul și am cumpărat un pat de o persoană.
+# ca → că
+Când am intrat în casă, am simțit imediat că mirosea a ars.
+# oală → oala
+Apa picura din tavan direct în oala cu sarmale.
+# Stateam → Stăteam
+Stăteam la masă și deodată s-a desprins o bucată de tencuială.
+# apă → apa
+Ploua de trei zile, iar în pivniță apa ajunsese la glezne.
+# cada → cadă, apă → apa
+Eram în cadă când s-a oprit apa, cu șamponul în cap.
+# scară → scara, schimbăm → schimbam
+Băiatul ținea scara, iar eu schimbam becul din tavan.
+# latră → lătra
+Copiii alergau prin casă, iar câinele lătra după ei.
+# schela → schelă
+Muncitorii fluierau pe schelă și cântau la radio toată ziua.
+# lasă → lăsa
+Bunicul ne lăsa să batem cuie în scândurile din atelier.
+# strică → strica, adună → aduna
+Când se strica ceva, toată familia se aduna și dădea sfaturi.
+# bagam → băgam, plapuma → plapumă, cameră → camera
+Ne băgam sub plapumă cu sticle cu apă caldă, că nu se încălzea camera.
+# soba → sobă, troșneau → trosneau, pisică → pisica
+În sobă trosneau lemnele, iar pisica dormea pe cuptor.
+# camara → cămară
+Bunica ținea cheia de la cămară la brâu.
+# Spalam → Spălam, rău → râu, urma → urmă
+Spălam covoarele în râu, iar pe urmă le întindeam pe gard.
+# primăvara → primăvară
+Văruiam pomii în fiecare primăvară cu bunicul.
+# carpă → cârpa, lasă → lăsa, chiuveta → chiuvetă
+Pune cârpa la uscat, nu o lăsa udă în chiuvetă.
+# Sterge → Șterge
+Șterge praful de sus în jos, altfel îl muți de pe un raft pe altul.
+# Aspira → Aspiră, urma → urmă
+Aspiră întâi și pe urmă dai cu mopul.
+# Uda → Udă
+Udă buretele, pune o picătură de detergent și freacă ușor.
+# Lasa → Lasă
+Lasă soluția să acționeze zece minute, apoi clătește cu apă rece.
+# pată → pata, servețel → șervețel
+Nu freca pata de vin, tamponeaz-o cu un șervețel.
+# Presara → Presară
+Presară bicarbonat pe saltea și aspiră după o oră.
+# Separa → Separă
+Separă rufele albe de cele colorate, cel puțin.
+# Spala → Spală
+Spală perdelele la program delicat, fără centrifugă.
+# Calca → Calcă
+Calcă pe dos lucrurile negre, să nu lucească.
+# lasă → lăsa, ca → că
+Nu lăsa fierul de călcat pe masă, că o arde.
+# Goleste → Golește
+Golește filtrul de la uscător după fiecare utilizare.
+# Curață → Curăță, mașină → mașina
+Curăță filtrul de la mașina de spălat o dată pe lună.
+# Lasa → Lasă
+Lasă ușa mașinii întredeschisă, să nu se facă mucegai.
+# apă → apa
+Mașina de spălat afișează o eroare și nu mai scoate apa.
+# apă → apa
+Am scos apa din mașină cu un lighean, prin filtrul de jos.
+# spălam → spălăm, țigăile → tigăile
+Nu mai spălăm vasele de mână decât tigăile mari.
+# cuțițele → cuțitele
+Cine a pus cuțitele cu vârful în sus în mașina de vase?
+# Plița → Plita
+Plita cu inducție merge doar cu vase speciale.
+# pliță → plită
+Am schimbat aragazul vechi cu o plită și un cuptor încorporat.
+# ciorbă → ciorba
+Butelia s-a terminat fix când făceam ciorba.
+# schimba → schimbă
+Se schimbă butelia la magazinul din sat, joia.
+# intră → intra
+Cititorul de contor nu poate intra, că suntem la serviciu.
+# bazait → bâzâit
+Invertorul de la panourile solare face un bâzâit continuu.
+# banda → bandă
+Am lipit bandă de etanșare pe marginea ușii de la balcon.
+# căldură → căldura
+Lemnul de fag face jar bun și ține căldura multă vreme.
+# șter → ster
+Am cumpărat lemne la metru ster și am primit cu un sfert mai puțin.
+# carat → cărat, după-amiază → după-amiaza
+Au descărcat lemnele în fața porții, iar noi le-am cărat toată după-amiaza.
+# Semineul → Șemineul
+Șemineul arată superb, dar încălzește doar o cameră.
+# semineu → șemineu
+Am curățat geamul de la șemineu cu cenușă și un ziar ud.
+# sobă → soba
+Am adus un sobar din satul vecin să refacă soba.
+# centrală → centrala
+Ne trebuie un cazan nou pentru centrala pe lemne.
+# iarna → iarnă
+Lemnele pentru iarnă le-am comandat încă din iunie, că se scumpesc.
+# Tată → Tata, iarnă → iarna
+Tata spune că lemnul tăiat iarna e cel mai bun.
+# sopron → șopron
+Ne-am făcut un șopron nou pentru lemne, din scânduri vechi.
+# ca → că
+Am tăiat butucii cu fierăstrăul electric, că e mai sigur decât drujba.
+# rumegus → rumeguș
+Am adus rumeguș de la gater, e bun pentru găini.
+# rumegusul → rumegușul, iarnă → iarna
+Cu rumegușul presat facem foc mai repede iarna.
+# întreaga → întreagă
+Am aerisit casa de la țară o zi întreagă, mirosea a închis.
+# apă → apa
+Am lăsat iarna trecută apa în țevi și au crăpat toate.
+# Goleste → Golește
+Golește țevile înainte de iarnă, dacă nu stă nimeni în casă.
+# mașină → mașina
+Am pus un senzor de inundație sub mașina de spălat.
+# grații → gratii
+Ne-am pus gratii la geamurile de la parter.
+# Grațiile → Gratiile
+Gratiile sunt urâte, dar dormim mai liniștiți.
+# poartă → poarta, cheiță → cheița
+Am deschis poarta manual, cu cheița de sub motor.
+# uda → udă
+Tuia se udă des în primul an după plantare.
+# primăvară → primăvara
+Trandafirii trebuie tăiați primăvara, înainte de înmugurire.
+# întreaga → întreagă
+Am smuls buruieni o după-amiază întreagă și mă doare spatele.
+# cărăm → căram, mobilă → mobila, scari → scări
+Afară ningea, iar noi căram mobila pe scări.
+# semineului → șemineului, sara → sară
+Am pus un paravan de plasă în fața șemineului, ca să nu sară scântei pe covor.
+# Va → Vă, fațadă → fațada, tineți → țineți
+Vă anunțăm că joi se spală fațada cu presiune, țineți geamurile închise.
+# Rugam → Rugăm, locatării → locatarii, balustradă → balustrada
+Rugăm locatarii să nu mai lege câinii de balustrada de la intrare.
+# umblă → umbla
+Am văzut un bărbat care umbla la ușile de la boxe, avea cineva musafiri?
+# va → vă, scară → scara
+Dacă vă deranjează praful, spuneți-ne și curățăm noi scara la sfârșitul zilei.
+# altcuivă → altcuiva
+Nu aveți voie să mutați baia deasupra camerei altcuiva, scrie în regulament.
+# ușa → ușă
+Am deschis un gol de ușă și am pus o grindă metalică deasupra.
+# taiem → tăiem
+Inginerul ne-a interzis să tăiem centura de beton.
+# ușa → ușă
+Am pus un rucsac de urgență lângă ușă, cu apă, lanternă și acte.
+# Stiți → Știți
+Știți unde e robinetul general de gaz al blocului, în caz de cutremur?
+# frică → frica
+Am fixat dulapurile înalte de perete, de frica cutremurelor.
+# stradă → strada
+Am schimbat geamul simplu cu unul dublu, se aude mult mai puțin strada.
+# muzică → muzica
+Barul de la parter ține muzica tare până la trei noaptea.
+# shaormă → shaorma
+Mirosul de la shaorma de la parter intră prin ventilație în baie.
+# descărcă → descarcă, marfă → marfa
+Magazinul de la parter descarcă marfa la cinci dimineața.
+# vata → vată
+Am pus vată minerală între rigips și perete, pentru izolare fonică.
+# că → ca
+Pereții blocului sunt ca de hârtie, se aude și când strănută cineva.
+# țeavă → țeava
+Ne-am împăcat cu vecinul după ce i-am reparat noi țeava.
+# toamnă → toamna
+Țuica de prune se face toamna, din prune foarte coapte.
+# sură → șură
+Bunicul punea prunele la fermentat în butoaie, în șură.
+# coada → coadă
+La cazan se făcea coadă toată noaptea, iar bărbații spuneau povești.
+# repară → repara, sopron → șopron
+Bunicul repara singur toate uneltele, avea un banc de lucru în șopron.
+# adună → aduna, duminică → duminica
+Satul se aduna duminica la poartă și povestea despre vreme.
+# soba → sobă, jucăm → jucam
+Ne încălzeam mâinile pe sobă după ce ne jucam în zăpadă.
+# sârmă → sârma
+Mama ne punea mănușile la uscat pe sârma de deasupra sobei.
+# colindatorii → colindătorii
+Când veneau colindătorii, toată casa mirosea a cozonac.
+# lada → ladă
+Bunica scotea din ladă cearșafurile cele bune pentru musafiri.
+# ladă → lada
+Am recondiționat lada de zestre și am pus pe ea o pernă.
+# mobilă → mobila
+Ne-am adus mobila veche de la țară și am restaurat-o.
+# carpă → cârpă
+Ceara de albine se întinde cu o cârpă moale, în cercuri.
+# da → dă
+Vopseaua spray se dă de la treizeci de centimetri, în straturi subțiri.
+# că → ca
+Am pus mânere aurii pe dulapul alb, arată ca nou.
+# blațul → blatul
+Am pus autocolant cu model de marmură pe blatul de bucătărie.
+# încalță → încălța
+Am montat un cuier cu bancă pe hol, să ne putem încălța.
+# nișă → nișa, ușa → ușă
+Am făcut un dulap în nișa de lângă ușă, la comandă.
+# Debărăua → Debaraua
+Debaraua e plină de lucruri pe care nu le-am mai folosit de ani de zile.
+# mobilă → mobila
+Am dat mobila veche unei familii care s-a mutat recent.
+# ca → că
+Am pus pe un grup de cartier că dau gratuit un fotoliu, s-au anunțat zece oameni.
+# Mutam → Mutăm
+Mutăm un pian de la etajul trei, cine știe o firmă specializată?
+# macăraua → macaraua
+Pianul nu a încăput pe scară și l-au scos cu macaraua pe geam.
+# mutari → mutări
+Oamenii de la mutări au scăpat o cutie cu farfurii.
+# noua → nouă
+Casa nouă avea boilerul stricat, iar fostul proprietar n-a spus nimic.
+# schimbam → schimbăm
+Primul lucru pe care l-am făcut în casa nouă a fost să schimbăm yala.
+# creangă → creanga
+Leagănul din curte l-am legat de creanga cea mai groasă a nucului.
+# vară → vara
+Am pus o plasă de umbră peste terasă, că era imposibil vara.
+# vița → viță
+Am făcut o pergolă din lemn și am plantat viță de vie pe lângă ea.
+# pergola → pergolă
+Strugurii de la pergolă s-au copt înainte de toamnă.
+# orăcaie → orăcăie
+Broaștele orăcăie toată noaptea în iazul din grădină.
+# Buna → Bună, va → vă
+Bună ziua, ați putea trece mâine să vă uitați la o priză care face scurt?
+# Cat → Cât
+Cât ar costa să-mi montați o chiuvetă nouă în baie?
+# săptămână → săptămâna
+Aveți disponibilitate săptămâna viitoare pentru o lucrare mică?
+# Va → Vă
+Vă rog să-mi spuneți ce fel de adeziv să cumpăr pentru plăci mari.
+# Cat → Cât, calcă → călca
+Cât timp trebuie să aștept până pot călca pe gresia proaspăt pusă?
+# tencuială → tencuiala
+E normal să crape tencuiala după o săptămână?
+# dus → duș
+Puteți să-mi spuneți de ce mi se înnegrește chitul din duș?
+# ca → că, centrală → centrala
+Credeți că merită să repar centrala sau să iau una nouă?
+# Cat → Cât
+Cât timp durează montajul unei centrale noi?
+# data → dată
+Pe ce dată ați putea veni să schimbați caloriferele?
+# apă → apa, coloană → coloana
+Dacă schimbăm caloriferele, trebuie oprită apa pe toată coloana?
+# sâmbătă → sâmbăta
+Puteți să lucrați și sâmbăta? Eu sunt la serviciu în timpul săptămânii.
+# Va → Vă, vecină → vecina, intră → intra
+Vă las cheia la vecina de la doi, să puteți intra.
+# Va → Vă
+Vă rog să nu fumați în apartament cât lucrați.
+# Va → Vă, mobilă → mobila
+Vă rog să acoperiți mobila înainte să începeți cu șlefuitul.
+# Va → Vă
+Vă mulțumesc, a ieșit exact cum mi-am dorit.
+# va → vă, factura → factură
+Am uitat să vă întreb, lăsați și factură?
+# nișă → nișa
+Ne puteți face și un dulap încastrat în nișa de pe hol?
+# Siguranță → Siguranța
+Siguranța de la bucătărie sare când merg simultan cuptorul și mașina de spălat vase.
+# răfturi → rafturi
+Am nevoie de cineva care să-mi pună niște rafturi, plătesc bine.
+# ca → că, lasa → lasă
+Doamna care ne face curățenie vine joia, să știți că lasă ușa de la terasă deschisă.
+# închida → închidă
+Ne-a spălat doamna geamurile și a uitat să închidă unul.
+# chiuvetă → chiuveta
+Mi-au umplut chiuveta cu resturi de adeziv, acum e înfundată.
+# fațada → fațadă
+Avem nevoie de aviz de la asociație pentru a pune schela pe fațadă?
+# lasa → lasă
+Vecina de sus nu ne lasă să montăm aerul condiționat sub balconul ei.
+# Teava → Țeava, picura → picură
+Țeava de la aer condiționat picură direct pe trotuar.
+# apă → apa
+Am pus un furtun la aerul condiționat, să ducă apa într-o sticlă.
+# vară → vara
+Aerul condiționat miroase a mucegai când îl pornim prima dată vara.
+# primăvara → primăvară
+Ne-a sfătuit tehnicianul să facem igienizare la aer condiționat în fiecare primăvară.
+# diferență → diferența
+Am pus un ventilator pe tavan, încet, dar face diferența.
+# sta → stă
+Ventilatorul de pe tavan se clatină de parcă stă să cadă.
+# telecomandă → telecomanda
+Rulourile exterioare se ridică doar cu telecomanda, care s-a stricat.
+# Pisică → Pisica, plasă → plasa, țânțări → țânțari
+Pisica a sfâșiat plasa de țânțari în prima zi.
+# ușă → ușa
+Am pus o perdea de mărgele la ușa de la bucătăria de vară.
+# piroștrii → pirostrii, casă → casa
+Vara gătim afară, pe pirostrii, ca să nu încălzim casa.
+# grățar → grătar
+Ne-au chemat vecinii la un grătar, să ne cunoaștem mai bine.
+# stradă → strada
+Mașinile trec cu viteză pe strada noastră, deși sunt copii.
+# stradă → strada
+Ne-au asfaltat strada după douăzeci de ani de așteptare.
+# costa → costă
+Racordul la canalizare costă cât o mașină second-hand.
+# țeava → țeavă, mână → mâna
+Am săpat șanțul pentru țeavă cu mâna, în două zile.
+# țeavă → țeava, iarnă → iarna
+Am pus țeava de apă la adâncime, să nu înghețe iarna.
+# țeavă → țeava
+Ne-a înghețat țeava din curte și am dezghețat-o cu un uscător de păr.
+# fântânăr → fântânar, fântână → fântâna
+Am chemat un fântânar să ne curețe fântâna.
+# săpam → săpăm
+Ne-a costat o avere să săpăm un puț forat de șaizeci de metri.
+# iarnă → iarna, încărcă → încarcă
+Am pus o lampă solară pe alee, dar iarna nu se încarcă.
+# mână → mâna
+Între dale crește iarbă, trebuie smulsă cu mâna.
+# panta → pantă
+Am turnat beton în fața garajului și am uitat să fac pantă.
+# sta → stă
+Apa stă în fața garajului după fiecare ploaie.
+# mașină → mașina
+Garajul e plin de tot felul de lucruri, numai mașina nu încape.
+# trusă → trusa
+Nu găsesc cheia de zece, am răsturnat toată trusa.
+# insurubat → înșurubat, descărcă → descarcă
+Acumulatorul de la mașina de înșurubat se descarcă în mijlocul lucrului.
+# schimbăm → schimbam
+Am căzut de pe scară când schimbam perdelele.
+# Tine-mi → Ține-mi, scară → scara
+Ține-mi scara, te rog, să nu se miște.
+# șurubelniță → șurubelnița
+Dă-mi și mie șurubelnița aceea mică, de lângă tine.
+# nivelă → nivela
+Adu-mi te rog nivela din garaj.
+# ca → că
+Pune o scândură sub piciorul mesei, că se clatină.
+# Strange → Strânge
+Strânge șurubul de la mânerul de la ușă, că s-a slăbit.
+# broască → broasca
+Unge cu ulei broasca de la ușă, că se blochează cheia.
+# Schimba-mi → Schimbă-mi
+Schimbă-mi te rog becul din baie, că nu ajung.
+# ca → că
+Închide geamul, că bate vântul și trântește ușile.
+# ușa → ușă
+Am pus opritoare de ușă peste tot, de când a prins degetul copilul.
+# matura → mătura
+Dimineața devreme se auzea mătura femeii de serviciu pe scări.
+# Tanți → Tanti, fredonă → fredona
+Tanti de la curățenie fredona mereu aceeași melodie.
+# lasă → lăsa, ușa → ușă, uităm → uitam
+Ne lăsa câte un bilet pe ușă ori de câte ori uitam gunoiul pe hol.
+# ocupă → ocupa
+Domnul Popescu de la etajul patru se ocupa de toate reparațiile din bloc.
+# strică → strica
+Toată lumea îl chema când se strica ceva, iar el nu cerea niciodată bani.
+# urcă → urca
+Nu te mai urca pe scaunul cu rotițe ca să ajungi la dulap!
+# Sâmbăta → Sâmbătă
+Sâmbătă dimineața facem curățenie generală, toată familia, fără excepție.
+# cameră → camera
+Fiecare își strânge camera, iar eu mă ocup de baie.
+# spal → spăl, ca → că
+Baia o spăl cu mănuși, că detergentul îmi usucă pielea.
+# lasă → lăsa
+Pune mopul la uscat pe balcon, nu-l lăsa în găleată.
+# chiuveta → chiuvetă
+Găleata cu apă murdară se varsă în toaletă, nu în chiuvetă.
+# găleată → găleata
+Am răsturnat găleata pe parchet și s-a umflat într-un colț.
+# iarnă → iarna, afara → afară
+Rufele uscate iarna afară miros a ger.
+# spală → spăla
+Mama ne spăla părul cu apă de ploaie strânsă în butoi.
+# calcă → călca
+Duminica, mama călca tot ce spălase în timpul săptămânii.
+# Față → Fața
+Fața de masă de duminică era albă, apretată și călcată perfect.
+# vara → vară
+Aveam câte un set de perdele pentru vară și altul pentru iarnă.
+# Scuturăm → Scuturam, presurile → preșurile, dimineața → dimineață
+Scuturam preșurile în fiecare dimineață, pe geam.
+# există → exista, matură → mătura, matură → mătura
+Pe atunci nu exista aspirator la noi, se mătura cu mătura de paie.
+# cearsafurile → cearșafurile, sârmă → sârma
+Cineva ne-a furat cearșafurile de pe sârma din curte.
+# va → vă
+Cine are cheie de la camera de biciclete să-mi scrie, vă rog.
+# încărcă → încarcă
+Scuterele electrice se încarcă doar în apartament, nu pe hol.
+# trotinețe → trotinete
+Bateriile de la trotinete pot lua foc, nu le lăsați nesupravegheate.
+# ca → că
+Bătrânii de la parter se plâng că trotinetele le blochează intrarea.
+# urcă → urca
+Mama nu mai poate urca scările, așa că ne gândim să-i cumpărăm un apartament la parter.
+# fostă → fosta
+Am făcut o cameră pentru mama din fosta sufragerie.
+# cadă → cada, dus → duș, bunică → bunica
+Am schimbat cada cu un duș la nivelul podelei, pentru bunica.
+# covorâșe → covorașe, tată → tata
+Am pus covorașe antiderapante peste tot, de când a căzut tata.
+# cada → cadă, bunică → bunica
+Am montat o lumină cu senzor pe hol, pentru noaptea, ca să nu cadă bunica.
+# mobilă → mobila
+Am mutat mobila ca să poată trece cadrul de mers.
+# bunică → bunica
+Am pus centrală electrică la bunica, să nu mai care lemne.
+# ca → că
+Bunicul tot face focul în sobă, zice că e altă căldură.
+# bunică → bunica
+Vecina o vizitează pe bunica în fiecare zi și ne sună dacă e ceva.
+# vecină → vecina, bunică → bunica
+Ne-a sunat vecina că bunica nu răspunde la ușă, ne-am speriat tare.
+# sapă → săpa, grădină → grădina, săpam → săpăm, primăvară → primăvara
+Bunicul nu mai poate săpa grădina, așa că o săpăm noi primăvara.
+# sa → să
+Motocultorul a sărit dintr-o groapă și era să mă lovească.
+# luna → lună
+Am plantat cartofii pe lună nouă, cum făcea bunicul.
+# bunică → bunica
+Am păstrat semințe de roșii de la bunica, un soi vechi.
+# bunică → bunica
+Roșiile inimă de bou de la bunica sunt cele mai gustoase.
+# Ploua → Plouă
+Plouă de o săptămână și au crăpat toate roșiile.
+# tânțării → țânțarii
+Pune un capac pe butoi, ca să nu se înmulțească țânțarii.
+# plasa → plasă
+Am pus plasă peste butoi și o picătură de ulei la suprafață.
+# zeama → zeamă
+Am făcut stropit la pomi cu zeamă bordeleză, cum făcea bunicul.
+# Caișul → Caisul
+Caisul n-a mai dat niciun fruct de doi ani.
+# rădăcina → rădăcină
+Vișinul s-a uscat dintr-odată, de la rădăcină.
+# ca → că
+Am plantat un nuc pentru nepoți, că rodește după ani buni.
+# foarfecă → foarfeca
+Bunicul tăia pomii în februarie, cu foarfeca și cu un fierăstrău mic.
+# între → intre, boală → boala
+Am uns tăieturile de la pomi cu mastic, ca să nu intre boala.
+# dulceată → dulceață, iarnă → iarna
+Am făcut dulceață de gutui pentru toată iarna.
+# pivnița → pivniță
+Mustul l-am pus în damigene în pivniță.
+# Coadă → Coada
+Coada la cazan e mai lungă decât la bancă.
+# țara → țară
+Am adus de la țară două damigene de vin și una de țuică.
+# Tuica → Țuica
+Țuica bunicului e mai tare decât orice băutură din magazin.
+# casa → casă, sta → stă, temperatura → temperatură, vară → vara
+Beciul de sub casă stă la aceeași temperatură toată vara.
+# ca → că
+Am pus un dezumidificator în pivniță, că se făcuse mucegai pe pereți.
+# văr → var
+Am văruit pivnița cu var, ca să nu mai miroasă a mucegai.
+# frica → frică
+Mama ne trimitea în beci după murături și ne era frică de întuneric.
+# numără → număra
+Pe treptele de la beci am căzut de mai multe ori decât pot număra.
+# scară → scara, bunică → bunica
+Am pus o balustradă la scara de la beci, pentru bunica.
+# Usa → Ușa
+Ușa de la beci se umflă de umezeală și se închide greu.
+# rîndeluit → rindeluit
+Am rindeluit ușa de la beci, ca să se închidă iar.
+# rugină → rugina
+Am curățat rugina de pe scule cu oțet și cu o perie de sârmă.
+# Surubul → Șurubul
+Șurubul s-a rupt în lemn, iar acum nu-l mai pot scoate.
+# masă → masa
+Am pus un clește de strâns la masa lipită și am lăsat-o o zi.
+# spuma → spumă
+Am folosit spumă poliuretanică în jurul tocului și a ieșit peste tot.
+# spuma → spumă
+Am pus prea multă spumă și a deformat tocul ușii.
+# Usă → Ușa, singura → singură
+Ușa se deschide singură pentru că nu e pusă la nivel.
+# că → ca
+Bunicul avea o rindea veche, cu lama ascuțită ca briciul.
+# usă → ușa, sina → șină
+ușa de la lift nu se mai închide, cred că s-a blocat ceva în șină
+# cat → cât, costa → costă
+cât ne costă pe fiecare liftul nou?
+# sa → să, bunică → bunica
+era să cadă bunica la ieșirea din lift, din cauza treptei
+# oglindă → oglinda
+oglinda din lift e spartă de o săptămână, să nu se taie cineva
+# dimineața → dimineață
+în lift miroase a câine ud de dimineață
+# va → vă
+vă rog să nu mai transportați materiale de construcții cu liftul
+# maine → mâine
+mâine se face revizia anuală la lift, va fi oprit până la prânz
+# stie → știe, firmă → firma
+știe cineva dacă firma de lift are contract de urgență și noaptea?
+# strica → strică
+De când s-a montat liftul nou, nu se mai strică deloc.
+# suna → sună
+Butonul de alarmă din lift nu sună la nimeni.
+# lăcat → lacăt
+Scara de serviciu e închisă cu lacăt, ce facem în caz de incendiu?
+# Usa → Ușa, scară → scara
+Ușa de la scara de incendiu trebuie să fie mereu liberă.
+# amenda → amendă
+Pompierii au venit la control și ne-au dat amendă pentru holurile blocate.
+# Vecinîi → Vecinii
+Vecinii nu vor să-și scoată dulapul de pe palier, zic că e al lor de treizeci de ani.
+# debară → debara
+Au închis o bucată din hol cu o ușă și și-au făcut debara.
+# seară → seara, gălagie → gălăgie
+Copiii din bloc se adună seara la ultimul etaj și fac gălăgie.
+# iarnă → iarna
+Treptele de marmură de la intrare sunt foarte alunecoase iarna.
+# zăpadă → zăpada, treabă → treaba
+Cine curăță zăpada din fața blocului? Nu e treaba firmei de curățenie.
+# lopată → lopata
+Am ieșit cu lopata la șase dimineața și am curățat singur aleea.
+# lopată → lopata
+Mi-ar plăcea să văd și alți bărbați din bloc cu lopata în mână.
+# boxă → boxa
+Sarea pentru zăpadă se ține în boxa asociației, cheia e la administrator.
+# ca → că, marmură → marmura
+Am presărat nisip pe trepte, că sarea strică marmura.
+# Turturii → Țurțurii
+Țurțurii de pe streașină sunt foarte mari, pot cădea pe cineva.
+# turturii → țurțurii
+Am sunat la pompieri să dea jos țurțurii de pe bloc.
+# ușă → ușa, între → intre
+Am pus o pătură groasă la ușa de la balcon, să nu intre frigul.
+# porniță → pornită
+Încălzirea a fost pornită abia în noiembrie, iar până atunci am înghețat.
+# căldură → căldura
+De ce nu se dă căldura dacă afară sunt cinci grade?
+# căldură → căldura
+Asociația decide când se pornește căldura, conform votului.
+# căldura → căldură
+Unii vor căldură din octombrie, alții vor să economisească.
+# iarnă → iarna
+Vecinul ține geamurile deschise toată iarna, cu caloriferele la maximum.
+# Platim → Plătim
+Plătim căldură și pentru casa scării, unde caloriferele sunt mereu reci.
+# Teava → Țeava
+Țeava de la caloriferul de pe hol curge de o săptămână.
+# martea → marțea
+Instalatorul asociației vine doar marțea și joia.
+# Tevile → Țevile
+Țevile de cupru sunt mai bune, dar mult mai scumpe.
+# Teava → Țeava
+Țeava din perete s-a spart și am aflat abia când a apărut pata la vecini.
+# faianță → faianța
+Am spart faianța nouă ca să ajungem la țeavă.
+# ușită → ușiță
+Am pus o ușiță de vizitare în dreptul robineților, pentru orice eventualitate.
+# Ușita → Ușița
+Ușița de vizitare din baie e ascunsă după oglindă.
+# apă → apa
+Când am vrut să închid apa, robinetul general s-a rupt în mâna mea.
+# polită → polița
+Am citit polița de asigurare abia după ce ne-a trebuit.
+# întuneca → întunecă
+Copiii joacă fotbal pe aleea dintre blocuri până se întunecă.
+# Vecinîi → Vecinii
+Vecinii bătrâni se plâng de zgomotul copiilor la prânz.
+# ușa → ușă
+Au sunat vecinii la ușă să ne roage să mai dăm muzica mai încet.
+# Sâmbăta → Sâmbătă
+Am pus un bilet pe ușa liftului: „Sâmbătă avem petrecere, ne cerem scuze anticipat.”
+# bormașină → bormașina
+Petrecerea s-a terminat la două, iar la șapte vecinul a pornit bormașina, ca răzbunare.
+# suportăm → suportam
+Ne-am mutat de la bloc pentru că nu mai suportam certurile.
+# casa → casă
+La casă nu mai vorbim cu nimeni, fiecare are gardul lui.
+# mașină → mașina
+Ne-au ajutat vecinii să scoatem mașina din zăpadă.
+# mașină → mașina
+Ne-au tras vecinii mașina din șanț cu tractorul.
+# placă → placa
+După ce s-a turnat placa, am dat o masă mare pentru toți cei care au ajutat.
+# țiglă → țigla
+Am pus țigla pe acoperiș cu frații mei, într-un weekend.
+# vară → vara
+Mansarda e cea mai frumoasă cameră, dar și cea mai caldă vara.
+# mansardă → mansarda
+Am izolat mansarda cu vată de douăzeci de centimetri.
+# scârțaie → scârțâie, treapta → treaptă
+Scara spre mansardă e din lemn și scârțâie la fiecare treaptă.
+# urcă → urca, mobilă → mobila
+Scara în spirală e frumoasă, dar nu poți urca mobila pe ea.
+# bucata → bucată
+Patul de la mansardă l-am montat sus, bucată cu bucată.
+# fațada → fațadă
+Pe fațadă am pus piatră naturală, de jur împrejur, până la un metru.
+# între → intre, apă → apa
+Am făcut un trotuar de jur împrejurul casei, ca să nu intre apa în fundație.
+# hidroizolam → hidroizolăm
+Am săpat de jur împrejurul casei ca să hidroizolăm fundația.
+# păiantă → paiantă
+Pereții casei vechi sunt din paiantă, umpluți cu lut și paie.
+# căldură → căldura
+Lutul ține bine căldura, dar trebuie protejat de ploaie.
+# bălegăr → bălegar
+Meșterul a amestecat lutul cu paie și cu bălegar de cal.
+# prispa → prispă
+Stâlpii de pe prispă erau putreziți la bază.
+# lasa → lasă, spal → spăl
+lasă vasele, le spăl eu când vin de la serviciu
+# diseara → diseară, tocana → tocană
+ai scos carnea din congelator? diseară facem tocană
+# masă → masa
+ți-am lăsat cheia de la boxă pe masa din bucătărie
+# curăț → curat
+pune și tu o mașină de rufe, că nu mai am niciun prosop curat
+# tavita → tăviță
+nu mai pune cizmele ude pe parchet, pune-le pe tăviță
+# pisică → pisica, curat → curăț
+pisica a vomitat pe covorul din dormitor, curăț eu
+# ușa → ușă
+câinele trebuie scos afară, că stă lângă ușă de o oră
+# singura → singură
+s-a deschis singură ușa de la dulap și a căzut tot
+# tăi → tai, diseara → diseară
+mă duc la bunica să-i tai lemnele, vin diseară
+# vecină → vecina
+uite, iar curge din tavan în baie, sun-o pe vecina de sus
+# apă → apa
+Când am intrat în bucătărie, apa ajunsese până la prag.
+# priză → priza
+Copilul a turnat un pahar cu apă în priza de lângă pat.
+# față → fată, clantă → clanța
+Am scos-o pe fată din baie desfăcând clanța cu un cuțit.
+# lustră → lustra
+Băieții s-au jucat cu mingea în casă și au spart lustra.
+# foarfecă → foarfeca
+Cel mic a tăiat perdeaua cu foarfeca, din curiozitate.
+# listă → lista
+Pe ușa frigiderului țin desenele copiilor și lista de cumpărături.
+# fața → fata
+Băiatul scoate câinele la plimbare dimineața, iar fata seara.
+# căfeaua → cafeaua
+Ne-am înțeles ca fiecare să-și spele singur cana după ce bea cafeaua.
+# Șoțul → Soțul
+Soțul spală vasele, eu gătesc, așa am stabilit de la început.
+# regulă → regula
+Cine gătește nu spală vasele, așa e regula la noi.
+# mobilă → mobila
+Socrul ne-a montat toată mobila din bucătărie fără să citească instrucțiunile.
+# spălă → spală
+Mama vine la noi și ne spală geamurile, chiar dacă îi spun să nu.
+# căram → cărăm
+Fratele meu ne-a ajutat să cărăm canapeaua la etajul cinci.
+# șurubelniță → șurubelnița
+Am reglat balamalele de la dulap cu șurubelnița, până s-au aliniat.
+# Șertarul → Sertarul, glisieră → glisiera
+Sertarul de jos nu intră până la capăt, cred că am pus glisiera invers.
+# mobilă → mobila
+Am înlocuit mânerele de la toată mobila din bucătărie.
+# ramă → rama
+Am cumpărat o oglindă veche de la târgul de vechituri și i-am refăcut rama.
+# dus → duș
+Am pus o oglindă cu încălzire, ca să nu se mai aburească după duș.
+# lumina → lumină
+Am montat o oglindă cu lumină LED în baie.
+# Dulapiorul → Dulăpiorul, chiuveta → chiuvetă
+Dulăpiorul de sub chiuvetă s-a umflat de la apă.
+# mobilă → mobila
+Am schimbat mobila de baie cu una suspendată, se spală mai ușor pe jos.
+# Mobilă → Mobila
+Mobila suspendată trebuie prinsă de un perete solid.
+# chiuveta → chiuvetă
+Am prins dulapul de baie în rigips și a căzut cu tot cu chiuvetă.
+# clapetă → clapeta
+Am demontat clapeta și am curățat calcarul din rezervor.
+# fierbator → fierbător, dus → duș
+Calcarul se depune peste tot, de la fierbător până la duș.
+# casă → casa
+Am pus un dedurizator de apă pentru toată casa.
+# dus → duș, apă → apa
+Pe capul de duș s-a depus atâta calcar că abia mai curge apa.
+# dus → duș
+Am pus capul de duș într-o pungă cu oțet peste noapte.
+# dus → duș
+Am schimbat furtunul de la duș, că s-a răsucit și s-a rupt.
+# dus → duș
+Bara de duș s-a desprins din perete cu tot cu dibluri.
+# dus → duș
+Perdeaua de la duș s-a umplut de mucegai la margine.
+# dus → duș
+Am înlocuit perdeaua de la duș cu un paravan de sticlă.
+# dus → duș
+Rolele de la cabina de duș s-au rupt și nu găsim altele.
+# schimbam → schimbăm
+Am emailat cada veche în loc s-o schimbăm.
+# că → ca
+Cada a fost emailată de un meșter, iar acum arată ca nouă.
+# cadă → cada
+Am scos cada de fontă și am avut nevoie de patru oameni s-o coborâm.
+# aruncă → arunca
+Bunicul nu arunca nimic, zicea că poate prinde bine odată.
+# sopron → șopron, tăței → tatei
+Am găsit în șopron o bicicletă veche de pe vremea tatei.
+# tătei → tatei
+Bicicleta tatei am recondiționat-o și o folosesc la piață.
+# fața → față
+Am pus un coș în față la bicicletă, să car cumpărăturile.
+# că → ca
+Bicicleta atârnată pe perete arată ca o operă de artă.
+# Borcănele → Borcanele
+Borcanele goale le dăm înapoi la țară, la mama.
+# camara → cămara
+În cămara noastră sunt mai multe borcane decât în magazin.
+# Camara → Cămara
+Cămara e prea caldă, iar murăturile s-au stricat.
+# spuma → spumă
+Murăturile de anul trecut s-au înmuiat și au făcut spumă.
+# murata → murată
+Varza murată trebuie mutată și pritocită o dată pe săptămână.
+# varză → varza
+Bunicul pritocea varza cu un furtun, suflând aer în butoi.
+# găleață → găleată
+Am pus varză la murat într-o găleată mare, pe balcon.
+# murata → murată, scară → scara
+Mirosul de varză murată s-a răspândit pe toată scara.
+# Vecinîi → Vecinii, rețetă → rețeta
+Vecinii au simțit că punem murături, ne-au cerut și ei rețeta.
+# zăcuscă → zacuscă
+Am făcut zacuscă în curte, la ceaun, cu toată familia.
+# pliță → plită
+Vinetele le-am copt pe plită, iar casa mirosea a fum.
+# pliță → plită
+Am pus o plită pe gaz în bucătăria de vară.
+# fostă → fosta
+Am transformat fosta bucătărie de vară într-o cameră de oaspeți.
+# cameră → camera
+Am pus o sobă de tablă în camera de oaspeți, se încălzește repede.
+# Usa → Ușa, dus → duș
+Ușa cabinei de duș nu se mai închide, a ieșit de pe role.
+# ca → că
+Bicicletele le țin în hol, că pe stradă se fură.
+# Va → Vă, rugam → rugăm, seară → seara
+Vă rugăm să închideți ușa de la intrare după ora zece seara.
+# va → vă
+Atenție: vopsea proaspătă pe balustradă, nu vă sprijiniți!
+# Rugam → Rugăm
+Rugăm părinții să nu-și lase copiii nesupravegheați în lift.
+# Va → Vă, informam → informăm
+Vă informăm că s-a schimbat programul de colectare a deșeurilor.
+# zatul → zațul
+Am făcut compost din cojile de legume și din zațul de cafea.
+# Zatul → Zațul, vecină → vecina
+Zațul de cafea e bun pentru trandafiri, așa zice vecina.
+# Ratele → Rațele
+Rațele vecinului mănâncă melcii din grădina noastră.
+# ca → că, intra → intră
+Am pus plasă în jurul straturilor, că intră iepurii.
+# prapad → prăpăd
+Mistreții au intrat în porumb și au făcut prăpăd.
+# roș → ros, mașina → mașină
+Jderul ne-a ros cablurile de la mașină.
+# capotă → capota
+Am pus o sticlă cu păr de câine sub capota mașinii, contra jderilor.
+# casa → casă, toamnă → toamna
+Șoarecii de câmp intră în casă toamna, când se face frig.
+# găleată → găleata
+Am găsit un șoarece înecat în găleata cu apă din grădină.
+# Cartițele → Cârtițele
+Cârtițele fug de la sunetul unei sticle bătute de vânt, zice bunicul.
+# bete → bețe, cartițelor → cârtițelor
+Am înfipt sticle de plastic pe bețe în grădină, contra cârtițelor.
+# Musuroaiele → Mușuroaiele
+Mușuroaiele de cârtiță apar peste noapte, ca niște vulcani mici.
+# sopron → șopron
+Am găsit termite într-o grindă din șopron.
+# roș → ros, mobilă → mobila
+Gândacii de lemn au ros toată mobila veche din pod.
+# lavândă → lavandă
+Am pus săculeți cu lavandă în toate dulapurile.
+# Tin → Țin, faina → făina
+Țin făina și orezul în borcane închise ermetic, de când am avut molii.
+# chiuveta → chiuvetă
+Am dat cu gel contra gândacilor pe sub chiuvetă.
+# Pisică → Pisica
+Pisica a adus purici de pe balcon, de la porumbei.
+# jardinieră → jardiniera
+Porumbeii au făcut cuib în jardiniera de pe balcon.
+# țipa → țipă
+Pescărușii țipă dimineața pe acoperișul blocului, ca la mare.
+# slanină → slănină
+Am atârnat slănină în copac pentru pițigoi, cum făcea bunicul.
+# dimineața → dimineață
+Pițigoii vin la geam în fiecare dimineață după semințe.
+# sta → stă
+Pisica stă la geam și se uită la păsări ore întregi.
+# casa → casă
+Un șarpe de casă locuiește în zidul de piatră din grădină.
+# casa → casă
+Broasca din grădină a intrat în casă și am găsit-o sub frigider.
+# mușcată → mușcata
+Melcul de pe balcon a mâncat toată mușcata.
+# bănanele → bananele
+Am lăsat bananele pe masă și s-au umplut de musculițe.
+# ceapă → ceapa
+Am pus ceapa în cămară și peste o săptămână era încolțită.
+# Samburele → Sâmburele
+Sâmburele de avocado a încolțit după două luni de așteptare.
+# Lamâiul → Lămâiul
+Lămâiul din sâmbure are acum un metru și jumătate.
+# vară → vara
+Florile agățate de balcon trebuie udate zilnic vara.
+# vară → vara
+Petuniile de pe balcon au înflorit toată vara.
+# bunică → bunica
+Am pus mușcate la toate geamurile, ca la bunica.
+# Muscătele → Mușcatele
+Mușcatele se iernează în casă, la răcoare și cu puțină apă.
+# pivnița → pivniță
+Am pus mușcatele în pivniță peste iarnă și au supraviețuit toate.
+# tencuială → tencuiala
+Iedera a acoperit tot zidul casei, e frumoasă dar strică tencuiala.
+# tencuială → tencuiala
+Am smuls iedera de pe zid și a rămas tencuiala goală.
+# toamnă → toamna
+Vița sălbatică de pe gard se înroșește toamna, arată superb.
+# vecina → vecină
+Am rugat-o pe vecină să-mi dea un butaș din trandafirul ei.
+# cușca → cușcă, iarna → iarnă
+Câinele bunicii are cușcă izolată cu paie pentru iarnă.
+# cateaua → cățeaua
+Câinele a sărit gardul și s-a dus după cățeaua vecinului.
+# șape → sape
+Am făcut un țarc pentru câine, ca să nu mai sape în grădină.
+# împachetam → împachetăm
+Ne mutăm peste o lună și încă n-am început să împachetăm.
+# ridică → ridica
+Cutiile cu cărți sunt atât de grele încât nu le poate ridica nimeni.
+# degeabă → degeaba
+Am scris pe fiecare cutie „fragil” cu litere mari, dar degeaba.
+# mutari → mutări, duba → dubă
+Oamenii de la mutări au aruncat cutiile cu „fragil” în dubă.
+# mașină → mașina
+Noii proprietari au vrut să cumpere și mașina de spălat.
+# ca → că
+De fiecare dată când ne mutăm, jur că arunc jumătate din lucruri.
+# Cuțiile → Cutiile, precedență → precedentă, debară → debara
+Cutiile de la mutarea precedentă stăteau încă nedesfăcute în debara.
+# Vecinîi → Vecinii
+Vecinii ne-au avertizat că liftul se strică des și că avem un vecin dificil.
+# ușa → ușă
+Vecinul de deasupra ne-a bătut la ușă să ne spună că facem prea mult zgomot cu mutarea.
+# pizză → pizza
+Am adus o pizza pentru vecinii care ne-au ajutat cu mutarea.
+# piață → piața
+În cartierul nou nu știm încă unde e piața și unde e farmacia.
+# țapetele → tapetele
+Am dat jos toate tapetele, unul după altul, ca o ceapă.
+# mochetă → mocheta
+Am dat jos mocheta din sufragerie și am găsit parchet în stare perfectă.
+# renovăt → renovat
+Am renovat bucătăria complet, de la țevi până la plafon.
+# afara → afară, spal → spăl
+Am mutat chiuveta sub geam, ca să mă uit afară când spăl vasele.
+# lumina → lumină
+Becurile cu lumină caldă fac casa mult mai primitoare.
+# bazâit → bâzâit
+Variatorul face un bâzâit ciudat când e pe jumătate.
+# lumină → lumina
+Electricianul a încurcat firele și acum lumina de pe hol se aprinde din baie.
+# lumină → lumina
+Am pus un întrerupător inteligent, iar acum aprind lumina de pe telefon.
+# Șoțul → Soțul
+Soțul a programat luminile să se aprindă singure la apus.
+# casă → casa
+Am pus senzori de fum interconectați în toată casa.
+# Stîngătorul → Stingătorul
+Stingătorul din bucătărie a expirat de trei ani.
+# țigaia → tigaia
+Pătura ignifugă se pune peste tigaia care ia foc.
+# incins → încins
+Nu aruncați apă pe uleiul încins care a luat foc!
+# clătițele → clătitele
+Pompierii au râs când au văzut clătitele arse.
+# iarnă → iarna
+Hornul vecinilor scoate un fum negru și gros toată iarna.
+# soba → sobă, stradă → strada
+Vecinii ard gunoaie în sobă și miroase toată strada.
+# afuma → afumă
+Vecinul arde frunze în curte în fiecare toamnă și ne afumă rufele.
+# cada → cadă
+Spălatul câinelui în cadă se termină mereu cu baia inundată.
+# dus → duș
+Am cumpărat un duș portabil pentru câine, în curte.
+# pres → preș
+Am pus un preș mare la intrare, dar câinele sare peste el.
+# lasa → lasă
+Labele câinelui lasă urme pe tot parchetul.
+# Pisică → Pisica
+Pisica a zgâriat canapeaua nouă în prima săptămână.
+# Pisică → Pisica
+Pisica se urcă pe dulap și ne privește de sus ca o regină.
+# ușa → ușă
+Am mutat vazele în dulapul cu ușă de sticlă, din cauza pisicii.
+# chiuveta → chiuvetă
+Pisica bea apă doar de la robinet, din chiuvetă.
+# chiuveta → chiuvetă
+Am cumpărat o fântână de apă pentru pisică, dar tot din chiuvetă bea.
+# mașină → mașina
+Pisica dormea pe mașina de spălat, că era caldă după centrifugă.
+# mașină → mașina
+Pisica s-a ascuns în mașina de spălat, am verificat de două ori înainte să o pornesc.
+# casă → casa
+Câinele a furat o șosetă și a fugit prin toată casa cu ea.
+# telecomandă → telecomanda
+Câinele a mâncat telecomanda, iar acum schimbăm canalele de pe telefon.
+# ușa → ușă
+Câinele stă la ușă toată ziua și ne așteaptă.
+# scâncînd → scâncind
+Vecinii zic că se aude câinele scâncind cât suntem plecați.
+# ca → că, mobilă → mobila
+Am făcut cunoștință cu vecinii din prima zi, că am blocat liftul cu mobila.
+# despachetam → despachetăm
+Ne-a adăugat cineva pe grupul blocului înainte să despachetăm.
+# pisică → pisica
+Am pus un stâlp de zgâriat lângă canapea, dar pisica îl ignoră.
+# râs → ras
+Am răzuit vopseaua de pe geam cu o lamă de ras și mi-a luat o zi.
+# zugravim → zugrăvim
+Igrasia vine de jos, din fundație, nu are rost să zugrăvim.
+# casa → casă
+Ventilația cu recuperare costă mult, dar aerul din casă e mereu proaspăt.
+# spălă → spăla
+Rulourile textile se pot spăla doar de mână.
+# că → ca, bunică → bunica
+Sufrageria arată acum ca la bunica, cu draperii și covor persan.
+# pisică → pisica
+Am pus un covor nou în sufragerie, iar pisica a vomitat pe el a doua zi.
+# țara → țară, piua → piuă
+La țară, covoarele de lână se spălau în râu, la piuă.
+# bunică → bunica
+Mama a moștenit de la bunica o ladă plină de ștergare.
+# crosetată → croșetată, mamă → mama
+Am pus pe pat o cuvertură croșetată de mama.
+# săptămâna → săptămână
+Am spălat plapuma de lână la mână, în cadă, și a durat o săptămână să se usuce.
+# spal → spăl
+Plapuma de puf o duc la curățătorie, nu risc s-o spăl acasă.
+# sălteaua → salteaua
+Am aspirat salteaua și am presărat bicarbonat pe ea.
+# sălteaua → salteaua, rupta → ruptă
+Am întors salteaua și am descoperit că era ruptă dedesubt.
+# scârțaie → scârțâie
+Patul scârțâie de fiecare dată când mă întorc, nu mai pot dormi.
+# scârțaie → scârțâie
+Am strâns toate șuruburile de la pat și tot scârțâie.
+# scârțaie → scârțâie
+Am pus ceară pe îmbinările patului, să nu mai scârțâie.
+# ca → că
+Somiera s-a rupt la mijloc, că săreau copiii pe pat.
+# cameră → camera
+Am pus naftalină în dulap, dar miroase toată camera.
+# naftalină → naftalina
+Am înlocuit naftalina cu coji de portocală uscate.
+# levantică → levănțică
+Dulapul bunicii miroase și acum a levănțică.
+# sa → să
+Am pus săpun în sertarele cu lenjerie, ca să miroasă frumos.
+# Umerasele → Umerașele
+Umerașele de sârmă de la curățătorie îmi deformează hainele.
+# umerasele → umerașele
+Am schimbat toate umerașele cu unele de catifea, ca să nu alunece hainele.
+# plianță → pliantă
+Am pus o scăriță pliantă în dulapul din hol.
+# plianța → pliantă
+Scărița pliantă se blochează mereu pe jumătate.
+# treapta → treaptă, rupta → ruptă, va → vă
+Scara de lemn a bunicului are o treaptă ruptă, nu vă urcați pe ea.
+# treaptă → treapta
+Am reparat treapta scării cu o bucată de scândură și cuie.
+# rezistență → rezistentă
+Gresia de exterior trebuie să fie rezistentă la îngheț.
+# terasă → terasa
+Am refăcut terasa cu plăci de piatră naturală.
+# terasa → terasă
+Pe terasă am pus un deck din lemn, iar vara stăm desculți.
+# terasă → terasa
+Am curățat terasa de lemn cu aparatul de spălat cu presiune.
+# că → ca
+Am spălat fațada casei cu presiune și a ieșit ca nouă.
+# sa → să, curat → curăț, frica → frică, sa → să
+Am urcat pe acoperiș să curăț jgheaburile și mi-a fost frică să cobor.
+# urcă → urca
+Nu te urca pe acoperiș fără să te asiguri cu o frânghie.
+# Tiglele → Țiglele
+Țiglele sparte le-a găsit doar după ce a plouat și a văzut unde curge.
+# Pața → Pata, că → ca
+Pata de pe tavan arată ca harta Europei.
+# problemă → problema
+Pata a reapărut după o lună, așa că problema e mai sus.
+# aseara → aseară, antenă → antena
+Vântul de aseară a dat jos antena de pe acoperiș.
+# antenă → antena
+Am reglat antena cu telefonul în mână, ascultând ce strigă soția din casă.
+# antenă → antena
+Am scos antena de pe casă, oricum ne uităm doar pe internet.
+# ședința → ședință
+La ședință s-au certat doi vecini pe tema antenelor, aproape s-au luat la bătaie.
+# firmă → firma
+Am făcut o licitație pentru firma de lift și am economisit o treime.
+# firmă → firma
+Asociația a câștigat procesul cu firma care ne-a făcut acoperișul prost.
+# cheltuială → cheltuiala
+Firma de construcții ne-a refăcut acoperișul pe cheltuiala ei.
+# aplăudat → aplaudat
+I-am mulțumit vecinului la ședință, toată lumea a aplaudat.
+# pată → pata
+Am vopsit pata de pe tavan cu o vopsea specială, care nu lasă pata să iasă din nou.
+# va → vă, apă → apa
+bună, vecinii de la etajul doi, vă curge apa de la mașina de spălat pe balconul nostru
+# azi-dimineața → azi-dimineață
+a mai rămas cineva fără internet în bloc de azi-dimineață?
+# va → vă, va → vă
+vă rog să vă luați rufele de pe uscătorul comun de pe terasă
+# ambulanță → ambulanța
+doamna de la cinci a căzut pe scări, am chemat ambulanța
+# ca → că
+mi-a zis administratorul că mâine se schimbă becurile pe scară
+# apă → apa
+e normal ca apa caldă să fie rece dimineața devreme?
+# intra → intră
+s-a crăpat geamul de la etajul cinci, pe scară, intră frigul
+# Va → Vă, rugam → rugăm
+Vă rugăm să nu mai hrăniți pisicile pe treptele de la intrare.
+# vecină → vecina
+Căsuța pisicilor a fost aruncată de cineva, iar vecina a plâns.
+# ședința → ședință
+La ședință s-a hotărât că pisicile pot rămâne, dar nu în subsol.
+# rănița → rănită
+Am găsit o pisică rănită lângă bloc și am dus-o la veterinar.
+# latra → latră
+Grivei latră doar la străini, pe noi ne cunoaște pe toți.
+# cămara → cămară
+Broasca țestoasă a copiilor hibernează în cutie, în cămară.
+# cameră → camera, bazaie → bâzâie
+Am cumpărat un acvariu mare, iar acum toată camera bâzâie de la pompă.
+# sa → să
+Hamsterul aleargă pe roată toată noaptea și nu ne lasă să dormim.
+# ușa → ușă, degeabă → degeaba
+Papagalul a învățat să imite soneria, iar noi alergăm la ușă degeaba.
+# cânta → cântă
+Canarul cântă dimineața la geam, iar vecinii zic că le place.
+# vară → vara
+Mirosul de la cocina vecinului ajunge până la noi vara.
+# cânta → cântă
+Cocoșul nostru a fost reclamat de vecini pentru că cântă prea devreme.
+# cotet → coteț, ușită → ușiță
+Am construit un coteț pentru găini cu ușiță automată.
+# cotet → coteț
+Ușița automată de la coteț se închide singură la apus.
+# cotet → coteț, iarnă → iarna
+Am pus un bec în coteț iarna, ca să ouă găinile mai mult.
+# bucată → bucata
+Am vândut ouă vecinilor din bloc, cu cinci lei bucata.
+# galbenușul → gălbenușul
+Ouăle de la țară au gălbenușul portocaliu, nu ca cele din magazin.
+# vară → vara
+Mierea de salcâm a curs toată vara din stupi.
+# plasa → plasă
+Mergeam cu bunicul la stupi îmbrăcați în haine albe și cu plasă pe față.
+# incins → încins, ceară → ceara
+Bunicul scotea fagurii cu un cuțit încins și noi lingeam ceara.
+# primăvara → primăvară
+În fiecare primăvară, bunicul ducea stupii la salcâmii din deal.
+# retapitat → retapițat
+Am retapițat fotoliul bunicului cu un material verde, de catifea.
+# Retapitarea → Retapițarea
+Retapițarea fotoliului a costat mai mult decât un fotoliu nou.
+# vaselina → vaselină
+Mecanismul de la canapea l-am uns cu vaselină și merge iar.
+# pisică → pisica
+Am cumpărat o canapea din piele, iar pisica a găurit-o în prima săptămână.
+# că → ca
+Am pus o husă pe canapeaua albă, iar acum arată ca nouă.
+# husă → husa
+Am spălat husa la patruzeci de grade și acum nu mai intră pe canapea.
+# masă → masa
+Am împrumutat scaune de la vecini pentru masa de Crăciun.
+# masă → masa
+După masa de Paște, am spălat vase până la miezul nopții.
+# rezistență → rezistența
+Cuptorul nu mai încălzește jos, s-a ars rezistența.
+# prăjitură → prăjitura
+Becul din cuptor s-a ars și nu mai văd cum se rumenește prăjitura.
+# Usa → Ușa, căldură → căldura
+Ușa cuptorului nu se mai închide bine și iese căldura.
+# topiță → topită
+Am schimbat garnitura de la ușa cuptorului, era topită.
+# ciorba → ciorbă, suprafață → suprafața
+Am vărsat ciorbă pe plită și s-a ars totul pe suprafața de sticlă.
+# plită → plita
+Am curățat plita de sticlă cu o racletă și cu oțet.
+# pliță → plită
+Racleta pentru plită se găsește la orice magazin de bricolaj.
+# Șoțul → Soțul
+Soțul a plecat după un șurub la magazinul de bricolaj și s-a întors după trei ore.
+# bormașina → bormașină
+Am mers la bricolaj după un bec și am venit cu o bormașină.
+# Cuțiile → Cutiile
+Cutiile de vopsea goale nu se aruncă la gunoiul obișnuit.
+# Gărajul → Garajul, tătei → tatei
+Garajul tatei e un muzeu al tuturor sculelor inventate vreodată.
+# ca → că
+Tata nu ne lasă să aruncăm nimic din garaj, zice că o să-i trebuiască.
+# borcănele → borcanele, tătei → tatei
+Am moștenit borcanele cu șuruburi ale tatei și nu le arunc pentru nimic în lume.
+# borcănele → borcanele, tăței → tatei
+Când caut un șurub, golesc toate borcanele tatei pe masă.
+# ușă → ușa
+Am încercat toate cheile din sertar la ușa de la pod, niciuna nu se potrivea.
+# lăcatul → lacătul
+Am spart lacătul de la pod cu un clește mare.
+# după-amiază → după-amiaza
+Am citit scrisorile bunicilor toată după-amiaza, așezată pe o ladă în pod.
+# există → exista
+Pe vremuri, în fiecare bloc exista un om care știa să repare orice.
+# strică → strica, tată → tata
+Când se strica televizorul, tata îi dădea o palmă și pornea iar.
+# carpea → cârpea
+Mama cârpea ciorapii pe un ou de lemn, seara, la lumina lămpii.
+# maturi → mături
+Bunicul făcea mături din nuiele și le vindea la târg.
+# adună → aduna
+Toamna, toată familia se aduna la cules de porumb.
+# spălăm → spălam, ciubarul → ciubărul
+Vara ne spălam în ciubărul din curte, cu apă încălzită la soare.
+# presuri → preșuri
+Casa bunicilor avea pământ pe jos, peste care se puneau preșuri.
+# jucăm → jucam, sura → șură
+Ne jucam în fânul din șură până ne strigau la masă.
+# scârțaia → scârțâia, fântână → fântâna
+Când bătea vântul, se auzea cum scârțâia fântâna cu cumpănă.
+# altă → alta
+Cumpăna fântânii s-a rupt într-o iarnă, iar bunicul a făcut alta nouă.
+# fântână → fântâna
+Bunicul a săpat singur fântâna, cu ajutorul a doi vecini.
+# găleată → găleata, fântână → fântâna
+Mergeam cu găleata la fântâna din capătul uliței.
+# galeți → găleți
+Bunica ne trimitea după apă înainte de masă, cu două găleți.
+# cobilită → cobiliță
+Duceam gălețile pline pe o cobiliță, ca în poze vechi.
+# Văcile → Vacile, poartă → poarta
+Vacile se întorceau singure seara de la pășune, fiecare la poarta ei.
+# uliță → ulița
+Când veneau vacile, toată ulița se umplea de praf.
+# Smântana → Smântâna
+Smântâna se lua de pe lapte cu o lingură de lemn.
+# păstră → păstra
+Carnea de porc se păstra în untură, în vase de lut.
+# carnații → cârnații
+Bunicul afuma cârnații în afumătoarea din spatele casei.
+# carnați → cârnați
+Am refăcut afumătoarea bunicului și am afumat primii cârnați.
+# pizză → pizza
+Am făcut un cuptor de pizza din cărămidă în curte.
+# tată → tata
+Tocana la ceaun e cea mai bună, mai ales când e făcută de tata.
+# bete → bețe
+Copiii frig bezele pe bețe la focul din curte.
+# sara → sară
+Am stins focul cu o găleată de apă, să nu sară scântei peste gard.
+# fanul → fânul
+Vântul a dus o scânteie în fânul vecinului, era să ia foc.
+# fan → fân
+Pompierii au venit repede și au stins focul din fân.
+# stîngător → stingător, grățar → grătar
+Am cumpărat un stingător și pentru curte, lângă grătar.
+# blaț → blat
+Am făcut un grătar din cărămidă, cu horn și blat de lucru.
+# Grătârul → Grătarul
+Grătarul de cărămidă l-am construit într-o vară, cu cumnatul.
+# blațul → blatul, grățarului → grătarului, curete → curețe
+Am pus faianță pe blatul grătarului, ca să se curețe ușor.
+# casa → casă
+Fumul de la grătar intră în casă pe geamul de la bucătărie.
+# Vecinîi → Vecinii, ca → că
+Vecinii vin la noi la grătar, că avem cea mai mare curte.
+# căzuțe → căzute
+Masa de sub nuc e plină mereu de frunze și de nuci căzute.
+# masă → masa
+Am făcut un acoperiș de stuf peste masa din curte.
+# cada → cadă
+Am pus țiglă pe foișor, ca să nu mai cadă stuful.
+# grădină → grădina
+Foișorul l-am vopsit în verde, ca să se potrivească cu grădina.
+# în → in
+Uleiul de in protejează lemnul, dar trebuie dat în fiecare an.
+# în → in
+Am uns gardul cu ulei de in și acum strălucește la soare.
+# baza → bază
+Stâlpii de lemn au putrezit la bază după zece ani.
+# lumină → lumina
+Vecinii s-au supărat că le-am luat lumina cu gardul nou.
+# Radem → Râdem
+Râdem și acum cu vecinul de ziua în care am sărit gardul.
+# urgente → urgențe
+Vecinul ne-a dat o cheie de rezervă de la poarta lui, pentru urgențe.
+# lăsam → lăsăm
+Ne lăsăm cheile reciproc, de când am plecat amândoi în concediu în aceeași săptămână.
+# uda → udă, grădină → grădina
+Când suntem plecați, vecinul ne scoate gunoiul și ne udă grădina.
+# frumoasa → frumoasă
+Ne-am întors din concediu și am găsit grădina mai frumoasă decât am lăsat-o.
+# sta → stă, blațul → blatul
+Maiaua stă pe blatul din bucătărie, lângă fereastră.
+# măiaua → maiaua
+Am uitat să hrănesc maiaua și s-a acrit.
+# scară → scara
+Am făcut pâine acasă, iar toată scara a mirosit a brutărie.
+# ușa → ușă
+Vecinii au bătut la ușă să întrebe ce miroase atât de bine.
+# dulceată → dulceață
+Vecina îmi dă în schimb dulceață de caise de la țară.
+# vecină → vecina
+Ne schimbăm mâncăruri cu vecina de ani de zile.
+# asta → ăsta
+Cel mai bun lucru la blocul ăsta sunt vecinii.
+# mută → muta
+Nu ne-am muta de aici pentru nimic în lume, nici dacă ni s-ar oferi o vilă.
+# asta → ăsta
+Am trăit în blocul ăsta treizeci de ani și am văzut crescând trei generații de copii.
+# vecina → vecină
+Fosta vecină s-a întors să locuiască în apartamentul părinților.
+# Vecinîi → Vecinii
+Vecinii vechi se mută, iar cei noi nu mai salută pe nimeni.
+# scară → scara
+Pe vremuri, toată scara se cunoștea; acum nu mai știm cine stă alături.
+# scară → scara, afara → afară, saluțe → salute
+Toată scara a ieșit afară să-l salute pe băiatul vecinului.
+# seară → seara, sură → șură
+Desfăceam știuleții seara, în șură, și spuneam ghicitori.
+# piroștrii → pirostrii
+Am pus ceaunul cu tocană pe pirostrii, în curte.

@@ -59,4 +59,9 @@ def test_predictor_covers_long_text_and_round_trips_export() -> None:
     loaded, alphabet, overlap, threshold = load_export(store, "m")
 
     assert (alphabet, overlap, threshold) == (ALPHABET, 4, 0.25)
-    assert Predictor(loaded, alphabet, overlap, 0.0).predict(text) == predictions
+    # Weights are stored as fp16, so confidences round-trip only to fp16 precision.
+    reloaded = Predictor(loaded, alphabet, overlap, 0.0).predict(text)
+    assert [p.label for p in reloaded] == [p.label for p in predictions]
+    assert all(
+        abs(a.confidence - b.confidence) < 1e-3 for a, b in zip(reloaded, predictions, strict=True)
+    )

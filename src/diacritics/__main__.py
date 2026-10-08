@@ -189,6 +189,7 @@ def write_fixture(directory: str) -> None:
     overlap = 4
     store = LocalDirStore(__import__("pathlib").Path(directory))
     export(store, ".", model, alphabet, overlap, threshold=0.5)
+    model, *_ = load_export(store, ".")  # the fp16 weights Rust will load
 
     predictor = Predictor(model, alphabet, overlap, threshold=0.5)
     texts = ["Langa casa mea e casa ta si e o casa foarte frumoasa.", "Ana are mere.", "x"]

@@ -40,9 +40,8 @@ def export(
     overlap: int,
     threshold: float,
 ) -> None:
-    tensors = {
-        name: t.detach().cpu().float().contiguous() for name, t in model.state_dict().items()
-    }
+    # fp16 halves the browser download; both loaders upcast to f32, accuracy is unchanged.
+    tensors = {name: t.detach().cpu().half().contiguous() for name, t in model.state_dict().items()}
     store.write(f"{prefix}/{WEIGHTS_FILE}", save(tensors))
     store.write(
         f"{prefix}/{CONFIG_FILE}",

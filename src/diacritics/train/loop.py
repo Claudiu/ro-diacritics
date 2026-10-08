@@ -7,13 +7,14 @@ import numpy as np
 import numpy.typing as npt
 import torch
 from torch import Tensor
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import ConcatDataset, DataLoader, Dataset
 
 from diacritics.artifacts.store import ArtifactStore
 from diacritics.common.logging import log
 from diacritics.common.progress import Progress
 from diacritics.config.settings import Settings
-from diacritics.dataset.shards import INPUT, LABEL, open_split
+from diacritics.dataset.build import CORRECTIONS_SPLIT
+from diacritics.dataset.shards import INPUT, LABEL, open_split, split_rows
 from diacritics.domain.alphabet import Alphabet
 from diacritics.domain.normalize import CANDIDATES
 from diacritics.export.safetensors import checkpoint_bytes, export, load_checkpoint
@@ -104,8 +105,13 @@ class Trainer:
             parameters=model.parameter_count(),
             config=cfg.to_dict(),
         )
-        train_loader = self._loader("train", shuffle=True)
-        valid_loader = self._loader("valid", shuffle=False)
+        train_loader = self._loader(self._train_dataset(), shuffle=True)
+        valid_loader = self._loader(self._windows("valid"), shuffle=False)
+        corrections_loader = (
+            self._loader(self._windows(CORRECTIONS_SPLIT), shuffle=False)
+            if self._has_corrections()
+            else None
+        )
         running_loss = torch.zeros((), device=device)
         running_steps = 0
 
@@ -133,7 +139,13 @@ class Trainer:
 
                     if step % s.training.eval_every == 0:
                         best = self._eval_and_export(
-                            model, valid_loader, is_candidate, device, step, best
+                            model,
+                            valid_loader,
+                            corrections_loader,
+                            is_candidate,
+                            device,
+                            step,
+                            best,
                         )
                         bar.update(step, best=best)
                     if step % s.training.checkpoint_every == 0:
@@ -173,14 +185,20 @@ class Trainer:
         self,
         model: CharEncoder,
         loader: DataLoader[tuple[Tensor, Tensor]],
+        corrections: DataLoader[tuple[Tensor, Tensor]] | None,
         is_candidate: Tensor,
         device: torch.device,
         step: int,
         best: float,
     ) -> float:
-        """Evaluate, export when it beats `best`, and return the new best."""
+        """Evaluate, export when it beats `best`, and return the new best. The best model is
+        chosen on validation only: corrections are training data, so their accuracy shows
+        whether the known mistakes are learned, not how well the model generalises."""
         s = self.settings
         metrics = self.evaluate(model, loader, is_candidate, device)
+        if corrections is not None:
+            seen = self.evaluate(model, corrections, is_candidate, device)
+            metrics["corrections_accuracy"] = seen["candidate_accuracy"]
         log(logger, "eval", step=step, **metrics)
         if metrics["candidate_accuracy"] <= best:
             return best
@@ -213,11 +231,31 @@ class Trainer:
 
         return metrics.summary()
 
-    def _loader(self, split: str, shuffle: bool) -> DataLoader[tuple[Tensor, Tensor]]:
+    def _windows(self, split: str) -> WindowDataset:
+        return WindowDataset(open_split(self.settings.paths.processed, split))
+
+    def _has_corrections(self) -> bool:
+        return split_rows(self.settings.paths.processed, CORRECTIONS_SPLIT) > 0
+
+    def _train_dataset(self) -> Dataset[tuple[Tensor, Tensor]]:
+        """Wikipedia windows, plus the known mistakes repeated `corrections_repeat` times."""
+        train = self._windows("train")
+        repeat = self.settings.training.corrections_repeat
+        if repeat == 0 or not self._has_corrections():
+            return train
+
+        corrections = self._windows(CORRECTIONS_SPLIT)
+        log(logger, "corrections mixed in", rows=len(corrections), repeat=repeat)
+
+        return ConcatDataset([train, *[corrections] * repeat])
+
+    def _loader(
+        self, dataset: Dataset[tuple[Tensor, Tensor]], shuffle: bool
+    ) -> DataLoader[tuple[Tensor, Tensor]]:
         t = self.settings.training
 
         return DataLoader(
-            WindowDataset(open_split(self.settings.paths.processed, split)),
+            dataset,
             batch_size=t.batch_size,
             shuffle=shuffle,
             num_workers=t.num_workers,

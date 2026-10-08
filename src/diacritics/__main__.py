@@ -12,9 +12,16 @@ from diacritics.baseline.frequent import FrequentFormBaseline
 from diacritics.common.logging import console, log, setup
 from diacritics.common.progress import LogProgress, Progress, RichProgress
 from diacritics.config.settings import Settings
+from diacritics.corpus.corrections import CorrectionsSource
 from diacritics.corpus.filter import is_validation
 from diacritics.corpus.wikipedia import WikipediaSource
-from diacritics.dataset.build import BASELINE_FILE, build_shards, load_alphabet, usable
+from diacritics.dataset.build import (
+    BASELINE_FILE,
+    build_corrections,
+    build_shards,
+    load_alphabet,
+    usable,
+)
 from diacritics.domain.alphabet import Alphabet
 from diacritics.export.safetensors import export, load_export
 from diacritics.metrics.candidates import CandidateMetrics
@@ -25,6 +32,7 @@ from diacritics.train.loop import BEST_EXPORT, Trainer
 logger = logging.getLogger("diacritics")
 
 EVAL_DOCUMENTS = 500
+PUNCTUATION = ".,;:!?\"'()„”«»"
 
 
 def parse(argv: Sequence[str]) -> argparse.Namespace:
@@ -38,6 +46,7 @@ def parse(argv: Sequence[str]) -> argparse.Namespace:
     sub.add_parser("train", help="train (resumes from the latest checkpoint)")
     sub.add_parser("eval", help="evaluate the exported model on validation documents")
     sub.add_parser("restore", help="restore diacritics in stdin using the exported model")
+    sub.add_parser("corrections", help="check the exported model on the known mistakes")
     fixture = sub.add_parser("fixture", help="write a tiny random-weight export for parity tests")
     fixture.add_argument("directory")
 
@@ -66,11 +75,13 @@ def main(argv: Sequence[str] | None = None) -> int:
     settings = apply_overrides(Settings.from_env(), args)
 
     source = WikipediaSource(settings.corpus.urls, settings.paths.raw)
+    corrections = CorrectionsSource(settings.paths.corrections_dir)
     store = LocalDirStore(settings.paths.artifacts_dir)
 
     match args.command:
         case "fetch":
             build_shards(source, settings)
+            build_corrections(corrections, settings)
         case "baseline":
             run_baseline(settings, source)
         case "train":
@@ -85,6 +96,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             predictor = Predictor(model, alphabet, overlap, threshold)
             for line in sys.stdin:
                 print(predictor.restore(line.rstrip("\n")))
+        case "corrections":
+            run_corrections(corrections, store)
         case "fixture":
             write_fixture(args.directory)
 
@@ -132,6 +145,34 @@ def run_eval(settings: Settings, source: WikipediaSource, store: LocalDirStore) 
         metrics.add_text(document.text, predictor.restore(document.text))
 
     log(logger, "eval", threshold=threshold, **metrics.summary())
+
+
+def run_corrections(corrections: CorrectionsSource, store: LocalDirStore) -> None:
+    """Which known mistakes the exported model still makes, word by word."""
+    model, alphabet, overlap, threshold = load_export(store, BEST_EXPORT)
+    predictor = Predictor(model, alphabet, overlap, threshold)
+
+    metrics = CandidateMetrics()
+    sentences = wrong = 0
+    for document in corrections.iter_documents():
+        restored = predictor.restore(document.text)
+        metrics.add_text(document.text, restored)
+        sentences += 1
+        if restored == document.text:
+            continue
+
+        wrong += 1
+        words = zip(document.text.split(), restored.split(), strict=True)
+        misses = [(want, got) for want, got in words if want != got]
+        log(
+            logger,
+            "still wrong",
+            line=document.id,
+            wrote=" ".join(got.strip(PUNCTUATION) for _, got in misses),
+            want=" ".join(want.strip(PUNCTUATION) for want, _ in misses),
+        )
+
+    log(logger, "corrections", sentences=sentences, still_wrong=wrong, **metrics.summary())
 
 
 def write_fixture(directory: str) -> None:

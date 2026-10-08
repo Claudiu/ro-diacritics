@@ -58,3 +58,15 @@ def test_local_files_source(tmp_path: Path) -> None:
     ]
     with pytest.raises(CorpusUnavailableError):
         list(LocalFilesSource(tmp_path / "missing").iter_documents())
+
+
+def test_corrections_source_reads_lines(tmp_path: Path) -> None:
+    from diacritics.corpus.corrections import CorrectionsSource
+
+    (tmp_path / "a.txt").write_text("# skip me\n\n  Aşa e.  \nȚara mea.\n", encoding="utf-8")
+    (tmp_path / "notes.md").write_text("ignored", encoding="utf-8")
+    docs = list(CorrectionsSource(tmp_path).iter_documents())
+
+    assert [d.id for d in docs] == ["a:3", "a:4"]
+    assert docs[0].text == "Așa e."  # trimmed, cedilla converted to comma below
+    assert list(CorrectionsSource(tmp_path / "missing").iter_documents()) == []

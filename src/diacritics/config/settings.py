@@ -19,6 +19,8 @@ WIKIPEDIA_RO_URLS = (
 class Paths:
     data_dir: Path
     artifacts_dir: Path
+    corrections_dir: Path
+    """Tracked known mistakes, one correct sentence per line (see corpus/corrections.py)."""
 
     @property
     def raw(self) -> Path:
@@ -65,6 +67,8 @@ class TrainingSettings:
     device: str
     num_workers: int
     threshold: float
+    corrections_repeat: int
+    """How many times the corrections shard appears in each training epoch; 0 disables it."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -80,6 +84,7 @@ class Settings:
             paths=Paths(
                 data_dir=Path(env.read_str("DATA_DIR", "data")),
                 artifacts_dir=Path(env.read_str("ARTIFACTS_DIR", "artifacts")),
+                corrections_dir=Path(env.read_str("CORRECTIONS_DIR", "corrections")),
             ),
             corpus=CorpusSettings(
                 urls=WIKIPEDIA_RO_URLS,
@@ -110,6 +115,7 @@ class Settings:
                 device=env.read_str("DEVICE", "auto"),
                 num_workers=env.read_int("NUM_WORKERS", 2),
                 threshold=env.read_float("THRESHOLD", 0.5),
+                corrections_repeat=env.read_int("CORRECTIONS_REPEAT", 20),
             ),
         )
         settings.validate()
@@ -129,6 +135,8 @@ class Settings:
             problems.append("DROPOUT must be in [0, 1)")
         if t.batch_size <= 0 or t.max_steps <= 0:
             problems.append("BATCH_SIZE and MAX_STEPS must be positive")
+        if t.corrections_repeat < 0:
+            problems.append("CORRECTIONS_REPEAT must be >= 0")
         if not 0 <= t.threshold <= 1:
             problems.append("THRESHOLD must be in [0, 1]")
         if t.device not in ("auto", "cpu", "cuda", "mps"):

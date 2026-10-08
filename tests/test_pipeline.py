@@ -8,9 +8,11 @@ import pytest
 from diacritics.artifacts.memory import InMemoryStore
 from diacritics.common.progress import LogProgress
 from diacritics.config.settings import Paths, Settings
+from diacritics.corpus.corrections import CorrectionsSource
 from diacritics.corpus.memory import InMemorySource
 from diacritics.corpus.source import Document
-from diacritics.dataset.build import build_shards, load_alphabet
+from diacritics.dataset.build import build_corrections, build_shards, load_alphabet
+from diacritics.dataset.shards import split_rows
 from diacritics.export.safetensors import load_export
 from diacritics.model.infer import Predictor
 from diacritics.train.loop import BEST_EXPORT, CHECKPOINT, Trainer
@@ -40,7 +42,8 @@ def tiny_settings(tmp_path: Path) -> Settings:
         device="cpu",
         num_workers=0,
     )
-    settings = Settings(Paths(tmp_path / "data", tmp_path / "artifacts"), corpus, model, training)
+    paths = Paths(tmp_path / "data", tmp_path / "artifacts", tmp_path / "corrections")
+    settings = Settings(paths, corpus, model, training)
     settings.validate()
 
     return settings
@@ -87,3 +90,30 @@ def test_fetch_skips_when_settings_unchanged(tmp_path: Path) -> None:
     changed = dataclasses.replace(settings.corpus, valid_every=3)
     build_shards(InMemorySource(docs), dataclasses.replace(settings, corpus=changed))
     assert train_bin.stat().st_mtime_ns != before
+
+
+@pytest.mark.filterwarnings("ignore::UserWarning")
+def test_corrections_are_mixed_into_training(
+    tmp_path: Path, caplog: pytest.LogCaptureFixture
+) -> None:
+    settings = tiny_settings(tmp_path)
+    build_shards(
+        InMemorySource([Document(str(i), " ".join(SENTENCES) * 3) for i in range(8)]), settings
+    )
+    source = CorrectionsSource(settings.paths.corrections_dir)
+
+    assert build_corrections(source, settings) == 0  # no directory yet: nothing, no error
+
+    settings.paths.corrections_dir.mkdir()
+    (settings.paths.corrections_dir / "known.txt").write_text(
+        "# comment\n\nPe masă erau mere.\nFata mea a mâncat o pară.\n", encoding="utf-8"
+    )
+    rows = build_corrections(source, settings)  # windows of 16: each sentence spans two rows
+    assert rows == split_rows(settings.paths.processed, "corrections") == 4
+
+    caplog.set_level("INFO")
+    Trainer(settings, load_alphabet(settings), InMemoryStore(), LogProgress()).run()
+    fields = [r.__dict__.get("fields", {}) for r in caplog.records]
+    mixed = next(f for f in fields if "repeat" in f)
+    assert mixed == {"rows": rows, "repeat": settings.training.corrections_repeat}
+    assert any("corrections_accuracy" in f for f in fields)

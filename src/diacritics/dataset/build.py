@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 ALPHABET_FILE = "alphabet.json"
 STAMP_FILE = "fetch.json"
 BASELINE_FILE = "baseline.json"
+CORRECTIONS_SPLIT = "corrections"
 
 
 def stamp(settings: Settings) -> str:
@@ -76,6 +77,18 @@ def build_shards(source: CorpusSource, settings: Settings) -> None:
 
     # Written last, so an interrupted fetch rebuilds next time.
     stamp_path.write_text(stamp(settings))
+
+
+def build_corrections(source: CorpusSource, settings: Settings) -> int:
+    """The known-mistakes split, rebuilt on every fetch: it is a few KB, and an edit to the
+    corrections directory must never leave a stale shard. Returns the row count."""
+    m = settings.model
+    path = split_paths(settings.paths.processed, CORRECTIONS_SPLIT)[0]
+    documents = source.iter_documents()
+    meta = write_split(path, documents, load_alphabet(settings), m.window, m.window - m.overlap)
+    log(logger, "split written", split=CORRECTIONS_SPLIT, rows=meta.rows, window=meta.window)
+
+    return meta.rows
 
 
 def load_alphabet(settings: Settings) -> Alphabet:

@@ -1,0 +1,16 @@
+# Mistakes from the web demo's example text, 2026-10-08. Model wrote → correct form.
+
+# seară → seara (adverb: in the evening)
+Iarna, când ningea, mergeam cu sania până la marginea satului și ne întorceam seara, uzi și fericiți, la o cană de ceai fierbinte.
+# așteptă → aștepta (imperfect)
+Bunica ne aștepta în bucătărie, lângă soba de teracotă.
+# masa → masă, cămara → cămară
+Pe masă erau plăcinte cu brânză și dovleac, iar în cămară mirosea a mere coapte și a gutui.
+# fața → fata, mosului → moșului, singura → singură, lună → luna
+Ne spunea povești despre fata moșului, care a plecat singură prin pădure, și despre zmeii care furau soarele și luna.
+# rău → râu, uscăm → uscam, incinse → încinse
+Mergeam la râu în fiecare dimineață, ne uscam pe pietre încinse și ne întreceam care prinde mai mulți pești.
+# întreaga → întreagă
+Țara întreagă părea că încape între dealurile acelea, iar zilele nu se mai terminau.
+# fața → fata (daughter)
+Fata mea a mâncat o pară și a băut un pahar cu apă.

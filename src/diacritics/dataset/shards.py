@@ -95,6 +95,13 @@ def write_split(
     return writer.close()
 
 
+def split_rows(processed: Path, split: str) -> int:
+    """Rows in a written split; 0 when it was never written."""
+    meta_path = split_paths(processed, split)[1]
+
+    return ShardMeta.load(meta_path).rows if meta_path.exists() else 0
+
+
 def open_split(processed: Path, split: str) -> npt.NDArray[np.uint8]:
     """Memory-mapped (rows, window, 2) uint8 array."""
     bin_path, meta_path = split_paths(processed, split)

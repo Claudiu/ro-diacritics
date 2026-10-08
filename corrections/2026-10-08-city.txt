@@ -1,0 +1,18 @@
+# Candidate demo sentences the model got wrong, 2026-10-08. Model wrote → correct form.
+
+# scarțaie → scârțâie
+Tramvaiele scârțâie în curbe, iar câinii vagabonzi își caută un loc însorit lângă blocuri.
+# țarabe → tarabe
+În piață, țăranii veniți de la țară își așază legumele pe tarabe: roșii, ardei, castraveți și mănunchiuri de mărar.
+# ciresele → cireșele
+O bătrână cântărește cireșele cu grijă și îi dă unui copil o mână în plus, fără să-i ceară nimic.
+# zăpadă → zăpada
+În Munții Carpați, iernile sunt lungi și zăpada acoperă potecile până în aprilie.
+# toamnă → toamna (adverb: in autumn)
+Ciobanii coboară turmele în sat toamna, când pășunile de sus îngheață.
+# vacanță → vacanța
+Profesorul ne-a cerut să scriem o compunere despre vacanța de vară, cu diacritice și fără greșeli.
+# virgulă → virgula, s → ș, t → ț (letters named on their own)
+Am învățat că, în limba română, virgula de sub ș și ț nu este un detaliu, ci face parte din literă.
+# incinge → încinge (only when it follows the morning paragraph; right on its own)
+Spre prânz, soarele încinge asfaltul și terasele se umplu de lume care vorbește despre vacanțe, prețuri și meciul de aseară.

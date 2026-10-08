@@ -16,7 +16,8 @@ web/model/
 
 # Data and trained artifacts (gigabytes; rebuilt by `diacritics fetch` / `train`)
 /data/
-/artifacts/
+/artifacts/*
+!/artifacts/export/
 
 # Local env
 .env

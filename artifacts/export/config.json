@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "model": {
+    "vocab_size": 256,
+    "window": 256,
+    "d_model": 192,
+    "n_layers": 4,
+    "n_heads": 4,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "n_classes": 3
+  },
+  "alphabet": {
+    "pad_id": 0,
+    "unk_id": 1,
+    "chars": "\t\n !\"#$%&'()*+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~ «­°²·»ÁÇÉÖ×ÜßàáãäåæçèéêëíïñóôöøúüýāąćČčĐđęěğīİıŁłńōőřśŠšūżŽžǎάίαβγεηικλμνοπρςστυόАБВГДИКЛМНОПРСТабвгдежзийклмнопрстуфхцчшыьюяіאבהוילמרשתابرلمني​‎–—‘’“”„†•…→−─"
+  },
+  "labels": [
+    "none",
+    "breve_comma",
+    "circumflex"
+  ],
+  "overlap": 32,
+  "threshold": 0.5
+}

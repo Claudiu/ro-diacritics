@@ -1,0 +1,2017 @@
+# Everyday Romanian: chats and messages with friends and family.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# ține → tine
+salut, ce mai faci? n-am mai auzit nimic de tine de o săptămână
+# Mama → Mamă, masă → masa
+Mamă, ajung acasă pe la șapte, să nu mă aștepți cu masa.
+# școala → școală
+cine ia copiii de la școală azi, tu sau eu?
+# incolo → încolo
+te sun eu mai încolo, acum sunt la volan
+# ca → că
+Tata zice că vine și el duminică la grătar.
+# grădinița → grădiniță
+Andrei are febră, nu-l mai duc la grădiniță mâine.
+# vecină → vecina, mulț → mult
+știi ceva de vecina de la trei? n-am mai văzut-o de mult
+# Ti-am → Ți-am, vecină → vecina
+Ți-am lăsat cheile la vecina de jos.
+# față → fata
+fata mea a luat zece la mate, sunt atât de mândră de ea
+# Diseara → Diseară
+Diseară facem clătite, vrei să treci pe la noi?
+# uită → uita, mașină → mașina
+Nu uita să scoți gunoiul, mâine trece mașina.
+# asta → ăsta
+ce zici, mergem la munte weekendul ăsta?
+# ca → că
+Mama zice să-ți iei o geacă, că se strică vremea.
+# Cat → Cât
+Cât timp ții puiul în cuptor? Al meu iese mereu prea uscat.
+# gată → gata, ciorbă → ciorba
+e gata ciorba, veniți la masă!
+# ca → că
+Bravo, mă! Știam că o să reușești!
+# Fa-mi → Fă-mi
+Fă-mi și mie o poză cu tortul, să văd cum a ieșit.
+# Felicitari → Felicitări, logodna → logodnă
+Felicitări pentru logodnă, sunteți minunați împreună!
+# ca → că
+Hai că întârzii, te aștept în fața blocului.
+# Imi → Îmi, rețetă → rețeta
+Îmi dai rețeta de prăjitură cu mere?
+# grija → grijă, ține → tine
+Ai grijă de tine și mănâncă ceva cald.
+# Sâmbăta → Sâmbătă
+Sâmbătă e serbarea lui Matei, vii și tu?
+# Pisică → Pisica
+Pisica a spart vaza din sufragerie.
+# nasei → nașei
+Trebuie să-i cumpărăm cadou nașei, ai vreo idee?
+# apă → apa
+Dacă ajungi primul, pune tu apa la fiert pentru paste.
+# pizză → pizza
+Ce mâncăm diseară? Eu zic să comandăm pizza.
+# cumințe → cuminte, școala → școală, doamnă → doamna
+Fii cuminte la școală și ascultă de doamna învățătoare!
+# dimineața → dimineață
+mâine nu pot, am programare la dentist dimineață
+# Suna-mă → Sună-mă
+Sună-mă când te trezești, avem ceva de vorbit.
+# satula → sătulă
+Ne-am certat iar din nimic, sunt sătulă.
+# sanius → săniuș
+Ai văzut ce frumos a nins? Hai la săniuș cu copiii!
+# Ti-a → Ți-a
+Ți-a plăcut cadoul? Am stat o oră să-l aleg.
+# chiuveta → chiuvetă
+iar ai lăsat vasele în chiuvetă, serios?
+# Paste → Paște
+Mergem la țară la bunici de Paște.
+# Sa → Să, umbrelă → umbrela, ca → că, ploua → plouă
+Să nu-ți uiți umbrela, zice că plouă toată ziua.
+# Imi → Îmi, mașina → mașină
+Îmi faci și mie loc în mașină sâmbătă?
+# frumoasa → frumoasă, poză → poza
+Ce frumoasă ești în poza de profil!
+# ca → că, insistă → insista
+Hai că pot și singur, nu mai insista.
+# tip → țip
+nu mai țip la copii, promit, dar azi m-au scos din minți
+# strangem → strângem
+Ne strângem la mine vineri, aduce fiecare câte ceva.
+# Maine → Mâine, tătei → tatei
+Mâine e ziua tatei, nu uita să-l suni.
+# merși → mersi
+De când n-am mai râs așa, mersi pentru seara asta!
+# Lasa → Lasă, ca → că, spal → spăl
+Lasă că spăl eu vasele, tu stai și te odihnește.
+# dansam → dansăm
+Ne vedem la nuntă, abia aștept să dansăm!
+# Ti-am → Ți-am
+Ți-am făcut un ceai de tei, bea-l cât e cald.
+# ține → tine
+Încă sunt supărat pe tine pentru ce ai zis.
+# asta → ăsta
+Unde ați fost în vacanță anul ăsta?
+# Maine → Mâine
+Mâine trebuie să ne trezim la cinci, să prindem trenul.
+# Parca → Parcă
+Ai mai vorbit cu Dana? Parcă era supărată pe noi.
+# tată → tata
+Nu știu ce să-i iau lui tata de ziua lui, are de toate.
+# Mai → Măi
+Măi, tu chiar ai uitat că azi e aniversarea noastră?
+# soacră → soacra
+M-am certat cu soacra, nu mă întreba de ce.
+# mașina → mașină
+Fratele meu și-a luat mașină nouă și se laudă la toată lumea.
+# Da-i → Dă-i
+Dă-i un pupic din partea mea lui Ștefan.
+# cabana → cabană
+Ce faci de Revelion? Noi ne gândim să mergem la cabană.
+# ca → că, seară → seara
+Ia-ți o pătură, că seara se face frig pe terasă.
+# față → fata
+A crescut fata mea atât de repede, nu-mi vine să cred.
+# colețul → coletul
+Am primit coletul de la tine, mulțumesc frumos!
+# Ăi → Ai
+Ai dreptate, am exagerat, îmi cer scuze.
+# friptură → friptura
+Pe la cât ajungeți? Să știu când să pun friptura la cuptor.
+# Duminica → Duminică, dimineața → dimineață, bunică → bunica
+Duminică dimineață mergem la biserică cu bunica.
+# certă → certa
+Nu te mai certa cu fratele tău pentru telecomandă!
+# Buna → Bună
+Bună dimineața, ai dormit bine?
+# școala → școală
+iar a uitat Sofia ghiozdanul la școală
+# coada → coadă
+Sunt la coadă la poștă, mai durează puțin.
+# ca → că, mamă → mama
+Te las, că mă cheamă mama la masă.
+# Fa → Fă
+Fă o poză la frigider, să văd ce lipsește.
+# rețetă → rețeta
+Câte ouă pun în aluat? Am uitat rețeta.
+# grija → grijă
+Ai grijă cum conduci, e polei pe drum.
+# Cat → Cât, ține → tine
+Cât face o pâine la tine la colț?
+# profesoară → profesoara
+Mi-a zis profesoara că Luca vorbește prea mult la ore.
+# va → vă, voua → vouă
+Bunica a făcut cozonac, vrea să vă dea și vouă.
+# ora → oră
+ce oră e la voi acum? vreau să te sun
+# uiță → uita
+Iubitule, nu uita de cumpărături în drum spre casă.
+# Maine → Mâine, plecam → plecăm
+Mâine plecăm devreme, pregătește-ți bagajul de seara asta.
+# răceală → răceala
+M-am îmbolnăvit și eu, cred că am luat răceala de la copii.
+# sters → șters
+Poți să-mi dai numărul Elenei? L-am șters din greșeală.
+# Față → Fata
+Fata cea mică a învățat să meargă pe bicicletă!
+# adresă → adresa
+Îmi trimiți și mie adresa? Nu știu exact unde stați.
+# săptămână → săptămâna
+Vreau să ne vedem, dar săptămâna asta sunt plină.
+# Ăi → Ai, bunică → bunica
+Ai fost la bunica săptămâna asta?
+# Scuza-mă → Scuză-mă
+Scuză-mă pentru ieri, n-am vrut să te jignesc.
+# așteptă → aștepta
+Nu mă mai aștepta, mă întorc târziu.
+# vacanță → vacanța
+Trebuie să vorbim serios despre vacanța de vară.
+# tată → tata, paștile → pastile
+L-am dus pe tata la doctor, i-au dat niște pastile noi.
+# plecă → pleca
+Te rog, nu mai pleca supărat de acasă.
+# Cat → Cât
+Cât de greu e să pui șosetele în coș?
+# diseara → diseară
+Hai să ne uităm la un film diseară, alegi tu.
+# prăjitură → prăjitura, nuca → nucă
+Cum îi zice la prăjitura aia cu nucă pe care o făceai?
+# ploua → plouă, ca → că, grățar → grătar
+Sper să nu plouă sâmbătă, că facem grătar.
+# Ma → Mă
+Mă bucur tare mult pentru tine, meriți tot ce e mai bun.
+# foarfecă → foarfeca
+Unde ai pus foarfeca? Iar n-o găsesc.
+# Macar → Măcar
+Măcar spune-mi dacă vii sau nu.
+# ca → că
+Taci, că știu, n-are rost să mai discutăm.
+# ca → că
+Hai că a sosit pizza, vino jos!
+# frica → frică, casa → casă
+Mi-e frică să rămân singură în casă noaptea.
+# Maine → Mâine, strangem → strângem, bunică → bunica
+Mâine ne strângem toți verii la bunica acasă.
+# teafară → teafără, seara → seară
+Am ajuns acasă teafără, mulțumesc pentru seară!
+# Ti-ai → Ți-ai
+Ți-ai luat medicamentele azi?
+# uită → uita
+Nu te mai uita atâta la telefon, vorbește cu mine.
+# ras → râs
+Am râs cu lacrimi la filmulețul trimis de tine.
+# ca → că
+Hai mai repede, că pierdem filmul!
+# cască → casca, bicicletă → bicicleta
+Pune-ți casca când mergi cu bicicleta, te rog.
+# asta → ăsta
+Copilul ăsta nu mai doarme deloc noaptea.
+# mobilă → mobila
+Vreau să schimb mobila din sufragerie, mă ajuți să aleg?
+# arați → arăți, poză → poza
+Ce bine arăți în poza asta!
+# bucura → bucură
+Hai să-i dăm un telefon bunicului, se bucură mereu.
+# Cat → Cât
+Cât îi dau fetei de buzunar pe săptămână?
+# grădina → grădină
+Câinele a săpat iar în grădină și a stricat florile mamei.
+# ca → că
+Pleacă și tu odată în concediu, că meriți.
+# saturat → săturat
+M-am săturat să fac eu totul prin casă.
+# nepoteii → nepoțeii
+Ce mai fac nepoțeii?
+# Lasa-mă → Lasă-mă, vorba → vorbă
+Lasă-mă în pace, nu am chef de vorbă azi.
+# zăcuscă → zacuscă
+Am făcut zacuscă, ți-am păstrat două borcane.
+# ca → că
+Hai că mai e puțin până în vacanță!
+# supără → supăra
+Nu te supăra, dar nu pot să vin la petrecere.
+# diriginta → dirigintă
+Am întâlnit-o pe fosta ta dirigintă la piață.
+# Spala-te → Spală-te
+Spală-te pe mâini înainte să te pui la masă!
+# gleznă → glezna
+Mi s-a umflat glezna, nu știu ce am făcut.
+# plăcuțe → plăcute
+noapte bună, somn ușor și vise plăcute
+# coada → coadă, va → vă
+Am ajuns, e coadă mare la intrare, vă țin un loc.
+# Ti-ai → Ți-ai, urma → urmă
+Ți-ai găsit telefonul până la urmă?
+# dimineața → dimineață
+Fetița vecinei plânge de dimineață, oare e bolnavă?
+# piața → piață
+Mergem la piață mâine? Vreau să iau niște legume pentru murături.
+# Ti-a → Ți-a
+Ți-a trecut durerea de cap?
+# Aseara → Aseară
+Aseară am visat că eram iar în liceu.
+# mașina → mașină
+Vin și eu cu voi la mare, dacă mai e loc în mașină.
+# ca → că
+Pune o haină pe tine, că răcești!
+# casa → casă, țara → țară
+E adevărat că v-ați luat casă la țară?
+# dulceată → dulceață
+Am făcut dulceață de caise, vrei un borcan?
+# ca → că
+Tu crezi că o să-i placă cadoul?
+# repara → repară
+Știi pe cineva care repară mașini de spălat?
+# apă → apa
+Iar au tăiat apa caldă la noi în bloc.
+# Macar → Măcar
+Măcar o dată să ajungi la timp și eu nu mai zic nimic.
+# coborî → cobori
+Gata, am ajuns, poți să cobori.
+# asta → ăsta
+Nu mai pot cu vecinul ăsta, iar a parcat în fața garajului meu.
+# chemam → chemăm, ca → că
+Hai să-l chemăm și pe Dragoș, că e singur în weekend.
+# ca → că, vacanță → vacanța
+Hai că vine vacanța și ne vedem mai des.
+# Ti-am → Ți-am
+Ți-am lăsat niște bani pe masă pentru cumpărături.
+# Sa → Să
+Să nu-i dai copilului dulciuri înainte de masă.
+# Fețele → Fetele
+Fetele s-au jucat toată ziua în nisip, sunt numai praf.
+# Buna → Bună, va → vă
+Bună seara, doamna Popescu, mama lui Tudor vă scrie.
+# asta → ăsta
+Nu știu ce să mai fac cu adolescentul ăsta, nu vorbește deloc cu noi.
+# Cumpăra → Cumpără
+Cumpără și niște mere pentru plăcintă.
+# bunică → bunica
+Am stat la povești cu bunica până la miezul nopții.
+# dimineața → dimineață
+Mâine dimineață merg să donez sânge, vii cu mine?
+# grădinița → grădiniță
+Am uitat iar de ședința de la grădiniță.
+# ca → că
+Am zis că vin, deci vin!
+# diseara → diseară
+Avem musafiri diseară, poți să iei niște vin?
+# Ti-am → Ți-am
+Ți-am luat un pulover, sper că e mărimea ta.
+# Fața → Fata
+Fata mea și-a pierdut primul dinte azi!
+# deșertul → desertul
+Ne vedem duminică la masă, aduceți voi desertul.
+# schimbă → schimba
+Da, știu, am greșit, dar nu mai pot schimba nimic acum.
+# ca → că
+Spune-i bunicii că o iubim mult și că venim curând.
+# Cat → Cât
+Cât ai plătit pe bicicleta aia?
+# Maine → Mâine
+Ai pus alarma? Mâine nu avem voie să întârziem.
+# Ma → Mă, ca → că
+Mă bucur că v-a plăcut la noi, să mai veniți!
+# ține → tine
+Pot să dorm la tine în seara asta?
+# Ti-ai → Ți-ai
+Ți-ai dat seama cine a luat ultimul iaurt?
+# plouă → ploua, tată → tata
+Dacă nu ploua, mergeam la pescuit cu tata.
+# va → vă
+Aș vrea să vă invit la noi la o cină, sâmbătă seara.
+# asta → ăsta
+Băiatul ăsta mă înnebunește, a spart iar un pahar.
+# degeabă → degeaba
+Te rog să mă anunți dacă nu mai vii, să nu gătesc degeaba.
+# strand → ștrand
+Ai văzut ce cald e? Hai la ștrand!
+# spălă → spală
+Cine spală azi vasele? Eu le-am spălat ieri.
+# întrună → întruna
+Încerc să dorm, dar copilul vecinilor plânge întruna.
+# Ti-am → Ți-am
+Ți-am trimis pe mail pozele de la botez.
+# fiica-ții → fiică-tii, bicicletă → bicicleta
+Poți să-i spui fiică-tii să nu mai lase bicicleta pe scară?
+# Ti-ai → Ți-ai, rasa → rasă
+Ți-ai luat un câine? Ce rasă e?
+# uită → uita, ca → că
+Nu uita că mâine e ziua mamei tale.
+# sa → să
+Am așteptat toată ziua să mă suni.
+# întreaba → întreabă
+Copiii întreabă când mai venim la voi.
+# că → ca
+Iar a mers liftul ca melcul.
+# asta → ăsta
+Nu-mi mai dau seama ce vrea copilul ăsta.
+# fetiță → fetița, leiță → leită, maica-sa → maică-sa
+Mi-a trimis Ana o poză cu fetița, e leită maică-sa.
+# Ti-ai → Ți-ai
+Ți-ai cumpărat în sfârșit pantofii pe care îi voiai?
+# ora → oră, țaica-tu → taică-tu
+Pe la ce oră vine taică-tu să ne ajute cu mutatul?
+# seara → seară
+ce faci mâine seară? hai la o bere
+# Mama → Mamă, uscatorul → uscătorul
+Mamă, unde e uscătorul de păr?
+# Ti-e → Ți-e, căldură → căldura
+Ți-e frig? Pot să dau căldura mai tare.
+# mașină → mașina
+Am pus mașina de spălat, întinde tu rufele când se termină.
+# arat → arăt
+Vreau să-ți arăt ceva, vino puțin în cameră.
+# ca-l → că-l, burtă → burta
+Fiul meu nu vrea să meargă la școală, zice că-l doare burta.
+# saturat → săturat
+M-am săturat de ploaia asta, vreau soare!
+# după-amiază → după-amiaza
+Fetele au făcut brățări din mărgele toată după-amiaza.
+# grija → grijă
+Ai grijă la scări, sunt ude.
+# Va → Vă
+Unde v-ați ascuns? Vă caut de un sfert de oră.
+# Lasa → Lasă
+Lasă telefonul și vino la masă!
+# centrală → centrala, stam → stăm
+Iar s-a defectat centrala, stăm în frig.
+# debară → debara
+Cineva a uitat lumina aprinsă în debara.
+# tată → tata
+Hai să luăm un tort pentru tata, că a ieșit la pensie.
+# strand → ștrand
+Copiii s-au culcat devreme, au obosit la ștrand.
+# nunta → nuntă
+Nu am ce să mă îmbrac la nuntă.
+# pauză → pauza
+Pot să te sun în pauza de masă?
+# Lasa → Lasă, spal → spăl
+Lasă vasele, le spăl eu mâine.
+# va → vă, grija → grijă
+Să vă distrați frumos și să aveți grijă unii de alții!
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață te duc eu la gară, nu lua taxi.
+# Ti-am → Ți-am, pătură → pătura
+Ți-am pregătit pătura și perna pe canapea.
+# ciocolată → ciocolata
+Iar ai mâncat ciocolata mea!
+# pizză → pizza
+Hai să ne vedem la o pizza la noi în cartier.
+# Ma → Mă
+Mă doare spatele de la atâta stat în picioare.
+# nasă → nașa, salutari → salutări
+Am întâlnit-o pe nașa în tramvai, ți-a transmis salutări.
+# relaxam → relaxăm, cabana → cabană
+Abia aștept să ne relaxăm la cabană.
+# iarbă → iarba
+A crescut prea mult iarba, trebuie tunsă.
+# tată → tata
+Mi-a trimis tata o poză cu peștele prins, e uriaș!
+# uită → uita
+Nu te uita la mine așa, n-am făcut nimic!
+# prăjitura → prăjitură
+Hai la mine, am făcut prăjitură cu vișine.
+# pisică → pisica
+Copilul a desenat toată familia, chiar și pisica.
+# Maine → Mâine
+Mâine e serbarea de sfârșit de an, nu uita costumul.
+# Ti-ai → Ți-ai, Plecam → Plecăm
+Ți-ai făcut bagajul? Plecăm într-o oră.
+# ca → că
+Hai că e frumos afară, ieșim cu cei mici la loc de joacă.
+# soacră → soacra
+Să-ți spun ce mi-a zis soacra azi, să mori de râs.
+# ajuta-mă → ajută-mă
+Pune și tu mâna și ajută-mă, că nu sunt servitoarea ta!
+# Ti-am → Ți-am
+Ți-am luat bilet și ție la concert.
+# Ti-a → Ți-a, plăcintă → plăcinta
+Ți-a mai rămas din plăcinta aia cu brânză?
+# casă → casa
+Să știi că mi-a plăcut mult cum ai aranjat casa.
+# Vecinîi → Vecinii
+Vecinii au făcut scandal iar până la trei dimineața.
+# ca → că
+Hai că mai avem doar câteva zile de școală.
+# Imi → Îmi
+Îmi plac la nebunie pozele de la mare!
+# bunică → bunica
+Am o veste proastă, s-a îmbolnăvit bunica.
+# urari → urări
+Mulțumesc pentru urări, mi-au mers la suflet!
+# ca → că
+Să-i spui mamei tale că o salut.
+# sacosele → sacoșele
+Am venit de la piață cu sacoșele pline.
+# școala-te → scoală-te, ca → că
+Hai, scoală-te, că e deja zece!
+# asta → ăsta
+Băiatul ăsta mănâncă cât trei.
+# pomană → pomana
+Când facem pomana pentru bunicul?
+# Ti-a → Ți-a, supă → supa
+Ți-a plăcut supa? Am pus și leuștean.
+# feței → fetei
+Ce zici dacă îi luăm un cățel fetei de ziua ei?
+# diseara → diseară
+Hai să ieșim la o plimbare pe faleză diseară.
+# ciocolată → ciocolata
+Știu că-ți place ciocolata amăruie, ți-am luat una.
+# cumințe → cuminte, grădinița → grădiniță
+Copilul a fost cuminte azi la grădiniță?
+# ca → că
+Te-ai trezit? Hai, că întârziem!
+# dă → da
+Am pus mâncare la pisică, nu-i mai da tu.
+# plecam → plecăm
+Vreau să plecăm undeva doar noi doi.
+# merși → mersi
+am ajuns acasă, mersi că m-ai condus
+# Maine → Mâine
+Mâine nu e școală, e zi liberă, ai uitat?
+# supă → supa
+Copiii au mâncat toată supa, ce minune!
+# ca → că
+Fii atent la câine, că sare pe oameni.
+# Ăi → Ai
+Ai vreo veste de la fratele tău din Germania?
+# cabana → cabană
+Ne-am rătăcit, nu găsim drumul spre cabană.
+# pătit → pățit
+Copilul a pus mâna pe aragaz, dar n-a pățit nimic.
+# Ti-am → Ți-am
+Ți-am trimis un mesaj vocal, ascultă-l când poți.
+# Cumpăra-mi → Cumpără-mi
+Cumpără-mi și mie un suc de portocale, te rog.
+# Cat → Cât
+Cât de mare e apartamentul nou?
+# mamă → mama
+Cel mic a învățat să spună mama, am plâns de emoție.
+# pastilă → pastila
+Să nu uiți să-i dai pastila la opt.
+# Ti-ai → Ți-ai
+Ți-ai luat haina groasă? Afară sunt minus zece grade.
+# Macar → Măcar
+Măcar trimite-mi un mesaj când ajungi.
+# Ti-am → Ți-am
+Ți-am luat o cutie de bomboane, știu că-ți plac.
+# așă → așa
+Mi-a fost dor de voi, nu ne mai pierdem așa.
+# Ti-ai → Ți-ai
+Ți-ai făcut temele sau te uiți iar la desene?
+# ca → că
+Hai că facem un ceai și ne uităm la un film.
+# Ti-ai → Ți-ai
+Ți-ai luat ceva de băut pentru drum?
+# trusă → trusa
+Știi unde e trusa de prim ajutor?
+# bunică → bunica
+Hai să mergem la bunica, ne-a chemat la plăcinte.
+# atâtă → atâta, gălagie → gălăgie
+De ce e atâta gălăgie la voi?
+# ghețe → ghete
+Trebuie să-mi cumpăr o pereche de ghete noi pentru iarnă.
+# ciorbă → ciorba
+Când mai faci tu ciorba aia de burtă?
+# nasului → nașului
+Ce cadou să-i iau nașului?
+# Ti-am → Ți-am
+Ți-am adus ciocolată de la Bruxelles.
+# Sa → Să, ca → că
+Să te ferești de curent, că abia te-ai făcut bine.
+# Ti-e → Ți-e
+Ți-e somn? Du-te și te culcă!
+# Maine → Mâine, mașină → mașina
+Mâine trebuie să ducem mașina la service.
+# Fața → Fata
+Fata vecinilor m-a întrebat dacă poate să se joace cu ai noștri.
+# ploua → plouă, grățarul → grătarul
+Uite, plouă iar, ce ne facem cu grătarul?
+# vraiste → vraiște
+Am ajuns acasă și am găsit totul vraiște.
+# Ti-a → Ți-a
+Ți-a ajuns coletul de la mine?
+# Cat → Cât
+Cât a costat excursia la voi?
+# căfeaua → cafeaua
+Copiii se uită la desene și eu beau cafeaua în liniște.
+# asta → ăsta
+Am cumpărat un pom de Crăciun natural anul ăsta.
+# grija → grijă
+Ai grijă să nu-ți uiți pașaportul acasă.
+# păpanasi → papanași, pofta → poftă
+Tu știi să faci papanași? Am poftă.
+# merita → merită, sa → să
+Ce zici, merită să mergem la nunta aia?
+# romană → română
+Ne-am întâlnit cu fostul meu profesor de română la piață.
+# Ti-ai → Ți-ai
+Ți-ai găsit rochie pentru bal?
+# dansam → dansăm
+Pune muzică, hai să dansăm!
+# mașină → mașina
+Cine vine azi să ne repare mașina de spălat?
+# ca → că
+Mi-e teamă că o să plouă la nuntă.
+# căsuță → căsuța
+Hai să mergem să vedem căsuța de la munte.
+# Ma → Mă
+Mă bucur că ești bine!
+# bunică → bunica
+Nu e frumos să vorbești așa cu bunica.
+# Ti-e → Ți-e
+Ți-e dor de mine?
+# ca → că
+hai, zi-mi și mie ce-ai vorbit cu ea, că mor de curiozitate
+# curață → curată
+nu mai găsesc nicio pereche de șosete curată, ce s-a întâmplat cu mașina de spălat?
+# ca → că
+ți-am zis eu că o să-ți placă!
+# ma → mă, piața → piață, dimineața → dimineață
+mă iei și pe mine la piață sâmbătă dimineață?
+# tată → tata
+Iar a mâncat câinele papucii lui tata.
+# mâncă → mânca
+Am pus prea multă sare în fasole, nu se mai poate mânca.
+# plecam → plecăm
+Hai să plecăm la mare vineri după-amiază, să evităm coloanele.
+# poză → poza
+Ce dulce e fetița voastră în poza de la botez!
+# geanță → geanta, ține → tine
+Mi-am uitat geanta la tine în mașină, poți să mi-o aduci mâine?
+# vecină → vecina
+Nu e nimeni acasă, lasă coletul la vecina de alături.
+# sandvisuri → sandvișuri
+Am pregătit sandvișuri pentru drum, nu mai oprim la benzinărie.
+# Fața → Fata
+Fata a zis că vrea să se facă medic când o să fie mare.
+# Maine → Mâine
+Mâine e ultima zi de grădiniță înainte de vacanță.
+# casa → casă, chemam → chemăm
+A plouat în casă prin acoperiș, trebuie să-l chemăm pe meșter.
+# camera → cameră
+Iar mi-ai luat încărcătorul din cameră fără să mă întrebi!
+# Cumpăra → Cumpără, ca → că
+Cumpără și o sticlă de ulei, că am terminat-o.
+# Ti-am → Ți-am, listă → lista
+Ți-am trimis lista cu ce trebuie luat pentru tabără.
+# casa → casă
+Nu-mi place să rămân singur în casă de sărbători.
+# Ti-a → Ți-a
+Ți-a spus Mara că vine cu prietenul nou?
+# cantină → cantina
+Hai să ne vedem la o ciorbă la cantina de lângă tine.
+# urgente → urgențe
+Sunt la urgențe cu cel mic, și-a scrântit mâna.
+# saturat → săturat
+M-am săturat de mesajele tale pasiv-agresive.
+# tată → tata
+Ce mult a slăbit tata, mi-e tare grijă de el.
+# vorba → vorbă, diseara → diseară
+Nu prea am timp de vorbă acum, te sun diseară.
+# Ti-ai → Ți-ai
+Ți-ai luat costum de baie? Hotelul are piscină.
+# ieș → ies
+Am pus murăturile la saramură, să vedem cum ies.
+# scara → scară
+Nu mai suport mirosul de prăjeală din scară.
+# tușe → tuse
+Ai vreun leac pentru tuse? Cel mic tușește toată noaptea.
+# masea → măsea
+Mi s-a umflat obrazul, cred că am o măsea stricată.
+# dura → dură
+Îmi cer scuze dacă am fost prea dură cu tine.
+# aseara → aseară
+Am făcut aseară lasagna, a fost un succes.
+# fetiță → fetița
+Ce frumos cântă fetița ta la pian!
+# Ti-ai → Ți-ai, mașină → mașina
+Ți-ai cumpărat mașina pe care o voiai?
+# singura → singură
+Mi-e milă de ea, a rămas singură cu trei copii.
+# ca → că
+Spune-i lui Ionuț că poate să vină și cu fratele lui.
+# său → sau
+Ai prins trenul sau l-ai pierdut iar?
+# supăra → supără
+Nu înțeleg de ce se supără așa ușor.
+# Bunică → Bunica
+Bunica zice că nu mai vine la oraș, că e prea mult zgomot.
+# Imi → Îmi
+Îmi faci și mie o cafea, te rog?
+# Ti-am → Ți-am
+Ți-am spus că am o surpriză, dar n-o să afli până sâmbătă.
+# vară → vara
+Îți amintești de vara în care am mers cu cortul la Vama Veche?
+# fa → fă
+Am terminat toată mâncarea, mai fă și tu ceva.
+# Sa → Să
+Să nu-ți uiți actele în mașină.
+# grija → grijă, lasă → lăsa
+Ai grijă cu focul, nu-l lăsa nesupravegheat.
+# rețetă → rețeta
+Să-mi trimiți și rețeta de plăcintă cu dovleac.
+# ține → tine
+Ești acasă? Vreau să trec pe la tine cinci minute.
+# ca → că
+Sunt sigură că o să fie o zi frumoasă.
+# diseara → diseară
+Cine e de serviciu la vase diseară?
+# ciorba → ciorbă
+Pune și niște pătrunjel în ciorbă la final.
+# pătit → pățit, mâna → mână
+Ce-ai pățit la mână?
+# siguranță → siguranța
+Iar s-a ars siguranța, nu mai avem lumină în bucătărie.
+# ședință → ședința
+Mergi și tu la ședința de bloc? Se discută despre lift.
+# Ti-am → Ți-am, apă → apa
+Ți-am pregătit baia, e apa caldă.
+# țara → țară
+Hai să ne mutăm la țară când ieșim la pensie.
+# mașina → mașină
+Ai văzut unde mi-am pus cheile de la mașină?
+# Sa → Să
+Să le dai copiilor câte un măr la pachet.
+# coada → coadă
+Am stat la coadă o oră la ghișeu, ce nervi!
+# Ti-ai → Ți-ai
+Ți-ai găsit o chirie mai ieftină?
+# factură → factura
+Te rog să-mi trimiți o poză cu factura, s-o plătesc online.
+# cratită → cratiță, întreaga → întreagă
+Mama a făcut o cratiță întreagă de ardei umpluți.
+# ca → că
+Hai că mai stăm puțin, e încă devreme.
+# geacă → geaca
+De ce nu ți-ai pus geaca?
+# Ti-am → Ți-am
+Ți-am zis să nu mai pui ardei iute în tot.
+# Ti-am → Ți-am
+Ți-am făcut o listă cu tot ce trebuie să iei de la piață.
+# vecină → vecina, uda → udă
+Am vorbit cu vecina, ne udă ea florile cât suntem plecați.
+# Fața → Fata
+Fata mea și-a făcut prima prietenă la școală.
+# grabi → grăbi
+Hai să mai stăm la o vorbă, nu te grăbi.
+# pisică → pisica
+De ce ai pus pisica în coșul de rufe?
+# bunică → bunica
+Am ajuns la bunica, ți-a pus deoparte niște ouă de țară.
+# Maine → Mâine, ședință → ședința
+Mâine e ședința de bloc, mergi tu că eu nu pot.
+# iarta-mă → iartă-mă
+Știu că am greșit, iartă-mă, te rog.
+# că → ca, bunică → bunica
+Mi-e poftă de o plăcintă cu varză ca la bunica.
+# Ti-am → Ți-am
+Ți-am găsit cerceii sub canapea!
+# lună → luna
+Am plătit eu întreținerea luna asta, tu o plătești pe următoarea.
+# Fața → Fata
+Fata mea a început să vorbească numai în engleză de la desene.
+# mamă → mama
+Ai văzut ce scrie mama pe grup? Iar trimite mesaje cu lanțuri.
+# ca → că, bunică → bunica
+Hai că vine mâine bunica și trebuie să facem curat.
+# înghețată → înghețata
+Cine a mâncat toată înghețata din congelator?
+# Ma → Mă, ca → că
+Mă bucur că ai sunat, mă simțeam singură.
+# Rares → Rareș
+Îi dau lui Rareș hainele care nu-i mai vin lui David.
+# vinețe → vinete
+Am făcut prima oară salată de vinete și a ieșit delicioasă.
+# Latra → Latră
+Ai pus mâncare la câine? Latră de foame.
+# plecam → plecăm
+Gata, am terminat de împachetat, putem să plecăm.
+# ușa → ușă
+Iar ți-ai uitat cheile în ușă!
+# ca → că, uităm → uitam
+Ce bine că mi-ai zis, altfel uitam complet.
+# Ma → Mă, sa → să
+Mă duc la mama să o ajut cu geamurile.
+# Imi → Îmi
+Îmi cumperi și mie o cafea când treci pe lângă chioșc?
+# Lasa → Lasă, ca → că
+Lasă, că mergem altă dată, nu e grabă.
+# ca → că
+Hai să ne facem un selfie, că suntem toți frumoși azi.
+# grija → grijă
+Ai grijă să închizi gazul înainte să pleci.
+# Ti-ai → Ți-ai, vacanță → vacanța, stim → știm
+Ți-ai programat deja vacanța? Noi încă nu știm.
+# Fața → Fata
+Fata mi-a adus o floare de la grădiniță, m-am topit.
+# tencuială → tencuiala
+Ne-a căzut tencuiala din tavan în baie.
+# Ti-ai → Ți-ai
+Ți-ai luat ceva de mâncare la serviciu?
+# asta → ăsta
+Ce faci de ziua ta anul ăsta?
+# bunică → bunica
+Am stat toată ziua cu bunica la spital.
+# va → vă
+Ce frumos e să vă văd împreună din nou!
+# ciorba → ciorbă
+Am gătit ciorbă de fasole cu afumătură.
+# Maine → Mâine
+Mâine trebuie să mă trezesc la șase, deci mă culc devreme.
+# ala → ăla
+Cine e băiatul ăla cu care vorbeai la poartă?
+# Ti-am → Ți-am, mașină → mașina
+Ți-am spălat mașina, să vezi ce strălucește!
+# apă → apa
+Pune puțin oțet în apa de la ouă, să nu crape.
+# dirigintă → diriginta, ca → că
+M-a sunat diriginta, zice că băiatul a lipsit două zile.
+# ploua → plouă
+Iar plouă și n-am umbrelă la mine.
+# Sa → Să
+Să nu-i mai dai bani fratelui tău, că nu ți-i mai dă înapoi.
+# Lasa-ma → Lasă-mă, sa → să
+Lasă-mă să termin ce am de zis!
+# Ti-am → Ți-am
+Ți-am trimis numărul de la doamna care face torturi.
+# dam → dăm, ca → că
+Hai să-i dăm de veste mamei, că se bucură.
+# Ti-ai → Ți-ai
+Ți-ai luat haine de schimb pentru copil?
+# frica → frică
+Copiii vor să doarmă cu noi în pat, că le e frică de furtună.
+# lasă → lăsa, piscina → piscină
+Nu-i lăsa pe copii singuri la piscină.
+# așteptăm → așteptam
+Ce bine că ai venit, abia te așteptam!
+# școala → școală
+Copilul și-a rupt ochelarii la școală.
+# Ploua → Plouă
+Te-ai uitat pe prognoză? Plouă mâine?
+# Fața → Fata
+Fata noastră s-a îndrăgostit, ce facem?
+# urma → urmă
+Ne-am pierdut prin pădure, dar am găsit până la urmă drumul.
+# pandispan → pandișpan
+Am făcut un pandișpan cu căpșuni, vino să-l mănânci cu noi.
+# căfea → cafea
+Ce bine e să stai la soare pe balcon cu o cafea!
+# Maine → Mâine, plecam → plecăm
+Mâine plecăm la bunici, ne întoarcem duminică seara.
+# intră → intra
+Hai să facem ordine în garaj, nu se mai poate intra.
+# căteii → cățeii
+Ce faci cu cățeii? I-ai dat pe toți?
+# masă → masa
+Am terminat de pregătit masa, chemați-i pe toți.
+# ca → că
+Mulțumesc că m-ai luat de la aeroport.
+# domnișoara → domnișoară
+Ce mare s-a făcut nepoata ta, e domnișoară!
+# inimă → inima
+Mi-ai spart inima, să știi.
+# casa → casă
+Abia am intrat în casă și deja mă sună șefa.
+# ușă → ușa
+Copiii au făcut o pictură pe ușa de la frigider.
+# rădăuteană → rădăuțeană
+Am încercat rețeta ta de ciorbă rădăuțeană, mi-a ieșit perfect!
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață merg cu mama la piață, vrei să vii și tu?
+# Ti-am → Ți-am
+Ți-am pus în bagaj și niște sarmale pentru drum.
+# ca → că, grădină → grădina
+Să-i spui bunicii că o să vin s-o ajut cu grădina.
+# febra → febră
+Copilul a făcut febră mare peste noapte, nu dormim deloc.
+# bunică → bunica
+Mi-a zis bunica că a avut un vis cu tine.
+# pizză → pizza
+Te rog să-mi aduci și mie o felie de pizza.
+# Ti-am → Ți-am
+Ți-am spus că nu mai vreau să vorbim despre asta!
+# față → fată
+Fiul vecinilor s-a însurat, și-a luat o fată din Brăila.
+# Cumpăra-mi → Cumpără-mi
+Cumpără-mi și mie niște vată de zahăr dacă găsești.
+# iarbă → iarba
+Iar a crescut iarba până la genunchi în curte.
+# Maine → Mâine
+Mâine nu se duce nimeni la școală, e ger.
+# țanti → tanti
+Ai mai fost pe la tanti Viorica?
+# Fața → Fata, sa → să, pijamă → pijama, colegă → colega
+Fata vrea să o lăsăm la o pijama party la colega ei.
+# ca → că
+Am fost la ședință, profesorii zic că e foarte bun la mate.
+# Suna-mă → Sună-mă
+Ce faci, ai ajuns? Sună-mă când poți.
+# Lasa-mă → Lasă-mă
+Lasă-mă cinci minute să mă gândesc.
+# Ti-am → Ți-am
+Ți-am trimis un video cu cel mic cum cântă, mori de drag.
+# ca → că
+Hai că rămânem la voi peste noapte, e prea târziu de condus.
+# cruciulită → cruciuliță
+Am cumpărat cadoul pentru botez, e o cruciuliță de aur.
+# chemam → chemăm
+Hai să-i chemăm și pe vecinii de la patru la grătar.
+# Ca → Că
+Știi ce mi-a zis copilul azi? Că vrea să fie pompier.
+# vizită → vizita
+Mi-ai făcut o mare bucurie cu vizita ta.
+# ține → tine
+Copiii au cules flori pentru tine din curte.
+# bunică → bunica
+Ai fost la bunica la spital? Cum se simte?
+# pizză → pizza
+Hai să facem pizza acasă, cu copiii.
+# țaica-tu → taică-tu
+Să-i spui și lui taică-tu că mâine nu vin.
+# răzând → râzând
+Ce mult îmi place să te aud râzând.
+# Ma → Mă, bunică → bunica
+Mă duc să-l iau pe cel mic de la bunica.
+# față → fata
+Vino să vezi ce frumos s-a pictat fata!
+# factură → factura
+Am plătit factura de gaz, să nu-ți faci griji.
+# Bunică → Bunica
+Bunica a învățat să trimită mesaje vocale, e foarte mândră.
+# ciorba → ciorbă
+Să-mi spui când vii, să fac ciorbă de pui.
+# vecină → vecina
+Mi-a dat vecina un borcan de miere de la țară.
+# vacanță → vacanța
+Ce fac cu cei mici în vacanța de vară?
+# romană → română
+Iar a uitat copilul să-și ia caietul de română.
+# Ti-am → Ți-am
+Ți-am luat un abonament la sală, că tot ziceai că vrei.
+# Fața → Fata
+Fata mea s-a făcut domnișoară, nu-mi vine să cred.
+# ca → că
+Hai, că mâine e o zi nouă.
+# Ti-ai → Ți-ai, nunta → nuntă
+Ți-ai cumpărat rochia pentru nuntă?
+# ala → ăla
+Ai mai ieșit cu băiatul ăla de la nunta Ralucăi?
+# mândra → mândră
+Sunt mândră de tine, ai muncit enorm pentru asta.
+# pres → preș
+Am lăsat cheia sub preș, să știi.
+# plecam → plecăm
+Hai să plecăm la mare fără copii, doar noi doi.
+# Ti-au → Ți-au
+Ți-au venit florile pe care ți le-am trimis?
+# mamăliguță → mămăliguță
+Am făcut tocăniță de ciuperci și mămăliguță.
+# ca → că
+Ia-ți o umbrelă de la mine, că plouă tare.
+# dam → dăm
+Hai să-i dăm o mână de ajutor bunicii la cules.
+# fața → fata
+Am vorbit cu fata la telefon, e fericită la facultate.
+# nuca → nucă
+Mi-a ieșit o prăjitură cu nucă și cafea de te lingi pe degete.
+# ca → că
+Hai că trec eu mâine pe la voi.
+# țigaie → tigaie
+Iar mi s-a ars mâncarea în tigaie, nu mai știu ce fac greșit.
+# Mama → Mamă, noua → nouă
+Mamă, pot să rămân la Bianca până la nouă?
+# proștii → prostii
+Am făcut un drum până la Ikea și m-am întors cu o grămadă de prostii.
+# sa → să
+Te rog să cumperi și detergent de rufe, s-a terminat.
+# urma → urmă
+Ce ți-a spus până la urmă proprietarul?
+# ala → ăla
+Ce s-a ales de prietenul tău din liceu, ăla înalt?
+# nuntă → nunta
+Ne-am hotărât să facem nunta la țară, în curtea bunicilor.
+# ca → că
+Să-i spui doamnei că mâine copilul pleacă mai devreme.
+# ca → că
+Ce bine că ai venit, aveam nevoie de cineva să mă asculte.
+# cascată → căscată
+Am rămas cu gura căscată când am văzut cât a crescut.
+# tată → tata
+Hai să-i facem lui tata un raft pentru cărți.
+# astia → ăștia
+Nu mai înțeleg nimic din ce vorbesc copiii ăștia.
+# arați → arăți
+Cum a fost la Paris? Să-mi arăți toate pozele!
+# mamă → mama
+Am adus și niște cozonac de la mama.
+# Suna-l → Sună-l
+Sună-l tu pe frate-tu, mie nu-mi răspunde.
+# atenta → atentă, ca → că, da → dă
+Fii atentă la oală, că dă în foc laptele.
+# sa → să
+M-am înțeles cu vecina să ducem copiii pe rând la școală.
+# mutam → mutăm
+Ne mutăm la Timișoara, am găsit o casă cu grădină.
+# Ti-am → Ți-am
+Ți-am trimis bani pe card pentru cadoul lui Vali.
+# nunta → nuntă
+Ai văzut ce frumos s-a îmbrăcat Cristi la nuntă?
+# ca → că
+Pune-ți fularul, că bate vântul.
+# sacosa → sacoșă, scari → scări
+Mi-au căzut toate ouăle din sacoșă pe scări.
+# masa → masă
+Ți-am pus pe masă niște bani pentru excursie.
+# bunică → bunica
+Să știi că bunica a întrebat de tine.
+# ca → că, cabana → cabană
+Am vorbit cu Ioana, zice că vine și ea la cabană.
+# ține → tine
+Mi s-a făcut dor de tine brusc.
+# ca → că
+Hai că facem o plimbare și după aia mâncăm.
+# oglindă → oglinda, mașina → mașină
+Mi-a stricat cineva oglinda de la mașină în parcare.
+# Ti-ai → Ți-ai, Arați → Arăți
+Ți-ai mai vopsit părul? Arăți altfel.
+# grija → grijă, scăpă → scăpa
+Ai grijă la copii în piscină, nu-i scăpa din ochi.
+# ca → că
+Mama zice că vine să ne ajute cu bebelușul o săptămână.
+# libera → liberă, sa → să
+Mi-am luat o zi liberă să mă odihnesc.
+# Ti-am → Ți-am
+Ți-am luat și ție o pereche de mănuși.
+# ca → că, grabi → grăbi
+Hai că mai avem timp, nu te grăbi.
+# ca → că
+Ce bine că am apucat să ne vedem înainte să pleci.
+# sacosă → sacoșă
+Vecinul ne-a adus o sacoșă de mere din livadă.
+# bunică → bunica
+Ce frumos ai scris felicitarea pentru bunica!
+# tuica → țuică
+Tata a făcut țuică și vrea să-ți dea și ție.
+# Ti-a → Ți-a
+Ți-a plăcut la ziua lui Răzvan?
+# fetiță → fetița
+Ce mai face fetița ta? Merge la școală?
+# bunică → bunica
+Am primit o cutie cu bunătăți de la bunica.
+# ca → că
+Nu-mi place că stai atât de târziu în oraș.
+# ca → că
+Ce bine că ne-am cunoscut!
+# ca → că
+Hai că ne vedem curând, promit!
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață vin cu micul dejun la tine.
+# vecină → vecina, da → dă
+Am lăsat mâncarea la vecina, ți-o dă ea.
+# vară → vara, strând → ștrand
+Ce bine că a venit vara, putem să mergem la ștrand!
+# dus → duș
+Hai că-ți fac eu patul, tu du-te la duș.
+# barcă → barca
+Ce zici de o tură cu barca pe lac?
+# mamă → mama
+Nu știu cum o să ne descurcăm fără mama.
+# colegă → colega
+Copilul s-a îndrăgostit de colega de bancă.
+# după-amiaza → după-amiază
+Tu ce faci duminică după-amiază?
+# bunică → bunica
+Am primit o scrisoare de la bunica, cu poze vechi.
+# față → fată, nouă → noua, scară → scara
+fată, nu știi ce-am aflat azi despre noua vecină de pe scara doi
+# ca → că
+Zice lumea că Marcel și-a vândut apartamentul și s-a mutat la sat.
+# soacră → soacra
+Am auzit-o pe soacra mea zicând că nu știu să fac mâncare, îți dai seama?
+# gluma → glumă
+Ce glumă bună mi-a zis copilul azi: de ce poartă elefantul ochelari?
+# Bula → Bulă, ras → râs
+Mi-a trimis Gabi un banc cu Bulă de am râs zece minute.
+# bârfă → bârfa
+Hai că știu că-ți place bârfa, ascultă aici.
+# sta → stă
+Doamna de la parter stă toată ziua la geam și se uită la toți.
+# ras → râs, tată → tata, piscina → piscină
+Am râs cu lacrimi când a căzut tata în piscină îmbrăcat.
+# Petrica → Petrică
+Ce-o mai fi făcând Petrică? Nu l-am mai văzut de la nuntă.
+# treabă → treaba
+Nu e treaba noastră ce fac ei, lasă-i în pace.
+# ca → că, fața → fata
+Se zice că fata lui Nelu se mărită cu un italian.
+# Ti-am → Ți-am
+Ți-am spus eu că nu durează mult relația aia!
+# portăreasă → portăreasa
+Mi-a zis portăreasa că se schimbă administratorul blocului.
+# burtă → burta
+Doamne, ce ne-am mai distrat la ziua ta, încă mă doare burta de râs!
+# vecină → vecina, ca → că
+Să nu crezi tot ce zice vecina, că exagerează mereu.
+# săptămână → săptămâna, bormașină → bormașina
+A doua oară în săptămâna asta când mă trezește bormașina vecinului.
+# biletel → bilețel
+Am găsit pe scară un bilețel de la vecini care se plâng de câinele nostru.
+# bunică → bunica
+Mi-a povestit bunica cum s-a cunoscut cu bunicul la o horă în sat.
+# aștia → ăștia
+Ce-ai zice dacă ne-am face și noi o vilă la munte, ca ăștia?
+# supară → supăra
+Hai că nu te mai tachinez, nu te supăra.
+# bunică → bunica
+Cel mic m-a întrebat dacă și bunica a fost copil vreodată.
+# Fața → Fata
+Fata mea zice că sunt cea mai bună mamă din lume, m-am topit.
+# șefă → șefa
+Am greșit numărul și am trimis mesajul către șefa, ce rușine!
+# ca → că
+Vecina zice că am câinele cel mai gălăgios din bloc, dar al ei latră mai tare.
+# peste → pește
+Pisica a furat o bucată de pește de pe masă și a fugit sub pat.
+# grădinița → grădiniță
+Copilul a zis la grădiniță că tata doarme toată ziua pe canapea.
+# cumnată → cumnata, câtă → câta
+Iar s-a lăudat cumnata cu noul ei job, a câta oară?
+# Ti-am → Ți-am, aia → ăia
+Ți-am zis că s-a schimbat de când a luat banii ăia.
+# vorbăret → vorbăreț
+Doamna învățătoare mi-a spus că fiul meu e cel mai vorbăreț din clasă.
+# ras → râs
+Am râs de m-am prăpădit când am văzut pozele de pe vremuri.
+# Ma → Mă
+Mă bucur pentru ei, dar sincer nu cred că o să țină.
+# țărășenia → tărășenia
+Am uitat de toată tărășenia, ce s-a întâmplat până la urmă?
+# Ti-am → Ți-am, mamă → mama
+Ți-am spus doar ție, să nu afle mama!
+# nasul → nașul, nunta → nuntă
+Doamne, cât a mai vorbit nașul la nuntă!
+# tată → tata, par → păr
+Copilul m-a întrebat de ce tata are mai puțin păr decât bunicul.
+# ras → râs, sală → sala
+Am râs atât de tare la film încât s-a uitat toată sala la mine.
+# jena → jenă
+Mi-e jenă să-i spun că nu mi-a plăcut cadoul.
+# ca → că, ala → ăla
+Ce mă bucur că te-ai despărțit de ăla, nu era de tine.
+# Ti-am → Ți-am, pătit → pățit
+Ți-am povestit ce a pățit Marius în concediu?
+# grădinița → grădiniță
+Copilul mi-a spus că vrea să se căsătorească cu colega de grădiniță.
+# Aseara → Aseară, nasul → nașul
+Aseară a venit nașul la noi cu o sticlă de vin și a stat până la unu.
+# bunică → bunica, Ca → Că, există → exista
+Știi ce mi-a spus bunica? Că pe vremea ei nu exista divorț.
+# barfe → bârfe
+Nu mai pot să mă uit la emisiunile alea cu bârfe.
+# colega → colegă, ca → că
+Am o colegă care zice că poate să ghicească în cafea.
+# mașină → mașina
+Iar și-a schimbat cumnatul meu mașina, de unde are atâția bani?
+# seară → seara
+Ce bine ne-am înțeles toată seara, parcă ne știam de o viață.
+# Sa → Să
+Să nu-i spui nimic Cameliei, se supără că n-am chemat-o.
+# soacră → soacra
+Doamne, ce curioasă e soacra mea, vrea să știe tot.
+# ras → râs, frizura → frizură
+Am râs de mine când am văzut ce frizură aveam în liceu.
+# fură → fura
+Am aflat cine ne fura ziarul din cutia poștală.
+# Vecinîi → Vecinii
+Vecinii noștri au plecat în vacanță și ne-au lăsat cheile.
+# barbă → barba
+Ce mult ți-a crescut barba! Abia te-am recunoscut.
+# ras → râs
+Am râs de ne-am tăvălit când a încercat tata să danseze.
+# dimineața → dimineață
+Pisica vecinilor vine în fiecare dimineață la noi pe geam.
+# bârfă → bârfa
+Ți-am păstrat bârfa cea mai tare pentru final.
+# spal → spăl, mașină → mașina
+Am făcut un pariu cu fratele meu și am pierdut, acum îi spăl mașina.
+# rad → râd
+Știi că nu mă pot abține să nu râd la nunți.
+# țanți → tanti, sacosă → sacoșă
+Iar a venit tanti Florica neanunțată, cu o sacoșă de gogoși.
+# tată → tata
+Hai să-i facem o glumă de 1 Aprilie lui tata.
+# asta → ăsta
+Nu mai ține minte nimic omul ăsta, săracul.
+# ras → râs, fată → fata
+Am râs de mine când am încercat să fac yoga cu fata.
+# pătit → pățit, chiuveta → chiuvetă
+Ce zici că am pățit? Mi-a căzut inelul în chiuvetă!
+# jura → jură
+Bunicul jură că pe vremea lui iernile erau mai grele.
+# surpriza → surpriză
+Ce surpriză să-l văd pe Mihnea la nuntă, credeam că e în America!
+# ala → ăla
+Ce bine că a plecat musafirul ăla, nu se mai oprea din vorbit.
+# ora → oră
+pe la ce oră ieși de la ore? vin să te iau eu azi
+# Mama → Mamă, noua → nouă
+Mamă, am luat nouă la fizică, poți să-mi semnezi carnetul?
+# uniformă → uniforma
+Am pregătit uniforma pentru mâine, e pe scaun.
+# ca → că
+A zis doamna că mâine au test la matematică, să repete tablele.
+# uită → uita
+Nu uita că joi e ziua porților deschise la grădiniță.
+# Fața → Fata, bicicletă → bicicleta
+Fata vrea să meargă cu bicicleta la școală, e prea departe?
+# lăsă → lasă
+Copilul zice că nu-l lasă colegii să se joace cu ei în pauză.
+# Diseara → Diseară, machetă → macheta
+Diseară trebuie să facem macheta pentru ora de științe.
+# grădinița → grădiniță
+Vine cineva să ia copiii de la grădiniță? Eu întârzii la serviciu.
+# educătoarea → educatoarea, ca → că
+Mi-a zis educatoarea că cel mic a mușcat un coleg.
+# fața → fata
+Ce frumos a recitat fata poezia la serbare!
+# diriginta → dirigintă
+Doamna dirigintă vrea să vorbească cu noi vineri.
+# lumină → lumina
+Îi e frică de întuneric, lasă-i lumina aprinsă în hol.
+# ca → că, fața → fata
+Am descoperit că fata ține un jurnal, să-l citesc sau nu?
+# ala → ăla
+Ce ne facem cu ea dacă nu intră la liceul ăla?
+# ca → că
+I-am promis copilului că mergem la cinema dacă ia zece.
+# față → fată
+Am găsit un meditator bun la română pentru fată.
+# Maine → Mâine
+Mâine copiii au carnaval, ea vrea să fie zână.
+# doamnă → doamna
+Am uitat să-i semnez temele, mă omoară doamna.
+# Ti-a → Ți-a, școala → școală
+Ți-a spus copilul ce a făcut la școală azi?
+# fața → fata, biletel → bilețel
+Mi-a zis fata că a primit un bilețel de la un băiat.
+# grădinița → grădiniță
+Hai că-i fac eu tortul pentru ziua lui de la grădiniță.
+# martea → marțea
+Avem nevoie de o bonă pentru marțea și joia viitoare.
+# Fața → Fata, cariocă → carioca
+Fata și-a vopsit unghiile cu carioca, toate zece.
+# sa → să
+Iar s-a urcat pe dulap cel mic, o să-mi facă inima să cedeze.
+# dimineața → dimineață, seară → seara
+Nu mai pot cu certurile dintre frați, de dimineață până seara.
+# Fața → Fata
+Fata mea a învățat să citească singură!
+# Maine → Mâine
+Mâine e serbarea, ai luat costumul de iepuraș?
+# urată → urâtă, săptămână → săptămâna
+Copilul are o răceală urâtă, stă acasă toată săptămâna.
+# poză → poza
+Am primit poza de grup de la grădiniță, uite ce frumoși sunt!
+# Față → Fata
+Fata a luat locul doi la concursul de matematică!
+# ca → că, sta → stă
+Nu-mi place deloc că stă atâta pe telefon la masă.
+# ploua → plouă
+Ce să-i răspund când mă întreabă de ce plouă?
+# mașinută → mașinuță
+Copilul a făcut o criză în magazin pentru o mașinuță.
+# dă → da
+Nu-i mai da suc, că nu mai doarme deloc.
+# Ti-am → Ți-am, listă → lista, doamnă → doamna
+Ți-am trimis lista cu rechizite de la doamna învățătoare.
+# față → fata
+Ai văzut în ce hal și-a lăsat camera fata?
+# pisică → pisica, grădinița → grădiniță
+Copilul vrea să ia pisica la grădiniță, să o arate colegilor.
+# ca → că
+Mi-a zis cel mic că vrea să fie astronaut.
+# Fața → Fata
+Fata a plâns că nu a fost aleasă în echipa de baschet.
+# asta → ăsta
+Cine i-a învățat pe copii cântecul ăsta enervant?
+# bunică → bunica
+Îi e dor de bunica și vrea să o sune în fiecare seară.
+# Față → Fata
+Fata a zis că nu mai vrea să meargă la balet, s-a plictisit.
+# Ti-a → Ți-a, fața → fata
+Ți-a zis fata că s-a certat cu cea mai bună prietenă?
+# Maine → Mâine
+Mâine e ultima zi de școală, au festivitate la zece.
+# asta → ăsta
+Băiatul ăsta a crescut cât mine, nu-mi vine să cred.
+# Fața → Fata
+Fata și-a pierdut mănușile, a treia pereche în iarna asta.
+# Fața → Fata
+Fata vrea să-și facă găuri în urechi pentru cercei.
+# stelută → steluță
+Copilul a primit o steluță pentru că a fost cuminte.
+# fața → fata
+Mi-a zis fata că vrea să învețe să gătească.
+# grădinița → grădiniță
+Iar a uitat cel mic hanoracul la grădiniță.
+# seară → seara, față → fata
+Am stat toată seara cu fata la un proiect la geografie.
+# bunică → bunica
+Ce frumos a vorbit cel mic la telefon cu bunica!
+# vânat → vânăt
+Băiatul a ajuns acasă cu ochiul vânăt, s-a bătut în pauză.
+# pisică → pisica, săracă → săraca
+Cel mic a pictat pisica cu acuarele, săraca!
+# Fața → Fata
+Fata noastră a vorbit prima oară la telefon cu un băiat.
+# Ti-am → Ți-am, poză → poza
+Ți-am trimis poza cu copiii în costume de Halloween.
+# că → ca
+Copiii au vrut să facă singuri sandvișuri, bucătăria arată ca după război.
+# față → fata
+Mi-a zis doamna că fata e foarte atentă la ore.
+# ședința → ședință
+Hai să mergem la ședință împreună, să vedem ce zice dirigintele.
+# Ti-am → Ți-am
+Ți-am lăsat în frigider piureul pentru cel mic.
+# dă → da, ca → că
+Nu-i mai da biberonul noaptea, zice doctorul că e mare.
+# Față → Fata, singura → singură, dimineața → dimineață
+Fata a început să-și facă singură patul în fiecare dimineață.
+# Maine → Mâine, vacanță → vacanța
+Mâine plec cu copiii la bunici pentru toată vacanța.
+# ciocolată → ciocolata
+Cel mic a vrut să-i dea pisicii din ciocolata lui.
+# Fața → Fata
+Fata mi-a cerut voie să meargă la concert cu prietenele.
+# casă → casa
+Ce bine e când copiii dorm și casa e liniștită!
+# perna → pernă
+I-a căzut dintele din față și l-a pus sub pernă pentru zâna măseluță.
+# Cata → Câtă
+Câtă făină pun la un kilogram de cartofi pentru găluște?
+# Ti-am → Ți-am
+Ți-am lăsat puiul marinat în frigider, îl bagi la cuptor la șase.
+# săptămână → săptămâna
+Iar am făcut prea multă mâncare, o să mâncăm toată săptămâna.
+# calit → călit, ceapă → ceapa
+Am călit ceapa prea tare și s-a ars puțin.
+# ca → că
+Pune laptele la încălzit, că fac piure.
+# ca → că
+Fierbe cartofii cu coajă, că rămân mai gustoși.
+# casă → casa
+Gata, a ieșit pâinea din cuptor, miroase în toată casa!
+# zăcușcă → zacuscă, simț → simt
+Am curățat trei kilograme de ardei pentru zacuscă, nu-mi mai simt degetele.
+# bunică → bunica
+Am făcut iahnie de fasole, cum o făcea bunica.
+# blațul → blatul
+Să nu deschizi cuptorul, că se lasă blatul!
+# varză → varza
+Am pus varza la murat în butoi, ca în fiecare toamnă.
+# salată → salata, vinețe → vinete
+Ce pun în salata de vinete, ceapă sau nu?
+# maioneză → maioneza, mândra → mândră
+Mi-a ieșit maioneza din prima, sunt mândră!
+# da → dă
+Pune o frunză de dafin în ciorbă, dă un gust bun.
+# Maine → Mâine
+Ai scos carnea din congelator? Mâine facem tocană.
+# păpănasi → papanași, ca → că
+Hai să facem papanași, că avem brânză de la țară.
+# Cat → Cât, salată → salata
+Cât timp ții ouăle la fiert pentru salata de boeuf?
+# Ti-am → Ți-am
+Ți-am făcut mâncarea ta preferată, ghiveci cu carne de porc.
+# cheama → cheamă
+Cartofii prăjiți sunt gata, cheamă copiii.
+# rețetă → rețeta
+Mama mi-a dat rețeta de cornulețe cu rahat, în sfârșit.
+# Ti-am → Ți-am, piața → piață
+Ți-am luat legume de la piață pentru supă.
+# friptură → friptura
+Am uitat friptura în cuptor și s-a uscat de tot.
+# Fa → Fă, salată → salata
+Fă tu salata, eu mă ocup de carne.
+# tocăniță → tocănița
+Ce bine miroase tocănița, mi s-a făcut foame!
+# ciorba → ciorbă, peste → pește, tată → tata
+Am făcut ciorbă de pește cu peștele prins de tata.
+# atâtă → atâta
+Nu mai fierbe cartofii atâta, se fac terci.
+# smântână → smântâna
+Pune smântâna la final, să nu se taie.
+# Ti-a → Ți-a
+Ți-a ieșit friptura foarte fragedă, cum ai făcut-o?
+# mazare → mazăre
+Am făcut o mâncare de mazăre cu pui, vrei să-ți dau?
+# briose → brioșe
+Copiii vor să facă brioșe, ai cumva forme?
+# sa → să
+Ce să gătesc pentru zece persoane fără să stau toată ziua în bucătărie?
+# salată → salata
+Ai mâncat din salata cu ton din frigider?
+# grățar → grătar
+Hai să facem frigărui pe grătar, am cumpărat carne de porc.
+# paștele → pastele
+Am fiert prea mult pastele, s-au lipit toate.
+# cremă → crema
+Ai idee cum se face crema de zahăr ars?
+# uiță → uita
+Ciorba de burtă se face cu smântână și usturoi, nu uita.
+# Ti-am → Ți-am
+Ți-am păstrat o porție de mâncare, e în cuptorul cu microunde.
+# sa → să
+Ia și tu o lingură să guști, e bine de sare?
+# pizză → pizza
+Hai să facem pizza cu ce avem prin frigider.
+# ceapă → ceapa, ca → că
+Să tai ceapa mărunt, că altfel nu o mănâncă cel mic.
+# pudra → pudră
+Am făcut gogoși și le-am pus zahăr pudră.
+# vecină → vecina
+Am rămas fără sare, mă duc până la vecina.
+# calită → călită
+Mama a gătit o oală de varză călită cu cârnați.
+# Ti-am → Ți-am
+Ți-am făcut o cană de ciocolată caldă.
+# salată → salata
+Am pregătit totul pentru salata de cartofi, mai trebuie doar maioneză.
+# spumă → spuma, căfeaua → cafeaua
+Nu-mi iese deloc spuma la cafeaua făcută acasă.
+# ciorba → ciorbă, vecină → vecina
+Am făcut prima oară ciorbă de lobodă, mi-a dat-o vecina.
+# marar → mărar
+Pune și puțin mărar în salată, să aibă gust.
+# masă → masa
+Am gătit toată dimineața pentru masa de duminică.
+# săptămână → săptămâna
+Nu mai pot să văd cartofi, am mâncat toată săptămâna.
+# rețetă → rețeta
+Am încercat rețeta de chec a mamei tale, a ieșit pufos.
+# mentă → menta
+Hai să facem un ceai de mentă din menta din grădină.
+# deșert → desert
+Nu-ți face griji pentru desert, aduc eu un tort.
+# rețeta → rețetă
+Ce rețetă bună de chiftele ai! Mi-au ieșit superb.
+# săptămână → săptămâna
+Am gătit pentru toată săptămâna, am umplut congelatorul.
+# ciorbă → ciorba
+Iar a ieșit ciorba prea sărată, mai pun un cartof?
+# ca → că
+Hai să facem o tocăniță de legume, că e post.
+# prăjitură → prăjitura, blaț → blat
+Am făcut prăjitura cu blat de cacao și cremă de vanilie.
+# mămăligă → mămăliga
+Mi-a ieșit mămăliga perfectă, nici prea tare, nici prea moale.
+# Maine → Mâine, vită → viță
+Mâine fac sarmale în foi de viță.
+# bors → borș, acra → acră
+Pune puțin borș la ciorbă, că nu e destul de acră.
+# curat → curăț, curați → curăți
+Am uitat să curăț cartofii, îi curăți tu?
+# căfeaua → cafeaua
+iubire, ți-am lăsat cafeaua pe masă, să nu pleci fără ea
+# casă → casa
+Am dat cu aspiratorul prin toată casa, tu șterge praful, te rog.
+# sălțeaua → salteaua
+Ai cumva timp să mă ajuți să întorc salteaua?
+# mașină → mașina, descărci → descarci
+S-a umplut iar mașina de spălat vase, o descarci tu?
+# lasa → lăsa
+Nu mai lăsa prosoapele ude pe pat!
+# Maine → Mâine
+Mâine vine doamna care ne ajută la curățenie, ascunde-ți hainele de pe scaun.
+# calcă → călca
+Am dat cu mopul, nu călca pe gresie până se usucă!
+# diseara → diseară
+Am nevoie de ajutor să mut frigiderul, vii diseară?
+# sâmbătă → sâmbăta, sa → să
+Am stat toată sâmbăta să sortez jucăriile copiilor.
+# primăvara → primăvară, asta → ăsta
+Hai să ne apucăm de curățenia de primăvară weekendul ăsta.
+# mașina → mașină
+Am uitat rufele în mașină și acum miros urât.
+# chiuveta → chiuvetă
+Am descoperit că se scurge apă de sub chiuvetă.
+# ma → mă
+Am spălat perdelele, mă ajuți să le pun la loc?
+# zugravim → zugrăvim
+Trebuie să zugrăvim bucătăria, s-a înnegrit tavanul.
+# apă → apa
+Ai pus detergent în mașină? Iese apa neagră.
+# satula → sătulă, sa → să, casă → casa
+Sunt sătulă să culeg șosete de prin toată casa.
+# mobilă → mobila
+Am lustruit mobila, miroase a lămâie peste tot.
+# scăpam → scăpăm
+Hai să scăpăm de lucrurile pe care nu le mai folosim.
+# scârțaie → scârțâie
+Am reparat ușa de la dulap, nu mai scârțâie.
+# cos → coș
+Iar a scos câinele toate hârtiile din coș.
+# Spala-ți → Spală-ți, ca → că, casă → casa
+Spală-ți singur tricourile de sport, că pute toată casa.
+# ține → tine
+Ce dezordine e la tine în cameră, cum găsești ceva?
+# furtună → furtuna
+Am pus florile de pe balcon la adăpost, vine furtuna.
+# paturile → păturile
+Am spălat toate pernele și păturile, gata pentru iarnă.
+# țânțării → țânțarii
+Cine a lăsat ușa de la balcon deschisă? Au intrat țânțarii.
+# sters → șters
+Am șters praful și peste o oră era iar la fel.
+# Lasa → Lasă, spălă → spală
+Lasă că îți fac eu patul, du-te și te spală.
+# asta → ăsta
+Avem nevoie de un aspirator nou, ăsta nu mai trage deloc.
+# Maine → Mâine
+Mâine vine instalatorul la nouă, poți să fii acasă?
+# lasă → lăsa
+Nu-ți mai lăsa pantofii în mijlocul holului, mă împiedic de ei.
+# iarbă → iarba
+Am tuns iarba din curte și mă doare spatele de mor.
+# lasa → lasă
+Iar a venit factura mare la curent, cine lasă luminile aprinse?
+# Iarta-mă → Iartă-mă
+Iartă-mă că am fost nervoasă, nu era vina ta.
+# ca → că, viață → viața
+Sunt fericită că mi te-a adus viața în cale.
+# plans → plâns, seară → seara
+Am plâns toată seara, nu știu ce am.
+# supără → supăra
+Am nevoie de puțin timp pentru mine, nu te supăra.
+# frica → frică, sa → să
+Mi-e frică să nu te pierd.
+# Ti-am → Ți-am
+Ți-am pregătit o seară romantică, vino acasă mai devreme.
+# ca → că
+Mulțumesc că mă suporți și în zilele mele proaste.
+# Ma → Mă, ține → tine
+Mă simt singură în ultima vreme, chiar și cu tine lângă mine.
+# iarta-ma → iartă-mă
+Mi-a părut rău că am țipat, iartă-mă.
+# ține → tine
+M-am simțit atât de bine cu tine aseară.
+# Ma → Mă
+Mă faci să zâmbesc chiar și când sunt tristă.
+# ca → că
+Promit că o să am mai multă grijă de noi.
+# poză → poza
+Am găsit poza de la prima noastră întâlnire, ce tineri eram!
+# diseara → diseară
+Ne vedem diseară acasă, te aștept cu drag.
+# razi → râzi
+Îmi place cum râzi când te tachinez.
+# dimineața → dimineață
+ai putea să-mi faci o favoare mică mâine dimineață?
+# ține → tine
+Te rog să-mi iei și mie un pachet de la poștă, am avizul la tine în cutie.
+# mașină → mașina, ca → că
+Îmi dai și mie mașina sâmbătă? Promit că o aduc cu plinul făcut.
+# Ma → Mă
+Mă ajuți să-mi scriu CV-ul? Tu te pricepi mai bine.
+# Imi → Îmi, asta → ăsta
+Îmi dai voie să parchez în curtea ta weekendul ăsta?
+# Ăi → Ai
+Ai vreo scară mai înaltă? Trebuie să schimb un bec în hol.
+# bunică → bunica, sacosă → sacoșă
+Mă duci până la bunica? Am o sacoșă grea de dus.
+# Ma → Mă
+Mă ajuți cu temele la mate ale lui Andrei? Eu nu mai știu nimic.
+# Imi → Îmi
+Îmi împrumuți cortul vostru pentru festival?
+# grija → grijă
+Ai grijă de pisică până duminică? Las mâncare destulă.
+# asta → ăsta
+Mă poți ajuta să montez dulapul ăsta? Instrucțiunile sunt în chineză.
+# rețetă → rețeta, zăcușcă → zacuscă
+Îmi dai rețeta de zacuscă? Promit că nu o dau mai departe.
+# dimineața → dimineață, sa → să
+Mă suni dimineață să mă trezești? Am un somn greu.
+# Ma → Mă
+Mă ajuți să aleg cadoul pentru Mihai? Tu îl știi mai bine.
+# ține → tine
+Te superi dacă vin cu copiii la tine o oră?
+# Ma → Mă
+Mă ajuți să-mi mut lucrurile în apartamentul nou?
+# fa → fă
+Dacă tot faci prăjituri, fă și pentru mine câteva.
+# Imi → Îmi, apă → apa
+Îmi faci și mie un ceai, dacă tot pui apa la fiert?
+# Ma → Mă
+Mă ajuți să aleg o rochie pentru nunta Andreei?
+# Imi → Îmi, croitoreasă → croitoreasa
+Îmi dai și mie numărul de la croitoreasa ta?
+# Ma → Mă
+Mă ajuți să pun perdelele? Nu ajung sus.
+# Ma → Mă
+Mă iei și pe mine la mare, dacă mai ai loc?
+# Ma → Mă
+Mă ajuți să fac curat după petrecere?
+# ca → că
+Ai cumva un adaptor pentru priză, că al meu s-a stricat?
+# ciorba → ciorbă
+Poți să-mi împrumuți niște farfurii adânci pentru ciorbă?
+# Imi → Îmi, tii → ții
+Îmi ții umbrela până mă întorc?
+# Ti-aș → Ți-aș
+Ți-aș rămâne recunoscătoare dacă ai putea să mă duci la spital mâine.
+# roată → roata, până → pană
+Poți să mă ajuți să schimb roata? Am făcut pană.
+# mașina → mașină
+Mă duci până la mall? Sunt fără mașină azi.
+# sa → să
+Ai putea să mă înlocuiești la ședința de bloc?
+# Ma → Mă
+Mă ajuți să desfac cutiile de la mutare?
+# asta → ăsta
+Mă poți scoate din grupul ăsta, că nu mai suport notificările?
+# Ma → Mă, crosetez → croșetez
+Mă înveți și pe mine să croșetez?
+# Imi → Îmi
+Îmi dai și mie o mână de ajutor la cules de prune?
+# tavă → tava
+Poți să-mi aduci înapoi tava de la prăjitură?
+# piața → piață, dimineața → dimineață
+Mă duci la piață sâmbătă dimineață?
+# stradă → strada
+Poți să-mi ții copilul de mână cât trecem strada?
+# Imi → Îmi
+Îmi aprinzi și mie o lumânare la biserică?
+# ajută → ajuta
+Mă poți ajuta să caut un apartament de închiriat?
+# ca → că
+Poți să deschizi tu ușa, că am mâinile ude?
+# ca → că
+Ai putea să-i explici tu fetei, că pe mine nu mă ascultă?
+# Ma → Mă
+Mă ajuți să-i scriu bunicii o felicitare frumoasă?
+# frica → frică, sa → să
+Mă însoțești la doctor? Mi-e frică să merg singură.
+# Ma → Mă
+Mă ajuți să întind rufele? Sunt prea multe.
+# dus → duș
+Poți să te uiți puțin la tortul din cuptor? Eu sunt la duș.
+# Imi → Îmi
+Îmi aduci și mie un pahar cu apă, te rog?
+# Ma → Mă
+Mă ajuți să-l conving pe tata să meargă la doctor?
+# masă → masa
+Poți să vii mai devreme să mă ajuți cu masa?
+# Ma → Mă, bicicletă → bicicleta
+Mă ajuți să cobor bicicleta din pod?
+# tată → tata
+Te rog să-i aduci lui tata ziarul când vii.
+# ajută → ajuta
+Mă poți ajuta să-mi fac o poză pentru buletin?
+# Ma → Mă, casă → casa
+Mă ajuți să decorez casa pentru Crăciun?
+# legătură → legătura
+Poți să iei tu legătura cu restul familiei?
+# vecină → vecina
+Ai putea să-mi lași cheile la vecina?
+# mașină → mașina
+Îmi dai voie să-ți folosesc mașina de cusut?
+# Ma → Mă, masă → masa
+Mă ajuți să pregătesc masa pentru botez?
+# Ma → Mă
+Mă ajuți să caut un cadou pentru socrul meu?
+# dă → da
+Îmi poți da puțin din pastele tale? Mie mi s-au terminat.
+# ca → că
+Poți să le spui copiilor că vin mai târziu?
+# Ma → Mă
+Mă ajuți să umflu baloanele pentru petrecere?
+# nasei → nașei
+Ai putea să-i duci tu nașei sarmalele?
+# Ploua → Plouă, găleață → găleata
+Poți să mă iei de la stație? Plouă cu găleata.
+# Ma → Mă
+Mă ajuți să-i fac fetei o costumație de carnaval?
+# Imi → Îmi
+Îmi spui ce culoare de vopsea să iau pentru gard?
+# va → vă
+Crăciun fericit! Să vă bucurați de liniște și de cei dragi.
+# Paste → Paște
+Hristos a înviat! Să aveți un Paște binecuvântat alături de familie.
+# va → vă
+Felicitări pentru bebeluș! Să vă crească sănătos și frumos.
+# Multa → Multă, bafta → baftă, ca → că
+Multă baftă la examen, știu că o să iei notă mare!
+# bunicuto → bunicuțo
+Mulți ani trăiască, bunicuțo! Te așteptăm la noi să sărbătorim.
+# Pofta → Poftă, va → vă
+Poftă bună! Să vă fie de bine!
+# față → fată
+Felicitări pentru admitere, ești o fată deșteaptă!
+# Va → Vă, casnicie → căsnicie
+Vă dorim o căsnicie fericită și plină de iubire!
+# va → vă, va → vă
+Un weekend frumos vă doresc, să vă odihniți!
+# Sa → Să
+Să ai o zi minunată, la fel de frumoasă ca tine!
+# Va → Vă, urari → urări
+Vă mulțumim tuturor pentru urări, ne-ați făcut ziua mai frumoasă.
+# va → vă
+Să vă fie Anul Nou mai bun decât cel care a trecut!
+# stam → stăm
+Ce faceți de Revelion? Noi stăm acasă, liniștiți.
+# Maine → Mâine
+Mâine e ziua bunicii, i-am luat un fular de lână.
+# comandam → comandăm
+Ce tort comandăm pentru aniversarea de zece ani?
+# strangem → strângem, ca → că, tătei → tatei
+Ne strângem toți la mama de Sfântul Ion, că e ziua tatei.
+# diseara → diseară
+Am cumpărat brad și instalații, diseară îl împodobim.
+# colindatorilor → colindătorilor
+Să nu uiți să-i duci colindătorilor niște covrigi.
+# Paste → Paște
+Am făcut ouă roșii și cozonac pentru Paște.
+# cabana → cabană
+Hai să ne vedem de Sfântul Andrei la noi la cabană.
+# ghețuțele → ghetuțele
+Am pus ghetuțele copiilor la geam pentru Moș Nicolae.
+# va → vă
+Nunta e pe 15 august, să vă păstrați data liberă!
+# diseara → diseară
+Hai să mergem la târgul de Crăciun din centru diseară.
+# va → vă, casă → casa
+Vin la voi de Bobotează cu preotul, să vă sfințească casa.
+# colindatori → colindători, masă → masa
+Am pregătit pachetele pentru colindători, sunt pe masa din hol.
+# iarta-mă → iartă-mă
+Am uitat de ziua ta, iartă-mă, să-ți fie anul plin de bucurii!
+# asta → ăsta
+Ce-ți dorești de ziua ta anul ăsta?
+# Maine → Mâine
+Mâine e aniversarea noastră de cinci ani, am rezervat la restaurant.
+# coronite → coronițe, Sanziene → Sânziene
+Am pregătit coronițe din flori pentru Sânziene.
+# masă → masa, Paste → Paște
+Ne vedem la masa de Paște la bunici, aducem noi vinul.
+# minivacanță → minivacanța
+Ce faceți în minivacanța de 1 Mai? Plecați undeva?
+# asta → ăsta, săptămână → săptămâna
+Weekendul ăsta stăm acasă, că am obosit toată săptămâna.
+# Duminica → Duminică
+Duminică mergem la bunici, vrei să vii cu noi?
+# dimineața → dimineață
+Ce zici de o drumeție la cascadă sâmbătă dimineață?
+# asta → ăsta, soacră → soacra
+Weekendul ăsta vine soacra la noi, deci nu ne vedem.
+# piscina → piscină
+Hai să mergem la piscină cu copiii duminică.
+# Sâmbăta → Sâmbătă
+Sâmbătă e târgul de vechituri, mergem să căutăm lucruri vechi?
+# Duminica → Duminică
+Duminică după-amiază mergem la cinema cu copiii.
+# tată → tata, dimineața → dimineață
+Hai să mergem la pescuit cu tata sâmbătă dimineață.
+# asta → ăsta
+Weekendul ăsta vreau doar să dorm și să mă uit la filme.
+# Sâmbăta → Sâmbătă, nuntă → nunta
+Sâmbătă am nunta verișoarei, duminică sunt mort.
+# Duminica → Duminică, dimineața → dimineață
+Duminică dimineață merg la alergat în parc, vii cu mine?
+# asta → ăsta
+Weekendul ăsta e ziua copilului, facem petrecere la un loc de joacă.
+# asta → ăsta
+Ce bine a fost weekendul ăsta, ne-am încărcat bateriile!
+# chemam → chemăm
+Vecinii de vizavi au un copil de vârsta lui Tudor, să-i chemăm la joacă.
+# poartă → poarta
+Vecinul ne-a reparat poarta, să-i ducem o sticlă de vin.
+# latra → latră
+Vecinul are un câine nou care latră la toți trecătorii.
+# apă → apa
+Iar au uitat vecinii apa deschisă și ne-au inundat baia.
+# mobilă → mobila
+Vecinul de sus face gălăgie cu mobila la două noaptea.
+# vecină → vecina
+Am lăsat la vecina un set de chei, pentru orice eventualitate.
+# asta → ăsta
+Vecinul ăsta nou parchează mereu pe locul nostru.
+# ușa → ușă
+Vecina a sunat la ușă să ne spună că ne-a rămas geamul deschis.
+# nuntă → nunta
+Am primit de la vecini o invitație la nunta fiicei lor.
+# iarbă → iarba
+Vecinul de alături tunde iarba în fiecare duminică la șapte dimineața.
+# bunică → bunica
+Am dus o farfurie cu sarmale la bunica de la parter.
+# mașină → mașina
+Vecinul ne-a ajutat să scoatem mașina din zăpadă.
+# tată → tata, sună → suna
+Mi-e dor de tata, aș vrea să-l mai pot suna o dată.
+# frica → frică
+Mi-e frică să rămân fără serviciu, nu știu ce ne facem.
+# dimineața → dimineață
+Plâng de dimineață și nici nu știu de ce.
+# ca → că
+Sunt recunoscătoare că te am în viața mea.
+# Ma → Mă
+Mă enervează că nimeni nu mă ajută prin casă.
+# Ma → Mă
+Mă bucur atât de mult că ne-am revăzut după atâta timp.
+# bunică → bunica
+Sunt îngrijorată pentru bunica, nu mai mănâncă aproape nimic.
+# ras → râs
+Am râs toată ziua, nu știu ce am azi.
+# pește → peste
+M-a durut ce mi-a spus, dar trec peste.
+# Ma → Mă
+Mă simt vinovată că nu am fost mai des pe la ai mei.
+# mândra → mândră
+Sunt mândră că am reușit să trec peste tot.
+# ca → că
+Nu știu dacă fac bine că mă mut, mi-e tare frică.
+# Ma → Mă
+Mă doare sufletul când îi văd pe copii certându-se.
+# Ma → Mă
+Mă simt mult mai bine de când am vorbit cu tine.
+# așteptăm → așteptam
+Sunt așa de dezamăgită de el, nu mă așteptam.
+# Ma → Mă, ca → că, ține → tine
+Mă bucur că pot să vorbesc cu tine despre orice.
+# Ti-am → Ți-am
+Ți-am spus asta doar pentru că am încredere în tine.
+# incolo → încolo
+Mi-a ajuns, de acum încolo am grijă și de mine.
+# bunică → bunica
+Ce frumos ai vorbit despre bunica la înmormântare.
+# asta → ăsta
+Mi-a revenit pofta de viață după concediul ăsta.
+# Ma → Mă
+Mă bucur că ești aici cu mine.
+# râznă → razna
+Am luat-o razna azi, nu mai știu ce am făcut cu cheile.
+# satul → sătul
+Sunt sătul de minciunile lui.
+# Ma → Mă
+Mă simt ușurată că i-am spus în sfârșit adevărul.
+# asta → ăsta
+Am o presimțire bună pentru anul ăsta.
+# ala → ăla
+Mi-e milă de cățelul ăla abandonat de lângă bloc.
+# că → ca
+Ce bine e să ai prieteni ca voi!
+# Ma → Mă, apără → apară
+Mă simt bătrână, au început să-mi apară fire albe.
+# jena → jenă
+Mi-e jenă să-i cer bani din nou.
+# Ma → Mă
+Mă bucur pentru fiecare zi petrecută cu voi.
+# că → ca
+Mă simt ca într-un film, nu-mi vine să cred.
+# Ma → Mă
+Mă enervez când văd cum se poartă cu bunicii.
+# asta → ăsta
+Sunt bucuroasă că am făcut pasul ăsta.
+# Ma → Mă
+Mă simt pierdută de când m-am mutat aici.
+# Ma → Mă
+Mă bucur că nu ești supărat pe mine.
+# ala → ăla
+Mi-e frică de câinele ăla de la colț.
+# Ma → Mă
+Mă simt de parcă am alergat un maraton.
+# bunică → bunica
+Mi-a fost greu să-mi iau rămas-bun de la bunica.
+# Ma → Mă
+Mă tot gândesc la ce mi-ai spus ieri.
+# Ma → Mă, că → ca
+Mă doare că nu mai vorbim ca înainte.
+# inimă → inima
+Mi-a venit inima la loc când te-am văzut.
+# ca → că
+Sunt sigur că o să găsim o soluție împreună.
+# Ma → Mă
+Mă bucur că mi-ai spus, chiar dacă doare.
+# primăvară → primăvara, parca → parcă
+Sunt fericită că a venit primăvara, parcă renasc.
+# Ma → Mă
+Mă simt mai bine când știu că ești aproape.
+# stiți → știți
+Mi-e drag de voi, să știți.
+# Ma → Mă
+Mă bucur să aud că ești bine.
+# tabăra → tabără
+Nu mai pot de dorul copiilor, s-au dus în tabără de trei zile.
+# vacanță → vacanța
+Sunt fericită, dar și puțin tristă că se termină vacanța.
+# tafnoasă → țâfnoasă
+Am avut o zi proastă, iartă-mă dacă sunt țâfnoasă.
+# plans → plâns
+Am plâns de fericire când am aflat că așteptați un copil.
+# jumă → juma
+unde ești? te aștept de juma de oră la intrare
+# sacosa → sacoșa
+Ai ajuns acasă? Am uitat să-ți dau sacoșa cu borcane.
+# Maine → Mâine, plecam → plecăm, plecam → plecăm
+Mâine plecăm la șapte fix, dacă întârzii plecăm fără tine.
+# bicicletă → bicicleta
+Am lăsat bicicleta în fața blocului și mi-a dispărut.
+# Ti-a → Ți-a, sora-ta → soră-ta
+Ți-a mai trecut supărarea pe soră-ta?
+# pomană → pomana
+M-a sunat mătușa ta să ne invite la pomana de patruzeci de zile.
+# fața → fata
+Ai văzut-o pe fata Mihaelei? A crescut ca din apă.
+# stânga → stângă, lună → luna
+Am pierdut mănușa stângă în autobuz, a treia oară luna asta.
+# iarbă → iarba
+Am terminat de zugrăvit camera copilului, e verde ca iarba.
+# ca → că
+Să nu-ți uiți ochelarii de soare, că e soare tare.
+# căsuță → căsuța
+Ce mai face căsuța voastră de la țară?
+# pusculiță → pușculița
+Copiii au spart pușculița să-ți cumpere cadou.
+# mașina → mașină
+Ai mai pus de mult benzină în mașină?
+# Ti-am → Ți-am
+Ți-am lăsat pantofii la cizmar, îi iei tu vineri.
+# chemam → chemăm
+Ce-ar fi să-i chemăm și pe părinții tăi la masă?
+# ca → că
+Am auzit că ți s-a îmbolnăvit cățelul, e mai bine?
+# Ti-ai → Ți-ai, lună → luna
+Ți-ai luat abonament la tramvai pe luna asta?
+# bunică → bunica
+Hai să-i spunem copilului împreună despre bunica.
+# Cat → Cât
+Cât de des îi dai pisicii mâncare umedă?
+# căldură → căldura
+Nu mai ține ușa deschisă, iese căldura!
+# Ti-a → Ți-a, țara → țară
+Ți-a ajuns pachetul cu ouăle de la țară întregi?
+# pahărul → paharul
+Cine-a lăsat paharul cu suc pe laptop?
+# Paste → Paște
+Sper să nu se supere nașii că nu venim la ei de Paște.
+# gâscă → gașca
+Hai să-i facem un cadou comun Elenei, de la toată gașca.
+# tată → tata, cauta → caută, casă → casa
+Iar a uitat tata ochelarii pe cap și îi caută prin toată casa.
+# piața → piață
+Am adus de la piață niște cireșe de te lingi pe degete.
+# shaormă → shaorma
+Mi-e poftă de o shaorma, mergem?
+# Ti-ai → Ți-ai, mașina → mașină
+Ți-ai programat revizia la mașină?
+# Suna-mă → Sună-mă
+Sună-mă înainte să pleci, să-ți mai spun ceva.
+# grădină → grădina
+Ne-a stricat ploaia toată grădina.
+# strangem → strângem, cabana → cabană
+Să ne strângem cu toții la cabană de ziua lui Paul.
+# baut → băut
+Am băut prea multă cafea, acum nu pot să dorm.
+# bicicletă → bicicleta
+Ce faci cu bicicleta veche? O dai cuiva?
+# geacă → geaca
+Iar s-a blocat fermoarul de la geaca fetei.
+# bunică → bunica
+Cine o ia pe bunica de la gară?
+# aștea → astea
+Ce bine că am scăpat de examenele astea!
+# fetiță → fetița
+Copiii s-au împrietenit cu fetița de la etajul trei.
+# Ti-am → Ți-am
+Ți-am trimis numărul doctoriței de familie.
+# basică → bășică, talpa → talpă
+Mi-a ieșit o bășică în talpă de la pantofii noi.
+# sora-ta → soră-ta
+Ce mai face soră-ta, a născut?
+# tată → tata
+Am luat un ceas pentru tata, cu cadran mare, să-l vadă bine.
+# zugravim → zugrăvim
+Hai să-i facem mamei o surpriză și să-i zugrăvim bucătăria.
+# urată → urâtă
+Copilul are o căzătură urâtă pe genunchi.
+# servețele → șervețele
+Te rog să cumperi un pachet de șervețele umede.
+# placa → placă
+Sper să-ți placă tortul, l-am făcut cu mâna mea.
+# vacanță → vacanța, țara → țară
+Copiii vor să-și petreacă toată vacanța la țară.
+# Ti-am → Ți-am, ala → ăla
+Ți-am trimis cântecul ăla care-ți plăcea, l-am găsit!
+# Ma → Mă
+Mă gândesc să-mi las părul lung.
+# nasă → nașa
+Am vorbit cu nașa, ne așteaptă duminică la masă.
+# ca → că
+Hai că vine trenul, ne vedem acasă.
+# Ti-am → Ți-am, listă → lista
+Ți-am lăsat lista de cumpărături pe frigider.
+# cină → cina
+Hai să ne facem un obicei din cina de duminică împreună.
+# Ti-am → Ți-am, geacă → geaca
+Ți-am spălat și ție geaca de iarnă.
+# legătură → legătura
+Am pierdut legătura cu verii mei din Italia.
+# Ti-ai → Ți-ai
+Ți-ai scos permisul de pescuit?
+# sârmale → sarmale
+Mama ne-a chemat la ea la sarmale, sâmbătă la prânz.
+# că → ca
+Am găsit la vechituri un dulap exact ca al bunicii.
+# ca → că
+Am auzit că plouă cu gheață la voi, aveți grijă pe drum.
+# păr → par
+bună, mami! am ajuns la cămin, colegele de cameră par de treabă
+# bunică → bunica
+Am vorbit cu bunica la telefon o oră, mi-a povestit tot satul.
+# uită → uita
+Nu uita să-ți iei pastilele de tensiune dimineața.
+# Ti-ai → Ți-ai
+Ți-ai mai sunat mama de ziua ei?
+# coada → coadă, ședința → ședință
+Am stat la coadă la covrigi și am întârziat la ședință.
+# Fața → Fata
+Fata vrea să ne prezinte iubitul duminică la masă.
+# imprimanta → imprimantă
+Am rămas fără cerneală la imprimantă tocmai când trebuia să printez tema copilului.
+# Ti-ai → Ți-ai, căuți → cauți
+Ți-ai găsit chirie în Cluj sau mai cauți?
+# ca → că
+Hai că mai e o săptămână și vine Moș Crăciun.
+# mamă → mama
+Am luat-o pe mama la mine o săptămână, să se odihnească.
+# siguranță → siguranța
+Iar a sărit siguranța când am pornit și cuptorul, și mașina de spălat.
+# întreaga → întreagă, burtă → burta
+Copilul a mâncat o cutie întreagă de bomboane și acum îl doare burta.
+# Ti-am → Ți-am
+Ți-am făcut și ție o cană de vin fiert.
+# bunică → bunica
+Am uitat să sun la bunica de ziua ei, îmi vine să intru în pământ.
+# atenta → atentă
+Fii atentă la ce mănâncă copilul la petreceri, are alergie la nuci.
+# Ti-a → Ți-a, masă → masa
+Ți-a plăcut cum am aranjat masa?
+# ca → că
+Hai să mergem la bunici cu un tort, că e ziua lor de căsătorie.
+# Ti-am → Ți-am
+Ți-am trimis un mesaj, dar cred că nu l-ai văzut.
+# va → vă
+Ce bine e să vă am aproape!
+# Ti-am → Ți-am, mașina → mașină
+Ți-am lăsat cheia de la mașină la portar.
+# ca → că
+Am aflat că sora mea e însărcinată cu gemeni!
+# Ti-am → Ți-am
+Ți-am făcut programare la coafor pentru vineri la cinci.
+# tată → tata, ca → că
+Am vorbit cu tata, zice că vine el să ne repare acoperișul.

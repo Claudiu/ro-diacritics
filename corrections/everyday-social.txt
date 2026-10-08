@@ -1,0 +1,2051 @@
+# Everyday Romanian: social media, forums, hobbies and travel.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# ala → ăla, există → exista
+Arbitrul a fost clar de partea lor, penalty-ul ăla nu exista.
+# judecăți → judecați
+Am terminat sezonul doi într-o singură noapte, nu mă judecați.
+# diseara → diseară
+Recomandați-mi un film bun de văzut diseară, ceva fără zombi.
+# până → pana
+Am stat în primul rând și am prins pana chitaristului!
+# că → ca
+Hotelul arată exact ca în poze, curat și liniștit, revenim cu drag.
+# lasă → lăsa
+Micul dejun lăsa de dorit, aceleași ouă reci în fiecare zi.
+# cutiută → cutiuță, ușa → ușă
+Gazda ne-a lăsat cheile într-o cutiuță lângă ușă, totul a mers perfect.
+# Ploua → Plouă, pisică → pisica
+Plouă de trei zile și pisica nu mai iese deloc din casă.
+# Maine → Mâine, puneți-va → puneți-vă
+Mâine se anunță ninsoare la munte, puneți-vă cauciucuri de iarnă.
+# Cautam → Căutăm
+Căutăm stăpân pentru un cățel de trei luni, e vaccinat și deparazitat.
+# latra → latră
+Câinele meu latră la orice frunză care se mișcă.
+# salată → salata
+Cum scap de melcii care îmi mănâncă salata?
+# Cate → Câte
+Câte serii faceți la genuflexiuni când abia începeți?
+# Ma → Mă
+Mă doare tot corpul după antrenamentul de ieri.
+# seamă → seama
+Prima întâlnire a fost la o cafenea, am vorbit trei ore fără să ne dăm seama.
+# Cautam → Căutăm
+Căutăm voluntari pentru strângerea gunoaielor din parc, duminică la ora zece.
+# crosetat → croșetat, seară → seara
+De când m-am apucat de croșetat nu mai stau pe telefon seara.
+# asta → ăsta
+Jocul ăsta are o poveste superbă, dar luptele sunt prea grele.
+# jucăm → jucam
+Serverele au căzut iar fix când jucam cu prietenii.
+# Nouă → Noua
+Noua actualizare a stricat tot echilibrul jocului.
+# baga → bagă
+Cine se bagă diseară la un meci pe Discord?
+# frumoasa → frumoasă
+Ce frumoasă ești în poza asta, îți stă bine cu părul scurt!
+# Felicitari → Felicitări
+Felicitări pentru noul job, meriți din plin!
+# Arata → Arată, că → ca
+Unde ați făcut pozele astea? Arată ca în basme.
+# da → dă
+Nu înțeleg de ce lumea dă share la știri false fără să verifice.
+# banda → bandă
+Traseul e marcat cu bandă roșie și durează cam patru ore.
+# Merita → Merită
+Ați fost vreodată în Delta Dunării? Merită în septembrie?
+# legătură → legătura
+Am pierdut legătura în Viena și am stat șase ore în aeroport.
+# apă → apa
+Plaja era aglomerată, dar apa era caldă și limpede.
+# asta → ăsta
+Nu mai rezervați la hotelul ăsta, ne-au mutat în altă cameră fără să ne întrebe.
+# căldura → căldură
+Recomand cu căldură restaurantul de lângă port, peștele era proaspăt.
+# apără → apăra
+Portarul a apărat tot ce se putea apăra, omul meciului.
+# atmosferă → atmosfera, notă → nota
+Am văzut meciul la o terasă cu prietenii, atmosfera a fost de nota zece.
+# asta → ăsta
+Cine credeți că ia campionatul anul ăsta?
+# asta → ăsta
+Transferul ăsta e o greșeală, jucătorul nu se potrivește în sistem.
+# forța → forță
+Sala de forță s-a scumpit, dar măcar au aparate noi.
+# bicicleta → bicicletă
+Mi-am luat bicicletă nouă și merg cu ea la serviciu.
+# incontinuu → încontinuu
+Coloana sonoră e superbă, o ascult de o săptămână încontinuu.
+# asta → ăsta
+Nu-mi plac filmele de groază, dar pe ăsta l-am văzut de două ori.
+# coada → coadă
+Am stat la coadă două ore pentru un autograf.
+# Cat → Cât
+Cât de des trebuie dus un câine la toaletaj?
+# viață → viața
+Am adoptat o pisică de la adăpost și e cea mai bună decizie din viața mea.
+# Rășadurile → Răsadurile
+Răsadurile de ardei au crescut prea înalte și se apleacă.
+# tăi → tai
+Când e momentul potrivit să tai via?
+# dulceată → dulceață, asta → ăsta
+Cine a mai făcut dulceață de caise anul ăsta?
+# Maine → Mâine
+Mâine e soare, hai la plimbare în parc!
+# Prognoză → Prognoza, ca → că, canicula → caniculă, săptămână → săptămâna
+Prognoza zice că vine caniculă săptămâna viitoare.
+# tura → tură, asta → ăsta, apă → apa
+Am făcut prima tură de înot în lac anul ăsta, apa era rece de tot.
+# așteptăm → așteptam
+Postarea asta a strâns mai multe like-uri decât mă așteptam.
+# urari → urări
+Mulțumesc tuturor pentru urări, m-ați făcut să zâmbesc toată ziua!
+# sters → șters
+Am șters aplicația pentru o lună și mă simt mult mai bine.
+# asta → ăsta
+Grupul ăsta a devenit plin de reclame, unde sunt adminii?
+# Va → Vă
+Vă rog să nu mai postați lanțuri de mesaje, chiar nu ajută.
+# Merita → Merită, consola → consolă
+Merită să-mi iau consolă nouă sau mai aștept?
+# sa → să
+Prietenul meu a stat toată noaptea să termine misiunea finală.
+# piesa → piesă
+Ce piesă e asta din reclamă? Nu-mi iese din cap.
+# chitară → chitara
+Am început să învăț chitara singur de pe internet.
+# sala → sală
+Merg la sală de trei ori pe săptămână, dar nu văd rezultate.
+# ajută → ajuta
+Mă puteți ajuta cu un program de slăbit pentru începători?
+# ajuta → ajută, calma → calmă
+Yoga dimineața mă ajută să fiu mai calmă toată ziua.
+# Strangem → Strângem
+Strângem haine pentru copiii din satul vecin, orice ajutor contează.
+# biblioteca → bibliotecă
+Clubul nostru de lectură se întâlnește joi la bibliotecă.
+# lista → listă
+Ce serial coreean îmi recomandați după ce am terminat tot ce era pe listă?
+# asta → ăsta
+Personajul ăsta a evoluat cel mai frumos din tot serialul.
+# ras → râs, scenă → scena
+Am râs cu lacrimi la scena de la nuntă.
+# asta → ăsta
+Se găsește filmul ăsta pe vreo platformă din România?
+# Maine → Mâine, plecam → plecăm, coada → coadă, granița → graniță
+Mâine plecăm spre Grecia cu mașina, ne rugăm să nu fie coadă la graniță.
+# aștia → ăștia
+Nu mai suport comentatorii ăștia care țipă tot meciul.
+# asta → ăsta
+Cine mai crede în calificare după rezultatul ăsta?
+# ala → ăla
+Mijlocașul ăla nou aleargă mult, dar nu face nimic cu mingea.
+# costa → costă
+Biletele la derby costă cât un weekend la munte.
+# Ma → Mă
+Mă apuc de înot, ce bazin îmi recomandați în zona de nord?
+# casca → cască
+Ce cască de ciclism să iau pentru drumuri lungi?
+# Partia → Pârtia, zăpadă → zăpada
+Pârtia din Sinaia e deschisă de vineri, dar zăpada e artificială.
+# va → vă, tura → tură
+Ce echipament vă trebuie pentru prima tură de cățărare?
+# primăvară → primăvara
+Roma în august e un cuptor, mai bine mergeți primăvara.
+# Cat → Cât, costa → costă
+Cât costă un taxi de la aeroport până în centrul Barcelonei?
+# intră → intra
+Compania aia low-cost ne-a taxat bagajul de mână, deși intra în dimensiuni.
+# expira → expiră
+Pașaportul meu expiră peste două luni, mai pot călători cu el?
+# muzică → muzica
+Hotelul e la cinci minute de plajă, dar se aude muzica de la club toată noaptea.
+# țări → tari, că → ca, piatră → piatra
+Patul era incomod, iar pernele erau tari ca piatra.
+# problema → problemă
+Am stat trei nopți și n-am avut nicio problemă.
+# că → ca
+Ne-am simțit ca acasă, mulțumim pentru ospitalitate!
+# papanas → papanaș
+Am mâncat cel mai bun papanaș din viața mea la pensiunea asta.
+# ceată → ceață
+Ce ceață e azi, nu se vede nimic la zece metri.
+# apă → apa, ciubarul → ciubărul
+A înghețat apa în ciubărul câinelui peste noapte.
+# Pisică → Pisica, casa → casă
+Pisica a adus un șoarece viu în casă și l-a lăsat sub pat.
+# urla → urlă
+Câinele vecinului urlă toată ziua când pleacă ei la muncă.
+# dezvat → dezvăț
+Iepurașul nostru roade cablurile, cum îl dezvăț?
+# asta → ăsta
+Țestoasa a ieșit din hibernare mai devreme anul ăsta.
+# hrana → hrană, Merița → Merită
+Ați încercat hrană crudă pentru câini? Merită?
+# pisică → pisica
+Am dus pisica la veterinar și m-a costat o avere.
+# Cateii → Cățeii
+Cățeii s-au născut azi-noapte, șapte bucăți, toți sănătoși!
+# mână → mană
+Cartofii au mană, ce pot să fac acum?
+# asta → ăsta
+Căpșunile sunt mici anul ăsta din cauza secetei.
+# uda → udă
+Cum se udă corect orhideea? A mea pierde frunzele.
+# Cată → Câtă, proteina → proteină, masa → masă
+Câtă proteină trebuie să mănânc dacă vreau masă musculară?
+# viață → viața
+Am făcut prima tracțiune din viața mea, am țipat de bucurie în sală.
+# Ma → Mă
+Mă las de sală, nu mai am timp cu noul program de la muncă.
+# sters → șters
+Am șters toate aplicațiile de dating, mai bine cunosc oameni la cursuri.
+# păr → par
+Ce să scriu în descriere ca să nu par plictisitor?
+# Ma → Mă
+Mă ofer să plimb câinii bătrânilor din bloc în weekend.
+# îi → ii
+Am început să brodez ii tradiționale, prima mi-a luat trei luni.
+# Aseara → Aseară
+Aseară s-a văzut aurora boreală chiar și în Moldova!
+# sters → șters
+Mi s-a șters salvarea după patruzeci de ore de joc.
+# Cautam → Căutăm
+Cine joacă Minecraft pe serverul românesc? Căutăm oameni pentru construcții.
+# Garana → Gărâna
+Merge cineva la festivalul de jazz de la Gărâna?
+# Muzică → Muzica, bunică → bunica
+Muzica populară îmi amintește de bunica, o ascult în fiecare duminică.
+# Merita → Merită, sa → să, său → sau
+Merită să merg la Sulina cu vaporul sau e prea lung drumul?
+# asta → ăsta
+Ne-a plăcut atât de mult în Maramureș încât ne-am întors anul ăsta.
+# Ma → Mă
+Mă gândesc să plec singură în Japonia, e sigur pentru o femeie?
+# experiența → experiență, costa → costă
+Cine are experiență cu închirierea unei rulote? Cât costă pe zi?
+# Transalpină → Transalpina
+Am făcut tot Transalpina într-o zi, e mai frumoasă decât Transfăgărășanul.
+# vizită → vizita
+Cetatea Râșnov e în renovare, dar se poate vizita în continuare.
+# Peles → Peleș
+Am ajuns la Peleș și era închis lunea, nimeni nu ne-a spus.
+# spă → spa, seară → seara
+Hotelul are spa, dar sauna funcționează doar seara.
+# pături → paturi
+Patul era dublu pe hârtie, dar de fapt erau două paturi lipite.
+# factură → factura
+N-am primit factura, deși am cerut-o de trei ori pe mail.
+# bunică → bunica
+Lenjeria era curată și mirosea frumos, ca la bunica.
+# apă → apa, termină → termina
+Dușul avea presiune mică și apa caldă se termina repede.
+# hent → henț
+Nu mai înțeleg nimic din regulile astea noi la henț.
+# asta → ăsta, viața → viață
+Arbitrul ăsta ar trebui suspendat pe viață după ce a făcut azi.
+# asta → ăsta
+Jucătorul ăsta a costat douăzeci de milioane și nu a dat niciun gol.
+# echipă → echipa
+Ce s-a întâmplat cu echipa? Anul trecut erau pe primul loc.
+# Maine → Mâine, săptămână → săptămâna
+Mâine e derby-ul, toată săptămâna nu s-a vorbit despre altceva.
+# croșul → crosul
+Am alergat crosul de Ziua Copilului cu fiica mea.
+# asta → ăsta
+Clubul de alpinism organizează o ieșire în Bucegi weekendul ăsta.
+# creasta → creastă
+Am urcat Moldoveanu și a început grindina chiar pe creastă.
+# va → vă
+Nu vă luați după hărțile de pe telefon, traseul real e altul.
+# lumina → lumină, iarnă → iarna
+Mi s-a uscat lămâiul, deși l-am ținut la lumină toată iarna.
+# iarnă → iarna
+Plantele de apartament au nevoie de mai puțină apă iarna.
+# căzuțe → căzute
+Ce faceți cu frunzele căzute? Le ardeți sau le puneți la compost?
+# Gargarițele → Gărgărițele
+Gărgărițele mi-au salvat ardeii de păduchi.
+# bete → bețe
+Ce pământ folosiți pentru răsaduri? Cel din comerț e plin de bețe.
+# Ciresele → Cireșele
+Cireșele s-au crăpat toate din cauza ploilor.
+# urgente → urgențe
+Câinele meu a mâncat o șosetă întreagă, trebuie să merg la urgențe?
+# fațat → fătat
+Cățelușa noastră a fătat cinci pui, căutăm familii iubitoare.
+# Ma → Mă
+Mă doare spatele după fiecare tură de alergare, ce greșesc?
+# dimineața → dimineață
+Ce mâncați înainte de antrenamentul de dimineață?
+# ridică → ridica
+După o lună de sală pot ridica dublu față de prima zi.
+# piscina → piscină
+Mi-am făcut abonament la piscină și merg înainte de muncă.
+# diferență → diferența
+Am terminat programul de treizeci de zile și chiar se vede diferența.
+# va → vă, sala → sală
+Nu vă comparați cu alții la sală, fiecare are ritmul lui.
+# Cat → Cât
+Cât timp așteptați până să cereți numărul de telefon?
+# Va → Vă
+Vă așteptăm la plantat copaci în Pădurea Băneasa, aduceți mănuși.
+# sală → sala, clasa → clasă
+Studenții voluntari au renovat sala de clasă a școlii din sat.
+# Cautam → Căutăm
+Căutăm oameni care să ajute la traducerea unor documente pentru refugiați.
+# paturi → pături
+Ne lipsesc pături și haine groase pentru iarnă, orice ajutor e binevenit.
+# dimineața → dimineață
+Mi-am cumpărat un caiac și ies pe lac în fiecare dimineață.
+# rețetă → rețeta, clătițele → clătitele
+Cine are rețeta de la clătitele alea pufoase?
+# băt → bat
+Personajul meu are deja nivelul cincizeci, dar tot nu bat șeful final.
+# asta → ăsta
+Puzzle-urile din jocul ăsta sunt geniale.
+# după-amiază → după-amiaza
+Am găsit consola veche în pod și am jucat toată după-amiaza.
+# asta → ăsta
+Nu înțeleg hype-ul pentru serialul ăsta, mi s-a părut banal.
+# săptămână → săptămâna
+Episodul de săptămâna asta a fost cel mai bun de până acum.
+# premiera → premieră
+Am văzut filmul în premieră, regizorul a stat la discuții după.
+# cânta → cântă
+Formația asta cântă de treizeci de ani și tot sună proaspăt.
+# chitară → chitara
+Mi-a semnat chitara după concert, o pun în ramă.
+# Cautam → Căutăm
+Cine merge la Electric Castle? Căutăm loc în cort.
+# ma → mă
+mă bucur că v-a plăcut, revin curând cu partea a doua
+# va → vă, arat → arăt
+abia aștept să vă arăt pozele din excursie
+# va → vă
+vă rog, cine știe ce floare e asta?
+# întreaga → întreagă
+Ce să fac în Sibiu o zi întreagă cu doi copii mici?
+# sezlonguri → șezlonguri
+Am găsit o plajă sălbatică la Corbu, fără muzică și fără șezlonguri.
+# priveliste → priveliște
+Ne-am urcat în balon cu aer cald deasupra Brașovului, ce priveliște!
+# Cat → Cât
+Cât durează drumul de la București la Vama Veche în weekend?
+# cameristă → camerista
+Prosoapele se schimbau zilnic, iar camerista era foarte drăguță.
+# taxa → taxă
+Proprietarul ne-a cerut să facem curat înainte de plecare, deși plăteam taxă de curățenie.
+# dulceată → dulceață
+Ne-a întâmpinat cu dulceață de trandafiri și apă rece, un gest frumos.
+# căfeaua → cafeaua
+Terasa dădea spre munte și beam cafeaua cu vedere la brazi.
+# sforait → sforăit
+Am stat într-un hostel în Amsterdam și colegii de cameră au sforăit toată noaptea.
+# repetă → repeta
+Mâncarea de la all inclusive se repeta în fiecare zi.
+# cină → cina
+Ne-au servit cina la ora nouă, eram leșinați de foame.
+# Va → Vă, recomandam → recomandăm, masă → masa
+Vă recomandăm să rezervați masa din timp, e mereu plin.
+# canicula → caniculă, oră → ora
+Ce caniculă a fost în Grecia, nu se putea ieși înainte de ora șase.
+# aseara → aseară
+S-a răcit vremea peste noapte, aseară erau douăzeci de grade, azi sunt cinci.
+# mașina → mașină
+A bătut vântul atât de tare încât a căzut un copac peste mașină.
+# casa → casă
+Avertizare de cod roșu de ploi, nu ieșiți din casă dacă nu e nevoie.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață va fi polei, aveți grijă la volan.
+# asta → ăsta, caisii → caișii
+Primăvara a venit mai devreme anul ăsta, au înflorit deja caișii.
+# antenă → antena
+Mi-a stricat furtuna antena de satelit, nu mai am televizor.
+# labă → laba
+Câinele meu a învățat să dea laba în două zile.
+# Pisică → Pisica, fațat → fătat
+Pisica a fătat în dulapul cu haine, pe puloverul meu preferat.
+# dimineața → dimineață
+Motanul vecinilor vine în fiecare dimineață la geamul nostru.
+# râu → rău
+Nu dați pâine la rațe, le face rău!
+# Va → Vă, zgarda → zgardă
+Vă rog, dacă vedeți un cățel negru cu zgardă roșie, sunați-mă.
+# grădină → grădina
+Furnicile mi-au invadat grădina, ce soluție naturală merge?
+# plantă → planta
+Ce se poate planta la umbră, sub un nuc mare?
+# vinețe → vinete
+Mi-a dat o vecină răsaduri de vinete, nu știu cum să le îngrijesc.
+# gleznă → glezna
+Mi-am luxat glezna la fotbalul de marți, stau o lună pe tușă.
+# dimineața → dimineață
+Fac flotări în fiecare dimineață, am ajuns la cincizeci.
+# frica → frică
+Vreau să încep box, dar mi-e frică să nu mă lovesc la nas.
+# alergă → alerga, gafâi → gâfâi
+Nu am mai fumat de un an și pot alerga fără să gâfâi.
+# vindeca → vindecă
+Am o întindere la umăr, ce exerciții pot face până se vindecă?
+# va → vă, sala → sală
+Cum vă motivați să mergeți la sală când e frig afară?
+# ca → că
+Mi-a scris cineva de pe aplicație că semăn cu fosta lui iubită.
+# sa → să, ma → mă
+E normal să mă simt emoționată înainte de prima întâlnire după divorț?
+# salsă → salsa
+Ne-am întâlnit la un curs de salsa și de atunci dansăm împreună.
+# va → vă
+Organizăm o acțiune de curățenie pe malul Dâmboviței, vă așteptăm!
+# dimineața → dimineață
+Am adunat optzeci de saci de gunoi într-o singură dimineață.
+# asta → ăsta
+Am terminat de citit cincizeci de cărți anul ăsta, provocarea a reușit.
+# asta → ăsta
+Jocul ăsta merge greu chiar și pe un calculator bun.
+# consolă → consola, noua → nouă
+Am vândut consola veche și mi-am luat una nouă la reducere.
+# asta → ăsta
+Am găsit un easter egg ascuns în jocul ăsta, nimeni nu vorbește despre el.
+# tastatura → tastatură
+Mi-am cumpărat tastatură mecanică și nu mai pot să mă întorc la cea veche.
+# asta → ăsta
+Cine a scris scenariul ăsta ar trebui să se lase de meserie.
+# plans → plâns
+Am plâns la final ca un copil, recunosc.
+# asta → ăsta
+Actorii români din filmul ăsta joacă mai bine decât cei străini.
+# asta → ăsta
+Ce prost tradus e titlul ăsta în română!
+# asta → ăsta, coada → coadă, sa → să
+Albumul ăsta l-am ascultat de la cap la coadă fără să sar nicio piesă.
+# așteptăm → așteptam, sa-mi → să-mi
+Am mers la Opera Națională pentru prima dată, nu mă așteptam să-mi placă atât.
+# vioară → vioara
+Ce frumos sună vioara asta veche, ai cumpărat-o din târg?
+# Sâmbăta → Sâmbătă
+Sâmbătă e concert gratuit în piața centrală, mergem?
+# ca → că
+Am auzit că trupa se reunește pentru un singur concert, e adevărat?
+# Va → Vă, ca → că
+Vă mulțumesc că mi-ați fost alături în perioada asta grea.
+# sters → șters
+Adminul a șters postarea mea fără explicații, de ce?
+# Va → Vă
+Vă anunțăm că atelierul de sâmbătă se mută în sala mare.
+# va → vă
+Mulțumim pentru răbdare, vă dorim o zi frumoasă!
+# mașina → mașină
+Am uitat sacii de dormit acasă și am dormit în mașină.
+# Transilvanică → Transilvanica
+Am mers cu bicicletele pe Via Transilvanica, o etapă pe zi.
+# cabana → cabană, gheață → gheața
+Lângă cabană era un pârâu cu apă rece ca gheața.
+# caută → căuta
+Am văzut o vulpe chiar lângă cort, căuta resturi de mâncare.
+# Delta → Deltă, ceață → ceața
+Ce frumos e în Deltă dimineața, când se ridică ceața de pe apă!
+# barcă → barca
+Am făcut o plimbare cu barca printre nuferi și pelicani.
+# barcă → barca
+Pescarul care ne-a dus cu barca știa fiecare canal pe de rost.
+# Tânțarii → Țânțarii, Delta → Deltă
+Țânțarii din Deltă sunt de altă categorie, luați spray serios.
+# caștile → căștile
+Avionul e plin de copii care plâng, rezistăm cu căștile.
+# va → vă
+Nu vă cazați acolo, ne-au cerut bani în plus pentru prosoape.
+# că → ca
+Patul era imens și cearșafurile erau ca de mătase.
+# piscina → piscină
+Am găsit o pensiune cu piscină încălzită, copiii n-au mai vrut să iasă din apă.
+# Va → Vă
+Vă sfătuiesc să cereți cameră la etajele de sus, sunt mai liniștite.
+# ciubar → ciubăr, grățar → grătar
+Am luat o cabană doar pentru noi, cu ciubăr și grătar.
+# ala → ăla
+Am stat o săptămână la Băile Herculane și m-am îndrăgostit de locul ăla.
+# seară → seara
+Ne-am oprit să mâncăm la un han pe drum și ne-a fost rău toată seara.
+# parca → parcă
+Ce fotbal frumos au jucat azi, parcă nu erau ei!
+# pustiul → puștiul, ala → ăla
+Sper să nu-l vândă pe puștiul ăla, e cel mai bun jucător al nostru.
+# dinafara → dinafară
+Biletele s-au dat doar membrilor clubului, iar noi am rămas pe dinafară.
+# ala → ăla
+Fundașul ăla e lent, toată lumea trece de el.
+# croșul → crosul
+Cine se înscrie la crosul de toamnă din parcul Titan?
+# Ma → Mă, sala → sală
+Mă trezesc la cinci ca să ajung la sală înainte de birou.
+# febră → febra
+Ce fac cu febra musculară? Abia merg.
+# că → ca
+Am fost la primul meu curs de crossfit și mă simt ca după o bătaie.
+# seară → seara
+Nu mai mănânc după ora șapte seara și dorm mult mai bine.
+# Cat → Cât
+Cât de des ar trebui să-mi schimb adidașii de alergare?
+# va → vă
+Ce întindere faceți după alergare ca să nu vă doară?
+# peste → pește, poză → poza
+Toți bărbații din aplicație țin un pește în brațe în poza de profil.
+# va → vă
+Cum reacționați când cineva vă spune că nu simte chimie?
+# primăvara → primăvară
+Am cerut o întâlnire și mi-a zis că e ocupat până în primăvară.
+# plantari → plantări
+Au venit peste două sute de voluntari la maratonul de plantări.
+# medității → meditații, vară → vara
+Am dat meditații gratuite copiilor din cartier toată vara.
+# Cautam → Căutăm
+Căutăm familii care să găzduiască temporar câini salvați de pe stradă.
+# debară → debara
+Am pus la punct un mic studio de înregistrări în debara.
+# întreaga → întreagă
+Am terminat de citit seria întreagă în două săptămâni.
+# iarnă → iarna
+Ce hobby ieftin aș putea începe iarna, în casă?
+# Muzică → Muzica, asta → ăsta
+Muzica din jocul ăsta e mai bună decât a multor filme.
+# ca → că
+Lumea e supărată că jocul nu a fost tradus și în română.
+# Coadă → Coada
+Coada la lansarea consolei a fost mai lungă decât la pâine pe vremuri.
+# asta → ăsta
+Nu înțeleg de ce filmul ăsta are note atât de mari.
+# asta → ăsta, bunică → bunica, ras → râs
+Am văzut serialul ăsta cu bunica și am râs amândouă.
+# intrigă → intriga
+Am pus filmul pe pauză de zece ori ca să înțeleg intriga.
+# sa → să
+Era să adorm la cinema, filmul a fost lent de tot.
+# orchestră → orchestra
+Ce frumos a cântat orchestra la Ateneu aseară!
+# suporta → suportă
+Ce festival recomandați pentru cineva care nu suportă aglomerația?
+# grădină → grădina
+Am mers la un concert de muzică clasică în aer liber, în grădina botanică.
+# doua → două
+Cine merge cu mine la operă? Am două bilete.
+# arata → arăta
+Cine mai ține minte cum arăta orașul acum treizeci de ani? Am găsit poze vechi.
+# stiți → știți
+Postez rar, dar citesc tot ce scrieți, să știți.
+# Putin → Puțin, va → vă
+Ce fel de comentarii mai sunt și astea? Puțin respect, vă rog.
+# pagina → pagină
+Concursul s-a încheiat, câștigătorul va fi anunțat mâine pe pagină.
+# va → vă
+Grupul e doar pentru cei care locuiesc în cartier, vă rugăm să respectați regulile.
+# nouă → noua
+Ați auzit de noua regulă de pe Instagram? Nu mai merge nimic.
+# costa → costă
+Am o întrebare pentru cei care au fost în Islanda: cât costă mâncarea acolo?
+# Merița → Merită
+Merită să-mi iau abonament de schi pe tot sezonul?
+# Plecam → Plecăm
+Cine vine cu noi în drumeție duminică? Plecăm la șapte din fața gării.
+# lapovița → lapoviță, urată → urâtă, as → aș, stă → sta
+Ce lapoviță urâtă, aș sta toată ziua în pat.
+# Buna → Bună, Toacă → Toaca
+Bună seara, am o întrebare despre traseul spre Vârful Toaca.
+# mașină → mașina
+Ce zici, merge cu trenul până acolo sau mai bine cu mașina?
+# variantă → varianta
+Eu aș alege varianta a doua, e mai ieftină și mai liniștită.
+# Si → Și, pătit → pățit
+Și eu am pățit la fel, nu ești singurul.
+# rețetă → rețeta
+Am încercat și eu rețeta, mi-a ieșit o minune.
+# Stiți → Știți
+Știți dacă se mai găsesc bilete la meciul de duminică?
+# cîneva → cineva
+E cineva din Galați care vrea să joace baschet seara?
+# doua → două
+Am două bilete în plus la teatru pentru vineri, le dă cineva o șansă?
+# strangem → strângem
+Ne strângem la iarbă verde de 1 Mai, cine vine?
+# mușcă → muscă
+Cine se pricepe la pescuit la muscă? Vreau să încep.
+# seară → seara
+Ce frumos au amenajat malul lacului, acum e plin de oameni seara.
+# asta → ăsta
+Cine organizează târgul de Crăciun anul ăsta? E tot în piața mare?
+# mișcă → mișca
+Patinoarul e plin de copii, abia te poți mișca pe gheață.
+# bulgari → bulgări
+Ne-am bătut cu bulgări până ne-au înghețat mâinile.
+# sanius → săniuș
+Copiii au fost la săniuș toată ziua și au adormit la șapte.
+# Maine → Mâine, va → vă
+Mâine se anunță minus douăzeci de grade, nu vă scoateți câinii mult afară.
+# zăpadă → zăpada, mocîrlă → mocirlă
+S-a topit zăpada și acum totul e o mocirlă.
+# dimineața → dimineață
+Ce dimineață însorită, parcă e primăvară!
+# mână → mâna
+Afară e o ceață de nu-mi văd mâna.
+# bicicletă → bicicleta
+Am prins o ploaie torențială cu bicicleta și am ajuns ud până la piele.
+# ca → că
+Ce noroc că am luat umbrela azi!
+# mangai → mângâi, pisică → pisica
+Câinele meu face crize de gelozie când îmi mângâi pisica.
+# vârsta → vârstă
+Ce vârstă trebuie să aibă un cățel ca să-l sterilizăm?
+# regină → regina
+Pisicuța pe care am găsit-o în ploaie a devenit regina casei.
+# seară → seara
+Ce bine miroase iasomia seara pe balcon!
+# mâna → mană
+Am stropit via de trei ori și tot a făcut mană.
+# brumă → bruma
+Am pus răsadurile prea devreme și le-a ars bruma.
+# Cat → Cât, costa → costă
+Cât costă o ședință cu antrenor personal în București?
+# Ma → Mă, încheietură → încheietura, flotari → flotări
+Mă doare încheietura la flotări, ce fac greșit?
+# seară → seara
+Am început să fac stretching seara și nu mă mai doare spatele.
+# dimineață → dimineața
+Ce frumos e să înoți în mare dimineața, când nu e nimeni pe plajă!
+# ca → că
+Ne-am cunoscut pe Tinder, dar le spunem tuturor că la o petrecere.
+# vorba → vorbă
+Ne-am întâlnit la o expoziție și am stat de vorbă până la închidere.
+# donă → dona
+Cine poate dona cărți pentru biblioteca din satul nostru?
+# va → vă
+Voluntariatul m-a ajutat să ies din depresie, vă spun sincer.
+# Strangem → Strângem
+Strângem bani pentru operația unui copil, orice leu contează.
+# vacanță → vacanța
+Am început să învăț spaniolă pentru vacanța de la anul.
+# bicicletă → bicicleta
+Fac excursii cu bicicleta pe drumuri de țară în fiecare duminică.
+# muncă → munca
+Ce bine e să ai un hobby care nu are legătură cu munca!
+# mașina → mașină
+Mi-am cumpărat mașină de cusut și am reparat toate hainele vechi.
+# ala → ăla
+Fiica mea construiește orașe întregi în jocul ăla.
+# jucăi → jucai
+Ce bine e să joci cu copiii tăi jocurile pe care le jucai tu!
+# diferență → diferența
+Am văzut filmul în original și apoi dublat, diferența e enormă.
+# asta → ăsta
+Serialul ăsta are cea mai frumoasă imagine pe care am văzut-o.
+# ala → ăla
+Cine a mai văzut filmul ăla vechi cu Toma Caragiu?
+# premiera → premieră
+Am mers la cinema la miezul nopții pentru premieră.
+# chitară → chitara
+Ce bine a sunat chitara acustică în biserica aia veche!
+# asta → ăsta, mașina → mașină
+Am ascultat discul ăsta în mașină până s-a zgâriat.
+# Române → Romane
+Concertul de la Arenele Romane a fost sold out în două ore.
+# asta → ăsta
+ce tare arată, unde e locul ăsta?
+# superba → superbă, poză → poza
+superbă poza, ai făcut-o cu telefonul?
+# va → vă
+abia am ajuns acasă, mâine vă povestesc tot
+# așteptăm → așteptam, asa → așa
+nu mă așteptam la un final așa
+# ma → mă
+bravo, mă bucur pentru voi!
+# dată → data
+ce păcat, ne vedem data viitoare
+# lasă → lăsa
+tot înainte, nu te lăsa!
+# frânța → frântă
+ce zi a fost azi, sunt frântă
+# imi → îmi, vacanță → vacanța, astă → asta
+îmi trebuie o vacanță de vacanța asta
+# pagina → pagină
+iar am uitat să dau like la pagină
+# poză → poza, rama → ramă
+poza asta merită pusă în ramă
+# vară → vara
+mi-e dor de vara trecută
+# buna → bună, peste → pește
+Ce bună a fost ciorba de pește de la pensiunea aia!
+# grădina → grădină
+Am plecat la Balcic de 1 Iunie, ce grădină frumoasă au la palat!
+# Dubrovnîk → Dubrovnik
+Ne-a costat o avere parcarea în Dubrovnik.
+# pizză → pizza, viață → viața
+Am mâncat cea mai bună pizza din viața mea într-o pizzerie mică din Napoli.
+# costă → costa
+Prețurile din Elveția ne-au speriat, o cafea costa cinci euro.
+# parțiile → pârtiile
+Am schiat în Austria și pârtiile sunt impecabile.
+# că → ca
+Am vizitat castelul din Neuschwanstein, arată ca în desenele animate.
+# strădutele → străduțele
+Ne-am rătăcit prin străduțele din Lisabona și am ajuns la o terasă superbă.
+# ala → ăla
+Ce frumos e la Porto, cu podul ăla de fier peste râu!
+# gazdă → gazda
+Am stat la o pensiune în Andaluzia unde gazda ne-a învățat flamenco.
+# apă → apa
+Plajele din Algarve sunt superbe, dar apa e rece chiar și în august.
+# Coadă → Coada
+Coada la Luvru a fost de trei ore, dar Mona Lisa e mică.
+# apă → apa
+Berea în Cehia e mai ieftină decât apa, nu glumesc.
+# curață → curată
+Viena e curată, liniștită și foarte bine organizată.
+# salină → salina
+Am vizitat salina de la Wieliczka, e mai mare decât Salina Turda.
+# soba → sobă
+Am dormit la o casă tradițională cu sobă de teracotă, ca la bunici.
+# toamnă → toamna
+Peisajele din Ținutul Secuiesc sunt superbe toamna.
+# ala → ăla
+Ne-am oprit la Mănăstirea Voroneț, albastrul ăla e unic în lume.
+# masă → masa, țuica → țuică
+Am luat masa la o pensiune din Suceava, ne-au servit și cu țuică de casă.
+# seară → seara
+Am fost la Iași pentru Zilele Orașului și am mâncat gogoși toată seara.
+# Românescu → Romanescu
+Am mers la Craiova la un concert și am vizitat parcul Romanescu.
+# primăvară → primăvara
+Constanța e frumoasă primăvara, când nu sunt turiști.
+# apă → apa
+Ce bine e să faci plajă în septembrie, când apa e caldă și nu e lume!
+# lunga → lungă, plajă → plaja
+Ce lungă e plaja de la Sulina, aproape goală!
+# Delta → Deltă
+Ne-am întors din Deltă cu o mie de poze cu păsări.
+# gâscă → gașca
+Am văzut răsăritul la mare cu toată gașca, după o noapte albă.
+# scârtaia → scârțâia
+Am stat la Sinaia la o vilă veche, cu parchet care scârțâia.
+# telecabină → telecabina
+Am urcat la Babele cu telecabina și am coborât pe jos.
+# Fundată → Fundata
+Am stat într-o cabană la Fundata, unde nu era semnal deloc.
+# Prăpăștii → Prăpăstii
+Am făcut traseul de la Zărnești prin Prăpăstii, e ușor și spectaculos.
+# plăcinta → plăcintă, brânza → brânză, cabană → cabana
+Ce plăcintă cu brânză am mâncat la cabana de pe Piatra Craiului!
+# partie → pârtie
+Am fost la Păltiniș și am schiat pe o pârtie aproape goală.
+# ala → ăla
+Ce apă sărată e în lacul ăla, plutești fără să faci nimic!
+# Bigar → Bigăr
+Am văzut Cascada Bigăr înainte să se surpe, a fost superbă.
+# bicicletă → bicicleta
+Am făcut un tur cu bicicleta în jurul lacului Vidraru.
+# dimineața → dimineață
+Mulțumesc pentru răspuns, o să încerc mâine dimineață.
+# ca → că, asta → ăsta
+Am deschis un topic nou, că ăsta s-a umplut de off-topic.
+# Uitați-va → Uitați-vă
+Uitați-vă și la prețurile de la second-hand, se găsesc chilipiruri.
+# crapa → crapă
+Cine a mai avut problema asta cu roșiile care crapă?
+# boala → boală
+Am pus poze cu frunzele, poate îmi spune cineva ce boală e.
+# Arata → Arată
+Arată a lipsă de magneziu, dar e greu de zis doar din poză.
+# Lasa-l → Lasă-l
+Lasă-l în pace câteva zile și vezi dacă își revine.
+# as → aș, așteptă → aștepta, tăi → tai
+Eu aș mai aștepta o săptămână înainte să tai crengile.
+# seară → seara
+Nu udați seara, se fac ciuperci pe frunze.
+# grijă → grija
+Udatul prin picurare m-a scăpat de grija vacanței.
+# Rășadurile → Răsadurile
+Răsadurile de castraveți s-au înnegrit la bază, mai e ceva de făcut?
+# frica → frică, sa → să
+Am primit o orhidee cadou și mi-e frică să n-o omor.
+# piatră → piatra
+Am făcut gem de gutui și mi-a ieșit tare ca piatra.
+# Maine → Mâine, dimineața → dimineață, zăcuscă → zacuscă, vinețe → vinete
+Mâine dimineață facem zacuscă, am cumpărat zece kilograme de vinete.
+# dulceată → dulceața
+Mi-a ieșit dulceața de cireșe amară, ce am greșit?
+# șchiopateze → șchiopăteze
+Câinele meu a început să șchiopăteze după plimbarea de ieri.
+# pisică → pisica
+Ce faceți când pisica nu vrea să intre în cușca de transport?
+# casa → casă
+Am pus o cameră în casă să văd ce face câinele când plec, doarme non-stop.
+# Va → Vă
+Vă rog să nu mai abandonați animalele la marginea pădurii!
+# pisică → pisica, dieta → dietă
+Medicul veterinar mi-a zis că pisica e prea grasă, trebuie să-i țin dietă.
+# rasa → rasă
+Ce rasă de pisică nu lasă păr?
+# Aseara → Aseară
+Aseară am văzut cel mai bun meci al sezonului, ce întoarcere de scor!
+# pustiul → puștiul
+Ce bine a jucat puștiul de nouăsprezece ani!
+# tată → tata, spal → spăl, mașină → mașina
+Am pariat cu tata pe rezultat și acum trebuie să-i spăl mașina.
+# arătă → arată
+Liga noastră arată tot mai slab de la an la an.
+# Tenișul → Tenisul
+Tenisul de masă e mult mai obositor decât pare.
+# bicicletă → bicicleta
+Am făcut o tură de patruzeci de kilometri cu bicicleta în jurul orașului.
+# Ma → Mă
+Mă doare umărul de la înot, ce exerciții de recuperare îmi recomandați?
+# sa → să
+Am pierdut cinci kilograme fără să țin dietă, doar mergând pe jos.
+# nunta → nuntă
+Ne-am înscris la dansuri de societate pentru nuntă.
+# rezistență → rezistența
+Ce frumos e să vezi cum îți crește rezistența de la o săptămână la alta!
+# Ma → Mă, singura → singură
+Mă antrenez singură acasă după tutoriale și merge bine.
+# seară → seara
+Am fost la o întâlnire și am ajuns să vorbim despre plante toată seara.
+# apă → apa
+Am mers în satul inundat să ajutăm la scos apa din case.
+# mobilă → mobila
+Ce frumos e să-ți faci singur mobila din lemn!
+# coloană → coloana
+Am cumpărat jocul doar pentru coloana sonoră.
+# vad → văd
+Am urmărit toată trilogia într-o singură zi, ochii mei nu mai văd.
+# ca → că
+Ce actor român credeți că merită să joace la Hollywood?
+# asta → ăsta
+Filmul ăsta e mai bun la a doua vizionare.
+# sa → să
+Am văzut filmul fără să știu nimic despre el și am fost surprinsă.
+# trupa → trupă
+Ce trupă românească ați vrea să se reunească?
+# muzică → muzica
+Ce bine se aude muzica live în cluburile mici!
+# tată → tata
+Am o colecție de discuri de vinil moștenită de la tata.
+# piesa → piesă, va → vă, proasta → proastă
+Ce piesă vă scoate imediat din starea proastă?
+# Va → Vă
+Vă așteptăm la lansarea cărții, intrarea e liberă.
+# Raman → Rămân, tabără → tabăra
+Rămân câteva locuri libere în tabăra de pictură din august.
+# uități → uitați, bancă → banca
+Se caută o pereche de ochelari uitați pe banca din parc.
+# piscină → piscina
+Am găsit o cheie de mașină lângă piscina publică, scrieți-mi în privat.
+# bicicletă → bicicleta
+Cine a lăsat bicicleta albastră în fața blocului trei de o săptămână?
+# duminica → duminică
+Anunț: duminică nu avem apă caldă în tot cartierul, aveți grijă.
+# noua → nouă, seară → seara
+Sunt nouă în Cluj, unde se iese seara?
+# iarnă → iarna
+Unde se poate înota iarna în Iași, în afară de bazinul olimpic?
+# sa → să
+Ce ziceți, merită să merg la meci cu copilul de cinci ani?
+# Cat → Cât, costa → costă
+Cât costă echipamentul complet de portar pentru un copil?
+# întreaga → întreagă
+Echipa a jucat cu zece oameni o repriză întreagă și a rezistat.
+# atmosfera → atmosferă
+Cine a mai fost la meciul de la Craiova? Ce atmosferă!
+# Maine → Mâine
+Mâine mergem la stadion cu toată familia, inclusiv bunicul de optzeci de ani.
+# sut → șut
+Ce meci plictisitor, zero la zero și niciun șut pe poartă!
+# ala → ăla
+Golul ăla din foarfecă a fost spectaculos!
+# returnă → returna
+Ne pare rău, dar nu putem returna banii pentru biletele la meciul amânat.
+# dimineața → dimineață
+Ce zici de un meci de tenis duminică dimineață?
+# zăpadă → zăpada, asta → ăsta
+Ce noroc cu zăpada de anul ăsta, se schiază până în aprilie.
+# partie → pârtie
+Ce bine e să bei un ceai cald la cabană după o zi pe pârtie!
+# Partia → Pârtia
+Pârtia a fost închisă din cauza vântului puternic.
+# parția → pârtia
+Am făcut prima coborâre pe pârtia roșie și n-am căzut deloc!
+# va → vă
+Ce frumos e lacul înghețat, dar nu vă aventurați pe gheață!
+# ploua → plouă
+Ce bine se doarme când plouă!
+# mașină → mașina
+A bătut grindina cât oul de porumbel, mașina e plină de ciupituri.
+# Ceată → Ceața
+Ceața de dimineață a întârziat toate zborurile de pe Otopeni.
+# Maine → Mâine
+Mâine ar trebui să fie senin, perfect pentru o plimbare la munte.
+# sta → stă, pervăz → pervaz, dimineața → dimineață, seară → seara
+Pisica mea stă la soare pe pervaz de dimineață până seara.
+# va → vă
+Ce vă face câinele când vine poștașul? Al meu înnebunește.
+# sta → stă, ședința → ședință
+Pisica stă pe tastatură de fiecare dată când am o ședință online.
+# ca → că, pisică → pisica
+Am observat că pisica bea mult mai multă apă, e de îngrijorat?
+# litieră → litiera
+Avem un iepure care folosește litiera ca o pisică.
+# deranjam → deranjăm
+Rândunelele și-au făcut cuib pe balconul nostru, nu le deranjăm.
+# cânta → cântă
+Cocoșul vecinului cântă de la patru dimineața.
+# iarnă → iarna
+Ce plante aromatice rezistă iarna pe balcon?
+# vară → vara
+Ce frumos e să dormi sub cerul liber vara!
+# grohotis → grohotiș
+Am căzut pe o pantă cu grohotiș și m-am julit tot.
+# harta → hartă
+Ce bine că am avut hartă tipărită, telefonul a murit la jumătatea drumului!
+# ala → ăla, merită → merita
+Am urcat pe vârf la răsărit, frigul ăla merita.
+# sa → să
+Am alergat prima oară un kilometru fără să mă opresc, sunt mândră.
+# Ma → Mă
+Mă doare tot, dar e o durere plăcută.
+# bicicletă → bicicleta
+Ce greu am urcat dealul cu bicicleta, aproape că am coborât să o împing!
+# seară → seara
+Am ieșit cu o fată care nu și-a scos privirea din telefon toată seara.
+# cauta → caută
+Mi-a spus că nu caută nimic serios, dar acum vrea să ne mutăm împreună.
+# împărți → împarți
+Ce frumos e să ai cu cine să-ți împarți dimineața!
+# paralimpiada → paralimpiadă
+Am fost voluntar la paralimpiadă și am învățat foarte multe.
+# coș → cos
+Am cusut măști pentru spital în pandemie, acum cos jucării.
+# țară → țara
+Am un club de lectură online cu oameni din toată țara.
+# că → ca
+Ce bine e să găsești oameni cu aceleași pasiuni ca tine!
+# fetiță → fetița
+Am făcut un herbar pentru fetița mea, cu flori presate.
+# sa → să
+Am stat toată noaptea să termin un puzzle cu harta lumii.
+# asta → ăsta
+Ce frumos e jocul ăsta, fiecare nivel e o operă de artă!
+# echipa → echipă
+Ce greu e să joci cu oameni care nu vorbesc deloc în echipă!
+# actriță → actrița
+Ce bine a jucat actrița aia, nu o cunoșteam!
+# recomandă → recomanda
+Ce serial mi-ați recomanda pentru o săptămână de concediu medical?
+# ras → râs
+Am râs tot filmul, cea mai bună comedie din ultimii ani.
+# orchestră → orchestra
+Ce frumos a sunat orchestra la concertul de Anul Nou!
+# cânti → cânți, sală → sala
+Ce bine e să cânți cu toată sala aceeași piesă!
+# jucăm → jucam
+Pe vremea aia jucam fotbal în spatele blocului până se întuneca.
+# dimineață → dimineața
+Tata mă lua la pescuit duminica dimineața, cele mai frumoase amintiri.
+# plapuma → plapumă, auda → audă, mamă → mama
+Ascultam radio noaptea, sub plapumă, ca să nu mă audă mama.
+# duminică → duminica
+Ne uitam la desene animate doar duminica, două ore pe săptămână.
+# Colecționăm → Colecționam
+Colecționam surprize de la gumele de mestecat, mai ține minte cineva?
+# strangeam → strângeam
+Ne strângeam toți copiii de pe stradă și jucam v-ați ascunselea.
+# tată → tata, sanius → săniuș
+Așteptam toată iarna să meargă tata cu noi la săniuș.
+# bunică → bunica, ajutăm → ajutam
+Vara stăteam la bunica și ajutam la cules de cireșe.
+# tabăra → tabără
+În tabără la munte, am dormit pentru prima dată departe de părinți.
+# tată → tata
+Mergeam la meci cu tata pe stadionul vechi, care acum nu mai există.
+# videotecă → videoteca
+Vedeam filmele la videoteca din cartier, cu dublaj de la o singură voce.
+# Cautam → Căutam, baltă → balta
+Căutam broaște la balta din spatele școlii, ce copilărie!
+# alergăm → alergam
+Anul trecut abia alergam un kilometru, acum fac zece fără pauză.
+# sală → sala, ridică → ridica
+Când am început sala, nu puteam ridica nici bara goală.
+# sa → să, plecam → plecăm
+Trebuia să plecăm la mare azi, dar s-a stricat mașina.
+# sa → să
+Voiam să merg la concert, dar biletele s-au terminat în prima oră.
+# Stiam → Știam, ca → că
+Știam că o să plouă, de aceea am luat pelerinele.
+# in → în
+Ne gândeam să mergem în Grecia, dar acum ne tentează Turcia.
+# ușa → ușă
+Mă uitam la meci când a sunat cineva la ușă exact la penalty.
+# dimineața → dimineață
+Ploua de dimineață, dar acum a ieșit un soare frumos.
+# așeară → aseară
+Ce frig era aseară la concertul în aer liber!
+# arată → arăta
+Hotelul arăta bine în poze, dar realitatea era alta.
+# bunică → bunica
+Mâncarea era gătită de bunica proprietarului, ca la noi acasă.
+# cameră → camera
+Nu funcționa nimic în camera aia, nici televizorul, nici aerul condiționat.
+# bunică → bunica
+Personalul vorbea doar engleză, iar bunica nu înțelegea nimic.
+# curăță → curăța
+Piscina era plină de frunze și nimeni nu o curăța.
+# plecam → plecăm
+Ce bine ne-am simțit, nu voiam să mai plecăm!
+# mișcă → mișca
+Arbitrul fluiera tot ce mișca, a stricat jocul.
+# ca → că
+Eram sigur că pierdem, dar băieții au întors scorul.
+# asta → ăsta
+Visam de mic să joc pe stadionul ăsta, azi am reușit.
+# presă → presa
+Antrenorul nu vorbea cu presa de o săptămână.
+# uită → uita, aia → ăia
+Câinele se uita la mine cu ochii ăia triști până i-am dat din friptură.
+# gura → gură, sa → să
+Câinele ținea mingea în gură și nu voia să mi-o dea.
+# Ma → Mă, sună → suna, latră → latra
+Mă suna vecina ori de câte ori latra câinele meu.
+# uită → uita
+Când am plecat de acasă, pisica stătea la geam și se uita după mine.
+# Rășadurile → Răsadurile, grindină → grindina
+Răsadurile arătau perfect, până a venit grindina.
+# plantă → planta
+Bunica planta după lună și avea cea mai frumoasă grădină din sat.
+# lavândă → lavanda
+Nu știam că lavanda are nevoie de atât de puțină apă.
+# menta → mentă
+Am crezut că e buruiană și am smuls-o, era de fapt mentă.
+# seara → seară
+Alergam în fiecare seară până m-am accidentat la genunchi.
+# clasa → clasă
+Eram cel mai slab din clasă la sport, acum fac maratoane.
+# Mancam → Mâncam, proștii → prostii
+Mâncam numai prostii până să încep să gătesc acasă.
+# Stateam → Stăteam
+Stăteam ore întregi pe canapea, acum nu mai pot sta locului.
+# seara → seară
+Ne scriam în fiecare seară până târziu, apoi brusc a dispărut.
+# Ma → Mă
+Mă temeam de prima întâlnire, dar a fost mai bine decât credeam.
+# degeabă → degeaba
+Așteptam un mesaj de la ea toată ziua, degeaba.
+# Strangeam → Strângeam
+Strângeam haine pentru copiii din sat de la toți vecinii.
+# asta → ăsta
+Visam să fac voluntariat în Africa, anul ăsta am reușit.
+# prietena → prietenă, sa → să
+Pictam doar pentru mine, până mi-a zis o prietenă să expun.
+# Cantam → Cântam, gâsca → gașca
+Cântam la chitară în fiecare seară pe bloc, cu toată gașca.
+# Crosetam → Croșetam, căciulite → căciulițe
+Croșetam căciulițe pentru nou-născuții din spital.
+# Stateam → Stăteam, sa → să
+Stăteam toată noaptea să termin un nivel și dimineața mergeam la școală.
+# sală → sala
+Mergeam la sala de jocuri din centru cu banii de buzunar.
+# asta → ăsta
+Credeam că jocul ăsta e greu, până l-am încercat pe al doilea.
+# asta → ăsta
+Vedeam filmul ăsta în fiecare an de Crăciun cu familia.
+# bunică → bunica
+Ne uitam la telenovele cu bunica, ea plângea mereu la final.
+# Stiam → Știam, asta → ăsta
+Știam toate replicile din filmul ăsta pe de rost.
+# asta → ăsta
+Ascultam albumul ăsta pe repeat în anul doi de facultate.
+# Cantam → Cântam
+Cântam la vioară în orchestra școlii, acum mi-am reluat lecțiile.
+# cântă → cânta
+Mama cânta mereu piesa asta când făcea curat prin casă.
+# muzică → muzica
+Dansam pe muzica asta la discotecă în anii nouăzeci.
+# Ma → Mă
+Mă gândesc să mă întorc în satul unde am crescut.
+# învăță → învăța
+Bunica ne învăța să facem plăcintă cu dovleac în fiecare toamnă.
+# învăță → învăța
+Tata mă învăța să merg pe bicicletă pe aleea din fața blocului.
+# certăm → certam
+Ne certam pe telecomandă în fiecare seară, ce vremuri!
+# patinăm → patinam
+Iarna patinam pe lacul înghețat din sat, cu patine vechi.
+# rău → râu
+Mergeam la scăldat la râu și ne întorceam arși de soare.
+# tabăra → tabără, așteptăm → așteptam
+Scriam scrisori prietenilor din tabără și așteptam săptămâni întregi răspunsul.
+# înjură → înjura
+Mă uitam la meciuri cu bunicul, el înjura arbitrii de fiecare dată.
+# sunăm → sunam
+Ascultam emisiunile de radio cu dedicații și sunam să cerem melodii.
+# strangeam → strângeam
+Ne strângeam la cineva acasă să vedem filmele pe casete video.
+# sotron → șotron, fețele → fetele
+Jucam elastic și șotron cu fetele de pe stradă.
+# strând → ștrand
+Mai știe cineva unde era vechiul ștrand din parc?
+# masă → masa, cântăm → cântam
+Ne adunam toată familia la masa de Crăciun și cântam colinde.
+# plută → pluta
+Am mers cu pluta pe Bistrița cu un grup de prieteni, adrenalină pură.
+# iarnă → iarna
+Ce frumos e Brașovul iarna, parcă e din poveste.
+# așteptă → aștepta
+Când ajungeam la cabană, cabanierul ne aștepta cu ceai cald.
+# Ma → Mă, ploua → plouă
+Mă rugam să nu plouă până ajungem la refugiu.
+# Coborâm → Coboram
+Coboram încet pe potecă, pentru că era gheață peste tot.
+# numărăm → număram
+Ne uitam la stele și număram stelele căzătoare.
+# Stateam → Stăteam
+Stăteam la umbră sub umbrelă și citeam toată ziua.
+# Mancam → Mâncam, că → ca
+Mâncam porumb fiert și gogoși pe plajă, ca toată lumea.
+# plimbăm → plimbam, ascultăm → ascultam, muzică → muzica
+Seara ne plimbam pe faleză și ascultam muzica de la terase.
+# Imi → Îmi, frica → frică
+Îmi era frică de avion, dar acum zbor fără probleme.
+# ca → că
+Când am ajuns la aeroport, am aflat că zborul fusese anulat.
+# ca → că
+Mi-a plăcut că personalul ținea minte cum ne place cafeaua.
+# termină → termina, dus → duș
+Apa caldă se termina dacă făceau duș mai mult de doi oameni.
+# ala → ăla
+Mâncarea era bună, dar porțiile erau mici pentru prețul ăla.
+# că → ca
+Aerul era atât de curat încât dormeam ca bebelușii.
+# Stateam → Stăteam, seară → seara, ascultăm → ascultam
+Stăteam pe prispă seara și ascultam greierii.
+# plouă → ploua, găleață → găleata
+Ne-am dus la meci deși ploua cu găleata.
+# iață-ne → iată-ne
+Nu credeam că o să ajungem în finală, dar iată-ne aici!
+# strigă → striga
+Antrenorul striga la jucători de pe margine tot meciul.
+# bunică → bunica
+Ne uitam la meci la bunica, pe un televizor alb-negru.
+# bucurăm → bucuram
+Ne bucuram de fiecare gol ca de un titlu mondial.
+# ridică → ridica
+Când marca el, tot stadionul se ridica în picioare.
+# afara → afară
+Jucam baschet pe terenul școlii până ne dădea afară paznicul.
+# tată → tata, caraș → caras
+Pescuiam cu tata la lacul de lângă oraș, prindeam doar caras.
+# Pisică → Pisica, data → dată
+Pisica se ascundea în dulap de fiecare dată când veneau musafiri.
+# ma → mă, așteptă → aștepta
+Câinele mă aștepta în fiecare zi la stația de autobuz.
+# învăță → învăța, labă → laba
+Nu știam că pisicile pot învăța trucuri, a mea dă laba.
+# Hraneam → Hrăneam
+Hrăneam pisicile străzii din fața blocului, acum una doarme la mine.
+# sarea → sărea
+Câinele vecinilor sărea gardul și venea la noi la masă.
+# grădină → grădina
+Udam grădina în fiecare seară cu furtunul, acum am sistem automat.
+# Plantăm → Plantam, toamnă → toamna
+Plantam ceapă și usturoi cu bunica toamna, înainte de primul îngheț.
+# Strangeam → Strângeam, greblă → grebla, aruncăm → aruncam
+Strângeam frunzele cu grebla și ne aruncam în grămadă.
+# cataram → cățăram, mâncăm → mâncam
+Ne cățăram în cireș și mâncam cireșe direct din pom.
+# vecină → vecina, găleață → găleată
+Culegeam caise de la vecina, care ne dădea și nouă o găleată.
+# pervăz → pervaz
+Țineam răsadurile pe pervaz până se încălzea afară.
+# Ma → Mă, antrenăm → antrenam, dimineața → dimineață
+Mă antrenam pentru maraton în fiecare dimineață la cinci.
+# bicicletă → bicicleta
+Mergeam cu bicicleta la serviciu, până mi-au furat-o.
+# fuga → fugă
+Abia urcam scările până la etajul trei, acum le urc în fugă.
+# ca → că
+Ne vedeam doar în weekend, pentru că locuiam în orașe diferite.
+# Ma → Mă, sună → suna
+Mă suna în fiecare seară înainte de culcare.
+# certăm → certam, împăcăm → împăcam
+Ne certam pe orice, dar ne împăcam la fel de repede.
+# Strangeam → Strângeam
+Strângeam capace de plastic pentru un scaun cu rotile.
+# Învățăm → Învățam
+Învățam copiii să citească la biblioteca satului.
+# Organizăm → Organizam
+Organizam în fiecare an un concert caritabil la școală.
+# bunică → bunica
+Brodam la gherghef cu bunica în serile de iarnă.
+# in → în, Delta → Deltă
+Fotografiam păsări din spatele casei, acum merg în Deltă.
+# tată → tata
+Construiam aeromodele cu tata în garaj.
+# ma → mă, lasă → lăsa, sa → să
+Jucam table cu bunicul în fiecare seară, el mă lăsa să câștig.
+# blocă → bloca
+Jucam Mario pe o consolă care se bloca la fiecare zece minute.
+# lăsă → lăsa
+Mă uitam la fratele meu cum joacă, pentru că nu mă lăsa pe mine.
+# strică → strica
+Salvam jocul pe un card de memorie care se strica mereu.
+# jucăm → jucam
+Ne adunam la un coleg acasă și jucam în rețea până dimineața.
+# Ma → Mă
+Mă enerva că pierdeam mereu la ultimul nivel.
+# Plangeam → Plângeam
+Plângeam la fiecare film cu animale, încă plâng.
+# ala → ăla
+Ne uitam la serialul ăla în fiecare seară la opt, toată familia.
+# săptămână → săptămâna, întreaga → întreagă
+Așteptam săptămâna întreagă episodul nou.
+# Stiam → Știam
+Știam pe de rost toate cântecele din desenele animate.
+# Înregistrăm → Înregistram
+Înregistram melodiile de la radio pe casete, cu reclame cu tot.
+# muzică → muzica
+Dansam în sufragerie pe muzica părinților.
+# Cantam → Cântam
+Cântam în corul bisericii de la șapte ani.
+# ascultă → asculta
+Mama asculta mereu muzică populară dimineața, la radio.
+# acceptă → accepta, ofertă → oferta
+Dacă ați fi în locul meu, ați accepta oferta de cazare?
+# va → vă
+Dacă vreți, vă trimit lista cu pensiunile unde am stat.
+# as → aș
+Dacă ar fi după mine, aș merge la mare în fiecare lună.
+# sunați-ma → sunați-mă
+Dacă vedeți un câine maro cu o pată albă pe ochi, sunați-mă.
+# legătură → legătura
+Dacă mai întârzie mult trenul, pierdem legătura de la Brașov.
+# muzică → muzica
+Dacă îți place muzica veche, trebuie să asculți trupa asta.
+# va → vă, intreb → întreb
+Dacă nu vă supărați, aș vrea să întreb ceva despre traseu.
+# zgarda → zgardă
+Dacă găsiți o pisică gri cu zgardă verde, e a noastră.
+# asta → ăsta
+Dacă ați fost la hotelul ăsta, merită prețul?
+# va → vă, va → vă, uități → uitați
+Dacă nu vă place, nu vă mai uitați, e simplu.
+# nedreapta → nedreaptă
+Acum o săptămână eram pe plajă, azi sunt în ședință, viața e nedreaptă.
+# costa → costă
+Nu-mi venea să cred când am văzut cât costă o cafea la Oslo.
+# că → ca
+Ne simțeam ca niște copii la Disneyland, deși aveam peste treizeci de ani.
+# Mancam → Mâncam, saturam → săturam
+Mâncam paste în fiecare zi și nu ne săturam.
+# Stateam → Stăteam
+Stăteam cu orele în cafenelele din Viena, nimeni nu te grăbea.
+# duminică → duminica
+Nu găseam nicio farmacie deschisă duminica în Germania.
+# ca → că, nuntă → nunta
+Am avut noroc că zborul a plecat la timp, altfel pierdeam nunta.
+# Cat → Cât
+Cât e de mers pe jos de la gară până la centrul vechi?
+# mașina → mașină
+Se poate ajunge la Cascada Duruitoarea fără mașină?
+# Ranca → Rânca, Merița → Merită
+Cine a fost la Rânca? Merită pentru o săptămână de schi?
+# ciubar → ciubăr
+Recomandați o cabană cu ciubăr în zona Bran-Moeciu, pentru patru persoane.
+# mașină → mașina
+E sigur să las mașina în parcarea aeroportului o săptămână?
+# mașină → mașina
+Am nevoie de permis internațional ca să închiriez mașina în Turcia?
+# Cat → Cât
+Cât e taxa pentru bagajul de cală la zborurile astea?
+# vară → vara
+Ne-au servit cafeaua rece și ne-au zis că așa se bea vara.
+# gazdă → gazda
+Am stat la o pensiune unde gazda ne făcea clătite în fiecare dimineață.
+# geacă → geaca, gazdă → gazda
+Am uitat geaca la cabană, mi-a trimis-o gazda prin curier.
+# pătut → pătuț
+Am cerut să ne aducă un pătuț pentru copil și l-au adus imediat.
+# taxă → taxa
+Nu știam că trebuie să plătim taxa de stațiune separat.
+# salută → saluta
+Hotelul avea un câine care stătea la intrare și saluta oaspeții.
+# săptămână → săptămâna
+Patul era prea moale, m-a durut spatele toată săptămâna.
+# Usa → Ușa
+Ușa de la baie nu se închidea, iar peretele era de sticlă.
+# că → ca
+Am fost singurii oaspeți, ne-am simțit ca într-o vilă privată.
+# Va → Vă, stradă → strada
+Vă recomand să cereți camerele din spate, nu se aude strada.
+# căreu → careu
+Ce gol frumos a dat portarul din propriul careu!
+# ca → că
+Ce noroc pe noi că portarul lor a greșit!
+# felicități → felicitați
+Ne-a lipsit puțin, dar băieții merită felicitați.
+# tura → tură
+Am făcut prima tură de escaladă și mi-au tremurat mâinile tot timpul.
+# sala → sală
+Mergeam la sală doar ca să văd un băiat, acum merg pentru mine.
+# Pisică → Pisica
+Pisica a învățat să deschidă sertarul cu mâncare, sunt disperată.
+# pisica → pisică, va → vă
+Ce aveți voi de împărțit, pisică și câine, de vă bateți toată ziua?
+# latra → latră
+Câinele vecinului latră la mine de doi ani, de parcă nu m-ar cunoaște.
+# poza → poză
+Am văzut un șarpe în grădină, e veninos? Am pus poză mai jos.
+# va → vă
+Ce face câinele vostru când vă vede trist? Al meu vine și mă linge.
+# asta → ăsta
+Prunii au făcut atât de mult anul ăsta încât am dat la tot satul.
+# frumoasa → frumoasă
+Ce frumoasă e grădina vecinei, are flori de toate culorile!
+# vară → vara
+Am plantat un tei în curte, ca să miroasă frumos vara.
+# iarnă → iarna
+Am o seră în curte și mănânc salată proaspătă și iarna.
+# coadă → coada
+Am încercat aplicațiile vreo doi ani, dar l-am cunoscut la coada la pâine.
+# răzi → râzi
+Ce mult contează să râzi cu cineva!
+# ajuta → ajută, intre → între
+Ce bine e să vezi că oamenii încă se ajută între ei!
+# bunică → bunica
+Fiecare vizită la azil mă face să-mi sun bunica mai des.
+# muzică → muzica
+Am învățat să dansez tango și m-am îndrăgostit de muzica asta.
+# cânti → cânți
+Ce greu e să înveți să cânți la vioară după treizeci de ani!
+# masa → masă
+Am făcut un puzzle de cinci mii de piese, a stat pe masă trei luni.
+# lumină → lumina
+Ce frumos e să brodezi la lumina lămpii, cu un ceai alături!
+# ca → că
+Am descoperit că îmi place să restaurez mobilă veche.
+# asta → ăsta
+Am cumpărat jocul ăsta pentru copil și acum îl joc eu.
+# sa → să
+Am stat toată noaptea să terminăm misiunea cu prietenii.
+# diseara → diseară
+Ce zici de un joc de societate în loc de film diseară?
+# bunică → bunica, trisează → trișează
+Am pierdut la Remi cu bunica, ea trișează, sunt sigur.
+# ras → râs
+Am râs până mi-au dat lacrimile la comedia aia veche.
+# descopar → descopăr
+Am văzut filmul de trei ori și tot descopăr detalii noi.
+# parca → parcă
+Ce bine a cântat, parcă era pe disc!
+# asta → ăsta, suna → sună
+Am ascultat discul ăsta la vinil și sună complet diferit.
+# mașină → mașina
+Locația e superbă, dar drumul de acces e de pământ și greu de urcat cu mașina mică.
+# grădină → grădina
+Ne-a plăcut grădina cu hamac și leagăn pentru copii.
+# apă → apa
+Am avut probleme cu apa caldă în prima seară, dar s-a rezolvat repede.
+# Semineul → Șemineul, seară → seara
+Șemineul a fost cea mai bună parte, am stat lângă foc toată seara.
+# gazdă → gazda
+Cafetiera nu funcționa, iar gazda a adus una nouă în jumătate de oră.
+# ușa → ușă
+Am primit codul de la ușă cu o oră înainte, totul a mers perfect.
+# cearsafurile → cearșafurile
+Am găsit fire de păr în pat și cearșafurile păreau nespălate.
+# sobă → soba
+Am stat în aprilie și era încă frig, dar soba a încălzit casa repede.
+# frumoasa → frumoasă, seară → seara
+Ce frumoasă a fost seara aia pe terasă, cu vin și stele!
+# camera → cameră
+Ne-au adus micul dejun în cameră fără să cerem, pentru că era duminică.
+# va → vă
+Nu vă cazați la parter, se aude tot de pe hol.
+# bacsis → bacșiș, merită → merita
+Am lăsat un bacșiș cameristei, merita din plin.
+# frumoasa → frumoasă, plajă → plaja
+Ce frumoasă e plaja privată a hotelului dimineața devreme!
+# factură → factura
+Am avut o problemă cu factura și au rezolvat-o pe loc.
+# Merita → Merită, mașină → mașina
+Merită să iau mașina până la Viena sau mai bine zbor?
+# autostradă → autostrada
+Cum e drumul spre Vama Veche acum, s-a terminat autostrada?
+# intră → intra
+Se poate intra în Peștera Muierilor cu copii mici?
+# Ati → Ați
+Ați încercat vreodată să mergeți cu trenul de noapte spre Viena?
+# Cat → Cât, costa → costă
+Cât costă o săptămână de schi în Bulgaria, cu tot cu cazare?
+# asta → ăsta, Cautam → Căutăm
+Cine merge la Untold anul ăsta? Căutăm colegi de cort.
+# cânta → cântă, piesă → piesa
+Ce tare e când trupa cântă exact piesa pe care o aștepți!
+# prietenă → prietena
+Am pierdut-o pe prietena mea în mulțime și ne-am regăsit abia la final.
+# trupa → trupă
+Ce trupă ați vedea live dacă ați putea alege orice, din orice an?
+# solistă → solista
+Am văzut-o pe solista trupei la cafenea a doua zi, era foarte simpatică.
+# mașina → mașină
+Am pierdut cheile de la mașină la festival, le-am găsit la obiecte pierdute.
+# peluza → peluză
+Ce frumos a fost când toți jucătorii au venit la peluză după meci!
+# echipă → echipa
+Ce bine a jucat echipa în prima repriză, păcat de a doua!
+# descurcă → descurca
+Am auzit că vine un antrenor străin, oare se va descurca?
+# poartă → poarta
+Ne vedem la meci, la poarta trei, cu un sfert de oră înainte!
+# va → vă
+Pisica mea a dispărut de trei zile, sunt disperată, vă rog să dați share.
+# pisică → pisica
+Am primit vestea că pisica s-a vindecat complet, plâng de fericire.
+# tusească → tușească
+Câinele a început să tușească de ieri, să mă îngrijorez?
+# urcă → urca
+Am pus o rampă pentru câinele bătrân, nu mai poate urca scările.
+# culeasa → culeasă
+Ce bine miroase roșia proaspăt culeasă!
+# căfeaua → cafeaua, grădina → grădină
+Ce frumos e să bei cafeaua în grădină dimineața!
+# grădină → grădina, curață → curată, vară → vara
+Ce greu e să ții grădina curată vara, cresc buruienile peste noapte!
+# grădină → grădina
+Mă trezesc devreme să ud grădina înainte de căldură.
+# vara → vară
+Am slăbit zece kilograme și mi-am cumpărat haine noi pentru vară.
+# încheietură → încheietura
+Am căzut de pe role și mi-am fracturat încheietura.
+# ca → că
+Ce mă bucur că m-ai invitat în oraș, chiar aveam nevoie!
+# dimineața → dimineață
+Am primit un mesaj superb de dimineață, mi-a făcut ziua.
+# va → vă
+Ce greu e să-i spui cuiva că nu vrei să vă mai vedeți!
+# ca → că
+Ne-am cunoscut pe aplicație, dar am descoperit că locuim în același bloc.
+# biserica → biserică
+Ne-am strâns la biserică și am făcut pachete pentru bătrâni.
+# ca → că
+Ce bine că mai sunt oameni care fac lucruri bune fără să le posteze!
+# seară → seara
+Ce frumos e să ai o pasiune la care să te întorci seara!
+# Sâmbăta → Sâmbătă
+Sâmbătă seara ne-am uitat la meci la un prieten, cu pizza și bere.
+# uități → uitați
+Joi seara avem repetiție cu corul, nu uitați partiturile.
+# Marti → Marți, seara → seară
+Marți seara e seară de jocuri la cafeneaua din colț.
+# strând → ștrand
+Miercuri e liber, mergem la ștrand dacă e soare.
+# Duminica → Duminică, dimineața → dimineață
+Duminică dimineață plecăm cu bicicletele spre lac, ne vedem la șapte la fântână.
+# plajă → plaja
+În august plaja e plină, în septembrie e paradisul.
+# sârmă → sârma
+Noaptea trecută a fost furtună și s-a rupt sârma de rufe.
+# Poimaine → Poimâine
+Poimâine pleacă avionul, iar eu încă nu mi-am făcut bagajul.
+# țară → țara
+Săptămâna viitoare se anunță ploi în toată țara.
+# parția → pârtia
+Luna viitoare se deschide pârtia nouă de la Straja.
+# diseara → diseară, plecam → plecăm
+Până diseară trebuie să termin de împachetat, plecăm la cinci.
+# ploua → plouă
+De ieri plouă fără oprire, s-a umflat râul.
+# dimineața → dimineață
+De dimineață se aude o drujbă în curtea vecinului.
+# asta → ăsta
+Ce bine ar fi să ningă de Crăciun anul ăsta!
+# Macar → Măcar
+Măcar de-ar ține vremea frumoasă până duminică.
+# va → vă
+Sper că vă place cadoul, l-am făcut cu mâna mea.
+# uități → uitați
+Să nu uitați să votați în concursul de fotografie!
+# va → vă, vacanța → vacanță
+Să vă distrați frumos în vacanță și să ne trimiteți poze!
+# Sa → Să
+Să aveți grijă pe drum, se anunță ceață.
+# va → vă
+Să nu vă lăsați câinii nesupravegheați lângă lac.
+# salată → salata
+Să știți că vin și eu la grătar, aduc salata.
+# casa → casă
+Să fie într-un ceas bun, casă de piatră!
+# felicitari → felicitări
+Să crească mare și sănătos, felicitări părinților!
+# asta → ăsta
+Hai să mergem la munte weekendul ăsta, că se anunță soare.
+# plecam → plecăm
+Hai să facem o poză de grup înainte să plecăm!
+# încercam → încercăm, ala → ăla
+Hai să încercăm restaurantul ăla nou de pe malul lacului.
+# Haideti → Haideți
+Haideți să ne strângem bani pentru cadoul antrenorului.
+# ca → că
+Hai, băieți, că putem întoarce scorul!
+# Lasa → Lasă
+Lasă telefonul și uită-te la priveliștea asta!
+# Uita-te → Uită-te
+Uită-te ce frumos doarme cățelul!
+# uitați-va → uitați-vă
+Ia uitați-vă ce floare mi-a crescut pe balcon!
+# Ascultăți → Ascultați, piesă → piesa
+Ascultați piesa asta până la capăt, refrenul e genial.
+# asta → ăsta, primăvară → primăvara
+Încercați traseul ăsta primăvara, e plin de flori.
+# va → vă
+Nu vă luați după recenziile de pe site, sunt false.
+# va → vă
+Nu vă faceți griji, câinele nu mușcă.
+# Luați-va → Luați-vă, vară → vara
+Luați-vă haine groase, sus pe munte e frig chiar și vara.
+# Puneți-va → Puneți-vă
+Puneți-vă cremă de soare, chiar și când e înnorat.
+# ca → că
+Rezervați din timp, că se ocupă tot până în martie.
+# Aduceți-va → Aduceți-vă, plianțe → pliante
+Aduceți-vă și scaune pliante, nu sunt destule bănci.
+# său → sau
+Spuneți-mi sincer, a fost așa de bun filmul sau sunteți voi prea generoși?
+# Ziceti-mi → Ziceți-mi
+Ziceți-mi ce să văd în weekend, am nevoie de idei.
+# lasă → lăsa
+Recomandați-mi o carte pe care n-o puteți lăsa din mână.
+# va → vă
+Trimiteți-mi și mie pozele de la nuntă, vă rog.
+# Uitați-va → Uitați-vă
+Uitați-vă și voi la meciul de diseară, o să fie spectaculos.
+# ca → că, grădină → grădina
+Spuneți-le copiilor că vine Moș Crăciun la grădina din parc.
+# cabana → cabană
+Dați-mi un semn când ajungeți la cabană.
+# V-ati → V-ați, va → vă, țara → țară
+V-ați gândit vreodată să vă mutați la țară?
+# surpriză → surpriza
+Te-ai uitat la episodul nou? Nu-ți spun nimic, ca să nu-ți stric surpriza.
+# Ti-a → Ți-a
+Ți-a plăcut concertul? Mie mi s-a părut prea scurt.
+# Ti-am → Ți-am
+Ți-am trimis linkul cu cabana, zi-mi ce părere ai.
+# Ti-ai → Ți-ai
+Ți-ai luat bilet la festival sau mai aștepți?
+# sa → să
+Mi-ar plăcea să merg și eu la pescuit cu voi.
+# bicicletă → bicicleta
+Mi-e dor de plimbările cu bicicleta din vara trecută.
+# pofta → poftă
+Mi s-a făcut poftă de o drumeție după ce am văzut pozele voastre.
+# va → vă
+Ne-ar plăcea să vă avem alături la plantare.
+# asta → ăsta
+Ne-am îndrăgostit de locul ăsta din prima seară.
+# va → vă
+Ne-ați fost alături în toți acești ani, vă mulțumim!
+# va → vă
+O să vă povestesc totul când ajung acasă.
+# ploua → plouă, săptămână → săptămâna
+O să plouă toată săptămâna, mă resemnez.
+# ras → râs
+N-am mai râs așa de mult de ani buni.
+# asta → ăsta
+N-ai cum să nu te îndrăgostești de locul ăsta.
+# N-as → N-aș, dă → da
+N-aș mai merge acolo nici dacă mi-ar da cazarea gratis.
+# pisică → pisica
+Nu știu ce m-aș face fără pisica mea.
+# ca → că
+Nici n-am apucat să mă bucur de victorie că am primit gol.
+# ploua → plouă, vară → vara
+Ce-mi place când plouă vara și miroase a pământ ud!
+# bă → ba
+Ce-o mai fi și cu vremea asta, ba e cald, ba e frig?
+# va → vă, sala → sală
+Cum faceți să nu vă plictisiți la sală?
+# Cat → Cât
+Cât ați plătit pe noapte la pensiunea aia?
+# Cati → Câți
+Câți kilometri are traseul spre lac?
+# asta → ăsta
+Unde ați găsit biletele la prețul ăsta?
+# pisică → pisica, ușa → ușă
+De ce plânge pisica la ușă noaptea?
+# asta → ăsta
+De unde ați luat cortul ăsta? Pare foarte rezistent.
+# poartă → poarta
+Pe unde ați intrat în parc? Noi n-am găsit poarta.
+# ca → că
+Cine ar fi crezut că o să câștigăm cu patru goluri!
+# diseara → diseară
+Cine mai are chef de un film diseară?
+# Alaltaieri → Alaltăieri
+Alaltăieri am fost la concert și încă îmi țiuie urechile.
+# gâșcă → gașca
+Ne-am întâlnit cu toată gașca la intrarea în parc, înainte de spectacol.
+# sală → sala
+Când a început piesa aia veche, toată sala a cântat cu ei.
+# frumoasa → frumoasă, sală → sala, parca → parcă
+Ce frumoasă e sala Ateneului, parcă ești într-o bijuterie!
+# plans → plâns, nouă → noua
+Am plâns la Simfonia a noua, nu-mi e rușine să recunosc.
+# seară → seara, muzică → muzica
+Am dansat toată seara pe muzica anilor optzeci.
+# aplăudat → aplaudat
+Am cântat la karaoke o piesă de Holograf și m-au aplaudat toți.
+# terasă → terasa
+Formația din cartier cântă în fiecare vineri la terasa din colț.
+# urasc → urăsc
+Băiatul meu cântă la tobe în garaj, vecinii ne urăsc.
+# cânti → cânți
+Ce greu e să cânți și să citești notele în același timp!
+# lumină → lumina
+Am fost la o seară de muzică folk într-o cabană, la lumina focului.
+# dată → data
+Am auzit că trupa vine și la Iași în turneu, știe cineva data?
+# Cat → Cât
+Cât de devreme trebuie să ajungi la festival ca să prinzi loc în față?
+# sală → sala
+Am mers la un concert de muzică populară și am jucat hora cu toată sala.
+# Opera → Operă
+Am fost la un spectacol de balet la Operă și am rămas uimită.
+# salsă → salsa
+Am învățat să dansez salsa într-o vacanță în Cuba.
+# ala → ăla
+Ce bine a jucat actorul ăla tânăr, o să ajungă departe.
+# scenă → scena
+Am stat în loja de sus și am văzut toată scena.
+# ca → că, luna → lună
+Ce bine că muzeele sunt gratuite în prima duminică din lună!
+# frumoasa → frumoasă
+Ce frumoasă e expoziția de icoane pe sticlă de la muzeu!
+# coada → coadă
+Am fost la Noaptea Muzeelor și am stat la coadă o oră la fiecare.
+# lasă → lăsa
+Am terminat cartea asta în două zile, nu o puteam lăsa din mână.
+# recomandă → recomanda
+Ce carte mi-ați recomanda pentru o vacanță la mare?
+# mașina → mașină
+Am ascultat o carte audio în mașină și am uitat să cobor.
+# asta → ăsta
+Ce bine scrie autorul ăsta, parcă îl auzi vorbind!
+# mamă → mama
+Am scris prima mea poezie la zece ani, pentru mama.
+# seară → seara
+Ce frumos e să scrii în jurnal seara, înainte de culcare!
+# ca → că
+Ce bine că există ateliere de scriere creativă și în orașele mici!
+# fetiță → fetița
+Ce frumos a recitat fetița poezia la serbare!
+# nuntă → nunta
+Am învățat poezia pe de rost și am recitat-o la nunta surorii mele.
+# biblioteca → bibliotecă
+Am împrumutat cartea de la bibliotecă și am întârziat o lună cu ea.
+# asta → ăsta
+Am făcut o listă cu cărțile pe care vreau să le citesc anul ăsta, sunt cincizeci.
+# bunică → bunica
+Am început să citesc cu voce tare pentru bunica, nu mai vede bine.
+# ca → că
+Ce bine că avem o bibliotecă mobilă care vine în sat!
+# întru → intru
+Îmi scade numărul de cadre pe secundă de fiecare dată când intru în oraș.
+# biblioteca → bibliotecă
+Am cumpărat jocul de pe magazinul lor și nu-mi apare în bibliotecă.
+# până → pană
+Salvarea s-a corupt după o pană de curent, am pierdut tot.
+# omoara → omoară
+Cineva care să mă ajute la misiunea cu podul? Mă omoară mereu la final.
+# poartă → poarta
+Trebuie să mergi mai întâi în peșteră și să iei cheia, apoi deschizi poarta.
+# clasa → clasă, sa → să
+Ce clasă să aleg pentru început, războinic sau mag?
+# asta → ăsta
+Jocul ăsta e mai bun dacă îl joci încet, fără să te grăbești.
+# arată → arăta
+Grafica arăta mai bine în trailer decât în joc.
+# Muzică → Muzica
+Muzica din meniul principal îmi dă fiori de fiecare dată.
+# decență → decentă
+Traducerea în română are câteva greșeli, dar e decentă.
+# consolă → consola
+Soția mea a început să joace și acum nu mai pot să-i iau consola.
+# Jucam → Jucăm, seară → seara, echipa → echipă
+Jucăm în fiecare joi seara cu aceeași echipă de cinci ani.
+# coada → coadă
+Am stat la coadă trei ore la lansarea consolei, de la miezul nopții.
+# seara → seară, va → vă, uități → uitați
+Fac live-uri în fiecare seară, veniți să vă uitați!
+# asta → ăsta
+Nu înțeleg cum alții termină nivelul ăsta în cinci minute.
+# seară → seara
+Ce joc liniștit recomandați pentru seara, înainte de culcare?
+# bata → bată
+Prietenul meu a cumpărat jocul doar ca să mă bată pe mine.
+# ala → ăla
+Cine a ținut minte parola de la nivelul cinci din jocul ăla vechi?
+# buna → bună, asta → ăsta
+Ce bună e lumea deschisă din jocul ăsta, poți merge oriunde!
+# asta → ăsta
+Am dat restart de trei ori la capitolul ăsta, nu-mi iese.
+# roman → român
+Am găsit pe forum un ghid complet, l-a scris un român.
+# Cauta → Caută
+Bine ai venit pe forum! Caută întâi în secțiunea de întrebări frecvente.
+# asta → ăsta
+Topicul ăsta a fost mutat la secțiunea potrivită.
+# Va → Vă
+Vă rog să nu mai postați spoilere fără avertisment.
+# asta → ăsta
+Mai e cineva activ pe forumul ăsta?
+# ca → că
+Postez aici pentru că pe grupul de Facebook nu răspunde nimeni.
+# poză → poza
+Am o întrebare poate prostească, dar cum se schimbă poza de profil?
+# lenese → leneșe
+Nu există întrebări prostești, doar răspunsuri leneșe.
+# problema → problemă
+Eu am avut aceeași problemă și s-a rezolvat după ce am schimbat cablul.
+# Inchid → Închid
+Închid topicul, s-a găsit soluția. Mulțumesc tuturor!
+# asta → ăsta
+Pe forumul ăsta mi-am făcut cei mai buni prieteni.
+# va → vă
+Am atașat pozele cu traseul, sper să vă fie de folos.
+# comparam → comparăm
+Cine are fotografii cu lacul de acum zece ani, să comparăm?
+# cabana → cabană
+Drumul spre cabană e accesibil cu mașina până la barieră.
+# Cat → Cât, cabana → cabană
+Cât timp v-a luat de la cabană până pe vârf?
+# ajuta → ajută
+Revin cu impresii după tură, poate ajută și pe alții.
+# dău → dau
+Ne-am cunoscut când îi căzuse portofelul pe stradă și am fugit după el să i-l dau.
+# invită → invita
+Mă invita la cafea în fiecare dimineață, până am acceptat.
+# va → vă, pește → peste
+Ce faceți când vă scrie fostul exact când ați trecut peste?
+# ma → mă
+Profilurile cu citate motivaționale mă fac să dau swipe automat.
+# va → vă
+Ce vă atrage cel mai mult la un profil?
+# roțile → rotile
+Am strâns bani pentru un scaun cu rotile pentru vecinul nostru.
+# asta → ăsta
+Asociația a reușit să sterilizeze peste o mie de câini anul ăsta.
+# cantină → cantina
+Ne mai trebuie doi voluntari pentru tura de noapte la cantina socială.
+# întreaga → întreagă
+Am început ca voluntar și acum lucrez cu normă întreagă la asociație.
+# încărcă → încarcă, săptămână → săptămâna
+Fiecare duminică petrecută la adăpost mă încarcă pentru toată săptămâna.
+# zăpușeala → zăpușeală
+Ce zăpușeală, nici noaptea nu se mai răcorește!
+# casa → casă
+Am dormit pe balcon, în casă erau treizeci și doi de grade.
+# singură → singura
+Am stat în cada cu apă rece o oră, singura salvare.
+# gheață → gheața
+A înghețat lacul din parc, dar gheața e subțire, nu intrați.
+# sa → să, ploua → plouă
+Toată noaptea a fulgerat fără să plouă, ciudat.
+# fântână → fântâna
+Seceta a uscat fântâna bunicilor pentru prima dată în cincizeci de ani.
+# parca → parcă
+Ce aer curat după furtună, parcă respiri altfel!
+# dimineața → dimineață
+Ce dimineață geroasă, s-au făcut flori de gheață pe geam!
+# mobilă → mobila, întreaga → întreagă
+Pisica nu suportă când mut mobila, se ascunde o zi întreagă.
+# Pisică → Pisica
+Pisica se urcă pe frigider și sare pe mine când trec.
+# zgarda → zgardă
+Ce zgardă e mai bună pentru căpușe, cea cu picături sau cea simplă?
+# poartă → poarta
+Cățelul vecinilor a învățat să deschidă poarta și vine singur la noi.
+# Pisică → Pisica
+Pisica a născut în cutia cu jucării a copiilor.
+# asta → ăsta, latra → latră
+Câinele ăsta mic crede că e lup, latră la toți câinii mari.
+# groapă → groapa
+Cum se plantează corect un pom fructifer, cât de adâncă trebuie să fie groapa?
+# plantă → planta
+Pământul din curte e plin de argilă, ce pot planta acolo?
+# mână → mâna
+Mi-au atacat gândacii de Colorado cartofii, îi strâng cu mâna.
+# vară → vara
+Ce flori înfloresc toată vara fără prea multă grijă?
+# Rășadurile → Răsadurile, piața → piață
+Răsadurile cumpărate din piață s-au uscat a doua zi, ce greșesc?
+# bonșăi → bonsai
+Am primit un bonsai cadou și deja i-au căzut jumătate din frunze.
+# iarnă → iarna
+Ce adâncime trebuie să aibă un iaz ca să supraviețuiască peștii iarna?
+# sa → să
+Am terminat prima lună fără să sar peste vreun antrenament!
+# ședința → ședință
+Am făcut prima ședință de înot la piscina olimpică și m-am simțit mic.
+# cina → cină
+Ce bine îmi face plimbarea de seară după cină!
+# dimineață → dimineața
+Nu pot să alerg dimineața, abia mă trezesc pentru muncă.
+# mamici → mămici
+Am început să fac sport cu un grup de mămici în parc, cu cărucioarele.
+# sală → sala
+Nu-mi place sala, prefer să fac sport în natură.
+# apă → apa
+Cât de caldă trebuie să fie apa ca să intri în mare? Pentru mine, minim douăzeci și cinci de grade.
+# pisică → pisica
+Am ținut pisica în brațe la veterinar până la final, n-am mai putut să mă opresc din plâns.
+# febra → febră
+Ce febră musculară am după ziua de spate!
+# cabana → cabană
+Am ajuns la cabană exact când începea ploaia, ce noroc!
+# Coborâm → Coboram
+Coboram de pe vârf când am dat peste o turmă de capre negre.
+# stână → stâna
+Ne-am oprit la stâna de sub creastă și ciobanul ne-a dat urdă proaspătă.
+# basici → bășici
+Bocancii noi mi-au făcut bășici după primii zece kilometri.
+# frontală → frontala, cabana → cabană
+Am uitat frontala la cabană și am coborât pe întuneric, la lumina lunii.
+# oboseală → oboseala
+Copiii au numărat toate marcajele de pe traseu, așa n-au simțit oboseala.
+# noua → nouă
+Fetița mea a urcat primul ei vârf de peste două mii de metri, la nouă ani.
+# ceață → ceața
+Ne-a prins ceața pe platou și ne-am orientat doar după stâlpii de marcaj.
+# ca → că
+Mergeam încet, pentru că bunicul voia să vadă fiecare floare.
+# Plecam → Plecăm, dimineața → dimineață
+Plecăm mâine dimineață spre Retezat, ne rugăm să țină vremea.
+# bete → bețe
+Am luat bețe de trekking și genunchii mei îmi mulțumesc.
+# plecam → plecăm
+Am stat la soare pe vârf o oră, nu voiam să mai plecăm.
+# mașina → mașină, căruță → căruța
+Un localnic ne-a dus înapoi la mașină cu căruța.
+# telecabină → telecabina
+Am urcat cu telecabina și am coborât pe jos, genunchii nu mai sunt ce erau.
+# coada → coadă
+Ce aglomerat e la Babele în weekend, coadă de două ore la telecabină!
+# frica → frică
+Am făcut traseul de pe Valea Albă și mi-a fost frică la fiecare pas.
+# toamnă → toamna
+Ce frumoasă e Valea Prahovei toamna, cu pădurile ruginii!
+# partie → pârtie
+Ce bine e să bei un vin fiert la cabană după o zi pe pârtie!
+# zăpadă → zăpada
+Ce frumos e să schiezi dimineața, pe zăpada proaspăt bătută!
+# pătit → pățit
+Am văzut un schior căzând de pe telescaun, din fericire n-a pățit nimic.
+# pârțiile → pârtiile
+Ce bine că s-au deschis pârtiile de la Șureanu!
+# parțiile → pârtiile
+Am fost la Straja și pârtiile erau aproape goale, un vis!
+# clăpării → clăparii
+Ce greu e să mergi cu clăparii pe zăpadă!
+# parția → pârtia
+Ne-am dat cu sania pe pârtia pentru începători, era mai rapid decât credeam.
+# parția → pârtia
+Ce frumoasă e Poiana Brașov noaptea, cu pârtia luminată!
+# partie → pârtie
+Ne-a prins viscolul pe pârtie și am coborât fără să vedem nimic.
+# zăpada → zăpadă, Ranca → Rânca
+Ce zăpadă frumoasă a fost la Rânca weekendul trecut!
+# manținela → mantinelă
+Am mers la patinoarul din centru și m-am ținut de mantinelă toată ora.
+# mașină → mașina
+Ce greu e să scoți mașina din zăpadă dimineața!
+# ora → oră, sa → să, zăpadă → zăpada, mașina → mașină
+Am stat o oră să dau zăpada de pe mașină și de pe alee.
+# saniută → săniuța
+Ne-am dat cu săniuța pe dealul de lângă biserică până seara.
+# apă → apa
+Mi-a înghețat apa în furtunul din grădină și s-a crăpat.
+# afara → afară
+Ce greu e să ieși din pat când afară sunt minus zece grade!
+# vișcolit → viscolit
+Am stat toată ziua în casă, cu ceai și filme, cât a viscolit afară.
+# frumoasa → frumoasă, iarnă → iarna
+Ce frumoasă e pădurea iarna, cu crengile pline de zăpadă!
+# zăpada → zăpadă
+Pisica s-a uitat pe geam la zăpadă toată ziua, fascinată.
+# cada → cadă
+Am pus sare pe trotuarul din fața casei, să nu cadă cineva.
+# zăpadă → zăpada, ca → că
+Ne-am adunat vecinii să dăm zăpada de pe stradă, că plugul n-a venit.
+# stăi → stai
+Ce bine e să stai lângă sobă cu o carte, iarna!
+# soba → sobă
+Ce bine e să ai o casă la țară, cu sobă și lemne!
+# șoba → sobă, dimineață → dimineața
+Bunicul făcea focul în sobă la cinci dimineața, ca să fie cald când ne trezeam.
+# iarnă → iarna
+Ce frumos miroase fumul de lemne în satele de munte iarna!
+# luminite → luminițe
+Am pus luminițe pe balcon și vecinii ne-au felicitat.
+# biserică → biserica
+Am mers la slujba de la miezul nopții, era plină biserica.
+# asta → ăsta
+Am făcut o listă cu ce vreau să fac anul ăsta, primul punct: mai mult sport.
+# Boboteaza → Bobotează
+Ne-am întâlnit cu toții de Bobotează la aruncatul crucii în râu.
+# Sanziene → Sânziene
+Am fost la Sânziene în Maramureș și am făcut coronițe de flori.
+# bunică → bunica
+Am vopsit ouă de Paște cu foi de ceapă, ca bunica.
+# slujbă → slujba
+Ce bine e la slujba de Înviere, cu lumânări și cântări!
+# mamă → mama
+Ce bun e drobul făcut de mama!
+# turturii → țurțurii, streașină → streașina
+Ce frumoși sunt țurțurii de pe streașina casei!
+# clapar → clăpar, partie → pârtie
+Am rupt un clăpar pe pârtie și a trebuit să cobor pe jos.
+# masă → masa
+Ce bine e să stai cu familia la masa de sărbători!
+# arați → arăți, poză → poza
+Ce bine arăți în poza de profil, te-ai schimbat mult!
+# plaja → plajă, limita → limită
+Am făcut un sondaj în grup: plajă sau munte? Muntele a câștigat la limită.
+# pătit → pățit
+Mi-a dispărut contul de Instagram peste noapte, cineva a mai pățit?
+# poză → poza, pisică → pisica
+Am pus poza cu pisica și a strâns mai multe aprecieri decât nunta mea.
+# Va → Vă
+Vă rog să nu mai etichetați oameni în reclame, e enervant.
+# ala → ăla
+Cine a mai primit mesajul ăla dubios cu un link? Nu deschideți nimic!
+# frumoasa → frumoasă
+Ce frumoasă amintire mi-a apărut azi pe Facebook, acum zece ani eram la mare!
+# sters → șters
+Am șters toate pozele vechi din liceu, mi-era rușine de freză.
+# pagină → pagina
+Cine se ocupă de pagina asta? Faceți o treabă excelentă.
+# ca → că
+Ce bine că mai sunt grupuri unde oamenii se ajută fără să se certe!
+# ca → că
+Ce bine că putem vorbi cu prietenii din străinătate în fiecare zi!
+# felicitari → felicitări
+Ce frumos ați decorat curtea școlii pentru serbare, felicitări părinților!
+# mamici → mămici
+Ne-am făcut un grup de mămici din cartier și ne ajutăm la orice.
+# gazdă → gazda, cameră → camera
+Ce greu e să scrii o recenzie corectă când ți-a plăcut gazda, dar nu și camera!
+# că → ca
+Ce bine a fost la pensiunea voastră, ne-ați făcut să ne simțim ca în familie!
+# vara → vară
+Ce păcat că s-a închis cabana unde mergeam în fiecare vară!
+# frumoasa → frumoasă
+Ce frumoasă era camera noastră, cu mobilă veche și covoare țesute de mână!
+# că → ca
+Am primit o cameră cu cadă cu hidromasaj, ne-am simțit ca în filme.
+# plaja → plajă
+Am făcut plajă la Gura Portiței și am fost aproape singuri.
+# terasă → terasa, peste → pește
+Ce mâncare bună la terasa de pe plajă, pește proaspăt și vin rece!
+# plajă → plaja
+Am găsit scoici superbe pe plaja din Vadu.
+# barcă → barca
+Am mers cu barca la Insula Sacalin și am văzut zeci de păsări.
+# frumoasa → frumoasă, seară → seara
+Ce frumoasă e marea seara, când pleacă toată lumea!
+# dus → duș
+Ce bine e să faci un duș rece după o zi pe plajă!
+# gazdă → gazda
+Am stat la o pensiune unde gazda ne aducea pepene rece în fiecare după-amiază.
+# căfeaua → cafeaua, dimineața → dimineață
+Ce frumos e să bei cafeaua de dimineață pe terasă, cu vedere la mare!
+# seară → seara
+Ce frumos e Portul Tomis seara, cu bărcile luminate!
+# faleză → faleza
+Ne-am plimbat pe faleza Cazinoului până la miezul nopții.
+# atmosfera → atmosferă
+Ce atmosferă a fost pe stadion la ultimul meci al sezonului!
+# caută → căuta
+Ce bine că am câștigat, altfel nu mai aveam ce căuta în competiție!
+# finală → finala
+Am pierdut finala, dar am dat tot ce am avut.
+# sâmbătă → sâmbăta
+Am făcut o echipă de baschet cu vecinii de bloc și jucăm sâmbăta.
+# barcă → barca
+Am mers cu barca cu pedale pe lacul din parc, ca în copilărie.
+# apă → apa, rău → râu
+Ce bine e să înoți în apa rece a unui râu de munte!
+# apă → apa
+Ce caldă a fost apa la Costinești, ca într-o cadă!
+# numărăm → număram
+Ne uitam la apus de pe dig și număram vapoarele din larg.
+# terasă → terasa, jucăm → jucam
+Seara ne strângeam toți pe terasa pensiunii și jucam cărți.
+# arata → arăta
+Gazda ne povestea despre cum arăta stațiunea pe vremea comunismului.
+# Ascultăm → Ascultam
+Ascultam valurile și nu ne venea să credem că suntem acolo.
+# dimineața → dimineață, ușa → ușă
+Pisica mă trezea în fiecare dimineață la cinci, mieunând la ușă.
+# tună → tuna
+Câinele se ascundea sub masă de fiecare dată când tuna.
+# învață → învăța
+Bunicul ne ducea la pescuit pe Siret și ne învăța nodurile.
+# tată → tata
+Mergeam la cules de ciuperci cu tata, el le știa pe toate după miros.
+# Vară → Vara, salțele → saltele
+Vara dormeam în podul casei, pe saltele de paie.
+# spalam → spălam, gheață → gheața
+Ne spălam pe față la fântână, cu apă rece ca gheața.
+# roua → rouă
+Mergeam desculți prin rouă dimineața, după vaci.
+# lasă → lăsa, terminăm → terminam
+Mama ne lăsa să ne uităm la film doar dacă terminam temele.
+# carpă → cârpă
+Jucam fotbal cu o minge de cârpă pe uliță.
+# chitară → chitara, cântăm → cântam
+Ne adunam în fața blocului cu chitara și cântam până ne certau vecinii.
+# strangeam → strângeam
+Ne strângeam toți copiii la el să vedem desenele de duminică.
+# vacanță → vacanța
+Așteptam vacanța de vară tot anul, numărând zilele.
+# biletele → bilețele, clasa → clasă
+Ne scriam bilețele în clasă și le ascundeam în penare.
+# cataram → cățăram
+Ne cățăram pe garajele din spatele blocului, deși era interzis.
+# învăță → învăța, sa → să, stricăm → stricam
+Bunicul ne învăța să cosim, dar noi stricam mai mult decât cosea el.
+# strigă → striga
+Mama ne striga de la geam să venim la masă.
+# plouă → ploua, uităm → uitam, numărăm → număram
+Când ploua, ne uitam pe geam și număram fulgerele.
+# apărâm → apăram
+Construiam castele din cutii de carton și le apăram de frați.
+# zarzare → zarzăre, strigă → striga
+Furam zarzăre din pomul vecinei, iar ea ne striga de la poartă.
+# căută → căuta
+Ne căuta mama prin tot satul seara, când întârziam la joacă.
+# tată → tata
+Mergeam cu tata la meci și el îmi cumpăra semințe și suc.
+# Cantam → Cântam
+Cântam colinde din casă în casă și primeam mere și nuci.
+# îmbrăcăm → îmbrăcam
+Ne îmbrăcam în costume populare de Paște și mergeam la biserică.
+# strandul → ștrandul
+Mergeam la ștrandul din oraș în fiecare zi de vară.
+# Mancam → Mâncam
+Mâncam înghețată la cornet de la chioșcul din parc.
+# visăm → visam
+Ne uitam la stele de pe acoperișul magaziei și visam să zburăm.
+# rău → râu
+Mergeam cu toții la râu să prindem raci cu mâna.
+# bunică → bunica
+Mergeam la bunica de Rusalii și ne punea frunze de nuc la ferestre.
+# strangeam → strângeam, ca → că, plecam → plecăm
+Ne strângeam la foc de tabără în ultima seară și plângeam că plecăm.

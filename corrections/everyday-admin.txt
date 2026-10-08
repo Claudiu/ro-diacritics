@@ -1,0 +1,2217 @@
+# Everyday Romanian: health, school, banks, housing and public offices.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# rețetă → rețeta
+Puteți să-mi spuneți dacă rețeta compensată mai e valabilă?
+# adeverința → adeverință
+Am nevoie de o adeverință medicală pentru școală, până vineri.
+# Buna → Bună, tușe → tuse
+Bună seara, farmacia mai are în stoc siropul de tuse pentru copii?
+# dimineața → dimineață
+Am uitat să iau pastilele de tensiune dimineață, e grav dacă le iau acum?
+# Va → Vă
+Vă rog să-mi trimiteți rezultatele analizelor pe e-mail.
+# ora → oră
+La ce oră se fac recoltările de sânge mâine?
+# programă → programa
+Mă puteți programa la ecografie abdominală în luna noiembrie?
+# dreapta → dreaptă
+Am o durere ascuțită în partea dreaptă a burții de ieri seară.
+# după-amiaza → după-amiază
+Aveți locuri libere la stomatologie joi după-amiază?
+# costa → costă
+Scuzați-mă, cât costă o consultație la dermatolog fără trimitere?
+# bubite → bubițe
+Fetița are bubițe roșii pe mâini și pe față, ce să-i dau?
+# urgente → urgențe
+Am fost la urgențe azi-noapte și mi-au pus perfuzie.
+# Va → Vă
+Vă rog să-mi eliberați o scutire medicală pentru ora de sport.
+# simț → simt
+De când am început tratamentul mă simt amețită dimineața.
+# muta → mută
+Ședința cu părinții se mută joi, de la ora șase.
+# Va → Vă
+Vă rog să-mi spuneți dacă băiatul s-a purtat frumos azi.
+# Maine → Mâine
+Mâine e serbarea, copiii trebuie să fie îmbrăcați în alb.
+# discută → discuta
+Domnule diriginte, putem discuta despre notele lui Mihai?
+# profesoară → profesoara, sa → să
+Ne-a dat profesoara o lucrare de control fără să ne anunțe.
+# noua → nouă, așteptăm → așteptam
+Am luat nouă la teza de istorie, mă așteptam la mai puțin.
+# bursa → bursă
+Trebuie să depun cererea pentru bursă până la sfârșitul lunii.
+# lună → luna
+Rata la credit a crescut din nou luna aceasta.
+# Cat → Cât, dobândă → dobânda
+Cât e dobânda la depozitul pe șase luni?
+# sa → să, dimineața → dimineață
+Aplicația băncii nu mă lasă să mă loghez de dimineață.
+# va → vă
+Am pierdut portofelul cu cardul, vă rog să-l blocați urgent.
+# apă → apa
+Curge apa din calorifer și s-a umflat parchetul.
+# va → vă, apa → apă
+Când veniți să vă uitați la boiler? Nu mai avem apă caldă.
+# va → vă
+Chiria v-am trimis-o azi prin transfer, verificați vă rog.
+# Garantia → Garanția
+Garanția mi-o dați înapoi când predau cheile?
+# seară → seara
+S-a ars becul de pe scară și e întuneric seara.
+# lună → luna
+Factura la gaze a venit dublă față de luna trecută.
+# factură → factura
+Am trimis indexul la curent, dar factura e tot estimată.
+# sta → stă
+Lift nu avem de două zile, iar bunica stă la etajul opt.
+# unica → unică
+Declarația unică trebuie depusă până pe douăzeci și cinci mai.
+# casa → casă
+Impozitul pe casă se poate plăti online sau doar la ghișeu?
+# sta → stă, coada → coadă
+La primărie se stă la coadă ore întregi dimineața.
+# costa → costă
+Vreau să fac asigurare obligatorie pentru mașină, cât costă?
+# săptămână → săptămâna
+Polița de locuință expiră săptămâna viitoare.
+# dauna → daună
+Asigurătorul nu mi-a răspuns de o lună la dosarul de daună.
+# fața → față, franez → frânez
+Mașina face un zgomot în față când frânez.
+# Cat → Cât, costa → costă
+Cât costă schimbul de ulei și filtre?
+# oglindă → oglinda, mașina → mașină
+Mi-au furat oglinda de la mașină azi-noapte.
+# Buna → Bună
+Bună, curierul a încercat să livreze, dar nu eram acasă.
+# Va → Vă
+Vă rog să treceți după-amiază, dimineața nu e nimeni acasă.
+# urgente → urgențe
+Mă înțeapă în piept când respir adânc, să vin la urgențe?
+# Asistența → Asistenta, ca → că
+Asistenta a zis că rezultatele vin în trei zile lucrătoare.
+# Va → Vă
+Vă mulțumesc mult pentru răbdare și pentru tot ajutorul.
+# dimineața → dimineață
+Băiatul a uitat ghiozdanul la școală, îl putem lua mâine dimineață?
+# școala → școală
+Nu-i las pe copii la școală dacă e cod roșu de ninsoare.
+# Va → Vă
+Vă rog să mă scuzați pentru întârziere, am fost la spital.
+# licența → licență
+Lucrarea de licență trebuie predată coordonatorului până în mai.
+# Cat → Cât, costa → costă
+Cât costă contestația la bacalaureat?
+# săptămână → săptămâna
+Fiica mea a fost bolnavă, cum recuperează testul de săptămâna trecută?
+# rața → rata, scadentă → scadență
+Aș vrea să plătesc rata înainte de scadență, se poate din aplicație?
+# azi-dimineața → azi-dimineață
+Încălzirea centrală nu pornește deloc de azi-dimineață.
+# țeavă → țeava
+Instalatorul a zis că trebuie schimbată toată țeava din baie.
+# Va → Vă
+Vă rog să-mi spuneți ce documente lipsesc din dosar.
+# Ma → Mă
+Mă scuzați, aș putea veni la consultație fără programare?
+# va → vă, sa → să
+Am o alergie la penicilină, vă rog să notați în fișă.
+# Doctoriță → Doctorița
+Doctorița ne-a trimis la un control la cardiologie.
+# mașină → mașina
+Clinica are parcare sau trebuie să las mașina pe stradă?
+# Va → Vă
+Vă rog să-mi dați și o copie după biletul de ieșire din spital.
+# Dințele → Dintele
+Dintele de minte a început să mă doară îngrozitor.
+# său → sau
+Pot să plătesc consultația cu cardul sau doar numerar?
+# grădiniță → grădinița
+De când a început grădinița, e răcit în fiecare săptămână.
+# Farmacistă → Farmacista
+Farmacista mi-a zis că pot lua medicamentul doar cu rețetă.
+# Buna → Bună
+Bună ziua, sunt programată la ora unsprezece, dar întârzii zece minute.
+# asistență → asistentă
+Doamna asistentă, la ce etaj e cabinetul de oftalmologie?
+# dializa → dializă
+Tata trebuie să facă dializă de trei ori pe săptămână.
+# Ambulanta → Ambulanța
+Ambulanța a venit după o oră, a fost groaznic.
+# Fișă → Fișa
+Fișa medicală pentru angajare se face la medicina muncii?
+# va → vă
+Să vă spun sincer, mi-e frică de injecții.
+# crâmpe → crampe
+Mă trezesc noaptea cu crampe la picioare.
+# urgente → urgențe
+Băiatul s-a lovit la cap la școală, l-am dus la urgențe.
+# Maine → Mâine
+Mâine nu poate veni la ore, are programare la dentist.
+# listă → lista
+Ne puteți trimite lista cu rechizitele pentru clasa pregătitoare?
+# Fața → Fata, ca → că
+Fata mea plânge că o necăjesc colegii în pauze.
+# rugă → ruga, sa → să
+V-aș ruga să o mutați în prima bancă, nu vede bine la tablă.
+# Absentele → Absențele
+Absențele au fost motivate, am adus scutirile la secretariat.
+# Maine → Mâine
+Mâine se dau rezultatele la evaluarea națională.
+# Cate → Câte
+Câte ore pe săptămână are băiatul la engleză?
+# va → vă
+Grupul clasei e doar pentru anunțuri, vă rog fără discuții.
+# echipa → echipă
+Proiectul la biologie se face în echipă sau individual?
+# său → sau, prințată → printată
+Lucrarea de semestru se trimite pe e-mail sau se predă printată?
+# dimineața → dimineață
+Restanța la analiză e sâmbătă dimineață, la opt.
+# șansa → șansă
+Nu mai am nicio șansă să trec la anatomie.
+# limită → limita
+Pot să-mi măresc limita la cardul de credit?
+# perioadă → perioada
+Rata lunară o să fie mai mică dacă prelungesc perioada?
+# Buna → Bună, va → vă
+Bună seara, vă scriu în legătură cu apartamentul de închiriat.
+# garsonieră → garsoniera
+Mai e disponibilă garsoniera din anunț?
+# va → vă
+Frigiderul a început să curgă pe jos, vă rog să trimiteți pe cineva.
+# va → vă
+Am schimbat yala de la ușă, vă dau o cheie de rezervă.
+# chitantă → chitanță
+Proprietarul nu vrea să-mi dea chitanță pentru chirie.
+# Fereastră → Fereastra
+Fereastra din sufragerie nu se mai închide bine.
+# Teava → Țeava, chiuveta → chiuvetă
+Țeava de la chiuvetă s-a înfundat iar.
+# seară → seara
+Asociația de proprietari se întrunește marți seara.
+# săptămână → săptămâna
+Se schimbă coloanele de apă din bloc săptămâna viitoare.
+# ca → că, întrerupa → întrerupă
+Mi-au trimis o notificare că o să întrerupă gazul pentru revizie.
+# adeverința → adeverință
+Am nevoie de o adeverință de la asociație că nu am datorii.
+# sa → să
+Spațiul privat virtual nu mă lasă să mă autentific.
+# semnătura → semnătură
+Pot să depun formularul online fără semnătură electronică?
+# pauză → pauza
+Ghișeul de taxe e închis în pauza de masă.
+# Cat → Cât, costa → costă
+Cât costă legalizarea unei semnături la notar?
+# confirmă → confirma
+Mi-ați putea confirma că dosarul a fost înregistrat?
+# mașină → mașina
+Am lovit ușor mașina din față, trebuie chemată poliția?
+# mașina → mașină
+Ați găsit problema la mașină sau mai durează?
+# Va → Vă
+Vă rog să-mi spuneți prețul înainte să începeți reparația.
+# mașină → mașina
+Factura de la service e aproape cât mașina.
+# viteza → viteză
+Polițistul mi-a reținut permisul pentru viteză.
+# Va → Vă
+Vă rog să sunați înainte să veniți, interfonul nu merge.
+# Va → Vă, sa → să, rețetă → rețeta
+Vă rog să mă sunați când e gata rețeta.
+# Va → Vă
+Vă mulțumesc, doamna doctor, mă simt mult mai bine.
+# Va → Vă, doză → doza
+Vă deranjez cu o întrebare despre doza de antibiotic.
+# Va → Vă
+Vă pot aduce analizele mâine sau trebuie să vin personal?
+# Va → Vă, anunt → anunț
+Vă anunț că nu mai pot ajunge la programarea de joi.
+# Fața → Fata, stânga → stângă
+Fata are febră mare și o doare urechea stângă.
+# Reteta → Rețeta
+Rețeta asta e pe trei luni sau doar pe una?
+# lacrimează → lăcrimează, întrună → întruna
+Ochiul drept mi s-a înroșit și lăcrimează întruna.
+# Cat → Cât
+Cât e o ședință de masaj terapeutic?
+# coastă → coasta
+Am căzut pe scări și mă doare coasta când respir.
+# alunită → aluniță
+Mi-a apărut o aluniță nouă pe spate, vreau să mă uit la ea.
+# școala → școală
+Psihologul de la școală ne-a recomandat o evaluare.
+# martea → marțea
+Logopedul vine doar marțea și joia.
+# seama → seamă
+Doctorul de gardă nu ne-a băgat în seamă două ore.
+# urgente → urgențe
+Am stat toată noaptea pe un scaun pe hol la urgențe.
+# asta → ăsta
+Medicamentul ăsta are vreun generic mai ieftin?
+# Va → Vă
+Vă rog să-mi rezervați două cutii, trec să le iau după-amiază.
+# Ma → Mă
+Mă doare stomacul după fiecare masă, de vreo săptămână.
+# după-amiază → după-amiaza
+Programul de vizită e între patru și șase după-amiaza.
+# pijamă → pijama
+Ne-au cerut să aducem pijama, papuci și prosop.
+# Asistență → Asistenta
+Asistenta de noapte a fost foarte drăguță cu mama.
+# Maine → Mâine, va → vă
+Mâine vă trimit poza cu rezultatele, azi nu le am la mine.
+# ședința → ședință, uități → uitați
+Ne vedem la ședință joi, nu uitați de semnături.
+# Va → Vă
+Vă rog să verificați dacă băiatul are toate cărțile în ghiozdan.
+# ca → că
+Am primit un mesaj că fiica mea a lipsit azi, dar am lăsat-o la poartă.
+# clasa → clasă
+Ce s-a întâmplat azi în clasă? Ana a venit supărată.
+# fișă → fișa
+Am semnat fișa de acord pentru excursie, o trimit mâine.
+# școala → școală, ședința → ședință
+Cine poate să-i ia pe copii de la școală vineri? Eu am ședință.
+# Va → Vă, listă → lista
+Vă rog să-mi trimiteți și mie lista cu temele pentru vacanță.
+# căldură → căldura, clasa → clasă
+S-a stricat căldura în clasă și copiii stau în geci.
+# olimpiada → olimpiadă
+Rezultatele de la olimpiadă s-au afișat la avizier.
+# clasă → clasa
+Are cineva manualul de istorie de clasa a șasea în plus?
+# vacanță → vacanța
+Când începe vacanța de iarnă anul acesta?
+# săptămână → săptămâna
+Colocviul se dă în săptămâna a paisprezecea.
+# platforma → platformă
+Am trimis tema pe platformă, dar nu apare la profesor.
+# grupă → grupa
+Vreau să schimb grupa, mă potrivesc mai bine cu orarul celeilalte.
+# Cate → Câte
+Câte credite îmi lipsesc ca să trec în anul trei?
+# Va → Vă, șoldul → soldul
+Vă rog să-mi spuneți soldul rămas de plată la credit.
+# dată → data
+Pot să schimb data scadenței ratei?
+# rață → rata
+Dacă întârzii două zile cu rata, ce penalitate am?
+# Cat → Cât, costa → costă
+Cât costă întreținerea contului pe lună?
+# anulă → anula, plată → plata
+Puteți anula plata? Am pus o cifră în plus.
+# Usa → Ușa
+Ușa de la intrare nu se mai încuie.
+# căldura → căldură
+Caloriferele sunt reci, deși s-a dat drumul la căldură.
+# siguranță → siguranța
+Mi-a ars siguranța la tabloul electric și nu știu care e.
+# pivnița → pivniță
+Ne-a intrat apă în pivniță după ploaia de aseară.
+# apă → apa
+Mi s-a spart o conductă și apa curge prin tavan la vecini.
+# mașină → mașina
+Cine plătește reparația la mașina de spălat vase?
+# ca → că
+Pe contract scrie că reparațiile mici sunt ale chiriașului.
+# masă → masa
+Am pus banii de chirie în plic pe masa din bucătărie.
+# factură → factura
+Am primit factura de curent pe numele fostului chiriaș.
+# sa → să
+Ajutorul social s-a oprit fără să ne anunțe nimeni.
+# Îndemnizația → Indemnizația
+Indemnizația de creștere a copilului se cere de la primărie?
+# diplomă → diploma
+Am nevoie de o copie legalizată după diploma de bacalaureat.
+# cameră → camera
+Biroul de taxe locale e la etajul unu, camera cinci.
+# firmă → firma
+Vreau să-mi înregistrez firma, de unde încep?
+# dauna → daună
+Ce documente trebuie pentru deschiderea dosarului de daună?
+# polită → poliță
+M-au sunat de la asigurări să-mi ofere o poliță nouă.
+# Va → Vă, poliță → polița
+Vă rog să-mi trimiteți polița pe e-mail, nu am primit-o.
+# Cat → Cât, costa → costă
+Cât costă un set de anvelope de iarnă cu montaj?
+# mașină → mașina
+Mi s-a descărcat bateria și nu mai pornește mașina.
+# geanță → geanta
+Au spart geamul mașinii și mi-au furat geanta.
+# Va → Vă
+Vă rog să-mi lăsați coletul la vecinul de la apartamentul trei.
+# rățare → ratare
+Ce ratare în prelungiri, nu-mi vine să cred!
+# Stiți → Știți
+Știți pe ce canal se dă meciul de diseară?
+# sâmbăta → sâmbătă
+Patinoarul din parc s-a deschis, haideți la patinaj sâmbătă!
+# lasa → lăsa, par → păr
+Curățenia lăsa de dorit, am găsit păr în cadă.
+# cina → cină, spă → spa
+Prețul include mic dejun, cină și acces la spa, merită fiecare leu.
+# taxa → taxă
+Animalele de companie sunt acceptate, dar cu taxă suplimentară.
+# plată → plata
+Nu acceptă plata cu cardul, luați cash la voi.
+# Va → Vă
+Vă mulțumim pentru recenzie, ne pare rău pentru neplăcerile create.
+# va → vă
+Ne bucurăm că v-ați simțit bine și vă așteptăm cu drag din nou!
+# cusetă → cușeta, curăță → curată
+Am călătorit cu trenul de noapte spre Timișoara, cușeta a fost surprinzător de curată.
+# bacsis → bacșiș
+Turul ghidat prin Praga a fost gratuit, am lăsat bacșiș la final.
+# săptămână → săptămâna
+Marea a fost agitată toată săptămâna, steagul roșu a stat sus zilnic.
+# Sezlongurile → Șezlongurile, costa → costă
+Șezlongurile costă cincizeci de lei pe zi, e jaf la drumul mare.
+# zăpușeala → zăpușeală
+Ce zăpușeală, nu se poate respira afară.
+# uități → uitați
+Nu uitați umbrelele, se anunță averse după-amiază.
+# mașină → mașina
+Termometrul arată minus cincisprezece grade, iar mașina nu pornește.
+# luna → lună
+Ce lună plină frumoasă e în seara asta!
+# afara → afară
+Ninge cu fulgi mari de o oră, copiii sunt deja afară cu sania.
+# asta → ăsta
+Polenul ăsta mă omoară, strănut toată ziua.
+# camara → cămară
+Pisica mea a învățat să deschidă ușa de la cămară.
+# rasa → rasă
+Ce rasă de câine e potrivită pentru apartament?
+# cumințe → cuminte
+Am dus câinele la dresaj și acum stă cuminte la comandă.
+# țuica → țuică, că → ca
+Am cules prunele și fac țuică cu tata ca în fiecare toamnă.
+# streașină → streașina
+Am descoperit un cuib de viespi sub streașina casei.
+# Ma → Mă
+Mă antrenez pentru primul meu triatlon, înotul e partea cea mai grea.
+# urcă → urca
+Nu mai pot urca scările după ziua de picioare.
+# sala → sală
+Abonamentul la sală e mai scump decât factura la curent.
+# zumbă → zumba
+Profesoara de zumba e plină de energie, te molipsește.
+# poza → poză, sa → să, păr → par
+Ce poză să pun prima pe profil ca să nu par disperat?
+# colegă → colega
+Am fost la o întâlnire pe nevăzute aranjată de colega mea.
+# va → vă, sala → sală
+Ce faceți dacă vă place cineva de la sală?
+# coș → cos
+Am învățat să cos la mașină și mi-am făcut prima rochie.
+# seară → seara
+Grupul nostru de dans se întâlnește marți și joi seara.
+# chitară → chitara
+Am început să cânt la ukulele, e mult mai ușor decât chitara.
+# ras → râs, pofta → poftă, glumă → gluma, merși → mersi
+Am râs cu poftă la gluma asta, mersi că ai pus-o.
+# Cați → Câți
+Câți dintre voi își mai amintesc de jocurile din copilărie?
+# asta → ăsta
+Nu știu cine a scris articolul ăsta, dar e plin de greșeli.
+# băutură → băutura
+Cine vine la mine la grătar sâmbătă? Aduceți voi băutura.
+# poză → poza, sa → să
+Am pus poza de profil nouă și m-a sunat mama să mă întrebe dacă sunt bine.
+# Ma → Mă
+Mă uit la seriale vechi pentru că știu că se termină bine.
+# scenă → scena
+La concert a fost atât de aglomerat încât n-am văzut scena deloc.
+# Fânfara → Fanfara
+Fanfara din sat a cântat la hramul bisericii până dimineața.
+# Stimata → Stimată, doamna → doamnă, va → vă
+Stimată doamnă director, vă adresez rugămintea de a-mi aproba transferul în filiala din Iași.
+# va → vă
+Stimate domnule Popescu, vă mulțumesc pentru întâlnirea de ieri.
+# Doamna → Doamnă
+Doamnă Ionescu, am atașat documentele cerute la ultima discuție.
+# Buna → Bună, urgență → urgentă
+Bună seara, scuzați deranjul la ora asta, am o întrebare urgentă despre contract.
+# grabi → grăbi
+Ne-ar ajuta foarte mult dacă ați putea grăbi livrarea.
+# As → Aș
+Aș aprecia un răspuns până la finalul zilei.
+# va → vă
+În urma discuției telefonice, vă transmit propunerea noastră.
+# transe → tranșe
+Conform celor stabilite, livrarea se va face în două tranșe.
+# Va → Vă, va → vă
+Vă confirmăm primirea comenzii și vă mulțumim.
+# Cați → Câți
+Câți utilizatori vor folosi aplicația zilnic?
+# va → vă
+Ne puteți trimite câteva exemple de site-uri care vă plac?
+# va → vă
+Am pregătit trei variante de design, alegeți-o pe cea care vă reprezintă.
+# Va → Vă
+Vă rog să-mi spuneți exact ce culori doriți, ca să nu refacem iar.
+# oferta → ofertă
+Am inclus în ofertă două runde de modificări gratuite.
+# plianțele → pliantele
+Am trimis fișierele la tipografie, mâine sunt gata pliantele.
+# factură → factura
+Clientul a aprobat varianta finală, putem emite factura.
+# Va → Vă, factură → factura, scadentă → scadență
+Vă trimit factura pentru luna septembrie, cu scadență la cincisprezece zile.
+# Va → Vă
+Vă rog să menționați numărul facturii la detaliile plății.
+# Va → Vă, returnam → returnăm
+Vă returnăm suma plătită în plus în cel mai scurt timp.
+# compensă → compensa, diferență → diferența, factură → factura, lună → luna
+Putem compensa diferența cu factura de luna viitoare, dacă preferați.
+# va → vă
+Contul nostru bancar s-a schimbat, vă rog să actualizați datele.
+# Cat → Cât
+Cât timp durează un transfer bancar de la o bancă la alta?
+# plată → plata
+Am făcut plata, dar banii încă nu apar în contul vostru?
+# Va → Vă, dovadă → dovada
+Vă trimit dovada plății ca să verificați.
+# plată → plata
+Pentru clienții noi cerem plata integrală în avans.
+# plată → plata
+Ne-au întârziat plata cu trei luni, mă gândesc să-i dau în judecată.
+# rațe → rate
+Am ajuns la o înțelegere și plătesc în rate.
+# rațele → ratele
+Dobânda a crescut, ratele s-au mărit și ele.
+# primăvara → primăvară
+Proiectul a fost aprobat, primim finanțarea în primăvară.
+# sa → să
+Furnizorul a mărit prețurile fără să ne anunțe.
+# firmă → firma
+Am semnalat problema la firma de curierat și aștept răspuns.
+# descărcă → descărca, marfă → marfa
+Stivuitorul s-a defectat și nu putem descărca marfa.
+# dimineața → dimineață
+Tura de dimineață începe la șase și se termină la două.
+# săptămână → săptămâna
+Cine lucrează în tura a doua săptămâna asta?
+# Schimbam → Schimbăm
+Schimbăm turele între noi, dar trebuie să anunțăm șeful de tură.
+# tura → tură
+Șeful de tură n-a aprobat schimbul.
+# Paste → Paște
+Am lucrat de Paște, primesc zi liberă în schimb?
+# doua → două
+Pe întâi mai magazinul e deschis doar până la ora două.
+# Va → Vă, rugam → rugăm, va → vă
+Vă rugăm să vă prezentați la program cu zece minute mai devreme.
+# hala → hală
+Echipamentul de protecție se poartă obligatoriu în hală.
+# absente → absențe
+A fost concediat pentru absențe nemotivate.
+# Ti-a → Ți-a
+Ți-a venit salariul? Mie încă nu.
+# lună → luna
+De luna asta primim salariul pe zece, nu pe cinci.
+# dimineața → dimineață, rezolva → rezolvă
+Cartela nu mi-a fost citită dimineață, cum se rezolvă?
+# asta → ăsta
+Sfântul Andrei cade luni anul ăsta, avem weekend prelungit.
+# sâmbătă → sâmbăta
+Ziua liberă se recuperează sâmbăta viitoare.
+# Va → Vă
+Vă rog să completați planificarea concediilor până la finalul lunii.
+# doua → două
+Am două săptămâni de concediu în august, la mare.
+# stiți → știți
+Nu-mi verific mailul în concediu, să știți.
+# Cliența → Clienta
+Clienta e mulțumită de cum arată bucătăria.
+# Candidată → Candidata
+Candidata a renunțat după prima zi.
+# plecari → plecări
+Am avut trei plecări din echipă în ultima lună.
+# costa → costă
+Fluctuația de personal ne costă enorm.
+# așteptăm → așteptam
+Rezultatele sondajului au fost mai proaste decât ne așteptam.
+# lipsă → lipsa
+Principala nemulțumire e lipsa comunicării între departamente.
+# fetiță → fetița
+fetița are 39 de grade și nu scade cu nimic
+# ambulanță → ambulanța
+am sunat la 112, vine ambulanța
+# păștile → pastile
+nu mai am pastile de tensiune, pot să trec mâine după rețetă?
+# va → vă
+doamna doctor, pot să vă trimit o poză cu eczema?
+# ora → oră
+la ce oră închide farmacia de lângă spital?
+# va → vă
+vă rog să-mi spuneți dacă au venit analizele
+# febră → febra
+Tratamentul cu antibiotic s-a terminat ieri, dar febra a revenit.
+# slava → slavă
+Am primit rezultatul biopsiei și e benign, slavă Domnului!
+# roțile → rotile
+Mama are nevoie de un scaun cu rotile pentru o lună.
+# Asistența → Asistenta
+Asistenta vine acasă să-i facă injecțiile?
+# dimineața → dimineață
+Testul de efort e programat marți dimineață.
+# vezică → vezica
+Se poate face ecografia fără vezica plină?
+# Carjele → Cârjele
+Cârjele le-am cumpărat de la farmacia din spital.
+# rețeta → rețetă
+Pot să iau somnifere fără rețetă?
+# irita → irită, seară → seara
+Lentilele de contact îmi irită ochii seara.
+# Cat → Cât, costa → costă
+Cât costă un set de analize complete la laboratorul vostru?
+# clinică → clinica
+Am asigurare privată prin firmă, merge și la clinica voastră?
+# varicela → varicelă
+Copilul trebuie să stea acasă câte zile după varicelă?
+# stânga → stângă
+Mi-a scăzut auzul la urechea stângă după răceală.
+# Va → Vă
+Vă rog să-mi programați o vizită la domiciliu pentru bunicul.
+# va → vă
+Domnule profesor, vă rog să-mi spuneți când pot da examenul restant.
+# ca → că
+Avem nevoie de adeverință că băiatul e elev la dumneavoastră.
+# școala → școală, dimineață → dimineața, întrună → întruna
+Fiica mea nu vrea să meargă la școală dimineața, plânge întruna.
+# costa → costă
+Tabăra de vară costă cât anul trecut?
+# Sa → Să
+Să ne spuneți dacă trebuie să-i dăm bani de buzunar.
+# ora → oră
+La ce oră se întorc copiii din excursie?
+# adaugă → adăuga
+Nu primesc mesajele din grupul clasei, mă puteți adăuga din nou?
+# sa → să
+Am rugămintea să nu mai trimiteți poze cu copiii pe grup.
+# săptămână → săptămâna
+Testul de la geografie a fost amânat pentru săptămâna viitoare.
+# Fața → Fata
+Fata mea citește foarte greu, ce ne recomandați?
+# Va → Vă, rugam → rugăm
+Vă rugăm să semnați carnetul de elev până vineri.
+# școala → școală
+Am fost chemată la școală pentru că s-a bătut cu un coleg.
+# grădinița → grădiniță
+Înscrierea la grădiniță se face online sau la sediu?
+# grădinița → grădiniță
+Copilul meu e alergic la lactate, cum se rezolvă cu masa la grădiniță?
+# Educătoarea → Educatoarea
+Educatoarea a zis că se adaptează greu, plânge dimineața.
+# Cati → Câți
+Câți bani primești pe lună cu bursa Erasmus?
+# biblioteca → bibliotecă
+La bibliotecă nu se mai găsește nicio carte din bibliografie.
+# plată → plata
+Cum activez plata cu cardul pe internet?
+# ajută → ajuta
+Am un cec de încasat, mă puteți ajuta?
+# parolă → parola
+Am primit un mail în care mi se cerea parola, l-am ignorat.
+# sucursală → sucursala
+Banca a închis sucursala din cartierul nostru.
+# mașină → mașina
+Pot să las mașina în curte? Nu am loc de parcare pe stradă.
+# Va → Vă
+Vă rog să-mi trimiteți contractul să-l citesc înainte de semnare.
+# bransat → branșat
+Apartamentul are centrală proprie sau e branșat la termoficare?
+# frica → frică
+Mi-e frică să nu ia foc, miroase a ars la tablou.
+# apa → apă
+Gresia din baie s-a crăpat și intră apă dedesubt.
+# lună → luna
+Cine se ocupă de curățenia pe scară luna aceasta?
+# Usa → Ușa
+Ușa de la subsol a rămas deschisă toată noaptea.
+# muzică → muzica
+Vecinul de la patru ține muzica tare după miezul nopții.
+# lună → luna
+Am primit factura de apă, dar nu am locuit acolo luna asta.
+# sa → să
+Furnizorul mi-a schimbat tariful fără să mă anunțe.
+# evidență → evidența
+Am programare la evidența populației la ora zece.
+# banca → bancă
+Buletinul provizoriu e valabil și pentru bancă?
+# taxă → taxa, chitantă → chitanță
+Am plătit taxa, dar nu mi-a dat chitanță.
+# Contabilă → Contabila
+Contabila mea e în concediu, cine mă poate ajuta cu declarația?
+# stradă → strada
+Am depus o petiție pentru repararea drumului de pe strada noastră.
+# locuința → locuință
+Pot să fac asigurare de locuință dacă sunt doar chiriaș?
+# bicicletă → bicicleta
+Ce face asigurarea dacă mi se fură bicicleta din scară?
+# bicicletă → bicicleta
+Am avut un accident cu bicicleta, mă acoperă asigurarea de sănătate?
+# roată → roata, jantă → janta
+Am dat cu roata într-o groapă și s-a îndoit janta.
+# franez → frânez
+Mașina trage în dreapta când frânez.
+# mașină → mașina
+Vreau să-mi vând mașina, ce acte trebuie la radiere?
+# bicicletă → bicicleta
+Mi-a dispărut bicicleta din fața blocului, am camere video.
+# Va → Vă
+Vă rog să-mi spuneți unde depun plângerea pentru furt.
+# altcuivă → altcuiva
+Am primit coletul altcuiva, ce fac cu el?
+# Va → Vă
+Vă rog să ridicați coletul de la recepția firmei.
+# va → vă, fetiță → fetița, febra → febră
+Doamna doctor, vă scriu pentru că fetița are iar febră.
+# explică → explica
+Mi-ați putea explica ce înseamnă VSH crescut?
+# procedura → procedură
+Am nevoie de cineva care să mă ia de la clinică după procedură.
+# recomandă → recomanda
+Ce antibiotic ați recomanda pentru o infecție urinară?
+# pastilă → pastila
+Mi-a ieșit o pată roșie pe piele după ce am luat pastila.
+# cremă → crema, săptămână → săptămâna
+Mâncărimea nu trece, chiar dacă am pus crema toată săptămâna.
+# înfunda → înfundă
+Mi se înfundă nasul în fiecare primăvară.
+# va → vă
+Dați-mi, vă rog, ceva pentru durerea de cap, dar fără cofeină.
+# asta → ăsta, paștile → pastile
+Ceaiul ăsta e bun pentru gât sau mai bine iau pastile?
+# demente → demențe
+Neurologul a zis că e începutul unei demențe.
+# bunică → bunica
+Avem nevoie de o îngrijitoare pentru bunica, cunoașteți pe cineva?
+# Va → Vă
+Vă rog să-mi completați formularul pentru comisia de handicap.
+# Cat → Cât
+Cât e indemnizația pe concediul de maternitate?
+# Buna → Bună
+Bună dimineața, la recoltare e coadă mare de la șapte.
+# dimineață → dimineața
+Tusea e mai rea dimineața, când se trezește.
+# Fața → Fata
+Fata mea nu are cu cine să stea în bancă, e singură.
+# tablă → tabla
+Mi-ați putea da un sfat cum să învețe mai ușor tabla înmulțirii?
+# Va → Vă
+Vă rog să-mi spuneți ce a avut de pregătit pentru mâine.
+# diplomă → diploma
+Am primit diploma de la olimpiadă, mulțumim pentru pregătire.
+# azi-dimineața → azi-dimineață
+Microbuzul școlii nu a venit azi-dimineață.
+# primăvara → primăvară
+Sala de sport e închisă pentru renovare până în primăvară.
+# școala → școală
+Tabletele de la școală se returnează la sfârșitul anului?
+# școala → școală
+Laptopul primit de la școală nu mai pornește.
+# comunica → comunică
+Ne-ați spus că rezultatele se comunică luni, dar încă nu știm nimic.
+# Notă → Nota
+Nota după contestație a crescut cu un punct.
+# adeverință → adeverința
+Mi-a respins dosarul pentru cazare, nu am adus adeverința de venit.
+# formă → forma, frecventă → frecvență
+Câte locuri sunt la master, la forma cu frecvență?
+# navetă → naveta
+Cursurile încep la opt dimineața, iar eu fac naveta.
+# prezentă → prezența
+La seminar e obligatorie prezența, la curs nu.
+# factură → factura
+Am un debit direct pentru factura de curent, cum îl opresc?
+# rața → rată
+Ce rată aș avea la un credit de cincizeci de mii pe cinci ani?
+# perioada → perioadă
+Pot să iau credit dacă lucrez cu contract pe perioadă determinată?
+# banca → bancă
+Banca mi-a cerut extrasul de la cealaltă bancă.
+# rată → rata
+Asigurarea de șomaj de la credit chiar acoperă rata?
+# factură → factura
+Vreau să plătesc factura de telefon din aplicația băncii.
+# iarnă → iarna
+Ce cheltuieli lunare are apartamentul iarna?
+# mută → muta
+Se poate muta cineva și cu un copil mic?
+# Proprietară → Proprietara
+Proprietara nu acceptă fumători în casă.
+# Va → Vă
+Vă trimit buletinul pe e-mail ca să facem contractul.
+# flacăra → flacără
+Aragazul face flacără galbenă, e periculos?
+# Usa → Ușa
+Ușa de la intrare în bloc se închide prea greu.
+# lună → luna
+Fondul de reparații a crescut de luna asta.
+# sumă → suma, listă → lista
+Am o întrebare despre suma la apă rece din lista de plată.
+# apă → apa
+Mi s-a oprit apa și nu știu de ce.
+# după-amiază → după-amiaza
+Societatea de apă nu răspunde la telefon nici după-amiaza.
+# Cat → Cât, costa → costă
+Cât costă cartea de identitate electronică?
+# evidență → evidența
+Proprietarul trebuie să vină cu mine la evidența populației?
+# virgula → virgulă
+Unde găsesc formularul pentru redirecționarea a trei virgulă cinci la sută?
+# va → vă
+Am vrut să vă mulțumesc pentru ajutorul de la ghișeu.
+# asistență → asistența
+Asigurarea mea acoperă și asistența rutieră?
+# mașină → mașina, până → pană
+Mi-a rămas mașina în pană pe autostradă, sunați la tractare?
+# instanța → instanță
+Pot să contest procesul-verbal în instanță?
+# sa → să
+Coletul a fost returnat la expeditor fără să mă sune nimeni.
+# plată → plata
+Am o livrare cu plata la destinație, pot plăti cu cardul?
+# costa → costă
+Aș vrea să trimit un colet în Germania, cât costă?
+# Va → Vă
+Vă rog să ambalați bine, sunt lucruri fragile înăuntru.
+# Va → Vă
+Vă scriu din partea mamei mele, care nu știe să folosească telefonul.
+# Va → Vă
+Vă rog frumos să ne spuneți dacă tata poate primi vizite azi.
+# Va → Vă, asistență → asistenta
+Vă sunăm noi când sunt gata rezultatele, a zis asistenta.
+# Va → Vă
+Vă trimit în atașament scrisoarea medicală de la spital.
+# Va → Vă
+Vă aștept mâine la cabinet cu analizele făcute.
+# Va → Vă, pastilă → pastila, seară → seara
+Vă recomand să nu mai luați pastila seara.
+# Va → Vă, costa → costă
+Vă rog să-mi spuneți cât costă o consultație de control.
+# Va → Vă
+Vă rog să-l programați pe soțul meu la urologie.
+# Va → Vă
+Vă cer scuze, am încurcat ziua programării.
+# Va → Vă
+Vă mulțumesc că ne-ați primit fără programare.
+# simț → simt, stânga → stângă
+Nu mai simt degetele de la mâna stângă dimineața.
+# Cat → Cât
+Cât timp după vaccin poate face baie copilul?
+# scarpina → scarpină
+Copilul se scarpină toată noaptea, cred că are păduchi.
+# clasa → clasă, verificați-va → verificați-vă, va → vă
+Au apărut păduchi în clasă, verificați-vă copiii, vă rog.
+# plată → plata
+Ortodontul cere plata în avans pentru aparat.
+# rațe → rate
+Implantul dentar e foarte scump, se poate plăti în rate?
+# cataracta → cataractă
+Oftalmologul a zis că am început să am cataractă.
+# fișă → fișa
+Am schimbat medicul de familie, cum îmi mut fișa?
+# rețetă → rețeta
+Medicul m-a ascultat doar două minute și mi-a dat rețeta.
+# Cat → Cât
+Cât timp se păstrează proba de urină până la laborator?
+# urgente → urgențe
+Copilul are febră și erupție pe burtă, să-l duc la urgențe?
+# masa → masă
+La cât timp după masă pot să-i dau medicamentul?
+# săptămână → săptămâna
+Doamna învățătoare, mi-ați putea trimite programul pentru săptămâna verde?
+# clasa → clasă
+Copiii au nevoie de pantofi de schimb în clasă?
+# Va → Vă
+Vă rog să nu-l lăsați să plece cu altcineva în afară de mine.
+# Fața → Fata
+Fata mea a terminat clasa a patra cu calificativul foarte bine.
+# cantină → cantina
+Elevii care nu au plătit cantina nu primesc masă?
+# ședința → ședință
+Propun să facem o ședință și să discutăm despre asta.
+# săptămână → săptămâna
+Copiii au repetat colindele toată săptămâna.
+# biblioteca → bibliotecă
+Am pierdut legitimația de la bibliotecă a fetei.
+# corigentă → corigența
+Ce trebuie să facă un copil care a picat corigența?
+# corigență → corigența
+Rămâne repetent dacă nu trece corigența la matematică?
+# medității → meditații
+Vreau să-l înscriu la meditații pentru examenul de capacitate.
+# ora → oră
+Profesorul cere două sute de lei pe oră pentru meditații.
+# sa → să
+Fiica mea vrea să dea la o facultate în străinătate.
+# Plecam → Plecăm
+Plecăm în septembrie, trebuie să-i găsim cazare acolo.
+# sa → să, dimineața → dimineață
+Am stat toată noaptea să învăț pentru examen și am adormit dimineață.
+# Buna → Bună
+Bună ziua, mi-a fost blocat contul de internet banking.
+# mașina → mașină
+Am primit un împrumut de la bancă pentru mașină.
+# rață → rata
+Pot să plătesc rata și cu numerar la ghișeu?
+# Buna → Bună, va → vă
+Bună seara, vă scriu pentru că nu mai pot plăti chiria luna asta.
+# Va → Vă
+Vă pot da jumătate acum și restul la jumătatea lunii?
+# Va → Vă, anunt → anunț, ca → că
+Vă anunț cu o lună înainte că mă mut.
+# Garantia → Garanția
+Garanția nu mi-a fost returnată după două luni.
+# mobilă → mobila
+Inventarul cu mobila trebuie să fie anexat la contract.
+# problema → problemă
+Becul din hol l-am schimbat eu, nu e nicio problemă.
+# debară → debara
+Au intrat șoareci în debara, ce facem?
+# Vecinîi → Vecinii
+Vecinii au pus un dulap pe palierul comun.
+# scara → scară
+Copiii vecinilor joacă fotbal pe scară toată ziua.
+# tencuială → tencuiala
+Ne pică tencuiala de pe balcon pe trotuar.
+# primăvara → primăvară
+Lucrările de izolare încep în primăvară.
+# căldută → călduță, dus → duș
+Apa caldă e doar călduță, nu poți face duș.
+# firmă → firma
+Am chemat firma de termoficare, dar n-a venit nimeni.
+# factură → factura
+Am primit factura de energie cu regularizare de opt sute de lei.
+# plățim → plătim
+De ce plătim mai mult decât vecinii, deși suntem doar doi?
+# factura → factură
+Vreau să trec pe factură electronică, cum fac?
+# Programarile → Programările
+Programările online se termină în trei minute.
+# prefectura → prefectură
+Apostila se pune la prefectură sau la tribunal?
+# amendă → amenda
+Cum se plătește amenda online, fără să merg la ghișeu?
+# platformă → platforma, plăti → plăți
+Primăria nu apare pe platforma de plăți online.
+# Listă → Lista
+Lista de așteptare pentru locuri de parcare e foarte lungă.
+# rațe → rate
+Vreau să plătesc impozitul în rate, se poate?
+# Cat → Cât, casă → casa
+Cât acoperă asigurarea obligatorie dacă se dărâmă casa?
+# dauna → daună
+Am dosarul de daună de la accidentul din august încă deschis.
+# contraexpertiza → contraexpertiză, costa → costă
+Vreau să fac contraexpertiză, cât costă?
+# sta → stă
+Mașina stă de o lună în service, aștept piesele.
+# motocicletă → motocicleta
+Mi s-a furat motocicleta din parcarea blocului.
+# adresă → adresa
+Curierul mi-a spus că nu găsește adresa, deși e pe hartă.
+# rupta → ruptă
+Coletul a ajuns ud și cutia era ruptă.
+# rețetă → rețeta
+Pot să trimit rețeta pe WhatsApp la farmacie?
+# costa → costă
+Medicamentul costă aproape trei sute de lei, nu există ceva compensat?
+# returnă → returna
+Am cumpărat pastilele greșite, le pot returna?
+# farmacistă → farmacista
+Mi-a dat farmacista alt producător, e la fel?
+# sarcină → sarcina
+Medicul a spus că sarcina e cu risc și trebuie să stau liniștită.
+# Moasă → Moașa
+Moașa vine acasă în prima săptămână?
+# Alaptarea → Alăptarea, consultanță → consultantă
+Alăptarea mă doare îngrozitor, unde găsesc o consultantă?
+# întrună → întruna
+Nu dorm de trei nopți, copilul are colici întruna.
+# Cat → Cât, costa → costă
+Cât costă o pereche de lentile progresive?
+# casă → casa
+Proteza auditivă se decontează de casa de asigurări?
+# bunică → bunica
+Vreau să programez bunica la consultația anuală.
+# Va → Vă, doză → doza
+Vă rog să-mi scrieți și doza pe cutie.
+# Asistența → Asistenta
+Asistenta mi-a făcut injecția în mușchi, acum mă doare piciorul.
+# Buna → Bună, ridică → ridica
+Bună seara, mama a căzut în baie și nu se poate ridica.
+# ambulanță → ambulanța
+Am chemat ambulanța, au zis că vin în douăzeci de minute.
+# Imi → Îmi
+Îmi dă cineva numărul de telefon al unui chirurg bun?
+# ca → că
+Chirurgul a zis că operația e simplă, dar recuperarea durează.
+# cusătura → cusătură
+Am fost operat ieri și am dureri mari la cusătură.
+# rană → rana
+Mi s-a deschis puțin rana, sângerează.
+# ca → că
+Medicul a zis că mai stau două zile sub observație.
+# sa → să
+Ați putea să mă sunați înapoi când aveți un minut?
+# va → vă
+Domnule doctor, vă mulțumesc pentru tot ce ați făcut pentru tata.
+# corectură → corectura
+Am semnat lucrarea de control, dar nu am înțeles corectura.
+# sa → să
+Ați putea să ne trimiteți o listă cu cărțile pentru vacanța de vară?
+# Fața → Fata
+Fata mea e foarte timidă și nu răspunde la oră.
+# masă → masa
+Programul de after school include și masa de prânz?
+# oră → ora
+De ce nu se mai face ora de muzică?
+# școala → școală
+Copiii pleacă de la școală la ora două, nu la ora unu.
+# va → vă
+Vreau să vă anunț că Maria e la spital și va lipsi o săptămână.
+# Felicitari → Felicitări
+Felicitări tuturor absolvenților, sunteți minunați!
+# rață → rata, sumă → suma
+Bună ziua, vreau să plătesc rata, dar nu știu exact suma.
+# factură → factura
+Nu am primit factura cardului de credit pe e-mail.
+# Cat → Cât, dobândă → dobânda
+Cât e dobânda la cardul de credit dacă nu plătesc integral?
+# rațe → rate
+Vreau să fac rate fără dobândă la un frigider.
+# Rațele → Ratele
+Ratele fără dobândă se pot face doar cu cardul vostru?
+# greșeala → greșeală
+Ce fac dacă am primit bani din greșeală?
+# Va → Vă
+Vă rog să-mi dezactivați accesul de pe telefonul vechi.
+# Cat → Cât
+Cât timp am la dispoziție să contest o tranzacție?
+# casă → casa
+Banca a trimis evaluatorul să vadă casa.
+# Va → Vă, ca → că
+Vă rog să-mi confirmați că apartamentul e liber de sarcini.
+# centrală → centrala
+Bună ziua, am o problemă cu centrala, afișează o eroare.
+# Centrală → Centrala
+Centrala pornește și se oprește după câteva minute.
+# său → sau
+Cine plătește verificarea instalației de gaz, chiriașul sau proprietarul?
+# firma → firmă, sa → să
+Mi-a venit o firmă să verifice instalația, e de la distribuitor?
+# apă → apa, mașină → mașina
+Mi-a curs apa din mașina de spălat în tot holul.
+# vecină → vecina
+Am sunat la vecina de jos să-i spun, să verifice tavanul.
+# ca → că, mobilă → mobila
+Proprietarul a zis că pot să-mi aduc mobila mea.
+# grădinița → grădiniță
+Vrem o trecere de pietoni semaforizată lângă grădiniță.
+# bunică → bunica
+Trotuarul e plin de gropi și bunica a căzut.
+# sâmbătă → sâmbăta
+Unde găsesc un notar deschis sâmbăta?
+# arhivă → arhiva
+Pot obține o copie de la arhiva notarului?
+# Cat → Cât
+Cât timp primesc ajutorul de șomaj?
+# amendă → amenda
+Vreau să contest amenda, abonamentul era valabil.
+# franciza → franciză, polită → polița
+Mi-ați putea spune ce franciză are polița?
+# poliță → polița
+Vreau să anulez polița și să-mi recuperez banii.
+# dăuna → dauna
+Am plătit dauna din buzunar ca să nu-mi crească RCA-ul.
+# problema → problemă
+Service-ul mi-a dat mașina înapoi cu aceeași problemă.
+# Stergătoarele → Ștergătoarele
+Ștergătoarele nu mai merg pe ploaie.
+# amenda → amendă
+Mi s-a dat amendă pentru far ars.
+# rețetă → rețeta
+Am pierdut rețeta, îmi puteți trimite una electronică?
+# pastilă → pastila
+Doamna doctor, am luat pastila și tot mă doare.
+# Cat → Cât
+Cât timp țin bandajul pe gleznă?
+# căpușă → căpușa
+Să păstrez căpușa pentru analiză?
+# fișă → fișa
+Vreau să merg la altă clinică, cum îmi iau fișa?
+# sală → sala
+Am așteptat o oră și jumătate în sala de așteptare.
+# seară → seara
+Recepția clinicii închide la ora opt seara.
+# tușe → tuse, urată → urâtă
+Copilul are o tuse urâtă, ca un lătrat.
+# Fața → Fata
+Fata a căzut de pe bicicletă și și-a julit genunchii.
+# apa → apă
+Rana trebuie dezinfectată cu apă oxigenată sau cu betadină?
+# basică → bășică
+S-a făcut o bășică mare, o sparg sau nu?
+# sforaie → sforăie
+Copilul sforăie noaptea și respiră pe gură.
+# programam → programăm
+Ne programăm pentru operația de amigdale în vacanță.
+# dimineață → dimineața
+Bunica are tensiunea foarte mică dimineața.
+# paștile → pastile
+Medicul a redus doza de pastile pentru tensiune.
+# parafă → parafa
+Adeverința trebuie să aibă parafa medicului.
+# ștampilă → ștampila
+Am uitat să cer ștampila pe rețetă.
+# parafă → parafa
+Farmacia nu acceptă rețeta fără parafa medicului.
+# cremă → crema
+Mi s-a terminat crema de la dermatolog, se găsește la voi?
+# va → vă
+Doamna dirigintă, vă rog să-mi spuneți cum s-a descurcat Alex la testare.
+# săptămână → săptămâna
+Copiii au o temă de grup pentru săptămâna viitoare.
+# Asistența → Asistenta, prezența → prezentă
+Asistenta școlii e prezentă doar dimineața.
+# sa → să
+Am rugămintea să o lăsați să iasă la toaletă când are nevoie.
+# lasa → lăsa
+Se pot lăsa cărțile la școală, în dulap?
+# uniformă → uniforma
+Ne-ați spus că uniforma e obligatorie de la anul.
+# doamnă → doamna
+Cine o înlocuiește pe doamna învățătoare?
+# Nouă → Noua
+Noua învățătoare e foarte strictă cu copiii.
+# Fețele → Fetele, clasa → clasă
+Fetele din clasă au făcut un grup separat și o exclud pe Ana.
+# restantă → restanță
+Am rămas cu o singură restanță din anul doi.
+# grupa → grupă
+Pot da examenul cu altă grupă?
+# dobânda → dobândă, mașina → mașină
+Bună ziua, aș vrea să știu ce dobândă aveți la creditul pentru mașină.
+# banca → bancă
+Pot să-mi refinanțez creditul de la altă bancă la voi?
+# Rața → Rata, ma → mă
+Rata la creditul de nevoi personale mă sufocă.
+# Va → Vă
+Vă rog să-mi blocați cardul imediat, cred că am fost păcălit.
+# frauda → fraudă
+Am depus plângere la poliție pentru fraudă bancară.
+# ofertă → oferta
+Mai e valabilă oferta de închiriere?
+# diseara → diseară
+Pot vedea apartamentul diseară, după serviciu?
+# Va → Vă
+Vă rog să-mi trimiteți și poze cu baia.
+# Va → Vă, altcuivă → altcuiva
+Vă pot da avansul chiar azi, ca să nu-l mai arătați altcuiva.
+# va → vă
+Pisica a zgâriat canapeaua, vă plătesc eu alta.
+# Usa → Ușa
+Ușa dulapului s-a desprins din balamale.
+# Va → Vă
+Vă scad din chirie costul reparației, e în regulă?
+# Usa → Ușa
+Ușa de la baie nu se mai închide, s-a umflat.
+# ridică → ridica
+Rolele de la geam s-au rupt și nu mai pot ridica jaluzeaua.
+# casa → casă
+Trebuie să scoatem animalele din casă la dezinsecție?
+# centrală → centrala
+Avem gaz, dar centrala nu face apă caldă.
+# apă → apa
+Mi-a scris administratorul că se taie apa mâine între zece și patru.
+# apă → apa
+Ne-au tăiat apa caldă pentru restanțe.
+# Cat → Cât
+Cât e restanța la întreținere pentru apartamentul nostru?
+# listă → lista
+Vreau să văd lista de plată detaliată.
+# data → dată
+Pot să depun declarația proprietarului dată la notar?
+# dată → data
+Am semnat declarația, dar am uitat să pun data.
+# dovadă → dovada
+Mi-au cerut să vin cu dovada achitării taxei.
+# chitanta → chitanța
+Am plătit taxa la trezorerie, dar nu am chitanța la mine.
+# mașină → mașina
+Vreau să-mi asigur mașina, dar e înmatriculată pe numele tatălui.
+# Cat → Cât, costa → costă
+Cât costă o poliță RCA pentru un șofer tânăr?
+# polită → polița
+Vreau să încheiem polița de sănătate pentru toată familia.
+# mașină → mașina
+Am lăsat mașina pentru o problemă și mi-au găsit alte zece.
+# repara → repară
+Mi s-a recomandat să nu mai merg cu mașina până nu se repară.
+# ora → oră
+Mașina vibrează la peste o sută la oră.
+# alta → altă, adresa → adresă
+Pachetul meu a fost livrat la altă adresă.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață am recoltare, pot să beau apă?
+# așeara → aseară
+Am mâncat ceva aseară târziu, mai pot face analizele azi?
+# analiză → analiza
+Rezultatul la analiza de urină arată o infecție.
+# Urocultură → Urocultura
+Urocultura durează trei zile?
+# piatră → piatra
+Pot să elimin piatra la rinichi fără operație?
+# baut → băut
+Am băut doi litri de apă pe zi, cum a zis medicul.
+# urgente → urgențe
+Mi s-a făcut o injecție la urgențe și m-au trimis acasă.
+# ca → că, burtă → burta, dimineața → dimineață
+Fetița plânge că o doare burta în fiecare dimineață înainte de școală.
+# costa → costă
+Ședințele de terapie costă două sute de lei fiecare.
+# Ma → Mă
+Mă simt foarte obosită și nu am chef de nimic.
+# jena → jenă
+Mi-e jenă să merg la psiholog, ce o să creadă lumea?
+# Bunică → Bunica
+Bunica nu mai doarme deloc noaptea.
+# întrebam → întrebăm
+Doctorul a zis să nu-i dăm somnifere fără să-l întrebăm.
+# asistență → asistentă
+Am adus lucrurile tatălui la spital, le-am lăsat la asistentă.
+# Buna → Bună, va → vă
+Bună seara, scuzați că vă scriu atât de târziu.
+# tremura → tremură
+Copilul are febră 40 și tremură tot.
+# căldută → călduță
+I-am pus comprese cu apă călduță.
+# va → vă, tema → temă
+Doamna profesoară, vă rog să-mi spuneți dacă s-a dat temă la istorie.
+# Fața → Fata
+Fata mea a fost acuzată pe nedrept că a copiat.
+# Va → Vă
+Vă rog să-mi explicați ce s-a întâmplat exact la test.
+# sală → sala
+S-a schimbat sala de clasă, copiii învață acum la etajul doi.
+# școala → școală
+La școală nu există hârtie igienică în toalete.
+# seară → seara
+Curtea școlii nu e luminată seara.
+# intră → intra
+Poarta școlii rămâne deschisă toată ziua, oricine poate intra.
+# Va → Vă
+Vă rog să-i luați telefonul dacă se joacă în oră.
+# Va → Vă
+Vă rog să-mi trimiteți și mie bonurile pentru cheltuieli.
+# clasa → clasă
+Ne-am gândit să cumpărăm un proiector pentru clasă.
+# listă → lista
+Am rămas pe lista de așteptare la cămin.
+# taxă → taxa
+Am fost exmatriculat pentru că n-am plătit taxa.
+# platforma → platformă
+Am uitat să mă înscriu la examen pe platformă.
+# practică → practica
+Vreau să fac practica la spitalul din orașul meu.
+# plată → plata
+Bună ziua, mi s-a respins plata în magazin, deși am bani.
+# mari → mări
+Limita de plată zilnică e prea mică, se poate mări?
+# limită → limita
+Cum îmi schimb limita de retragere de la bancomat?
+# diferență → diferența
+Nu știu care e diferența dintre depozit și cont de economii.
+# firmă → firma
+Nu am nicio datorie la firma aia, e o greșeală.
+# sa → să
+Mi-a fost cesionată datoria fără să știu.
+# firmă → firma
+Am semnat un acord de plată în rate cu firma de recuperare.
+# centrală → centrala
+Bună ziua, ne-am mutat în apartament și centrala nu pornește.
+# apă → apa
+Ce presiune trebuie să aibă apa în centrală?
+# Garantia → Garanția
+Garanția de la frigider e pe numele dumneavoastră.
+# ajută → ajuta, factură → factura
+Mă puteți ajuta cu factura de la frigider pentru service?
+# Va → Vă, vecină → vecina
+Vă las cheia la vecina de vizavi.
+# ușa → ușă, intră → intra
+Mi s-a blocat cheia în ușă și nu pot intra.
+# va → vă
+Lăcătușul a schimbat butucul, vă dau și dumneavoastră o cheie.
+# lacate → lacăte
+Boxele din subsol nu au lacăte bune.
+# apa → apă
+Mi-a curs apă din tavan toată noaptea.
+# tencuială → tencuiala
+Tavanul din baie s-a umflat și cade tencuiala.
+# găleață → găleată, apă → apa
+Ne-a ajutat vecinul cu o găleată să strângem apa.
+# urgente → urgențe, firmă → firma, coloană → coloana
+Am sunat la urgențe la firma de apă, au închis coloana.
+# ca → că
+Am primit SMS că pașaportul e gata.
+# Plecam → Plecăm
+Plecăm în Turcia, e nevoie de pașaport pentru copii?
+# poză → poza
+Vreau să-mi schimb poza din buletin, nu-mi mai seamănă.
+# Funcționară → Funcționara, ca → că
+Funcționara a zis că dosarul s-a pierdut.
+# țara → țară
+Pot să plătesc impozitul pe casa de la țară online?
+# plata → plată
+Primăria din sat nu are plată online.
+# ca → că
+Am nevoie de o adeverință de la primărie că dețin teren agricol.
+# costa → costă
+Cadastrul costă mai mult decât terenul.
+# săptămână → săptămâna
+Topograful vine să măsoare terenul săptămâna viitoare.
+# granițuire → grănițuire
+Am deschis proces pentru grănițuire.
+# poliță → polița
+Am declarat tot când am făcut polița.
+# intra → intră, mărsarierul → marșarierul
+Nu intră marșarierul decât cu greu.
+# Cat → Cât, costa → costă
+Cât costă un senzor nou, cu montaj?
+# tărăște → târăște
+Toba de eșapament s-a desprins și se târăște pe asfalt.
+# dovadă → dovada
+Cum contest amenda dacă am dovada că aveam legitimația?
+# bunică → bunica
+Am trimis un pachet la bunica la țară, a ajuns în trei zile.
+# tusească → tușească
+doamna doctor, a început să tușească iar
+# față → fata
+fata e mai bine, a mâncat puțină supă
+# diseara → diseară
+am cumpărat siropul, îl încep de diseară
+# singura → singură
+doctorul a zis că e viroză și trece singură
+# maine → mâine, tineți-mi → țineți-mi
+mâine am operație, țineți-mi pumnii
+# frica → frică, sa → să
+Mi-e frică să nu-i fi făcut rău copilului.
+# doză → doza
+Medicul a zis că nu e niciun pericol la doza aceea.
+# oră → ora
+Am o programare la ecograf, dar vreau să schimb ora.
+# ambulanță → ambulanța, dializa → dializă
+Tata trebuie dus cu ambulanța la dializă.
+# ambulanță → ambulanța, dializa → dializă
+Transportul cu ambulanța pentru dializă e gratuit?
+# ca → că
+Am nevoie de o adeverință că mama are nevoie de însoțitor.
+# grădinița → grădiniță
+Logopedul de la grădiniță are prea mulți copii.
+# brânturi → branțuri
+Medicul ortoped a recomandat branțuri speciale.
+# Fața → Fata, școlioză → scolioză
+Fata are scolioză și trebuie să poarte corset.
+# casă → casa
+Corsetul se decontează parțial de casa de asigurări.
+# Va → Vă
+Vă rog să o lăsați să doarmă puțin dacă e obosită.
+# Va → Vă
+Vă trimit eu banii pentru gustare.
+# Va → Vă
+Vă rog să-i spuneți educatoarei că nu are voie la lapte.
+# grădinița → grădiniță
+Copiii au primit de la grădiniță o diplomă de absolvire.
+# costa → costă
+Grădinița privată costă o mie cinci sute de lei pe lună.
+# grădinița → grădiniță
+Statul decontează ceva din taxa de grădiniță?
+# grădinița → grădiniță
+Avem tichete sociale pentru grădiniță?
+# Cat → Cât
+Cât timp durează pregătirea pentru olimpiadă?
+# medității → meditații
+Nu vreau să-l mai trimit la meditații, e prea obosit.
+# returnă → returna
+Ne puteți returna banii pentru lunile rămase?
+# Va → Vă, dimineața → dimineață
+Vă rog să schimbați ghiozdanele mâine dimineață.
+# geacă → geaca
+Fiul meu a pierdut geaca la școală, a găsit-o cineva?
+# nota → notă
+Băiatul a luat testul de admitere cu notă mare.
+# Secretară → Secretara, adeverință → adeverința
+Secretara a zis că adeverința în engleză se plătește.
+# bursa → bursă
+Pentru bursă trebuie să trimit două scrisori de recomandare.
+# Va → Vă
+Vă mulțumesc pentru recomandare, am fost acceptată!
+# cameră → camera
+Am un examen online și nu-mi merge camera.
+# platforma → platformă
+Profesorul nu m-a lăsat să intru pe platformă după ora fixă.
+# notă → nota
+Am primit nota șase în loc de nouă, e o eroare.
+# Buna → Bună
+Bună ziua, nu mai am acces la contul de economii.
+# schimbă → schimba
+PIN-ul se poate schimba de la bancomat?
+# poștas → poștaș
+Pensia mamei vine pe card sau prin poștaș?
+# Postașul → Poștașul
+Poștașul nu a adus pensia luna aceasta.
+# bunică → bunica
+Am deschis un cont pentru bunica și i-am explicat cum se folosește cardul.
+# Cautam → Căutăm
+Căutăm o casă cu curte pentru familie, cu doi copii.
+# sa → să
+Proprietarul a intrat în apartament fără să mă anunțe.
+# Fișura → Fisura
+Fisura din perete s-a mărit după lucrările vecinului.
+# fisura → fisură
+Am făcut poze la fisură și am trimis un mesaj vecinului.
+# mutam → mutăm
+Ne mutăm temporar până se termină consolidarea?
+# Listă → Lista
+Lista de priorități se publică pe site-ul primăriei.
+# listă → lista
+Sunt pe locul patruzeci pe lista de așteptare.
+# plăți → plăti, restanțe → restante
+Mi se vor plăti și lunile restante?
+# Îndemnizația → Indemnizația
+Indemnizația de creștere a copilului se oprește la doi ani?
+# amendă → amenda
+Pot să plătesc amenda din străinătate în lei?
+# polită → polița
+Bună ziua, am o întrebare despre polița de călătorie cumpărată online.
+# plata → plată
+Spitalul din Grecia a cerut plată înainte de tratament.
+# costa → costă
+Reparația costă mai mult decât valoarea mașinii.
+# Ma → Mă
+Mă gândesc să vând mașina așa cum e.
+# dată → data
+Vreau să schimb data livrării pentru săptămâna viitoare.
+# Va → Vă
+Vă rog să-mi rezervați un loc la vaccinare pentru sâmbătă.
+# doză → doza, adeverință → adeverința
+Am primit doza a doua, dar nu am adeverința.
+# husa → husă
+Am cumpărat husă antialergică pentru saltea.
+# pisică → pisica
+Nu vrem să dăm pisica, e ca un membru al familiei.
+# urticărie → urticarie
+Fiul meu a făcut urticarie după ce a mâncat căpșuni.
+# Fața → Fata
+Fata s-a umflat la buze după ce a mâncat nucă.
+# ambulanță → ambulanța
+Am chemat ambulanța și i-au dat adrenalină.
+# rețeta → rețetă
+Medicul ne-a dat rețetă pentru un stilou cu adrenalină.
+# Va → Vă
+Vă rog să știe și doamna învățătoare cum se folosește stiloul.
+# asistența → asistenta
+Am vorbit cu asistenta școlii despre alergia fetiței.
+# Asistența → Asistenta
+Asistenta a zis că poate ține medicamentul în cabinet.
+# Nutriționistă → Nutriționista
+Nutriționista i-a dat o listă cu ce are voie să mănânce.
+# insulină → insulina
+Mi s-a terminat insulina, iar farmacia nu o mai are pe stoc.
+# insulină → insulina
+Farmacia a comandat insulina, vine mâine.
+# mândra → mândră, tată → tata
+Sunt foarte mândră de tata, a slăbit opt kilograme.
+# Ma → Mă
+Mă doare dintele de sus când mușc.
+# policlinică → policlinica
+Dentistul de gardă e la policlinica din centru.
+# mâncăm → mâncam
+Am pierdut coroana dentară, s-a desprins când mâncam.
+# plată → plata
+Aveți plata în rate fără dobândă pentru lucrări dentare?
+# Buna → Bună, va → vă
+Bună ziua, doamna profesoară, vă scriu în legătură cu nota lui David.
+# notă → nota
+David a muncit mult pentru proiect, dar nota a fost mică.
+# Fața → Fata
+Fata mea vrea să se apuce de dans.
+# seară → seara
+Cursul de dans e de trei ori pe săptămână, seara.
+# Va → Vă, oră → ora
+Vă rog să-l scutiți de ora de sport două săptămâni.
+# Fețele → Fetele, finală → finala
+Fetele au mers la Brașov pentru finala pe țară.
+# Ma → Mă
+Mă ofer să-i însoțesc pe copii la concurs.
+# Va → Vă
+Vă rog să verificați dacă au luat actele de identitate.
+# taxă → taxa
+Bună ziua, am o întrebare despre taxa de înscriere la admitere.
+# Cate → Câte
+Câte opțiuni pot alege la înscriere?
+# sală → sala
+Prima zi de facultate a fost haotică, nu știam unde e sala.
+# biblioteca → bibliotecă, împrumută → împrumuta
+La bibliotecă se pot împrumuta doar pentru două săptămâni.
+# biblioteca → bibliotecă
+Am uitat să returnez cărțile la bibliotecă și am primit penalizare.
+# biblioteca → bibliotecă
+Am nevoie de un card de bibliotecă nou, l-am pierdut.
+# printă → printa
+Unde pot printa ieftin lângă facultate?
+# sâmbătă → sâmbăta
+Sucursala e deschisă și sâmbăta?
+# Șoțul → Soțul
+Soțul meu are deja un credit, contează la calcul?
+# lună → luna
+Prima rată se plătește luna viitoare.
+# umezeală → umezeala
+Bună ziua, avem probleme cu umezeala în apartament.
+# vină → vina
+Proprietarul zice că e vina noastră, că nu aerisim.
+# umezeală → umezeala
+Aerisim zilnic, dar umezeala vine de la perete.
+# rezolva → rezolvă
+Proprietarul ne-a propus să reducă chiria cât timp nu se rezolvă.
+# Usa → Ușa
+Ușa de la boxă a fost forțată din nou.
+# lăcat → lacăt
+Am pus un lacăt nou la boxă.
+# ușa → ușă
+Ne-a dispărut covorașul de la ușă.
+# factură → factura
+Am plătit factura, cât durează reconectarea?
+# factură → factura
+Am primit factura de curent cu o sumă de patru ori mai mare.
+# poză → poza
+Am trimis poza cu indexul, dar nu au luat-o în calcul.
+# plată → plata, rațe → rate
+Mi s-a aprobat plata în șase rate.
+# costa → costă
+Bună ziua, cât costă eliberarea unui certificat de naștere nou?
+# constatător → constatator
+Avem nevoie de certificatul medical constatator al nașterii.
+# data → dată
+Procura trebuie să fie dată la notar?
+# procura → procură
+Fratele meu e plecat, poate semna în locul meu cu procură.
+# procura → procură
+Am uitat să trec în procură dreptul de a vinde.
+# casă → casa
+Evaluatorul a venit să vadă casa.
+# ofertă → oferta
+Am primit oferta de poliță, dar e prea scumpă.
+# biletel → bilețel
+Am găsit un bilețel pe parbriz cu un număr de telefon.
+# ca → că, frână → frâna
+Inspectorul a zis că mai e o problemă la frâna de mână.
+# costa → costă
+Numărul preferențial costă mai mult, dar mi-l doresc.
+# seară → seara
+Coletul ajunge după ora opt seara, e în regulă?
+# va → vă, fetiță → fetița
+Doamna doctor, vă deranjez din nou cu fetița.
+# febră → febra, flegma → flegmă
+I-a scăzut febra, dar acum are o tuse cu flegmă.
+# său → sau
+Să continuăm cu siropul sau să trecem la altceva?
+# Maine → Mâine, grădinița → grădiniță
+Mâine poate să meargă la grădiniță?
+# eliberă → elibera
+Mi-ați putea elibera adeverința fără să o mai aduc la cabinet?
+# Va → Vă, după-amiaza → după-amiază
+Vă mulțumesc, trec eu după-amiază s-o iau.
+# ca → că
+Am simțit că mi se învârte camera când m-am ridicat.
+# Ma → Mă, ceafă → ceafa, întreaga → întreagă
+Mă doare ceafa după o zi întreagă la calculator.
+# Ma → Mă, încheietură → încheietura
+Mă doare încheietura de la mouse.
+# Ma → Mă
+Mă doare călcâiul dimineața când mă dau jos din pat.
+# ședința → ședință
+Durerea s-a ameliorat după a cincea ședință.
+# medicină → medicina
+Am făcut o programare la medicina sportivă.
+# Cat → Cât, costa → costă
+Cât costă o electrocardiogramă fără trimitere?
+# problema → problemă
+Ecografia cardiacă a ieșit bine, nicio problemă.
+# seară → seara
+Palpitațiile apar mai ales seara, când mă culc.
+# Va → Vă
+Vă scriu pentru că am observat că băiatul nu-și mai notează temele.
+# dă → da
+Ar ajuta dacă i-ați da și o fișă scrisă cu temele?
+# școala → școală
+Fiul meu nu mai vrea să meargă la școală din cauza unor colegi.
+# poarta → poartă
+Copiii îl tachinează pentru că poartă ochelari.
+# clasă → clasa
+Școala nouă are locuri la clasa a șasea?
+# Cat → Cât, costa → costă
+Cât costă biletul la bal pentru părinți?
+# că → ca
+Am o materie din anul întâi care nu figurează ca promovată.
+# Secretară → Secretara, semnătură → semnătura
+Secretara a zis că trebuie semnătura în original.
+# Cat → Cât
+Cât e suma minimă pentru un credit de nevoi personale?
+# adeverința → adeverință
+Pot să iau credit fără adeverință de venit?
+# rață → rată
+Am întârziat o singură rată acum doi ani.
+# Cat → Cât, evidență → evidența
+Cât timp rămân în evidența biroului de credit?
+# rată → rata
+Refinanțarea mi-a scăzut rata cu trei sute de lei.
+# mașină → mașina
+Pe balcon se poate pune mașina de spălat?
+# Vecinîi → Vecinii
+Vecinii sunt liniștiți?
+# confirmă → confirma
+Fostul proprietar poate confirma că am plătit mereu la timp.
+# mobilă → mobila
+Am găsit mobila stricată, deși în anunț părea în stare bună.
+# ca → că
+Proprietarul a promis că repară până la sfârșitul lunii.
+# soba → sobă
+Casa noastră are sobă pe lemne, trebuie verificată?
+# iarnă → iarna
+Ni s-a aprobat ajutorul pentru încălzire pe toată iarna.
+# degeabă → degeaba
+Am pierdut o zi de muncă degeaba.
+# adeverință → adeverința
+Pot să obțin adeverința de venit online?
+# adeverința → adeverință
+Părinții mei sunt pensionari, ce adeverință le trebuie?
+# ofertă → oferta
+Am ales oferta cea mai bună, cu acoperire mai mare.
+# poliță → polița
+Am plătit polița, dar nu am primit-o pe e-mail.
+# polită → polița
+Mi-a ajuns polița prin poștă, după o săptămână.
+# său → sau
+Se poate repara cauciucul sau trebuie schimbat?
+# costa → costă
+Vreau să fac revizia anuală la mașină, cât costă?
+# fața → față
+Rulmentul roții din față trebuie schimbat.
+# Va → Vă, costa → costă
+Vă rog să-mi spuneți cât costă manopera.
+# plăcute → plăcuțe
+Polițistul mi-a dat o adeverință pentru plăcuțe noi.
+# ridică → ridica
+Pot ridica coletul mâine de la punctul de livrare?
+# ridică → ridica
+Am pierdut SMS-ul cu codul, pot ridica fără el?
+# colețul → coletul
+Am arătat buletinul și mi-au dat coletul.
+# Va → Vă
+Vă rog să mă iertați, am uitat complet de programare.
+# Va → Vă, sună → suna, dimineața → dimineață, alta → altă
+Vă pot suna mâine dimineață să stabilim altă dată?
+# Va → Vă
+Vă trimit eu rezultatele de la laborator, să le vedeți înainte.
+# Va → Vă
+Vă rog să-mi spuneți dacă e nevoie să vin pe nemâncate.
+# Va → Vă
+Vă aștept răspunsul, mulțumesc anticipat.
+# Va → Vă
+Vă rog frumos, e foarte urgent.
+# Va → Vă
+Vă scriu pentru că mama nu mai poate merge deloc.
+# Va → Vă
+Vă cer o programare pentru o a doua opinie.
+# Va → Vă, rugam → rugăm, va → vă
+Vă rugăm să vă prezentați cu cincisprezece minute înainte.
+# Va → Vă, sunam → sunăm
+Vă sunăm noi pentru confirmarea programării.
+# Va → Vă
+Vă reamintim că mâine aveți programare la ora nouă.
+# Va → Vă, rugam → rugăm
+Vă rugăm să aduceți cardul de sănătate și buletinul.
+# Va → Vă, informam → informăm
+Vă informăm că rezultatele sunt disponibile online.
+# Va → Vă, clinică → clinica
+Vă mulțumim că ați ales clinica noastră.
+# Va → Vă
+Vă așteptăm la control peste trei luni.
+# Cat → Cât, pastilă → pastila
+Cât trebuie să aștept după ce mănânc ca să iau pastila?
+# Cat → Cât, costa → costă, sarcina → sarcină
+Cât costă un test de sarcină la farmacie?
+# Cat → Cât
+Cât timp ține efectul anesteziei la dentist?
+# vindeca → vindecă
+Cât durează până se vindecă o fractură de deget?
+# Cat → Cât
+Cât de des trebuie schimbat pansamentul?
+# paștile → pastile
+Câte pastile pot lua într-o zi fără să fie periculos?
+# Cați → Câți
+Câți ani trebuie să aibă copilul pentru vaccinul acesta?
+# febră → febra
+Mi s-a spus să revin dacă febra persistă peste trei zile.
+# urâță → urâtă
+Mi-a rămas o cicatrice urâtă după operație.
+# față → fața
+Mi se umflă fața dimineața, ce poate fi?
+# greată → greață
+Mi se face greață când mă ridic din pat.
+# amortit → amorțit
+Mi-a amorțit jumătate din față, sunt speriată.
+# rețetă → rețeta
+Mi-ați putea trimite rețeta pe e-mail? La farmacie nu mi se dă medicamentul fără ea.
+# Maine → Mâine
+Mâine îi scot firele, a zis doctorul.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață am programare la dentist, nu pot veni la ședință.
+# Maine → Mâine
+Mâine se dau rezultatele de la biopsie.
+# Maine → Mâine
+Mâine nu se fac recoltări, laboratorul e închis.
+# școala → școală
+Ne puteți spune dacă fiul nostru a ajuns la școală?
+# diriginta → dirigintă
+Ne-a sunat doamna dirigintă să ne spună că a lipsit de la ore.
+# mintit → mințit, ca → că
+Ne-a mințit că merge la școală, de fapt a stat în parc.
+# greșeala → greșeală
+Cine a luat din greșeală ghiozdanul albastru al lui Victor?
+# diplomă → diploma
+Când pot să-mi ridic diploma de master?
+# transă → tranșă
+Când se plătește a doua tranșă a taxei de școlarizare?
+# Cat → Cât, costa → costă, formă → forma, taxa → taxă
+Cât costă un an de studii la forma cu taxă?
+# Cat → Cât
+Cât e bursa socială pe lună?
+# absente → absențe
+Câte absențe poate avea un student până pierde dreptul de a da examenul?
+# Cați → Câți
+Câți colegi sunt în grupa noastră?
+# sală → sala
+Am greșit sala și am ajuns la examen cu o oră întârziere.
+# Va → Vă, geanță → geanta
+Vă rog să-mi blocați cardul, mi-a fost furată geanta.
+# Va → Vă
+Vă rog să-mi spuneți de ce mi s-a blocat contul.
+# Va → Vă
+Vă rog să-mi trimiteți graficul de rambursare actualizat.
+# Va → Vă
+Vă rog să-mi confirmați primirea documentelor pentru credit.
+# Va → Vă, recurență → recurentă, firmă → firma
+Vă rog să anulați plata recurentă către firma de telefonie.
+# Va → Vă
+Vă rog să verificați o tranzacție pe care nu o recunosc.
+# Va → Vă, rugam → rugăm, va → vă
+Vă rugăm să vă actualizați datele până la sfârșitul lunii.
+# Va → Vă, informam → informăm
+Vă informăm că v-a fost aprobată cererea de credit.
+# Va → Vă
+Vă anunțăm că rata a fost recalculată.
+# Cat → Cât, costa → costă
+Cât costă un transfer în euro către altă bancă?
+# Cat → Cât
+Cât timp durează emiterea unui card nou?
+# Cat → Cât, dobândă → dobânda, sumă → suma
+Cât e dobânda dacă plătesc doar suma minimă?
+# Cate → Câte
+Câte retrageri gratuite am pe lună?
+# șoldul → soldul
+Mi-ați putea spune soldul exact al creditului?
+# Maine → Mâine, scadentă → scadența
+Mâine e scadența, dar nu am primit salariul.
+# Maine → Mâine, banca → bancă
+Mâine vin la bancă să semnez contractul.
+# Va → Vă
+Vă rog să-mi spuneți când veniți să reparați boilerul.
+# Va → Vă, factură → factura
+Vă rog să-mi lăsați factura de gaz în cutia poștală.
+# Va → Vă
+Vă trimit chiria azi, mi-a întârziat salariul.
+# Va → Vă, sa → să
+Vă rog să nu mai veniți fără să mă anunțați.
+# Va → Vă
+Vă rog să-mi spuneți dacă pot face o mică renovare.
+# Va → Vă, rugam → rugăm, sa → să
+Vă rugăm să eliberați holul de biciclete și cărucioare.
+# Va → Vă, rugam → rugăm
+Vă rugăm să nu aruncați resturi de mâncare la ghenă.
+# Va → Vă, informam → informăm, apă → apa, calda → caldă
+Vă informăm că mâine se va opri apa caldă.
+# Va → Vă
+Vă reamintim că întreținerea se plătește până pe douăzeci.
+# Cat → Cât, costa → costă
+Cât costă chiria pe lună cu tot cu utilități?
+# Cat → Cât
+Cât e garanția pentru apartament?
+# Cat → Cât, centrală → centrala
+Cât consumă centrala pe lună iarna?
+# Cat → Cât
+Cât trebuie să plătesc pentru deschiderea unui contract de curent?
+# Maine → Mâine, sa → să
+Mâine vine firma să schimbe contorul de gaz.
+# Maine → Mâine
+Mâine se face curățenie generală pe scară.
+# Va → Vă
+Vă rog să-mi spuneți ce acte trebuie pentru cartea de identitate.
+# Va → Vă
+Vă rog să-mi programați o întâlnire cu primarul.
+# Va → Vă
+Vă rog să-mi eliberați un certificat de rol fiscal.
+# Va → Vă
+Vă rog să-mi comunicați în scris motivul respingerii.
+# Va → Vă, rugam → rugăm
+Vă rugăm să completați formularul cu majuscule.
+# Va → Vă, rugam → rugăm
+Vă rugăm să așteptați până sunteți chemat la ghișeu.
+# Va → Vă, informam → informăm
+Vă informăm că termenul de soluționare e de treizeci de zile.
+# Cat → Cât, costa → costă
+Cât costă eliberarea unui pașaport pentru un copil?
+# Cat → Cât
+Cât durează schimbarea numelui în acte?
+# Cat → Cât, taxă → taxa
+Cât e taxa pentru înmatricularea unei mașini noi?
+# amendă → amenda
+Câte zile am la dispoziție să plătesc amenda?
+# Maine → Mâine
+Mâine e ultima zi pentru depunerea declarației.
+# Maine → Mâine
+Mâine se închide ghișeul mai devreme.
+# Va → Vă
+Vă rog să-mi trimiteți o ofertă pentru asigurarea de călătorie.
+# Va → Vă, polită → polița
+Vă rog să-mi confirmați dacă polița acoperă și bagajele.
+# Va → Vă, dauna → daună
+Vă rog să-mi spuneți stadiul dosarului de daună.
+# Va → Vă, rugam → rugăm
+Vă rugăm să trimiteți fotografiile cu dauna în cel mult trei zile.
+# Va → Vă, polită → polița
+Vă anunțăm că polița dumneavoastră expiră peste o săptămână.
+# Cat → Cât, costa → costă
+Cât costă asigurarea de sănătate pentru un copil?
+# Cat → Cât
+Cât trebuie să aștept până primesc despăgubirea?
+# polită → polița
+Mi-ați putea trimite o copie după polița de anul trecut?
+# Va → Vă, ridică → ridica, mașină → mașina
+Vă rog să-mi spuneți când pot ridica mașina.
+# Va → Vă
+Vă rog să nu schimbați nimic fără să mă sunați.
+# Va → Vă
+Vă rog să-mi trimiteți devizul pe e-mail.
+# Va → Vă, scârțaie → scârțâie
+Vă rog să verificați și frânele, au început să scârțâie.
+# Cat → Cât, costa → costă
+Cât costă o revizie completă la o mașină diesel?
+# Câti → Câți
+Câți kilometri mai pot merge cu plăcuțele astea?
+# factura → factură
+De ce mi-ați pus în factură două ore de manoperă?
+# mașina → mașină
+Mi-au furat roțile de la mașină peste noapte.
+# Maine → Mâine, expira → expiră
+Mâine îmi expiră ITP-ul, mă puteți primi?
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață aduc mașina la revizie.
+# Va → Vă
+Vă rog să-mi spuneți unde pot depune o plângere.
+# Va → Vă
+Vă rog să trimiteți un echipaj, vecinii se ceartă de o oră.
+# Va → Vă
+Vă rog să-mi eliberați o copie după procesul-verbal.
+# Va → Vă
+Vă rog să sunați când sunteți în fața blocului.
+# Va → Vă, plată → plata
+Vă rog să lăsați coletul la ușă, plata e făcută.
+# Va → Vă, sâmbătă → sâmbăta
+Vă rog să-mi spuneți dacă se poate livra sâmbăta.
+# Cat → Cât, costa → costă
+Cât costă trimiterea unui colet în altă localitate?
+# Cat → Cât
+Cât durează livrarea în Republica Moldova?
+# Cate → Câte
+Câte colete pot trimite cu aceeași comandă de ridicare?
+# altcuivă → altcuiva
+Mi s-a livrat coletul altcuiva.
+# Maine → Mâine, ridică → ridica
+Mâine e ultima zi în care pot ridica coletul.
+# Ma → Mă
+Mă doare în capul pieptului când urc scările.
+# înțeapa → înțeapă
+Mă înțeapă ochii de la lentile, să le scot?
+# paștile → pastile
+Mă tem că am luat prea multe pastile de durere.
+# Ma → Mă, sa → să
+Mă gândeam să cer și părerea altui medic.
+# amortite → amorțite, dimineața → dimineață
+Mă trezesc cu mâinile amorțite în fiecare dimineață.
+# ustura → ustură
+Mă ustură gâtul și sunt răgușită.
+# seară → seara
+Am frisoane seara, deși nu am febră.
+# tușe → tuse
+Să-i dau sirop de tuse și noaptea?
+# fetiță → fetița, varicela → varicelă
+Mi-e teamă că fetița a luat varicelă de la vărul ei.
+# seară → seara
+Iau pastilele seara, înainte de culcare.
+# scuipa → scuipă
+Copilul nu vrea să ia siropul, îl scuipă.
+# urgente → urgențe
+Ieri am fost la urgențe, dar nu mi-au dat niciun diagnostic.
+# lună → luna
+Tratamentul de chimioterapie începe luna viitoare.
+# Maine → Mâine, clasa → clasă
+Mâine e ziua ei, putem aduce prăjituri pentru clasă?
+# Ma → Mă
+Mă ocup eu de diplomele pentru serbare.
+# sună → suna
+Mă puteți suna după ore? Aș vrea să vorbim despre Vlad.
+# placa → placă
+Să știți că a început să-i placă la școală.
+# Sa → Să
+Să ne anunțați dacă mai e nevoie de ceva pentru excursie.
+# va → vă
+Să-i reamintiți, vă rog, că are de adus caietul de muzică.
+# școala → școală
+Azi copiii au venit de la școală plini de vopsea.
+# grădinița → grădiniță
+Fetița a plâns toată dimineața că nu vrea la grădiniță.
+# flamand → flămând
+Băiatul vine acasă flămând, nu mănâncă la cantină.
+# ca → că
+Am observat că mâncarea de la cantină e rece.
+# Ma → Mă
+Mă bucur că am trecut examenul, a fost greu.
+# ajută → ajuta
+Mă puteți ajuta cu o recomandare pentru master?
+# licență → licența
+Ieri am susținut licența, am luat zece.
+# bursa → bursă
+Iau bursă de merit tot anul.
+# ajută → ajuta
+Mă poate ajuta cineva cu o problemă la contul bancar?
+# Ma → Mă
+Mă tem că mi-au fost furate datele cardului.
+# Ma → Mă, bancă → banca
+Mă gândesc să-mi schimb banca, aici sunt comisioane prea mari.
+# Ma → Mă
+Mă mut din apartament la sfârșitul lunii.
+# anunță → anunța
+Mă puteți anunța dacă se eliberează vreun apartament în bloc?
+# lună → luna
+Să știți că am plătit chiria pe luna viitoare.
+# ca → că, țeavă → țeava
+Mi-e teamă că o să se rupă țeava de tot.
+# apa → apă
+Azi-noapte a curs apă din tavan peste pat.
+# Usa → Ușa
+Ușa s-a închis în urma mea și cheile au rămas înăuntru.
+# va → vă, diseara → diseară
+Iau apartamentul, vă dau confirmarea până diseară.
+# ajută → ajuta
+Mă puteți ajuta cu o informație despre pașapoarte?
+# Ma → Mă
+Mă duc la primărie să depun cererea pentru alocație.
+# va → vă
+Să-mi spuneți, vă rog, dacă dosarul meu a fost aprobat.
+# evidență → evidența
+Azi am stat patru ore la evidența populației.
+# ajută → ajuta
+Mă puteți ajuta cu o ofertă pentru RCA?
+# polită → polița
+Mă tem că polița mea nu acoperă ce s-a întâmplat.
+# ca → că
+Mi-e teamă că o să-mi respingă dauna.
+# Ma → Mă
+Mă puteți primi azi pentru o verificare rapidă a frânelor?
+# ca → că
+Să știți că zgomotul a revenit după reparație.
+# Ma → Mă
+Mă duc la poliție să fac plângere.
+# mașină → mașina
+Azi-noapte mi-au spart mașina în fața blocului.
+# sună → suna
+Mă puteți suna când ajungeți în zonă?
+# urgente → urgențe
+Doctorul de la urgențe mi-a spus că e o entorsă.
+# rețeta → rețetă
+Pe rețetă scrie o pastilă la opt ore.
+# umbrelă → umbrela
+Am uitat la cabinet umbrela, a găsit-o cineva?
+# dobânda → dobândă
+Prefer un depozit simplu, cu dobândă fixă.
+# vizionari → vizionări
+Am cerut să mă anunțe cu o zi înainte de vizionări.
+# sumă → suma
+Am primit înapoi suma plătită în plus la impozit.
+# Funcționară → Funcționara
+Funcționara a fost extrem de amabilă și răbdătoare.
+# că → ca
+Mașina a fost reparată și arată ca nouă.
+# așteptăm → așteptam
+Coletul a ajuns mai repede decât mă așteptam.
+# Buna → Bună, va → vă, sâmbătă → sâmbăta
+Bună ziua, vă rog să-mi spuneți dacă doamna doctor consultă și sâmbăta.
+# sună → suna
+Am sunat de zece ori la cabinet, dar suna ocupat.
+# noua → nouă
+Ora corectă e zece și jumătate, nu nouă și jumătate.
+# înghițe → înghite
+Copilul se plânge că îl doare urechea când înghite.
+# doză → doza
+Am uitat să-i dau doza de prânz, i-am dat-o la trei.
+# dependență → dependentă
+Medicul mi-a explicat că am devenit dependentă de spray.
+# martea → marțea
+Chirurgul vascular are consultații doar marțea.
+# mamă → mama
+Ședințele la domiciliu sunt mai scumpe, dar mama nu poate ieși.
+# Maine → Mâine
+Mâine o să-și ceară scuze colegului.
+# Va → Vă
+Vă mulțumesc că ne-ați anunțat imediat.
+# clasa → clasă, sandvisul → sandvișul
+Cineva din clasă îi ia mereu sandvișul.
+# Va → Vă, sa → să
+Vă rog să supravegheați mai atent în pauza mare.
+# tableta → tabletă
+Contractul de comodat prevede că părintele răspunde pentru tabletă.
+# fierbatorul → fierbătorul
+Ne-au confiscat fierbătorul la controlul din cămin.
+# bursă → bursa
+Mi-a ajuns bursa în cont, în sfârșit.
+# bursă → bursa
+Am primit bursa pentru tot anul universitar.
+# Ma → Mă
+Mă bucur că am observat la timp.
+# Buna → Bună, oră → ora, apă → apa
+Bună seara, scuzați ora, avem o problemă cu apa în baie.
+# apă → apa
+Am strâns apa cu prosoape, dar a ajuns sub cadă.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață vine un instalator, l-am sunat eu.
+# Va → Vă, factură → factura, scadem → scădem
+Vă trimit factura de la instalator, să o scădem din chirie.
+# priză → priza
+Avem o problemă cu priza din dormitor, scoate scântei.
+# siguranță → siguranța
+Am oprit siguranța și nu o mai folosim.
+# priză → priza
+Electricianul a schimbat priza și o parte din cablu.
+# ca → că
+Proprietarul a promis că o reface la vară.
+# taxă → taxa
+Bună ziua, am o întrebare despre taxa pe clădiri.
+# așteptăm → așteptam
+Impozitul e mai mare decât mă așteptam.
+# adeverință → adeverința
+Primăria eliberează adeverința în cinci zile lucrătoare.
+# asigurătorului → asiguratorului
+Ce clinici sunt în rețeaua asiguratorului?
+# polită → polița
+Am folosit polița de sănătate prima dată ieri.
+# costa → costă
+Curățarea injectoarelor costă mai puțin decât schimbarea lor.
+# fumega → fumegă
+Mașina nu mai fumegă și consumă mai puțin.
+# lovita → lovită
+Vânzătorul a zis că mașina n-a fost lovită niciodată.
+# tată → tata
+Bună ziua, vreau să trimit un colet la un spital, pentru tata.
+# Asistența → Asistenta, da → dă
+Asistenta a zis că îi dă ea pachetul.
+# bunică → bunica
+Curierul a ajuns la bunica exact de ziua ei.
+# vamala → vamală
+Taxa vamală a fost mai mare decât valoarea produsului.
+# arat → arăt
+Medicul de familie a fost surprins de cât de bine arăt.
+# adeverință → adeverința
+Fiica mea poate merge în tabără, adeverința e gata.
+# adresă → adresa
+Am primit permisul, dar adresa e greșită.
+# Vecinîi → Vecinii
+Vecinii au curent, deci problema e la mine.
+# că → ca
+Asociația cere ca eu să plătesc datoria lui.
+# adeverința → adeverință
+Am primit adeverință de la asociație că nu mai am datorii.
+# Va → Vă
+Vă rog să-mi spuneți dacă trebuie să-i dau copilului și vitamina C.
+# Va → Vă, urată → urâtă
+Vă scriu pentru o reprogramare, am prins o răceală urâtă.
+# Va → Vă
+Vă rog să-l consultați și pe fratele lui, are aceleași simptome.
+# Va → Vă
+Vă aduc mâine scrisoarea de la spital, am uitat-o azi.
+# Va → Vă, rugam → rugăm
+Vă rugăm să nu veniți la cabinet dacă aveți febră, sunați întâi.
+# Ma → Mă, programă → programa
+Mă puteți programa la prima oră, înainte de serviciu?
+# Ma → Mă
+Mă simt mai rău după a doua doză de vaccin.
+# Ma → Mă, înghiț → înghit
+Mă doare și când înghit apă.
+# Maine → Mâine, va → vă
+Mâine e a treia zi de febră, cum ați zis să vă anunț.
+# Maine → Mâine, rețetă → rețeta
+Mâine plec din țară, îmi trebuie rețeta azi.
+# Cat → Cât
+Cât timp ține rezultatul testului valabil pentru operație?
+# Cat → Cât, costa → costă
+Cât costă o injecție la cabinetul vostru?
+# Cate → Câte
+Câte ședințe de fizioterapie sunt decontate pe an?
+# baga → bagă
+Copilul își bagă tot în gură, îi ies dinții.
+# Va → Vă
+Vă rog să-mi spuneți ce caiete trebuie pentru clasa întâi.
+# Va → Vă
+Vă rog să-i dați voie să plece cu bicicleta acasă.
+# Va → Vă
+Vă scriu în numele mai multor părinți din clasă.
+# Va → Vă
+Vă propunem să schimbăm ora ședinței după șase.
+# Va → Vă
+Vă mulțumim pentru serbarea minunată de ieri.
+# anunță → anunța
+Mă puteți anunța dacă se mai face excursia, cu vremea asta?
+# Ma → Mă
+Mă ocup eu de fotografiile de la serbare.
+# Maine → Mâine
+Mâine copiii au voie să vină îmbrăcați în costume de Halloween?
+# Maine → Mâine, seară → seara
+Mâine e testul la engleză, a învățat toată seara.
+# Cat → Cât, costa → costă
+Cât costă o oră de meditație la chimie?
+# Cate → Câte, romană → română
+Câte ore de română au pe săptămână în clasa a opta?
+# teza → teză
+Ce se întâmplă dacă un elev lipsește la teză?
+# Va → Vă, tematică → tematica
+Vă rog să-mi trimiteți tematica pentru examen.
+# Va → Vă, sa → să, restantă → restanță
+Vă rog să mă treceți pe lista pentru restanță.
+# Maine → Mâine, plată → plata
+Mâine e ultima zi pentru plata taxei de restanță.
+# Cat → Cât, costa → costă
+Cât costă eliberarea unui duplicat după diplomă?
+# Va → Vă
+Vă rog să-mi deblocați accesul la internet banking.
+# Va → Vă, sa → să
+Vă rog să anulați cardul suplimentar al soțului meu.
+# ajută → ajuta
+Mă puteți ajuta să înțeleg graficul de rambursare?
+# Maine → Mâine, rată → rata, plată → plata
+Mâine se plătește rata automat sau trebuie să fac eu plata?
+# Cat → Cât, costa → costă
+Cât costă o ridicare de numerar de la bancomatul altei bănci?
+# Va → Vă
+Vă rog să-mi trimiteți contractul de închiriere semnat.
+# Va → Vă, exacta → exactă, va → vă
+Vă rog să-mi spuneți data exactă la care vă mutați.
+# Va → Vă
+Vă anunț că se schimbă administratorul blocului.
+# sa → să
+Mă puteți ajuta să car o canapea până la etajul trei?
+# Maine → Mâine, lasa → lăsa
+Mâine vine cineva să vadă apartamentul, îl puteți lăsa aerisit?
+# Cat → Cât, costa → costă
+Cât costă înlocuirea unui geam termopan?
+# mobilă → mobila, debară → debara
+Ce facem cu mobila veche din debara?
+# mobilă → mobila
+Am dus mobila veche la centrul de colectare al primăriei.
+# Va → Vă
+Vă rog să-mi spuneți programul de lucru cu publicul.
+# Va → Vă
+Vă rog să-mi eliberați o copie după actul de proprietate.
+# Va → Vă
+Vă scriu pentru a solicita informații despre dosarul meu.
+# îndrumă → îndruma
+Mă puteți îndruma spre biroul care se ocupă de autorizații?
+# Maine → Mâine
+Mâine se termină termenul pentru contestație.
+# Cat → Cât, costa → costă
+Cât costă un certificat de urbanism pentru o casă?
+# fosă → fosa
+Ne-am racordat la canalizare și am scăpat de fosa septică.
+# Va → Vă, polită → polița
+Vă rog să-mi spuneți ce acoperă polița de răspundere civilă.
+# Va → Vă
+Vă rog să-mi trimiteți formularul de avizare a daunei.
+# ajută → ajuta
+Mă puteți ajuta să completez cererea de despăgubire?
+# Maine → Mâine
+Mâine vine expertul să vadă tavanul.
+# Cat → Cât, costa → costă
+Cât costă o asigurare facultativă pentru apartament?
+# Va → Vă
+Vă rog să-mi spuneți cât mai durează reparația.
+# Va → Vă
+Vă rog să-mi rezervați un loc la schimbul de anvelope pentru sâmbătă.
+# până → pană
+Mă puteți primi fără programare pentru o pană?
+# Maine → Mâine, verifică → verifica
+Mâine plec la drum lung, puteți verifica mașina azi?
+# Cat → Cât, costa → costă
+Cât costă înlocuirea plăcuțelor și discurilor de frână?
+# Va → Vă
+Vă rog să veniți cât mai repede, mi-au spart ușa.
+# Va → Vă
+Vă rog să-mi spuneți cum pot obține înregistrările video.
+# informă → informa
+Mă puteți informa despre stadiul plângerii mele?
+# Cat → Cât
+Cât timp durează eliberarea unui certificat de cazier?
+# amendă → amenda
+Ce fac dacă nu sunt de acord cu amenda?
+# Va → Vă
+Vă rog să-mi trimiteți codul de urmărire al coletului.
+# Va → Vă
+Vă rog să nu lăsați coletul la vecini, ci să sunați.
+# sună → suna
+Mă puteți suna cu jumătate de oră înainte de livrare?
+# Maine → Mâine
+Mâine nu sunt acasă, putem muta livrarea?
+# Cat → Cât, costa → costă
+Cât costă ambalarea unui colet la sediul vostru?
+# clasă → clasa
+Doamna educatoare a dezinfectat toată clasa.
+# grupa → grupă
+Copiii din grupă au fost verificați de medic.
+# slava → slavă
+Nimeni altcineva nu s-a îmbolnăvit, slavă Domnului.
+# ca → că
+Am primit un e-mail că profesorul de matematică s-a îmbolnăvit.
+# banca → bancă
+Am fost la bancă să-mi deschid un cont pentru economii.
+# oră → ora
+I-am trimis pozele cu data și ora.
+# lăcat → lacăt
+Mi-am cumpărat un lacăt mai bun și o țin în casă.
+# ramă → rama
+I-am lăsat să-și aleagă singur rama.
+# diferență → diferența
+Doamna învățătoare a observat imediat diferența.
+# adeverință → adeverința
+Medicul acceptă adeverința în locul cardului.
+# problema → problemă
+Am fost la consultație cu adeverința și n-a fost nicio problemă.

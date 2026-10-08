@@ -1,0 +1,2009 @@
+# Everyday Romanian: work e-mails, chat and documents.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# Buna → Bună, va → vă
+Bună ziua, vă trimit în atașament oferta actualizată pentru proiectul discutat ieri.
+# Va → Vă
+Vă mulțumesc pentru răspuns, revin cu detalii până mâine la prânz.
+# Va → Vă
+Vă rog să-mi confirmați dacă ați primit factura.
+# Maine → Mâine, urgente → urgențe
+Mâine sunt în concediu, pentru urgențe vorbiți cu Andreea.
+# muta → mută
+Ședința de vineri se mută joi la ora zece.
+# Va → Vă
+Vă scriu în legătură cu postul de contabil anunțat pe site.
+# As → Aș, programam → programăm, săptămână → săptămâna
+Aș dori să programăm un interviu săptămâna viitoare, dacă se poate.
+# azi-dimineața → azi-dimineață
+Nu mă pot conecta la VPN de azi-dimineață.
+# seară → seara
+Deadline-ul e vineri, dar aș vrea să terminăm până joi seara.
+# analiză → analiza
+Șefa a zis că trebuie refăcută toată analiza.
+# va → vă, noua → nouă
+Factura a fost emisă greșit, vă trimitem una nouă astăzi.
+# Va → Vă, ca → că, scadenta → scadentă
+Vă reamintesc că factura scadentă luna trecută nu a fost achitată.
+# Maine → Mâine
+Mâine lucrez de acasă, sunt disponibil pe Teams toată ziua.
+# uități → uitați, condică → condica
+Tura de noapte începe la ora zece, nu uitați să semnați condica.
+# dimineața → dimineață
+Poate cineva să-mi țină locul sâmbătă dimineață?
+# tură → tura
+Am schimbat tura cu Mihai, lucrez eu duminică.
+# Va → Vă
+Vă rog să-mi aprobați cererea de concediu de odihnă.
+# Cautam → Căutăm
+Căutăm un programator cu experiență în dezvoltarea aplicațiilor web.
+# ofertă → oferta, așteptăm → așteptam
+Am primit oferta, dar salariul e mai mic decât mă așteptam.
+# Va → Vă, anunt → anunț
+Vă anunț că ultima mea zi de lucru va fi vineri.
+# pagină → pagina
+Am găsit o greșeală în raport, la pagina patru.
+# asta → ăsta
+Poți să arunci un ochi peste documentul ăsta înainte să-l trimit?
+# dimineața → dimineață
+Hai să discutăm mâine dimineață, acum sunt prins.
+# Va → Vă, rugam → rugăm
+Vă rugăm să nu răspundeți la acest mesaj generat automat.
+# săptămână → săptămâna
+Am actualizat fișierul Excel cu datele de săptămâna asta.
+# sters → șters
+Cine a șters folderul cu facturile din martie?
+# va → vă
+Am resetat parola, încercați să vă logați din nou.
+# Va → Vă, rugam → rugăm
+Vă rugăm să descrieți pașii prin care ați ajuns la eroare.
+# schimbă → schimba
+Mouse-ul meu nu mai funcționează, se poate schimba?
+# Maine → Mâine, plecam → plecăm
+Mâine facem team building, plecăm la nouă din fața biroului.
+# uități → uitați
+Nu uitați să completați pontajul până vineri.
+# corectă → corecta
+Am greșit pontajul pe luna trecută, se mai poate corecta?
+# săptămână → săptămâna
+Am lucrat peste program toată săptămâna și sunt frânt.
+# ține → tine
+Vreau să discut cu tine despre o mărire de salariu.
+# Contabilă → Contabila
+Contabila mi-a spus că trebuie să depun declarația până pe douăzeci și cinci.
+# Va → Vă
+Vă pot trimite o estimare până mâine seară.
+# Va → Vă
+Vă rog să-mi spuneți când ați efectuat plata, ca să verific contul.
+# baristă → barista
+Am deschis o mică cafenea și caut un barista cu experiență.
+# marfă → marfa
+Furnizorul nu ne-a livrat marfa la timp.
+# comandam → comandăm
+Trebuie să comandăm hârtie pentru imprimantă, s-a terminat.
+# Maine → Mâine, contabilă → contabila
+Mâine vine contabila să verifice actele.
+# Lucram → Lucrăm
+Lucrăm în ture de câte douăsprezece ore.
+# Sâmbăta → Sâmbătă, săptămână → săptămâna
+Sâmbătă e zi lucrătoare, recuperăm ziua liberă de săptămâna trecută.
+# Va → Vă, informam → informăm
+Vă informăm că biroul va fi închis în perioada sărbătorilor.
+# sală → sala
+Aerul condiționat din sala de ședințe nu merge.
+# gată → gata
+Prezentarea pentru client e aproape gata, mai am doar concluziile.
+# minută → minuta
+Poți să faci tu minuta ședinței de azi?
+# Minuță → Minuta
+Minuta: s-a stabilit bugetul pentru trimestrul următor și responsabilii pe fiecare proiect.
+# ofertă → oferta
+Acțiuni de urmat: Radu trimite oferta, Elena verifică contractul.
+# ca → că, amănă → amână
+Am stabilit că lansarea se amână cu o lună.
+# Va → Vă, plată → plata
+Vă propunem o reducere de zece la sută pentru plata integrală în avans.
+# Va → Vă, stam → stăm
+Vă stăm la dispoziție pentru orice întrebări suplimentare.
+# știma → stimă
+Cu stimă, departamentul de resurse umane.
+# cameră → camera
+Internetul meu e foarte slab azi, s-ar putea să-mi pice camera.
+# va → vă
+Nu vă aud bine, cred că e o problemă cu microfonul.
+# ședința → ședință
+Am trimis invitația pentru ședință tuturor celor implicați.
+# ședința → ședință
+Am fost bolnav ieri, ce s-a discutat la ședință?
+# vizita → vizită
+Directorul general vine în vizită joi, faceți ordine pe birouri.
+# Nouă → Noua, muncă → munca
+Noua politică privind munca la distanță intră în vigoare de luni.
+# încărcă → încarcă
+Tichetele de masă se încarcă pe card la începutul lunii.
+# Maine → Mâine
+Mâine plec în delegație la Cluj, mă întorc joi.
+# târgeț → target
+Bravo, echipă, am închis trimestrul peste target!
+# asta → ăsta
+Sunt mândru de ce am realizat împreună anul ăsta.
+# Buna → Bună, echipa → echipă, stândup-ul → standup-ul
+Bună dimineața, echipă! Azi avem standup-ul la zece și jumătate.
+# verifică → verifica
+Am făcut deploy pe mediul de test, puteți verifica.
+# dă → da
+Nu da merge până nu trece de review.
+# Maine → Mâine, dimineața → dimineață, retrospectivă → retrospectiva, sprințului → sprintului
+Mâine dimineață facem retrospectiva sprintului.
+# Sprințul → Sprintul, asta → ăsta
+Sprintul ăsta a fost cam aglomerat, am rămas cu trei task-uri neterminate.
+# asta → ăsta, sprințul → sprintul
+Putem să mutăm task-ul ăsta în sprintul următor?
+# urgență → urgentă
+Clientul a raportat o eroare în producție, e urgentă.
+# ca → că
+Am repornit serviciul și pare că merge acum.
+# Va → Vă
+Vă rog să nu mai modificați baza de date direct în producție.
+# analiză → analiza
+Am primit reclamația dumneavoastră și o vom analiza în cel mai scurt timp.
+# Va → Vă
+Vă vom contacta telefonic pentru clarificări.
+# Va → Vă
+Vă putem oferi un produs similar sau returnarea banilor.
+# că → ca
+Am verificat și comanda figurează ca livrată, dar clientul zice că n-a primit-o.
+# sa → să
+Curierul a lăsat coletul la vecini fără să anunțe.
+# restanțe → restante
+Facturile restante trebuie urmărite săptămânal.
+# factură → factura
+Am emis factura, dar am greșit codul fiscal al clientului.
+# factură → factura
+Trebuie să stornăm factura și să emitem alta.
+# azi-dimineața → azi-dimineață
+Plata a intrat în cont azi-dimineață.
+# Cautam → Căutăm
+Căutăm ospătari pentru sezonul estival, cazare și masă asigurate.
+# bacsis → bacșiș
+Se oferă salariu net de patru mii de lei plus bacșiș.
+# experiență → experiența
+Nu este necesară experiența anterioară, oferim instruire.
+# Aplica → Aplică, fa → fă
+Aplică acum și fă parte din echipa noastră!
+# Ti-am → Ți-am
+Ți-am dat recomandare pentru postul de la firma lor.
+# săptămână → săptămâna
+Am aplicat la cinci joburi săptămâna asta și n-am primit niciun răspuns.
+# firmă → firma
+M-au sunat de la firma aia pentru interviu, mâine la unsprezece.
+# Va → Vă
+Vă mulțumim pentru interesul acordat, însă am decis să continuăm cu alt candidat.
+# Va → Vă
+Vă vom păstra CV-ul în baza noastră de date pentru oportunități viitoare.
+# firmă → firma
+Ce beneficii oferă firma, asigurare medicală privată?
+# norma → normă
+De luni trec pe normă întreagă.
+# ora → oră
+Ai idee cât se plătește pe oră la ei?
+# Ma → Mă
+Mă gândesc să-mi caut alt job, aici nu mai evoluez.
+# uități → uitați, va → vă
+Nu uitați să vă faceți controlul medical periodic.
+# medicină → medicina
+Medicul de medicina muncii vine joi la sediu.
+# dimineața → dimineață
+Mutarea se face în weekend, luni dimineață începem în noul sediu.
+# canile → cănile, chiuveta → chiuvetă
+Cine a lăsat cănile nespălate în chiuvetă?
+# Va → Vă, rugam → rugăm, sa → să
+Vă rugăm să păstrați curățenia în bucătărie.
+# echipă → echipa
+Am comandat pizza pentru toată echipa, ajunge la unu.
+# Strangem → Strângem
+Strângem bani pentru cadoul Mariei, câte cincizeci de lei de persoană.
+# Felicitari → Felicitări
+Felicitări pentru promovare, meriți din plin!
+# lună → luna
+Am fost promovat team leader, încep de luna viitoare.
+# asta → ăsta
+Am stabilit împreună trei obiective măsurabile pentru semestrul ăsta.
+# asta → ăsta
+Am rămas fără zile de concediu pe anul ăsta.
+# Șoțul → Soțul
+Soțul meu ia concediu paternal de zece zile.
+# dimineața → dimineață
+Am o programare la medic joi dimineață, vin la birou după zece.
+# Va → Vă
+Vă rog să începeți fără mine, mă conectez imediat ce pot.
+# marjă → marja
+Eu zic să acceptăm, chiar dacă marja e mică.
+# Va → Vă
+Vă informăm că, începând cu data de întâi ianuarie, tarifele se modifică.
+# Va → Vă
+Vă rog să-mi trimiteți o copie a contractului semnat.
+# ofertă → oferta
+gata, am trimis oferta, acum așteptăm.
+# merși → mersi
+mersi, te pup, vorbim mâine
+# stăi → stai
+stai puțin, verific în calendar și-ți zic.
+# diseara → diseară
+ok, mă uit eu diseară peste el
+# azi-dimineața → azi-dimineață
+ai primit mailul meu de azi-dimineață?
+# ține → tine
+pleci acum? așteaptă-mă, vin cu tine la metrou.
+# imi → îmi
+îmi dai și mie parola de la wifi pentru oaspeți?
+# imprimantă → imprimanta
+s-a terminat hârtia la imprimanta de lângă bucătărie.
+# ca → că
+nu pot să deschid fișierul, îmi zice că e corupt.
+# imi → îmi
+îmi trebuie o vacanță, nu mai pot.
+# dimineața → dimineață
+luni dimineață, cafea dublă și o mie de mailuri necitite.
+# ăzi → azi
+azi n-am făcut nimic productiv, doar ședințe.
+# ma → mă
+mă apuc de prezentare după ce termin cu facturile.
+# ofertă → oferta
+încă lucrez la oferta pentru hotel, mai am nevoie de o oră.
+# va → vă, că → ca
+vă rog să-mi trimiteți actele în format PDF, nu ca poze.
+# poză → poza
+poza e neclară, nu se citește numărul facturii.
+# adeverința → adeverință
+de unde iau o adeverință de salariat?
+# ridică → ridica
+o puteți ridica de la secretariat începând de mâine.
+# ca → că
+am nevoie de o adeverință că lucrez aici, pentru grădiniță.
+# încălcă → încalcă
+cred că mi se încalcă drepturile, cu cine pot să vorbesc?
+# saturat → săturat, treabă → treaba
+m-am săturat să fac și treaba altora.
+# problema → problemă
+mi-a promis că se va ocupa de problemă.
+# imi → îmi
+îmi asum responsabilitatea pentru întârziere.
+# dată → data
+data viitoare o să anunț din timp dacă nu mă încadrez.
+# va → vă
+lucrăm la o soluție și vă ținem la curent.
+# estimam → estimăm, diseara → diseară
+estimăm că problema va fi rezolvată până diseară.
+# va → vă
+deocamdată vă rugăm să folosiți varianta veche a aplicației.
+# va → vă
+am deblocat contul, puteți să vă autentificați.
+# va → vă
+vă rugăm să nu instalați programe fără acordul departamentului IT.
+# licență → licența
+licența de Office a expirat, cine o reînnoiește?
+# mutați-va → mutați-vă
+mutați-vă fișierele în cloud până vineri.
+# platforma → platformă
+am trecut pe o platformă nouă de gestionare a proiectelor.
+# va → vă
+vă trimit un ghid scurt despre cum se folosește.
+# săptămână → săptămâna
+săptămâna viitoare facem o sesiune de instruire online.
+# ședința → ședință
+notițele de la ședință sunt în documentul atașat.
+# amănă → amână
+în al doilea rând, lansarea produsului se amână pentru martie.
+# va → vă, completari → completări
+vă rog să-mi comunicați eventualele completări până mâine.
+# minută → minuta
+dacă nu primesc obiecții, consider minuta aprobată.
+# martea → marțea
+mi se potrivește marțea la ora unsprezece.
+# diferență → diferența
+ținând cont de diferența de fus orar, propun ora patru.
+# va → vă
+vă trimit link-ul de Zoom cu cincisprezece minute înainte.
+# întru → intru
+camera nu-mi merge, intru doar cu sunet.
+# imi → îmi
+îmi pare rău, mi-a picat curentul, revin în cinci minute.
+# asta → ăsta, cifră → cifra
+anul ăsta am reușit să ne dublăm cifra de afaceri.
+# ma → mă
+mă gândesc să mut magazinul într-o zonă mai ieftină.
+# față → fată
+am angajat o fată care se ocupă de comenzile online.
+# sună → suna, ședința → ședință
+Mă poți suna când ieși din ședință?
+# suna-mă → sună-mă
+Îți las numărul meu, sună-mă oricând.
+# va → vă
+Am încercat să vă sun de mai multe ori, dar nu ați răspuns.
+# Va → Vă
+Vă sun eu înapoi în zece minute, acum conduc.
+# cina → cină
+Am rezervat masă la restaurant pentru cină cu clienții.
+# firmă → firma, cină → cina
+Plătește firma cina, păstrează bonul.
+# cumpăra → cumpără
+Biletele de avion le cumpără departamentul administrativ.
+# dimineața → dimineață
+Am ajuns cu bine la hotel, mâine dimineață merg direct la fabrică.
+# așteptăm → așteptam
+Linia de producție nouă funcționează mai bine decât ne așteptam.
+# săptămână → săptămâna
+Am găsit câteva probleme de calitate la lotul de săptămâna trecută.
+# perioadă → perioada
+Toamna e mereu perioada cea mai aglomerată pentru noi.
+# ca → că
+Le-am spus clienților noi că pot începe abia în februarie.
+# marjă → marja
+E o comandă mare, dar marja e foarte mică.
+# contraofertă → contraoferta
+Au acceptat contraoferta, semnăm mâine.
+# Semnam → Semnăm
+Semnăm contractul electronic, nu mai e nevoie să ne vedem.
+# semnătura → semnătură
+Ai semnătură electronică calificată?
+# semnătura → semnătură
+Fără semnătură electronică nu pot depune declarațiile online.
+# recipisă → recipisa
+Am depus declarația, mi-a venit recipisa pe mail.
+# Ma → Mă, firmă → firma
+Mă gândesc să schimb firma de contabilitate.
+# Cat → Cât, costa → costă
+Cât costă lunar serviciile de contabilitate pentru un SRL mic?
+# Contabilă → Contabila
+Contabila mă tot întreabă de bonurile de benzină.
+# Imi → Îmi, factura → factură, va → vă
+Îmi dați factură pe firmă, vă rog?
+# asta → ăsta
+De anul ăsta toate facturile trec prin e-Factura.
+# factură → factura
+Am încărcat factura în SPV, dar a fost respinsă.
+# factură → factura
+Am corectat datele și am retrimis factura.
+# factură → factura
+Am un client din Germania, cum îi fac factura?
+# factură → factura
+Pentru clienții din Uniunea Europeană factura se emite fără TVA.
+# platforma → platformă
+Primul client de pe platformă mi-a dat cinci stele.
+# proasta → proastă
+Am o recenzie proastă de la un client care n-a știut ce vrea.
+# tastatura → tastatură
+Pisica mi-a călcat pe tastatură și a trimis mesajul neterminat.
+# Fa-mi → Fă-mi
+Fă-mi o listă cu ce trebuie modificat și mă apuc mâine.
+# listă → lista
+Am trecut prin toată lista și am bifat tot.
+# lista → listă
+Ultimul punct de pe listă nu e clar, la ce te referi?
+# Ma → Mă
+Mă refer la butonul de pe pagina de start, care nu face nimic.
+# între → intre
+Am setat o regulă ca mesajele din formular să nu mai intre în spam.
+# încărcă → încarcă
+Site-ul se încarcă foarte greu pe telefon.
+# încărcă → încarcă
+Am optimizat imaginile și acum se încarcă în două secunde.
+# ca → că
+I-am explicat că optimizarea durează câteva luni.
+# ținta → țintă
+Trebuie să schimbăm publicul țintă al campaniei.
+# lună → luna, dimineața → dimineață
+Newsletterul de luna asta pleacă joi dimineață.
+# ala → ăla
+Pune un grafic în loc de tabelul ăla mare.
+# ofertă → oferta
+Le-am trimis prezentarea împreună cu oferta de preț.
+# seară → seara, echipă → echipa
+Hai să sărbătorim vineri seara cu toată echipa.
+# firmă → firma
+Plătește firma prima rundă, restul e pe noi.
+# plata → plată, restanță → restantă
+Subiect: reamintire plată factură restantă
+# ședință → ședința
+Subiect: confirmare participare la ședința de joi
+# schimba-l → schimbă-l
+Subiectul mailului nu spune nimic, schimbă-l în ceva mai clar.
+# va → vă
+Subsemnatul Popa Ion, angajat în funcția de operator, vă rog să-mi aprobați concediul.
+# Subsemnată → Subsemnata
+Subsemnata solicit eliberarea unei adeverințe din care să reiasă vechimea în muncă.
+# Va → Vă
+Vă rog să-mi aprobați efectuarea a cinci zile de concediu de odihnă, în perioada trei-șapte noiembrie.
+# prezența → prezenta, va → vă, cunoștința → cunoștință
+Prin prezenta vă aduc la cunoștință decizia mea de a demisiona.
+# prezența → prezenta, va → vă
+Prin prezenta, vă comunicăm încetarea contractului individual de muncă.
+# Va → Vă
+Vă mulțumesc anticipat pentru înțelegere.
+# deosebita → deosebită
+Cu deosebită considerație, Maria Stoica.
+# Va → Vă
+Vă doresc o zi frumoasă în continuare.
+# Ma → Mă
+Mă bucur să aud de dumneavoastră din nou.
+# va → vă
+Sper că mesajul meu vă găsește bine.
+# firmă → firma
+Am auzit de firma voastră de la un client comun.
+# Va → Vă, va → vă
+Vă țin minte și vă contactez când se deblochează bugetul.
+# va → vă, conferința → conferință
+Mi-a făcut plăcere să vă cunosc la conferință.
+# săptămână → săptămâna
+Trebuie să-i contactăm pe toți până săptămâna viitoare, cât timp ne mai țin minte.
+# Ti-am → Ți-am, listă → lista
+Ți-am trimis lista cu contactele de la târg, împarte-o cu Dan.
+# neconcurentă → neconcurență
+Contractul lui avea o clauză de neconcurență?
+# judeca → judecă, primăvara → primăvară
+Procesul se judecă abia în primăvară.
+# asta → ăsta, firmă → firma
+Anul ăsta a fost cel mai bun de când există firma.
+# sa → să
+Mi-ar plăcea să lucrez o perioadă la biroul din Londra.
+# Lucram → Lucrăm
+Lucrăm pe același proiect, doar că din țări diferite.
+# intra → intră, după-amiază → după-amiaza
+Colegii din America intră online abia pe la cinci după-amiaza.
+# Va → Vă
+Vă rog să scrieți în engleză pe canalul comun.
+# pagina → pagină
+Corectorul a găsit greșeli de punctuație pe aproape fiecare pagină.
+# dimineața → dimineață
+Articolul se publică mâine dimineață pe blog.
+# Întreaba → Întreabă
+Întreabă oricând, nu există întrebări proaste.
+# Merița → Merită
+Merită o laudă publică, a muncit enorm.
+# duminica → duminică
+Au lucrat sâmbătă și duminică să rezolve problema clientului.
+# fată → față
+Trebuie să angajăm încă un om, nu mai facem față.
+# după-amiază → după-amiaza
+Am găsit un freelancer bun, dar e disponibil doar după-amiaza.
+# dă → da
+A semnat acordul de confidențialitate, îi putem da acces la cod.
+# sters → șters
+Am șters toate datele clientului și i-am confirmat în scris.
+# Politică → Politica
+Politica de confidențialitate de pe site trebuie actualizată.
+# gată → gata
+Site-ul nou e aproape gata, mai lipsesc câteva texte.
+# Lansam → Lansăm
+Lansăm site-ul luni, dacă nu intervine nimic.
+# Buna → Bună, săptămână → săptămâna
+Bună, Cristina, te rog să-mi trimiți până diseară tabelul cu orele lucrate de echipa ta săptămâna asta, ca să pot face pontajul.
+# ca → că
+Te rog să-i explici clientului că termenul s-a prelungit din cauza modificărilor pe care le-a cerut chiar el.
+# ca → că, ține → tine
+Îți mulțumesc că ai stat după program ieri, fără tine nu reușeam să predăm la timp.
+# lună → luna, procedură → procedura
+Nu știu dacă ați aflat, dar de luna viitoare se schimbă procedura de aprobare a cheltuielilor.
+# Ti-ai → Ți-ai
+Ți-ai pus codul fiscal pe bon când ai alimentat?
+# chitantă → chitanța
+Am alimentat cu cardul firmei și am păstrat chitanța.
+# arhiva → arhivă
+Am găsit în arhivă contracte din anii nouăzeci.
+# firmă → firma
+Cum se numea firma aceea cu care am lucrat acum doi ani?
+# contactam → contactăm
+Hai să-i contactăm din nou, poate au prețuri mai bune acum.
+# lucrăm → lucram
+Păcat, lucram bine cu ei.
+# Ambalam → Ambalăm
+Ambalăm noi lucrurile și ei doar le transportă.
+# studență → studentă
+Ne-a scris o studentă care caută un stagiu de practică.
+# păstram → păstrăm
+Stagiarul nostru a învățat foarte repede, vreau să-l păstrăm.
+# norma → normă, întreaga → întreagă
+L-am angajat cu normă întreagă după ce și-a terminat facultatea.
+# asta → ăsta
+I-am arătat șefului ce proiecte am dus la capăt anul ăsta.
+# ca → că
+Mi-a zis că o să discute cu conducerea și îmi dă un răspuns.
+# Macar → Măcar
+Măcar e ceva, anul trecut n-am primit nimic.
+# asta → ăsta
+Cu salariul ăsta abia îmi ajung banii până la sfârșitul lunii.
+# seară → seara
+Mulți colegi lucrează și seara, pe proiecte proprii.
+# in → în
+Lucrez în weekend la un proiect de-al meu.
+# Ma → Mă
+Mă gândesc să plec și să mă ocup doar de afacerea mea.
+# așteptăm → așteptam
+Prima lună pe cont propriu a fost mai grea decât mă așteptam.
+# Contabilă → Contabila
+Contabila se ocupă și de salarizare, contra unei taxe în plus.
+# primăvara → primăvară
+Am reînceput lucrul la proiectul suspendat în primăvară.
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață facem prima ședință de proiect cu ei.
+# Va → Vă, agendă → agenda
+Vă trimit agenda ședinței de mâine.
+# ședința → ședință
+Am ieșit de la ședință cu mai multe întrebări decât am intrat.
+# săptămână → săptămâna
+Putem începe dezvoltarea săptămâna viitoare.
+# muncă → munca, tablă → tabla
+Am împărțit munca în sarcini mici și le-am pus în tabla de proiect.
+# ajută → ajuta
+Mă poți ajuta cu testele? Sunt cam în urmă.
+# ala → ăla
+Nimeni nu înțelege codul ăla, nu are niciun comentariu.
+# ala → ăla
+În intervalul ăla nu răspund la mesaje.
+# Va → Vă, rugam → rugăm, listă → lista
+Vă rugăm să ne transmiteți până joi lista cu participanții.
+# Va → Vă
+Vă așteptăm la sediul nostru marți, la ora zece.
+# Va → Vă, invitam → invităm
+Vă invităm la lansarea noii noastre colecții.
+# Va → Vă, săptămână → săptămâna
+Vă propun să ne vedem la o cafea săptămâna viitoare.
+# Va → Vă
+Vă cer scuze pentru confuzie, am trimis fișierul greșit.
+# Va → Vă
+Vă transmit în continuare mesajul primit de la client.
+# Va → Vă
+Vă sunt recunoscător pentru răbdare.
+# Va → Vă
+Vă las mai jos datele mele de contact.
+# Va → Vă
+Vă stau la dispoziție cu orice informație suplimentară.
+# Va → Vă
+Vă înțeleg frustrarea și îmi pare sincer rău.
+# va → vă
+Mă ocup eu de comanda asta, nu vă faceți griji.
+# Ma → Mă
+Mă scuzați, cine răspunde de facturare la dumneavoastră?
+# Ma → Mă
+Mă bucur că am reușit să găsim o soluție împreună.
+# Ma → Mă, respectă → respecta
+Mă tem că nu putem respecta termenul inițial.
+# Maine → Mâine
+Mâine nu ajung, am o urgență în familie.
+# Maine → Mâine
+Mâine începe auditul, pregătiți toate dosarele.
+# Maine → Mâine
+Mâine e ultima zi pentru depunerea ofertelor.
+# Lucram → Lucrăm
+Lucrăm la o ofertă pentru un hotel din Sibiu.
+# asta → ăsta
+Lucram la proiectul ăsta de un an când s-a anulat.
+# Așteptam → Așteptăm, marfă → marfa
+Așteptăm confirmarea voastră ca să putem trimite marfa.
+# Plecam → Plecăm
+Plecăm spre aeroport la cinci, nu întârziați.
+# Semnam → Semnăm, dimineața → dimineață
+Semnăm actele la notar joi dimineață.
+# Verificam → Verificăm
+Verificăm stocul și revenim cu un răspuns.
+# Ti-am → Ți-am, asta → ăsta
+Ți-am spus că nu e o idee bună să-i promitem termenul ăsta.
+# echipă → echipa, nouă → noua
+Aș vrea să știu ce crede echipa despre noua strategie.
+# gată → gata
+Strategia de vânzări pe anul viitor e gata.
+# țintă → ținta
+Echipa de vânzări a depășit ținta pe trimestru.
+# Tinta → Ținta, lună → luna
+Ținta pe luna asta e cam nerealistă.
+# săptămână → săptămâna
+Pe tablă sunt scrise toate termenele de săptămâna asta.
+# că → ca
+Seara lucrez mai bine, dimineața sunt ca un zombi.
+# dimineața → dimineață
+În fiecare dimineață citesc mailurile la cafea.
+# dimineața → dimineață
+Am primit dimineață un telefon de la un client nervos.
+# Diseara → Diseară
+Diseară am o cină de afaceri, nu mă așteptați.
+# ședința → ședință
+Avem ședință diseară la șapte, online.
+# diseara → diseară
+Ședința de diseară s-a anulat.
+# Martea → Marțea
+Marțea viitoare avem prezentarea pentru investitori.
+# sumă → suma
+Factura a ajuns, dar suma e greșită.
+# Ti-am → Ți-am, anulam → anulăm
+Ți-am trimis o factură nouă, cea veche o anulăm.
+# factura → factură, plată → plata
+Am nevoie de factură ca să pot face plata.
+# săptămână → săptămâna
+Am făcut plata parțial, restul săptămâna viitoare.
+# va → vă
+Mi-a scăpat o greșeală în ofertă, vă trimit varianta corectată.
+# va → vă
+Dacă vreți, vă trimit o copie a cererii.
+# Listă → Lista
+Lista de prețuri s-a actualizat la începutul lunii.
+# lista → listă
+Am pus pe listă tot ce trebuie cumpărat pentru birou.
+# martea → marțea
+Firma de curățenie vine marțea și vinerea.
+# firmă → firma
+Am schimbat firma de pază, cea veche era prea scumpă.
+# fața → fată, nouă → noua
+Ce fată simpatică e noua colegă de la marketing!
+# fața → față
+Am văzut-o față în față abia azi, până acum vorbeam doar pe chat.
+# Față → Fata
+Fata de la recepție a plecat la altă firmă.
+# va → vă
+Banii vin peste două zile, nu vă faceți griji.
+# Angajam → Angajăm
+Angajăm muncitori din Asia pentru fabrică.
+# mâna → mână
+Am semnat de mână fiecare pagină a contractului.
+# urma → urmă
+Până la urmă am reușit să terminăm la timp.
+# Si → Și, ala → ăla
+Și eu am primit mailul ăla ciudat, e spam.
+# Si → Și, echipă → echipa
+Și tu ești invitat la petrecere, nu doar echipa de vânzări.
+# Sa → Să
+Să vedem ce zice clientul, apoi hotărâm.
+# că → ca
+Cred că e mai bine ca tu să vorbești cu clientul.
+# ca → că
+Te rog să ții minte că ședința începe mai devreme.
+# ține → tine
+Vreau să vorbesc cu tine între patru ochi.
+# problema → problemă
+Pentru tine e vreo problemă dacă mutăm ședința?
+# Tine-mă → Ține-mă
+Ține-mă la curent cu ce mai zice clientul.
+# Tine → Ține, ca → că
+Ține cont că mâine e liber și nu vine nimeni.
+# asta → ăsta
+Raportul ăsta e cel mai complet de până acum.
+# asta → ăsta
+Omul ăsta știe tot ce se întâmplă în firmă.
+# asta → ăsta
+Tabelul ăsta nu are formulele corecte.
+# ala → ăla
+Clientul ăla nu mai plătește de trei luni.
+# ala → ăla
+Ce-i cu mailul ăla de la director?
+# firmă → firma
+Nu mai vreau să lucrez cu firma aia.
+# banca → bancă
+Am trecut azi pe la bancă să depun banii.
+# tură → tura
+Mai am o oră și jumătate până termin tura.
+# ora → oră
+La ce oră vine curierul?
+# data → dată
+Pe ce dată se plătește chiria biroului?
+# Data-limita → Data-limită
+Data-limită pentru înscriere e cincisprezece noiembrie.
+# Ti-a → Ți-a
+Ți-a dat o dată precisă pentru livrare?
+# imprimantă → imprimanta
+Nu-mi dau seama de ce nu merge imprimanta.
+# Da-i → Dă-i
+Dă-i un telefon și vezi ce zice.
+# Ma → Mă
+Mă doare capul de la atâtea cifre.
+# asta → ăsta
+Pe cine să pun în copie la mailul ăsta?
+# Va → Vă
+Vă rog să mă scoateți din copie, nu sunt implicat în proiect.
+# dată → data
+L-am sunat, voia doar să confirmăm data livrării.
+# aproba → aprobă
+Cine aprobă bugetul pentru evenimentul de Crăciun?
+# cheltuială → cheltuiala
+Nu știu cine o să aprobe cheltuiala asta.
+# Contabilă → Contabila
+Contabila verifică facturile în fiecare luni.
+# încărcă → încarcă
+Sistemul încarcă datele foarte greu dimineața.
+# încărcă → încarcă
+Pagina se încarcă la infinit și nu apare nimic.
+# arata → arată
+Șeful arată mereu cu degetul spre noi când ceva nu merge.
+# asta → ăsta
+Graficul ăsta arată foarte bine, cine l-a făcut?
+# perioada → perioadă
+Regula se aplică doar angajaților cu contract pe perioadă nedeterminată.
+# ședință → ședința
+Avionul a aterizat cu întârziere, nu mai prind ședința.
+# Ti-a → Ți-a
+Ți-a plăcut prezentarea de azi?
+# Ti → Ți
+Ți se pare normal să ne cheme la birou duminică?
+# asta → ăsta
+Nu știi niciodată ce vrea clientul ăsta.
+# sună-ma → sună-mă
+Când ajungi la birou, sună-mă.
+# Cat → Cât
+Cât te-a costat cursul de engleză?
+# Cat → Cât, livră → livra
+Cât de repede puteți livra?
+# asta → ăsta
+Atât am putut face în timpul ăsta.
+# Atata → Atâta
+Atâta timp cât plătesc la timp, nu mă interesează restul.
+# As → Aș, sa → să
+Aș prefera să discutăm față în față.
+# sală → sala
+Masa din sala de ședințe e prea mică pentru doisprezece oameni.
+# sală → sala
+Ne vedem în sala de la etajul trei.
+# lună → luna
+Am plătit o rată mai mare luna asta.
+# urgență → urgentă
+O taxă în plus pentru livrarea urgentă nu e o problemă.
+# plata → plată
+Nota de plată de la restaurant a fost cam mare.
+# casa → casă
+Am stat la casă toată ziua, n-am apucat să iau pauză.
+# pauza → pauză
+În pauză am ieșit să iau o gură de aer.
+# asta → ăsta
+Cota de piață a firmei a crescut anul ăsta.
+# Ti-ai → Ți-ai
+Ți-ai atins cota de vânzări pe luna asta?
+# marfă → marfa
+Am recepționat marfa și am semnat avizul.
+# Va → Vă
+Vă trimit avizul de însoțire a mărfii scanat.
+# ca → că
+Am înțeles că vreți să renunțați la contract.
+# ofertă → oferta
+Fără aprobarea ta nu pot trimite oferta.
+# pauza → pauză
+Am lucrat fără pauză toată dimineața.
+# Usa → Ușa
+Ușa de la intrare nu se mai închide bine.
+# scari → scări
+Liftul e stricat, urcați pe scări.
+# lumină → lumina
+Ultimul care pleacă închide geamurile și stinge lumina.
+# firmă → firma
+Alarma s-a declanșat aseară, am primit telefon de la firma de pază.
+# alarmă → alarma
+Am uitat să activez alarma când am plecat.
+# paguba → pagubă
+Asigurarea acoperă doar o parte din pagubă.
+# clinică → clinica
+Am fost la clinica privată, n-am plătit nimic.
+# asta → ăsta
+Pachetul de beneficii s-a îmbunătățit anul ăsta.
+# că → ca, asta → ăsta
+Mi-ar fi plăcut să am un ghid ca ăsta când am venit eu.
+# masă → masa
+Am stat o săptămână pe un scaun pliant, la masa din bucătărie.
+# tineți → țineți
+Mai țineți minte primul nostru client?
+# va → vă
+Am vrea să vă mulțumim pentru încrederea acordată în toți acești ani.
+# că → ca
+Fără clienți ca voi n-am fi ajuns aici.
+# firma → firmă
+La mulți ani, firmă dragă!
+# ma → mă
+mă uit acum și îți zic
+# ma → mă
+mă ocup eu, stai liniștit
+# țigără → țigară
+mă întorc în cinci minute, am ieșit la o țigară
+# maine → mâine
+mâine sunt pe teren toată ziua, abia seara văd mesajele
+# dimineața → dimineață
+mâine dimineață e ședința cu nemții, nu uita
+# va → vă, gață → gata
+vă anunț când e gata
+# va → vă
+vă rog nu mai scrieți pe grupul general pentru lucruri personale
+# va → vă
+vă las, am un call, revin
+# tă → ta
+să știi că n-am uitat de tine, ajung și la cererea ta
+# sa → să, ședință → ședința
+să vorbim după ce se termină ședința
+# ti-e → ți-e, variantă → varianta
+ți-e greu să-mi trimiți și varianta în Word?
+# imi → îmi
+îmi trimiți și mie linkul?
+# imi → îmi
+îmi pare rău, am greșit eu
+# imi → îmi
+îmi place cum ai rezolvat problema cu clientul
+# iți → îți, săptămână → săptămâna
+îți mulțumesc pentru răbdare, știu că am fost insuportabil săptămâna asta
+# as → aș
+aș avea nevoie de jumătate de oră din timpul tău azi
+# sunam → sunăm
+aș zice să-l mai lăsăm o zi și apoi îl sunăm
+# sală → sala, ședința → ședință
+ați terminat cu sala? avem ședință la două
+# problema → problemă
+și eu am aceeași problemă cu VPN-ul
+# lista → listă
+și eu vin la ședință, chiar dacă nu sunt pe listă
+# că → ca
+ca de obicei, toate se rezolvă în ultima zi
+# terminam → terminăm
+ca să fie clar: nimeni nu pleacă până nu terminăm
+# ca → că
+că veni vorba de concediu, eu plec de luni
+# ănunțăm → anunțăm, săptămână → săptămâna
+anunțăm clienții de schimbarea prețurilor săptămâna viitoare
+# ămânăm → amânăm, râu → rău
+amânăm lansarea, ne pare rău
+# ăzi → azi, suna → sună
+azi e liniște, nu sună nimeni
+# fa → fă, ma → mă
+fă tu prima parte, eu mă apuc de a doua
+# legătură → legătura
+ia tu legătura cu ei, eu am prea multe azi
+# ala → ăla
+ține-mă în copie la mailul ăla
+# arat → arăt
+vino puțin la mine, vreau să-ți arăt ceva
+# astă → ăsta
+nu-mi place deloc cum sună mailul ăsta
+# ședință → ședința
+n-am chef de ședința de azi
+# masă → masa, sală → sala
+l-ai lăsat pe masa din sala mică
+# iți → îți
+îți dau o cafea mâine pentru asta
+# săptămână → săptămâna
+eu sunt acasă toată săptămâna, cu copilul bolnav
+# tăre → tare
+cine a pus muzică în birou? e prea tare
+# săptămână → săptămâna
+ședința e în calendarul tău de săptămâna trecută
+# ședința → ședință
+eu am altă ședință atunci, putem la unsprezece?
+# problema → problemă, minuță → minuta
+nu-i problemă, citesc minuta după
+# minuță → minuta
+cine face minuta de data asta?
+# dată → data
+fac eu, dar data viitoare e rândul altcuiva
+# gată → gata
+gata, închid și eu, o seară bună
+# odihniți-va → odihniți-vă
+odihniți-vă, săptămâna viitoare e grea
+# rătat → ratat
+ce am ratat?
+# astă → asta
+asta înseamnă că lucrăm și în weekend
+# diseara → diseară
+facem o împărțire a sarcinilor până diseară
+# ca → că
+le-am scris de trei ori, zic că mâine sigur
+# tine-ne → ține-ne
+super, ține-ne la curent
+# va → vă
+am terminat pagina principală, puteți să vă uitați
+# ărată → arată
+arată bine, dar meniul nu merge pe telefon
+# Mihăi → Mihai
+o să-l testez și pe telefonul vechi al lui Mihai
+# pagină → pagina, politică → politica
+textele de pe pagina de contact și politica de cookie-uri
+# diseara → diseară
+textele le scriu eu diseară
+# politică → politica
+politica o cere Dana de la avocat, i-a scris deja
+# ca → că
+avocatul zice că o trimite până joi
+# grabim → grăbim
+joi e cam târziu, putem să-l grăbim?
+# dimineața → dimineață
+o să-l sun eu mâine dimineață
+# Angajam → Angajăm
+Angajăm șofer profesionist pentru transport internațional, curse de două-trei săptămâni.
+# Angajam → Angajăm
+Angajăm vânzătoare pentru magazin de haine din centrul orașului.
+# Cautam → Căutăm
+Căutăm colegi noi pentru echipa de call center, nu e nevoie de experiență.
+# Firma → Firmă, zidări → zidari
+Firmă de construcții angajează zidari, fierari și dulgheri.
+# perioada → perioadă
+Oferim contract pe perioadă nedeterminată și tichete de masă.
+# asigura → asigură
+Cazarea se asigură gratuit pentru cei din alte orașe.
+# dorința → dorință
+Cerințe: studii medii, seriozitate, dorință de învățare.
+# experiență → experiența
+Reprezintă un avantaj experiența în vânzări sau în relații cu clienții.
+# așteptam → așteptăm
+Dacă te regăsești în acest profil, așteptăm CV-ul tău.
+# adresă → adresa
+Trimite-ne CV-ul și o fotografie recentă pe adresa de e-mail.
+# as → aș
+Bună ziua, am văzut anunțul dumneavoastră și aș dori să aplic pentru postul de recepționer.
+# engleză → engleza, italiană → italiana
+Am experiență de trei ani în domeniul hotelier și vorbesc fluent engleza și italiana.
+# Va → Vă
+Vă mulțumesc pentru timpul acordat și aștept cu interes un răspuns.
+# forțe → forte
+Care sunt punctele dumneavoastră forte?
+# va → vă
+Unde vă vedeți peste cinci ani?
+# va → vă
+De ce ar trebui să vă alegem pe dumneavoastră?
+# Cați → Câți
+Câți oameni sunt în echipă și cui raportez?
+# Va → Vă, anunță → anunța
+Vă vom anunța rezultatul până la sfârșitul săptămânii.
+# Felicitari → Felicitări
+Felicitări, ați fost selectat pentru etapa a doua!
+# Va → Vă, rugam → rugăm
+Vă rugăm să aveți la îndemână un calculator cu cameră.
+# va → vă
+Ne pare rău să vă anunțăm că ați fost respins în această etapă.
+# ofertă → oferta
+Am semnat oferta de angajare și v-am trimis-o înapoi.
+# sa → să, diplomă → diploma
+Te rog să aduci actul de identitate, diploma de studii și un extras de cont.
+# Fișă → Fișa, clinică → clinica
+Fișa de aptitudini se face la clinica cu care lucrăm.
+# căsuță → căsuța
+Tichet nou: utilizatorul nu poate accesa căsuța de e-mail de pe telefon.
+# imprimantă → imprimanta, sală → sala
+Tichet nou: imprimanta din sala de ședințe scoate foi albe.
+# descărcă → descarcă
+Rezultat așteptat: raportul se descarcă în format Excel.
+# va → vă
+Am preluat tichetul, vă sun în câteva minute.
+# Va → Vă
+Vă rog să instalați programul de asistență de pe link și să-mi spuneți codul afișat.
+# Va → Vă
+Vă rog să confirmați dacă problema s-a rezolvat ca să închid tichetul.
+# azi-dimineața → azi-dimineață
+Am redeschis tichetul, problema a reapărut azi-dimineață.
+# Va → Vă, recomandam → recomandăm, va → vă
+Vă recomandăm să vă salvați munca înainte de ora șase.
+# Va → Vă, rugam → rugăm, sa → să, achități → achitați, restanță → restantă
+Vă rugăm să achitați suma restantă în cel mai scurt timp posibil.
+# va → vă
+Ne-ați trimis factura pe adresa greșită, vă rog s-o retrimiteți pe cea a contabilității.
+# factura → factură, procesă → procesa
+Pe factură lipsește numărul comenzii, fără el nu o putem procesa.
+# factură → factura
+Nu putem plăti până nu primim factura în original.
+# factură → factura
+Am primit factura electronic, nu mai e nevoie de originalul pe hârtie.
+# Va → Vă, plată → plata
+Vă trimit în atașament extrasul de cont care confirmă plata.
+# va → vă
+Am returnat suma, vă rog să plătiți din contul firmei.
+# Va → Vă
+Vă emitem o factură de storno și una nouă, corectă.
+# scadentă → scadență
+Am un client care plătește mereu cu o zi înainte de scadență.
+# că → ca, rări → rari
+Clienții ca el sunt rari, trebuie păstrați.
+# dimineața → dimineață
+Clienții de dimineață sunt mai ales oameni care merg la serviciu.
+# mașină → mașina
+Piesele vin abia peste o săptămână, mașina rămâne în service.
+# duminică → duminica
+Salonul e închis duminica și lunea.
+# seară → seara
+Ambalez comenzile seara, după ce adorm copiii.
+# Șoțul → Soțul
+Soțul meu m-a ajutat și el în weekend la ambalat.
+# Ma → Mă
+Mă gândesc să-mi închiriez un spațiu pentru atelier.
+# asta → ăsta
+ăsta e ultimul fișier, după care am terminat
+# ală → ăla, ca → că
+ăla de la IT zice că mâine îmi schimbă monitorul
+# imi → îmi
+îmi trebuie semnătura ta pe trei documente
+# iți → îți, ca → că
+îți las dosarul la recepție, că plec mai devreme
+# vină → vina
+înțeleg, dar nu e vina mea că întârzie furnizorul
+# banca → bancă
+încă aștept răspunsul de la bancă
+# ședința → ședință
+în ședință s-a discutat și despre bonusuri
+# ințâi → întâi, ofertă → oferta
+întâi trimite oferta, apoi îl suni
+# îmbrăca-te → îmbracă-te
+îmbracă-te elegant mâine, vin clienții japonezi
+# iși → își
+își ia concediu tocmai în săptămâna lansării
+# iși → își, treabă → treaba
+își face treaba bine, dar nu comunică deloc
+# iși → își
+își dorește să treacă în echipa de marketing
+# asă → așa
+așa e cel mai simplu, hai să lăsăm cum e
+# cerință → cerința
+am înțeles greșit cerința, refac partea a doua
+# ămână → amână, ședință → ședința
+amână tu ședința, eu nu pot ajunge
+# ăzi → azi
+azi plec la cinci fix, am programare la dentist
+# va → vă, ocupa → ocupă
+bună, scuze că vă deranjez, cine se ocupă de comenzile en-gros?
+# dimineață → dimineața, factură → factura, lună → luna
+bună dimineața, am o întrebare despre factura de luna trecută
+# buna → bună, va → vă, firmă → firma
+bună seara, vă scriu de la firma de transport
+# cat → cât, costa → costă
+cât costă o zi de lucru pentru un electrician?
+# cate → câte, asta → ăsta
+câte zile de concediu mai am pe anul ăsta?
+# ședința → ședință
+când e următoarea ședință de departament?
+# asta → ăsta
+când ai timp, uită-te și pe contractul ăsta
+# ora → oră
+ce oră e la ei acum?
+# sala → sală
+cred că ședința s-a mutat, nu e nimeni în sală
+# dă → da, asa → așa
+da, sunt de acord, trimite-le așa
+# casa → casă
+dacă vrei, trec eu pe la client în drum spre casă
+# muta → mută
+de ce nu mi-a spus nimeni că se mută ședința?
+# aștea → astea
+de unde ai luat cifrele astea?
+# asta → ăsta
+fii atent la termene, clientul ăsta e strict
+# asta → ăsta
+habar n-am cine a scris codul ăsta
+# ca → că, putin → puțin
+hai că reușim, mai e puțin
+# noua → nouă
+ieri am stat până la nouă la birou
+# sef → șef
+mai bine întreabă-l direct pe șef
+# intră → intra, da → dă
+nu pot intra pe server, îmi dă eroare de acces
+# ora → oră
+pentru ce oră e programat interviul?
+# suna-l → sună-l
+sună-l tu pe curier, eu nu mai am credit
+# merși → mersi
+super, mersi, mi-ai salvat ziua
+# ședința → ședință
+toată lumea e în ședință, n-are cine să-ți răspundă
+# imprimânta → imprimantă
+vezi că s-a schimbat parola la imprimantă
+# gripă → gripa
+Jumătate din birou e răcit, a venit gripa.
+# echipă → echipa
+Toată echipa se mută într-un singur birou mare.
+# excelență → excelentă
+Fostul meu șef mi-a dat o recomandare excelentă.
+# sa → să
+Noul director vrea să schimbe totul din prima săptămână.
+# expira → expiră
+Actualul contract expiră la sfârșitul anului.
+# Minuța → Minuta
+Minuta ședinței din 14 octombrie: participanți, puncte discutate, decizii.
+# măsura → măsură
+Ca măsură, s-a decis contactarea unui furnizor alternativ.
+# ședința → ședință
+Următoarea ședință de proiect va avea loc pe douăzeci și opt octombrie.
+# teșteri → testeri
+Decizie: se angajează temporar doi testeri până la finalul proiectului.
+# costă → costa
+Campania ar costa în jur de cinci mii de lei.
+# Estimam → Estimăm
+Estimăm că investiția se recuperează în trei luni.
+# analiză → analiza
+Am trimis analiza, acum așteptăm decizia conducerii.
+# Ti-am → Ți-am
+Ți-am trimis bugetul aprobat pentru campanie.
+# taiem → tăiem
+Bugetul e mai mic decât am cerut, trebuie să tăiem ceva.
+# variantă → varianta
+Am ales varianta cu fotografiile de la fața locului.
+# Va → Vă, sa → să
+Vă rog să aranjați rafturile înainte de ședința foto.
+# sters → șters
+Am rezolvat problema clientului, a șters comentariul negativ.
+# In → În
+În weekend, timpul de răspuns poate fi mai lung.
+# asta → ăsta
+Cine e de gardă weekendul ăsta?
+# falsa → falsă
+Am fost sunat de trei ori azi-noapte pentru o alarmă falsă.
+# reglam → reglăm
+Trebuie să reglăm alertele, altfel nu le mai ia nimeni în serios.
+# fluturas → fluturaș
+Am vorbit cu salarizarea, intră pe următorul fluturaș.
+# Fluturasul → Fluturașul, descărcă → descărca
+Fluturașul de salariu se poate descărca din aplicație.
+# lasa → lasă, sa → să
+Aplicația de resurse umane nu mă lasă să intru.
+# merși → mersi
+Am primit confirmarea, mersi.
+# urgente → urgențe, va → vă
+Pentru urgențe, vă rog să-l contactați pe colegul meu la numărul de mai jos.
+# Cat → Cât
+Cât am fost plecat s-au schimbat trei procese.
+# pauză → pauza
+Ne întâlnim o dată pe lună, în pauza de prânz.
+# trusă → trusa
+Am verificat trusa de prim ajutor, lipsesc bandajele.
+# sală → sala
+Alarma de incendiu nu se aude în sala de ședințe.
+# mentenanța → mentenanță, sa → să
+Am cerut firmei de mentenanță să verifice sistemul.
+# Stîngătoarele → Stingătoarele
+Stingătoarele au fost verificate luna trecută.
+# libera → liberă
+Ieșirea de urgență trebuie să fie liberă tot timpul.
+# Va → Vă
+Vă rog să mutați cutiile până la sfârșitul zilei.
+# săptămână → săptămâna
+Inspectorii de la pompieri vin în control săptămâna viitoare.
+# va → vă
+vă scriu din partea departamentului de achiziții
+# va → vă, platformă → platforma
+vă reamintim că mâine se închide platforma de evaluare
+# va → vă, va → vă
+vă salut și vă mulțumesc pentru invitație
+# va → vă, regula → regulă, asa → așa
+vă rog să-mi spuneți dacă e în regulă așa
+# va → vă
+vă confirm participarea la training
+# va → vă
+vă trimit mai jos detaliile de conectare
+# va → vă
+vă propunem o întâlnire online pentru clarificări
+# va → vă
+vă anunțăm că ședința de joi se amână
+# ma → mă, ajută → ajuta
+mă puteți ajuta cu o informație?
+# ma → mă
+mă scuzați pentru răspunsul întârziat
+# ma → mă, așteptăm → așteptam
+mă așteptam la un răspuns mai rapid din partea lor
+# ma → mă, ține → tine
+mă bazez pe tine pentru prezentarea de mâine
+# vizită → vizita
+mâine avem vizita auditorilor, totul trebuie să fie în ordine
+# ofertă → oferta
+să trimit și factura sau doar oferta?
+# aproba → aprobă
+ți se aprobă concediul doar dacă găsești înlocuitor
+# iți → îți
+îți mai trebuie ceva pentru prezentare?
+# iți → îți
+îți explic mâine tot procesul, acum e târziu
+# imi → îmi
+îmi faci și mie o copie?
+# imi → îmi, asta → ăsta
+îmi poți spune cine se ocupă de clientul ăsta?
+# imi → îmi, sunăt → sunat
+îmi cer scuze, n-am văzut că m-ai sunat
+# ala → ăla
+nu-mi amintesc dacă am trimis mailul ăla
+# va → vă
+nu vă grăbiți, avem timp până vineri
+# va → vă
+nu mă mai sunați după ora opt, vă rog
+# fa-mi → fă-mi
+fă-mi și mie loc în calendar mâine
+# tine-ți → ține-ți
+ține-ți telefonul aproape, s-ar putea să te sun
+# putin → puțin
+ține locul pentru mine în sală, întârzii puțin
+# ca → că
+scrie-le că livrarea se face luni
+# suna-i → sună-i
+sună-i și spune-le că am primit plata
+# ofertă → oferta
+trimite-le oferta finală azi
+# lasa → lasă
+lasă tabelul așa, îl modific eu
+# ședința → ședință
+vino la ședință dacă poți, e important
+# ănunță-mă → anunță-mă
+anunță-mă când pleacă ultimul camion
+# verifica-ți → verifică-ți
+verifică-ți mailul, ți-am trimis ceva urgent
+# ofertă → oferta
+termină tu cu oferta, eu mă ocup de factură
+# asta → ăsta
+n-ai vrea să preiei tu clientul ăsta?
+# astă → ăsta
+n-avem bani de bonusuri anul ăsta
+# variantă → varianta
+mi-ai trimis fișierul greșit, e varianta veche
+# aseara → aseară, semnăt → semnat
+v-am trimis aseară contractul semnat
+# dimineața → dimineață
+v-am sunat de dimineață, dar nu ați răspuns
+# rugă → ruga
+v-aș ruga să-mi trimiteți și extrasul de cont
+# intr-adevăr → într-adevăr
+într-adevăr, ai dreptate, mi-a scăpat
+# va → vă
+totodată, vă rog să-mi confirmați primirea
+# va → vă
+desigur, vă trimit imediat documentul
+# dimineața → dimineață, va → vă
+negreșit, mâine dimineață vă sun
+# că → ca
+mi se pare că oferta lor e mai bună ca a noastră
+# marfă → marfa
+salut, sunt Ionuț de la depozit, a venit marfa pentru voi
+# comandă → comanda
+lipsesc trei colete din comanda de azi
+# ăm → am
+am numărat de două ori, sunt doar patruzeci și șapte de cutii
+# poza → poză
+am făcut poză la aviz și v-am trimis-o
+# dubă → duba
+duba e la service până mâine seară
+# plecam → plecăm
+merge, ia-o și plecăm la șase dimineața
+# dimineața → dimineață
+eu nu pot mâine, am tura de dimineață la depozit
+# descărc → descarc
+am ajuns la client, descarc acum
+# hala → hală
+caloriferele din hală nu merg de o săptămână
+# siguranță → siguranța
+radiatoarele sar siguranța dacă le pornim pe toate
+# va → vă
+vă rog să nu lăsați radiatoarele pornite peste noapte
+# pauză → pauza
+pauza de țigară e doar în spatele clădirii
+# amenda → amendă, hala → hală
+am primit amendă pentru că cineva a fumat în hală
+# prima → primă
+a primit avertisment și i s-a tăiat din primă
+# imi → îmi
+îmi pare rău, șefule, a fost ultima dată
+# ăm → am
+am pierdut autobuzul de șase și următorul e la șase și jumătate
+# ma → mă
+mă poate lua cineva de la stația de lângă gară?
+# lă → la, ora → oră
+la ce oră termini tura azi?
+# seară → seara
+termin la zece seara, dacă nu rămânem peste program
+# transpaletă → transpaleta, cara → căra, mana → mâna
+folosește transpaleta, nu căra cu mâna
+# pauză → pauza
+pune-o la încărcat în pauza de masă
+# lasați → lăsați
+lăsați culoarele libere, vine inspecția
+# casieră → casiera
+casiera de la casa trei are o diferență de cincizeci de lei
+# greșeală → greșeala
+am refăcut numărătoarea și am găsit greșeala
+# că → ca
+clientul a plătit cu card, dar s-a introdus ca numerar
+# regulă → regula
+spune-i politicos că așa e regula magazinului
+# marfă → marfa, fața → față
+marfa nouă se pune în spate, cea veche în față
+# maine → mâine
+mâine vine control de la protecția consumatorului
+# casa → casă
+la unele produse prețul de la raft diferă de cel de la casă
+# zahar → zahăr
+ne-au trimis prețuri noi pentru cafea și zahăr
+# dimineața → dimineață
+le schimb eu mâine dimineață, înainte să deschidem
+# felicitari → felicitări
+ai cel mai bun scor din echipă, felicitări!
+# asta → ăsta
+primești bonus pentru scorul ăsta?
+# țintă → ținta
+în luna asta ținta e de patruzeci de vânzări pe operator
+# mulț → mult
+au anulat trei dintre clienții mei, deci mai am mult
+# sări → sari
+poți să sari peste partea de început, e opțională
+# caștile → căștile
+căștile le primiți de la firmă, nu folosiți ale voastre
+# va → vă, pica → pică
+dacă vă pică netul, anunțați imediat supervizorul
+# ofertă → oferta
+Mulțumesc pentru oferta trimisă, o analizăm și revenim până la finalul săptămânii.
+# Garantia → Garanția
+Garanția pentru echipamente este de douăzeci și patru de luni.
+# interesă → interesa
+Ne-ar interesa și un contract de mentenanță anual.
+# Garantam → Garantăm
+Garantăm intervenția în maximum douăzeci și patru de ore de la sesizare.
+# Va → Vă
+Vă rog să-mi spuneți când ajunge tehnicianul, avem producția oprită.
+# defecta → defectă
+Tehnicianul a schimbat piesa defectă și utilajul funcționează.
+# Va → Vă, factură → factura
+Vă trimitem factura pentru intervenție după ce primim confirmarea.
+# factura → factură
+De ce am primit factură dacă echipamentul e în garanție?
+# independență → independentă
+Propun să facem o expertiză independentă.
+# Va → Vă
+Vă mulțumesc pentru flexibilitate, sper să colaborăm și pe viitor.
+# va → vă
+Dragi colegi, vă anunț cu bucurie că echipa noastră se mărește.
+# Draga → Dragă
+Dragă Sorina, bine ai venit în echipa de contabilitate!
+# va → vă
+Stimați colegi, vă reamintesc că evaluările trebuie finalizate până vineri.
+# va → vă
+Stimați parteneri, vă mulțumim pentru încă un an de colaborare.
+# va → vă
+Doamnelor și domnilor, vă rog să luați loc, începem prezentarea.
+# Buna → Bună, va → vă
+Bună tuturor, vă prezint pe noul nostru coleg, Tudor.
+# ocupă → ocupa
+Tudor vine de la o firmă de consultanță și se va ocupa de clienții mari.
+# Ma → Mă, echipa → echipă, va → vă
+Mă bucur să fac parte din echipă și abia aștept să vă cunosc pe toți.
+# cîneva → cineva
+A adus cineva prăjituri? E ziua cuiva?
+# Felicitari → Felicitări
+Felicitări, acum poți veni cu mașina la birou.
+# bicicletă → bicicleta, mașină → mașina
+Am început să vin cu bicicleta, ajung mai repede ca mașina.
+# bicicletă → bicicleta
+Avem și dușuri la subsol, pentru cine vine cu bicicleta.
+# Fa → Fă
+Fă o cerere la resurse umane și explică situația.
+# lună → luna
+Salariile se vor plăti cu o zi mai devreme luna asta, din cauza sărbătorilor.
+# Va → Vă
+Vă dorim tuturor sărbători fericite și un an nou cu sănătate!
+# urgente → urgențe
+Pentru urgențe, sunați la numărul de gardă afișat pe site.
+# Profitam → Profităm, asta → ăsta
+Profităm de liniște ca să facem planul pe anul ăsta.
+# va → vă
+Am terminat de răspuns la toate întrebările, vă rog să citiți documentul.
+# Fișă → Fișa
+Fișa postului se modifică, trebuie s-o semnezi din nou.
+# problema → problemă
+Rezervele tale le discutăm cu directorul, nu e nicio problemă.
+# ca → că, muncă → munca
+Mulțumesc mult, mă bucur că mi-a fost recunoscută munca.
+# asta → ăsta
+Să continuăm la fel și anul ăsta!
+# reangajam → reangajăm
+Ce părere aveți, îl reangajăm?
+# Sa → Să
+Să vedem dacă avem un post liber pentru el.
+# ofertă → oferta, lună → luna
+A acceptat oferta și revine de luna viitoare.
+# seară → seara
+Calculatoarele se închid automat la ora opt seara.
+# Bonușurile → Bonusurile, performanță → performanța
+Bonusurile se dau proporțional cu performanța.
+# oferta → ofertă
+ți-a răspuns clientul la ofertă?
+# tin → țin, echipa → echipă
+țin să-ți mulțumesc pentru tot ce ai făcut pentru echipă
+# tineți → țineți, ca → că
+țineți cont că vineri biroul se închide la ora două
+# evidență → evidența
+țin evidența orelor într-un tabel separat
+# astă → ăsta
+nu țin minte să fi semnat contractul ăsta
+# ține → tine
+ține de tine dacă vrei să rămâi în proiect
+# ofertă → oferta
+oferta ta e cea mai bună de până acum
+# echipă → echipa
+echipa ta a făcut o treabă excelentă luna asta
+# treabă → treaba
+treaba ta e să verifici, nu să refaci tot
+# treabă → treaba
+e treaba mea să vorbesc cu clientul, nu a ta
+# mașină → mașina
+a ta e mașina parcată în fața porții?
+# asta → ăsta
+mailul ăsta e pentru tine, nu pentru mine
+# asta → ăsta
+nu e pentru noi proiectul ăsta, e prea mic
+# asta → ăsta, amână → amâna
+ăsta e ultimul termen, nu mai putem amâna
+# aștia → ăștia
+clienții ăștia ne dau numai bătăi de cap
+# aia → ăia
+furnizorii ăia n-au livrat nici azi
+# aia → ăia
+colegii ăia noi sunt foarte buni
+# aștea → astea
+ce-i cu toate cutiile astea pe hol?
+# asta → ăsta
+ce mai e și cu mailul ăsta?
+# că → ca
+ca manager, trebuie să iei și decizii nepopulare
+# va → vă
+analizăm propunerea și vă răspundem săptămâna viitoare
+# terminam → terminăm
+avem nevoie de mai mult timp ca să terminăm
+# va → vă
+găsim noi o soluție, nu vă faceți griji
+# lună → luna
+închidem luna cu un profit mic, dar pozitiv
+# întâmpla → întâmplă
+predăm proiectul vineri, indiferent ce se întâmplă
+# asta → ăsta
+schimbăm furnizorul de internet, ăsta pică mereu
+# semnam → semnăm
+vorbim cu avocatul înainte să semnăm
+# lucrăm → lucram
+lucram la birou până la nouă seara când eram stagiar
+# lucrăm → lucram
+pe vremea aia lucram șase zile pe săptămână
+# plecăm → plecam
+plecam acasă abia după ce pleca șeful
+# câștigăm → câștigam
+câștigam jumătate din cât câștig acum
+# firma → firmă
+eram singurul programator din firmă
+# blocă → bloca
+aveam un calculator vechi care se bloca de zece ori pe zi
+# va → vă
+vă pot ajuta cu ceva?
+# va → vă
+vă pot trimite oferta și pe WhatsApp, dacă preferați
+# va → vă, programă → programa
+vă pot programa pentru o discuție joi la ora două
+# va → vă, marfă → marfa
+vă putem livra marfa direct la șantier
+# va → vă
+vă putem oferi un termen de plată de treizeci de zile
+# ma → mă, sună → suna
+mă puteți suna oricând între nouă și cinci
+# ma → mă
+mă găsiți la birou toată ziua
+# ma → mă
+mă găsești pe Teams dacă ai nevoie
+# ma → mă
+mă enervează când oamenii nu răspund la mailuri
+# ma → mă
+mă ajuți cu o traducere scurtă?
+# ma → mă
+mă gândeam să plecăm mai devreme vineri
+# ma → mă
+mă întreb dacă au primit mailul nostru
+# ma → mă
+mă grăbesc, vorbim mai târziu
+# chitantă → chitanța
+să-mi trimiți și chitanța, te rog
+# va → vă
+să vă spun sincer, nu cred că ne încadrăm în buget
+# imi → îmi
+îmi cer scuze că v-am deranjat în concediu
+# imi → îmi, va → vă, restanta → restantă
+îmi permit să vă reamintesc de factura restantă
+# imi → îmi
+îmi place noul birou, are lumină naturală
+# imi → îmi
+îmi trebuie concediu, sunt la capătul puterilor
+# imi → îmi, căfea → cafea
+îmi aduci și mie o cafea când vii?
+# imi → îmi
+îmi spui și mie cum ai configurat contul?
+# imi → îmi
+îmi dau seama că am greșit, refac acum
+# imi → îmi
+îmi doresc să lucrez într-o echipă mai mică
+# imi → îmi
+îmi ajunge, de mâine îmi caut alt job
+# iți → îți, arătă → arată
+îți spun sincer că nu-mi place cum arată
+# iți → îți
+îți trimit mâine toate datele de contact
+# iți → îți, pranz → prânz
+îți dau eu o mână de ajutor după prânz
+# iți → îți
+îți recomand să citești contractul de două ori
+# iți → îți
+îți las cheia de la birou la paznic, eu plec mai devreme
+# iți → îți
+îți place noul program de lucru?
+# iți → îți
+îți convine să facem schimb de ture?
+# iși → își
+își caută de lucru de trei luni
+# iși → își
+își face singur programul și câștigă mai bine
+# săptămână → săptămâna
+și-a luat liber toată săptămâna
+# norma → normă
+și-ar dori să lucreze cu jumătate de normă
+# jenanț → jenant
+s-au certat în ședință, a fost jenant
+# semnăt → semnat
+s-au înțeles greu, dar au semnat
+# nouă → noua, incontinuu → încontinuu
+n-o mai suport pe noua colegă, vorbește încontinuu
+# sa → să
+m-aș bucura să lucrăm împreună
+# va → vă
+m-ați ajutat enorm, vă mulțumesc
+# listă → lista
+v-am trecut pe lista de participanți
+# lună → luna
+v-ați înscris la conferința de luna viitoare?
+# Va → Vă
+Vă trimitem înștiințarea de plată pentru luna octombrie.
+# greșeală → greșeala
+Cine e răspunzător pentru greșeala din raport?
+# Stampila → Ștampila
+Ștampila firmei s-a pierdut, trebuie să facem alta.
+# scăpa → scapă
+Un plan bun te scapă de multe nopți nedormite.
+# formula → formulă
+Am greșit de trei ori aceeași formulă din cauza oboselii.
+# Va → Vă
+Vă rog să respectați regulile de colectare selectivă.
+# ciorbă → ciorba
+Cine a uitat ciorba în frigider de vinerea trecută?
+# curăță → curată
+Nimeni nu are timp, dar toți vrem o bucătărie curată.
+# urma → urmă
+Am angajat până la urmă o firmă de curățenie și pentru bucătărie.
+# Costa → Costă, scăpam → scăpăm
+Costă puțin și scăpăm de certuri.
+# plantă → planta
+Mi-e dor de biroul meu, cu pozele mele și planta mea.
+# uda → udă
+Cine udă florile din birou cât e Maria plecată?
+# poșta → poștă
+La poștă e mereu coadă, mai bine trimitem prin curier.
+# colețul → coletul
+Am ratat curierul cu două minute, coletul pleacă mâine.
+# întru → intru
+Am învățat să nu mai intru în panică la fiecare recenzie.
+# ajuta → ajută
+Panica nu ajută niciodată, doar o abordare calmă.
+# tipe → țipe
+Am păstrat calmul chiar și când clientul a început să țipe.
+# Tipețele → Țipetele, rezolva → rezolvă
+Țipetele nu rezolvă nimic, i-am spus calm.
+# firmă → firma
+Îmi doresc să rămân în firma asta până la pensie.
+# Stie → Știe
+Știe tot despre fiecare client și fiecare mașină din fabrică.
+# factură → factura
+am pus factura în dosarul de la contabilitate
+# factură → factura
+nu găsesc factura de la furnizorul de hârtie
+# pret → preț
+mi-a trimis o factură greșită, cu alt preț
+# oferta → ofertă
+ofertă nouă de la ei, mai ieftină cu zece la sută
+# expira → expiră
+oferta lor expiră vineri, trebuie să decidem
+# listă → lista, săptămână → săptămâna
+lista de sarcini pe săptămâna asta e cam lungă
+# listă → lista
+lista cu invitați e în folderul evenimentului
+# ședință → ședința, slava → slavă
+ședința a fost scurtă, slavă Domnului
+# ședința → ședință
+ședință de urgență la ora două, toți managerii
+# ședința → ședință
+am avut ședință toată dimineața
+# sală → sala
+ședința de planificare se ține în sala mică
+# săptămână → săptămâna, astă → asta
+săptămâna asta lucrez de acasă
+# săptămână → săptămâna
+în săptămâna dinaintea lansării nu ia nimeni concediu
+# lună → luna
+luna asta am avut cele mai multe vânzări
+# întreaga → întreagă
+o lună întreagă am lucrat la oferta asta
+# luna → lună, luna → lună
+din lună în lună avem tot mai mulți clienți
+# fluturasul → fluturașul
+pe luna trecută n-am primit încă fluturașul
+# marfă → marfa
+marfa a ajuns, dar e deteriorată
+# comandă → comanda
+comanda a plecat ieri, ajunge mâine
+# tablă → tabla
+parola de la wifi e scrisă pe tabla din bucătărie
+# parola → parolă
+o parolă bună are minimum doisprezece caractere
+# pagina → pagină, siglă → sigla
+pe prima pagină trebuie să apară sigla firmei
+# firmă → firma
+firma noastră are deja zece ani pe piață
+# cheltuială → cheltuiala
+cheltuiala cu chiria e cea mai mare
+# cheltuială → cheltuiala, gresit → greșit
+am trecut cheltuiala pe centrul de cost greșit
+# motivă → motiva, echipă → echipa
+o primă de performanță ar motiva echipa
+# rată → rata, astă → asta
+rata de conversie a scăzut luna asta
+# rată → rata
+am plătit rata la leasing cu o zi întârziere
+# sală → sala
+sala de ședințe e rezervată până la patru
+# sală → sala, palpaie → pâlpâie
+lumina din sala de conferințe pâlpâie
+# cameră → camera, sală → sala
+camera din sala mică nu mai funcționează
+# curăță → curată
+camera de hotel era foarte mică, dar curată
+# masă → masa, pizză → pizza
+masa din bucătărie e plină de cutii de pizza
+# masă → masa
+la masa de Crăciun a firmei vine și directorul
+# casă → casa
+casa de marcat nu tipărește bonuri
+# lă → la, casă → casa, coada → coadă
+la casa de lângă intrare e coadă mare
+# tură → tura
+tura de noapte de vineri e liberă, o vrei?
+# notă → nota
+nota de plată a ajuns la o mie de lei
+# tința → ținta, vara → vară
+ținta noastră e să dublăm vânzările până în vară
+# țintă → ținta
+am atins ținta cu o săptămână înainte de termen
+# taxă → taxa
+taxa de livrare se plătește la curier
+# taxă → taxa, pret → preț
+taxa pe valoarea adăugată e inclusă în preț
+# astă → ăsta
+piața de IT s-a mai răcit anul ăsta
+# piața → piață, dimineața → dimineață
+am mers la piață de dimineață să iau flori pentru recepție
+# asta → ăsta
+cota mea pe trimestrul ăsta e de o sută de mii
+# pauză → pauza
+pauza de prânz e între douăsprezece și unu
+# urgență → urgentă
+sarcina asta e urgentă, las tot și mă apuc de ea
+# asta → ăsta
+o problemă de genul ăsta apare o dată pe an
+# greșeală → greșeala
+greșeala a fost a mea, îmi asum
+# mulț → mult
+o greșeală mică poate costa mult
+# greșeală → greșeala, formula → formulă
+am găsit greșeala în formulă
+# dată → data, schimbăt → schimbat
+data livrării s-a schimbat
+# gată → gata
+lucrarea e gata, o predăm mâine
+# procedură → procedura
+procedura e lungă, dar nu complicată
+# politică → politica, astă → asta
+politica firmei e clară în privința asta
+# va → vă, dimineața → dimineață
+dacă vă convine, putem semna contractul chiar mâine dimineață
+# va → vă
+în schimb, vă oferim livrarea gratuită
+# variantă → varianta
+în concluzie, propun să mergem pe varianta a doua
+# va → vă
+în primul rând, vreau să vă mulțumesc tuturor
+# lună → luna
+de altfel, ți-am spus asta încă de luna trecută
+# încadră → încadra
+din păcate, nu ne putem încadra în bugetul propus
+# va → vă, ofertă → oferta
+după cum am discutat la telefon, vă trimit oferta
+# completari → completări
+referitor la mailul de ieri, am câteva completări
+# cat → cât
+cât despre bonusuri, discutăm la evaluare
+# va → vă
+cu privire la cererea dumneavoastră, vă răspundem în scris
+# va → vă
+ca urmare a discuției noastre, vă trimit propunerea
+# ședință → ședința
+apropo de ședința de mâine, cine face prezentarea?
+# comandă → comanda
+fără niciun motiv, ne-au anulat comanda
+# urma → urmă
+până la urmă n-a mai fost nevoie de mine
+# asta → ăsta
+după ce terminăm proiectul ăsta, ne luăm toți concediu
+# va → vă
+de îndată ce primim plata, vă trimitem marfa
+# cat → cât
+cât timp sunt plecat, Andreea răspunde la mailuri
+# anunțăt → anunțat
+nu numai că a întârziat, dar nici n-a anunțat
+# ătât → atât
+atât eu, cât și colegii mei suntem de acord
+# poimaine → poimâine, săptămână → săptămâna
+fie mâine, fie poimâine, dar săptămâna asta
+# întâmplăt → întâmplat
+nici eu, nici șeful nu știm ce s-a întâmplat
+# as → aș
+mai degrabă aș lucra sâmbătă decât să stau până la zece seara
+# mulț → mult
+cu cât te grăbești mai tare, cu atât greșești mai mult
+# treabă → treaba
+treaba merge greu, dar merge
+# băi → bai
+nu-i bai, rezolvăm mâine
+# sa → să, certam → certăm
+las-o baltă, nu merită să ne certăm
+# fișa → fisa
+mi-a picat fisa abia după ședință
+# stresă → stresa, ca → că
+nu mă mai stresa, că fac ce pot
+# stăi → stai
+stai liniștit, totul e sub control
+# grabi → grăbi
+nu te grăbi, verifică de două ori
+# ca → că
+haideți, oameni buni, că se face târziu
+# terminam → terminăm
+hai, mai e puțin și terminăm
+# gată → gata
+gata, ajunge pe azi
+# odihna → odihnă
+ne vedem mâine, odihnă plăcută
+# pă → pa
+pa, pe mâine!
+# Va → Vă, sa → să
+Vă rog să mă scuzați, dar nu pot participa la ședința de mâine.
+# Va → Vă
+Vă aștept cu drag la biroul nostru din Pipera.
+# Va → Vă
+Vă mulțumim că ați ales serviciile noastre.
+# Va → Vă
+Vă felicit pentru rezultatele excelente din acest trimestru.
+# Va → Vă
+Vă reamintesc că avem nevoie de semnătura dumneavoastră pe actul adițional.
+# Va → Vă, ca → că
+Vă comunic pe această cale că îmi închei activitatea în firmă.
+# Va → Vă
+Vă informez că am schimbat numărul de telefon.
+# Va → Vă, rugam → rugăm
+Vă rugăm să ne scuzați pentru întârzierea livrării.
+# Va → Vă, garantam → garantăm
+Vă garantăm că problema nu se va mai repeta.
+# Ma → Mă
+Mă numesc Elena Vasile și sunt noul vostru manager de cont.
+# Ma → Mă
+Mă alătur echipei de vânzări începând de luni.
+# Ma → Mă
+Mă ocup de recrutare de opt ani.
+# Ma → Mă
+Mă văd nevoit să refuz oferta dumneavoastră.
+# Maine → Mâine
+Mâine nu se lucrează, e zi liberă legală.
+# Maine → Mâine
+Mâine trimitem coletele către toți clienții.
+# Maine → Mâine, va → vă, finala → finală
+Mâine vă trimit varianta finală a contractului.
+# Maine → Mâine, dimineața → dimineață, centrală → centrala
+Mâine dimineață vine tehnicianul să repare centrala.
+# va → vă
+Să vă spun cum stau lucrurile cu proiectul.
+# uități → uitați, va → vă
+Să nu uitați să vă completați fișele de evaluare.
+# Imi → Îmi, va → vă
+Îmi puteți trimite un număr de telefon la care să vă sun?
+# va → vă
+Îmi dați voie să vă prezint pe colegul meu, Adrian.
+# firmă → firma
+Îmi doresc o colaborare de lungă durată cu firma dumneavoastră.
+# Ti-am → Ți-am
+Ți-am făcut programare la interviu pentru marți.
+# Ti-ar → Ți-ar, asta → ăsta
+Ți-ar plăcea să conduci tu proiectul ăsta?
+# Si-a → Și-a, după-amiaza → după-amiază
+Și-a prezentat demisia ieri după-amiază.
+# Si → Și
+Și eu cred că oferta lor e prea mică.
+# politică → politica
+Asta e politica firmei, nu pot face excepții.
+# Asta → Ăsta
+Ăsta e cel mai bun trimestru din istoria firmei.
+# Astia → Ăștia
+Ăștia de la contabilitate pleacă mereu primii.
+# Așteptam → Așteptăm, va → vă
+Așteptăm cu nerăbdare să vă vedem la târg.
+# Așteptam → Așteptăm, sa → să
+Așteptăm să ne trimiteți comanda fermă.
+# Ascultam → Ascultăm
+Ascultăm cu atenție orice feedback din partea clienților.
+# Anulam → Anulăm, plată → plata
+Anulăm comanda dacă nu primim plata până mâine.
+# Cautam → Căutăm, problemă → problema
+Căutăm în continuare o soluție pentru problema raportată.
+# Colaboram → Colaborăm
+Colaborăm cu această firmă de peste zece ani.
+# Contam → Contăm, reușită → reușita
+Contăm pe voi pentru reușita proiectului.
+# Discutam → Discutăm
+Discutăm detaliile la telefon, e mai simplu.
+# Lansam → Lansăm
+Lansăm noul produs la începutul lunii viitoare.
+# Lucram → Lucrăm
+Lucrăm cu clienți din toată țara.
+# Recrutam → Recrutăm
+Recrutăm pentru mai multe poziții în departamentul tehnic.
+# Testam → Testăm, săptămână → săptămâna
+Testăm noua versiune a aplicației săptămâna asta.
+# Tinem → Ținem, legătură → legătura
+Ținem legătura, sper să ne vedem curând.
+# Verificam → Verificăm, va → vă
+Verificăm documentele și vă răspundem în cel mai scurt timp.
+# această → aceasta
+Factura aceasta trebuie plătită până la data scadenței.
+# Listă → Lista
+Lista de prezență se semnează la intrarea în sală.
+# săptămână → săptămâna
+Ședința de evaluare s-a amânat pentru săptămâna viitoare.
+# Data-limita → Data-limită
+Data-limită de înscriere a fost prelungită.
+# Tinta → Ținta, echipă → echipa
+Ținta pe trimestru a fost atinsă de toată echipa.
+# Politică → Politica
+Politica de confidențialitate a fost actualizată.
+# Față → Fata, greșeală → greșeala
+Fata de la contabilitate a găsit greșeala în două minute.
+# Asta → Ăsta, asta → ăsta
+Ăsta e motivul pentru care nu se dau bonusuri anul ăsta.
+# Ma → Mă
+Mă emoționez mereu când vorbesc în fața atâtor oameni.
+# Nouă → Noua
+Noua funcție înseamnă mai multe responsabilități și mai puțin timp liber.
+# nouă → noua
+Primele săptămâni în noua funcție au fost foarte grele.
+# problema → problemă
+Am aflat că principala problemă era lipsa de recunoaștere.
+# echipa → echipă
+În trei luni, atmosfera din echipă s-a schimbat complet.
+# asta → ăsta
+Cred că asta e cea mai mare realizare a mea de anul ăsta.
+# Ma → Mă, ca → că
+Mă bucur că am avut curajul să accept provocarea.
+# ședință → ședința
+ne-am mutat ședința de luni pe marți, ți-am trimis invitație nouă
+# grabim → grăbim
+ne grăbim prea tare și facem greșeli
+# va → vă, va → vă
+nu vă mai deranjez, vă doresc o zi bună
+# va → vă
+nu vă supărați, ce ați spus că nu merge?
+# va → vă
+nu vă pot da un răspuns acum, revin mâine
+# va → vă
+nu vă îngrijorați, avem copii de siguranță la toate
+# ma → mă, așteptăm → așteptam
+nu mă așteptam să fie atât de greu
+# sa → să
+nu mă lasă să intru în aplicație
+# uită → uita
+nu-ți uita ecusonul, fără el nu intri
+# merși → mersi
+a ieșit bine, mersi pentru ajutor
+# ă → a
+a zis că trimite raportul mâine, dar nu mă bazez
+# ă → a, plați → plăți
+a picat iar sistemul de plăți
+# va → vă
+vă rog să-mi scrieți pe adresa personală dacă mai aveți nevoie de ceva
+# dimineața → dimineață
+o să-mi lipsiți, mai ales cafelele de dimineață
+# zona → zonă
+o să trec pe la voi când mai sunt prin zonă
+# va → vă
+o să vă trimit poze de la noul birou
+# diseara → diseară
+o să revin cu un mail mai detaliat diseară
+# săse → șase
+dacă ai nevoie, sunt pe chat până la șase
+# sunam → sunăm
+dacă nu răspunde până mâine, îl sunăm
+# va → vă
+dacă îmi trimiteți datele, vă fac factura imediat
+# ședință → ședința, suna-ma → sună-mă
+când se termină ședința, sună-mă
+# arat → arăt
+când ai un moment, aș vrea să-ți arăt ceva
+# ofertă → oferta
+când e gata oferta, trimite-mi-o mie întâi
+# cat → cât
+cât e ceasul la voi acum?
+# cat → cât
+cât mai durează până la livrare?
+# cate → câte
+câte persoane vin la cina de Crăciun?
+# cați → câți
+câți oameni avem în tura de noapte?
+# Va → Vă
+Vă trimit în continuare CV-ul colegului de care v-am vorbit.
+# Va → Vă
+Vă așteptăm feedback-ul până la sfârșitul săptămânii.
+# Va → Vă, ca → că, expira → expiră
+Vă amintesc că mâine expiră termenul pentru depunerea ofertelor.
+# Va → Vă, confirmă → confirma
+Vă pot confirma că plata a fost efectuată astăzi.
+# Va → Vă
+Vă cerem să ne trimiteți documentele în original prin poștă.
+# Va → Vă
+Vă rog să-mi spuneți ce variantă preferați, ca să trec la treabă.
+# Ma → Mă
+Mă gândesc serios să cer transferul la Cluj.
+# Maine → Mâine
+Mâine plec la Bruxelles pentru o întâlnire cu partenerii.
+# Maine → Mâine
+Mâine vine noul stagiar, cine îi arată biroul?
+# Discutam → Discutăm
+Discutăm la prânz despre planul pentru clientul nou.
+# Plecam → Plecăm
+Plecăm de la birou la șase fix, nu mai rămânem peste program.
+# stând → stand
+Mergem cu toții la târgul de carte, avem stand acolo.
+# Semnam → Semnăm
+Semnăm acum sau mai așteptăm o zi?
+# Așteptam → Așteptăm
+Așteptăm un răspuns de la bancă pentru creditul de investiții.
+# Lucram → Lucrăm, firmă → firma
+Lucrăm cu ei de când s-a înființat firma.
+# Ti-am → Ți-am
+Ți-am rezervat un loc la training-ul de joi.
+# Ti-am → Ți-am
+Ți-am trimis pe mail lista cu întrebările de la interviu.
+# Ti-a → Ți-a, firmă → firma
+Ți-a mai scris recrutorul de la firma aia?
+# ofertă → oferta
+Îți pot trimite oferta și în format editabil.
+# Imi → Îmi
+Îmi trimiți te rog programul de mâine?
+# Asta → Ăsta
+Ăsta e cel mai lung mail pe care l-am primit vreodată.
+# asta → ăsta
+Clientul ăsta ne-a adus cele mai mari venituri anul trecut.
+# asta → ăsta
+Programul ăsta nou de contabilitate e foarte greu de folosit.
+# ma → mă, descurcam → descurcăm
+mă rog, nu contează, ne descurcăm
+# ma → mă
+mă uit pe contract și-ți zic exact ce scrie
+# va → vă
+vă rog frumos să-mi trimiteți și numărul de telefon
+# va → vă
+vă sun eu înapoi în cinci minute
+# tineți → țineți
+mâine la zece am interviu, îmi țineți pumnii?
+# imi → îmi
+îmi trimiți și mie raportul de vânzări?
+# iți → îți
+îți las cheile la recepție
+# factură → factura
+să nu uiți de factura pentru clientul din Galați
+# sa-mi → să-mi
+să-mi spui cum a mers prezentarea
+# ca → că, pranz → prânz
+mi-a zis că vine după prânz
+# putin → puțin
+lucrăm la el, mai avem puțin
+# lună → luna
+astea sunt toate facturile de luna trecută
+# incă → încă
+încă n-am primit răspuns de la ei
+# ședința → ședință
+în ședință s-a discutat și despre concedii

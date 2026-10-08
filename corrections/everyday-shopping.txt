@@ -1,0 +1,2045 @@
+# Everyday Romanian: shopping, ads, reviews, recipes and food.
+# Hand-written 2026-10-08; every sentence below failed with the exported model at commit 7134a4c.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+# Cumpăra → Cumpără
+Cumpără te rog două sticle de apă minerală și un borcan de miere.
+# Buna → Bună
+Bună ziua, mai este disponibil anunțul?
+# mașină → mașina
+Care e ultimul preț pentru mașina de spălat?
+# Va → Vă, va → vă
+Vă pot oferi 300 de lei, dacă vă convine.
+# factură → factura
+Este în garanție până în martie, am și factura.
+# asta → ăsta
+Porțiile sunt mici pentru prețul ăsta.
+# deșertul → desertul
+Ospătarul a fost foarte amabil, dar am așteptat mult desertul.
+# sta → stă
+Coletul meu stă de cinci zile în depozit și nimeni nu răspunde la telefon.
+# sa → să
+Curierul a lăsat pachetul la vecini fără să mă anunțe.
+# As → Aș, geacă → geaca
+Aș dori să returnez geaca, mi-e prea mică pe umeri.
+# ceapă → ceapa, caliți-o → căliți-o
+Tăiați ceapa mărunt și căliți-o în puțin ulei.
+# căldut → călduț
+Lăsați aluatul să crească într-un loc călduț timp de o oră.
+# coaja → coajă
+Fierbe cartofii în coajă vreo douăzeci de minute.
+# piața → piață
+La piață roșiile erau 12 lei kilogramul, o nebunie.
+# țanți → tanti
+Brânza de burduf de la tanti din colț e cea mai bună.
+# întreaga → întreagă
+Montajul dulapului a durat o zi întreagă, instrucțiunile sunt praf.
+# ca → că
+Hai să facem o listă, că altfel uităm jumătate.
+# pasta → pastă
+Detergent de vase, hârtie igienică, pastă de dinți.
+# sumă → suma
+Vreau să știu de ce mi s-a încasat de două ori suma.
+# Pătutul → Pătuțul
+Pătuțul e folosit doar câteva luni, fără defecte.
+# blațul → blatul
+Pizza a venit cu blatul ars și aproape fără mozzarella.
+# muzică → muzica
+Locația e drăguță, dar muzica era mult prea tare.
+# zăcuscă → zacuscă
+Am făcut zacuscă după rețeta bunicii și a ieșit perfectă.
+# pliță → plită
+Ardeii se coc pe plită până li se înnegrește pielea.
+# Cate → Câte
+Câte ouă se pun la un chec mare?
+# cocoloase → cocoloașe
+Mămăliga se mestecă continuu ca să nu facă cocoloașe.
+# țigaie → tigaie
+Am cumpărat o tigaie nouă și se lipește totul de ea.
+# Merița → Merită
+Merită banii? Mă gândesc să-mi iau și eu una.
+# țări → tari, așteptăm → așteptam
+Pernele sunt mai tari decât mă așteptam.
+# Cat → Cât, asta → ăsta
+Cât ați dat pe televizorul ăsta?
+# va → vă
+Nu vă luați după poze, în realitate culoarea e mai ștearsă.
+# mucegaită → mucegăită, casieră → casiera
+Am găsit pâine mucegăită pe raft, am anunțat casiera.
+# Coadă → Coada, casa → casă, casa → casă
+Coada la casă era interminabilă, doar o singură casă deschisă.
+# listă → lista
+Dă-mi te rog lista, să văd ce mai lipsește.
+# Va → Vă
+Vă rog să verificați din nou bonul, cred că e o greșeală.
+# va → vă
+Preț fix, nu negociez, vă rog nu insistați.
+# aseara → aseară
+Am pus anunțul aseară și deja m-au sunat zece oameni.
+# felicitari → felicitări
+Se vede că a fost îngrijit, felicitări.
+# suculență → suculentă
+Friptura a fost gătită perfect, fragedă și suculentă.
+# servețelele → șervețelele
+Au uitat să pună tacâmurile și șervețelele.
+# Deșertul → Desertul
+Desertul casei merită toți banii.
+# Clătițele → Clătitele, dulceată → dulceață
+Clătitele cu dulceață de caise mi-au amintit de copilărie.
+# pizză → pizza, suncă → șuncă
+Vreau o pizza mare, jumătate cu ciuperci, jumătate cu șuncă.
+# comandă → comanda
+Taxa de livrare e mai mare decât comanda în sine.
+# rețetă → rețeta
+De când au schimbat rețeta, biscuiții nu mai sunt la fel.
+# Spala → Spală
+Spală bine strugurii înainte să-i dai copilului.
+# prăjitură → prăjitura
+Nu deschide cuptorul în primele douăzeci de minute, că se lasă prăjitura.
+# făina → făină
+Ce făină folosești pentru pâinea de casă?
+# lasa → lasă
+Fierul de călcat lasă pete maronii pe haine.
+# Garantia → Garanția
+Garanția nu acoperă defectele cauzate de utilizare greșită, mi-au zis.
+# scârțaie → scârțâie
+Scaunul de birou scârțâie îngrozitor după o lună.
+# Cat → Cât, costa → costă
+Cât costă transportul unui dulap până la etajul patru fără lift?
+# factura → factură
+Am cerut factură pe firmă și mi-au dat bon simplu.
+# comandă → comanda
+În sfârșit a ajuns comanda, după trei săptămâni.
+# ca → că
+vezi că la Lidl e ofertă la cafea, două pachete la preț de unul
+# casa → casă
+iau eu pâinea în drum spre casă
+# marar → mărar
+Mama a zis să luăm mărar și leuștean pentru ciorbă.
+# Fa → Fă
+Fă o poză la raft, să văd ce marcă au.
+# ca → că
+Nu lua cașcaval feliat, că e mai scump.
+# taiem → tăiem
+Ia o bucată de cașcaval și îl tăiem noi.
+# diseara → diseară
+Am luat și o sticlă de vin pentru diseară.
+# sacosă → sacoșă
+Am dat aproape patru sute de lei pe o sacoșă de cumpărături.
+# va → vă
+Puneți-mi și o pungă, vă rog.
+# asta → ăsta
+Din păcate, modelul ăsta s-a epuizat.
+# Probati-o → Probați-o
+Probați-o, cabinele sunt în spate.
+# sifonează → șifonează
+Cămașa se șifonează îngrozitor de repede.
+# că → ca
+Rochia mi-a venit ca turnată, sunt încântată.
+# Geacă → Geaca
+Geaca ține de cald, dar nu e impermeabilă cum scria în descriere.
+# ofertă → oferta
+Mai e valabilă oferta de 150?
+# Achități → Achitați, va → vă
+Achitați transportul și vă trimit chiar mâine.
+# Va → Vă
+Vă las cu 50 mai puțin dacă îl ridicați azi.
+# carați → cărați
+Ar trebui să veniți cu încă cineva să-l cărați.
+# ursuza → ursuză, seară → seara
+Chelnerița a fost cam ursuză toată seara.
+# comandă → comanda
+Am așteptat 40 de minute la masă fără să ni se ia comanda.
+# vară → vara
+Terasa e superbă vara, cu vedere spre lac.
+# Papanasii → Papanașii
+Papanașii sunt motivul pentru care mă întorc mereu aici.
+# notă → nota
+Am primit nota cu un fel de mâncare pe care nu l-am comandat.
+# plată → plata, stiți → știți
+Nu acceptă plata cu cardul, să știți.
+# pungă → punga
+Sosul de usturoi a curs prin toată punga.
+# As → Aș
+Aș fi dat zero stele dacă se putea.
+# scara → scară
+Mi-au livrat coletul la adresa greșită, la altă scară.
+# va → vă
+Puteți să-l lăsați la portar, vă rog.
+# returnă → returna
+Trebuie să păstrez eticheta ca să pot returna?
+# Spalati → Spălați, apă → apa
+Spălați orezul de câteva ori până apa iese limpede.
+# apă → apa
+Puneți apa la fiert și adăugați un vârf de sare.
+# da → dă
+Când dă în clocot, micșorați focul.
+# toarna → toarnă
+Se toarnă compoziția în tavă și se nivelează.
+# Frământa → Frământă
+Frământă aluatul până nu se mai lipește de mâini.
+# Lasa → Lasă, tăi → tai
+Lasă friptura să se odihnească zece minute înainte s-o tai.
+# temperatură → temperatura
+Ouăle trebuie să fie la temperatura camerei.
+# bors → borș
+Ciorba se acrește cu borș la final, nu de la început.
+# ceapă → ceapa
+Am ars ceapa și acum toată mâncarea are gust amar.
+# maioneză → maioneza
+Nu-mi iese niciodată maioneza, se taie mereu.
+# temperatura → temperatură
+Ce temperatură pun pentru pulpe de pui la cuptor?
+# varza → varză, calița → călită, varza → varză
+Pentru varză călită folosesc varză murată, nu dulce.
+# casă → casa
+Blenderul e prea zgomotos, trezesc toată casa dimineața.
+# excelență → excelentă
+Expresorul face o spumă de lapte excelentă.
+# hota → hotă
+Filtrul de la hotă trebuie schimbat la șase luni.
+# Plița → Plita
+Plita cu inducție merge doar cu vase speciale, să știți.
+# Centrală → Centrala
+Centrala termică face un zgomot ciudat de când a fost revizia.
+# piață → piața
+Când e piața volantă în cartier?
+# sâmbătă → sâmbăta
+Țăranii vin cu marfă proaspătă doar sâmbăta dimineața.
+# Cat → Cât, costa → costă
+Cât costă ardeii grași?
+# mazare → mazăre
+Dați-mi și o pungă de mazăre boabe.
+# țara → țară
+Laptele de la țară e mult mai gustos decât cel din comerț.
+# asta → ăsta
+Produsul ăsta are o grămadă de zahăr adăugat.
+# saturat → săturat
+Ne-am săturat de mâncare de la cantină.
+# comandam → comandăm
+Hai să comandăm ceva, n-am chef de gătit.
+# pizză → pizza
+Tu ce vrei, chinezească sau pizza?
+# Stiți → Știți
+Știți dacă se mai găsește în stoc?
+# Va → Vă
+Vă anunțăm prin email când produsul revine pe stoc.
+# ca → că
+Am primit un mesaj că livrarea întârzie din cauza vremii.
+# sters-o → șters-o
+Am lăsat o recenzie negativă și au șters-o.
+# asta → ăsta, așteptăm → așteptam
+Pentru prețul ăsta, mă așteptam la mai mult.
+# Arata → Arată, treabă → treaba
+Arată mai ieftin decât e, dar își face treaba.
+# Curață → Curăță
+Curăță dovleacul de coajă și taie-l cubulețe.
+# ceapă → ceapa
+Călește ceapa până devine sticloasă.
+# Adauga → Adaugă, lasa → lasă
+Adaugă dovleacul, acoperă cu apă și lasă să fiarbă.
+# scorțișoara → scorțișoară, deșertul → desertul
+Mărul copt cu scorțișoară e desertul meu de toamnă.
+# dulceată → dulceață
+Am făcut dulceață de gutui, dar s-a zaharisit.
+# asta → ăsta
+Murăturile anul ăsta au ieșit prea sărate.
+# Cata → Câtă
+Câtă sare pui la un borcan de trei litri?
+# salată → salata
+Pentru salata de vinete, tocați vinetele cu cuțitul de lemn.
+# ca → că
+Nu folosiți cuțit de metal, că se înnegresc.
+# Placinta → Plăcinta, marar → mărar
+Plăcinta cu brânză și mărar a dispărut în zece minute.
+# tava → tavă
+Puiul la tavă cu cartofi e salvarea mea în zilele aglomerate.
+# Paștele → Pastele, carbonară → carbonara
+Pastele carbonara adevărate nu au smântână.
+# Cat → Cât
+Cât timp țin ouăle la fiert ca să iasă moi?
+# apă → apa
+Fix șase minute din momentul în care fierbe apa.
+# prăjitură → prăjitura
+Am greșit cantitatea de zahăr și prăjitura e dulce de nu se poate.
+# Cumpăra → Cumpără, dezoșate → dezosate
+Cumpără niște pulpe de pui dezosate, sunt mai ușor de gătit.
+# peste → pește
+Am găsit pește proaspăt la piață, crap și somn.
+# viță → vită, va → vă
+Aș vrea un kilogram de carne tocată de vită, vă rog.
+# Carnații → Cârnații
+Cârnații de casă au fost cam grași.
+# Suncă → Șunca, suncă → șunca
+Șunca presată din plic n-are nicio legătură cu șunca adevărată.
+# Uități-va → Uitați-vă, fața → față
+Uitați-vă la data de expirare, că pun mereu în față ce expiră.
+# ca → că, expiră → expira
+Am luat o tavă de pui la jumătate de preț, că expira azi.
+# lista → listă
+Mergem la cumpărături o dată pe săptămână, cu listă.
+# lista → listă, proștii → prostii
+Fără listă cumpăr numai prostii.
+# coada → coadă
+Mai e cineva la coadă după mine?
+# va → vă
+Puteți să-mi cântăriți și roșiile, vă rog?
+# casieră → casiera
+Am uitat să cântăresc bananele și casiera m-a trimis înapoi.
+# schimbă → schimba
+Am pierdut bonul, mai pot schimba produsul?
+# va → vă
+Fără bon fiscal nu vă putem face retur.
+# lipsa → lipsă
+Persoana care a făcut comanda n-a înlocuit produsele lipsă cu nimic.
+# Buna → Bună
+Bună seara, aș vrea să știu dacă mai aveți masa extensibilă din anunț.
+# adresa → adresă, va → vă
+Pe ce adresă vă găsesc?
+# va → vă, mașina → mașină
+Nu mă pot ocupa de transport, vă rog să veniți cu mașină.
+# va → vă
+Atenție la cei care vă cer datele cardului pe WhatsApp.
+# ajustă → ajusta
+Rochie de mireasă, croială sirenă, se poate ajusta.
+# Cumpar → Cumpăr
+Cumpăr mobilier vechi, de preferat din lemn masiv.
+# diseara → diseară
+Codul de urmărire vi-l trimit diseară.
+# munca → muncă, degeabă → degeaba
+Am luat liber de la muncă să aștept curierul degeaba.
+# vină → vina
+Firma de curierat dă vina pe magazin, magazinul pe curier.
+# peste → pește
+Supa de pește a fost fadă și apoasă.
+# curaț → curat
+Locul de joacă pentru copii e mic, dar curat.
+# satui → sătui
+Am ieșit de acolo sătui și fericiți.
+# chiflă → chifla
+Burgerul a fost uscat, iar chifla tare.
+# paște → paste
+Am plătit 70 de lei pe o porție de paste.
+# reciclă → recicla
+Mâncarea vine în caserole care nu se pot recicla.
+# arătă → arăta, livrătorul → livratorul
+Aplicația arăta că livratorul e la două minute, dar a mai durat o jumătate de oră.
+# ca → că, afără → afară
+fă o ciorbă, că e frig afară
+# afumătură → afumătura
+Pune afumătura la fiert cu o oră înainte.
+# supă → supa
+Spumează supa cât fierbe, ca să rămână limpede.
+# Taiței → Tăiței
+Tăiței de casă se fac doar din ouă și făină.
+# zvante → zvânte
+Întinde foaia subțire și las-o să se zvânte puțin.
+# aruncă → arunca
+Nu arunca resturile, fac din ele o tocăniță.
+# congelă → congela, smântână → smântâna
+Poți congela smântâna? Am o cutie care expiră.
+# costa → costă
+Reparația costă aproape cât un frigider nou.
+# eticheta → etichetă
+Pe etichetă scria spălare la 30 de grade, dar tot s-a strâns.
+# Merița → Merită
+Merită un aspirator vertical fără fir?
+# apă → apa
+Filtrul de apă trebuie schimbat lunar, altfel apa are gust ciudat.
+# Fierbatorul → Fierbătorul
+Fierbătorul s-a umplut de calcar în două săptămâni.
+# păr → par
+Cuțitele nu taie deloc, par de jucărie.
+# mașina → mașină
+Tocătorul de lemn a crăpat după ce l-am spălat în mașină.
+# mașină → mașina
+Paharele de cristal s-au pătat după mașina de spălat vase.
+# pătura → pătură, căutăm → căutam, iarna → iarnă
+Ce pătură moale, exact ce căutam pentru iarnă!
+# apă → apa
+Prosoapele nu absorb apa, doar o împrăștie.
+# lumină → lumina
+Am comandat draperii opace și lasă să treacă lumina.
+# așteptăm → așteptam
+Oglinda din hol e mai mare decât mă așteptam, arată super.
+# Covorășul → Covorașul
+Covorașul de baie alunecă pe gresie, e periculos.
+# comanda → comandă
+Unde găsesc dulapuri de bucătărie la comandă la un preț decent?
+# chiuveta → chiuvetă
+Blatul de bucătărie s-a umflat lângă chiuvetă.
+# ușa → ușă
+Trebuie demontat, nu încape pe ușă așa cum e.
+# Mobilă → Mobila
+Mobila e ca nouă, are doar un an.
+# Cati → Câți, bicicletă → bicicleta
+Câți kilometri are bicicleta?
+# va → vă
+Dacă nu mai e disponibil, vă rog să scoateți anunțul.
+# husă → husa
+Omul a fost foarte de treabă, mi-a lăsat și husa cadou.
+# ploșnite → ploșnițe
+Am cumpărat de pe OLX o canapea și am adus și ploșnițe în casă.
+# mobilă → mobila, tapitată → tapițată
+Verificați bine mobila tapițată la mâna a doua.
+# sa → să
+Mi-ar plăcea să cumpăr mai puține haine, dar de calitate.
+# aștia → ăștia, recomând → recomand
+Bocancii ăștia au rezistat șapte ierni, îi recomand oricui.
+# Sireturile → Șireturile
+Șireturile sunt prea scurte, a trebuit să cumpăr altele.
+# Aveti → Aveți
+Aveți și cureaua asortată?
+# asta → ăsta
+Ce frumos e paltonul ăsta, dar e prea scump.
+# lună → luna
+Prețul vechi era tăiat, dar era același cu prețul de luna trecută.
+# ora → oră, sâmbătă → sâmbăta
+La ce oră se deschide magazinul sâmbăta?
+# marca → marcă
+Ce marcă de mașină de spălat e cea mai fiabilă?
+# rezistență → rezistentă
+Mai bine ar fi pus o cutie mai rezistentă.
+# factură → factura
+Am cerut factura pe email și n-am primit-o nici acum.
+# factură → factura
+Poți să ceri factura din contul de client.
+# cheltuială → cheltuiala
+Mi-au cerut să trimit produsul pe cheltuiala mea, deși era defect.
+# asta → ăsta
+Așa da, ăsta e serviciu cu clienții.
+# Va → Vă
+Vă mulțumesc pentru rezolvarea rapidă.
+# marcă → marca
+Iau mereu marca proprie a magazinului, e la fel de bună.
+# Oțețul → Oțetul, curață → curăță
+Oțetul și bicarbonatul curăță aproape orice.
+# ala → ăla, lavândă → lavandă
+Nu mai găsesc săpunul ăla cu lavandă care îmi plăcea.
+# dimineața → dimineață
+Covrigii calzi de dimineață sunt cel mai bun mic dejun.
+# gogoserie → gogoșerie
+La gogoșerie e mereu coadă, dar merită.
+# vară → vara
+Langoșii cu brânză și smântână de la mare sunt nelipsiți vara.
+# costa → costă
+Porumbul fiert de pe plajă costă cât un prânz.
+# balmos → balmoș
+Am mâncat un balmoș la stână care mi-a rămas în minte.
+# ciorba → ciorbă
+Ne-am oprit la un han pe drum și am mâncat cea mai bună ciorbă de burtă.
+# așteptari → așteptări
+Ce am mâncat la nunta lor a fost peste așteptări.
+# Cate → Câte
+Câte feluri de mâncare se dau la o nuntă la noi?
+# asta → ăsta, masă → masa
+Anul ăsta facem noi masa de Crăciun, nu mai mergem la ai mei.
+# pifție → piftie
+Lista pentru Crăciun: cozonac, sarmale, piftie, salată de boeuf.
+# salată → salata
+Pentru salata de boeuf, legumele se taie cât mai mărunt.
+# Maioneză → Maioneza, diferență → diferența
+Maioneza de casă face toată diferența.
+# Buna → Bună
+Bună, am văzut anunțul cu frigiderul, mai e de vânzare?
+# Maine → Mâine, dimineața → dimineață
+Mâine dimineață sunt liber, pe la zece e bine?
+# va → vă
+Perfect, vă aștept. Sunați la interfon la apartamentul 12.
+# va → vă
+Am ajuns jos, deschideți-mi vă rog ușa de la bloc.
+# Cat → Cât
+Cât consumă pe lună, știți cumva?
+# Va → Vă
+Vă dau 50 de lei reducere pentru drum.
+# tineți → țineți
+Puteți să-mi țineți scaunul până sâmbătă?
+# tin → țin
+Dacă îmi trimiteți un avans, îl țin.
+# platforma → platformă
+Ați mai vândut și altceva pe platformă? Văd că aveți recenzii bune.
+# nou-nout → nou-nouț
+Mi-a spus că e nou-nouț, dar se vedea clar că a fost folosit.
+# Il → Îl
+Îl mai aveți și mâine?
+# Va → Vă, dovadă → dovada
+Vă trimit dovada plății imediat.
+# va → vă, mâine-dimineața → mâine-dimineață
+Gata, au intrat, vă trimit coletul mâine-dimineață.
+# va → vă
+E vina mea, am încurcat pachetele, vă rog să mă scuzați.
+# Rețeta → Rețetă
+Rețetă de brânzoaice: aluat dospit, brânză de vaci, ou, zahăr și coajă de lămâie.
+# umplutură → umplutura
+Dacă e prea moale umplutura, pune o lingură de griș.
+# sta → stă
+Aluatul pentru pizza e mai bun dacă stă la frigider o noapte.
+# albusurile → albușurile, țelul → telul
+Nu am mixer, pot să bat albușurile cu telul?
+# albusurile → albușurile
+Ce fac cu albușurile rămase?
+# Fa → Fă
+Fă bezele sau o omletă albă.
+# Cat → Cât
+Cât de des trebuie să întorc carnea pe grătar?
+# Grățarul → Grătarul
+Grătarul pe cărbuni are alt gust decât cel pe gaz.
+# Cumpăra → Cumpără
+Cumpără cărbuni și brichete, mergem la iarbă verde.
+# geanță → geanta
+Berea s-a încălzit, cine a uitat geanta frigorifică?
+# Ti-ai → Ți-ai
+Ți-ai luat ceva de mâncare pentru drum?
+# țări → tari
+Am cumpărat niște covrigi de la benzinărie, erau tari.
+# cantină → cantina
+Hai la cantina facultății, e ieftin.
+# deșert → desert
+Meniul zilei are ciorbă, fel principal și desert la 35 de lei.
+# garnitură → garnitura
+Am rugat să-mi schimbe garnitura și au refuzat.
+# stiți → știți
+Bacșișul nu e inclus în notă, să știți.
+# Cat → Cât, lăsam → lăsăm, bacsis → bacșiș
+Cât lăsăm bacșiș, zece la sută?
+# notă → nota
+A durat o veșnicie până ne-au adus nota.
+# ca → că
+Simți că mănânci la cineva acasă.
+# asta → ăsta
+Cel mai prost restaurant în care am fost anul ăsta.
+# așteptăm → așteptam
+Pentru o comandă de 200 de lei, mă așteptam la ceva mai bun.
+# Comandam → Comandăm, livrari → livrări
+Comandăm împreună, ca să nu plătim două livrări?
+# deșert → desert, ca → că
+Bun, ia-ți și desert, că e ziua ta.
+# Cumpăra → Cumpără
+Cumpără și farfurii de carton, că nu am chef de spălat.
+# Cornuletele → Cornulețele
+Cornulețele cu rahat ale mamei sunt legendare.
+# ciocolată → ciocolata
+Nu-mi spune că ai mâncat toată ciocolata.
+# Cat → Cât, costa → costă, asta → ăsta
+Cât costă un kilogram de nuci decojite anul ăsta?
+# da → dă
+Boiaua afumată dă un gust deosebit tocăniței.
+# diferență → diferența
+Piperul proaspăt măcinat face toată diferența.
+# cămara → cămară
+Usturoiul a început să încolțească în cămară.
+# Ceapă → Ceapa
+Ceapa roșie e mai dulce, e bună în salate.
+# iarnă → iarna
+Roșiile de seră nu au niciun gust iarna.
+# marar → mărar
+Dovleceii la grătar cu usturoi și mărar sunt delicioși.
+# țigaie → tigaie
+Spanacul se înmoaie în două minute în tigaie.
+# grădina → grădină
+Ne-a crescut în grădină atâta zucchini că nu mai știm ce să facem cu el.
+# recoltă → recolta
+Am dat vecinilor jumătate din recolta de roșii.
+# asta → ăsta
+Strugurii de anul ăsta sunt mai acri.
+# iarna → iarnă
+Am pus la uscat prune pentru iarnă.
+# chiuveta → chiuvetă
+Am instalat un filtru sub chiuvetă și nu mai cumpărăm apă.
+# ca → că, ala → ăla, spumă → spuma
+Integral, că din ăla degresat nu iese spuma la cafea.
+# Cate → Câte
+Câte cutii de ton să iau?
+# ca → că
+Ia patru, că ținem pentru zile negre.
+# Camara → Cămara
+Cămara e plină de conserve pe care nu le mănâncă nimeni.
+# Fa → Fă
+Fă ordine în frigider, e plin de borcane goale.
+# aromă → aroma
+Cafeaua boabe își păstrează aroma mai mult decât cea măcinată.
+# șoc → soc
+Bunica pune la uscat flori de soc în fiecare vară.
+# șoc → soc
+Siropul de soc se face cu lămâie și zahăr.
+# casa → casă
+Vinul făcut în casă de socrul meu e cam acru.
+# Tuica → Țuica, țare → tare
+Țuica de prune de la țară e tare de-ți ia piuitul.
+# palincă → pălincă
+Ne-a dat o sticlă de pălincă, dar nu bea nimeni la noi.
+# costa → costă
+Berea artizanală costă cât trei beri normale.
+# bunică → bunica
+Nu bea apă rece imediat după pepene, zicea bunica.
+# Mănânca → Mănâncă
+Mănâncă tot din farfurie, că nu se aruncă mâncarea.
+# Cat → Cât, costa → costă
+Cât costă un curcan întreg de Crăciun?
+# Paste → Paște
+Am comandat un miel pentru Paște de la un cioban.
+# Pașca → Pasca, asta → ăsta
+Pasca cu brânză a fost prea uscată anul ăsta.
+# nuca → nucă
+Am cumpărat un cozonac cu nucă de la patiserie și a fost foarte bun.
+# galbenușuri → gălbenușuri
+Pentru cozonac îți trebuie făină bună, gălbenușuri și răbdare.
+# Frământa → Frământă, basici → bășici
+Frământă cel puțin o jumătate de oră, până face bășici.
+# curăță → curată
+Dacă scobitoarea iese curată, e gata.
+# lasa → lasă
+Se lasă la răcit în tavă, întins pe o parte.
+# Reteta → Rețeta
+Rețeta asta mi-a dat-o o vecină și n-am mai schimbat-o niciodată.
+# Cata → Câtă
+Câtă făină? Cât cuprinde, zice ea.
+# bunică → bunica
+Am încercat să fac plăcinte ca bunica și n-am reușit.
+# servețel → șervețel
+Scoate-le pe un șervețel de hârtie să se scurgă.
+# țigaie → tigaie
+Dacă nu ai cuptor, poți să o faci în tigaie cu capac.
+# țigaia → tigaia, mașină → mașina
+Nu pune tigaia de teflon în mașina de spălat vase.
+# țigaii → tigăii
+Spatula de plastic s-a topit pe marginea tigăii.
+# Oală → Oala
+Oala sub presiune scurtează timpul de gătit la jumătate.
+# frica → frică, oală → oala, suieră → șuieră
+Mi-e frică de oala sub presiune, șuieră îngrozitor.
+# apă → apa
+Am o oală în care se lipește orice, chiar și apa.
+# storcatorului → storcătorului
+Curățarea storcătorului durează mai mult decât preparatul sucului.
+# Caștile → Căștile, descărcă → descarcă
+Căștile wireless se descarcă foarte repede.
+# mașină → mașina
+Mi-au livrat mașina de spălat, dar nu au vrut s-o scoată din cutie.
+# Cat → Cât, costa → costă
+Cât costă montajul la o plită încorporabilă?
+# Măsoara → Măsoară, cumpăra → cumpără
+Măsoară de două ori și cumpără o dată.
+# limita → limită
+Au demontat picioarele și a intrat la limită.
+# tapitate → tapițate
+Vând patru scaune tapițate, ușor pătate.
+# că → ca
+Le-am curățat cu aburi și arată ca noi.
+# mobilă → mobila
+Ce să fac cu mobila veche? Nu vrea nimeni nici gratis.
+# plăti → plăți
+Am stat două ore la telefon cu banca din cauza unei plăți blocate.
+# comandă → comanda
+Banii s-au retras din cont, dar comanda nu apare.
+# comandă → comanda
+Mi-au trimis mostre gratuite cu comanda, ce drăguț.
+# Samponul → Șamponul, asta → ăsta
+Șamponul ăsta mi-a uscat părul îngrozitor.
+# periute → periuțe
+Am cumpărat periuțe de dinți la pachet de patru, iese mai ieftin.
+# săptămână → săptămâna
+Am încercat un serviciu de mâncare la pachet pentru toată săptămâna.
+# sa → să
+Prețul abonamentului a crescut fără să ne anunțe.
+# va → vă
+Ne-ați taxat după ce am anulat, vă rog să-mi returnați suma.
+# asta → ăsta
+Restaurantul ăsta are cea mai bună mâncare vegană din oraș.
+# as → aș, comandă → comanda
+Nu sunt vegetarian, dar aș mai comanda.
+# Râmenul → Ramenul
+Ramenul era prea sărat, n-am putut să-l termin.
+# Turta → Turtă
+Turtă dulce cu glazură, ca în copilărie.
+# poza → poză
+Trandafirii din poză erau roșii, mi-au venit roz.
+# Rășadurile → Răsadurile
+Răsadurile de la piață se prind mai bine decât cele din magazin.
+# grădina → grădină
+Pentru grădină cumpăr îngrășământ natural de la un fermier.
+# iarbă → iarba
+Mașina de tuns iarba nu mai pornește, cred că e de la bujie.
+# Bormasina → Bormașina
+Bormașina a venit fără burghie, deși erau în descriere.
+# Cați → Câți
+Câți litri de vopsea îmi trebuie pentru o cameră de 15 metri pătrați?
+# Usa → Ușa
+Ușa de la intrare nu se mai închide bine după montaj.
+# Cat → Cât, costa → costă
+Cât costă o ușă metalică decentă?
+# Centrală → Centrala
+Centrala nouă e mult mai silențioasă și consumă mai puțin.
+# dus → duș
+Bateria de duș a venit fără garnituri.
+# dus → duș
+Cabina de duș are niște fisuri pe la colțuri.
+# In → În
+În showroom culorile par complet diferite.
+# aluneca → alunecă
+Husa de canapea nu stă bine, alunecă tot timpul.
+# umplutura → umplutură
+Pernele decorative au venit fără umplutură.
+# ala → ăla
+Mi s-a părut o păcăleală prețul ăla mic.
+# bunică → bunica
+Am cumpărat o pătură electrică pentru bunica, e încântată.
+# factură → factura
+Radiatorul electric ne-a dublat factura la curent.
+# costa → costă
+Filtrele de schimb costă cât jumătate din aparat.
+# ca → că
+Ce bine că am păstrat cutia, am putut să-l returnez.
+# că → ca
+Sunt client fidel de zece ani și m-au tratat ca pe un nimeni.
+# asta → ăsta
+Ce dezamăgire, eram atât de încântată de magazinul ăsta.
+# ca → că, cumpăra → cumpără
+Probabil că le cumpără.
+# in → în
+Hai să mergem în weekend la un outlet, poate găsim ceva.
+# repara → repară
+Fermoarul blocat se repară ușor, nu-l aruncați.
+# Cremă → Crema, ghețe → ghete
+Crema de ghete o găsești la orice supermarket.
+# asta → ăsta
+Am pierdut mănușile prin autobuz, a treia pereche anul ăsta.
+# mamă → mama
+Fularul tricotat de mama e cel mai călduros.
+# asta → ăsta, sta → stă
+Peștele ăsta stă de peste o săptămână pe gheață, se vede.
+# peste → pește
+Am pus peste pește o lingură de sos de lămâie.
+# Peste → Pește
+Pește la cuptor cu legume, gata în 40 de minute.
+# cumpărăm → cumpăram, peste → pește
+Pe vremuri cumpăram pește doar de la piața de lângă gară.
+# mâncăm → mâncam, ciorba → ciorbă
+Când eram mic, mâncam în fiecare duminică ciorbă de perișoare.
+# Maine → Mâine
+Mâine mâncăm la socri, nu mai gătesc nimic.
+# așteptăm → așteptam
+Ieri așteptam curierul toată ziua și n-a venit.
+# Așteptam → Așteptăm
+Așteptăm de o oră la masă și nici apă nu ne-au adus.
+# luăm → luam
+Anul trecut luam laptele de la un vecin din sat.
+# Luam → Luăm
+Luăm și noi o porție de mici, dacă tot suntem aici.
+# comandăm → comandam, pizză → pizza
+Pe vremea aia comandam pizza în fiecare vineri.
+# Comandam → Comandăm, diseara → diseară
+Comandăm diseară de la turcii de la colț?
+# grădină → grădina
+Ce mai face mama ta, tot cu grădina?
+# Mama → Mamă, rețetă → rețeta
+Mamă, unde ai pus rețeta de cozonac?
+# Față → Fata, casa → casă
+Fata de la casă a fost foarte drăguță.
+# Față → Fața
+Fața de masă s-a pătat de vin roșu.
+# Coadă → Coada
+Coada la casa doi e mai mică.
+# Cat → Cât, brânză → brânza
+Cât de sărată e brânza asta?
+# Cat → Cât, costa → costă
+Cât costă un pachet de unt acum? Că eu nu mai țin pasul.
+# tăi → tai, ceapă → ceapa
+Mâna mea nu e destul de sigură să tai ceapa așa subțire.
+# carat → cărat, săcosele → sacoșele
+Dă-mi o mână de ajutor la cărat sacoșele.
+# va → vă
+Fără bon nu vă pot face retur, îmi pare rău.
+# Asta → Ăsta, stiți → știți
+Ăsta e ultimul pe stoc, să știți.
+# Ala → Ăla
+Ăla de pe raftul de sus e mai ieftin.
+# Cat → Cât, asta → ăsta
+Cât ați dat pe ăsta? Mi se pare scump.
+# Astia → Ăștia
+Ăștia de la magazinul din colț au mereu legume proaspete.
+# piață → piața
+Astea sunt cele mai bune mere din toată piața.
+# Va → Vă
+Vă rog să-mi spuneți dacă produsul mai e valabil.
+# Va → Vă
+Vă așteptăm cu drag și săptămâna viitoare.
+# Va → Vă
+Vă mulțumesc că ați avut răbdare cu mine.
+# Va → Vă
+Vă recomand să-l spălați la mână, nu în mașină.
+# Lasa → Lasă, cratită → cratița
+Lasă cratița pe foc încă cinci minute.
+# Spala → Spală
+Spală vasele tu azi, că eu am gătit.
+# masă → masa
+Cine spală vasele după masa de Crăciun?
+# Manânca → Mănâncă, ca → că
+Mănâncă tot, că se răcește.
+# dimineața → dimineață
+Bunicul mănâncă în fiecare dimineață mămăligă cu brânză.
+# Cumpăra-ți → Cumpără-ți
+Cumpără-ți ceva frumos de ziua ta.
+# cumpăra → cumpără
+Fratele meu cumpără mereu cele mai scumpe lucruri și apoi le returnează.
+# Arunca → Aruncă
+Aruncă cojile de cartofi la compost, nu la gunoi.
+# arunca → aruncă, aștia → ăștia
+Ce aruncă oamenii ăștia la gunoi, ar putea mânca un sat întreg.
+# costa → costă
+Rochia asta costă cât salariul meu pe o săptămână.
+# costa → costă
+Livrarea costă 19 lei, indiferent de valoarea comenzii.
+# asta → ăsta, mâncă → mânca
+Ce bine arată tortul ăsta, păcat că nu-l putem mânca.
+# râu → rău, asta → ăsta
+Nu e rău deloc pentru prețul ăsta.
+# pizză → pizza
+E cea mai rea pizza pe care am mâncat-o vreodată.
+# peste → pește
+Restaurantul de pe malul râului are pește proaspăt în fiecare zi.
+# va → vă
+Pentru mine fără ceapă, vă rog, sunt alergic.
+# piatră → piatra
+Para asta e tare ca piatra.
+# Lamaia → Lămâia
+Lămâia se stoarce mai ușor dacă o rulezi pe masă înainte.
+# asta → ăsta
+Merii din livada noastră n-au dat nimic anul ăsta.
+# Cat → Cât
+Cât e kilogramul de mere ionatan?
+# acrisoare → acrișoare
+Mai bine iei mere acrișoare, nu se înmoaie atât.
+# ține → tine
+Nu mânca ciuperci culese de tine dacă nu le cunoști sigur.
+# măcină → macină
+Carnea tocată e mai bună dacă o alegi tu și ți-o macină pe loc.
+# Cat → Cât
+Cât de mult țin aripioarele în cuptor?
+# vița → vită
+Rasolul de vită trebuie să fiarbă câteva ore la foc mic.
+# târate → tărâțe
+Borșul l-am făcut în casă, din tărâțe.
+# Papricasul → Papricașul
+Papricașul de pui e mâncarea care mă face să mă simt acasă.
+# Gulasul → Gulașul, gulas → gulaș
+Gulașul unguresc e diferit de ce facem noi și numim gulaș.
+# Musacăua → Musacaua
+Musacaua de cartofi e mai ușoară decât cea cu vinete.
+# întrună → întruna
+Risotto-ul cere atenție, trebuie amestecat întruna.
+# Oală → Oala, bunică → bunica
+Oala asta e prea grea pentru bunica.
+# furculiță → furculița
+Nu pune furculița în prăjitor!
+# mașină → mașina
+Paharele astea se zgârie la mașina de spălat vase.
+# bunică → bunica
+Am spart o farfurie din setul de la bunica.
+# Cat → Cât
+Cât lapte să-i dau unui copil de doi ani?
+# supă → supa
+Fetița mea s-a îndrăgostit de supa de linte.
+# limonada → limonadă
+Băiatul vecinilor vinde limonadă în fața blocului, am cumpărat două pahare.
+# nepotică → nepoțica
+Am cumpărat un cadou pentru nepoțica mea și i-a plăcut cutia mai mult.
+# Vand → Vând
+Vând haine de fetiță, toate în stare foarte bună.
+# etichetă → eticheta
+Taie eticheta, mă zgârie pe gât.
+# pată → pata
+Scoate pata imediat, până nu se usucă.
+# Oțețul → Oțetul
+Oțetul scoate mirosul de transpirație din haine.
+# că → ca
+Iau și eu una ca a ta, că arată foarte bine.
+# tavă → tava
+Ca să nu se lipească, ungi tava cu ulei.
+# pizză → pizza
+Pune-o la cuptor ca pe o pizza.
+# Arata → Arată, că → ca
+Arată ca nou, deși l-am folosit doi ani.
+# ca → că, servețele → șervețele
+Ce bine că ai luat și șervețele.
+# asta → ăsta
+Știi cât a costat ăsta acum un an? Jumătate.
+# Cat → Cât
+Cât o să mai crească prețurile?
+# Cat → Cât
+Cât ține garanția la televizoare?
+# Cat → Cât, ala → ăla
+Cât e de mare frigiderul ăla, încape în nișă?
+# Cați → Câți
+Câți bani ai la tine? Eu am doar cardul.
+# Cat → Cât
+Cât am de plată în total?
+# grabim → grăbim
+Ar trebui să ne grăbim, se închide la opt.
+# Lasa-mă → Lasă-mă
+Lasă-mă pe mine să aleg pepenele, mă pricep.
+# ca → că
+Nu mai gustați din fructe, că apoi nu le mai cumpărați!
+# Borcănele → Borcanele
+Borcanele se fierb după ce le umpli, ca să se păstreze.
+# toamna → toamnă, zăcuscă → zacuscă
+Mama face în fiecare toamnă zacuscă, gem și murături.
+# asta → ăsta
+Anul ăsta n-am mai pus nimic la iarnă, am cumpărat de la magazin.
+# cascată → căscată
+Am cumpărat brânză de la stână și am rămas cu gura căscată la cât e de bună.
+# cas → caș, jintită → jintiță
+Ciobanul vinde și urdă, și caș, și jintiță.
+# brânză → brânza, ca → că
+Nu tăia brânza cu cuțitul de pâine, că îl strici.
+# brânză → brânza
+Ce vin se potrivește cu brânza de oaie?
+# Recas → Recaș
+Am adus vin de la Recaș, e foarte bun și ieftin.
+# sticlă → sticla
+Ospătarul a schimbat sticla fără să comenteze, profesionist.
+# bacsis → bacșiș
+Am lăsat un bacșiș generos, au meritat.
+# deșert → desert
+Ne-au tratat cu desert din partea casei pentru întârziere.
+# flamanzi → flămânzi
+Am plecat flămânzi, porțiile sunt pentru copii.
+# costa → costă
+O porție de cartofi cu brânză costă 25 de lei, glumiți?
+# aștia → ăștia
+Pentru banii ăștia, pot să-mi gătesc o săptămână întreagă.
+# căldută → călduță
+Ciorba era călduță, nu fierbinte.
+# ciorbă → ciorba, clocotiță → clocotită
+Am trimis înapoi ciorba și au adus-o clocotită.
+# asta → ăsta
+De ce mai aveți meniul ăsta dacă nu aveți nimic din el?
+# tocanița → tocăniță
+Ne-a recomandat specialitatea casei, care era doar o tocăniță banală.
+# intră → intra
+Fumul de la grătar intra direct pe terasă.
+# costa → costă
+Cineva să-mi explice de ce o apă plată costă 18 lei.
+# va → vă
+Shaorma cu de toate, dar fără ceapă, vă rog.
+# va → vă, ca → că
+Mai puneți-mi niște cartofi, vă rog, că mi-e foame.
+# Langosul → Langoșul
+Langoșul era plin de ulei, dar exact ce-mi trebuia.
+# strudel → ștrudel
+Am luat un ștrudel cu vișine și a fost delicios.
+# hrănița → hrănită
+Maiaua trebuie hrănită zilnic, ca un animal de companie.
+# Feliaza → Feliază
+Feliază pâinea și pune-o la congelator, ține mult.
+# costa → costă
+Cafeaua cu lapte vegetal costă cu cinci lei mai mult.
+# bunică → bunica
+Prefer o cafea la ibric, ca la bunica.
+# lasa → lăsa, căfeaua → cafeaua, sa → să
+Nu lăsa cafeaua să dea în foc!
+# cumpăra → cumpără
+Cine mai cumpără cafea la plic în ziua de azi?
+# musețel → mușețel
+Ceaiul de mușețel e bun la burtă.
+# catină → cătină
+Siropul de cătină e plin de vitamina C.
+# Catina → Cătina
+Cătina se culege greu, are spini.
+# Macesele → Măceșele
+Măceșele se culeg după primul îngheț.
+# seară → seara
+Zmeura s-a stricat în cutie până seara.
+# grădina → grădină
+Murele din grădină le-am pus la congelator.
+# dulceată → dulceață
+Pune o lingură de dulceață în ceai, e foarte bun.
+# Clătițele → Clătitele, că → ca
+Clătitele americane au ieșit pufoase, exact ca în rețetă.
+# țigaie → tigaie
+Omleta mea se lipește mereu de tigaie.
+# galbenușuri → gălbenușuri
+Am spart un ou și avea două gălbenușuri.
+# Cat → Cât, costa → costă
+Cât costă acum zece ouă, că eu am rămas la cinci lei.
+# bicicletă → bicicleta
+salut, mai ai bicicleta? cât vrei pe ea?
+# scârțaie → scârțâie
+merge bine, dar scârțâie lanțul
+# il → îl
+îl ung și gata, nu e mare lucru
+# Va → Vă
+Vă scriu în legătură cu dulapul din anunț.
+# va → vă
+Trebuie să vă gândiți dacă încape pe scara blocului.
+# aluneca → alunecă
+Sertarele alunecă bine, are glisiere noi.
+# Amândoua → Amândouă
+Amândouă la 700, că vreau să scap de ele.
+# Ma → Mă, săptămână → săptămâna
+Mă mut săptămâna viitoare, de asta le vând ieftin.
+# Va → Vă, arat → arăt, factură → factura, problema → problemă
+Vă arăt factura de la magazin, nu e nicio problemă.
+# asta → ăsta
+Vânzătorul ăsta are 300 de recenzii pozitive, pare sigur.
+# mireasa → mireasă
+Am vândut rochia de mireasă după doi ani, n-aveam ce face cu ea.
+# sta → stă
+Costumul de nuntă al soțului încă stă în dulap.
+# nunta → nuntă
+Pentru nuntă am închiriat costumul, n-am vrut să cumpăr.
+# măsură → măsura
+Am fost la cinci magazine și n-am găsit nimic pe măsura mea.
+# comanda → comandă
+Cămășile pe comandă nu sunt atât de scumpe pe cât credeam.
+# săptămână → săptămâna
+Prima probă e săptămâna viitoare.
+# gată → gata
+Costumul e gata, arată impecabil!
+# geanță → geantă
+Vreau să cumpăr o geantă de piele bună, care să țină.
+# Gentile → Gențile
+Gențile de designer sunt o risipă de bani.
+# geanță → geantă
+Am o geantă de la bunica mea, din anii 70, și arată încă impecabil.
+# valiză → valiza
+Am zburat o singură dată cu valiza și s-a crăpat.
+# Garantia → Garanția
+Garanția nu acoperă daunele produse de companiile aeriene.
+# Optică → Optica
+Optica din mall mi-a făcut ochelarii în trei zile.
+# descărcă → descarcă
+Ceasurile inteligente se descarcă prea repede.
+# schimbă → schimba
+Brățara de la ceas s-a rupt, se poate schimba?
+# pasta → pastă
+Argintul se înnegrește, e normal, se curăță cu pastă de dinți.
+# cuțiută → cutiuță
+Bijuteria a venit într-o cutiuță foarte elegantă.
+# lantișor → lănțișor
+Am cumpărat lănțișor de aur pentru botezul nepotului.
+# asta → ăsta
+Aurul s-a scumpit foarte mult anul ăsta.
+# Negociaza → Negociază
+Negociază mereu, la talcioc nimeni nu dă prețul real din prima.
+# pungă → punga
+Am cerut punga de hârtie și n-aveau.
+# sacosă → sacoșă, geanță → geantă
+Port mereu o sacoșă de pânză în geantă.
+# bucată → bucata
+Pungile de plastic au ajuns un leu bucata.
+# Sacosa → Sacoșa, încărcătura → încărcătură
+Sacoșa reutilizabilă s-a rupt cu prima încărcătură grea.
+# săcosele → sacoșele, mașina → mașină
+Am uitat iar sacoșele în mașină.
+# carat → cărat, mașina → mașină
+Am cărat cumpărăturile în brațe până la mașină.
+# casa → casă
+La casă nu se uită nimeni la ce scanezi.
+# pungă → punga
+Data viitoare verific punga înainte să plec.
+# turtiță → turtită
+Cine a făcut cumpărăturile? Pâinea e turtită.
+# uită → uita, ca → că
+Nu te mai uita la fiecare etichetă, că stăm aici o oră.
+# Spălati → Spălați
+Spălați pieptul de pui, uscați-l cu un prosop de hârtie și condimentați-l.
+# țigaia → tigaia
+Încălziți tigaia bine înainte să puneți carnea.
+# țigaie → tigaie
+În aceeași tigaie, turnați vinul și răzuiți fundul.
+# smântână → smântâna, îngroasă → îngroașă
+Adăugați smântâna și amestecați până se îngroașă.
+# Gustati → Gustați
+Gustați și potriviți de sare.
+# făină → făina
+Pentru aluat, cerneți făina într-un bol mare.
+# făină → făina
+Încorporați făina ușor, de jos în sus, cu o spatulă.
+# taia → tăia
+Lăsați prăjitura să se răcească înainte de a o tăia.
+# ceapă → ceapa
+Așezați feliile în straturi, alternând cu ceapa.
+# râs → ras
+Presărați cașcaval ras deasupra.
+# cocoș → cocos
+Dacă nu aveți lapte de cocos, folosiți smântână.
+# Pisati → Pisați
+Pisați usturoiul în piuliță, nu-l dați prin presă.
+# salată → salata
+Pentru salata orientală, fierbeți cartofii și ouăle.
+# ceapă → ceapa
+Tăiați ceapa roșie solzi și adăugați măslinele.
+# salată → salata
+Puneți salata la frigider o oră, să se întrepătrundă gusturile.
+# Ciorba → Ciorbă
+Ciorbă de fasole cu afumătură, servită în pâine, ce poate fi mai bun?
+# piatră → piatra
+Am comandat ciorba în pâine și pâinea era tare ca piatra.
+# ciorba → ciorbă
+Am cerut ciorbă fără smântână, mi-au adus cu smântână.
+# rădăuteană → rădăuțeană, acra → acră
+Ciorba rădăuțeană a fost cam acră.
+# văcută → văcuță
+Ciorba de văcuță a fost cu bucăți mari de carne, foarte bună.
+# păpanasi → papanași, dulceată → dulceață
+La desert am mâncat papanași cu dulceață de afine.
+# Clatițele → Clătitele
+Clătitele flambate au fost un spectacol, iar gustul pe măsură.
+# vinețe → vinete
+Salata de vinete avea gust de fum, cum trebuie.
+# mâncă → mânca
+Am lăsat jumătate din porție, nu se putea mânca.
+# plaja → plajă
+Pe plajă am mâncat porumb fiert și gogoși, clasic.
+# zăcușcă → zacuscă
+Gazda ne-a dat un borcan de zacuscă la plecare.
+# mașină → mașina
+Am cumpărat brânză de burduf din Bran și miroase toată mașina.
+# casa → casă
+Am făcut brânză de vaci în casă din lapte prins.
+# cocoș → cocos
+Uleiul de cocos e la modă, dar nu-mi place gustul.
+# mamă → mama
+Prăjesc doar în ulei de floarea-soarelui, cum făcea mama.
+# chiuveta → chiuvetă
+Uleiul folosit nu se aruncă în chiuvetă, se strânge într-o sticlă.
+# ca → că
+Am aflat că pot face săpun din ulei folosit.
+# casa → casă, bunică → bunica
+Săpunul de casă făcut de bunica era cel mai bun.
+# asta → ăsta, blațul → blatul
+Dezinfectantul ăsta lasă pete pe blatul de bucătărie.
+# Matura → Mătura
+Mătura s-a rupt la prima utilizare.
+# ca → că
+Gunoiul trebuie dus jos în fiecare seară, că miroase.
+# tin → țin
+Am cumpărat saci de gunoi cu șnur și chiar țin.
+# pisică → pisica
+Coșul cu senzor se deschide de fiecare dată când trece pisica.
+# Pisică → Pisica
+Pisica a ales cutia, nu jucăria de 200 de lei.
+# Cumpar → Cumpăr, hrana → hrană
+Cumpăr hrană pentru câine la sac de 15 kilograme.
+# hrană → hrana
+Câinele nu se atinge de hrana nouă.
+# casă → casa
+Nisipul pentru pisici se împrăștie prin toată casa.
+# ușită → ușiță
+Am comandat o cușcă pentru papagal și a venit fără ușiță.
+# ala → ăla
+Ce frumos îi stă cu fularul ăla!
+# ghețute → ghetuțe
+Toată lumea râde de câinele meu cu ghetuțe.
+# costa → costă
+Cumpărăturile pentru animal costă mai mult decât ale mele.
+# comandă → comanda
+Mi-au schimbat comanda în două zile, foarte amabili.
+# asta → ăsta
+Recomand magazinul ăsta tuturor iubitorilor de animale.
+# Va → Vă
+Vă rog să-mi comunicați o dată exactă de livrare.
+# comandă → comanda
+Dacă nu primesc canapeaua până vineri, anulez comanda.
+# factură → factura
+Am atașat factura și confirmarea comenzii.
+# Va → Vă
+Vă rog să tratați reclamația cu prioritate.
+# Usa → Ușa
+Ușa frigiderului nu se închide etanș, pierde frigul.
+# său → sau
+Doresc înlocuirea produsului sau restituirea banilor.
+# Va → Vă
+Vă rog să trimiteți un tehnician pentru constatare.
+# Buna → Bună
+Bună, am primit coletul, dar lipsește o piesă din kitul de montaj.
+# piesă → piesa, lipsa → lipsă
+Puteți să-mi trimiteți piesa lipsă fără să returnez tot dulapul?
+# piesă → piesa
+Mulțumesc pentru răspunsul prompt, aștept piesa.
+# problema → problemă
+Prietena mea a cumpărat același model și are aceeași problemă.
+# ca → că, asta → ăsta
+Se pare că e o problemă cunoscută la modelul ăsta.
+# excelență → excelentă
+Pentru cine are copii mici, e o investiție excelentă.
+# asta → ăsta
+Nu e perfect, dar la prețul ăsta nu mă plâng.
+# soacră → soacra
+L-am cumpărat pentru soacra mea și se descurcă singură cu el.
+# parca → parcă
+Acum se strică totul imediat după garanție, parcă intenționat.
+# ala → ăla
+Mi-am cumpărat altul și pe ăla vechi l-am dat la reciclat.
+# Uita-te → Uită-te
+Uită-te la panou și la rata de refresh, restul e marketing.
+# așteptăm → așteptam
+Am dat de trei ori mai mult pe suport decât mă așteptam.
+# asta → ăsta
+Meșterul ăsta l-aș recomanda oricui, e de aur.
+# va → vă
+Pot să vă dau numărul unui domn foarte serios.
+# dimineața → dimineață
+Mulțumesc mult, îl sun mâine dimineață.
+# palpaie → pâlpâie
+Lampa de birou pâlpâie de câteva zile.
+# mașină → mașina
+Tabloul electric sare de fiecare dată când pornesc cuptorul și mașina de spălat.
+# adăugi → adaugi
+Toată lumea spune să adaugi 30% la buget, și tot nu ajunge.
+# sâmbătă → sâmbăta
+Depozitul de materiale de construcții e deschis și sâmbăta.
+# carat → cărat
+Am cărat cincisprezece saci de adeziv până la etajul trei.
+# mișcă → mișca
+A doua zi nu m-am mai putut mișca.
+# taxa → taxă
+Am returnat vopseaua și mi-au cerut taxă de reaprovizionare.
+# taxa → taxă
+Ce taxă de reaprovizionare, dacă voi ați greșit?
+# Completăți → Completați
+Completați formularul de retur din contul dumneavoastră.
+# Va → Vă, rugam → rugăm
+Vă rugăm să ne trimiteți IBAN-ul pentru restituire.
+# plată → plata
+Am trecut pe plata cu cardul, returul e mult mai simplu.
+# plată → plata
+Dar plata cu cardul e riscantă pe site-uri mici.
+# lăcat → lacăt
+Verificați mereu dacă site-ul are lacăt în bara de adrese.
+# vamala → vamală
+Taxa vamală a fost mai mare decât produsul.
+# ala → ăla
+Calitatea e exact cum te-ai aștepta pentru prețul ăla.
+# masă → masa, salată → salata
+pune tu masa, eu termin salata
+# soră → sora
+mai pune o farfurie, vine și sora mea
+# masa → masă
+unde e sarea? nu e pe masă
+# putin → puțin
+e prea fierbinte, las-o puțin
+# gată → gata
+gata, se răcește, mănâncă
+# dată → data
+data viitoare gătești tu, dacă tot comentezi
+# friptură → friptura
+Tata a ars iar friptura, ca de obicei.
+# ca → că
+Soacra mea zice că sarmalele mele sunt prea mari.
+# ca → că
+I-am spus soacrei că rețeta e de la mama mea.
+# Nepoată → Nepoata
+Nepoata mea vrea doar mâncare de la fast-food.
+# bunică → bunica, sacose → sacoșe
+Pleci de la bunica cu trei kilograme în plus și cu sacoșe pline.
+# mama → mamă
+Am mâncat, mamă, nu-ți face griji.
+# Lasa → Lasă, supă → supa, duminica → duminică, sa → să
+Lasă supa, vino la noi duminică să mănânci ca lumea.
+# ca → că
+Când mama zice că face ceva simplu, înseamnă cinci feluri.
+# Caltabosul → Caltaboșul, tată → tata
+Caltaboșul și sângeretele le face tata.
+# Toba → Tobă
+Tobă și piftie, mâncăruri pe care nu le mănânc decât de sărbători.
+# Carnații → Cârnații
+Cârnații de casă îi afumăm în pod.
+# Slanina → Slănina, țara → țară
+Slănina afumată de la țară e cu totul altceva.
+# slanină → slănină
+Am luat un kilogram de slănină și am terminat-o în două zile.
+# slanină → slănina
+Ce bine merge slănina cu ceapă roșie și pâine de casă.
+# caliță → călită
+Fasolea bătută cu ceapă călită, cel mai bun aperitiv.
+# da → dă
+Ce se mai dă la doctor, ciocolată sau cafea?
+# moda → modă, sa → să
+Nu mai e la modă să duci flori și ciocolată, se zice.
+# asta → ăsta, urate → urâte
+Mărțișoarele de anul ăsta sunt urâte și scumpe.
+# seară → seara
+Bărbații stau la coadă la flori pe 7 martie seara.
+# singura → singură
+Ia-i ceva ce n-ar cumpăra singură.
+# spă → spa
+I-am luat un voucher la spa, a fost încântată.
+# nunta → nuntă
+La nuntă se dau bani, nu cadouri.
+# asta → ăsta
+Cât se dă la o nuntă anul ăsta? Mi-e rușine să întreb.
+# costa → costă
+Am întrebat și mi s-a zis cel puțin cât costă meniul.
+# faliță → falită
+Am fost la trei nunți vara asta, sunt falită.
+# nunta → nuntă
+Prăjiturile de la nuntă le-am luat acasă la pachet.
+# arată → arăta
+Tortul de nuntă arăta superb, dar avea gust de carton.
+# cumatra → cumătra
+Am luat o cutie de cornulețe de la cumătra.
+# soacră → soacra
+Mi-a dat soacra mea toată mâncarea rămasă.
+# ofertă → oferta
+Ne-am uitat la oferta restaurantului și am ales meniul de mijloc.
+# nasă → nașa
+Turta botezului o face nașa.
+# rochită → rochița
+Lumânarea de botez a costat mai mult decât rochița.
+# că → ca
+Le-am retrimis și au venit corect, dar am stat ca pe ace.
+# hainute → hăinuțe
+Am cumpărat un set de hăinuțe și un album foto.
+# ca → că
+Ia măsuri mai mari, că bebelușii cresc cât ai clipi.
+# marca → marcă
+Scutecele astea irită pielea, am trecut la altă marcă.
+# Servețelele → Șervețelele, ofertă → oferta
+Șervețelele umede din oferta asta miros a parfum puternic.
+# Cadită → Cădița
+Cădița pentru baie e prea mare pentru cada noastră.
+# săptămână → săptămâna
+Am cumpărat a cincea suzetă săptămâna asta.
+# tăvite → tăvițe
+Congelez piureurile în tăvițe de gheață.
+# Imi → Îmi, aia → ăia
+Îmi dați și mie două kilograme din cartofii ăia mici?
+# aștia → ăștia
+Ce frumoși sunt ardeii ăștia kapia!
+# Telina → Țelina
+Țelina e bună? Văd că e cam moale.
+# asta → ăsta
+Vin în fiecare sâmbătă, sunteți la locul ăsta mereu?
+# sâmbătă → sâmbăta
+Nu e unde să lași mașina sâmbăta dimineața.
+# Caruciorul → Căruciorul
+Căruciorul de cumpărături pe roți e cea mai bună invenție.
+# căruță → căruța
+Țăranii veneau cu căruța și vindeau din ea.
+# Uita-te → Uită-te
+Uită-te la mâinile lui și la cât de uniforme sunt legumele.
+# Gusta → Gustă
+Gustă înainte, orice vânzător serios te lasă.
+# Cumpăra → Cumpără
+Cumpără doar pepeni de la tarabe care au semn de producător.
+# scorțișoara → scorțișoară
+Plăcinta de dovleac cu scorțișoară e mirosul toamnei.
+# Hrîbii → Hribii
+Hribii au fost 80 de lei kilogramul, scump, dar merită.
+# lasă → lăsa, făină → făina
+Nu lăsa făina să se ardă, devine amară.
+# amesteca → amestecă, cocoloase → cocoloașe
+Pune laptele treptat și amestecă să nu facă cocoloașe.
+# îngroasă → îngroașă
+Sosul alb se îngroașă pe măsură ce se răcește.
+# mazare → mazăre, preferată → preferata
+Mâncarea de mazăre cu pui e preferata copiilor.
+# Mazarea → Mazărea
+Mazărea congelată e la fel de bună ca cea proaspătă.
+# malai → mălai
+Am cumpărat mălai și era plin de gărgărițe.
+# punga → pungă
+Mălaiul se ține în borcane, nu în pungă.
+# Mamăliguța → Mămăliguța, cină → cina
+Mămăliguța cu lapte e cina mea preferată.
+# seară → seara
+Bunica ne dădea seara lapte cu mămăligă.
+# cutiute → cutiuțe
+Gemul era în cutiuțe mici de plastic, ca la avion.
+# așteptăm → așteptam
+Pentru 500 de lei pe noapte, mă așteptam la mai mult.
+# horînca → horincă
+Gazda ne-a umplut paharele cu horincă de la 9 dimineața.
+# cabana → cabană
+Ciorba de la cabană era făcută din plic, se simțea.
+# balmos → balmoș
+Am mâncat la Bâlea Lac un balmoș de nu-l uit.
+# stână → stâna
+Brânza de la stâna de pe munte e cea mai bună din lume.
+# cas → caș
+Ciobanul ne-a dat și o bucată de caș să gustăm.
+# geanță → geanta
+Am cumpărat brânză de la cioban și am pus-o în geanta frigorifică.
+# mașina → mașină
+Câinii ciobănești au lătrat după noi până la mașină.
+# dulceată → dulceață
+Am făcut dulceață de afine cu afinele de la munte.
+# vară → vara
+Mi-au rămas doar două borcane din toată vara.
+# Clatițele → Clătitele
+Clătitele cu apă minerală ies mai subțiri.
+# Clatițele → Clătitele, bunică → bunica
+Clătitele cu brânză și stafide la cuptor, ca la bunica.
+# umplutura → umplutură
+Ce umplutură pui la clătite? Eu pun gem de caise.
+# Ceapă → Ceapa
+Ceapa din plasa de la supermarket putrezește repede.
+# coaja → coajă
+Cartofii noi se fierb în coajă și se mănâncă cu mărar.
+# marar → mărar
+Cartofii noi cu smântână și mărar sunt un deliciu de vară.
+# Arata → Arată
+Verde cu pereții noștri galbeni? Arată ca un pepene.
+# că → ca
+Bine, luăm bej și gata, ca toată lumea.
+# Măsoara → Măsoară
+Măsoară peretele, să nu luăm una prea lungă.
+# lada → ladă, paturi → pături
+Fără ladă nu, am nevoie de loc pentru pături.
+# ca → că
+Vânzătorul zice că o aduc în trei săptămâni.
+# Luam → Luăm
+Luăm una din stoc, chiar dacă nu e exact ce vrem.
+# Mobilă → Mobila, va → vă
+Mobila din expoziție e o variantă bună dacă nu vă deranjează micile defecte.
+# scarțaie → scârțâie
+Mecanismul de extindere e greu și scârțâie.
+# costa → costă, bucată → bucata
+Scaunele asortate costă separat, câte 400 de lei bucata.
+# Șoțul → Soțul, că → ca
+Soțul zice că arată ca la cantină.
+# singura → singură
+Am vopsit singură comoda veche a bunicii în albastru.
+# arunca → aruncă
+Nu-mi vine să cred ce aruncă oamenii.
+# dată → data
+Plătesc data viitoare pe cineva să-l monteze.
+# costa → costă
+Serviciul de montaj costă 10% din prețul mobilei.
+# spuma → spumă
+Perna cu spumă cu memorie mi-a rezolvat durerile de gât.
+# plapuma → plapumă
+Am luat o plapumă ușoară de vară și mi-e frig în ea.
+# Cearsafurile → Cearșafurile
+Cearșafurile cu elastic nu se potrivesc pe saltelele groase.
+# sifonează → șifonează
+Lenjeria de bumbac satinat e moale și nu se șifonează.
+# intra → intră, lumină → lumina
+Am pus jaluzele, dar intră lumina pe la margini.
+# firmă → firma
+Am ales firma cu cel mai bun preț, nu cea cu cel mai bun marketing.
+# intra → intră
+Geamurile noi nu se închid etanș, intră frigul.
+# săptămână → săptămâna
+Montatorul a zis că trebuie reglate, vine săptămâna viitoare.
+# ca → că
+Sper să vină, că deja e frig.
+# Geacă → Geaca, spălă → spăla
+Geaca de puf e caldă, dar nu se poate spăla în mașină.
+# mașina → mașină, cocoloase → cocoloașe
+Am spălat-o în mașină și s-a făcut cocoloașe.
+# sa → să
+Ghetele de iarnă au lăsat apa să intre la prima zăpadă.
+# eticheta → etichetă
+Pe etichetă scria rezistente la apă, nu impermeabile.
+# tin → țin
+Am dat cu spray impermeabil și acum țin.
+# Cumpar → Cumpăr, vară → vara, iarnă → iarna
+Cumpăr hainele de iarnă vara și cele de vară iarna.
+# Macar → Măcar
+Măcar am motivație să slăbesc.
+# bicicletă → bicicleta
+Am vândut bicicleta medicinală pe OLX la jumătate de preț.
+# ca → că
+Cumpărătorul a zis că și el o folosește ca uscător de rufe.
+# costa → costă
+Bateria nouă costă jumătate din prețul bicicletei.
+# Tine → Ține
+Ține vreo 25 de kilometri, suficient pentru mine.
+# cumpăra → cumpără
+Cine mai cumpără mașini noi la prețurile de acum?
+# Verifica → Verifică
+Verifică istoricul mașinii pe seria de șasiu.
+# iarnă → iarna
+Vânzătorul spunea că e mașină de damă, nefolosită iarna.
+# mașină → mașina
+Am dus mașina la un service înainte să o cumpăr.
+# Coadă → Coada, întreaga → întreagă
+Coada la vulcanizare în noiembrie e de o zi întreagă.
+# Programati-va → Programați-vă
+Programați-vă din timp, nu așteptați prima zăpadă.
+# Stergătoarele → Ștergătoarele
+Ștergătoarele noi fac un zgomot îngrozitor.
+# mașină → mașina
+După o zi toată mașina mirosea a bomboane ieftine.
+# Covorășele → Covorașele
+Covorașele de cauciuc sunt mai practice decât cele textile.
+# mașina → mașină
+Am luat un suport de telefon pentru mașină și cade la fiecare groapă.
+# husă → husa
+Câinele a ros husa în prima săptămână.
+# tapiterie → tapițerie
+Bicarbonatul presărat pe tapițerie absoarbe mirosurile.
+# curete → curețe
+Au uitat să curețe portbagajul.
+# Croiala → Croială
+Croială lejeră, foarte comodă.
+# marfă → marfa
+Am primit marfa a doua zi.
+# incompleta → incompletă
+Comanda a sosit incompletă.
+# Lipșește → Lipsește
+Lipsește cureaua din set.
+# Arata → Arată
+Arată mult mai scump decât a costat.
+# cautam → căutam
+Fix ce căutam.
+# sifonează → șifonează
+Nu se șifonează, perfectă pentru călătorii.
+# aluneca → alunecă
+Papucii de casă alunecă pe parchet.
+# așteptăm → așteptam
+Halatul de baie e mai subțire decât mă așteptam.
+# Mănusile → Mănușile
+Mănușile sunt prea mici pentru o mână de bărbat.
+# iarna → iarnă
+Fularul e lung și călduros, ideal pentru iarnă.
+# cusătura → cusătură
+Bareta genții s-a rupt la cusătură.
+# arata → arată, curelusă → curelușa
+Ceasul arată elegant, dar curelușa e din plastic ieftin.
+# apă → apa
+Brățara s-a înnegrit în contact cu apa.
+# Samponul → Șamponul, spuma → spumă
+Șamponul face spumă bună și miroase plăcut.
+# râs → ras
+Aparatul de ras taie bine, dar e zgomotos.
+# suvită → șuviță
+Ondulatorul mi-a ars o șuviță.
+# toartă → toarta
+Cănile sunt drăguțe, dar toarta e prea mică.
+# Oală → Oala, incing → încing
+Oala are mânerele care se încing.
+# râde → rade
+Răzătoarea e foarte bună, rade fin.
+# gheață → gheața
+Blenderul nu sfărâmă gheața, cum promite.
+# tin → țin
+Robotul de bucătărie are prea multe accesorii, nu știu unde să le țin.
+# Fierbatorul → Fierbătorul
+Fierbătorul e silențios și se oprește singur.
+# spuma → spumă
+Espressorul are spumă bună, dar se curăță greu.
+# treaptă → treapta
+Toasterul arde pâinea chiar și pe treapta cea mai mică.
+# lasa → lasă
+Fierul de călcat lasă pete de apă pe haine.
+# zgomoț → zgomot
+Frigiderul face un zgomot ca de motor de avion noaptea.
+# palpaie → pâlpâie
+Plita are un arzător care pâlpâie.
+# întreaga → întreagă
+Boxa portabilă ține bateria o zi întreagă.
+# Imprimantă → Imprimanta
+Imprimanta consumă cerneală ca o nebună.
+# lumina → lumină
+Bec bun, lumină caldă și plăcută.
+# rezistență → rezistentă
+Lanterna e puternică și rezistentă la apă.
+# Bormasina → Bormașina
+Bormașina e puternică, dar acumulatorul ține puțin.
+# Grătârul → Grătarul
+Grătarul se încinge repede și uniform.
+# basici → bășici
+Bocancii de munte mi-au făcut bășici în prima zi.
+# roțile → rotile
+Patinele cu rotile sunt prea mari, deși am ales mărimea corectă.
+# Mașinuță → Mașinuța, telecomanda → telecomandă
+Mașinuța cu telecomandă s-a stricat de Crăciun.
+# ala → ăla
+ce zici, merită să-mi iau ăla de 3000 sau iau unul mai ieftin?
+# aștia → ăștia
+eu zic să nu dai banii ăștia, ia-l pe cel de la mijloc
+# ala → ăla, camera → cameră
+dar ăla nu are cameră bună
+# cameră → camera, ca → că
+și ce faci cu camera, că oricum pozezi doar mâncare
+# ărată-mi → arată-mi
+arată-mi când vine, sunt curioasă
+# cat → cât
+cât ai dat pe ea?
+# că → ca
+merg, dar nu stau toată ziua prin magazine ca data trecută
+# astă → asta
+am mai auzit asta
+# imi → îmi
+îmi place, dar ți se vede bine pe spate?
+# stă → sta
+atunci ia-o, nu mai sta pe gânduri
+# cabina → cabină
+ai stat o oră în cabină și nu iei nimic?
+# plăcintă → plăcinta
+ce bună era plăcinta aia, mai iau una
+# cina → cină
+mai lasă, că nu mai mâncăm la cină
+# diferență → diferența
+sau le ceri diferența, unele magazine o dau
+# astă → asta, asa → așa
+asta da, aș vrea să fie toți așa
+# costa → costă
+Boabele bune costă cam 80 de lei kilogramul.
+# râsniță → râșniță
+Am cumpărat o râșniță manuală, e terapeutică.
+# baristă → barista
+Fac cafea dimineața și mă simt ca un barista.
+# ca → că
+Soțul zice că e cea mai scumpă cafea din lume.
+# socoțești → socotești
+Dacă socotești tot, poate are dreptate.
+# Cumpăram → Cumpărăm
+Cumpărăm la vrac doar lucrurile neperisabile.
+# debară → debara
+Sub pat, în debara, unde găsim.
+# Debărăua → Debaraua
+Debaraua e plină de lucruri pe care nu le-am folosit niciodată.
+# biserica → biserică
+Restul le donăm la biserică.
+# ca → că
+Preotul a zis că primesc doar haine curate și întregi.
+# lipsă → lipsa
+Am dus și jucăriile, copiii n-au observat lipsa.
+# mașinută → mașinuță, noua → nouă
+Am cumpărat o mașinuță nouă să-i liniștesc.
+# săptămână → săptămâna, seară → seara
+Am pregătit mâncare pentru toată săptămâna duminică seara.
+# saturat → săturat
+Până miercuri m-am săturat de același fel de mâncare.
+# boiauă → boiaua
+După o lună, am amestecat iar boiaua cu scorțișoara.
+# Camara → Cămara
+Cămara organizată e visul meu.
+# cămari → cămări
+Am văzut pe internet niște cămări perfecte și mi-e rușine de a mea.
+# ala → ăla
+Pisica s-a mutat și în ăla.
+# pisică → pisica
+Am luat o zgârietoare de 300 de lei și pisica zgârie toată canapeaua.
+# arătă → arată
+Canapeaua arată de parcă a trecut prin război.
+# husă → husa
+Pisica a găsit husa foarte interesantă.
+# tapitată → tapițată, pisică → pisica
+Nu mai cumpăr mobilă tapițată până nu crește pisica.
+# masa → masă
+Florile proaspete pe masă schimbă toată atmosfera.
+# bunică → bunica
+Sau o aspirină, zicea bunica.
+# râs → ras
+Pentru chiftele: carne tocată, un cartof ras, ceapă, usturoi, mărar și un ou.
+# râs → ras
+Cartoful ras le face mai pufoase, e secretul mamei.
+# peste → pește, peste → pește
+Chiftelele de pește le fac cu pește alb și pesmet.
+# verdeața → verdeață
+Tocați-le mărunt și amestecați cu ceapă verde și verdeață.
+# măcelarie → măcelărie
+Dacă nu găsiți prapur, întrebați la măcelărie cu o săptămână înainte.
+# Măcelaria → Măcelăria, piața → piață
+Măcelăria din piață are și prapur, și organe, dar trebuie să comanzi.
+# bors → borș
+Ciorba de perișoare are nevoie de borș, nu de oțet.
+# ciorba → ciorbă, apă → apa
+Puneți-le în ciorbă doar când apa fierbe, altfel se desfac.
+# Supa → Supă
+Supă de găluște: găluștele se lasă la frigider o jumătate de oră.
+# supă → supa, clocoteste → clocotește
+Găluștele trebuie puse în supa care clocotește.
+# Ceapă → Ceapa
+Ceapa se caramelizează încet, la foc foarte mic.
+# primăvară → primăvara, loboda → lobodă
+Ciorba de lobodă se face primăvara, cu lobodă tânără.
+# legătură → legătura
+Am cumpărat urzici de la piață, 10 lei legătura.
+# Salată → Salata, păpadie → păpădie
+Salata de păpădie e amară, dar sănătoasă.
+# Stevia → Ștevia, acrisoară → acrișoară
+Ștevia se pune la ciorbă, e acrișoară.
+# salată → salata, varză → varza, fidelută → fideluță
+Pentru salata de varză, tăiați varza fideluță și frecați-o cu sare.
+# Frecata → Frecată, varză → varza
+Frecată cu sare, varza se înmoaie și scoate zeamă.
+# râs → ras
+Adăugați morcov ras, mărar și oțet de vin.
+# zeamă → zeama
+Bunicul pritocea zeama de varză în fiecare săptămână.
+# listă → lista
+Citește lista de ingrediente la pâinea de la supermarket.
+# rădăcină → rădăcina
+Ceapa verde se regenerează dacă o pui cu rădăcina în apă.
+# piatră → piatra
+Avocado din supermarket e fie tare ca piatra, fie stricat.
+# tăi → tai
+Rodia se desface ușor dacă o tai în sferturi sub apă.
+# judecăți → judecați
+Eu scot stafidele din orice, nu mă judecați.
+# nuca → nucă
+Am rămas fără nucă și am pus alune, a ieșit bine.
+# grățarul → grătarul
+Hârtia de copt nu se pune pe grătarul cuptorului fără tavă.
+# Grățarele → Grătarele
+Grătarele cuptorului le pun la înmuiat în cadă.
+# comandam → comandăm
+Soluția: nu mai gătesc nimic, comandăm.
+# biletel → bilețel
+Au inclus și un bilețel scris de mână, drăguț.
+# bicicletă → bicicleta
+Livratorul a fost cu bicicleta, a ajuns transpirat, săracul.
+# bacsis → bacșiș
+I-am dat bacșiș în plus și un pahar de apă.
+# asta → ăsta
+Restaurantul ăsta merită susținut, mâncare cinstită.
+# flamand → flămând
+Porțiile sunt generoase, nimeni nu pleacă flămând.
+# că → ca
+Am dus-o pe mama acolo și a zis că ciorba e ca a ei.
+# bucătăreasa → bucătăreasă
+Le-am lăsat o recenzie de cinci stele și un mesaj pentru bucătăreasă.
+# ca → că, asta → ăsta
+Ce bine că mai există locuri de felul ăsta.
+# Buna → Bună, va → vă
+Bună ziua, vă contactez în legătură cu comanda de ieri.
+# factura → factură
+Pe factură apar toate trei, dar în cutie erau doar două.
+# Va → Vă
+Vă rog să verificați la depozit și să-mi trimiteți produsul lipsă.
+# va → vă
+Ne pare rău pentru neplăcere, vă trimitem produsul azi.
+# colețul → coletul
+Mulțumesc, aștept coletul.
+# sâmbătă → sâmbăta
+Curierul a încercat să livreze la ora șapte dimineața, sâmbăta.
+# Va → Vă
+Vă rog să nu-mi mai trimiteți reclame pe email, m-am dezabonat de trei ori.
+# Ma → Mă
+Mă sună zilnic un număr de la voi cu oferte, e hărțuire.
+# Buna → Bună, pizză → pizza
+Bună, am comandat o pizza acum o oră, unde e?
+# Va → Vă
+Vă rog să-mi returnați banii, nu se poate mânca.
+# sumă → suma
+Ne cerem scuze, v-am returnat suma în cont.
+# altcuivă → altcuiva
+Comanda a ajuns, dar era a altcuiva.
+# scara → scară
+Vecinul a primit pizza mea, ne-am schimbat pe scară.
+# naibă → naiba
+Decorativ pe naiba, am băut un litru de lapte.
+# costa → costă
+Livrarea e gratuită peste 150 de lei, dar produsele costă dublu.
+# ca → că
+Calculați și vedeți că iese mai scump decât în magazin.
+# noua → nouă, dimineață → dimineața
+Marfa nouă vine marți dimineața, mi-a zis un angajat.
+# pașă → păsa
+Am semnalat la casă, dar nu le păsa.
+# măcine → macine
+Cereți să vi se macine pe loc, e dreptul vostru.
+# măcine → macine, mașină → mașina
+Măcelarul a refuzat să-mi macine carnea, zicea că s-a curățat mașina.
+# peste → pește
+Peștele de la raion nu miroase a mare, miroase a pește vechi.
+# peste → pește
+La pește proaspăt, carnea revine când o apeși cu degetul.
+# masa → masă
+Am uitat carnea pe masă toată ziua, am aruncat-o.
+# dată → data
+Am pus în congelator pâine, carne și legume, totul etichetat cu data.
+# cica → cică
+În Anglia nu se țin ouăle în frigider, cică.
+# țara → țară, spal → spăl
+Ouăle de la țară nu le spăl până nu le folosesc.
+# ca → că
+I-am explicat și a zis că o să încerce și ea acasă.
+# țigaie → tigaie
+Ochiurile românești se fac în tigaie cu capac.
+# posate → poșate
+Ochiurile românești la noi înseamnă ouă poșate, nu prăjite.
+# posat → poșat
+Oul poșat e o artă, mi se sparge mereu.
+# fa → fă
+Pune puțin oțet în apă și fă un vârtej.
+# Cumpăra → Cumpără, asta → ăsta
+Cumpără ouă foarte proaspete, ăsta e secretul.
+# galbenușul → gălbenușul
+Ouăle bio au gălbenușul mai deschis la culoare decât cele de țară.
+# galbenușului → gălbenușului, găină → găina
+Culoarea gălbenușului depinde de ce mănâncă găina.
+# costa → costă
+De ce costă ouăle maro mai mult?
+# adora → adoră
+Copiii adoră ouăle de prepeliță fierte.
+# țări → tari
+Fierbe-le doar trei minute, că se fac tari imediat.
+# curață → curăță
+Se curăță greu, au coaja subțire și membrană tare.
+# gâșcă → gâscă
+Am primit ouă de gâscă de la o vecină, unul cât trei de găină.
+# gâșcă → gâscă
+O omletă dintr-un ou de gâscă ajunge pentru doi.
+# ca → că
+Ce bine că avem vecini cu gospodărie la țară.
+# asta → ăsta
+Schimbul ăsta funcționează de ani de zile.
+# schimbă → schimba, vecină → vecina
+Bunica schimba ouă pe zahăr cu vecina.
+# vară → vara
+Am plantat roșii pe balcon și am obținut patru roșii toată vara.
+# căldură → căldura
+Ardeii iuți cresc bine în ghiveci, le place căldura.
+# factură → factura, adresa → adresă
+Mi-a venit factura de la magazinul online cu altă adresă.
+# factură → factura
+Puteți să-mi refaceți factura pe datele firmei?
+# Garantia → Garanția, său → sau
+Garanția se face pe baza bonului sau a facturii.
+# doua → două, ca → că
+Ia două, că oricum le folosim.
+# cani → căni
+Avem deja douăzeci de căni de la oferte.
+# cani → căni
+Dulapul de căni nu se mai închide.
+# cani → căni
+Am donat zece căni la un cămin de bătrâni.
+# tombolă → tombola, școala → școală
+Am cumpărat bilete la tombola de la școală și am câștigat un aspirator.
+# zăcuscă → zacuscă
+Sora mea mi-a dat în schimb niște borcane cu zacuscă.
+# mamă → mama
+Am refuzat o dată mâncarea de la mama și s-a supărat o săptămână.
+# rețetă → rețeta
+Un coleg m-a rugat să-i cer rețeta.
+# rețetă → rețeta
+Mama a zis că rețeta e secretă, dar îi face și lui o oală.
+# cheta → chetă
+La chetă se vede cine e zgârcit.
+# asta → ăsta
+Anul ăsta i-am luat o sticlă de vin și o carte.
+# costa → costă
+Un set de construcție mic costă 300 de lei.
+# jucăm → jucam, carpă → cârpă
+Pe vremea mea ne jucam cu o minge și o păpușă de cârpă.
+# său → sau, dilema → dilemă
+Bradul natural sau artificial? Eterna dilemă.
+# casă → casa
+A crescut acum mai înalt decât casa.
+# Pisică → Pisica
+Pisica a dărâmat bradul în a doua seară.
+# luminitelor → luminițelor
+Calitatea luminițelor de Crăciun ieftine e jalnică.
+# Merita → Merită, sa → să
+Merită să dai mai mult pe o instalație bună, ține ani.
+# luminite → luminițe
+Am pus luminițe pe balcon, vecinii au făcut la fel.
+# că → ca
+Blocul nostru arată ca un pom de Crăciun uriaș.
+# Cați → Câți
+Câți bani dați pe curent iarna?
+# consumă → consuma
+Frigiderul vechi consuma cât trei frigidere noi.
+# factură → factura
+L-am schimbat și factura a scăzut cu 50 de lei.
+# ametesc → amețesc
+Calculele astea mă amețesc, cumpăr ce-mi place.
+# Șoțul → Soțul, cumpărătura → cumpărătură
+Soțul face tabele în Excel pentru orice cumpărătură mare.
+# degeabă → degeaba
+Toată cercetarea a fost degeaba.
+# Ti-am → Ți-am
+Ți-am trimis link-ul cu mașina de spălat pe care am ales-o.
+# Arata → Arată
+Arată bine, dar citește recenziile de la una stea.
+# sa → să
+Am rugat-o pe vecina să deschidă curierului.
+# mașină → mașina, sa → să
+Prima centrifugare a făcut mașina să sară prin baie.
+# Suruburile → Șuruburile
+Șuruburile de transport se păstrează pentru mutări.
+# Costa → Costă
+Costă 15 lei setul, dar transportul 25.
+# dispara → dispară
+Mergeți la magazinele mici, ca să nu dispară.
+# că → ca, broască → broasca
+Am pus și spanac în smoothie, a ieșit verde ca broasca.
+# Planifica → Planifică
+Planifică mesele pe o săptămână, așa cumperi doar ce trebuie.
+# cumpăra → cumpără
+Atunci cumpără mai puțin și mai des.
+# bunică → bunica
+Merg la magazin în fiecare zi, ca bunica.
+# Il → Îl
+Îl folosesc acum pentru băuturi, în garaj.
+# Consuma → Consumă
+Consumă mult, dar arată superb.
+# costa → costă
+Vinilurile noi costă 150 de lei, cele vechi 20.
+# tată → tata
+Discul a fost un cadou pentru tata, s-a emoționat.
+# ascultă → asculta
+Era discul pe care îl asculta când era tânăr.
+# întreaga → întreagă
+Am văzut un anunț cu o colecție întreagă de discuri, vândută la kilogram.
+# tin → țin
+Nu știu dacă să cumpăr, nu am unde să le țin.
+# ascultă-o → asculta-o
+Jumătate sunt muzică pe care n-aș asculta-o niciodată.
+# oglindă → oglinda
+Asigurarea a acoperit doar oglinda.
+# plans → plâns
+Am plâns mai mult pentru tablouri decât pentru orice altceva.
+# pisică → pisica
+A făcut zece poze cu pisica în prima oră.
+# Pisică → Pisica
+Pisica nu pare impresionată.
+# ca → că, prință → printa
+Fiica mea a descoperit că și pozele cu telefonul se pot printa.
+# Cerneală → Cerneala
+Cerneala pentru imprimantă e mai scumpă decât parfumul.
+# imprimantă → imprimanta
+Am cumpărat cerneală compatibilă și imprimanta a refuzat-o.
+# Listă → Lista
+Lista de rechizite de la școală a costat o mică avere.
+# urma → urmă
+Până la urmă am cumpărat coperți verzi separat.
+# că → ca
+Copilul arată ca într-un sac, dar e practic.
+# școala → școală
+Pantofii de școală trebuie să fie negri, fără desene.
+# luminite → luminițe
+Am găsit doar pantofi negri cu luminițe.
+# luminitele → luminițele, banda → bandă
+Le-am acoperit luminițele cu bandă neagră.
+# bandă → banda
+Copilul a scos banda în prima pauză.
+# luminite → luminițe
+Acum toată clasa vrea pantofi cu luminițe.
+# vorba → vorbă, vorba → vorbă
+Așa se face marketing în România, din vorbă în vorbă.
+# mamici → mămici
+Grupul de mămici de pe Facebook e enciclopedia mea.
+# mamică → mămică
+O mămică a recomandat un leac băbesc pentru colici.
+# farmacistă → farmacista
+Dar farmacista e atentă și te sfătuiește bine.
+# Merita → Merită, sa → să
+Merită să plătești puțin mai mult pentru un sfat bun.
+# Va → Vă
+Vă rog frumos, puteți să-mi spuneți unde găsesc drojdia?
+# Va → Vă
+Vă mulțumesc, n-aș fi găsit-o niciodată acolo.
+# Va → Vă, față → fața
+Vă supărați dacă trec în fața dumneavoastră? Am doar o pâine.
+# problema → problemă
+Treceți, nu e nicio problemă.
+# Va → Vă
+Vă las și coșul, eu am terminat.
+# Va → Vă, Vad → Văd
+Vă place ce ați cumpărat? Văd că ați luat aceeași cafea ca mine.
+# Va → Vă, marfă → marfa
+Vă sun eu când ajunge marfa nouă.
+# Va → Vă
+Vă trimit adresa pe mesaj.
+# Va → Vă
+Vă aștept la poartă, sunați când ajungeți.
+# costa → costă, aștia → ăștia
+Mă scuzați, cât costă ardeii ăștia? Nu văd prețul.
+# Cat → Cât
+Cât îmi dați pentru toate?
+# Cat → Cât
+Cât mai stați azi la piață?
+# ca → că, asta → ăsta
+Mama zice că pepenele ăsta e prea mare pentru noi.
+# Mama → Mamă, destula → destulă
+Mamă, n-ai pus drojdie destulă.
+# Lasa → Lasă, mama → mamă
+Lasă, mamă, mâncăm și pâine cumpărată.
+# masă → masa, ca → că, musăfirii → musafirii
+Pune masa, că vin musafirii.
+# în → in
+Am cumpărat o față de masă de in, se calcă greu.
+# Fața → Fata
+Fata mea vrea să-și deschidă o patiserie.
+# fața → fată
+Ce fată harnică, face prăjituri de la zece ani.
+# Ti-am → Ți-am
+Ți-am adus o felie de tort de la petrecere.
+# Ti-am → Ți-am
+Ți-am zis că nu mai mănânc dulce.
+# ciorbă → ciorba
+Ce mi-a plăcut mie cel mai mult a fost ciorba.
+# Asta → Ăsta, tată → tata
+Ăsta e cel mai bun cuțit pe care l-am avut, zice tata.
+# Ala → Ăla
+Ăla de la piață a vrut să mă păcălească la cântar.
+# brânză → brânza
+Aia cu brânza e cea mai cinstită vânzătoare.
+# Aia → Ăia
+Ăia de la magazinul nou au prețuri bune.
+# Astia → Ăștia
+Ăștia de la curierat nu răspund niciodată.
+# Cat → Cât
+Cât mai e până se deschide magazinul?
+# Coadă → Coada
+Coada e până la colțul străzii.
+# aștia → ăștia
+De ce stau toți ăștia la coadă?
+# urma → urmă
+Până la urmă am cumpărat televizorul la preț normal, o săptămână mai târziu.
+# cumpărătura → cumpărătură
+Folosesc mereu unul înainte de orice cumpărătură mare.
+# Ma → Mă, ca → că
+Mă bucur că totuși cumpăr mai puțin acum.
+# cumpăra → cumpără
+Mama încă cumpără orice e la ofertă.
+# cămara → cămară
+Avem în cămară zece sticle de ulei de la o ofertă.
+# Prajim → Prăjim, incotro → încotro
+Prăjim tot anul, nu avem încotro.
+# scara → scară
+Am făcut patru plăcinte și le-am împărțit pe scară.
+# scară → scara, rețetă → rețeta
+Acum toată scara vrea rețeta.
+# Reteta → Rețeta
+Rețeta e simplă: mere, zahăr, scorțișoară și un aluat fraged.
+# topiț → topit
+Aluatul fraged se face cu unt rece, nu topit.
+# frămânță → frământă, făină → făina
+Untul se taie cubulețe și se frământă repede cu făina.
+# Lasa → Lasă
+Lasă aluatul la frigider o jumătate de oră înainte să-l întinzi.
+# râd → rad
+Merele se rad și se călesc puțin cu zahăr.
+# zeamă → zeama
+Pune un strat de pesmet sub mere, absoarbe zeama.
+# Acopera → Acoperă, furculiță → furculița
+Acoperă cu a doua foaie și înțeapă-o cu furculița.
+# Placinta → Plăcinta
+Plăcinta cu mere e mai bună a doua zi.
+# arată → arăta
+Tortul a fost bun, chiar dacă unicornul arăta ciudat.
+# că → ca
+Prăjiturile de la cofetăria veche din centru sunt ca pe vremuri.
+# bunică → bunica
+Mă știe de când eram copil și veneam cu bunica.
+# că → ca
+Ea zice că nu mai sunt ca pe vremuri, dar le mănâncă pe toate.
+# rețetă → rețeta
+Dar îmi cere mereu rețeta, pentru vecine.
+# bunică → bunica
+Așa e bunica, nu-ți spune niciodată că ți-a ieșit bine.
+# ala → ăla
+Caietul ăla e cel mai prețios lucru din bucătăria mea.
+# Reteta → Rețeta
+Rețeta ei de cozonac e scrisă pe trei pagini, cu sfaturi pe margine.
+# Frămânța → Frământă
+Frământă cu dragoste, scrie la final.
+# Gatitul → Gătitul
+Gătitul e mai mult decât o rețetă, e o amintire.
+# bunică → bunica
+De fiecare dată când fac sarmale, simt că e și bunica acolo.
+# varză → varza
+Eu aduc varza, tu adu carnea.
+# Si → Și
+Și vinul, să nu uităm vinul.
+# Si → Și
+Și pentru vecini, ca de obicei.

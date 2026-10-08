@@ -3,10 +3,10 @@
   "model": {
     "vocab_size": 256,
     "window": 256,
-    "d_model": 192,
-    "n_layers": 4,
-    "n_heads": 4,
-    "d_ff": 512,
+    "d_model": 384,
+    "n_layers": 6,
+    "n_heads": 6,
+    "d_ff": 1536,
     "dropout": 0.1,
     "n_classes": 3
   },

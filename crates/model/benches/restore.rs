@@ -7,7 +7,7 @@ use diacritics_model::Transformer;
 
 const CONFIG: &str = r#"{
   "format_version": 1,
-  "model": {"vocab_size": 256, "window": 256, "d_model": 192, "n_layers": 4, "n_heads": 4, "d_ff": 512, "dropout": 0.1, "n_classes": 3},
+  "model": {"vocab_size": 256, "window": 256, "d_model": 384, "n_layers": 6, "n_heads": 6, "d_ff": 1536, "dropout": 0.1, "n_classes": 3},
   "alphabet": {"pad_id": 0, "unk_id": 1, "chars": "ALPHABET"},
   "labels": ["none", "breve_comma", "circumflex"],
   "overlap": 32,

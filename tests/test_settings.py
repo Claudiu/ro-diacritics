@@ -7,7 +7,7 @@ def test_defaults_are_valid(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.delenv("DIACRITICS_D_MODEL", raising=False)
     settings = Settings.from_env()
 
-    assert settings.model.d_model == 192
+    assert settings.model.d_model == 384
     assert settings.paths.processed.name == "processed"
 
 

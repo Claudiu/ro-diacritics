@@ -1,0 +1,24 @@
+# Cooking: "a pisa" (to crush, in a mortar) is not "a pișa". Reported 2026-10-09 from the demo.
+# Each sentence is preceded by a comment: what the model wrote → the correct form.
+
+# pișat → pisat (English after it tipped the model)
+Și acum strivim usturoiul pisat. Și îl adăugăm în farfuria de plastic. Should be nice and good, tu ce zici?
+# pișat → pisat
+Am pisat nucile în piuă și le-am presărat peste prăjitură.
+Pisăm usturoiul cu puțină sare până devine o pastă.
+Mujdeiul se face din usturoi pisat, apă, sare și puțin ulei.
+Adaugă o lingură de zahăr pisat și amestecă bine.
+Piperul proaspăt pisat are mult mai multă aromă.
+Bunica pisa mereu usturoiul într-un mojar de lemn.
+Ok, so now we add the usturoi pisat, it's going to be amazing, nu-i așa?
+Lăsați usturoiul pisat să stea cinci minute înainte de a-l găti.
+# Contrast: the other verb stays marked.
+Câinele a pișat pe covor, așa că am spălat totul imediat.
+# pișat → pisat: "am/ai/a pisat" + food still went to the other verb.
+Am pisat usturoiul și l-am pus în sos.
+Ai pisat deja nucile pentru cozonac?
+Mama a pisat piperul în râșniță.
+Am pisat doi căței de usturoi cu sare grunjoasă.
+Ați pisat semințele de chimen sau le folosim întregi?
+Am pisat bine migdalele, acum le amestec cu zahărul.
+Bucătarul a pisat ierburile în mojar până au devenit o pastă verde.

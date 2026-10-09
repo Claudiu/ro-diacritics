@@ -362,6 +362,8 @@
     .term:hover, .term[aria-expanded="true"] { background: var(--desk); }
     .term:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
     .hint { max-width: var(--text); margin: -3.5rem 0 5rem; color: var(--muted); font-size: 1rem; }
+    .video { max-width: var(--wide); margin: -2.5rem 0 5rem; }
+    .video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; }
     /* The tooltip is an index card: paper, a red rule under the term, faint ruled lines
        behind the explanation, a pointer to the word. Some cards carry a small line diagram
        that draws itself when the card opens. */
@@ -436,6 +438,12 @@
       textul la un server.</p>
     <p class="hint">Termenii tehnici <span class="term" data-term="exemplu">subliniați așa</span> au o explicație pe scurt.
       Treci cu mouse-ul peste ei sau atinge-i.</p>
+
+    <figure class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/hthFhiDSOhw?si=jxvF4QAN_I2sX2Qv" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+    </figure>
 
     <nav class="toc" aria-label="Cuprins"><ol>
       <li><a href="#de-ce">De ce m-am apucat din nou de el</a></li>

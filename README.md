@@ -10,6 +10,8 @@ https://claudiu.github.io/ro-diacritics/about.html
 
 It is still a PoC.
 
+![The demo: text without diacritics on the left, restored on the right, added letters tinted](docs/images/demo.png)
+
 ## Why I picked it up again
 
 In 2018 I built [keras-diacritics](https://github.com/Claudiu/keras-diacritics), a BiLSTM in
@@ -38,8 +40,16 @@ to run in the browser: no server, no account.
 - The context window is 256 characters, which is what separates „fata” / „fată” / „față”.
   Longer texts are split into windows that overlap by 32 characters; each character is
   predicted by the window where it sits furthest from an edge.
+
+  ![A 700-character text split into three 256-character windows overlapping by 32; the solid part of each window is what it decides](docs/images/windows.png)
 - Decoding applies a change only above a confidence threshold, so a missed diacritic is
   preferred to a wrong one. The output has the same length as the input.
+
+Where the model looks when it decides the „s” in „pisat” (sentence: „Si acum strivim usturoiul
+pisat in farfurie.”, mean of the 6 heads, thicker arc = more weight). Layer 1, above, stays
+inside the word; layer 6, below, also reads „strivim”, „usturoiul” and „farfurie”:
+
+![Attention arcs from the s in pisat to the letters around it, for the first and last layer](docs/images/attention.png)
 
 Architecture: pre-LayerNorm transformer encoder, 6 blocks, width 384, 6 heads, feed-forward
 384 → 1536 → 384 with GELU, a linear head to 3 classes. Attention is not causal: every
@@ -54,6 +64,8 @@ with 4-bit weights → candle in a Web Worker.
 
 - 99.5% per-letter accuracy on `a i s t` on the validation set, up from 97.8% during
   training. The baseline (the most frequent form of each word) gets 98.4%.
+
+  ![Validation accuracy over 80,000 training steps, from 97.8% to 99.52%, crossing the 98.4% dictionary baseline early](docs/images/training.png)
 - ~0.5 s for a 500-character text in the browser.
 - On 10,223 sentences the first model got wrong, the 1.5M-parameter variant still missed
   5,963; the 10.8M one missed none.
@@ -84,6 +96,8 @@ Download size:
 groups of 32 values; each group stores an FP16 `scale = max|w| / 7` and `q = round(w / scale)`
 as 4 bits, two per byte (128 B → 18 B per group). The browser rebuilds the weights as
 `q × scale` before inference.
+
+![A group of 32 FP32 weights, and the same weights rounded to 15 levels (4 bits)](docs/images/quantization.png)
 
 ## Why not an LLM?
 

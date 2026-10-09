@@ -286,7 +286,7 @@
       <p>Aveam atunci un RTX 2060 și m-am lovit destul de repede de limitele hardware-ului. În
         2026 am un RTX 5090 și am vrut să văd ce pot obține cu un model antrenat de la zero,
         suficient de mic încât să ruleze direct în browser.</p>
-      <p>Rezultatul e proiectul de față: modelul rulează local, prin WebAssembly. Nu ai nevoie
+      <p>Așa a apărut versiunea asta: modelul rulează local, prin WebAssembly. Nu ai nevoie
         de cont sau de un server, iar textul rămâne în browser.</p>
     </section>
 
@@ -300,7 +300,7 @@
           <tr><th scope="row">Training</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4 ore</td></tr>
           <tr><th scope="row">Inferență</th><td>Server Python</td><td>Browser, Rust + WebAssembly</td></tr>
           <tr><th scope="row">Date de antrenare</th><td><code>train.txt</code></td><td>Wikipedia, OpenSubtitles și corecturi manuale</td></tr>
-          <tr><th scope="row">Dimensiune</th><td>—</td><td>~6 MB, weights quantized la 4 biți</td></tr>
+          <tr><th scope="row">Dimensiune</th><td>—</td><td>6,2 MB, weights quantized la 4 biți</td></tr>
         </tbody>
       </table>
     </section>
@@ -336,7 +336,7 @@
       <h2>Sub capotă</h2>
       <p>Modelul e antrenat în PyTorch, iar inferența e implementată în Rust cu
         <a href="https://github.com/huggingface/candle">Candle</a> și compilată în WebAssembly. Am
-        quantizat weights la 4 biți pentru a reduce dimensiunea modelului la aproximativ 6 MB.</p>
+        quantizat weights la 4 biți, așa că modelul are 6,2 MB.</p>
 
       <div class="diagrams">
         <figure>
@@ -364,7 +364,7 @@
             <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
             <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
             <li><b>Training</b><span class="detail">PyTorch, bf16, RTX 5090, 80.000 de pași, ~4 ore</span></li>
-            <li><b>Export</b><span class="detail">safetensors, weights la 4 biți, 6 MB</span></li>
+            <li><b>Export</b><span class="detail">safetensors, weights la 4 biți, 6,2 MB</span></li>
             <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un Web Worker</span></li>
           </ol>
         </figure>
@@ -376,16 +376,18 @@
       <dl class="facts">
         <dt>99,5%</dt><dd>accuracy pentru predicțiile literelor a, i, s și t</dd>
         <dt>10,8M</dt><dd>parametri</dd>
-        <dt>~6 MB</dt><dd>de descărcat, o singură dată</dd>
+        <dt>6,2 MB</dt><dd>de descărcat, o singură dată</dd>
         <dt>~0,5 s</dt><dd>pentru un text de 500 de caractere</dd>
       </dl>
 
       <h3>Cum a evoluat modelul în timpul antrenării</h3>
       <p>Pe setul de validare, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
-      <figure class="chart" id="curve" data-animate></figure>
-      <p>Ca referință, un dicționar care alege forma cea mai frecventă a
-        fiecărui cuvânt obține 98,4% (linia punctată). Modelul se descurcă mai bine inclusiv pe
-        texte pe care nu le-a văzut în timpul antrenării.</p>
+      <figure class="chart" id="curve" data-animate>
+        <div id="curve-plot"></div>
+        <figcaption>Linia punctată e baseline-ul: un dicționar care alege forma cea mai
+          frecventă a fiecărui cuvânt (98,4%). Pe setul de validare, modelul a trecut de
+          baseline.</figcaption>
+      </figure>
 
       <h3>Contează și dimensiunea modelului</h3>
       <p>Am testat mai multe dimensiuni pe un set de 10.223 de propoziții pe care modelul inițial
@@ -394,13 +396,11 @@
         <li><b>1,5M parametri:</b> 5.963 de propoziții încă greșite</li>
         <li><b>10,8M parametri:</b> 0 propoziții greșite</li>
       </ul>
-      <p>Pe acest set, modelul mai mare a corectat toate exemplele. Asta nu înseamnă că nu mai
-        face greșeli în general, dar arată diferența pe un set construit special pentru cazurile
-        dificile.</p>
+      <p>Pe setul ăsta, varianta de 10,8M nu a mai greșit nicio propoziție.</p>
 
       <h3>Cât durează inferența în browser</h3>
-      <p>Un model mai mare poate fi mai precis, dar durează mai mult să proceseze textul. Am
-        comparat timpii pe același text, pe PC-ul meu:</p>
+      <p>Am comparat timpul de inferență pentru patru dimensiuni de model, pe același text și pe
+        PC-ul meu.</p>
       <table class="num">
         <thead><tr><th scope="col">Parametri</th><th scope="col">Latență</th></tr></thead>
         <tbody>
@@ -410,8 +410,7 @@
           <tr><td>25M</td><td>901 ms</td></tr>
         </tbody>
       </table>
-      <p>Am ales varianta de 10,8 milioane de parametri ca un compromis
-        între dimensiune, viteză și rezultate.</p>
+      <p>Am rămas la 10,8M de parametri. Varianta de 25M era prea lentă pentru ce voiam.</p>
 
       <h3>Dimensiunea la descărcare</h3>
       <table class="num">
@@ -432,7 +431,7 @@
         <div id="quant-q"></div>
         <div class="bytes">
           <div><b>scale = max|w| / 7</b>un FP16 pe grup</div>
-          <div><b>q = round(w / scale)</b>întreg între −7 și 7</div>
+          <div><b>q = round(w / scale)</b>întreg între −7 și 7, stocat ca q + 8 (codul 0 nu e folosit)</div>
           <div><b>128 B → 18 B</b>două valori q într-un byte, plus scale</div>
         </div>
         <figcaption>Cum ajunge modelul de la 43 MB la 6,2 MB. Fiecare matrice e împărțită în
@@ -441,9 +440,8 @@
       </figure>
 
       <h3>De ce am folosit și subtitrări</h3>
-      <p>Wikipedia e utilă pentru vocabular și texte bine structurate, dar nu prea seamănă cu
-        felul în care vorbim. Am adăugat și subtitrări din OpenSubtitles în datele de
-        antrenare.</p>
+      <p>Cu Wikipedia mergea bine, dar pe replici din subtitrări mai făcea greșeli. Am adăugat
+        OpenSubtitles în training și am comparat rezultatele.</p>
       <p>Pe setul meu de evaluare, procentul replicilor cu cel puțin o greșeală a scăzut de la
         6,4% la 3,7%.</p>
     </section>
@@ -462,14 +460,11 @@
         <li><b>Nu face spellcheck:</b> adaugă diacritice, nu corectează toate greșelile de
           scriere.</li>
       </ul>
-      <h3>Un exemplu concret</h3>
       <p>La primele teste am folosit propoziția „Și acum strivim usturoiul pisat”. Modelul a
         transformat „pisat” în „pișat”, probabil pentru că forma respectivă apărea mai des în
         datele de antrenare, inclusiv în subtitrări.</p>
       <p>Am adăugat 17 propoziții din contexte culinare și am făcut un fine-tuning de aproximativ
         30 de minute. După asta, a început să trateze exemplul cum trebuie.</p>
-      <p>E un exemplu bun de limitare: rezultatul depinde mult de datele pe care a fost antrenat
-        modelul, mai ales când două cuvinte diferă printr-o singură diacritică.</p>
     </section>
 
     <section>
@@ -566,8 +561,8 @@
       const [k, v] = points.at(-1);
       s += `<circle class="dot" cx="${x(k)}" cy="${y(v)}" r="4"/>`;
       s += `<text class="end" x="${x(k) + 8}" y="${y(v) + 4}">${ro(v, 2)}%</text>`;
-      document.getElementById("curve").innerHTML =
-        `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Accuracy crește de la 97,8% la 99,5% în 80.000 de pași, peste dicționarul de 98,4%.">${s}</svg>`;
+      document.getElementById("curve-plot").innerHTML =
+        `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Graficul accuracy pe setul de validare, pe parcursul antrenării.">${s}</svg>`;
     }
 
     // Windows over a 700-character text, as planned by domain/windows.py: stride 224,

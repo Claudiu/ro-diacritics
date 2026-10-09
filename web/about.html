@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Despre Diacritificator</title>
-  <meta name="description" content="De ce am readus la viață un proiect din 2018 care pune diacriticele la loc, cum funcționează și ce greșește încă.">
+  <meta name="description" content="De ce am scos de la naftalină un side project din 2018 care pune diacritice, cum merge și ce greșește încă.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,12 +91,6 @@
     p { margin: 0 0 1rem; }
     section > :last-child { margin-bottom: 0; }
 
-    blockquote {
-      margin: 1.25rem 0;
-      padding: .25rem 0 .25rem 1rem;
-      border-left: 3px solid var(--red);
-      font-style: italic;
-    }
     .red { color: var(--red); }
     .muted, figcaption { color: var(--muted); }
     figure { margin: 1rem 0 0; }
@@ -165,19 +159,19 @@
   <main>
     <a class="back" href="./">← Înapoi la Diacritificator</a>
     <h1>Despre Diacritificator</h1>
-    <p class="lede">Un proiect din 2018 pe care l-am readus la viață în 2026.
-      E încă un proof of concept <span class="poc">PoC</span></p>
+    <p class="lede">Un side project din 2018 pe care l-am scos de la naftalină în 2026.
+      E încă un PoC, deci nu vă așteptați la minuni. <span class="poc">PoC</span></p>
 
     <section>
       <h2>De ce l-am reînviat</h2>
-      <p>În 2018 am scris <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics</a>:
-        o rețea neuronală LSTM bidirecțională, în Keras, care punea diacriticele la loc printr-un
-        server Python. A mers, dar a rămas neterminat.</p>
-      <blockquote>Pe atunci aveam un GPU destul de slab și nu mă lăsa să-l fac cum trebuie.
-        Dacă îmi aduc aminte bine, eram pe un RTX 2060.</blockquote>
-      <p>Acum, cu un RTX 5090 și cu uneltele din 2026, am vrut să văd cât de departe se poate
-        ajunge: un model mic, antrenat de la zero, care rulează direct în browser. Fără server,
-        fără cont, iar textul tău nu pleacă de pe calculator.</p>
+      <p>Prin 2018 am făcut <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics</a>:
+        un BiLSTM în Keras, cu un server Python în spate. Mergea, cât de cât, dar nu l-am
+        terminat niciodată. Unfinished business.</p>
+      <p>Pe atunci aveam un GPU destul de slab și nu mă lăsa să-l fac ca lumea. Dacă îmi aduc
+        aminte bine, am trecut de la un RTX 2060.</p>
+      <p>Acum am un RTX 5090, așa că am zis să văd what's possible now: un model mic, trained
+        from scratch, care rulează direct în browser. Fără server, fără cont, textul nu pleacă
+        de la tine.</p>
     </section>
 
     <section>
@@ -185,90 +179,89 @@
       <table>
         <thead><tr><th scope="col"></th><th scope="col">2018</th><th scope="col">2026</th></tr></thead>
         <tbody>
-          <tr><th scope="row">Model</th><td>LSTM bidirecțional</td><td>Transformer pe caractere, 10,8 milioane de parametri</td></tr>
-          <tr><th scope="row">Antrenare</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4 ore</td></tr>
-          <tr><th scope="row">Rulează</th><td>Server Python</td><td>În browser (Rust compilat în WebAssembly)</td></tr>
-          <tr><th scope="row">Date</th><td>Un fișier <code>train.txt</code></td><td>Wikipedia, subtitrări de filme și greșeli corectate de mână</td></tr>
-          <tr><th scope="row">Mărime</th><td>–</td><td>6 MB, cu greutăți pe 4 biți</td></tr>
+          <tr><th scope="row">Model</th><td>BiLSTM</td><td>Character-level transformer, 10,8M params</td></tr>
+          <tr><th scope="row">Training</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4h</td></tr>
+          <tr><th scope="row">Inference</th><td>Server Python</td><td>În browser, Rust + WebAssembly</td></tr>
+          <tr><th scope="row">Dataset</th><td><code>train.txt</code></td><td>Wikipedia, subtitrări (OpenSubtitles), corrections scrise de mână</td></tr>
+          <tr><th scope="row">Size</th><td>–</td><td>6 MB, 4-bit weights</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
       <h2>Cum funcționează</h2>
-      <p>Pentru fiecare literă care ar putea primi un semn (a, i, s, t), modelul alege una din
-        trei variante: nimic, <b>˘ sau ,</b> (ă, ș, ț) sau <b>^</b> (â, î). Ca să aleagă, se uită
-        la până la 256 de caractere din jur, deci contextul contează.</p>
+      <p>Pentru fiecare literă care poate primi diacritice (a, i, s, t), modelul face
+        classification în 3 clase: nimic, <b>˘ sau ,</b> (ă, ș, ț) sau <b>^</b> (â, î). Are un
+        context window de 256 de caractere, deci contează ce e în jur.</p>
       <figure>
         <div class="letters" id="letters" role="img"
              aria-label="Am mancat inghetata devine Am mâncat înghețată, literă cu literă."></div>
         <figcaption class="legend">
-          <span>sus: ce scrii</span><span>mijloc: ce alege modelul</span><span>jos: rezultatul</span>
+          <span>sus: input</span><span>mijloc: ce prezice modelul</span><span>jos: output</span>
         </figcaption>
       </figure>
-      <p style="margin-top:1rem">Modelul e antrenat în PyTorch, apoi rulat cu Rust
-        (<a href="https://github.com/huggingface/candle">candle</a>) compilat în WebAssembly.
-        Greutățile sunt păstrate pe 4 biți, așa că tot modelul încape în 6 MB.</p>
+      <p style="margin-top:1rem">Training în PyTorch, inference în Rust cu
+        <a href="https://github.com/huggingface/candle">candle</a>, compilat în WebAssembly.
+        Weights sunt quantized pe 4 biți, așa că tot modelul are 6 MB.</p>
     </section>
 
     <section>
       <h2>Cifre</h2>
       <div class="stats">
-        <div class="stat"><b>99,5%</b><span>din literele a, i, s, t primesc semnul corect</span></div>
-        <div class="stat"><b>10,8M</b><span>parametri</span></div>
-        <div class="stat"><b>6 MB</b><span>descărcați o singură dată</span></div>
-        <div class="stat"><b>~0,5 s</b><span>pentru un paragraf de 500 de caractere</span></div>
+        <div class="stat"><b>99,5%</b><span>accuracy pe a, i, s, t</span></div>
+        <div class="stat"><b>10,8M</b><span>params</span></div>
+        <div class="stat"><b>6 MB</b><span>download, o singură dată</span></div>
+        <div class="stat"><b>~0,5 s</b><span>la 500 de caractere</span></div>
       </div>
 
-      <h3>Cum a învățat</h3>
+      <h3>Training curve</h3>
       <figure class="chart" id="curve"></figure>
-      <figcaption>Acuratețe pe texte pe care nu le-a văzut la antrenare, pe parcursul a 80.000 de
-        pași. Linia punctată e un dicționar care alege forma cea mai frecventă a fiecărui cuvânt
-        (98,4%). Modelul face de peste 3 ori mai puține greșeli decât dicționarul.</figcaption>
+      <figcaption>Accuracy pe validation set (texte pe care nu le-a văzut), pe parcursul a 80k
+        steps. Linia punctată e baseline-ul: un dicționar care alege forma cea mai frecventă a
+        fiecărui cuvânt (98,4%). Modelul face de 3 ori mai puține greșeli.</figcaption>
 
-      <h3>Mai mare a fost mai bine</h3>
+      <h3>Bigger is better</h3>
       <ul class="bars" id="mistakes"></ul>
-      <figcaption>Din 10.223 de propoziții pe care le știam greșite, câte greșea încă modelul
-        după antrenare.</figcaption>
+      <figcaption>Din 10.223 de propoziții pe care știam că le greșește (corrections set), câte
+        mai greșea după training.</figcaption>
 
-      <h3>Dar nu prea mare, ca să meargă în browser</h3>
+      <h3>Dar nu prea big, că rulează în browser</h3>
       <ul class="bars" id="speed"></ul>
-      <figcaption>Timp în browser pentru același text, pe calculatorul meu, după numărul de
-        parametri. Am ales 10,8M: încă sub o jumătate de secundă.</figcaption>
+      <figcaption>Latency în browser pe același text, pe PC-ul meu, în funcție de câți params
+        are modelul. Am ales 10,8M: sub jumătate de secundă.</figcaption>
 
-      <h3>Cât descarci</h3>
+      <h3>Download size</h3>
       <ul class="bars" id="size"></ul>
-      <figcaption>Aceeași acuratețe (99,55%) la fiecare pas de comprimare.</figcaption>
+      <figcaption>fp32 → fp16 → 4-bit, aceeași accuracy (99,55%).</figcaption>
 
-      <h3>Subtitrările</h3>
-      <p>Wikipedia nu vorbește ca oamenii. După ce l-am antrenat și pe subtitrări de filme,
+      <h3>Subtitrări</h3>
+      <p>Wikipedia nu vorbește ca oamenii. După ce am băgat și subtitrări de filme în training,
         replicile cu cel puțin o greșeală au scăzut de la <span class="red">6,4%</span> la
         <span class="red">3,7%</span>.</p>
     </section>
 
     <section>
       <h2>Ce greșește încă</h2>
-      <p>E un PoC, așa că greșește. Cele mai multe greșeli vin din cuvinte care există în ambele
-        forme:</p>
+      <p>E un PoC, deci greșește. Mai ales la cuvinte care există în ambele forme:</p>
       <ul class="plain">
         <li><b>peste / pește</b>, <b>fata / fată / față</b>, <b>sa / să</b>, <b>tarabe / țarabe</b>:
-          modelul alege după context.</li>
-        <li><b>Texte foarte scurte.</b> În „Ai pisat piperul?” nu are destul context și ghicește greșit.</li>
-        <li><b>Nume proprii, abrevieri și text amestecat cu engleza</b> pot primi semne unde nu trebuie.</li>
-        <li>Pune doar diacritice. Nu corectează alte greșeli de scriere.</li>
+          ghicește din context.</li>
+        <li><b>Texte foarte scurte.</b> „Ai pisat piperul?” n-are destul context și o ia pe arătură.</li>
+        <li><b>Nume, abrevieri, text amestecat cu engleză</b>: uneori pune diacritice unde nu trebuie.</li>
+        <li>Pune doar diacritice, nu face spellcheck.</li>
       </ul>
       <h3>Povestea usturoiului</h3>
-      <p>Unul dintre primele texte încercate a fost „Și acum strivim usturoiul pisat”, iar
-        modelul a scris <span class="red">pișat</span>. Subtitrările de film l-au învățat că
-        celălalt verb e mult mai des. Am adăugat 17 propoziții din bucătărie, l-am reantrenat o
-        jumătate de oră și acum usturoiul e pisat, cum trebuie.</p>
+      <p>Unul dintre primele lucruri pe care le-am testat: „Și acum strivim usturoiul pisat”.
+        Modelul a scris <span class="red">pișat</span>. Oh noooo. Subtitrările l-au învățat că
+        celălalt verb e mult mai comun. Am adăugat 17 propoziții din bucătărie, fine-tune o
+        jumătate de oră, și acum usturoiul e pisat cum trebuie.</p>
     </section>
 
     <section>
       <h2>Ai găsit o greșeală?</h2>
-      <p>Trimite-mi propoziția. Fiecare greșeală raportată ajunge într-un fișier de corecturi,
-        modelul se reantrenează pe ea, iar versiunea nouă ajunge aici.</p>
-      <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A">Raportează pe GitHub</a>
+      <p>Deschide un issue cu propoziția. Ajunge în corrections, fac fine-tune pe ea și apare
+        aici în versiunea următoare.</p>
+      <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A">Deschide un issue</a>
     </section>
 
     <footer>
@@ -321,7 +314,7 @@
       s += `<circle class="dot" cx="${x(k)}" cy="${y(v)}" r="4"/>`;
       s += `<text class="end" x="${x(k) + 8}" y="${y(v) + 4}">${ro(v, 2)}%</text>`;
       document.getElementById("curve").innerHTML =
-        `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Acuratețea crește de la 97,8% la 99,5% în 80.000 de pași, peste dicționarul de 98,4%.">${s}</svg>`;
+        `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Accuracy crește de la 97,8% la 99,5% în 80.000 de pași, peste dicționarul de 98,4%.">${s}</svg>`;
     }
 
     // Horizontal bars, scaled to the largest value in each chart.
@@ -333,8 +326,8 @@
         `<span class="value">${r.text}</span></span></li>`).join("");
     };
     bars("mistakes", [
-      { label: "1,5M parametri", value: 5963, text: "5.963 greșite" },
-      { label: "10,8M parametri", value: 0, text: "0 greșite", pick: true },
+      { label: "1,5M params", value: 5963, text: "5.963 greșite" },
+      { label: "10,8M params", value: 0, text: "0 greșite", pick: true },
     ]);
     bars("speed", [
       { label: "~1,8M", value: 76, text: "76 ms" },
@@ -343,9 +336,9 @@
       { label: "~25M", value: 901, text: "901 ms" },
     ]);
     bars("size", [
-      { label: "32 de biți", value: 43, text: "43 MB" },
-      { label: "16 biți", value: 21.7, text: "21,7 MB" },
-      { label: "4 biți", value: 6.2, text: "6,2 MB", pick: true },
+      { label: "fp32", value: 43, text: "43 MB" },
+      { label: "fp16", value: 21.7, text: "21,7 MB" },
+      { label: "4-bit", value: 6.2, text: "6,2 MB", pick: true },
     ]);
   </script>
 </body>

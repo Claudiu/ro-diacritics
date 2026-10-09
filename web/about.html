@@ -12,29 +12,31 @@
   <style>
     /* Same tokens as index.html. */
     :root {
-      --desk: #e6ecf4;
-      --paper: #fbfcfe;
-      --ink: #1c2541;
-      --muted: #5b6478;
-      --rule: #d5e0ef;
-      --margin: #eaa7b0;
-      --red: #c8102e;
-      --glow: rgb(200 16 46 / .45);
-      --card: #ffffff;
-      --shadow: 0 1px 2px rgb(28 37 65 / .08), 0 18px 40px -22px rgb(28 37 65 / .45);
+      --desk: #b4dec1;
+      --paper: #cfffdd;
+      --ink: #3a3740;
+      --muted: #5c5863;
+      --rule: #b4dec1;
+      --margin: #a85163;
+      --red: #ff1f4c;
+      --red-text: #b3002d; /* --red is for strokes; text needs 4.5:1 */
+      --glow: rgb(255 31 76 / .45);
+      --card: #e4fff0;
+      --shadow: 0 1px 2px rgb(58 55 64 / .1), 0 18px 40px -22px rgb(58 55 64 / .5);
       color-scheme: light;
     }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) {
-        --desk: #0d1322;
-        --paper: #161f35;
-        --ink: #e4e9f3;
-        --muted: #98a2b8;
-        --rule: #263252;
-        --margin: #63303d;
-        --red: #ff6b78;
-        --glow: rgb(255 107 120 / .55);
-        --card: #212c48;
+        --desk: #2f2d33;
+        --paper: #3d3a42;
+        --ink: #cfffdd;
+        --muted: #b4dec1;
+        --rule: #5c5863;
+        --margin: #a85163;
+        --red: #ff4468;
+        --red-text: #ff8fa3;
+        --glow: rgb(255 31 76 / .55);
+        --card: #28262c;
         --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
         color-scheme: dark;
       }
@@ -55,7 +57,7 @@
     @media (min-width: 40rem) { body { font-size: 1.1875rem; } }
     main { max-width: calc(var(--wide) + 4.5rem); margin: 0 auto; padding: 2.5rem 1.25rem 4rem 2.25rem; }
     @media (min-width: 40rem) { main { padding: 4rem 2rem 6rem 4.5rem; } }
-    ::selection { background: var(--red); color: var(--paper); }
+    ::selection { background: var(--red-text); color: var(--paper); }
     code {
       padding: .05em .3em;
       border-radius: 3px;
@@ -109,9 +111,10 @@
     }
     h3 { margin: 3.5rem 0 .75rem; font-size: 1.1875rem; font-weight: 600; font-style: italic; }
     p { margin: 0 0 1.25rem; }
+    :is(p, li, dd, figcaption, .detail) { text-wrap: pretty; }
     section > :last-child { margin-bottom: 0; }
 
-    .red { color: var(--red); }
+    .red { color: var(--red-text); }
     .muted, figcaption { color: var(--muted); }
     figure { margin: 2.25rem 0; }
     figcaption { margin-top: 1rem; max-width: var(--text); font-size: 1rem; line-height: 1.6; }
@@ -122,7 +125,7 @@
     tbody th { font-weight: 600; color: var(--muted); }
     table.num { width: auto; min-width: 15rem; }
     table.num td:last-child, table.num th:last-child { text-align: right; padding-right: 0; }
-    tr.pick td { color: var(--red); font-weight: 600; }
+    tr.pick td { color: var(--red-text); font-weight: 600; }
 
     /* Technical diagrams as a rail: a hairline with a dot per step, no boxes. */
     .diagrams { display: grid; gap: 3.5rem; margin-top: 3rem; }
@@ -146,7 +149,7 @@
     }
     .rail b { display: block; font-weight: 600; }
     .rail .detail { display: block; margin-top: .125rem; color: var(--muted); font-size: 1rem; }
-    .rail .times { color: var(--red); font-weight: 650; }
+    .rail .times { color: var(--red-text); font-weight: 650; }
     .steps { margin: .375rem 0 .25rem; padding: 0; list-style: none; color: var(--muted); font-size: 1rem; }
     .steps li { padding-left: .875rem; text-indent: -.875rem; }
     .steps li::before { content: "– "; }
@@ -165,7 +168,7 @@
     .windows .band { fill: var(--red); opacity: .08; }
     .windows text { fill: var(--muted); font: 14px "Literata", Georgia, serif; }
     .windows .name { fill: var(--ink); font-weight: 600; }
-    .windows .w0t, .windows .w2t { fill: var(--red); }
+    .windows .w0t, .windows .w2t { fill: var(--red-text); }
     @media (max-width: 40rem) { .windows text { font-size: 26px; } }
 
     .quant svg { display: block; width: 100%; height: auto; }
@@ -189,15 +192,15 @@
       font-family: ui-monospace, monospace;
     }
     .tile.candidate .in { border-bottom: 2px solid var(--margin); }
-    .tile.changed .out { color: var(--red); font-weight: 650; }
-    .tile.changed .choice { color: var(--red); }
+    .tile.changed .out { color: var(--red-text); font-weight: 650; }
+    .tile.changed .choice { color: var(--red-text); }
     .legend { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem 1.5rem; font-size: 1rem; color: var(--muted); }
 
     .facts {
       display: grid; grid-template-columns: max-content 1fr; gap: .875rem 1.5rem;
       margin: 2rem 0 0; font-variant-numeric: tabular-nums;
     }
-    .facts dt { font-size: 1.75rem; font-weight: 650; color: var(--red); line-height: 1.2; text-align: right; }
+    .facts dt { font-size: 1.75rem; font-weight: 650; color: var(--red-text); line-height: 1.2; text-align: right; }
     .facts dd { margin: 0; align-self: center; color: var(--muted); }
 
     .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
@@ -208,7 +211,7 @@
     .chart .base { stroke: var(--muted); stroke-dasharray: 4 4; }
     .chart .curve { fill: none; stroke: var(--red); stroke-width: 2.5; stroke-linejoin: round; }
     .chart .dot { fill: var(--red); }
-    .chart .end { fill: var(--red); font-weight: 650; }
+    .chart .end { fill: var(--red-text); font-weight: 650; }
 
     ul.plain { margin: 0 0 1.5rem; padding-left: 1.25rem; }
     ul.plain li { margin-bottom: 1rem; padding-left: .25rem; }
@@ -219,7 +222,7 @@
       margin-top: .75rem;
       padding: .75rem 1.25rem;
       border-radius: 4px;
-      background: var(--red);
+      background: var(--red-text);
       color: var(--paper);
       font-weight: 600;
       text-decoration: none;
@@ -240,7 +243,7 @@
       .toc ol { margin: 0; padding: 0; list-style: none; display: grid; gap: .625rem; }
       .toc a { color: var(--muted); text-decoration: none; transition: color 150ms; }
       .toc a:hover { color: var(--ink); }
-      .toc a[aria-current="true"] { color: var(--red); }
+      .toc a[aria-current="true"] { color: var(--red-text); }
     }
 
     /* Motion. Every start state is scoped to .motion, which the script sets only when the
@@ -249,7 +252,8 @@
     .replay { margin-left: auto; }
     .replay {
       font: inherit; font-size: .875rem; color: var(--ink);
-      background: none; border: 0; padding: .25rem 0; cursor: pointer;
+      background: none; border: 0; cursor: pointer;
+      min-height: 44px; padding: 0; margin: -.75rem 0;
       text-decoration: underline; text-decoration-color: var(--margin);
       text-decoration-thickness: 2px; text-underline-offset: .3em;
     }
@@ -259,7 +263,7 @@
     .tile { border-radius: 3px; }
     @keyframes ink {
       from { color: var(--ink); text-shadow: 0 0 .5em var(--glow); }
-      40% { color: var(--red); text-shadow: 0 0 .5em var(--glow); }
+      40% { color: var(--red-text); text-shadow: 0 0 .5em var(--glow); }
       to { text-shadow: 0 0 0 transparent; }
     }
 
@@ -329,8 +333,8 @@
     /* Attention arcs. */
     .attention svg { display: block; width: 100%; max-width: var(--text); height: auto; overflow: visible; }
     .attention .ch { fill: var(--ink); font: 22px "Literata", Georgia, serif; text-anchor: middle; }
-    .attention .ch.hit { fill: var(--red); }
-    .attention .ch.target { fill: var(--red); font-weight: 700; }
+    .attention .ch.hit { fill: var(--red-text); }
+    .attention .ch.target { fill: var(--red-text); font-weight: 700; }
     .attention .arc { fill: none; stroke: var(--red); stroke-linecap: round; }
     .attention .layer { fill: var(--muted); font: italic 15px "Literata", Georgia, serif; }
     @media (max-width: 40rem) { .attention .layer { font-size: 22px; } }
@@ -345,7 +349,7 @@
     .correction svg { display: block; width: 100%; max-width: 30rem; height: auto; overflow: visible; }
     .correction .word { fill: var(--ink); font: 46px "Literata", Georgia, serif; }
     .correction .pen { fill: none; stroke: var(--red); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-    .correction .fix { fill: var(--red); font: italic 600 40px "Literata", Georgia, serif; }
+    .correction .fix { fill: var(--red-text); font: italic 600 40px "Literata", Georgia, serif; }
     .motion .correction .pen { stroke-dasharray: 1; stroke-dashoffset: 1; }
     .motion .correction.in .pen { transition: stroke-dashoffset var(--d) cubic-bezier(.6, 0, .3, 1) var(--at); stroke-dashoffset: 0; }
     .motion .correction .fix { opacity: 0; transform: translateY(6px); transform-box: fill-box; }
@@ -354,8 +358,9 @@
     /* Glossary terms: dotted underline; the explanation shows in one shared tooltip. */
     .term {
       text-decoration: underline dotted var(--red);
-      text-decoration-thickness: 1.5px;
-      text-underline-offset: .22em;
+      /* Whole pixels: fractional dots blur to grey on some lines and stay red on others. */
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
       cursor: help;
       border-radius: 2px;
     }
@@ -375,7 +380,7 @@
       border-radius: 6px;
       background: var(--card);
       color: var(--ink);
-      box-shadow: 0 2px 4px rgb(28 37 65 / .08), 0 20px 40px -16px rgb(28 37 65 / .4);
+      box-shadow: var(--shadow);
       pointer-events: none;
       transform-origin: var(--cx, 50%) calc(100% + 8px);
       animation: tip-in 200ms cubic-bezier(.16, 1, .3, 1);
@@ -414,7 +419,7 @@
     .tip .f-dot { fill: var(--ink); }
     .tip .f-dot.hot { fill: var(--red); }
     .tip .f-tx { fill: var(--muted); font: 11px "Literata", Georgia, serif; }
-    .tip .f-tx.hot { fill: var(--red); }
+    .tip .f-tx.hot { fill: var(--red-text); }
     .tip .f-fill { fill: var(--red); opacity: .18; }
     .motion .tip path[pathLength] { stroke-dasharray: 1; stroke-dashoffset: 1; animation: tip-draw 650ms cubic-bezier(.33, 1, .68, 1) var(--d, 0ms) forwards; }
     .motion .tip :is(circle, .f-tx, .f-fill) { opacity: 0; animation: tip-pop 300ms ease-out var(--d, 0ms) forwards; }

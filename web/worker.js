@@ -5,25 +5,28 @@ import init, { Diacritics } from "./pkg/diacritics_wasm.js";
 
 let model = null;
 
-// Reads the body in chunks to report download progress. Without a usable length (unknown, or
-// compressed so the header counts different bytes) it just downloads.
+// Reads the body in chunks to report download progress. GitHub Pages gzips the weights: then
+// Content-Length counts compressed bytes while the stream yields decompressed ones, so the
+// total is only an estimate (exact: false) and the page shows just the MB received.
 async function download(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
   const total = Number(res.headers.get("Content-Length"));
-  if (!res.body || !total || res.headers.get("Content-Encoding")) {
-    return new Uint8Array(await res.arrayBuffer());
-  }
-  const bytes = new Uint8Array(total);
+  if (!res.body || !total) return new Uint8Array(await res.arrayBuffer());
+  const exact = !res.headers.get("Content-Encoding");
+  const chunks = [];
   let loaded = 0;
   for (const reader = res.body.getReader(); ; ) {
     const { done, value } = await reader.read();
     if (done) break;
-    bytes.set(value, loaded);
+    chunks.push(value);
     loaded += value.length;
-    postMessage({ progress: { loaded, total } });
+    postMessage({ progress: { loaded, total: Math.max(total, loaded), exact } });
   }
-  return bytes.subarray(0, loaded);
+  const bytes = new Uint8Array(loaded);
+  let at = 0;
+  for (const chunk of chunks) { bytes.set(chunk, at); at += chunk.length; }
+  return bytes;
 }
 
 async function load() {

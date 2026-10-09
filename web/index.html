@@ -19,7 +19,6 @@
       --red: #fa023c;
       --card: #1c1919;
       --red-text: #c8ff00; /* lime: text accents; red: pen strokes */
-      --glow: rgb(200 255 0 / .45);
       --shadow: 0 1px 2px rgb(0 0 0 / .5), 0 18px 40px -22px rgb(0 0 0 / .9);
       --line: 2rem;
       color-scheme: dark;
@@ -189,16 +188,14 @@
     #output mark {
       position: relative;
       background: none;
-      color: var(--red-text);
-      /* Bolder look without wider glyphs, so both panes wrap at the same words. */
-      -webkit-text-stroke: .04em currentColor;
+      /* A quiet tint of the lime: easy to spot, not shouting over the text around it. */
+      color: color-mix(in srgb, var(--red-text) 45%, var(--ink));
     }
-    /* A freshly added diacritic inks in: dark to red, with a short glow. */
-    #output mark.fresh { animation: ink 650ms ease-out; }
+    #output mark.fresh { animation: ink 900ms ease-out; }
     @keyframes ink {
-      from { color: var(--ink); text-shadow: 0 0 .5em var(--glow); }
-      40% { color: var(--red-text); text-shadow: 0 0 .5em var(--glow); }
-      to { text-shadow: 0 0 0 transparent; }
+      /* A fresh letter flashes full lime once, then settles to the tint. */
+      from { color: var(--ink); }
+      30% { color: var(--red-text); }
     }
     /* Hovering a mark shows the letter it replaced. */
     #output mark::after {
@@ -211,7 +208,6 @@
       border-radius: 4px;
       background: var(--ink);
       color: var(--paper);
-      -webkit-text-stroke: 0;
       font-size: .85em;
       line-height: 1.4;
       opacity: 0;
@@ -322,14 +318,15 @@ Spre prânz, soarele arde asfaltul și terasele se umplu de lume care vorbește 
     const mb = (bytes) => (bytes / 1e6).toLocaleString("ro-RO", { maximumFractionDigits: 1, minimumFractionDigits: 1 });
     let shownStep = -1;
     const placeholder = input.placeholder;
-    const progress = ({ loaded, total }) => {
-      const p = loaded / total;
+    const progress = ({ loaded, total, exact }) => {
+      // A compressed download only estimates the total; hold the line short of the end.
+      const p = exact ? loaded / total : Math.min(loaded / total, .95);
       title.style.setProperty("--p", p);
       const step = Math.floor(p * 10);
       if (step === shownStep) return;
       shownStep = step;
-      status.textContent = p < 1
-        ? `Se descarcă modelul: ${mb(loaded)} din ${mb(total)} MB…`
+      status.textContent = !exact ? `Se descarcă modelul: ${mb(loaded)} MB…`
+        : p < 1 ? `Se descarcă modelul: ${mb(loaded)} din ${mb(total)} MB…`
         : "Pornesc modelul…";
       input.placeholder = status.textContent;
     };

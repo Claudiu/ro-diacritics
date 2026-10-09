@@ -27,6 +27,13 @@
     }
 
     * { box-sizing: border-box; }
+    /* Icons: Lucide outlines (ISC), inlined; they take the text colour and size. */
+    .icon {
+      width: 1em; height: 1em; margin-right: .35em; vertical-align: -.125em; flex: none;
+      fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .icon.pen { color: var(--red); }
+    .icon.lime { color: var(--red-text); }
     /* The page itself is the notebook paper. Prose runs in a narrow column (--text);
        figures, tables and diagrams take the wider one (--wide). */
     :root { --text: 36rem; --wide: 52rem; }
@@ -420,7 +427,7 @@
 </head>
 <body>
   <main>
-    <a class="back" href="./">← Înapoi la Diacritificator</a>
+    <a class="back" href="./"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Înapoi la Diacritificator</a>
     <h1>Despre Diacritificator<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
       <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
     <p class="lede">Am început proiectul în 2018 și m-am apucat din nou de el în 2026. E încă un
@@ -442,6 +449,7 @@
       <li><a href="#sub-capota">Sub capotă</a></li>
       <li><a href="#rezultate">Rezultate</a></li>
       <li><a href="#viteza">Viteză și dimensiune</a></li>
+      <li><a href="#llm">Mai are rost în 2026?</a></li>
       <li><a href="#ce-greseste">Ce greșește încă</a></li>
       <li><a href="#greseli">Ai găsit o greșeală?</a></li>
     </ol></nav>
@@ -487,7 +495,7 @@
              aria-label="Am mancat inghetata devine Am mâncat înghețată, literă cu literă."></div>
         <figcaption class="legend">
           <span>sus: input</span><span>mijloc: predicția modelului</span><span>jos: output</span>
-          <button class="replay" id="replay" type="button">Rulează din nou</button>
+          <button class="replay" id="replay" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>Rulează din nou</button>
         </figcaption>
       </figure>
       <p><span class="term" data-term="context">Fereastra de context</span> are 256 de caractere. Asta ajută la
@@ -635,6 +643,25 @@
 
     </section>
 
+    <section id="llm">
+      <h2>Mai are rost proiectul în 2026, când există LLM-uri?</h2>
+      <p>Un <span class="term" data-term="llm">LLM</span> poate pune diacritice și se descurcă bine, mai ales la cuvintele
+        ambigue, unde contează sensul propoziției. Diferența e în ce trebuie să rulezi pentru asta.</p>
+      <ul class="plain">
+        <li><b>Textul rămâne la tine:</b> un LLM mare rulează pe un server, deci textul pleacă
+          acolo. Modelul de aici rulează în browser.</li>
+        <li><b>Dimensiune:</b> 6,2 MB, descărcați o singură dată. Un LLM care rulează local are
+          sute de MB sau câțiva GB și are nevoie de un GPU sau de mult RAM.</li>
+        <li><b>Nu rescrie textul:</b> modelul poate schimba doar literele a, i, s și t, iar
+          textul iese cu aceeași lungime. Un LLM poate reformula sau sări peste bucăți, așa că
+          rezultatul trebuie verificat.</li>
+        <li><b>Viteză și cost:</b> ~0,5 s pentru 500 de caractere, fără cont, fără API key și
+          fără cost per cerere.</li>
+      </ul>
+      <p>La textele unde sensul decide forma corectă, un LLM poate alege mai bine. Pentru restul,
+        un model mic, făcut doar pentru diacritice, e suficient.</p>
+    </section>
+
     <section id="ce-greseste">
       <h2>Ce greșește încă</h2>
       <p>Modelul nu înțelege perfect sensul unui text. În special, are probleme când mai multe
@@ -669,13 +696,13 @@
       <h2>Ai găsit o greșeală?</h2>
       <p>Deschide un issue cu propoziția originală, forma generată de model și forma corectă. Pot
         adăuga exemplul în setul de corecturi și îl pot folosi la următorul fine-tuning.</p>
-      <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A">Deschide un issue pe GitHub</a>
+      <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>Deschide un issue pe GitHub</a>
     </section>
     </article>
 
     <footer>
-      <a href="https://github.com/Claudiu/ro-diacritics">Codul pe GitHub</a>
-      <a href="https://github.com/Claudiu/keras-diacritics">Versiunea din 2018: keras-diacritics</a>
+      <a href="https://github.com/Claudiu/ro-diacritics"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>Codul pe GitHub</a>
+      <a href="https://github.com/Claudiu/keras-diacritics"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>Versiunea din 2018: keras-diacritics</a>
     </footer>
   </main>
 
@@ -951,6 +978,7 @@
         baseline: ["Baseline", "Un punct de comparație simplu. Aici e un dicționar care alege pentru fiecare cuvânt forma cea mai frecventă și nimerește 98,4%. Dacă programul nu-l bate, nu merita efortul."],
         latenta: ["Latență", "Cât aștepți până apare textul cu diacritice după ce ai scris. Aici, cam 420 ms, adică sub o jumătate de secundă."],
         fp: ["FP32 / FP16", "Câți biți ocupă fiecare număr: 32 sau 16. Mai puțini biți înseamnă un fișier mai mic și numere puțin mai aproximative. La noi, varianta pe 32 de biți are 43 MB."],
+        llm: ["LLM (large language model)", "Un program foarte mare, antrenat pe mult text, ca ChatGPT sau Claude. Poate scrie, rezuma sau corecta text, dar are miliarde de parametri și de obicei rulează pe servere."],
         finetune: ["Fine-tuning", "O antrenare scurtă în plus, pornind de la programul gata antrenat. Aici: 30 de minute cu 17 propoziții din bucătărie, ca să învețe „pisat” fără să uite restul."],
       };
 

@@ -92,6 +92,69 @@
     table.num td:last-child, table.num th:last-child { text-align: right; padding-right: 0; }
     tr.pick td { color: var(--red); font-weight: 600; }
 
+    /* Technical diagrams: stacked boxes with arrows, so they stay readable at phone width. */
+    .flow { display: grid; gap: 1.75rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
+    .flow > li {
+      position: relative;
+      padding: .625rem .875rem;
+      border: 1.5px solid var(--rule);
+      border-radius: 6px;
+      font-size: .9375rem;
+      line-height: 1.5;
+    }
+    .flow > li + li::before {
+      content: "↓";
+      position: absolute;
+      top: -1.55rem;
+      left: 50%;
+      translate: -50% 0;
+      color: var(--red);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+    .flow b { display: block; }
+    .flow .detail { display: block; color: var(--muted); font-size: .875rem; }
+    .flow .repeat { border-color: var(--red); border-style: dashed; }
+    .flow .badge { position: absolute; top: .5rem; right: .75rem; color: var(--red); font-weight: 650; }
+    .chips { display: flex; flex-wrap: wrap; gap: .375rem; margin-top: .375rem; }
+    .chips span {
+      padding: .125rem .5rem;
+      border-radius: 4px;
+      background: var(--desk);
+      font-size: .8125rem;
+      font-family: ui-monospace, monospace;
+    }
+    .sub { display: grid; gap: .25rem; margin: .5rem 0; }
+    .sub span {
+      padding: .25rem .5rem;
+      border-left: 3px solid var(--margin);
+      background: var(--desk);
+      font-size: .875rem;
+    }
+
+    .windows { position: relative; margin-top: 1rem; font-size: .8125rem; }
+    .windows .row { position: relative; height: 1.75rem; margin-bottom: .375rem; }
+    .windows .text { background: var(--desk); border-radius: 3px; color: var(--muted); padding: .25rem .5rem; height: 1.75rem; margin-bottom: .75rem; }
+    .windows .win {
+      position: absolute; top: 0; bottom: 0;
+      border: 1.5px solid var(--muted); border-radius: 3px;
+      overflow: hidden;
+    }
+    .windows .own { position: absolute; top: 0; bottom: 0; background: var(--red); opacity: .25; }
+    .windows .label { position: relative; padding: .2rem .4rem; white-space: nowrap; }
+    .windows .axis { display: flex; justify-content: space-between; color: var(--muted); }
+
+    .quant svg { display: block; width: 100%; height: auto; }
+    .quant .zero { stroke: var(--rule); }
+    .quant .level { stroke: var(--rule); stroke-dasharray: 2 3; }
+    .quant .w { fill: var(--muted); }
+    .quant .q { fill: var(--red); }
+    .quant .row-label { margin: .75rem 0 .25rem; font-size: .875rem; font-style: italic; }
+    .bytes { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; margin-top: 1rem; }
+    .bytes div { padding: .5rem .75rem; border-top: 2px solid var(--rule); font-size: .875rem; color: var(--muted); }
+    .bytes b { display: block; color: var(--ink); font: 600 .9375rem ui-monospace, monospace; }
+    figure + p { margin-top: 1rem; }
+
     /* Letter-by-letter diagram: input letter, the model's choice, output letter. */
     .letters { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin: 1rem 0 .25rem; }
     .word { display: flex; gap: 2px; }
@@ -189,9 +252,47 @@
       <p style="margin-top:1rem">Fereastra de context are 256 de caractere. Asta ajută la
         diferențierea unor cuvinte precum „fata”, „fată” și „față”, unde forma corectă depinde de
         propoziție.</p>
+
+      <figure>
+        <div class="windows" id="windows" role="img"
+             aria-label="Un text de 700 de caractere împărțit în trei ferestre de 256 care se suprapun cu 32."></div>
+        <figcaption>Textele mai lungi de 256 de caractere sunt împărțite în ferestre care se
+          suprapun cu 32 de caractere. Fiecare caracter e decis de o singură fereastră (zona
+          roșie), cea în care nu e lipit de margine, așa că are context de ambele părți.</figcaption>
+      </figure>
       <p>Modelul e antrenat în PyTorch, iar inferența e implementată în Rust cu
         <a href="https://github.com/huggingface/candle">Candle</a> și compilată în WebAssembly. Am
         quantizat weights la 4 biți pentru a reduce dimensiunea modelului la aproximativ 6 MB.</p>
+
+      <h3>Arhitectura</h3>
+      <ol class="flow">
+        <li><b>Input</b><span class="detail">până la 256 de caractere, fiecare un id dintr-un alfabet de 256 de simboluri</span></li>
+        <li><b>Embedding</b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
+        <li class="repeat"><b>Bloc encoder</b><span class="badge">× 6</span>
+          <span class="sub">
+            <span>LayerNorm</span>
+            <span>self-attention, 6 heads, bidirecțional</span>
+            <span>LayerNorm</span>
+            <span>feed-forward 384 → 1536 → 384, GELU</span>
+          </span>
+          <span class="detail">conexiuni reziduale în jurul attention și al feed-forward</span></li>
+        <li><b>Head</b><span class="detail">LayerNorm → Linear 384 → 3</span></li>
+        <li><b>Output, pentru fiecare caracter</b>
+          <span class="chips"><span>none</span><span>breve_comma: ă ș ț</span><span>circumflex: â î</span></span></li>
+      </ol>
+      <figcaption>Un transformer encoder pre-LayerNorm, 10,8M parametri. Attention-ul nu e
+        cauzal: fiecare literă vede contextul din stânga și din dreapta.</figcaption>
+
+      <h3>De la date la browser</h3>
+      <ol class="flow">
+        <li><b>Date</b>
+          <span class="chips"><span>Wikipedia</span><span>OpenSubtitles, 1 din 4 fragmente</span><span>corecturi manuale, ×50</span></span></li>
+        <li><b>Filtru</b><span class="detail">păstrează doar textele scrise cu diacritice; scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
+        <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
+        <li><b>Training</b><span class="detail">PyTorch, bf16, RTX 5090, 80.000 de pași, ~4 ore</span></li>
+        <li><b>Export</b><span class="detail">safetensors, weights quantized la 4 biți, 6 MB</span></li>
+        <li><b>Inferență în browser</b><span class="detail">Rust + Candle compilat în WebAssembly, într-un Web Worker</span></li>
+      </ol>
     </section>
 
     <section>
@@ -247,6 +348,21 @@
       </table>
       <p style="margin-top:1rem">În testele mele, quantizarea la 4 biți nu a schimbat
         accuracy-ul măsurat, care a rămas la 99,55%.</p>
+
+      <figure class="quant">
+        <p class="row-label">Un grup de 32 de weights, FP32</p>
+        <div id="quant-w"></div>
+        <p class="row-label">Aceleași 32 de weights, rotunjite la 15 niveluri (4 biți)</p>
+        <div id="quant-q"></div>
+        <div class="bytes">
+          <div><b>scale = max|w| / 7</b>un FP16 pe grup</div>
+          <div><b>q = round(w / scale)</b>întreg între −7 și 7</div>
+          <div><b>128 B → 18 B</b>două valori q într-un byte, plus scale</div>
+        </div>
+        <figcaption>Cum ajunge modelul de la 43 MB la 6,2 MB. Fiecare matrice e împărțită în
+          grupuri de 32 de valori; fiecare grup își păstrează propriul scale. În browser,
+          weights sunt reconstruite ca q × scale înainte de inferență.</figcaption>
+      </figure>
 
       <h3>De ce am folosit și subtitrări</h3>
       <p>Wikipedia e utilă pentru vocabular și texte bine structurate, dar nu prea seamănă cu
@@ -339,6 +455,45 @@
         `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Accuracy crește de la 97,8% la 99,5% în 80.000 de pași, peste dicționarul de 98,4%.">${s}</svg>`;
     }
 
+    // Windows over a 700-character text, as planned by domain/windows.py: stride 224,
+    // the last window ends at the text's end, each window owns up to the middle of the overlap.
+    {
+      const LEN = 700, WIN = 256, HALF = 16;
+      const starts = [0, 224, LEN - WIN];
+      const owners = [0, starts[1] + HALF, starts[2] + HALF, LEN];
+      const pct = (n) => `${(n / LEN) * 100}%`;
+      let h = `<div class="text">text de 700 de caractere</div>`;
+      starts.forEach((start, i) => {
+        const own = `left:${((owners[i] - start) / WIN) * 100}%;width:${((owners[i + 1] - owners[i]) / WIN) * 100}%`;
+        h += `<div class="row"><div class="win" style="left:${pct(start)};width:${pct(WIN)}">` +
+          `<div class="own" style="${own}"></div><div class="label">fereastra ${i + 1}</div></div></div>`;
+      });
+      h += `<div class="axis"><span>0</span><span>224</span><span>444</span><span>700</span></div>`;
+      document.getElementById("windows").innerHTML = h;
+    }
+
+    // 4-bit quantization of one group of 32 made-up weights, same formula as the exporter.
+    {
+      let seed = 7;
+      const rand = () => ((seed = (seed * 16807) % 2147483647) / 2147483647) * 2 - 1;
+      const w = Array.from({ length: 32 }, () => rand() * rand() * 0.08);
+      const scale = Math.max(...w.map(Math.abs)) / 7;
+      const q = w.map((v) => Math.round(v / scale) * scale);
+      const draw = (values, cls, levels) => {
+        const W = 640, H = 120, mid = H / 2, k = (mid - 4) / (7 * scale), bw = W / 32;
+        let s = levels
+          ? Array.from({ length: 15 }, (_, i) => `<line class="level" x1="0" x2="${W}" y1="${mid - (i - 7) * scale * k}" y2="${mid - (i - 7) * scale * k}"/>`).join("")
+          : "";
+        s += `<line class="zero" x1="0" x2="${W}" y1="${mid}" y2="${mid}"/>`;
+        values.forEach((v, i) => {
+          const y = v >= 0 ? mid - v * k : mid, hgt = Math.max(Math.abs(v) * k, 1);
+          s += `<rect class="${cls}" x="${i * bw + 2}" y="${y}" width="${bw - 4}" height="${hgt}" rx="1"/>`;
+        });
+        return `<svg viewBox="0 0 ${W} ${H}" aria-hidden="true">${s}</svg>`;
+      };
+      document.getElementById("quant-w").innerHTML = draw(w, "w", false);
+      document.getElementById("quant-q").innerHTML = draw(q, "q", true);
+    }
   </script>
 </body>
 </html>

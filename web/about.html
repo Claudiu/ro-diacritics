@@ -286,8 +286,8 @@
       <p>Aveam atunci un RTX 2060 și m-am lovit destul de repede de limitele hardware-ului. În
         2026 am un RTX 5090 și am vrut să văd ce pot obține cu un model antrenat de la zero,
         suficient de mic încât să ruleze direct în browser.</p>
-      <p>De data asta am vrut să-l fac să ruleze direct în browser, fără server. Nu ai nevoie
-        de cont, iar textul rămâne la tine.</p>
+      <p>De data asta, am vrut să văd dacă pot muta totul în browser. Fără server, fără cont,
+        iar textul rămâne la tine.</p>
     </section>
 
     <section>
@@ -327,8 +327,9 @@
         <div class="windows" id="windows" data-animate role="img"
              aria-label="Un text de 700 de caractere împărțit în trei ferestre de 256 care se suprapun cu 32."></div>
         <figcaption>Textele mai lungi de 256 de caractere sunt împărțite în ferestre care se
-          suprapun cu 32 de caractere. Fiecare caracter e decis de o singură fereastră (zona
-          roșie), cea în care nu e lipit de margine, așa că are context de ambele părți.</figcaption>
+          suprapun cu 32 de caractere. Fiecare caracter e prezis de o singură fereastră (zona
+          roșie): cea în care se află suficient de departe de margini încât să aibă context de
+          ambele părți.</figcaption>
       </figure>
     </section>
 
@@ -421,7 +422,9 @@
           <tr class="pick"><td>4-bit</td><td>6,2 MB</td></tr>
         </tbody>
       </table>
-      <p>Cu weights la 4 biți, am obținut aceeași accuracy: 99,55%.</p>
+      <p>Cu weights la 4 biți, am obținut aceeași accuracy pe același set de validare: 99,55%
+        în FP32 și 99,55% la 4 biți. Comparația e făcută pe versiunea dinainte de subtitrări,
+        de aceea diferă de cele 99,5% de mai sus.</p>
 
       <figure class="quant" data-animate>
         <p class="row-label">Un grup de 32 de weights, FP32</p>
@@ -463,7 +466,7 @@
         transformat „pisat” în „pișat”, probabil pentru că forma respectivă apărea mai des în
         datele de antrenare, inclusiv în subtitrări.</p>
       <p>Am adăugat 17 propoziții din contexte culinare și am făcut un fine-tuning de aproximativ
-        30 de minute. După asta, nu l-a mai greșit.</p>
+        30 de minute. După asta, modelul a început să scrie „pisat” cum trebuie.</p>
     </section>
 
     <section>

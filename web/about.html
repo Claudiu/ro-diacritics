@@ -19,6 +19,7 @@
       --rule: #d5e0ef;
       --margin: #eaa7b0;
       --red: #c8102e;
+      --glow: rgb(200 16 46 / .45);
       --shadow: 0 1px 2px rgb(28 37 65 / .08), 0 18px 40px -22px rgb(28 37 65 / .45);
       color-scheme: light;
     }
@@ -31,6 +32,7 @@
         --rule: #263252;
         --margin: #63303d;
         --red: #ff6b78;
+        --glow: rgb(255 107 120 / .55);
         --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
         color-scheme: dark;
       }
@@ -67,6 +69,15 @@
       line-height: 1.1;
       letter-spacing: -.02em;
     }
+    /* The teacher's red pen underlines the title once, as on the demo page. */
+    h1 { position: relative; width: fit-content; }
+    h1 svg { position: absolute; left: -1%; bottom: -.3em; width: 102%; height: .3em; overflow: visible; }
+    h1 path {
+      fill: none; stroke: var(--red); stroke-width: 3.5; stroke-linecap: round;
+      stroke-dasharray: 1; stroke-dashoffset: 1;
+      animation: underline 900ms cubic-bezier(.6, 0, .3, 1) 350ms forwards;
+    }
+    @keyframes underline { to { stroke-dashoffset: 0; } }
     .lede { max-width: 38rem; margin: 0 0 2.5rem; color: var(--muted); font-size: 1.125rem; }
 
     /* One notebook sheet for the whole article, red margin line on the left. Sections are
@@ -177,6 +188,7 @@
     .chart text { fill: var(--muted); font: 13px "Literata", Georgia, serif; }
     @media (max-width: 40rem) { .chart text { font-size: 24px; } }
     .chart .grid { stroke: var(--rule); }
+    .chart .curve { stroke-dasharray: none; }
     .chart .base { stroke: var(--muted); stroke-dasharray: 4 4; }
     .chart .curve { fill: none; stroke: var(--red); stroke-width: 2.5; stroke-linejoin: round; }
     .chart .dot { fill: var(--red); }
@@ -198,12 +210,69 @@
     }
     .cta:hover { filter: brightness(1.1); }
     footer { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-top: 2rem; padding-left: .25rem; font-size: .9375rem; color: var(--muted); }
+
+    /* Motion. Every start state is scoped to .motion, which the script sets only when the
+       visitor has not asked for reduced motion, so without JS or with reduced motion the
+       page shows its final state. Figures play once, when they scroll into view (.in). */
+    .replay { margin-left: auto; }
+    .replay {
+      font: inherit; font-size: .875rem; color: var(--ink);
+      background: none; border: 0; padding: .25rem 0; cursor: pointer;
+      text-decoration: underline; text-decoration-color: var(--margin);
+      text-decoration-thickness: 2px; text-underline-offset: .3em;
+    }
+    .replay:hover { text-decoration-color: var(--red); }
+    .replay:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+    html:not(.motion) .replay { display: none; }
+    .tile { border-radius: 3px; }
+    @keyframes ink {
+      from { color: var(--ink); text-shadow: 0 0 .5em var(--glow); }
+      40% { color: var(--red); text-shadow: 0 0 .5em var(--glow); }
+      to { text-shadow: 0 0 0 transparent; }
+    }
+
+    .motion .windows .win { transition: transform 700ms cubic-bezier(.16, 1, .3, 1), opacity 300ms; }
+    .motion .windows:not(.in) .win { opacity: 0; }
+    .motion .windows:not(.in) .win.slide { transform: translateX(var(--from)); }
+    .motion .windows .row:nth-of-type(3) .win { transition-delay: 450ms; }
+    .motion .windows .row:nth-of-type(4) .win { transition-delay: 900ms; }
+    .motion .windows .own { transition: clip-path 600ms cubic-bezier(.16, 1, .3, 1) 1500ms; }
+    .motion .windows:not(.in) .own { clip-path: inset(0 100% 0 0); }
+
+    .motion .chart .curve { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1800ms cubic-bezier(.33, 1, .68, 1) 200ms; }
+    .motion .chart.in .curve { stroke-dashoffset: 0; }
+    .motion .chart .dot, .motion .chart .end { opacity: 0; transition: opacity 300ms 1800ms; }
+    .motion .chart.in .dot, .motion .chart.in .end { opacity: 1; }
+    .motion .chart .base { transition: opacity 400ms; }
+    .motion .chart:not(.in) .base { opacity: 0; }
+
+    .motion .quant .level { transition: opacity 400ms; }
+    .motion .quant:not(.in) .level { opacity: 0; }
+    .quant .q { transform-box: view-box; }
+
+    .motion .rail > li::before { transform: scale(0); }
+    .motion .rail.in > li::before { animation: node 650ms cubic-bezier(.16, 1, .3, 1) calc(var(--i) * 140ms) forwards; }
+    @keyframes node {
+      0% { transform: scale(0); background: var(--red); }
+      55% { transform: scale(1.2); background: var(--red); }
+      100% { transform: scale(1); background: var(--paper); }
+    }
+    .motion .rail > li::after { transform: scaleY(0); transform-origin: top; }
+    .motion .rail.in > li::after { animation: grow 260ms ease-out calc(var(--i) * 140ms + 140ms) forwards; }
+    @keyframes grow { to { transform: scaleY(1); } }
+    .motion .rail > li > * { transition: opacity 400ms calc(var(--i) * 140ms); }
+    .motion .rail:not(.in) > li > * { opacity: 0; }
+
+    @media (prefers-reduced-motion: reduce) {
+      h1 path { animation: none; stroke-dashoffset: 0; }
+    }
   </style>
 </head>
 <body>
   <main>
     <a class="back" href="./">← Înapoi la Diacritificator</a>
-    <h1>Despre Diacritificator</h1>
+    <h1>Despre Diacritificator<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
+      <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
     <p class="lede">Am început proiectul în 2018 și m-am apucat din nou de el în 2026. E încă un
       PoC, dar acum face ceva util: pune diacritice în text direct în browser, fără să trimită
       textul la un server.</p>
@@ -247,6 +316,7 @@
              aria-label="Am mancat inghetata devine Am mâncat înghețată, literă cu literă."></div>
         <figcaption class="legend">
           <span>sus: input</span><span>mijloc: predicția modelului</span><span>jos: output</span>
+          <button class="replay" id="replay" type="button">Rulează din nou</button>
         </figcaption>
       </figure>
       <p>Fereastra de context are 256 de caractere. Asta ajută la
@@ -254,7 +324,7 @@
         propoziție.</p>
 
       <figure>
-        <div class="windows" id="windows" role="img"
+        <div class="windows" id="windows" data-animate role="img"
              aria-label="Un text de 700 de caractere împărțit în trei ferestre de 256 care se suprapun cu 32."></div>
         <figcaption>Textele mai lungi de 256 de caractere sunt împărțite în ferestre care se
           suprapun cu 32 de caractere. Fiecare caracter e decis de o singură fereastră (zona
@@ -271,7 +341,7 @@
       <div class="diagrams">
         <figure>
           <h3>Arhitectura</h3>
-          <ol class="rail">
+          <ol class="rail" data-animate>
             <li><b>Input</b><span class="detail">până la 256 de caractere, dintr-un alfabet de 256 de simboluri</span></li>
             <li><b>Embedding</b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
             <li><b>Bloc encoder <span class="times">× 6</span></b>
@@ -289,7 +359,7 @@
 
         <figure>
           <h3>De la date la browser</h3>
-          <ol class="rail">
+          <ol class="rail" data-animate>
             <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), corecturi manuale (×50)</span></li>
             <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
             <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
@@ -312,7 +382,7 @@
 
       <h3>Cum a evoluat modelul în timpul antrenării</h3>
       <p>Pe setul de validare, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
-      <figure class="chart" id="curve"></figure>
+      <figure class="chart" id="curve" data-animate></figure>
       <p>Ca referință, un dicționar care alege forma cea mai frecventă a
         fiecărui cuvânt obține 98,4% (linia punctată). Modelul se descurcă mai bine inclusiv pe
         texte pe care nu le-a văzut în timpul antrenării.</p>
@@ -355,7 +425,7 @@
       <p>În testele mele, quantizarea la 4 biți nu a schimbat
         accuracy-ul măsurat, care a rămas la 99,55%.</p>
 
-      <figure class="quant">
+      <figure class="quant" data-animate>
         <p class="row-label">Un grup de 32 de weights, FP32</p>
         <div id="quant-w"></div>
         <p class="row-label">Aceleași 32 de weights, rotunjite la 15 niveluri (4 biți)</p>
@@ -419,6 +489,9 @@
   <script>
     const ro = (n, d = 0) => n.toLocaleString("ro-RO", { minimumFractionDigits: d, maximumFractionDigits: d });
 
+    const motion = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (motion) document.documentElement.classList.add("motion");
+
     // Letter diagram: [input, output] per word; candidates are a, i, s, t.
     const words = [["Am", "Am"], ["mancat", "mâncat"], ["inghetata", "înghețată"]];
     const choice = (from, to) => from === to ? "–" : "ășț".includes(to) ? "˘," : "^";
@@ -430,10 +503,45 @@
         const tile = document.createElement("div");
         tile.className = "tile" + (candidate ? " candidate" : "") + (ch !== b[i] ? " changed" : "");
         tile.innerHTML = `<span class="in">${ch}</span><span class="choice">${candidate ? choice(ch, b[i]) : ""}</span><span class="out">${b[i]}</span>`;
+        tile.dataset.from = ch;
+        tile.dataset.to = b[i];
         word.append(tile);
       });
       return word;
     }));
+
+    // The model reads the letters left to right: each one is looked at (a faint highlight),
+    // its prediction drops in, and changed letters ink in red like on the demo page.
+    const tiles = [...document.querySelectorAll("#letters .tile")];
+    let timers = [];
+    const reset = () => {
+      timers.forEach(clearTimeout);
+      timers = [];
+      for (const t of tiles) {
+        t.getAnimations({ subtree: true }).forEach((a) => a.cancel());
+        t.querySelector(".out").textContent = t.dataset.from;
+        t.querySelector(".choice").style.opacity = 0;
+      }
+    };
+    const read = () => {
+      reset();
+      tiles.forEach((t, i) => timers.push(setTimeout(() => {
+        const ease = "cubic-bezier(.16, 1, .3, 1)";
+        t.animate([{ background: "var(--desk)" }, { background: "transparent" }], { duration: 500, easing: "ease-out" });
+        const pick = t.querySelector(".choice");
+        pick.style.opacity = "";
+        pick.animate([{ opacity: 0, transform: "translateY(-6px)" }, { opacity: 1, transform: "none" }], { duration: 320, easing: ease });
+        if (t.dataset.from !== t.dataset.to) {
+          const out = t.querySelector(".out");
+          out.textContent = t.dataset.to;
+          out.animate([{ transform: "scale(1.35)" }, { transform: "none" }], { duration: 450, easing: ease });
+          out.style.animation = "none";
+          out.offsetWidth;
+          out.style.animation = "ink 650ms ease-out";
+        }
+      }, 300 + i * 70)));
+    };
+    document.getElementById("replay").addEventListener("click", read);
 
     // Training curve: validation accuracy (%) every 4000 steps of the 80k-step run.
     const points = [[4,97.83],[8,98.65],[12,98.92],[16,99.06],[20,99.15],[24,99.23],[28,99.26],[32,99.31],
@@ -454,7 +562,7 @@
       }
       s += `<line class="base" x1="${L}" x2="${W - R}" y1="${y(BASELINE)}" y2="${y(BASELINE)}"/>`;
       s += `<text x="${W - R + 6}" y="${y(BASELINE) + 4}">dicționar</text>`;
-      s += `<polyline class="curve" points="${points.map(([k, v]) => `${x(k)},${y(v)}`).join(" ")}"/>`;
+      s += `<polyline class="curve" pathLength="1" points="${points.map(([k, v]) => `${x(k)},${y(v)}`).join(" ")}"/>`;
       const [k, v] = points.at(-1);
       s += `<circle class="dot" cx="${x(k)}" cy="${y(v)}" r="4"/>`;
       s += `<text class="end" x="${x(k) + 8}" y="${y(v) + 4}">${ro(v, 2)}%</text>`;
@@ -477,6 +585,12 @@
       });
       h += `<div class="axis"><span>0</span><span>224</span><span>444</span><span>700</span></div>`;
       document.getElementById("windows").innerHTML = h;
+      // Windows 2 and 3 slide in from the previous window's start, the way the planner steps.
+      document.querySelectorAll("#windows .win").forEach((win, i) => {
+        if (!i) return;
+        win.classList.add("slide");
+        win.style.setProperty("--from", `${(-(starts[i] - starts[i - 1]) / WIN) * 100}%`);
+      });
     }
 
     // 4-bit quantization of one group of 32 made-up weights, same formula as the exporter.
@@ -500,6 +614,34 @@
       };
       document.getElementById("quant-w").innerHTML = draw(w, "w", false);
       document.getElementById("quant-q").innerHTML = draw(q, "q", true);
+      // The quantized bars start at the original heights and snap to their 4-bit level.
+      const H = 120, mid = H / 2, k = (mid - 4) / (7 * scale);
+      const bars = [...document.querySelectorAll("#quant-q rect")];
+      const from = bars.map((_, i) => (q[i] === 0 ? -w[i] * k : w[i] / q[i]));
+      bars.forEach((bar) => { bar.style.transformOrigin = `0 ${mid}px`; });
+      if (motion) bars.forEach((bar, i) => { bar.style.transform = `scaleY(${from[i]})`; });
+      document.querySelector(".quant").addEventListener("enter", () => bars.forEach((bar, i) => {
+        bar.style.transform = "";
+        bar.animate([{ transform: `scaleY(${from[i]})` }, { transform: "scaleY(1)" }],
+          { duration: 420, delay: 500 + i * 30, easing: "cubic-bezier(.16, 1, .3, 1)", fill: "backwards" });
+      }));
+    }
+
+    // Play each figure once, when most of it is on screen.
+    document.querySelectorAll(".rail").forEach((rail) =>
+      [...rail.children].forEach((li, i) => li.style.setProperty("--i", i)));
+    if (motion) {
+      reset();
+      const letters = document.getElementById("letters");
+      letters.dataset.animate = "";
+      letters.addEventListener("enter", read);
+      const seen = new IntersectionObserver((entries) => entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add("in");
+        e.target.dispatchEvent(new Event("enter"));
+        seen.unobserve(e.target);
+      }), { threshold: .4 });
+      document.querySelectorAll("[data-animate]").forEach((el) => seen.observe(el));
     }
   </script>
 </body>

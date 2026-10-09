@@ -31,7 +31,6 @@
       width: 1em; height: 1em; margin-right: .35em; vertical-align: -.125em; flex: none;
       fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
     }
-    .icon.after { margin: 0 0 0 .3em; }
     .icon.pen { color: var(--red); }
     .icon.lime { color: var(--red-text); }
     #copy:not(.done) .done-i, #copy.done .copy-i { display: none; }
@@ -45,31 +44,60 @@
       line-height: 1.6;
     }
 
-    /* The page is one screen tall on desktop: a compact header, then the panes take the rest. */
-    main {
-      display: flex;
-      flex-direction: column;
-      max-width: 90rem;
-      min-height: 100dvh;
-      margin: 0 auto;
-      padding: 1.75rem 1rem 1.25rem;
+    /* Two full-screen panes, edge to edge. On wide screens both panes share the same four row
+       tracks (subgrid), so the ruled lines of the two sheets sit at the same height. */
+    main { --pad: 1rem; }
+    .sheet {
+      display: flex; flex-direction: column; gap: 1rem;
+      min-width: 0;
+      padding: 1.5rem var(--pad) 0;
+      background: var(--card);
+    }
+    /* One header across the whole page, then the two sheets. */
+    .site {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem 2rem;
+      padding: 1.25rem var(--pad);
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+    }
+    /* One footer across the page too: model status on the left, what the page does on the right. */
+    .site-foot {
+      display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 2rem;
+      padding: 1rem var(--pad) 1.25rem;
+      background: var(--paper);
     }
     @media (min-width: 56rem) {
-      main { height: 100dvh; padding: 2rem 2rem 1.25rem; }
+      main {
+        --pad: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        gap: 0 1px; /* the divider: equal columns, so both panes wrap at the same words */
+        height: 100dvh;
+        background: var(--rule);
+      }
+      .site, .site-foot { grid-column: 1 / -1; }
+      .sheet { display: grid; grid-row: 2 / 4; grid-template-rows: subgrid; gap: 0; }
+      .sheet-head { grid-row: 1; margin-bottom: .5rem; }
+      .page { grid-row: 2; }
+      .site-foot .lede { text-align: right; }
     }
 
-    header {
-      display: grid;
-      gap: .75rem 3rem;
-      align-items: end;
-      margin-bottom: 1.75rem;
+    /* Menu: plain links with an icon each, underlined in red on hover like the rest of the site. */
+    .menu { display: flex; flex-wrap: wrap; align-items: center; gap: 0 1.5rem; margin: -.5rem 0; font-size: .9375rem; }
+    .menu a {
+      display: inline-flex; align-items: center; min-height: 44px;
+      color: var(--ink); text-decoration: underline 2px transparent; text-underline-offset: .3em;
+      transition: text-decoration-color 120ms;
     }
-    @media (min-width: 56rem) { header { grid-template-columns: auto 1fr; } }
+    .menu a:hover { text-decoration-color: var(--red); }
+    .menu a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 2px; }
+    .menu .icon { color: var(--muted); }
 
     .brand { display: flex; align-items: center; gap: clamp(.75rem, 2vw, 1.25rem); }
     .logo {
       flex: none;
-      width: clamp(2.75rem, 7vw, 4.25rem);
+      width: clamp(2.25rem, 4vw, 2.75rem);
       height: auto;
       filter: drop-shadow(0 6px 10px rgb(58 55 64 / .18));
     }
@@ -83,13 +111,14 @@
       position: relative;
       width: fit-content;
       margin: 0;
-      font-size: clamp(2.25rem, 7vw, 3.75rem);
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
       font-variation-settings: "opsz" 72;
       font-weight: 650;
       line-height: 1.05;
       letter-spacing: -.02em;
     }
-    /* The teacher's red pen underlines the title once, on load. */
+    /* The teacher's red pen underlines the title as the model downloads: the script moves
+       --p from 0 to 1, so the stroke doubles as the progress bar. */
     h1 svg {
       position: absolute;
       left: -1%;
@@ -103,22 +132,13 @@
       stroke: var(--red);
       stroke-width: 3.5;
       stroke-linecap: round;
-      stroke-dasharray: 1;
-      stroke-dashoffset: 1;
-      animation: underline 900ms cubic-bezier(.6, 0, .3, 1) 350ms forwards;
-    }
-    @keyframes underline { to { stroke-dashoffset: 0; } }
-
-    .lede { max-width: 34rem; margin: 0; font-size: 1.0625rem; color: var(--muted); }
-    .lede a { color: var(--ink); text-decoration-color: var(--margin); text-decoration-thickness: 2px; text-underline-offset: .25em; }
-    .lede a:hover { text-decoration-color: var(--red); }
-
-    .sheets { flex: 1; min-height: 0; display: grid; gap: 1.5rem; }
-    @media (min-width: 56rem) {
-      .sheets { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      stroke-dasharray: 1 2; /* gap longer than the path, so no cap dot shows at the far end */
+      stroke-dashoffset: calc(1 - var(--p, 0));
+      transition: stroke-dashoffset 450ms cubic-bezier(.33, 1, .68, 1);
     }
 
-    .sheet { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+    .lede { max-width: 34rem; margin: 0; font-size: .9375rem; color: var(--muted); }
+
     .sheet-head {
       display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
       margin-bottom: .5rem;
@@ -130,37 +150,40 @@
     /* Notebook sheets: ruled lines that scroll with the text, a red margin line. Each pane
        scrolls on its own and the script keeps the two in step. */
     .page {
-      width: 100%;
-      height: 60dvh;
+      width: calc(100% + 2 * var(--pad));
+      height: 50dvh;
       min-height: 16rem;
       overflow-y: auto;
       scrollbar-width: thin;
       scrollbar-color: color-mix(in srgb, var(--muted) 40%, transparent) transparent;
-      margin: 0;
-      padding: .75rem 1.25rem .75rem 2.5rem;
+      margin: 0 calc(-1 * var(--pad));
+      padding: .75rem var(--pad) .75rem calc(var(--pad) + 1.5rem);
       border: 0;
-      border-radius: 3px;
+      border-block: 1px solid var(--rule);
       color: var(--ink);
       font: inherit;
       font-size: 1.1875rem;
       line-height: var(--line);
-      background-color: var(--card);
+      background-color: var(--paper);
       background-image:
-        linear-gradient(to right, transparent 1.5rem, var(--margin) 1.5rem,
-                        var(--margin) calc(1.5rem + 1px), transparent calc(1.5rem + 1px)),
+        linear-gradient(to right, transparent calc(var(--pad) + .5rem), var(--margin) calc(var(--pad) + .5rem),
+                        var(--margin) calc(var(--pad) + .5rem + 1px), transparent calc(var(--pad) + .5rem + 1px)),
         repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--line) - 1px),
                                   var(--rule) calc(var(--line) - 1px), var(--rule) var(--line));
       background-position: 0 0, 0 calc(.75rem - 5px); /* rules just under the baseline */
       background-attachment: local;
-      box-shadow: var(--shadow);
       white-space: pre-wrap;
       overflow-wrap: anywhere;
+      /* The <mark> around each added letter breaks kerning and ligature pairs, which made the
+         output a few pixels wider than the input. Without them both panes wrap at the same words. */
+      font-kerning: none;
+      font-variant-ligatures: none;
     }
-    @media (min-width: 56rem) { .page { flex: 1; height: auto; } }
+    @media (min-width: 56rem) { .page { height: auto; min-height: 0; } }
     textarea.page { resize: none; }
     textarea.page::placeholder { color: var(--muted); font-style: italic; }
-    textarea.page:disabled { opacity: .6; }
-    .page:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    textarea.page:disabled { cursor: progress; }
+    .page:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
 
     #output .empty { color: var(--muted); font-style: italic; }
     #output mark {
@@ -210,12 +233,13 @@
     button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
     button:disabled { color: var(--muted); cursor: default; text-decoration: none; }
 
-    .status { margin: .875rem 0 0; min-height: 1.6em; font-size: .9375rem; color: var(--muted); }
+    .status { margin: 0; min-height: 1.6em; font-size: .9375rem; color: var(--muted); }
     .status.error { color: var(--red-text); }
     .count { color: var(--red-text); font-weight: 600; }
 
     @media (prefers-reduced-motion: reduce) {
-      h1 path { animation: none; stroke-dashoffset: 0; }
+      h1 path { transition: none; }
+      .menu a { transition: none; }
       #output mark.fresh { animation: none; }
       #output mark::after, button { transition: none; }
     }
@@ -223,7 +247,7 @@
 </head>
 <body>
   <main>
-    <header>
+    <header class="site">
       <div class="brand">
         <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
           <clipPath id="logo-page"><rect x="2" y="2" width="60" height="60" rx="14"/></clipPath>
@@ -238,30 +262,33 @@
         <h1>Diacritificatorul<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
         <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
       </div>
-      <p class="lede">Scrie fără diacritice și le punem noi la loc. Modelul rulează în
-        browserul tău, așa că textul nu pleacă nicăieri. <a href="about.html">Despre proiect<svg class="icon after" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></p>
+      <nav class="menu" aria-label="Meniu">
+        <a href="about.html"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>Despre</a>
+        <a href="about.html#cum-functioneaza"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>Cum funcționează</a>
+        <a href="https://github.com/Claudiu/ro-diacritics"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>GitHub</a>
+      </nav>
     </header>
+    <section class="sheet">
+      <div class="sheet-head">
+        <label for="input"><svg class="icon pen" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg>Textul tău</label>
+        <button id="example" type="button" disabled><svg class="icon lime" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>Încearcă un exemplu</button>
+      </div>
+      <textarea id="input" class="page" spellcheck="false" disabled
+                placeholder="Scrie aici, de exemplu: Mergem la munte in weekend, daca nu ploua."></textarea>
+    </section>
 
-    <div class="sheets">
-      <section class="sheet">
-        <div class="sheet-head">
-          <label for="input"><svg class="icon pen" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg>Textul tău</label>
-          <button id="example" type="button" disabled><svg class="icon lime" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>Încearcă un exemplu</button>
-        </div>
-        <textarea id="input" class="page" spellcheck="false" disabled
-                  placeholder="Scrie aici, de exemplu: Mergem la munte in weekend, daca nu ploua."></textarea>
-      </section>
-
-      <section class="sheet" aria-labelledby="output-title">
-        <div class="sheet-head">
-          <h2 id="output-title"><svg class="icon lime" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 16 6-12 6 12"/><path d="M8 12h8"/><path d="m16 20 2 2 4-4"/></svg>Cu diacritice</h2>
-          <button id="copy" type="button" disabled><svg class="icon copy-i" viewBox="0 0 24 24" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><svg class="icon done-i lime" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Copiază</span></button>
-        </div>
-        <div id="output" class="page" tabindex="0"><span class="empty">Textul cu diacritice apare aici.</span></div>
-      </section>
-    </div>
-
-    <p id="status" class="status" role="status">Se încarcă modelul (6 MB)…</p>
+    <section class="sheet" aria-labelledby="output-title">
+      <div class="sheet-head">
+        <h2 id="output-title"><svg class="icon lime" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 16 6-12 6 12"/><path d="M8 12h8"/><path d="m16 20 2 2 4-4"/></svg>Cu diacritice</h2>
+        <button id="copy" type="button" disabled><svg class="icon copy-i" viewBox="0 0 24 24" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><svg class="icon done-i lime" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Copiază</span></button>
+      </div>
+      <div id="output" class="page" tabindex="0"><span class="empty">Textul cu diacritice apare aici.</span></div>
+    </section>
+    <footer class="site-foot">
+      <p id="status" class="status" role="status">Se încarcă modelul (6 MB)…</p>
+      <p class="lede">Scrie fără diacritice și le punem noi la loc. Modelul rulează în
+        browserul tău, așa că textul nu pleacă nicăieri.</p>
+    </footer>
   </main>
 
   <script type="module">
@@ -287,6 +314,24 @@ Spre prânz, soarele arde asfaltul și terasele se umplu de lume care vorbește 
       busy = true;
       sent = input.value;
       worker.postMessage({ text: sent });
+    };
+
+    // Download progress: the title underline follows it; the status line says it in MB,
+    // updated every 10% so screen readers do not announce each chunk.
+    const title = document.querySelector("h1");
+    const mb = (bytes) => (bytes / 1e6).toLocaleString("ro-RO", { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+    let shownStep = -1;
+    const placeholder = input.placeholder;
+    const progress = ({ loaded, total }) => {
+      const p = loaded / total;
+      title.style.setProperty("--p", p);
+      const step = Math.floor(p * 10);
+      if (step === shownStep) return;
+      shownStep = step;
+      status.textContent = p < 1
+        ? `Se descarcă modelul: ${mb(loaded)} din ${mb(total)} MB…`
+        : "Pornesc modelul…";
+      input.placeholder = status.textContent;
     };
 
     const showError = (message) => {
@@ -350,7 +395,10 @@ Spre prânz, soarele arde asfaltul și terasele se umplu de lume care vorbește 
 
     worker.onmessage = ({ data }) => {
       if (data.error) { showError(data.error); busy = false; return; }
+      if (data.progress) { progress(data.progress); return; }
       if (data.ready) {
+        title.style.setProperty("--p", 1);
+        input.placeholder = placeholder;
         status.textContent = `Gata, modelul s-a încărcat în ${data.ms} ms. Poți scrie.`;
         input.maxLength = data.maxChars;
         input.disabled = false;

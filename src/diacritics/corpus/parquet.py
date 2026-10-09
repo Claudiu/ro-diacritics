@@ -1,8 +1,10 @@
-"""Romanian Wikipedia from the Hugging Face `wikimedia/wikipedia` parquet shards.
+"""Hugging Face parquet shards with `id` and `text` columns: Romanian Wikipedia
+(`wikimedia/wikipedia`) and web text (`HuggingFaceFW/fineweb-2`, `ron_Latn`).
 
-Already plain text (no wikitext), so no parsing: download once, stream row batches.
+Already plain text, so no parsing: download once, stream row batches.
 """
 
+import zlib
 from collections.abc import Iterator, Sequence
 from pathlib import Path
 
@@ -14,10 +16,12 @@ from diacritics.corpus.source import CorpusUnavailableError, Document
 BATCH_ROWS = 256
 
 
-class WikipediaSource:
-    def __init__(self, urls: Sequence[str], cache_dir: Path) -> None:
+class ParquetSource:
+    def __init__(self, urls: Sequence[str], cache_dir: Path, every: int = 1) -> None:
+        """Keeps one document in `every` (chosen by id, so stable across runs)."""
         self._urls = tuple(urls)
         self._cache_dir = cache_dir
+        self._every = every
 
     def iter_documents(self) -> Iterator[Document]:
         for url in self._urls:
@@ -27,7 +31,9 @@ class WikipediaSource:
             except OSError as err:
                 raise CorpusUnavailableError(f"download {url}: {err}") from err
 
-            yield from _iter_parquet(path)
+            for document in _iter_parquet(path):
+                if self._every == 1 or zlib.crc32(document.id.encode()) % self._every == 0:
+                    yield document
 
 
 def _iter_parquet(path: Path) -> Iterator[Document]:

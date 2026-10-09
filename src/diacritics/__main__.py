@@ -14,9 +14,9 @@ from diacritics.common.progress import LogProgress, Progress, RichProgress
 from diacritics.config.settings import Settings
 from diacritics.corpus.corrections import CorrectionsSource
 from diacritics.corpus.filter import is_validation
+from diacritics.corpus.parquet import ParquetSource
 from diacritics.corpus.source import ChainedSource, CorpusSource
 from diacritics.corpus.subtitles import SubtitlesSource
-from diacritics.corpus.wikipedia import WikipediaSource
 from diacritics.dataset.build import (
     BASELINE_FILE,
     build_corrections,
@@ -107,12 +107,16 @@ def main(argv: Sequence[str] | None = None) -> int:
 
 
 def corpus_source(settings: Settings) -> CorpusSource:
+    """Wikipedia first: evaluation reads the first validation documents, so it keeps
+    measuring on Wikipedia whatever else is added after it."""
     c, raw = settings.corpus, settings.paths.raw
-    wikipedia = WikipediaSource(c.urls, raw)
-    if not c.subtitles_url:
-        return wikipedia
+    sources: list[CorpusSource] = [ParquetSource(c.urls, raw)]
+    if c.subtitles_url:
+        sources.append(SubtitlesSource(c.subtitles_url, raw, c.subtitles_every))
+    if c.web_url:
+        sources.append(ParquetSource((c.web_url,), raw, c.web_every))
 
-    return ChainedSource(wikipedia, SubtitlesSource(c.subtitles_url, raw, c.subtitles_every))
+    return ChainedSource(*sources)
 
 
 def run_baseline(settings: Settings, source: CorpusSource) -> None:

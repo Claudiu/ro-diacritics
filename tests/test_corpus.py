@@ -1,6 +1,8 @@
 import gzip
 from pathlib import Path
 
+import pyarrow as pa
+import pyarrow.parquet as pq
 import pytest
 
 from diacritics.corpus.filter import (
@@ -12,6 +14,7 @@ from diacritics.corpus.filter import (
 )
 from diacritics.corpus.local_files import LocalFilesSource
 from diacritics.corpus.memory import InMemorySource
+from diacritics.corpus.parquet import ParquetSource
 from diacritics.corpus.source import ChainedSource, CorpusUnavailableError, Document
 from diacritics.corpus.subtitles import LINES_PER_DOCUMENT, SubtitlesSource
 
@@ -112,6 +115,21 @@ def test_subtitles_source_groups_lines_and_samples(tmp_path: Path) -> None:
 
     sampled = list(SubtitlesSource(url, tmp_path, every=1000).iter_documents())
     assert len(sampled) < len(every)
+
+
+def test_parquet_source_reads_and_samples(tmp_path: Path) -> None:
+    ids = [f"<urn:uuid:{i}>" for i in range(200)]
+    table = pa.table({"id": ids, "text": [GOOD] * 200, "url": ["x"] * 200})
+    pq.write_table(table, tmp_path / "shard.parquet")
+    url = "https://example.invalid/shard.parquet"  # already cached, never downloaded
+
+    every = list(ParquetSource((url,), tmp_path).iter_documents())
+    assert [d.id for d in every] == ids
+    assert every[0].text == GOOD
+
+    sampled = [d.id for d in ParquetSource((url,), tmp_path, every=4).iter_documents()]
+    assert 0 < len(sampled) < len(ids)
+    assert sampled == [d.id for d in ParquetSource((url,), tmp_path, every=4).iter_documents()]
 
 
 def test_chained_source() -> None:

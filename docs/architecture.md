@@ -2,7 +2,7 @@
 
 ## Summary
 
-Two halves joined by one file format. Python (`uv`, PyTorch) turns Romanian Wikipedia and film subtitles
+Two halves joined by one file format. Python (`uv`, PyTorch) turns Romanian Wikipedia, film subtitles and web text
 into a trained character-level transformer and exports `config.json` +
 `model.safetensors`. Rust (candle) loads that export and restores diacritics, as a native
 CLI and as a WASM module for a static demo page. Training is one command after `git pull`.
@@ -24,7 +24,7 @@ CLI and as a WASM module for a static demo page. Training is one command after `
 
 | Port | Methods | Adapter now | Swap target | Fake |
 |---|---|---|---|---|
-| `CorpusSource` (Py) | `iter_documents()` | `WikipediaSource` (HF parquet, streamed), `SubtitlesSource` (OPUS OpenSubtitles, 50-line chunks), joined by `ChainedSource` | `LocalFilesSource`, OSCAR | `InMemorySource` |
+| `CorpusSource` (Py) | `iter_documents()` | `ParquetSource` (HF parquet, streamed: Wikipedia, FineWeb-2), `SubtitlesSource` (OPUS OpenSubtitles, 50-line chunks), joined by `ChainedSource` | `LocalFilesSource`, OSCAR | `InMemorySource` |
 | `ArtifactStore` (Py) | `write(name, bytes)`, `read(name)` | `LocalDirStore` | S3 / HF Hub | `InMemoryStore` |
 | `Restorer` (Rust) | `restore(&str)` | `Transformer` (candle) | ONNX, BERT-class | `Identity` |
 
@@ -49,7 +49,7 @@ src/diacritics/
 ├── config/settings.py typed settings from DIACRITICS_* env, validated
 ├── common/            env, JSON logging, atomic download
 ├── domain/            label, normalize, decode, alphabet, windows, example
-├── corpus/            source port, wikipedia, subtitles, local_files, memory, filter
+├── corpus/            source port, parquet, subtitles, local_files, memory, filter
 ├── artifacts/         store port, local_dir, memory
 ├── dataset/           shards (uint8 windows on disk, memmapped), build
 ├── model/             encoder (explicit pre-LN transformer), infer (windowed Predictor)

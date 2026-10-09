@@ -14,6 +14,7 @@ WIKIPEDIA_RO_URLS = (
     "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.ro/train-00001-of-00002.parquet",
 )
 OPENSUBTITLES_RO_URL = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/mono/ro.txt.gz"
+FINEWEB2_RO_URL = "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/ron_Latn/train/000_00000.parquet"
 
 
 @dataclass(frozen=True, slots=True)
@@ -45,6 +46,10 @@ class CorpusSettings:
     """OpenSubtitles monolingual dump; empty leaves subtitles out."""
     subtitles_every: int
     """Keep one subtitle document in this many, so subtitles don't drown Wikipedia."""
+    web_url: str
+    """One FineWeb-2 Romanian shard (news, blogs, forums, shops); empty leaves web text out."""
+    web_every: int
+    """Keep one web document in this many: a shard is ~10x Wikipedia before filtering."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -101,6 +106,8 @@ class Settings:
                 valid_every=env.read_int("VALID_EVERY", 50),
                 subtitles_url=env.read_str("SUBTITLES_URL", OPENSUBTITLES_RO_URL),
                 subtitles_every=env.read_int("SUBTITLES_EVERY", 4),
+                web_url=env.read_str("WEB_URL", FINEWEB2_RO_URL),
+                web_every=env.read_int("WEB_EVERY", 4),
             ),
             model=ModelSettings(
                 vocab_size=env.read_int("VOCAB_SIZE", 256),
@@ -153,8 +160,8 @@ class Settings:
             problems.append("DEVICE must be auto, cpu, cuda or mps")
         if c.valid_every < 2:
             problems.append("VALID_EVERY must be >= 2")
-        if c.subtitles_every < 1:
-            problems.append("SUBTITLES_EVERY must be >= 1")
+        if c.subtitles_every < 1 or c.web_every < 1:
+            problems.append("SUBTITLES_EVERY and WEB_EVERY must be >= 1")
         if not 0 <= c.min_diacritic_ratio <= 1:
             problems.append("MIN_DIACRITIC_RATIO must be in [0, 1]")
 

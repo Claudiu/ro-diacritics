@@ -28,7 +28,7 @@ to run in the browser: no server, no account.
 | Parameters | — | 10.8M |
 | Training | Keras, RTX 2060 | PyTorch, RTX 5090, ~4 hours |
 | Inference | Python server | Browser, Rust + WebAssembly |
-| Training data | `train.txt` | Wikipedia, OpenSubtitles, manual corrections |
+| Training data | `train.txt` | Wikipedia, OpenSubtitles, FineWeb-2 web text, manual corrections |
 | Size | — | 6.2 MB, weights quantized to 4 bits |
 
 ## How it works
@@ -55,7 +55,8 @@ Architecture: pre-LayerNorm transformer encoder, 6 blocks, width 384, 6 heads, f
 384 → 1536 → 384 with GELU, a linear head to 3 classes. Attention is not causal: every
 letter sees context on both sides. 10.8M parameters.
 
-Data to browser: Wikipedia + OpenSubtitles (1 in 4 chunks) + manual corrections (×50),
+Data to browser: Wikipedia + OpenSubtitles (1 in 4 chunks) + one FineWeb-2 Romanian shard
+(1 in 4 documents) + manual corrections (×50),
 filtered to drop texts without ă/ș/ț and texts with broken encoding → 7.6M training windows
 and 262k validation windows → bf16 training, 80,000 steps, ~4 hours → safetensors export
 with 4-bit weights → candle in a Web Worker.
@@ -134,7 +135,7 @@ the next fine-tune.
 
 ```sh
 git clone https://github.com/Claudiu/ro-diacritics diacritics && cd diacritics
-scripts/train.sh            # uv sync, fetch Romanian Wikipedia + subtitles, baseline, train, eval, export
+scripts/train.sh            # uv sync, fetch Wikipedia + subtitles + web text, baseline, train, eval, export
 ```
 
 Needs only [`uv`](https://docs.astral.sh/uv/). `torch` from PyPI ships CUDA on Linux, so

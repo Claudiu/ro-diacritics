@@ -347,6 +347,34 @@
     .motion .correction .fix { opacity: 0; transform: translateY(6px); transform-box: fill-box; }
     .motion .correction.in .fix { transition: opacity 300ms 1500ms, transform 400ms cubic-bezier(.16, 1, .3, 1) 1500ms; opacity: 1; transform: none; }
 
+    /* Glossary terms: dotted underline; the explanation shows in one shared tooltip. */
+    .term {
+      text-decoration: underline dotted var(--red);
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: .22em;
+      cursor: help;
+      border-radius: 2px;
+    }
+    .term:hover, .term[aria-expanded="true"] { background: var(--desk); }
+    .term:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    .hint { max-width: var(--text); margin: -3.5rem 0 5rem; color: var(--muted); font-size: 1rem; }
+    .tip {
+      position: fixed; z-index: 10;
+      max-width: min(20rem, calc(100vw - 2rem));
+      padding: .75rem 1rem;
+      border-radius: 8px;
+      background: var(--ink);
+      color: var(--paper);
+      font-size: 1rem; line-height: 1.5;
+      box-shadow: 0 2px 4px rgb(0 0 0 / .12), 0 12px 32px -12px rgb(0 0 0 / .45);
+      pointer-events: none;
+      animation: tip-in 140ms cubic-bezier(.16, 1, .3, 1);
+    }
+    .tip b { display: block; margin-bottom: .125rem; }
+    .tip[hidden] { display: none; }
+    @keyframes tip-in { from { opacity: 0; transform: translateY(4px); } }
+    @media (prefers-reduced-motion: reduce) { .tip { animation: none; } }
+
     @media (prefers-reduced-motion: reduce) {
       h1 path { animation: none; stroke-dashoffset: 0; }
     }
@@ -358,8 +386,10 @@
     <h1>Despre Diacritificator<svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
       <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
     <p class="lede">Am început proiectul în 2018 și m-am apucat din nou de el în 2026. E încă un
-      PoC, dar acum face ceva util: pune diacritice în text direct în browser, fără să trimită
+      <span class="term" data-term="poc">PoC</span>, dar acum face ceva util: pune diacritice în text direct în browser, fără să trimită
       textul la un server.</p>
+    <p class="hint">Termenii tehnici <span class="term" data-term="exemplu">subliniați așa</span> au o explicație pe scurt.
+      Treci cu mouse-ul peste ei sau atinge-i.</p>
 
     <nav class="toc" aria-label="Cuprins"><ol>
       <li><a href="#de-ce">De ce m-am apucat din nou de el</a></li>
@@ -378,7 +408,7 @@
     <section id="de-ce">
       <h2>De ce m-am apucat din nou de el</h2>
       <p>În 2018 am făcut <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics</a>,
-        un model BiLSTM în Keras, cu un server Python pentru inferență. A funcționat cât să văd
+        un model <span class="term" data-term="bilstm">BiLSTM</span> în <span class="term" data-term="keras">Keras</span>, cu un server Python pentru <span class="term" data-term="inferenta">inferență</span>. A funcționat cât să văd
         că ideea are potențial, dar nu l-am dus prea departe.</p>
       <p>Aveam atunci un RTX 2060 și m-am lovit destul de repede de limitele hardware-ului. În
         2026 am un RTX 5090 și am vrut să văd ce pot obține cu un model antrenat de la zero,
@@ -392,12 +422,12 @@
       <table>
         <thead><tr><th scope="col"></th><th scope="col">2018</th><th scope="col">2026</th></tr></thead>
         <tbody>
-          <tr><th scope="row">Model</th><td>BiLSTM</td><td>Transformer pe caractere</td></tr>
-          <tr><th scope="row">Parametri</th><td>—</td><td>10,8 milioane</td></tr>
-          <tr><th scope="row">Training</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4 ore</td></tr>
-          <tr><th scope="row">Inferență</th><td>Server Python</td><td>Browser, Rust + WebAssembly</td></tr>
-          <tr><th scope="row">Date de antrenare</th><td><code>train.txt</code></td><td>Wikipedia, OpenSubtitles și corecturi manuale</td></tr>
-          <tr><th scope="row">Dimensiune</th><td>—</td><td>6,2 MB, weights quantized la 4 biți</td></tr>
+          <tr><th scope="row">Model</th><td>BiLSTM</td><td><span class="term" data-term="transformer">Transformer</span> pe caractere</td></tr>
+          <tr><th scope="row"><span class="term" data-term="parametri">Parametri</span></th><td>—</td><td>10,8 milioane</td></tr>
+          <tr><th scope="row"><span class="term" data-term="training">Training</span></th><td>Keras, RTX 2060</td><td><span class="term" data-term="pytorch">PyTorch</span>, RTX 5090, ~4 ore</td></tr>
+          <tr><th scope="row">Inferență</th><td>Server Python</td><td>Browser, Rust + <span class="term" data-term="wasm">WebAssembly</span></td></tr>
+          <tr><th scope="row">Date de antrenare</th><td><code>train.txt</code></td><td>Wikipedia, <span class="term" data-term="opensubtitles">OpenSubtitles</span> și corecturi manuale</td></tr>
+          <tr><th scope="row">Dimensiune</th><td>—</td><td>6,2 MB, <span class="term" data-term="weights">weights</span> <span class="term" data-term="quant">quantized</span> la 4 biți</td></tr>
         </tbody>
       </table>
     </section>
@@ -416,15 +446,15 @@
           <button class="replay" id="replay" type="button">Rulează din nou</button>
         </figcaption>
       </figure>
-      <p>Fereastra de context are 256 de caractere. Asta ajută la
+      <p><span class="term" data-term="context">Fereastra de context</span> are 256 de caractere. Asta ajută la
         diferențierea unor cuvinte precum „fata”, „fată” și „față”, unde forma corectă depinde de
         propoziție.</p>
 
       <figure class="attention" id="attention" data-animate>
         <div id="attention-plot"></div>
         <figcaption>Attention-ul real al modelului pentru „s” din „pisat”, în propoziția „Si
-          acum strivim usturoiul pisat in farfurie.” (media celor 6 heads, arcul mai gros
-          înseamnă o pondere mai mare). Primul strat se uită în jurul literei, în cuvântul ei.
+          acum strivim usturoiul pisat in farfurie.” (media celor 6 <span class="term" data-term="heads">heads</span>, arcul mai gros
+          înseamnă o pondere mai mare). Primul <span class="term" data-term="strat">strat</span> se uită în jurul literei, în cuvântul ei.
           Ultimul strat se uită și la „strivim”, „usturoiul” și „farfurie”.</figcaption>
       </figure>
 
@@ -449,29 +479,29 @@
           <h3>Arhitectura</h3>
           <ol class="rail" data-animate>
             <li><b>Input</b><span class="detail">până la 256 de caractere, dintr-un alfabet de 256 de simboluri</span></li>
-            <li><b>Embedding</b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
+            <li><b><span class="term" data-term="embedding">Embedding</span></b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
             <li><b>Bloc encoder <span class="times">× 6</span></b>
               <ul class="steps">
-                <li>LayerNorm → self-attention, 6 heads</li>
-                <li>LayerNorm → feed-forward 384 → 1536 → 384, GELU</li>
-                <li>conexiuni reziduale în jurul fiecăruia</li>
+                <li><span class="term" data-term="layernorm">LayerNorm</span> → <span class="term" data-term="attention">self-attention</span>, 6 heads</li>
+                <li>LayerNorm → <span class="term" data-term="ff">feed-forward</span> 384 → 1536 → 384, <span class="term" data-term="gelu">GELU</span></li>
+                <li><span class="term" data-term="rezidual">conexiuni reziduale</span> în jurul fiecăruia</li>
               </ul></li>
-            <li><b>Head</b><span class="detail">LayerNorm → Linear 384 → 3</span></li>
+            <li><b><span class="term" data-term="head">Head</span></b><span class="detail">LayerNorm → Linear 384 → 3</span></li>
             <li><b>Output, per caracter</b><span class="detail"><code>none</code> · <code>breve_comma</code> (ă ș ț) · <code>circumflex</code> (â î)</span></li>
           </ol>
           <figcaption>Transformer encoder pre-LayerNorm, 10,8M parametri. Attention-ul nu e
-            cauzal: fiecare literă vede contextul din stânga și din dreapta.</figcaption>
+            <span class="term" data-term="cauzal">cauzal</span>: fiecare literă vede contextul din stânga și din dreapta.</figcaption>
         </figure>
 
         <figure>
           <h3>De la date la browser</h3>
           <ol class="rail" data-animate>
             <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), corecturi manuale (×50)</span></li>
-            <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
+            <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu <span class="term" data-term="encoding">encoding stricat</span></span></li>
             <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
-            <li><b>Training</b><span class="detail">PyTorch, bf16, RTX 5090, 80.000 de pași, ~4 ore</span></li>
-            <li><b>Export</b><span class="detail">safetensors, weights la 4 biți, 6,2 MB</span></li>
-            <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un Web Worker</span></li>
+            <li><b>Training</b><span class="detail">PyTorch, <span class="term" data-term="bf16">bf16</span>, RTX 5090, 80.000 de pași, ~4 ore</span></li>
+            <li><b>Export</b><span class="detail"><span class="term" data-term="safetensors">safetensors</span>, weights la 4 biți, 6,2 MB</span></li>
+            <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un <span class="term" data-term="worker">Web Worker</span></span></li>
           </ol>
         </figure>
       </div>
@@ -480,17 +510,17 @@
     <section id="rezultate">
       <h2>Rezultate</h2>
       <dl class="facts">
-        <dt>99,5%</dt><dd>accuracy pentru predicțiile literelor a, i, s și t</dd>
+        <dt>99,5%</dt><dd><span class="term" data-term="accuracy">accuracy</span> pentru predicțiile literelor a, i, s și t</dd>
         <dt>10,8M</dt><dd>parametri</dd>
         <dt>6,2 MB</dt><dd>de descărcat, o singură dată</dd>
         <dt>~0,5 s</dt><dd>pentru un text de 500 de caractere</dd>
       </dl>
 
       <h3>Training</h3>
-      <p>Pe setul de validare, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
+      <p>Pe <span class="term" data-term="validare">setul de validare</span>, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
       <figure class="chart" id="curve" data-animate>
         <div id="curve-plot"></div>
-        <figcaption>Linia punctată e baseline-ul: un dicționar care alege forma cea mai
+        <figcaption>Linia punctată e <span class="term" data-term="baseline">baseline</span>-ul: un dicționar care alege forma cea mai
           frecventă a fiecărui cuvânt (98,4%). Pe setul de validare, modelul a trecut de
           baseline.</figcaption>
       </figure>
@@ -516,7 +546,7 @@
       <p>Am comparat timpul de inferență pentru patru dimensiuni de model, pe același text și pe
         PC-ul meu.</p>
       <table class="num">
-        <thead><tr><th scope="col">Parametri</th><th scope="col">Latență</th></tr></thead>
+        <thead><tr><th scope="col">Parametri</th><th scope="col"><span class="term" data-term="latenta">Latență</span></th></tr></thead>
         <tbody>
           <tr><td>1,8M</td><td>76 ms</td></tr>
           <tr><td>4,7M</td><td>209 ms</td></tr>
@@ -530,7 +560,7 @@
       <table class="num">
         <thead><tr><th scope="col">Format</th><th scope="col">Dimensiune</th></tr></thead>
         <tbody>
-          <tr><td>FP32</td><td>43 MB</td></tr>
+          <tr><td><span class="term" data-term="fp">FP32</span></td><td>43 MB</td></tr>
           <tr><td>FP16</td><td>21,7 MB</td></tr>
           <tr class="pick"><td>4-bit</td><td>6,2 MB</td></tr>
         </tbody>
@@ -582,7 +612,7 @@
           <text class="fix" id="fix">s</text>
         </svg>
       </figure>
-      <p>Am adăugat 17 propoziții din contexte culinare și am făcut un fine-tuning de aproximativ
+      <p>Am adăugat 17 propoziții din contexte culinare și am făcut un <span class="term" data-term="finetune">fine-tuning</span> de aproximativ
         30 de minute. După asta, modelul a început să scrie „pisat” cum trebuie.</p>
     </section>
 
@@ -818,6 +848,95 @@
       addEventListener("scroll", () => { if (!inkQueued) { inkQueued = true; requestAnimationFrame(inkUp); } }, { passive: true });
       addEventListener("resize", inkUp);
       inkUp();
+    }
+
+
+    // Glossary: short, plain explanations for the underlined terms.
+    {
+      const GLOSSARY = {
+        exemplu: ["Exact așa", "Merge pe orice cuvânt subliniat punctat din pagină."],
+        poc: ["PoC (proof of concept)", "O versiune de probă, făcută ca să vezi dacă ideea merge. Nu e un produs terminat."],
+        bilstm: ["BiLSTM", "Un tip mai vechi de rețea neuronală. Citește textul pe rând, o dată de la stânga la dreapta și o dată invers, și ține minte ce a văzut."],
+        keras: ["Keras", "O bibliotecă Python cu care construiești rețele neuronale. Era foarte populară prin 2018."],
+        inferenta: ["Inferență", "Folosirea modelului deja antrenat: primește text nou și răspunde. Antrenarea e învățatul, inferența e folosirea."],
+        transformer: ["Transformer", "Tipul de rețea neuronală din spatele modelelor moderne de limbaj. În loc să citească literă cu literă, se uită la tot textul deodată și alege singur ce litere să compare."],
+        parametri: ["Parametri", "Numerele pe care modelul și le ajustează în timpul antrenării. Tot ce a învățat e stocat în ele."],
+        training: ["Training (antrenare)", "Modelul vede milioane de exemple cu răspunsul corect. După fiecare greșeală își ajustează puțin numerele, ca data viitoare să greșească mai rar."],
+        pytorch: ["PyTorch", "Biblioteca Python cu care am antrenat modelul de acum."],
+        wasm: ["WebAssembly", "Un format care lasă browserul să ruleze cod scris în alte limbaje (aici Rust) aproape la fel de repede ca un program instalat."],
+        opensubtitles: ["OpenSubtitles", "O colecție publică de subtitrări de filme și seriale, în multe limbi. Aici: replici în română, cum vorbesc oamenii."],
+        weights: ["Weights", "Alt nume pentru parametri: numerele în care e stocat tot ce a învățat modelul."],
+        quant: ["Quantizare", "Păstrezi fiecare număr cu mai puțină precizie (4 biți în loc de 32), ca fișierul să fie mai mic. Ca o poză salvată la calitate mai mică, dar care arată aproape la fel."],
+        context: ["Fereastra de context", "Cât text vede modelul deodată când decide o literă: 256 de caractere, adică cam două-trei propoziții."],
+        heads: ["Heads", "Attention-ul se face de 6 ori în paralel. Fiecare „cap” poate urmări alt fel de legătură între litere."],
+        strat: ["Strat", "Modelul prelucrează textul în 6 pași la rând. Fiecare pas e un strat și pornește de la ce a înțeles pasul dinainte."],
+        embedding: ["Embedding", "Fiecare literă e transformată într-o listă de 384 de numere, ca rețeaua să poată calcula cu ea."],
+        layernorm: ["LayerNorm", "Un pas care aduce numerele înapoi la o scară obișnuită, ca să nu crească sau să scadă prea mult de la un strat la altul."],
+        attention: ["Self-attention", "Fiecare literă „se uită” la celelalte litere din text și decide care contează pentru ea. Așa află modelul contextul."],
+        ff: ["Feed-forward", "O rețea mică aplicată fiecărei litere separat, după attention, care prelucrează ce a aflat litera de la vecinii ei."],
+        gelu: ["GELU", "O funcție care decide cât din fiecare semnal trece mai departe. Fără ea, rețeaua n-ar putea învăța decât lucruri foarte simple."],
+        rezidual: ["Conexiuni reziduale", "Fiecare pas adaugă ce a calculat peste ce a primit, în loc să înlocuiască totul. Așa informația nu se pierde prin 6 straturi."],
+        head: ["Head", "Ultimul pas: transformă ce a calculat modelul în trei scoruri pentru fiecare literă: fără diacritică, ˘ sau , și ^."],
+        cauzal: ["Cauzal", "Un model cauzal vede doar textul din stânga, ca atunci când scrii. Ăsta nu e cauzal: vede și ce urmează după literă."],
+        encoding: ["Encoding stricat", "Text salvat greșit, în care diacriticele au devenit alte simboluri sau au dispărut. Dacă ar învăța din el, modelul ar învăța greșit."],
+        bf16: ["bf16", "Un format de numere mai scurt, folosit la antrenare ca să meargă mai repede pe placa video."],
+        safetensors: ["safetensors", "Un format de fișier pentru weights, rapid de citit și sigur de încărcat."],
+        worker: ["Web Worker", "Un fir separat în browser. Modelul lucrează acolo, așa că pagina nu se blochează cât timp calculează."],
+        accuracy: ["Accuracy", "Procentul de litere pentru care modelul a ales varianta corectă."],
+        validare: ["Set de validare", "Texte ținute deoparte, pe care modelul nu le-a văzut la antrenare. Verifici pe ele dacă a învățat, nu doar a memorat."],
+        baseline: ["Baseline", "Un punct de comparație simplu. Dacă modelul nu-l bate, nu merita efortul."],
+        latenta: ["Latență", "Cât aștepți de la apăsarea tastei până apare rezultatul."],
+        fp: ["FP32 / FP16", "Câți biți ocupă fiecare număr: 32 sau 16. Mai puțini biți înseamnă un fișier mai mic și numere puțin mai puțin precise."],
+        finetune: ["Fine-tuning", "O antrenare scurtă în plus, pornind de la modelul gata antrenat, ca să învețe câteva lucruri noi fără să le uite pe cele vechi."],
+      };
+      const tip = document.createElement("div");
+      tip.className = "tip";
+      tip.id = "tip";
+      tip.setAttribute("role", "tooltip");
+      tip.hidden = true;
+      document.body.append(tip);
+      let current = null;
+      const hide = () => {
+        tip.hidden = true;
+        current?.setAttribute("aria-expanded", "false");
+        current = null;
+      };
+      const show = (term) => {
+        const entry = GLOSSARY[term.dataset.term];
+        if (!entry || term === current) return;
+        hide();
+        current = term;
+        term.setAttribute("aria-expanded", "true");
+        tip.replaceChildren(Object.assign(document.createElement("b"), { textContent: entry[0] }), entry[1]);
+        tip.hidden = false;
+        tip.style.animation = "none";
+        tip.offsetWidth;
+        tip.style.animation = "";
+        const r = term.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+        const left = Math.min(Math.max(12, r.left + r.width / 2 - w / 2), innerWidth - w - 12);
+        const top = r.top - h - 10 >= 12 ? r.top - h - 10 : r.bottom + 10;
+        tip.style.left = `${left}px`;
+        tip.style.top = `${top}px`;
+      };
+      document.querySelectorAll(".term").forEach((term) => {
+        term.tabIndex = 0;
+        term.setAttribute("role", "button");
+        term.setAttribute("aria-describedby", "tip");
+        term.setAttribute("aria-expanded", "false");
+        term.addEventListener("pointerenter", (e) => { if (e.pointerType === "mouse") show(term); });
+        term.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") hide(); });
+        term.addEventListener("focus", () => show(term));
+        term.addEventListener("blur", hide);
+        // A tap focuses (which opens) and then clicks; toggle on what it was before the tap.
+        let wasOpen = false, pointer = "";
+        term.addEventListener("pointerdown", (e) => { wasOpen = term === current; pointer = e.pointerType; });
+        term.addEventListener("click", () => {
+          if (pointer === "mouse") return;
+          if (wasOpen) hide(); else show(term);
+        });
+      });
+      addEventListener("keydown", (e) => { if (e.key === "Escape") hide(); });
+      addEventListener("scroll", hide, { passive: true });
     }
 
     // Contents: the section being read is the last one whose heading has passed a third of

@@ -45,7 +45,14 @@
       font-size: 1.0625rem;
       line-height: 1.65;
     }
-    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+    main { max-width: 48rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+    ::selection { background: var(--red); color: var(--paper); }
+    code {
+      padding: .05em .3em;
+      border-radius: 3px;
+      background: var(--desk);
+      font: .875em ui-monospace, monospace;
+    }
 
     a { color: inherit; text-decoration-color: var(--margin); text-decoration-thickness: 2px; text-underline-offset: .25em; }
     a:hover { text-decoration-color: var(--red); }
@@ -60,12 +67,12 @@
       line-height: 1.1;
       letter-spacing: -.02em;
     }
-    .lede { margin: 0 0 2rem; color: var(--muted); }
+    .lede { max-width: 38rem; margin: 0 0 2.5rem; color: var(--muted); font-size: 1.125rem; }
 
-    /* Each section is a sheet of paper with the red margin line. */
-    section {
-      margin: 0 0 1.75rem;
-      padding: 1.25rem 1.25rem 1.25rem 2.25rem;
+    /* One notebook sheet for the whole article, red margin line on the left. Sections are
+       separated by space and a hairline rule, not by boxes. */
+    .sheet {
+      padding: 2rem 1.25rem 2.5rem 2.5rem;
       border-radius: 3px;
       background:
         linear-gradient(to right, transparent 1.25rem, var(--margin) 1.25rem,
@@ -73,66 +80,56 @@
         var(--paper);
       box-shadow: var(--shadow);
     }
-    @media (min-width: 40rem) { section { padding: 1.75rem 2rem 1.75rem 3.25rem; } }
-    h2 { margin: 0 0 .75rem; font-size: 1.375rem; font-weight: 650; line-height: 1.25; }
-    h3 { margin: 1.75rem 0 .25rem; font-size: 1.0625rem; font-weight: 600; font-style: italic; }
-    p { margin: 0 0 1rem; }
+    @media (min-width: 40rem) {
+      .sheet { padding: 3rem 3rem 3.5rem 4.5rem; background-position: .75rem 0; }
+    }
+    section + section { margin-top: 3.5rem; padding-top: 3rem; border-top: 1px solid var(--rule); }
+    h2 { margin: 0 0 1rem; font-size: 1.5rem; font-weight: 650; line-height: 1.25; letter-spacing: -.01em; }
+    h3 { margin: 2.75rem 0 .5rem; font-size: 1.0625rem; font-weight: 600; font-style: italic; }
+    p { margin: 0 0 1rem; max-width: 38rem; }
     section > :last-child { margin-bottom: 0; }
 
     .red { color: var(--red); }
     .muted, figcaption { color: var(--muted); }
-    figure { margin: 1rem 0 0; }
-    figcaption { margin-top: .5rem; font-size: .875rem; line-height: 1.5; }
+    figure { margin: 1.5rem 0; }
+    figcaption { margin-top: .75rem; max-width: 38rem; font-size: .875rem; line-height: 1.55; }
 
-    table { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+    table { width: 100%; margin: 1.25rem 0; border-collapse: collapse; font-size: .9375rem; font-variant-numeric: tabular-nums; }
     th, td { padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
     thead th { font-style: italic; font-weight: 600; }
     tbody th { font-weight: 600; color: var(--muted); }
-    table.num { width: auto; min-width: 16rem; }
+    table.num { width: auto; min-width: 15rem; }
     table.num td:last-child, table.num th:last-child { text-align: right; padding-right: 0; }
     tr.pick td { color: var(--red); font-weight: 600; }
 
-    /* Technical diagrams: stacked boxes with arrows, so they stay readable at phone width. */
-    .flow { display: grid; gap: 1.75rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
-    .flow > li {
-      position: relative;
-      padding: .625rem .875rem;
-      border: 1.5px solid var(--rule);
-      border-radius: 6px;
-      font-size: .9375rem;
-      line-height: 1.5;
+    /* Technical diagrams as a rail: a hairline with a dot per step, no boxes. */
+    .diagrams { display: grid; gap: 2.5rem; margin-top: 2rem; }
+    @media (min-width: 44rem) { .diagrams { grid-template-columns: 1fr 1fr; gap: 3rem; } }
+    .diagrams figure { margin: 0; }
+    .diagrams h3 { margin-top: 0; margin-bottom: 1rem; }
+    .rail { margin: 0; padding: 0; list-style: none; }
+    .rail > li { position: relative; padding: 0 0 1.125rem 1.5rem; font-size: .9375rem; line-height: 1.45; }
+    .rail > li::before {
+      content: "";
+      position: absolute; left: 0; top: .4em;
+      width: 9px; height: 9px;
+      border: 2px solid var(--red); border-radius: 50%;
+      background: var(--paper);
     }
-    .flow > li + li::before {
-      content: "↓";
-      position: absolute;
-      top: -1.55rem;
-      left: 50%;
-      translate: -50% 0;
-      color: var(--red);
-      font-size: 1.25rem;
-      line-height: 1;
+    .rail > li:not(:last-child)::after {
+      content: "";
+      position: absolute; left: 4px; top: calc(.4em + 11px); bottom: 2px;
+      width: 1px;
+      background: var(--rule);
     }
-    .flow b { display: block; }
-    .flow .detail { display: block; color: var(--muted); font-size: .875rem; }
-    .flow .repeat { border-color: var(--red); border-style: dashed; }
-    .flow .badge { position: absolute; top: .5rem; right: .75rem; color: var(--red); font-weight: 650; }
-    .chips { display: flex; flex-wrap: wrap; gap: .375rem; margin-top: .375rem; }
-    .chips span {
-      padding: .125rem .5rem;
-      border-radius: 4px;
-      background: var(--desk);
-      font-size: .8125rem;
-      font-family: ui-monospace, monospace;
-    }
-    .sub { display: grid; gap: .25rem; margin: .5rem 0; }
-    .sub span {
-      padding: .25rem .5rem;
-      border-left: 3px solid var(--margin);
-      background: var(--desk);
-      font-size: .875rem;
-    }
+    .rail b { display: block; font-weight: 600; }
+    .rail .detail { display: block; color: var(--muted); font-size: .875rem; }
+    .rail .times { color: var(--red); font-weight: 650; }
+    .steps { margin: .375rem 0 .25rem; padding: 0; list-style: none; color: var(--muted); font-size: .875rem; }
+    .steps li { padding-left: .875rem; text-indent: -.875rem; }
+    .steps li::before { content: "– "; }
 
-    .windows { position: relative; margin-top: 1rem; font-size: .8125rem; }
+    .windows { position: relative; font-size: .8125rem; }
     .windows .row { position: relative; height: 1.75rem; margin-bottom: .375rem; }
     .windows .text { background: var(--desk); border-radius: 3px; color: var(--muted); padding: .25rem .5rem; height: 1.75rem; margin-bottom: .75rem; }
     .windows .win {
@@ -150,13 +147,12 @@
     .quant .w { fill: var(--muted); }
     .quant .q { fill: var(--red); }
     .quant .row-label { margin: .75rem 0 .25rem; font-size: .875rem; font-style: italic; }
-    .bytes { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; margin-top: 1rem; }
-    .bytes div { padding: .5rem .75rem; border-top: 2px solid var(--rule); font-size: .875rem; color: var(--muted); }
+    .bytes { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1.25rem; margin-top: 1.25rem; }
+    .bytes div { padding: .5rem 0 0; border-top: 1px solid var(--rule); font-size: .875rem; color: var(--muted); }
     .bytes b { display: block; color: var(--ink); font: 600 .9375rem ui-monospace, monospace; }
-    figure + p { margin-top: 1rem; }
 
     /* Letter-by-letter diagram: input letter, the model's choice, output letter. */
-    .letters { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin: 1rem 0 .25rem; }
+    .letters { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
     .word { display: flex; gap: 2px; }
     .tile { display: grid; grid-template-rows: auto 1.4rem auto; justify-items: center; width: 1.6rem; font-size: 1.125rem; }
     .tile .choice {
@@ -170,10 +166,12 @@
     .tile.changed .choice { color: var(--red); }
     .legend { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; font-size: .875rem; color: var(--muted); }
 
-    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); gap: 1rem; margin: .5rem 0 0; }
-    .stat { padding: .75rem 0 0; border-top: 2px solid var(--rule); }
-    .stat b { display: block; font-size: 1.75rem; font-weight: 650; line-height: 1.2; color: var(--red); }
-    .stat span { font-size: .875rem; color: var(--muted); }
+    .facts {
+      display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1.25rem;
+      margin: 1.25rem 0 0; font-variant-numeric: tabular-nums;
+    }
+    .facts dt { font-size: 1.25rem; font-weight: 650; color: var(--red); line-height: 1.3; text-align: right; }
+    .facts dd { margin: 0; align-self: center; color: var(--muted); }
 
     .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
     .chart text { fill: var(--muted); font: 13px "Literata", Georgia, serif; }
@@ -184,12 +182,13 @@
     .chart .dot { fill: var(--red); }
     .chart .end { fill: var(--red); font-weight: 650; }
 
-    ul.plain { margin: 0 0 1rem; padding-left: 1.25rem; }
-    ul.plain li { margin-bottom: .5rem; }
+    ul.plain { max-width: 38rem; margin: 0 0 1rem; padding-left: 1.25rem; }
+    ul.plain li { margin-bottom: .625rem; }
+    ul.plain li::marker { color: var(--red); }
 
     .cta {
       display: inline-block;
-      margin-top: .25rem;
+      margin-top: .5rem;
       padding: .5rem 1rem;
       border-radius: 4px;
       background: var(--red);
@@ -198,7 +197,7 @@
       text-decoration: none;
     }
     .cta:hover { filter: brightness(1.1); }
-    footer { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .9375rem; color: var(--muted); }
+    footer { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-top: 2rem; padding-left: .25rem; font-size: .9375rem; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -209,6 +208,7 @@
       PoC, dar acum face ceva util: pune diacritice în text direct în browser, fără să trimită
       textul la un server.</p>
 
+    <article class="sheet">
     <section>
       <h2>De ce m-am apucat din nou de el</h2>
       <p>În 2018 am făcut <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics</a>,
@@ -249,7 +249,7 @@
           <span>sus: input</span><span>mijloc: predicția modelului</span><span>jos: output</span>
         </figcaption>
       </figure>
-      <p style="margin-top:1rem">Fereastra de context are 256 de caractere. Asta ajută la
+      <p>Fereastra de context are 256 de caractere. Asta ajută la
         diferențierea unor cuvinte precum „fata”, „fată” și „față”, unde forma corectă depinde de
         propoziție.</p>
 
@@ -260,54 +260,60 @@
           suprapun cu 32 de caractere. Fiecare caracter e decis de o singură fereastră (zona
           roșie), cea în care nu e lipit de margine, așa că are context de ambele părți.</figcaption>
       </figure>
+    </section>
+
+    <section>
+      <h2>Sub capotă</h2>
       <p>Modelul e antrenat în PyTorch, iar inferența e implementată în Rust cu
         <a href="https://github.com/huggingface/candle">Candle</a> și compilată în WebAssembly. Am
         quantizat weights la 4 biți pentru a reduce dimensiunea modelului la aproximativ 6 MB.</p>
 
-      <h3>Arhitectura</h3>
-      <ol class="flow">
-        <li><b>Input</b><span class="detail">până la 256 de caractere, fiecare un id dintr-un alfabet de 256 de simboluri</span></li>
-        <li><b>Embedding</b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
-        <li class="repeat"><b>Bloc encoder</b><span class="badge">× 6</span>
-          <span class="sub">
-            <span>LayerNorm</span>
-            <span>self-attention, 6 heads, bidirecțional</span>
-            <span>LayerNorm</span>
-            <span>feed-forward 384 → 1536 → 384, GELU</span>
-          </span>
-          <span class="detail">conexiuni reziduale în jurul attention și al feed-forward</span></li>
-        <li><b>Head</b><span class="detail">LayerNorm → Linear 384 → 3</span></li>
-        <li><b>Output, pentru fiecare caracter</b>
-          <span class="chips"><span>none</span><span>breve_comma: ă ș ț</span><span>circumflex: â î</span></span></li>
-      </ol>
-      <figcaption>Un transformer encoder pre-LayerNorm, 10,8M parametri. Attention-ul nu e
-        cauzal: fiecare literă vede contextul din stânga și din dreapta.</figcaption>
+      <div class="diagrams">
+        <figure>
+          <h3>Arhitectura</h3>
+          <ol class="rail">
+            <li><b>Input</b><span class="detail">până la 256 de caractere, dintr-un alfabet de 256 de simboluri</span></li>
+            <li><b>Embedding</b><span class="detail">caracter → vector de 384, plus o poziție învățată</span></li>
+            <li><b>Bloc encoder <span class="times">× 6</span></b>
+              <ul class="steps">
+                <li>LayerNorm → self-attention, 6 heads</li>
+                <li>LayerNorm → feed-forward 384 → 1536 → 384, GELU</li>
+                <li>conexiuni reziduale în jurul fiecăruia</li>
+              </ul></li>
+            <li><b>Head</b><span class="detail">LayerNorm → Linear 384 → 3</span></li>
+            <li><b>Output, per caracter</b><span class="detail"><code>none</code> · <code>breve_comma</code> (ă ș ț) · <code>circumflex</code> (â î)</span></li>
+          </ol>
+          <figcaption>Transformer encoder pre-LayerNorm, 10,8M parametri. Attention-ul nu e
+            cauzal: fiecare literă vede contextul din stânga și din dreapta.</figcaption>
+        </figure>
 
-      <h3>De la date la browser</h3>
-      <ol class="flow">
-        <li><b>Date</b>
-          <span class="chips"><span>Wikipedia</span><span>OpenSubtitles, 1 din 4 fragmente</span><span>corecturi manuale, ×50</span></span></li>
-        <li><b>Filtru</b><span class="detail">păstrează doar textele scrise cu diacritice; scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
-        <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
-        <li><b>Training</b><span class="detail">PyTorch, bf16, RTX 5090, 80.000 de pași, ~4 ore</span></li>
-        <li><b>Export</b><span class="detail">safetensors, weights quantized la 4 biți, 6 MB</span></li>
-        <li><b>Inferență în browser</b><span class="detail">Rust + Candle compilat în WebAssembly, într-un Web Worker</span></li>
-      </ol>
+        <figure>
+          <h3>De la date la browser</h3>
+          <ol class="rail">
+            <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), corecturi manuale (×50)</span></li>
+            <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu encoding stricat</span></li>
+            <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
+            <li><b>Training</b><span class="detail">PyTorch, bf16, RTX 5090, 80.000 de pași, ~4 ore</span></li>
+            <li><b>Export</b><span class="detail">safetensors, weights la 4 biți, 6 MB</span></li>
+            <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un Web Worker</span></li>
+          </ol>
+        </figure>
+      </div>
     </section>
 
     <section>
       <h2>Rezultate</h2>
-      <div class="stats">
-        <div class="stat"><b>99,5%</b><span>accuracy pentru predicțiile literelor a, i, s și t</span></div>
-        <div class="stat"><b>10,8M</b><span>parametri</span></div>
-        <div class="stat"><b>~6 MB</b><span>de descărcat, o singură dată</span></div>
-        <div class="stat"><b>~0,5 s</b><span>pentru un text de 500 de caractere</span></div>
-      </div>
+      <dl class="facts">
+        <dt>99,5%</dt><dd>accuracy pentru predicțiile literelor a, i, s și t</dd>
+        <dt>10,8M</dt><dd>parametri</dd>
+        <dt>~6 MB</dt><dd>de descărcat, o singură dată</dd>
+        <dt>~0,5 s</dt><dd>pentru un text de 500 de caractere</dd>
+      </dl>
 
       <h3>Cum a evoluat modelul în timpul antrenării</h3>
       <p>Pe setul de validare, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
       <figure class="chart" id="curve"></figure>
-      <p style="margin-top:1rem">Ca referință, un dicționar care alege forma cea mai frecventă a
+      <p>Ca referință, un dicționar care alege forma cea mai frecventă a
         fiecărui cuvânt obține 98,4% (linia punctată). Modelul se descurcă mai bine inclusiv pe
         texte pe care nu le-a văzut în timpul antrenării.</p>
 
@@ -334,7 +340,7 @@
           <tr><td>25M</td><td>901 ms</td></tr>
         </tbody>
       </table>
-      <p style="margin-top:1rem">Am ales varianta de 10,8 milioane de parametri ca un compromis
+      <p>Am ales varianta de 10,8 milioane de parametri ca un compromis
         între dimensiune, viteză și rezultate.</p>
 
       <h3>Dimensiunea la descărcare</h3>
@@ -346,7 +352,7 @@
           <tr class="pick"><td>4-bit</td><td>6,2 MB</td></tr>
         </tbody>
       </table>
-      <p style="margin-top:1rem">În testele mele, quantizarea la 4 biți nu a schimbat
+      <p>În testele mele, quantizarea la 4 biți nu a schimbat
         accuracy-ul măsurat, care a rămas la 99,55%.</p>
 
       <figure class="quant">
@@ -402,6 +408,7 @@
         adăuga exemplul în setul de corecturi și îl pot folosi la următorul fine-tuning.</p>
       <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A">Deschide un issue pe GitHub</a>
     </section>
+    </article>
 
     <footer>
       <a href="https://github.com/Claudiu/ro-diacritics">Codul pe GitHub</a>

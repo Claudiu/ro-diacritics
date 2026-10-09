@@ -362,7 +362,8 @@
     .term:hover, .term[aria-expanded="true"] { background: var(--desk); }
     .term:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
     .hint { max-width: var(--text); margin: -3.5rem 0 5rem; color: var(--muted); font-size: 1rem; }
-    .video { max-width: var(--wide); margin: -2.5rem 0 5rem; }
+    .video { max-width: var(--wide); }
+    main > .video { margin: -2.5rem 0 5rem; }
     .video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; }
     /* The tooltip is an index card: paper, a red rule under the term, faint ruled lines
        behind the explanation, a pointer to the word. Some cards carry a small line diagram
@@ -524,6 +525,11 @@
 
     <section id="sub-capota">
       <h2>Sub capotă</h2>
+      <figure class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/db6EXpcnwjE?si=zUpJZkWfqmYXW2AH" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe>
+      </figure>
       <p>Modelul e antrenat în PyTorch, iar inferența e implementată în Rust cu
         <a href="https://github.com/huggingface/candle">Candle</a> și compilată în WebAssembly. Am
         quantizat weights la 4 biți, așa că modelul are 6,2 MB.</p>

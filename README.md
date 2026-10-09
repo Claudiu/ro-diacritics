@@ -56,9 +56,9 @@ Architecture: pre-LayerNorm transformer encoder, 6 blocks, width 384, 6 heads, f
 letter sees context on both sides. 10.8M parameters.
 
 Data to browser: Wikipedia + OpenSubtitles (1 in 4 chunks) + one FineWeb-2 Romanian shard
-(1 in 4 documents) + manual corrections (×50),
-filtered to drop texts without ă/ș/ț and texts with broken encoding → 7.6M training windows
-and 262k validation windows → bf16 training, 80,000 steps, ~4 hours → safetensors export
+(1 in 4 documents) + manual corrections (×90),
+filtered to drop texts without ă/ș/ț and texts with broken encoding → 13.6M training windows
+and 513k validation windows → bf16 training, 80,000 steps, ~4 hours → safetensors export
 with 4-bit weights → candle in a Web Worker.
 
 ## Results
@@ -72,6 +72,8 @@ with 4-bit weights → candle in a Web Worker.
   5,963; the 10.8M one missed none.
 - Adding subtitles cut the share of subtitle lines with at least one mistake from 6.4% to
   3.7% on my evaluation set.
+- Adding web text (one FineWeb-2 shard) cut the share of wrong words on 500 web validation
+  pages from 0.85% to 0.68%; Wikipedia and subtitles stayed about the same.
 
 Model size against latency, same text, my PC:
 

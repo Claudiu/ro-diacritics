@@ -496,7 +496,7 @@
           <tr><th scope="row"><span class="term" data-term="parametri">Parametri</span></th><td>—</td><td>10,8 milioane</td></tr>
           <tr><th scope="row"><span class="term" data-term="training">Training</span></th><td>Keras, RTX 2060</td><td><span class="term" data-term="pytorch">PyTorch</span>, RTX 5090, ~4 ore</td></tr>
           <tr><th scope="row">Inferență</th><td>Server Python</td><td>Browser, Rust + <span class="term" data-term="wasm">WebAssembly</span></td></tr>
-          <tr><th scope="row">Date de antrenare</th><td><code>train.txt</code></td><td>Wikipedia, <span class="term" data-term="opensubtitles">OpenSubtitles</span> și corecturi manuale</td></tr>
+          <tr><th scope="row">Date de antrenare</th><td><code>train.txt</code></td><td>Wikipedia, <span class="term" data-term="opensubtitles">OpenSubtitles</span>, text de pe web (<span class="term" data-term="fineweb">FineWeb-2</span>) și corecturi manuale</td></tr>
           <tr><th scope="row">Dimensiune</th><td>—</td><td>6,2 MB, <span class="term" data-term="weights">weights</span> <span class="term" data-term="quant">quantized</span> la 4 biți</td></tr>
         </tbody>
       </table>
@@ -571,9 +571,9 @@
         <figure>
           <h3>De la date la browser</h3>
           <ol class="rail" data-animate>
-            <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), corecturi manuale (×50)</span></li>
+            <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), FineWeb-2 (1 din 4 pagini), corecturi manuale (×90)</span></li>
             <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu <span class="term" data-term="encoding">encoding stricat</span></span></li>
-            <li><b>Ferestre de 256 de caractere</b><span class="detail">7,6M pentru training, 262k pentru validare</span></li>
+            <li><b>Ferestre de 256 de caractere</b><span class="detail">13,6M pentru training, 513k pentru validare</span></li>
             <li><b>Training</b><span class="detail">PyTorch, <span class="term" data-term="bf16">bf16</span>, RTX 5090, 80.000 de pași, ~4 ore</span></li>
             <li><b>Export</b><span class="detail"><span class="term" data-term="safetensors">safetensors</span>, weights la 4 biți, 6,2 MB</span></li>
             <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un <span class="term" data-term="worker">Web Worker</span></span></li>
@@ -614,6 +614,13 @@
         OpenSubtitles în training și am comparat rezultatele.</p>
       <p>Pe setul meu de evaluare, procentul replicilor cu cel puțin o greșeală a scăzut de la
         6,4% la 3,7%.</p>
+
+      <h3>De ce am adăugat și text de pe web</h3>
+      <p>Wikipedia și subtitrările nu acoperă știri, bloguri, forumuri sau descrieri de produse.
+        Am adăugat o parte din <span class="term" data-term="fineweb">FineWeb-2</span> și am păstrat
+        doar paginile scrise consecvent cu diacritice: cam 36% din ele.</p>
+      <p>Pe 500 de pagini web din setul de validare, procentul cuvintelor greșite a scăzut de la
+        0,85% la 0,68%. Pe Wikipedia și pe subtitrări rezultatele au rămas aproape la fel.</p>
     </section>
 
     <section id="viteza">
@@ -782,9 +789,9 @@
     document.getElementById("replay").addEventListener("click", read);
 
     // Training curve: validation accuracy (%) every 4000 steps of the 80k-step run.
-    const points = [[4,97.83],[8,98.65],[12,98.92],[16,99.06],[20,99.15],[24,99.23],[28,99.26],[32,99.31],
-      [36,99.34],[40,99.37],[44,99.40],[48,99.43],[52,99.44],[56,99.46],[60,99.48],[64,99.49],
-      [68,99.50],[72,99.51],[76,99.51],[80,99.52]];
+    const points = [[4,97.83],[8,98.67],[12,98.91],[16,99.07],[20,99.16],[24,99.25],[28,99.31],[32,99.36],
+      [36,99.37],[40,99.40],[44,99.41],[48,99.44],[52,99.43],[56,99.47],[60,99.50],[64,99.50],
+      [68,99.50],[72,99.51],[76,99.52],[80,99.51]];
     const BASELINE = 98.39;
     {
       const W = 600, H = 260, L = 72, R = 100, T = 12, B = 32;
@@ -974,6 +981,7 @@
         pytorch: ["PyTorch", "O bibliotecă de cod în Python cu care construiești și antrenezi programe care învață din exemple. Cu ea am antrenat versiunea de acum."],
         wasm: ["WebAssembly", "Un format care lasă browserul să ruleze cod scris în alte limbaje, aici Rust, aproape la fel de repede ca un program instalat. Așa merge totul în pagină, fără server."],
         opensubtitles: ["OpenSubtitles", "O colecție publică de subtitrări de filme și seriale, în multe limbi. Am luat replicile în română, ca programul să vadă și cum vorbesc oamenii, nu doar cum se scrie pe Wikipedia."],
+        fineweb: ["FineWeb-2", "O colecție publică de pagini web adunate și curățate de Hugging Face, în peste 1.000 de limbi. Am luat o parte din paginile în română: știri, bloguri, forumuri, magazine."],
         weights: ["Weights", "Alt nume pentru parametri: cele 10,8 milioane de numere în care e stocat ce a învățat programul. Fișierul de 6,2 MB pe care îl descarcă pagina conține, în mare, doar aceste numere."],
         quant: ["Quantizare", "Fiecare număr e păstrat mai aproximativ, pe 4 biți în loc de 32. Fișierul scade de la 43 MB la 6,2 MB, cam ca o poză salvată la calitate mai mică, care arată aproape la fel."],
         context: ["Fereastra de context", "Câte caractere vede programul deodată când decide o literă: 256, adică cam două-trei propoziții. Ce e mai departe de atât nu influențează alegerea."],

@@ -131,7 +131,7 @@ class Settings:
                 device=env.read_str("DEVICE", "auto"),
                 num_workers=env.read_int("NUM_WORKERS", 2),
                 threshold=env.read_float("THRESHOLD", 0.5),
-                corrections_repeat=env.read_int("CORRECTIONS_REPEAT", 50),
+                corrections_repeat=env.read_int("CORRECTIONS_REPEAT", 90),
                 finetune_steps=env.read_int("FINETUNE_STEPS", 5000),
             ),
         )

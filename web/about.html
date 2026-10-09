@@ -286,8 +286,8 @@
       <p>Aveam atunci un RTX 2060 și m-am lovit destul de repede de limitele hardware-ului. În
         2026 am un RTX 5090 și am vrut să văd ce pot obține cu un model antrenat de la zero,
         suficient de mic încât să ruleze direct în browser.</p>
-      <p>Așa a apărut versiunea asta: modelul rulează local, prin WebAssembly. Nu ai nevoie
-        de cont sau de un server, iar textul rămâne în browser.</p>
+      <p>De data asta am vrut să-l fac să ruleze direct în browser, fără server. Nu ai nevoie
+        de cont, iar textul rămâne la tine.</p>
     </section>
 
     <section>
@@ -295,7 +295,7 @@
       <table>
         <thead><tr><th scope="col"></th><th scope="col">2018</th><th scope="col">2026</th></tr></thead>
         <tbody>
-          <tr><th scope="row">Model</th><td>BiLSTM</td><td>Transformer la nivel de caracter</td></tr>
+          <tr><th scope="row">Model</th><td>BiLSTM</td><td>Transformer pe caractere</td></tr>
           <tr><th scope="row">Parametri</th><td>—</td><td>10,8 milioane</td></tr>
           <tr><th scope="row">Training</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4 ore</td></tr>
           <tr><th scope="row">Inferență</th><td>Server Python</td><td>Browser, Rust + WebAssembly</td></tr>
@@ -380,7 +380,7 @@
         <dt>~0,5 s</dt><dd>pentru un text de 500 de caractere</dd>
       </dl>
 
-      <h3>Cum a evoluat modelul în timpul antrenării</h3>
+      <h3>Training</h3>
       <p>Pe setul de validare, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
       <figure class="chart" id="curve" data-animate>
         <div id="curve-plot"></div>
@@ -421,8 +421,7 @@
           <tr class="pick"><td>4-bit</td><td>6,2 MB</td></tr>
         </tbody>
       </table>
-      <p>În testele mele, quantizarea la 4 biți nu a schimbat
-        accuracy-ul măsurat, care a rămas la 99,55%.</p>
+      <p>Cu weights la 4 biți, am obținut aceeași accuracy: 99,55%.</p>
 
       <figure class="quant" data-animate>
         <p class="row-label">Un grup de 32 de weights, FP32</p>
@@ -464,7 +463,7 @@
         transformat „pisat” în „pișat”, probabil pentru că forma respectivă apărea mai des în
         datele de antrenare, inclusiv în subtitrări.</p>
       <p>Am adăugat 17 propoziții din contexte culinare și am făcut un fine-tuning de aproximativ
-        30 de minute. După asta, a început să trateze exemplul cum trebuie.</p>
+        30 de minute. După asta, nu l-a mai greșit.</p>
     </section>
 
     <section>

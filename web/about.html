@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Despre Diacritificator</title>
+  <meta name="description" content="De ce am readus la viață un proiect din 2018 care pune diacriticele la loc, cum funcționează și ce greșește încă.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400&display=swap">
+  <style>
+    /* Same tokens as index.html. */
+    :root {
+      --desk: #e6ecf4;
+      --paper: #fbfcfe;
+      --ink: #1c2541;
+      --muted: #5b6478;
+      --rule: #d5e0ef;
+      --margin: #eaa7b0;
+      --red: #c8102e;
+      --shadow: 0 1px 2px rgb(28 37 65 / .08), 0 18px 40px -22px rgb(28 37 65 / .45);
+      color-scheme: light;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --desk: #0d1322;
+        --paper: #161f35;
+        --ink: #e4e9f3;
+        --muted: #98a2b8;
+        --rule: #263252;
+        --margin: #63303d;
+        --red: #ff6b78;
+        --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
+        color-scheme: dark;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--desk);
+      color: var(--ink);
+      font-family: "Literata", Georgia, serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+    }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+
+    a { color: inherit; text-decoration-color: var(--margin); text-decoration-thickness: 2px; text-underline-offset: .25em; }
+    a:hover { text-decoration-color: var(--red); }
+    a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+
+    .back { font-size: .9375rem; }
+    h1 {
+      margin: 1rem 0 .5rem;
+      font-size: clamp(2rem, 6vw, 3rem);
+      font-variation-settings: "opsz" 72;
+      font-weight: 650;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+    }
+    .lede { margin: 0 0 2rem; color: var(--muted); }
+    .poc {
+      display: inline-block;
+      margin-left: .25rem;
+      padding: 0 .5rem;
+      border: 1.5px solid var(--red);
+      border-radius: 4px;
+      color: var(--red);
+      font-size: .8125rem;
+      font-weight: 600;
+      letter-spacing: .04em;
+      vertical-align: .15em;
+    }
+
+    /* Each section is a sheet of paper with the red margin line. */
+    section {
+      margin: 0 0 1.75rem;
+      padding: 1.25rem 1.25rem 1.25rem 2.25rem;
+      border-radius: 3px;
+      background:
+        linear-gradient(to right, transparent 1.25rem, var(--margin) 1.25rem,
+                        var(--margin) calc(1.25rem + 1px), transparent calc(1.25rem + 1px))
+        var(--paper);
+      box-shadow: var(--shadow);
+    }
+    @media (min-width: 40rem) { section { padding: 1.75rem 2rem 1.75rem 3.25rem; } }
+    h2 { margin: 0 0 .75rem; font-size: 1.375rem; font-weight: 650; line-height: 1.25; }
+    h3 { margin: 1.75rem 0 .25rem; font-size: 1.0625rem; font-weight: 600; font-style: italic; }
+    p { margin: 0 0 1rem; }
+    section > :last-child { margin-bottom: 0; }
+
+    blockquote {
+      margin: 1.25rem 0;
+      padding: .25rem 0 .25rem 1rem;
+      border-left: 3px solid var(--red);
+      font-style: italic;
+    }
+    .red { color: var(--red); }
+    .muted, figcaption { color: var(--muted); }
+    figure { margin: 1rem 0 0; }
+    figcaption { margin-top: .5rem; font-size: .875rem; line-height: 1.5; }
+
+    table { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+    th, td { padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+    thead th { font-style: italic; font-weight: 600; }
+    tbody th { font-weight: 600; color: var(--muted); }
+
+    /* Letter-by-letter diagram: input letter, the model's choice, output letter. */
+    .letters { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin: 1rem 0 .25rem; }
+    .word { display: flex; gap: 2px; }
+    .tile { display: grid; grid-template-rows: auto 1.4rem auto; justify-items: center; width: 1.6rem; font-size: 1.125rem; }
+    .tile .choice {
+      align-self: center;
+      font-size: .75rem;
+      color: var(--muted);
+      font-family: ui-monospace, monospace;
+    }
+    .tile.candidate .in { border-bottom: 2px solid var(--margin); }
+    .tile.changed .out { color: var(--red); font-weight: 650; }
+    .tile.changed .choice { color: var(--red); }
+    .legend { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; font-size: .875rem; color: var(--muted); }
+
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); gap: 1rem; margin: .5rem 0 0; }
+    .stat { padding: .75rem 0 0; border-top: 2px solid var(--rule); }
+    .stat b { display: block; font-size: 1.75rem; font-weight: 650; line-height: 1.2; color: var(--red); }
+    .stat span { font-size: .875rem; color: var(--muted); }
+
+    .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+    .chart text { fill: var(--muted); font: 13px "Literata", Georgia, serif; }
+    @media (max-width: 40rem) { .chart text { font-size: 24px; } }
+    .chart .grid { stroke: var(--rule); }
+    .chart .base { stroke: var(--muted); stroke-dasharray: 4 4; }
+    .chart .curve { fill: none; stroke: var(--red); stroke-width: 2.5; stroke-linejoin: round; }
+    .chart .dot { fill: var(--red); }
+    .chart .end { fill: var(--red); font-weight: 650; }
+
+    .bars { display: grid; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+    .bars li { display: grid; grid-template-columns: minmax(6.5rem, 9rem) 1fr; gap: .75rem; align-items: center; font-size: .9375rem; }
+    .bars .track { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+    .bars .fill { height: 1.1rem; min-width: 3px; border-radius: 2px; background: var(--rule); }
+    .bars .pick .fill { background: var(--red); }
+    .bars .pick { font-weight: 600; }
+    .bars .value { white-space: nowrap; font-size: .875rem; }
+
+    ul.plain { margin: 0 0 1rem; padding-left: 1.25rem; }
+    ul.plain li { margin-bottom: .5rem; }
+
+    .cta {
+      display: inline-block;
+      margin-top: .25rem;
+      padding: .5rem 1rem;
+      border-radius: 4px;
+      background: var(--red);
+      color: var(--paper);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .cta:hover { filter: brightness(1.1); }
+    footer { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .9375rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="./">← Înapoi la Diacritificator</a>
+    <h1>Despre Diacritificator</h1>
+    <p class="lede">Un proiect din 2018 pe care l-am readus la viață în 2026.
+      E încă un proof of concept <span class="poc">PoC</span></p>
+
+    <section>
+      <h2>De ce l-am reînviat</h2>
+      <p>În 2018 am scris <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics</a>:
+        o rețea neuronală LSTM bidirecțională, în Keras, care punea diacriticele la loc printr-un
+        server Python. A mers, dar a rămas neterminat.</p>
+      <blockquote>Pe atunci aveam un GPU destul de slab și nu mă lăsa să-l fac cum trebuie.
+        Dacă îmi aduc aminte bine, eram pe un RTX 2060.</blockquote>
+      <p>Acum, cu un RTX 5090 și cu uneltele din 2026, am vrut să văd cât de departe se poate
+        ajunge: un model mic, antrenat de la zero, care rulează direct în browser. Fără server,
+        fără cont, iar textul tău nu pleacă de pe calculator.</p>
+    </section>
+
+    <section>
+      <h2>Atunci și acum</h2>
+      <table>
+        <thead><tr><th scope="col"></th><th scope="col">2018</th><th scope="col">2026</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Model</th><td>LSTM bidirecțional</td><td>Transformer pe caractere, 10,8 milioane de parametri</td></tr>
+          <tr><th scope="row">Antrenare</th><td>Keras, RTX 2060</td><td>PyTorch, RTX 5090, ~4 ore</td></tr>
+          <tr><th scope="row">Rulează</th><td>Server Python</td><td>În browser (Rust compilat în WebAssembly)</td></tr>
+          <tr><th scope="row">Date</th><td>Un fișier <code>train.txt</code></td><td>Wikipedia, subtitrări de filme și greșeli corectate de mână</td></tr>
+          <tr><th scope="row">Mărime</th><td>–</td><td>6 MB, cu greutăți pe 4 biți</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Cum funcționează</h2>
+      <p>Pentru fiecare literă care ar putea primi un semn (a, i, s, t), modelul alege una din
+        trei variante: nimic, <b>˘ sau ,</b> (ă, ș, ț) sau <b>^</b> (â, î). Ca să aleagă, se uită
+        la până la 256 de caractere din jur, deci contextul contează.</p>
+      <figure>
+        <div class="letters" id="letters" role="img"
+             aria-label="Am mancat inghetata devine Am mâncat înghețată, literă cu literă."></div>
+        <figcaption class="legend">
+          <span>sus: ce scrii</span><span>mijloc: ce alege modelul</span><span>jos: rezultatul</span>
+        </figcaption>
+      </figure>
+      <p style="margin-top:1rem">Modelul e antrenat în PyTorch, apoi rulat cu Rust
+        (<a href="https://github.com/huggingface/candle">candle</a>) compilat în WebAssembly.
+        Greutățile sunt păstrate pe 4 biți, așa că tot modelul încape în 6 MB.</p>
+    </section>
+
+    <section>
+      <h2>Cifre</h2>
+      <div class="stats">
+        <div class="stat"><b>99,5%</b><span>din literele a, i, s, t primesc semnul corect</span></div>
+        <div class="stat"><b>10,8M</b><span>parametri</span></div>
+        <div class="stat"><b>6 MB</b><span>descărcați o singură dată</span></div>
+        <div class="stat"><b>~0,5 s</b><span>pentru un paragraf de 500 de caractere</span></div>
+      </div>
+
+      <h3>Cum a învățat</h3>
+      <figure class="chart" id="curve"></figure>
+      <figcaption>Acuratețe pe texte pe care nu le-a văzut la antrenare, pe parcursul a 80.000 de
+        pași. Linia punctată e un dicționar care alege forma cea mai frecventă a fiecărui cuvânt
+        (98,4%). Modelul face de peste 3 ori mai puține greșeli decât dicționarul.</figcaption>
+
+      <h3>Mai mare a fost mai bine</h3>
+      <ul class="bars" id="mistakes"></ul>
+      <figcaption>Din 10.223 de propoziții pe care le știam greșite, câte greșea încă modelul
+        după antrenare.</figcaption>
+
+      <h3>Dar nu prea mare, ca să meargă în browser</h3>
+      <ul class="bars" id="speed"></ul>
+      <figcaption>Timp în browser pentru același text, pe calculatorul meu, după numărul de
+        parametri. Am ales 10,8M: încă sub o jumătate de secundă.</figcaption>
+
+      <h3>Cât descarci</h3>
+      <ul class="bars" id="size"></ul>
+      <figcaption>Aceeași acuratețe (99,55%) la fiecare pas de comprimare.</figcaption>
+
+      <h3>Subtitrările</h3>
+      <p>Wikipedia nu vorbește ca oamenii. După ce l-am antrenat și pe subtitrări de filme,
+        replicile cu cel puțin o greșeală au scăzut de la <span class="red">6,4%</span> la
+        <span class="red">3,7%</span>.</p>
+    </section>
+
+    <section>
+      <h2>Ce greșește încă</h2>
+      <p>E un PoC, așa că greșește. Cele mai multe greșeli vin din cuvinte care există în ambele
+        forme:</p>
+      <ul class="plain">
+        <li><b>peste / pește</b>, <b>fata / fată / față</b>, <b>sa / să</b>, <b>tarabe / țarabe</b>:
+          modelul alege după context.</li>
+        <li><b>Texte foarte scurte.</b> În „Ai pisat piperul?” nu are destul context și ghicește greșit.</li>
+        <li><b>Nume proprii, abrevieri și text amestecat cu engleza</b> pot primi semne unde nu trebuie.</li>
+        <li>Pune doar diacritice. Nu corectează alte greșeli de scriere.</li>
+      </ul>
+      <h3>Povestea usturoiului</h3>
+      <p>Unul dintre primele texte încercate a fost „Și acum strivim usturoiul pisat”, iar
+        modelul a scris <span class="red">pișat</span>. Subtitrările de film l-au învățat că
+        celălalt verb e mult mai des. Am adăugat 17 propoziții din bucătărie, l-am reantrenat o
+        jumătate de oră și acum usturoiul e pisat, cum trebuie.</p>
+    </section>
+
+    <section>
+      <h2>Ai găsit o greșeală?</h2>
+      <p>Trimite-mi propoziția. Fiecare greșeală raportată ajunge într-un fișier de corecturi,
+        modelul se reantrenează pe ea, iar versiunea nouă ajunge aici.</p>
+      <a class="cta" href="https://github.com/Claudiu/ro-diacritics/issues/new?title=Gre%C8%99eal%C4%83%3A%20&body=Am%20scris%3A%0A%0AModelul%20a%20pus%3A%0A%0ACorect%20era%3A%0A">Raportează pe GitHub</a>
+    </section>
+
+    <footer>
+      <a href="./">Diacritificatorul</a>
+      <a href="https://github.com/Claudiu/ro-diacritics">Codul pe GitHub</a>
+      <a href="https://github.com/Claudiu/keras-diacritics">keras-diacritics (2018)</a>
+    </footer>
+  </main>
+
+  <script>
+    const ro = (n, d = 0) => n.toLocaleString("ro-RO", { minimumFractionDigits: d, maximumFractionDigits: d });
+
+    // Letter diagram: [input, output] per word; candidates are a, i, s, t.
+    const words = [["Am", "Am"], ["mancat", "mâncat"], ["inghetata", "înghețată"]];
+    const choice = (from, to) => from === to ? "–" : "ășț".includes(to) ? "˘," : "^";
+    document.getElementById("letters").append(...words.map(([a, b]) => {
+      const word = document.createElement("div");
+      word.className = "word";
+      [...a].forEach((ch, i) => {
+        const candidate = "aist".includes(ch.toLowerCase());
+        const tile = document.createElement("div");
+        tile.className = "tile" + (candidate ? " candidate" : "") + (ch !== b[i] ? " changed" : "");
+        tile.innerHTML = `<span class="in">${ch}</span><span class="choice">${candidate ? choice(ch, b[i]) : ""}</span><span class="out">${b[i]}</span>`;
+        word.append(tile);
+      });
+      return word;
+    }));
+
+    // Training curve: validation accuracy (%) every 4000 steps of the 80k-step run.
+    const points = [[4,97.83],[8,98.65],[12,98.92],[16,99.06],[20,99.15],[24,99.23],[28,99.26],[32,99.31],
+      [36,99.34],[40,99.37],[44,99.40],[48,99.43],[52,99.44],[56,99.46],[60,99.48],[64,99.49],
+      [68,99.50],[72,99.51],[76,99.51],[80,99.52]];
+    const BASELINE = 98.39;
+    {
+      const W = 600, H = 260, L = 72, R = 100, T = 12, B = 32;
+      const x = (k) => L + (k / 80) * (W - L - R);
+      const y = (v) => T + ((99.7 - v) / (99.7 - 97.7)) * (H - T - B);
+      let s = "";
+      for (const v of [98, 98.5, 99, 99.5]) {
+        s += `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/>`;
+        s += `<text x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${ro(v, 1)}%</text>`;
+      }
+      for (const k of [0, 20, 40, 60, 80]) {
+        s += `<text x="${x(k)}" y="${H - 8}" text-anchor="middle">${k ? ro(k) + "k" : "0"}</text>`;
+      }
+      s += `<line class="base" x1="${L}" x2="${W - R}" y1="${y(BASELINE)}" y2="${y(BASELINE)}"/>`;
+      s += `<text x="${W - R + 6}" y="${y(BASELINE) + 4}">dicționar</text>`;
+      s += `<polyline class="curve" points="${points.map(([k, v]) => `${x(k)},${y(v)}`).join(" ")}"/>`;
+      const [k, v] = points.at(-1);
+      s += `<circle class="dot" cx="${x(k)}" cy="${y(v)}" r="4"/>`;
+      s += `<text class="end" x="${x(k) + 8}" y="${y(v) + 4}">${ro(v, 2)}%</text>`;
+      document.getElementById("curve").innerHTML =
+        `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Acuratețea crește de la 97,8% la 99,5% în 80.000 de pași, peste dicționarul de 98,4%.">${s}</svg>`;
+    }
+
+    // Horizontal bars, scaled to the largest value in each chart.
+    const bars = (id, rows) => {
+      const max = Math.max(...rows.map((r) => r.value));
+      document.getElementById(id).innerHTML = rows.map((r) =>
+        `<li class="${r.pick ? "pick" : ""}"><span>${r.label}</span><span class="track">` +
+        `<span class="fill" style="width:${(r.value / max) * 80}%"></span>` +
+        `<span class="value">${r.text}</span></span></li>`).join("");
+    };
+    bars("mistakes", [
+      { label: "1,5M parametri", value: 5963, text: "5.963 greșite" },
+      { label: "10,8M parametri", value: 0, text: "0 greșite", pick: true },
+    ]);
+    bars("speed", [
+      { label: "~1,8M", value: 76, text: "76 ms" },
+      { label: "~4,7M", value: 209, text: "209 ms" },
+      { label: "10,8M", value: 420, text: "~420 ms", pick: true },
+      { label: "~25M", value: 901, text: "901 ms" },
+    ]);
+    bars("size", [
+      { label: "32 de biți", value: 43, text: "43 MB" },
+      { label: "16 biți", value: 21.7, text: "21,7 MB" },
+      { label: "4 biți", value: 6.2, text: "6,2 MB", pick: true },
+    ]);
+  </script>
+</body>
+</html>

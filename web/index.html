@@ -112,6 +112,8 @@
     @keyframes underline { to { stroke-dashoffset: 0; } }
 
     .lede { max-width: 34rem; margin: 0; font-size: 1.0625rem; color: var(--muted); }
+    .lede a { color: var(--ink); text-decoration-color: var(--margin); text-decoration-thickness: 2px; text-underline-offset: .25em; }
+    .lede a:hover { text-decoration-color: var(--red); }
 
     .sheets { flex: 1; min-height: 0; display: grid; gap: 1.5rem; }
     @media (min-width: 56rem) {
@@ -237,7 +239,7 @@
         <path pathLength="1" d="M3 13 C 70 6, 140 15, 210 9 S 340 6, 397 11"/></svg></h1>
       </div>
       <p class="lede">Scrie fără diacritice și le punem noi la loc. Modelul rulează în
-        browserul tău, așa că textul nu pleacă nicăieri.</p>
+        browserul tău, așa că textul nu pleacă nicăieri. <a href="about.html">Despre proiect</a></p>
     </header>
 
     <div class="sheets">

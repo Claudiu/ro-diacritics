@@ -2,18 +2,11 @@
   <!-- Diacritificatorul: a notebook page whose ă gets its breve in red pen.
        The a is Literata (wght 650, opsz 72) converted to a path, so no font is needed. -->
   <style>
-    .paper { fill: #cfffdd; stroke: #b4dec1; }
-    .rule { stroke: #b4dec1; }
-    .margin { stroke: #a85163; }
-    .ink { fill: #3a3740; }
-    .pen { stroke: #ff1f4c; }
-    @media (prefers-color-scheme: dark) {
-      .paper { fill: #3d3a42; stroke: #5c5863; }
-      .rule { stroke: #5c5863; }
-      .margin { stroke: #a85163; }
-      .ink { fill: #cfffdd; }
-      .pen { stroke: #ff4468; }
-    }
+    .paper { fill: #040004; stroke: #413d3d; }
+    .rule { stroke: #413d3d; }
+    .margin { stroke: #8a0a28; }
+    .ink { fill: #ece8e8; }
+    .pen { stroke: #fa023c; }
   </style>
   <clipPath id="page"><rect x="2" y="2" width="60" height="60" rx="14"/></clipPath>
   <rect class="paper" x="2.5" y="2.5" width="59" height="59" rx="13.5"/>

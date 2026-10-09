@@ -12,34 +12,18 @@
   <style>
     /* Same tokens as index.html. */
     :root {
-      --desk: #b4dec1;
-      --paper: #cfffdd;
-      --ink: #3a3740;
-      --muted: #5c5863;
-      --rule: #b4dec1;
-      --margin: #a85163;
-      --red: #ff1f4c;
-      --red-text: #b3002d; /* --red is for strokes; text needs 4.5:1 */
-      --glow: rgb(255 31 76 / .45);
-      --card: #e4fff0;
-      --shadow: 0 1px 2px rgb(58 55 64 / .1), 0 18px 40px -22px rgb(58 55 64 / .5);
-      color-scheme: light;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --desk: #2f2d33;
-        --paper: #3d3a42;
-        --ink: #cfffdd;
-        --muted: #b4dec1;
-        --rule: #5c5863;
-        --margin: #a85163;
-        --red: #ff4468;
-        --red-text: #ff8fa3;
-        --glow: rgb(255 31 76 / .55);
-        --card: #28262c;
-        --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
-        color-scheme: dark;
-      }
+      --desk: #413d3d;
+      --paper: #040004;
+      --ink: #ece8e8;
+      --muted: #a39d9d;
+      --rule: #413d3d;
+      --margin: #8a0a28;
+      --red: #fa023c;
+      --red-text: #c8ff00; /* lime: text accents; red: pen strokes */
+      --glow: rgb(200 255 0 / .45);
+      --card: #1c1919;
+      --shadow: 0 1px 2px rgb(0 0 0 / .5), 0 18px 40px -22px rgb(0 0 0 / .9);
+      color-scheme: dark;
     }
 
     * { box-sizing: border-box; }
@@ -315,7 +299,7 @@
       width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px;
       border-radius: 50%;
       background: var(--red);
-      box-shadow: 0 0 0 4px var(--glow);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--red) 35%, transparent);
       pointer-events: none;
     }
     @media (min-width: 40rem) {

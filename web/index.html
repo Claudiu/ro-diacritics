@@ -10,33 +10,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400&display=swap">
   <style>
     :root {
-      --desk: #b4dec1;
-      --paper: #cfffdd;
-      --ink: #3a3740;
-      --muted: #5c5863;
-      --rule: #b4dec1;
-      --margin: #a85163;
-      --red: #ff1f4c;
-      --red-text: #b3002d; /* --red is for strokes; text needs 4.5:1 */
-      --glow: rgb(255 31 76 / .45);
-      --shadow: 0 1px 2px rgb(58 55 64 / .1), 0 18px 40px -22px rgb(58 55 64 / .5);
+      --desk: #413d3d;
+      --paper: #040004;
+      --ink: #ece8e8;
+      --muted: #a39d9d;
+      --rule: #413d3d;
+      --margin: #8a0a28;
+      --red: #fa023c;
+      --card: #1c1919;
+      --red-text: #c8ff00; /* lime: text accents; red: pen strokes */
+      --glow: rgb(200 255 0 / .45);
+      --shadow: 0 1px 2px rgb(0 0 0 / .5), 0 18px 40px -22px rgb(0 0 0 / .9);
       --line: 2rem;
-      color-scheme: light;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --desk: #2f2d33;
-        --paper: #3d3a42;
-        --ink: #cfffdd;
-        --muted: #b4dec1;
-        --rule: #5c5863;
-        --margin: #a85163;
-        --red: #ff4468;
-        --red-text: #ff8fa3;
-        --glow: rgb(255 31 76 / .55);
-        --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 18px 40px -22px rgb(0 0 0 / .9);
-        color-scheme: dark;
-      }
+      color-scheme: dark;
     }
 
     * { box-sizing: border-box; }
@@ -149,7 +135,7 @@
       font: inherit;
       font-size: 1.1875rem;
       line-height: var(--line);
-      background-color: var(--paper);
+      background-color: var(--card);
       background-image:
         linear-gradient(to right, transparent 1.5rem, var(--margin) 1.5rem,
                         var(--margin) calc(1.5rem + 1px), transparent calc(1.5rem + 1px)),

@@ -167,6 +167,23 @@ scripts/build-wasm.sh && scripts/serve-web.sh     # browser demo at http://local
 The wasm build needs `wasm-pack` (`cargo install wasm-pack`) and the `wasm32-unknown-unknown`
 target (`rustup target add wasm32-unknown-unknown`).
 
+## Browser extension
+
+A button in the corner of the focused text field (textarea, text input, contenteditable).
+One click restores the diacritics in that field, or only in the selected part; Ctrl+Z undoes
+it. Nothing happens while typing, and letters you already marked are left as they are
+(cedillas become commas). The model runs in the extension's background script, so no text
+leaves the browser. Alt+Shift+D and the toolbar icon do the same for the field you are in.
+
+```sh
+scripts/build-extension.sh   # build/extension/{chrome,firefox}/ and a zip of each
+```
+
+Chrome: `chrome://extensions` → Developer mode → Load unpacked → `build/extension/chrome`.
+Firefox: `about:debugging#/runtime/this-firefox` → Load Temporary Add-on →
+`build/extension/firefox/manifest.json`; if the button does not appear, allow the add-on to
+run on all sites in its Permissions tab. Google Docs is excluded: it draws its own text.
+
 ## Develop
 
 ```sh

@@ -10,9 +10,10 @@ dist/
 # Rust
 target/
 
-# WASM build output and the model copied next to it
+# WASM build output and the model copied next to it; the assembled extension
 web/pkg/
 web/model/
+build/
 
 # Data and trained artifacts (gigabytes; rebuilt by `diacritics fetch` / `train`)
 /data/

@@ -1,0 +1,24 @@
+name: release
+
+# Push a tag like v0.2.0 to build the extension and attach it to a GitHub release.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  extension:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: jetli/wasm-pack-action@v0.4.0
+      - run: scripts/build-wasm.sh
+      - run: VERSION="${GITHUB_REF_NAME#v}" scripts/build-extension.sh
+      - run: gh release create "$GITHUB_REF_NAME" build/extension/*.zip --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

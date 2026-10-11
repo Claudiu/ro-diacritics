@@ -2,6 +2,7 @@
 # Assembles the browser extension for Chrome and Firefox into build/extension/<browser>/
 # (loadable unpacked) and build/extension/diacritice-<browser>.zip (for the stores).
 # Reuses the WASM bundle and model from scripts/build-wasm.sh, building them if missing.
+# VERSION=1.2.3 overrides the manifest version (CI sets it from the release tag).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -16,10 +17,11 @@ for browser in chrome firefox; do
   cp web/pkg/diacritics_wasm.js web/pkg/diacritics_wasm_bg.wasm "$out/pkg/"
   cp web/model/config.json web/model/model.safetensors "$out/model/"
   # One manifest; Firefox has no background service workers yet and wants an add-on id.
-  uv run python - "$browser" extension/manifest.json "$out/manifest.json" <<'EOF'
-import json, sys
+  python3 - "$browser" extension/manifest.json "$out/manifest.json" <<'EOF'
+import json, os, sys
 browser, src, dst = sys.argv[1:]
 m = json.load(open(src))
+m["version"] = os.environ.get("VERSION") or m["version"]
 if browser == "firefox":
     m["background"] = {"scripts": ["background.js"], "type": "module"}
     m["browser_specific_settings"] = {"gecko": {

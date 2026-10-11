@@ -179,7 +179,10 @@ leaves the browser. Alt+Shift+D and the toolbar icon do the same for the field y
 scripts/build-extension.sh   # build/extension/{chrome,firefox}/ and a zip of each
 ```
 
-Chrome: `chrome://extensions` → Developer mode → Load unpacked → `build/extension/chrome`.
+Prebuilt zips are attached to each [release](https://github.com/Claudiu/ro-diacritics/releases);
+pushing a `v*` tag builds them in CI. Unzip, then load the folder:
+
+Chrome: `chrome://extensions` → Developer mode → Load unpacked → `build/extension/chrome` (or the unzipped folder).
 Firefox: `about:debugging#/runtime/this-firefox` → Load Temporary Add-on →
 `build/extension/firefox/manifest.json`; if the button does not appear, allow the add-on to
 run on all sites in its Permissions tab. Google Docs is excluded: it draws its own text.

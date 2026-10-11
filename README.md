@@ -26,7 +26,7 @@ to run in the browser: no server, no account.
 |---|---|---|
 | Model | BiLSTM | Character-level transformer |
 | Parameters | — | 10.8M |
-| Training | Keras, RTX 2060 | PyTorch, RTX 5090, ~4 hours |
+| Training | Keras, RTX 2060 | PyTorch, RTX 5090, ~7 hours |
 | Inference | Python server | Browser, Rust + WebAssembly |
 | Training data | `train.txt` | Wikipedia, OpenSubtitles, FineWeb-2 web text, manual corrections |
 | Size | — | 6.2 MB, weights quantized to 4 bits |
@@ -58,15 +58,15 @@ letter sees context on both sides. 10.8M parameters.
 Data to browser: Wikipedia + OpenSubtitles (1 in 4 chunks) + one FineWeb-2 Romanian shard
 (1 in 4 documents) + manual corrections (×90),
 filtered to drop texts without ă/ș/ț and texts with broken encoding → 13.6M training windows
-and 513k validation windows → bf16 training, 80,000 steps, ~4 hours → safetensors export
+and 513k validation windows → bf16 training, 80,000 steps of 512 windows, ~7 hours → safetensors export
 with 4-bit weights → candle in a Web Worker.
 
 ## Results
 
-- 99.5% per-letter accuracy on `a i s t` on the validation set, up from 97.8% during
+- 99.6% per-letter accuracy on `a i s t` on the validation set, up from 98.5% during
   training. The baseline (the most frequent form of each word) gets 98.4%.
 
-  ![Validation accuracy over 80,000 training steps, from 97.8% to 99.52%, crossing the 98.4% dictionary baseline early](docs/images/training.png)
+  ![Validation accuracy over 80,000 training steps, from 98.5% to 99.60%, crossing the 98.4% dictionary baseline early](docs/images/training.png)
 - ~0.5 s for a 500-character text in the browser.
 - On 10,223 sentences the first model got wrong, the 1.5M-parameter variant still missed
   5,963; the 10.8M one missed none.
@@ -74,6 +74,10 @@ with 4-bit weights → candle in a Web Worker.
   3.7% on my evaluation set.
 - Adding web text (one FineWeb-2 shard) cut the share of wrong words on 500 web validation
   pages from 0.85% to 0.68%; Wikipedia and subtitles stayed about the same.
+- Doubling the batch to 512 windows, same data and same 80,000 steps, took validation
+  accuracy from 99.53% to 99.60% and doubled training time. On 500 validation documents per
+  source, wrong words went from 0.69% to 0.59% on Wikipedia, 0.73% to 0.68% on subtitles and
+  0.68% to 0.60% on web pages.
 
 Model size against latency, same text, my PC:
 
@@ -95,7 +99,7 @@ Download size:
 | 4-bit | 6.2 MB |
 
 4-bit kept the same accuracy on the same validation set: 99.55% in FP32 and 99.55% at 4 bits
-(measured before subtitles were added, hence not the 99.5% above). Each matrix is split into
+(measured before subtitles were added, hence not the 99.6% above). Each matrix is split into
 groups of 32 values; each group stores an FP16 `scale = max|w| / 7` and `q = round(w / scale)`
 as 4 bits, two per byte (128 B → 18 B per group). The browser rebuilds the weights as
 `q × scale` before inference.

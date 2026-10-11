@@ -77,7 +77,7 @@ test/fixtures/         shared cases + parity export
 | Browser latency | ≤ 5 ms per sentence while typing | not yet measured with the real model; expect 2–4× native |
 | Input cap | 20 000 characters per `restore` call (`MAX_CHARS`) | enforced in `crates/model` |
 | Data pipeline | streamed, RSS ≤ 2 GiB | raw 272+195 MB parquet, shards ≈1 GB, under `data/` (gitignored) |
-| Training | bf16 on CUDA, batch 256 × 256 chars, checkpoint every 1000 steps | smoke-tested on CPU end to end |
+| Training | bf16 on CUDA, batch 512 × 256 chars, checkpoint every 1000 steps | smoke-tested on CPU end to end |
 
 Padding is masked out of attention, so cost is proportional to the text length, not the
 window. If the browser number misses its target once the model is trained, the levers are,

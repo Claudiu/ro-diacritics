@@ -574,7 +574,7 @@
             <li><b>Date</b><span class="detail">Wikipedia, OpenSubtitles (1 din 4 fragmente), FineWeb-2 (1 din 4 pagini), corecturi manuale (×90)</span></li>
             <li><b>Filtru</b><span class="detail">scoate textele fără ă/ș/ț și pe cele cu <span class="term" data-term="encoding">encoding stricat</span></span></li>
             <li><b>Ferestre de 256 de caractere</b><span class="detail">13,6M pentru training, 513k pentru validare</span></li>
-            <li><b>Training</b><span class="detail">PyTorch, <span class="term" data-term="bf16">bf16</span>, RTX 5090, 80.000 de pași, ~4 ore</span></li>
+            <li><b>Training</b><span class="detail">PyTorch, <span class="term" data-term="bf16">bf16</span>, RTX 5090, 80.000 de pași de 512 ferestre, ~7 ore</span></li>
             <li><b>Export</b><span class="detail"><span class="term" data-term="safetensors">safetensors</span>, weights la 4 biți, 6,2 MB</span></li>
             <li><b>Inferență</b><span class="detail">Rust + Candle → WebAssembly, într-un <span class="term" data-term="worker">Web Worker</span></span></li>
           </ol>
@@ -585,14 +585,19 @@
     <section id="rezultate">
       <h2>Rezultate</h2>
       <dl class="facts">
-        <dt>99,5%</dt><dd><span class="term" data-term="accuracy">accuracy</span> pentru predicțiile literelor a, i, s și t</dd>
+        <dt>99,6%</dt><dd><span class="term" data-term="accuracy">accuracy</span> pentru predicțiile literelor a, i, s și t</dd>
         <dt>10,8M</dt><dd>parametri</dd>
         <dt>6,2 MB</dt><dd>de descărcat, o singură dată</dd>
         <dt>~0,5 s</dt><dd>pentru un text de 500 de caractere</dd>
       </dl>
 
       <h3>Training</h3>
-      <p>Pe <span class="term" data-term="validare">setul de validare</span>, accuracy a crescut de la 97,8% la 99,5% în 80.000 de pași.</p>
+      <p>Pe <span class="term" data-term="validare">setul de validare</span>, accuracy a crescut de la 98,5% la 99,6% în 80.000 de pași.</p>
+      <p>Fiecare pas folosește 512 ferestre, nu 256 ca înainte. Cu aceleași date și același număr
+        de pași, accuracy a urcat de la 99,53% la 99,60%, iar antrenarea a durat de două ori mai
+        mult. Pe 500 de documente din fiecare sursă, procentul cuvintelor greșite a scăzut de la
+        0,69% la 0,59% pe Wikipedia, de la 0,73% la 0,68% pe subtitrări și de la 0,68% la 0,60% pe
+        paginile web.</p>
       <figure class="chart" id="curve" data-animate>
         <div id="curve-plot"></div>
         <figcaption>Linia punctată e <span class="term" data-term="baseline">baseline</span>-ul: un dicționar care alege forma cea mai
@@ -649,7 +654,7 @@
       </table>
       <p>Cu weights la 4 biți, am obținut aceeași accuracy pe același set de validare: 99,55%
         în FP32 și 99,55% la 4 biți. Comparația e făcută pe versiunea dinainte de subtitrări,
-        de aceea diferă de cele 99,5% de mai sus.</p>
+        de aceea diferă de cele 99,6% de mai sus.</p>
 
       <figure class="quant" data-animate>
         <p class="row-label">Un grup de 32 de weights, FP32</p>
@@ -789,9 +794,9 @@
     document.getElementById("replay").addEventListener("click", read);
 
     // Training curve: validation accuracy (%) every 4000 steps of the 80k-step run.
-    const points = [[4,97.83],[8,98.67],[12,98.91],[16,99.07],[20,99.16],[24,99.25],[28,99.31],[32,99.36],
-      [36,99.37],[40,99.40],[44,99.41],[48,99.44],[52,99.43],[56,99.47],[60,99.50],[64,99.50],
-      [68,99.50],[72,99.51],[76,99.52],[80,99.51]];
+    const points = [[4,98.50],[8,99.06],[12,99.23],[16,99.34],[20,99.39],[24,99.43],[28,99.46],[32,99.48],
+      [36,99.51],[40,99.52],[44,99.53],[48,99.53],[52,99.55],[56,99.56],[60,99.57],[64,99.58],
+      [68,99.59],[72,99.59],[76,99.60],[80,99.60]];
     const BASELINE = 98.39;
     {
       const W = 600, H = 260, L = 72, R = 100, T = 12, B = 32;
@@ -977,7 +982,7 @@
         inferenta: ["Inferență", "Folosirea programului după ce a învățat: primește text nou și pune diacriticele. În 2018 asta se întâmpla pe un server Python, acum se întâmplă direct în browser."],
         transformer: ["Transformer", "Tipul de program pe care se bazează și ChatGPT. Nu citește textul literă cu literă: vede tot fragmentul deodată și învață singur la ce alte litere să se uite când decide ce diacritică primește fiecare. La noi lucrează pe caractere, nu pe cuvinte."],
         parametri: ["Parametri", "Numerele reglabile din interiorul programului. La antrenare sunt ajustate puțin câte puțin, iar tot ce a învățat ajunge stocat în ele. Aici sunt 10,8 milioane."],
-        training: ["Training (antrenare)", "Faza în care programul învață: primește text fără diacritice, ghicește, vede varianta corectă și își corectează puțin numerele. Aici au fost 80.000 de pași, cam 4 ore pe o placă video RTX 5090."],
+        training: ["Training (antrenare)", "Faza în care programul învață: primește text fără diacritice, ghicește, vede varianta corectă și își corectează puțin numerele. Aici au fost 80.000 de pași, cam 7 ore pe o placă video RTX 5090."],
         pytorch: ["PyTorch", "O bibliotecă de cod în Python cu care construiești și antrenezi programe care învață din exemple. Cu ea am antrenat versiunea de acum."],
         wasm: ["WebAssembly", "Un format care lasă browserul să ruleze cod scris în alte limbaje, aici Rust, aproape la fel de repede ca un program instalat. Așa merge totul în pagină, fără server."],
         opensubtitles: ["OpenSubtitles", "O colecție publică de subtitrări de filme și seriale, în multe limbi. Am luat replicile în română, ca programul să vadă și cum vorbesc oamenii, nu doar cum se scrie pe Wikipedia."],
@@ -999,7 +1004,7 @@
         bf16: ["bf16", "Un mod mai scurt de a scrie numerele, pe 16 biți în loc de 32. La antrenare face calculele mai rapide pe placa video, cu o precizie suficientă."],
         safetensors: ["safetensors", "Un format de fișier pentru numerele învățate de program. Se citește repede și, spre deosebire de alte formate, nu poate ascunde cod care să ruleze când îl deschizi."],
         worker: ["Web Worker", "Un fir de lucru separat în browser. Programul calculează acolo, așa că pagina nu se blochează și poți scrie mai departe cât timp așteaptă rezultatul."],
-        accuracy: ["Accuracy (acuratețe)", "Procentul de litere pentru care programul a ales varianta corectă. Se numără doar literele a, i, s și t, singurele care pot primi diacritice. La noi e 99,5%."],
+        accuracy: ["Accuracy (acuratețe)", "Procentul de litere pentru care programul a ales varianta corectă. Se numără doar literele a, i, s și t, singurele care pot primi diacritice. La noi e 99,6%."],
         validare: ["Set de validare", "Texte ținute deoparte, pe care programul nu le-a văzut la antrenare. Sunt ca un examen: arată dacă a învățat regulile, nu doar a memorat exemplele."],
         baseline: ["Baseline", "Un punct de comparație simplu. Aici e un dicționar care alege pentru fiecare cuvânt forma cea mai frecventă și nimerește 98,4%. Dacă programul nu-l bate, nu merita efortul."],
         latenta: ["Latență", "Cât aștepți până apare textul cu diacritice după ce ai scris. Aici, cam 420 ms, adică sub o jumătate de secundă."],

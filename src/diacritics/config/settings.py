@@ -120,8 +120,8 @@ class Settings:
                 dropout=env.read_float("DROPOUT", 0.1),
             ),
             training=TrainingSettings(
-                batch_size=env.read_int("BATCH_SIZE", 256),
-                lr=env.read_float("LR", 5e-4),
+                batch_size=env.read_int("BATCH_SIZE", 512),
+                lr=env.read_float("LR", 7e-4),
                 warmup_steps=env.read_int("WARMUP_STEPS", 2000),
                 max_steps=env.read_int("MAX_STEPS", 80000),
                 eval_every=env.read_int("EVAL_EVERY", 1000),
